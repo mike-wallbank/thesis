@@ -1,0 +1,55 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{entry}{nty}
+    \entry{LBNE35tPhase1}{article}{}
+      \name{labelname}{7}{}{%
+        {{hash=3530ea2fd8078d8da450aa55c90cb7af}{Hahn}{H\bibinitperiod}{Alan}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=b8767261b48902643749b232dc216846}{Adamowski}{A\bibinitperiod}{Mark}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=f3f92d3acd699d7a7fcda55b48d6e640}{Montanari}{M\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=635bc4bf42cacf774ad471647256d27f}{Norris}{N\bibinitperiod}{Barry}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=5472ac5564aa9cc50751b4ebb466f5ff}{Reichenbacher}{R\bibinitperiod}{Juergen}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=844457fc84bf4202c1984c2d93e11235}{Rucinski}{R\bibinitperiod}{Russell}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=9ea39ca289ba88cda3a347d0d396581a}{Tope}{T\bibinitperiod}{Terry}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{7}{}{%
+        {{hash=3530ea2fd8078d8da450aa55c90cb7af}{Hahn}{H\bibinitperiod}{Alan}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=b8767261b48902643749b232dc216846}{Adamowski}{A\bibinitperiod}{Mark}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=f3f92d3acd699d7a7fcda55b48d6e640}{Montanari}{M\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=635bc4bf42cacf774ad471647256d27f}{Norris}{N\bibinitperiod}{Barry}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=5472ac5564aa9cc50751b4ebb466f5ff}{Reichenbacher}{R\bibinitperiod}{Juergen}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=844457fc84bf4202c1984c2d93e11235}{Rucinski}{R\bibinitperiod}{Russell}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=9ea39ca289ba88cda3a347d0d396581a}{Tope}{T\bibinitperiod}{Terry}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{4cdd136577a25b36a8f418345aaa1ba2}
+      \strng{fullhash}{471bb4fce146eb39ca2d83cf2bdbfad7}
+      \field{sortinit}{H}
+      \field{labeltitle}{{The LBNE 35 Ton Prototype Cryostat}}
+      \field{isbn}{9781479960972}
+      \field{title}{{The LBNE 35 Ton Prototype Cryostat}}
+      \field{year}{2014}
+      \verb{file}
+      \verb :Users/mike/Dropbox/PhD/Literature/DUNE/35t/TheLBNE35TonPrototypeCryostat.pdf:pdf
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
