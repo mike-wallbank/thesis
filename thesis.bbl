@@ -19,7 +19,57 @@
 
 \refsection{0}
   \sortlist{entry}{nty}
-    \entry{LBNE35tPhase1}{article}{}
+    \entry{LArFilter}{article}{}
+      \name{labelname}{10}{}{%
+        {{hash=1eb4a5e810fb1e26b16cda3ac08c7142}{Curioni}{C\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=5c7f62a6156b5b8996c66b1314674bef}{Fleming}{F\bibinitperiod}{B.\bibnamedelimi T.}{B\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{hash=ee84f42f7d55e9c47168dbd4184912b7}{Jaskierny}{J\bibinitperiod}{W.}{W\bibinitperiod}{}{}{}{}}%
+        {{hash=4e18f28d4f2d995b0b4ad1a50ab1fbda}{Kendziora}{K\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=2c3c2555bb04167e956cd48ff68bf041}{Krider}{K\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=2bf10d5d51b044e8c0819db8f461722d}{Pordes}{P\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=71250a6e465410825063a422ec11ca82}{Soderberg}{S\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=6e30b8c34b726651c237331f7b5bd5a3}{Spitz}{S\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=e5c0ab02743c90e1f503c39d2c56271c}{Tope}{T\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=4c51e3e32f038bd8bbe23b067b986ea2}{Wongjirad}{W\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{10}{}{%
+        {{hash=1eb4a5e810fb1e26b16cda3ac08c7142}{Curioni}{C\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=5c7f62a6156b5b8996c66b1314674bef}{Fleming}{F\bibinitperiod}{B.\bibnamedelimi T.}{B\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{hash=ee84f42f7d55e9c47168dbd4184912b7}{Jaskierny}{J\bibinitperiod}{W.}{W\bibinitperiod}{}{}{}{}}%
+        {{hash=4e18f28d4f2d995b0b4ad1a50ab1fbda}{Kendziora}{K\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=2c3c2555bb04167e956cd48ff68bf041}{Krider}{K\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=2bf10d5d51b044e8c0819db8f461722d}{Pordes}{P\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=71250a6e465410825063a422ec11ca82}{Soderberg}{S\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=6e30b8c34b726651c237331f7b5bd5a3}{Spitz}{S\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=e5c0ab02743c90e1f503c39d2c56271c}{Tope}{T\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=4c51e3e32f038bd8bbe23b067b986ea2}{Wongjirad}{W\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{314048662aeac9f8daf616b8f87eb88d}
+      \strng{fullhash}{c913433d84dcd7a7e6b7aee3ca12d414}
+      \field{sortinit}{C}
+      \field{labeltitle}{{A regenerable filter for liquid argon purification}}
+      \field{abstract}{A filter system for removing electronegative impurities from liquid argon is described. The active components of the filter are adsorbing molecular sieve and activated-copper-coated alumina granules. The system is capable of purifying liquid argon to an oxygen-equivalent impurity concentration of better than 30 parts per trillion, corresponding to an electron drift lifetime of at least 10 ms. Reduction reactions that occur at ??? 250 {\{}ring operator{\}} C allow the filter material to be regenerated in situ through a simple procedure. In the following work we describe the filter design, performance, and regeneration process. ?? 2009 Elsevier B.V.}
+      \field{eprintclass}{physics.ins-det}
+      \field{eprinttype}{arXiv}
+      \field{issn}{01689002}
+      \field{journaltitle}{Nuclear Instruments and Methods in Physics Research, Section A: Accelerators, Spectrometers, Detectors and Associated Equipment}
+      \field{number}{3}
+      \field{title}{{A regenerable filter for liquid argon purification}}
+      \field{volume}{605}
+      \field{year}{2009}
+      \field{pages}{306\bibrangedash 311}
+      \verb{doi}
+      \verb 10.1016/j.nima.2009.04.020
+      \endverb
+      \verb{eprint}
+      \verb 0903.2066
+      \endverb
+      \verb{file}
+      \verb :Users/mike/Dropbox/PhD/Literature/LAPD/ARegenerableFilterForLiquidArgonPurification.pdf:pdf
+      \endverb
+      \keyw{LArTPC,Liquid argon,Neutrino,Oscillation,Purity}
+    \endentry
+    \entry{LBNE35tPhaseI}{article}{}
       \name{labelname}{7}{}{%
         {{hash=3530ea2fd8078d8da450aa55c90cb7af}{Hahn}{H\bibinitperiod}{Alan}{A\bibinitperiod}{}{}{}{}}%
         {{hash=b8767261b48902643749b232dc216846}{Adamowski}{A\bibinitperiod}{Mark}{M\bibinitperiod}{}{}{}{}}%
@@ -48,6 +98,123 @@
       \verb{file}
       \verb :Users/mike/Dropbox/PhD/Literature/DUNE/35t/TheLBNE35TonPrototypeCryostat.pdf:pdf
       \endverb
+    \endentry
+    \entry{LBNE35tPhaseIOverview}{article}{}
+      \name{labelname}{17}{}{%
+        {{hash=f3f92d3acd699d7a7fcda55b48d6e640}{Montanari}{M\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=b8767261b48902643749b232dc216846}{Adamowski}{A\bibinitperiod}{Mark}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=379c9526d4e91c3813ec325d9a9e843c}{Baller}{B\bibinitperiod}{Bruce\bibnamedelima R.}{B\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{hash=b74ba20bf0b570bb360437dd0625e2d9}{Barger}{B\bibinitperiod}{Robert\bibnamedelima K.}{R\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+        {{hash=6ef788e4d9c8d8622902937783b98478}{Chi}{C\bibinitperiod}{Edward\bibnamedelima C.}{E\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=920d9240b038ab94b4561e1755ae4e57}{Davis}{D\bibinitperiod}{Ronald\bibnamedelima P.}{R\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+        {{hash=c3076f9042e48c3fe0d5bd33dbe3e646}{Johnson}{J\bibinitperiod}{Bryan\bibnamedelima D.}{B\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=a312e21ec6b5f7de600256f3b0115a52}{Kubinski}{K\bibinitperiod}{Bob\bibnamedelima M.}{B\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=d492645703b8e9e84ffb44193040633a}{Mahoney}{M\bibinitperiod}{Ryan}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=b9d49eee36ca48fbbe31a7351dd7aec2}{McCluskey}{M\bibinitperiod}{Elaine\bibnamedelima G.}{E\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+        {{hash=2fc977d272fc803b47659cbdf1303ab5}{Najdzion}{N\bibinitperiod}{John\bibnamedelima J.}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=4da7a5723624290f9521131371888ce1}{Norris}{N\bibinitperiod}{Barry\bibnamedelima L.}{B\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=3a6b3e7dd8dba86cdcb7c2b95cbde44b}{Rucinski}{R\bibinitperiod}{Russel\bibnamedelima A.}{R\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=eac8db862e8766b2570dac2b58d8bb0c}{Schmitt}{S\bibinitperiod}{Rich\bibnamedelima L.}{R\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=37b12c56a8629449e8994f442b4d8c35}{Stewart}{S\bibinitperiod}{James}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=7a306ff73848fc2a430bcab4adb685e9}{Tope}{T\bibinitperiod}{Terry\bibnamedelima E.}{T\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=8044d9cbf832aa623692eb8f0845e1eb}{Watkins}{W\bibinitperiod}{Daniel\bibnamedelima J.}{D\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{17}{}{%
+        {{hash=f3f92d3acd699d7a7fcda55b48d6e640}{Montanari}{M\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=b8767261b48902643749b232dc216846}{Adamowski}{A\bibinitperiod}{Mark}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=379c9526d4e91c3813ec325d9a9e843c}{Baller}{B\bibinitperiod}{Bruce\bibnamedelima R.}{B\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{hash=b74ba20bf0b570bb360437dd0625e2d9}{Barger}{B\bibinitperiod}{Robert\bibnamedelima K.}{R\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{}{}}%
+        {{hash=6ef788e4d9c8d8622902937783b98478}{Chi}{C\bibinitperiod}{Edward\bibnamedelima C.}{E\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=920d9240b038ab94b4561e1755ae4e57}{Davis}{D\bibinitperiod}{Ronald\bibnamedelima P.}{R\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+        {{hash=c3076f9042e48c3fe0d5bd33dbe3e646}{Johnson}{J\bibinitperiod}{Bryan\bibnamedelima D.}{B\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=a312e21ec6b5f7de600256f3b0115a52}{Kubinski}{K\bibinitperiod}{Bob\bibnamedelima M.}{B\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=d492645703b8e9e84ffb44193040633a}{Mahoney}{M\bibinitperiod}{Ryan}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=b9d49eee36ca48fbbe31a7351dd7aec2}{McCluskey}{M\bibinitperiod}{Elaine\bibnamedelima G.}{E\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+        {{hash=2fc977d272fc803b47659cbdf1303ab5}{Najdzion}{N\bibinitperiod}{John\bibnamedelima J.}{J\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=4da7a5723624290f9521131371888ce1}{Norris}{N\bibinitperiod}{Barry\bibnamedelima L.}{B\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=3a6b3e7dd8dba86cdcb7c2b95cbde44b}{Rucinski}{R\bibinitperiod}{Russel\bibnamedelima A.}{R\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=eac8db862e8766b2570dac2b58d8bb0c}{Schmitt}{S\bibinitperiod}{Rich\bibnamedelima L.}{R\bibinitperiod\bibinitdelim L\bibinitperiod}{}{}{}{}}%
+        {{hash=37b12c56a8629449e8994f442b4d8c35}{Stewart}{S\bibinitperiod}{James}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=7a306ff73848fc2a430bcab4adb685e9}{Tope}{T\bibinitperiod}{Terry\bibnamedelima E.}{T\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+        {{hash=8044d9cbf832aa623692eb8f0845e1eb}{Watkins}{W\bibinitperiod}{Daniel\bibnamedelima J.}{D\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{6c6e34d32b04dd960a7a85c8d87c448b}
+      \strng{fullhash}{30de085a2d9c7a2bdb31ff7d4aebe3b6}
+      \field{sortinit}{M}
+      \field{labeltitle}{{First scientific application of the membrane cryostat technology}}
+      \field{isbn}{9780735412019}
+      \field{number}{2014}
+      \field{title}{{First scientific application of the membrane cryostat technology}}
+      \field{volume}{1664}
+      \field{year}{2014}
+      \field{pages}{1664\bibrangedash 1671}
+      \verb{doi}
+      \verb 10.1063/1.4860907
+      \endverb
+      \verb{file}
+      \verb :Users/mike/Dropbox/PhD/Literature/DUNE/35t/FirstScienticApplicationOfMembraneCryostatTechnology.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://scitation.aip.org/content/aip/proceeding/aipcp/10.1063/1.4860907
+      \endverb
+    \endentry
+    \entry{LAPD}{article}{}
+      \name{labelname}{16}{}{%
+        {{hash=9ea39ca289ba88cda3a347d0d396581a}{Tope}{T\bibinitperiod}{Terry}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=b8767261b48902643749b232dc216846}{Adamowski}{A\bibinitperiod}{Mark}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=5d9865a1b4a93af60cff1de4eadc1d7b}{Carls}{C\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=3ff3295df342434fe202bc423f0b62cc}{Hahn}{H\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=ee84f42f7d55e9c47168dbd4184912b7}{Jaskierny}{J\bibinitperiod}{W.}{W\bibinitperiod}{}{}{}{}}%
+        {{hash=4d6611f8ba2c117d3cadfddd3e55af77}{Jostlein}{J\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=4e18f28d4f2d995b0b4ad1a50ab1fbda}{Kendziora}{K\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=1343cda7148cf5199980d303bc8ecb8c}{Lockwitz}{L\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=73c1133bcf7492ce79a464581a85a486}{Pahlka}{P\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=5104e6a06499e2563754abae8aafa9ee}{Plunkett}{P\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=2bf10d5d51b044e8c0819db8f461722d}{Pordes}{P\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=0bce224f84877fa874bb2ff189ca894f}{Rebel}{R\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=182f0c3526da5eae81c53fe692a772dc}{Schmitt}{S\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=e02d65cd0bdc9a057b128be39d3a12c1}{Skup}{S\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=474486f0623d7e9fb3fd2c74f66e2c42}{Stancari}{S\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=18b749df0003991bc568523388794bda}{Yang}{Y\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{16}{}{%
+        {{hash=9ea39ca289ba88cda3a347d0d396581a}{Tope}{T\bibinitperiod}{Terry}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=b8767261b48902643749b232dc216846}{Adamowski}{A\bibinitperiod}{Mark}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=5d9865a1b4a93af60cff1de4eadc1d7b}{Carls}{C\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=3ff3295df342434fe202bc423f0b62cc}{Hahn}{H\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=ee84f42f7d55e9c47168dbd4184912b7}{Jaskierny}{J\bibinitperiod}{W.}{W\bibinitperiod}{}{}{}{}}%
+        {{hash=4d6611f8ba2c117d3cadfddd3e55af77}{Jostlein}{J\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=4e18f28d4f2d995b0b4ad1a50ab1fbda}{Kendziora}{K\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=1343cda7148cf5199980d303bc8ecb8c}{Lockwitz}{L\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=73c1133bcf7492ce79a464581a85a486}{Pahlka}{P\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=5104e6a06499e2563754abae8aafa9ee}{Plunkett}{P\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=2bf10d5d51b044e8c0819db8f461722d}{Pordes}{P\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=0bce224f84877fa874bb2ff189ca894f}{Rebel}{R\bibinitperiod}{B.}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=182f0c3526da5eae81c53fe692a772dc}{Schmitt}{S\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=e02d65cd0bdc9a057b128be39d3a12c1}{Skup}{S\bibinitperiod}{E.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=474486f0623d7e9fb3fd2c74f66e2c42}{Stancari}{S\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=18b749df0003991bc568523388794bda}{Yang}{Y\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{f3d3e78085cdc1998018c792418f36d9}
+      \strng{fullhash}{218aa57a33980072f8ac1bb9b608e536}
+      \field{sortinit}{T}
+      \field{labeltitle}{{Extreme argon purity in a large, non-evacuated cryostat}}
+      \field{isbn}{9780735412019}
+      \field{number}{2014}
+      \field{title}{{Extreme argon purity in a large, non-evacuated cryostat}}
+      \field{volume}{1169}
+      \field{year}{2014}
+      \field{pages}{1169\bibrangedash 1175}
+      \verb{doi}
+      \verb 10.1063/1.4860838
+      \endverb
+      \verb{file}
+      \verb :Users/mike/Dropbox/PhD/Literature/LAPD/ExtremeArgonPurityInALargeNonEvacuatedCryostat.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://scitation.aip.org/content/aip/proceeding/aipcp/10.1063/1.4860838
+      \endverb
+      \keyw{LAPD}
     \endentry
   \endsortlist
 \endrefsection
