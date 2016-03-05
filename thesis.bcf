@@ -1964,19 +1964,21 @@
     <bcf:datasource type="file" datatype="bibtex">../Literature/library.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">LAPD</bcf:citekey>
-    <bcf:citekey order="2">LAPD</bcf:citekey>
-    <bcf:citekey order="3">LAPD</bcf:citekey>
-    <bcf:citekey order="4">LArFilter</bcf:citekey>
-    <bcf:citekey order="5">LArFilter</bcf:citekey>
     <bcf:citekey order="6">LAPD</bcf:citekey>
     <bcf:citekey order="7">LAPD</bcf:citekey>
-    <bcf:citekey order="8">LBNE35tPhaseI</bcf:citekey>
-    <bcf:citekey order="9">LBNE35tPhaseI</bcf:citekey>
-    <bcf:citekey order="10">LAPD</bcf:citekey>
-    <bcf:citekey order="11">LBNE35tPhaseIOverview</bcf:citekey>
-    <bcf:citekey order="12">LBNE35tPhaseI</bcf:citekey>
+    <bcf:citekey order="8">LAPD</bcf:citekey>
+    <bcf:citekey order="9">LArFilter</bcf:citekey>
+    <bcf:citekey order="10">LArFilter</bcf:citekey>
+    <bcf:citekey order="11">LAPD</bcf:citekey>
+    <bcf:citekey order="12">LAPD</bcf:citekey>
     <bcf:citekey order="13">LBNE35tPhaseI</bcf:citekey>
+    <bcf:citekey order="14">LBNE35tPhaseI</bcf:citekey>
+    <bcf:citekey order="15">LAPD</bcf:citekey>
+    <bcf:citekey order="16">LBNE35tPhaseIOverview</bcf:citekey>
+    <bcf:citekey order="17">LBNE35tPhaseI</bcf:citekey>
+    <bcf:citekey order="18">LBNE35tPhaseI</bcf:citekey>
+    <bcf:citekey order="19">LBNE35tPhaseI</bcf:citekey>
+    <bcf:citekey order="20">LBNE35tPhaseI</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" type="entry" label="nty">
   <bcf:sorting>

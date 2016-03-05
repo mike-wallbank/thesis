@@ -1,6 +1,6 @@
 % Thesis master file -- includes all other chapters within
 
-\documentclass[a4paper,12pt]{article}
+\documentclass[a4paper,12pt]{report}
 \usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
 \usepackage{amsmath}
 \usepackage{graphicx} % Needed for graphics
@@ -9,14 +9,88 @@
 \usepackage{import}
 \usepackage{biblatex}
 \addbibresource{../Literature/library.bib}
+\linespread{1.5}
 
 \begin{document}
 
+\renewcommand{\thepage}{\roman{page}}
+
 \tableofcontents
 
-Beginnings of a thesis!  And of a git repo!
+\listoftables
+\addcontentsline{toc}{chapter}{\listfigurename}
+\listoffigures
+\addcontentsline{toc}{chapter}{\listtablename}
+\subimport{Acknowledgements/}{Acknowledgements.tex}
+\addcontentsline{toc}{chapter}{Acknowledgements}
 
+\pagebreak
+
+Proposed chapters:
+
+\underline{Introduction}
+\begin{itemize}
+  \item{Intoduction to neutrino physics}
+  \item{Current understanding}
+  \item{State of neutrino physics field}
+  \item{Motivation for further research and future experiments!}
+\end{itemize}
+
+\underline{Neutrino Physics}
+\begin{itemize}
+  \item{Relevant theory}
+  \item{Current experiments}
+  \item{Future experiments}
+  \item{Description of the liquid argon TPC concept}
+\end{itemize}
+
+\underline{DUNE}
+\begin{itemize}
+  \item{Description of the DUNE experiment}
+  \item{Motivate 35t}
+\end{itemize}
+
+\underline{The 35t Prototype Experiment}
+\begin{itemize}
+  \item{Everything!  Long chapter}
+  \item{Materials Test Stand}
+  \item{LAPD}
+  \item{35t - Cryostat}
+  \item{35t - Detector}
+  \item{35t - Detector Electronics/DAQ}
+  \item{Online Monitoring}
+  \item{Event Displays}
+  \item{Sheffield camera system}
+\end{itemize}
+
+\underline{Reconstruction in LArTPCs}
+\begin{itemize}
+  \item{Full reconstruction chain}
+  \item{Detailed discussion of the developed reconstruction techniques}
+\end{itemize}
+
+\underline{Detection of Pi0s in 35t}
+\begin{itemize}
+  \item{Some kind of analysis!}
+  \item{Who knows, really?...}
+\end{itemize}
+
+\underline{Summary}
+\begin{itemize}
+  \item{Summary}
+\end{itemize}
+
+\pagebreak
+
+
+\renewcommand{\thepage}{\arabic{page}}
+\setcounter{page}{1}
+
+\subimport{Introduction/}{Introduction.tex}
+\subimport{NeutrinoPhysics/}{NeutrinoPhysics.tex}
+\subimport{DUNE/}{DUNE.tex}
 \subimport{35t/}{35t.tex}
+\subimport{LArReconstruction/}{LArReconstruction.tex}
 
 \printbibliography[title={Bibliography}]
 

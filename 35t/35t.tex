@@ -1,25 +1,25 @@
 % Section of thesis on DUNE 35t prototype
 % Target: 30 pages
 
-\section{The DUNE 35t Prototype}\label{sec:35t}
+\chapter{The DUNE 35t Prototype}\label{sec:35t}
 
 The 35t is a prototype experiment for the DUNE far detector design.  It was contructed to prototype the unique design features of the LBNE far detector and was the only planned prototype for this detector.  Following the dissolution of LBNE and the subsequent merging along with LBNO into the DUNE experiment, the 35t has become an integral part of the design and execution of the DUNE far detector design.
 
 The 35t consists of a membrane cryostat (Sec. \ref{sec:35tCryostat}), designed to be filled with 35 metric tons of liquid argon, and a small-scale DUNE-style detector (Sec. \ref{sec:35tDetector}) including a TPC and photon detectors.  It was constructed in 2012 at PC4, a former proton facility in a decomissioned beamline, at Fermilab.  The Phase I run, without a detector, took place between December 2013 and February 2014.  Between February 2014 and September 2015 the detector was constructed and heavily tested at FNAL before being installed inside the cryostat ready for the Phase II run.  This took place between February 2016 and April 2016 (offically starting on 11th February, as I type!).
 
 %------------------------------------------------------------------------------------------------------------------------------------------------------------
-\subsection{Motivation}\label{sec:35tMotivation}
+\section{Motivation}\label{sec:35tMotivation}
 
 The use of liquid argon TPCs (LArTPCs) for the study of neutrinos in long-baseline experiments shows great promise and is the direction neutrino research, particularly in the US, is headed.  Fermilab has an extensive program of LArTPC experiments to design, test and improve such detectors, culminating in DUNE, the flagship experiment due to come online in the early 2020s.  Although they exhibit great physics potential, they do not come without significant engineering challenges.  For example, DUNE will have four 10 kton cryostats containing liquid argon kept at very high purity.  Constructing such a cryostat is itself difficult and expensive but in order to achieve, and maintain, the required purity, much R\&D is required.
 
 Previous LArTPC experiments, such as ICARUS [], Argoneut [], LArIAT [] and MicroBooNE [] (?), have been contructed as flat plane vessels and have used an evacuation method as the first step in removing atmospheric impurities which would contaminate the liquid argon.  Constructing the DUNE far detector cryostats in a similar mannor would be both very expensive and incredibly challenging.  In order to investigate possible alternatives, the Fermilab program includes the Liquid Argon Purity Demonstrator (LAPD) and 35t experiments, together showing a cheaper and more feasible approach to designing and operating LArTPCs.  These experiments are the subject of the present chaptor.
 
 %------------------------------------------------------------------------------------------------------------------------------------------------------------
-\subsection{The Liquid Argon Purity Demonstrator}\label{sec:LAPD}
+\section{The Liquid Argon Purity Demonstrator}\label{sec:LAPD}
 
 The Liquid Argon Purity Demonstrator (LAPD) \cite{LAPD} was designed to demonstrate that the required purity of future LArTPC experiments is possible to acheive without the use of large scale vacuum pumps.  The required mechanical capability of the cryostat to withstand such a method, along with the operation of the evacuation system itself, adds a considerable amount to the cost of the project.  Suggestions to get around this include using multiple smaller scale cryostats, but this leads to greater complexity relating to both the engineering requirements of the piping infrastructure and the reconstruction capabilities of interactions spanning numerous fiducial volumes.  LAPD successfully pioneered the method of using purging as the first step in purification of the liquid argon.  This important result is discussed below and has significantly influenced the design of future LAr cryostats, including the 35t.
 
-\subsubsection{LAPD Experimental Setup}\label{sec:LAPDExperimentalSetup}
+\subsection{LAPD Experimental Setup}\label{sec:LAPDExperimentalSetup}
 
 LAPD consists of a cylindrical tank (diameter 10 feet, height 10 feet) with a domed head capable of holding 32.6 tons of liquid argon.  It is instrumented with cryogenic equipment and a purification system, consisting of two purifiers and a piping system.  Figure \ref{fig:LAPDTankPiping} shows a CAD model of the tank and purification piping.
 
@@ -34,7 +34,7 @@ Insulation for the tank is provided by fibreglass sheets covering the outer volu
 
 The liquid argon is fed into the tank from outside PC4  The argon purity is maintained through the use of the purifiers, located outside of the main volume.  Argon is constantly circulated from the tank to these vessels through stainless steel pipes.  The filtration system used by LAPD, and subsequently by the 35t cryostat, is discussed in greater detail in ection \ref{sec:LAPDFiltration}.
 
-\subsubsection{The LAPD Filtration System}\label{sec:LAPDFiltration}
+\subsection{The LAPD Filtration System}\label{sec:LAPDFiltration}
 
 A LArTPC relies on the detection of the drift electrons produced upon ionisation of the argon by a propagating particle.  Electronegative contaminants in the medium jeopardise this process by recombining with the electrons before they can reach the readout electronics.  The phase `electron lifetime' therefore refers to the amount of time that an electron will typically drift along the electron field, and is directly related to the concentration of impurities in the liquid.  Even using a modularised detector, as the DUNE far detector will be, drift lengths on the order of 5 m are realistically required, leading to purity requirements of several milliseconds.  The dominant contaminents which are removed by the LAPD and 35t filtration system are oxygen and water.
 
@@ -49,7 +49,7 @@ The contamination gradient, and associated purities at each stage during the LAP
   \label{fig:LAPDPurity}
 \end{figure}
 
-\subsubsection{Purity Monitoring}\label{sec:PurityMonitoring}
+\subsection{Purity Monitoring}\label{sec:PurityMonitoring}
 
 As discussed in section \ref{sec:LAPDFiltration}, extreme LAr purity is required for the successful readout of ionisation electrons by the electronics.  These purites must be constatly monitored to ensure the high quality of argon necessary during data taking.  Since these impurity concentrations on beyond the capabilities of many conventional gas analysers, a device called a purity monitor is employed.  Such a device is shown schematically in figure \ref{fig:PurityMonitor}.
 
@@ -66,7 +66,7 @@ These monitors were placed both in the LAPD tank and just after the filtration s
 
 Several of the technologies pioneered in LAPD were also used in the 35t experiment, as will be shortly discussed.
 
-\subsubsection{LAPD Results}\label{sec:LAPDResults}
+\subsection{LAPD Results}\label{sec:LAPDResults}
 
 LAPD successfully demonstrated achieving and maintaining the required LAr purity for a large neutrino detector is possible without the costly and challenging use of evacuation techniques.  It initially ran for six weeks and reached a purity of better than 60 ppt (parts-per-trillion) oxygen equivalent \cite{LAPD}.  The measured electron lifetimes over the course of the run is shown in figure \ref{fig:ElectronLifetimes}.  As can be seen, electron lifetimes of up to 4 ms were reached, which is [put into context with current DUNE requirements!].
 
@@ -80,11 +80,11 @@ LAPD successfully demonstrated achieving and maintaining the required LAr purity
 This important result has great significance when considering future LArTPC experiments and laid the way for the 35t experiment.  This experiment will now be discussed in the subsequent sections.
 
 %------------------------------------------------------------------------------------------------------------------------------------------------------------
-\subsection{The 35t Cryostat}\label{sec:35tCryostat}
+\section{The 35t Cryostat}\label{sec:35tCryostat}
 
 The 35t prototype takes advantage of membrane cryostat technology and is the first test of this construction technique for LArTPCs.  Membrane cryostats have been widely used in the liquified natural gas industry for many years but the 35t experiment is the first to make use of the technology for liquid argon.  Furthermore, it is the first membrane cryostat to be constructed in the United States and the first to be constructed for scientific purposes \cite{LBNE35tPhaseIOverview}.  The 35t cryostat is the subject of the present section.
 
-\subsubsection{Construction}\label{sec:35tCryostatConstruction}
+\subsection{Construction}\label{sec:35tCryostatConstruction}
 
 Boring stuff about cement and shit.
 
@@ -97,71 +97,71 @@ Boring stuff about cement and shit.
 
 Cryostat!
 
-\subsubsection{The 35t and LAPD}\label{35tLAPD}
+\subsection{The 35t and LAPD}\label{35tLAPD}
 
 It's near LAPD!
 
 \begin{figure}[ht]
   \centering
   \includegraphics[width=15cm]{35tLAPD.png}
-  \caption{}
+  \caption{\cite{LBNE35tPhaseI}.}
   \label{fig:35tLAPD}
 \end{figure}
 
 %------------------------------------------------------------------------------------------------------------------------------------------------------------
-\subsection{The 35t Detector}\label{sec:35tDetector}
+\section{The 35t Detector}\label{sec:35tDetector}
 
-\subsubsection{Detector Components}\label{sec:35tDetectorComponents}
+\subsection{Detector Components}\label{sec:35tDetectorComponents}
 
-\paragraph{TPC}\label{35tTPC}
+\subsubsection{TPC}\label{35tTPC}
 
-\paragraph{Photon Detectors}\label{35tPhoton}
+\subsubsection{Photon Detectors}\label{35tPhoton}
 
-\paragraph{External Counters}\label{35tCounters}
+\subsubsection{External Counters}\label{35tCounters}
 
-\subsubsection{Readout Electronics}\label{sec:35tReadoutElectronics}
+\subsection{Readout Electronics}\label{sec:35tReadoutElectronics}
 
-\paragraph{FEMBs}\label{35tFEMB}
+\subsubsection{FEMBs}\label{35tFEMB}
 
-\paragraph{RCEs}\label{35tRCE}
+\subsubsection{RCEs}\label{35tRCE}
 
-\paragraph{SSPs}\label{35tSSP}
+\subsubsection{SSPs}\label{35tSSP}
 
-\paragraph{PTB}\label{35tPTB}
+\subsubsection{PTB}\label{35tPTB}
 
-\subsubsection{DAQ}\label{35tDAQ}
-
-%------------------------------------------------------------------------------------------------------------------------------------------------------------
-\subsection{Filling the 35t}\label{sec:35tFilling}
+\subsection{DAQ}\label{35tDAQ}
 
 %------------------------------------------------------------------------------------------------------------------------------------------------------------
-\subsection{The 35t Experimental Setup}\label{sec:35tExperiment}
+\section{Filling the 35t}\label{sec:35tFilling}
 
-\subsubsection{Filtration System}\label{sec:35tFiltration}
+%------------------------------------------------------------------------------------------------------------------------------------------------------------
+\section{The 35t Experimental Setup}\label{sec:35tExperiment}
+
+\subsection{Filtration System}\label{sec:35tFiltration}
 
 Same as LAPD.
 
-\subsubsection{Purity Monitoring}\label{sec:35tPurity}
+\subsection{Purity Monitoring}\label{sec:35tPurity}
 
 Same as LAPD.
 
 %------------------------------------------------------------------------------------------------------------------------------------------------------------
-\subsection{35t Phase I}\label{sec:35tPhaseI}
+\section{35t Phase I}\label{sec:35tPhaseI}
 
-\subsubsection{Outcomes}\label{sec:35tPhaseIOutcomes}
+\subsection{Outcomes}\label{sec:35tPhaseIOutcomes}
 
 %------------------------------------------------------------------------------------------------------------------------------------------------------------
-\subsection{35t Phase II}\label{sec:35tPhaseII}
+\section{35t Phase II}\label{sec:35tPhaseII}
 
-\subsubsection{Commissioning}\label{sec:35tCommissioning}
+\subsection{Commissioning}\label{sec:35tCommissioning}
 
-\subsubsection{The Sheffield Camera System}\label{sec:35tCameraSystem}
+\subsection{The Sheffield Camera System}\label{sec:35tCameraSystem}
 
 Wait for Nicola to finish the paper and plagerise!
 
-\subsubsection{Online Monitoring for Data Quality Monitoring}\label{sec:35tOnlineMonitoring}
+\subsection{Online Monitoring for Data Quality Monitoring}\label{sec:35tOnlineMonitoring}
 
-\subsubsection{Outcomes}\label{sec:35tPhaseIIOutcomes}
+\subsection{Outcomes}\label{sec:35tPhaseIIOutcomes}
 
 
 
