@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  4 MAR 2016 18:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  11 SEP 2016 23:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -113,6 +113,33 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen120
+\extrarowheight=\dimen121
+\NC@list=\toks21
+\extratabsurround=\skip46
+\backup@length=\skip47
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2014/04/23 v1.1a Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 137.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count103
+))
 (/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -126,20 +153,9 @@ Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count103
-))
-\Gin@req@height=\dimen120
-\Gin@req@width=\dimen121
+\Gin@req@height=\dimen122
+\Gin@req@width=\dimen123
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf.sty
 Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
@@ -197,13 +213,13 @@ Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
-\captionmargin=\dimen122
-\captionmargin@=\dimen123
-\captionwidth=\dimen124
-\caption@tempdima=\dimen125
-\caption@indent=\dimen126
-\caption@parindent=\dimen127
-\caption@hangindent=\dimen128
+\captionmargin=\dimen124
+\captionmargin@=\dimen125
+\captionwidth=\dimen126
+\caption@tempdima=\dimen127
+\caption@indent=\dimen128
+\caption@parindent=\dimen129
+\caption@hangindent=\dimen130
 )
 \c@ContinuedFloat=\count104
 )
@@ -286,15 +302,15 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \blx@parenlevel@text=\count145
 \blx@parenlevel@foot=\count146
 \blx@sectionciteorder@0=\count147
-\labelnumberwidth=\skip46
-\labelalphawidth=\skip47
-\shorthandwidth=\skip48
-\biblabelsep=\skip49
-\bibitemsep=\skip50
-\bibnamesep=\skip51
-\bibinitsep=\skip52
-\bibparsep=\skip53
-\bibhang=\skip54
+\labelnumberwidth=\skip48
+\labelalphawidth=\skip49
+\shorthandwidth=\skip50
+\biblabelsep=\skip51
+\bibitemsep=\skip52
+\bibnamesep=\skip53
+\bibinitsep=\skip54
+\bibparsep=\skip55
+\bibhang=\skip56
 \blx@bcfin=\read1
 \blx@bcfout=\write3
 \c@mincomprange=\count148
@@ -439,18 +455,18 @@ File: english.lbx 2013/11/25 v2.8a biblatex localization (PK/JW/AB)
 (./thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -489,16 +505,16 @@ LaTeX Font Info:    ... okay on input line 14.
 (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count228
-\scratchdimen=\dimen129
+\scratchdimen=\dimen131
 \scratchbox=\box28
 \nofMPsegments=\count229
 \nofMParguments=\count230
-\everyMPshowfont=\toks21
+\everyMPshowfont=\toks22
 \MPscratchCnt=\count231
-\MPscratchDim=\dimen130
+\MPscratchDim=\dimen132
 \MPnumerator=\count232
 \makeMPintoPDFobject=\count233
-\everyMPtoPDFconversion=\toks22
+\everyMPtoPDFconversion=\toks23
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
@@ -511,8 +527,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'thesis.bbl' found.
  (./thesis.bbl)
-Package biblatex Info: Reference section=0 on input line 14.
-Package biblatex Info: Reference segment=0 on input line 14.
+Package biblatex Info: Reference section=0 on input line 16.
+Package biblatex Info: Reference segment=0 on input line 16.
  (./thesis.toc [1
 
 
@@ -526,39 +542,110 @@ Package biblatex Info: Reference segment=0 on input line 14.
 
  [3
 
-] (./thesis.lof)
+] (./thesis.lof [4
+
+])
 \tf@lof=\write6
 \openout6 = `thesis.lof'.
 
 
-(./Acknowledgements/Acknowledgements.tex [4
-
-]) [5
+(./Acknowledgements/Acknowledgements.tex [5]) [6
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 33.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 35.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 33.
- [6] [7]
-(./Introduction/Introduction.tex
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 35.
+ [7]
+Overfull \hbox (16.75555pt too wide) in paragraph at lines 88--89
+[]\OT1/cmr/m/n/12 Show we can re-con-struct $\OML/cmm/m/it/12 ^^W[]$ \OT1/cmr/m
+/n/12 FD elec-trons; re-con-struc-tion ef-fi-cien-cies/completeness/cleanliness
+
+ []
+
+[8] (./Introduction/Introduction.tex
 Chapter 1.
 ) (./NeutrinoPhysics/NeutrinoPhysics.tex [1
 
 ]
 Chapter 2.
-) (./DUNE/DUNE.tex [2
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--29
+
+ []
+
+[2
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 32--34
+
+ []
+
+<NeutrinoPhysics/NygrenTPC.png, id=40, 849.1725pt x 545.03625pt>
+File: NeutrinoPhysics/NygrenTPC.png Graphic file (type png)
+
+<use NeutrinoPhysics/NygrenTPC.png>
+Package pdftex.def Info: NeutrinoPhysics/NygrenTPC.png used on input line 52.
+(pdftex.def)             Requested size: 284.52756pt x 182.62361pt.
+ [3]
+Overfull \hbox (3.4416pt too wide) in paragraph at lines 63--83
+ [][] 
+ []
+
+<NeutrinoPhysics/RubbiaLArTPC.png, id=45, 740.7675pt x 585.18625pt>
+File: NeutrinoPhysics/RubbiaLArTPC.png Graphic file (type png)
+
+<use NeutrinoPhysics/RubbiaLArTPC.png>
+Package pdftex.def Info: NeutrinoPhysics/RubbiaLArTPC.png used on input line 89
+.
+(pdftex.def)             Requested size: 284.52756pt x 224.76611pt.
+ [4 <./NeutrinoPhysics/NygrenTPC.png>]
+[5]
+
+LaTeX Warning: Reference `fig:ElectricFieldScintillationIonisation' on page 6 u
+ndefined on input line 112.
+
+
+<NeutrinoPhysics/ElectricFieldScintillationIonisation.png, id=54, 460.72125pt x
+ 299.1175pt>
+File: NeutrinoPhysics/ElectricFieldScintillationIonisation.png Graphic file (ty
+pe png)
+ <use NeutrinoPhysics/ElectricFieldScintillationIonisation.png>
+Package pdftex.def Info: NeutrinoPhysics/ElectricFieldScintillationIonisation.p
+ng used on input line 116.
+(pdftex.def)             Requested size: 341.43306pt x 221.66753pt.
+
+[6 <./NeutrinoPhysics/RubbiaLArTPC.png>]) (./DUNE/DUNE.tex [7 <./NeutrinoPhysic
+s/ElectricFieldScintillationIonisation.png>]
 Chapter 3.
-) (./35t/35t.tex [3
+) (./35t/35t.tex [8
 
 ]
 Chapter 4.
-[4
+[9
 
 ]
 
@@ -566,62 +653,114 @@ Package caption Warning: \label without proper \caption on input line 29.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:LAPDTankPiping' on page 5 undefined on input line
- 24.
+LaTeX Warning: Reference `fig:LAPDTankPiping' on page 10 undefined on input lin
+e 24.
 
-<35t/LAPDTankPiping.png, id=40, 823.075pt x 502.87875pt>
+<35t/LAPDTankPiping.png, id=69, 823.075pt x 502.87875pt>
 File: 35t/LAPDTankPiping.png Graphic file (type png)
 
 <use 35t/LAPDTankPiping.png>
 Package pdftex.def Info: 35t/LAPDTankPiping.png used on input line 28.
 (pdftex.def)             Requested size: 426.79134pt x 260.76181pt.
- [5] [6 <./35t/LAPDTankPiping.png>]
-<35t/LAPDPurity.png, id=50, 711.65875pt x 473.77pt>
+ [10] [11 <./35t/LAPDTankPiping.png>]
+<35t/LAPDPurity.png, id=78, 711.65875pt x 473.77pt>
 File: 35t/LAPDPurity.png Graphic file (type png)
  <use 35t/LAPDPurity.png>
 Package pdftex.def Info: 35t/LAPDPurity.png used on input line 47.
 (pdftex.def)             Requested size: 341.43306pt x 227.29858pt.
 
-<35t/PurityMonitor.png, id=51, 896.34875pt x 452.69125pt>
+<35t/PurityMonitor.png, id=79, 896.34875pt x 452.69125pt>
 File: 35t/PurityMonitor.png Graphic file (type png)
 
 <use 35t/PurityMonitor.png>
 Package pdftex.def Info: 35t/PurityMonitor.png used on input line 58.
 (pdftex.def)             Requested size: 341.43306pt x 172.43199pt.
- [7 <./35t/LAPDPurity.png>]
+ [12 <./35t/LAPDPurity.png>]
 
-LaTeX Warning: Reference `fig:ElectronLifetimes' on page 8 undefined on input l
-ine 71.
+LaTeX Warning: Reference `fig:ElectronLifetimes' on page 13 undefined on input 
+line 71.
 
-<35t/LAPDElectronLifetime.png, id=56, 1018.80624pt x 429.605pt>
+<35t/LAPDElectronLifetime.png, id=84, 1018.80624pt x 429.605pt>
 File: 35t/LAPDElectronLifetime.png Graphic file (type png)
 
 <use 35t/LAPDElectronLifetime.png>
 Package pdftex.def Info: 35t/LAPDElectronLifetime.png used on input line 75.
 (pdftex.def)             Requested size: 426.79134pt x 179.96744pt.
- [8 <./35t/PurityMonitor.png>]
-<35t/35tCryostat.png, id=61, 590.205pt x 253.94875pt>
+ [13 <./35t/PurityMonitor.png>]
+<35t/35tCryostat.png, id=89, 590.205pt x 253.94875pt>
 File: 35t/35tCryostat.png Graphic file (type png)
 
 <use 35t/35tCryostat.png>
 Package pdftex.def Info: 35t/35tCryostat.png used on input line 93.
 (pdftex.def)             Requested size: 426.79134pt x 183.64119pt.
- <35t/35tLAPD.png, id=62, 1367.1075pt x 556.0775pt>
+ <35t/35tLAPD.png, id=90, 1367.1075pt x 556.0775pt>
 File: 35t/35tLAPD.png Graphic file (type png)
 
 <use 35t/35tLAPD.png>
 Package pdftex.def Info: 35t/35tLAPD.png used on input line 106.
 (pdftex.def)             Requested size: 426.79134pt x 173.5956pt.
- [9 <./35t/LAPDElectronLifetime.png>]
+ [14 <./35t/LAPDElectronLifetime.png>]
 Overfull \vbox (237.90096pt too high) has occurred while \output is active []
 
 
-[10 <./35t/35tCryostat.png> <./35t/35tLAPD.png>])
-(./LArReconstruction/LArReconstruction.tex [11]
+[15 <./35t/35tCryostat.png> <./35t/35tLAPD.png>])
+(./OnlineMonitoring/OnlineMonitoring.tex [16]
 Chapter 5.
-) [12
+[17
 
-] [13
+] <OnlineMonitoring/lbne-artdaq.png, id=107, 995.72pt x 623.32875pt>
+File: OnlineMonitoring/lbne-artdaq.png Graphic file (type png)
+
+<use OnlineMonitoring/lbne-artdaq.png>
+Package pdftex.def Info: OnlineMonitoring/lbne-artdaq.png used on input line 16
+.
+(pdftex.def)             Requested size: 341.43306pt x 213.7456pt.
+
+
+LaTeX Warning: Reference `sec:DetectorComponents' on page 18 undefined on input
+ line 21.
+
+[18 <./OnlineMonitoring/lbne-artdaq.png>]
+<OnlineMonitoring/onlineMonitoringFramework.png, id=116, 690.58pt x 514.723pt>
+File: OnlineMonitoring/onlineMonitoringFramework.png Graphic file (type png)
+
+<use OnlineMonitoring/onlineMonitoringFramework.png>
+Package pdftex.def Info: OnlineMonitoring/onlineMonitoringFramework.png used on
+ input line 42.
+(pdftex.def)             Requested size: 341.43306pt x 254.48628pt.
+ [19] [20 <./OnlineMonitoring/onlineMonitoringFramework.png>] [21] [22]
+<OnlineMonitoring/microsliceTrigger.png, id=131, 800.591pt x 573.342pt>
+File: OnlineMonitoring/microsliceTrigger.png Graphic file (type png)
+
+<use OnlineMonitoring/microsliceTrigger.png>
+Package pdftex.def Info: OnlineMonitoring/microsliceTrigger.png used on input l
+ine 121.
+(pdftex.def)             Requested size: 455.24408pt x 326.02971pt.
+ [23] [24 <./OnlineMonitoring/microsliceTrigger.png>] <OnlineMonitoring/evd.png
+, id=140, 582.175pt x 568.1225pt>
+File: OnlineMonitoring/evd.png Graphic file (type png)
+
+<use OnlineMonitoring/evd.png>
+Package pdftex.def Info: OnlineMonitoring/evd.png used on input line 139.
+(pdftex.def)             Requested size: 398.33858pt x 388.72812pt.
+) (./LArReconstruction/LArReconstruction.tex
+[25] [26 <./OnlineMonitoring/evd.png>]
+Chapter 6.
+) (./35tAnalysis/35tAnalysis.tex [27
+
+]
+Chapter 7.
+) (./FarDetectorAnalysis/FarDetectorAnalysis.tex [28
+
+]
+Chapter 8.
+) (./Summary/Summary.tex [29
+
+]
+Chapter 9.
+) [30
+
+] [31
 
 ] (./thesis.aux)
 
@@ -632,23 +771,30 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 9027 strings out of 493117
- 149282 string characters out of 6135433
- 541291 words of memory out of 5000000
- 12351 multiletter control sequences out of 15000+600000
- 9991 words of font info for 36 fonts, out of 8000000 for 9000
+ 9221 strings out of 493117
+ 153352 string characters out of 6135433
+ 550240 words of memory out of 5000000
+ 12513 multiletter control sequences out of 15000+600000
+ 13607 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,5n,53p,1035b,987s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,12n,53p,1652b,999s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
-></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
-/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
-usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></u
-sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (20 pages, 1926155 bytes).
+></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
+local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/lo
+cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local
+/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/te
+xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
+live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texl
+ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texli
+ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on thesis.pdf (39 pages, 2644754 bytes).
 PDF statistics:
- 106 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
+ 211 PDF objects out of 1000 (max. 8388607)
+ 129 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,16 +1,16 @@
 [0] Config.pm:318> INFO - This is Biber 1.8
-[0] Config.pm:321> INFO - Logfile is 'thesis.blg'
-[135] biber-darwin:275> INFO - === Fri Mar  4, 2016, 18:22:47
-[135] Biber.pm:333> INFO - Reading 'thesis.bcf'
-[227] Biber.pm:630> INFO - Found 4 citekeys in bib section 0
-[257] Biber.pm:3053> INFO - Processing section 0
-[298] Biber.pm:3190> INFO - Looking for bibtex format file '../Literature/library.bib' for section 0
+[1] Config.pm:321> INFO - Logfile is 'thesis.blg'
+[132] biber-darwin:275> INFO - === Sun Sep 11, 2016, 22:38:48
+[132] Biber.pm:333> INFO - Reading 'thesis.bcf'
+[223] Biber.pm:630> INFO - Found 7 citekeys in bib section 0
+[250] Biber.pm:3053> INFO - Processing section 0
+[292] Biber.pm:3190> INFO - Looking for bibtex format file '../Literature/library.bib' for section 0
 [336] bibtex.pm:812> INFO - Found BibTeX data source '../Literature/library.bib'
-[367] Utils.pm:169> WARN - Duplicate entry key: 'LBNECollaboration2013' in file '../Literature/library.bib', skipping ...
-[434] Utils.pm:169> WARN - BibTeX subsystem: /var/folders/pk/5_6zktt523962p83hrbcqbvm0000gn/T/r5x6jscGPW/library.bib_1206.utf8, line 6, warning: 176 characters of junk seen at toplevel
-[506] Biber.pm:2939> INFO - Overriding locale 'en_GB.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
-[506] Biber.pm:2945> INFO - Sorting 'entry' list 'nty' keys
-[507] Biber.pm:2949> INFO - No sort tailoring available for locale 'en_GB.UTF-8'
-[519] bbl.pm:482> INFO - Writing 'thesis.bbl' with encoding 'ascii'
-[521] bbl.pm:555> INFO - Output to thesis.bbl
-[521] Biber.pm:105> INFO - WARNINGS: 2
+[352] Utils.pm:169> WARN - Duplicate entry key: 'LBNECollaboration2013' in file '../Literature/library.bib', skipping ...
+[442] Utils.pm:169> WARN - BibTeX subsystem: /var/folders/pk/5_6zktt523962p83hrbcqbvm0000gn/T/kqbA2fEDAk/library.bib_47534.utf8, line 6, warning: 176 characters of junk seen at toplevel
+[497] Biber.pm:2939> INFO - Overriding locale 'en_GB.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[497] Biber.pm:2945> INFO - Sorting 'entry' list 'nty' keys
+[498] Biber.pm:2949> INFO - No sort tailoring available for locale 'en_GB.UTF-8'
+[537] bbl.pm:482> INFO - Writing 'thesis.bbl' with encoding 'ascii'
+[545] bbl.pm:555> INFO - Output to thesis.bbl
+[546] Biber.pm:105> INFO - WARNINGS: 2

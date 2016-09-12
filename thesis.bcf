@@ -1964,21 +1964,28 @@
     <bcf:datasource type="file" datatype="bibtex">../Literature/library.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="6">LAPD</bcf:citekey>
-    <bcf:citekey order="7">LAPD</bcf:citekey>
-    <bcf:citekey order="8">LAPD</bcf:citekey>
-    <bcf:citekey order="9">LArFilter</bcf:citekey>
-    <bcf:citekey order="10">LArFilter</bcf:citekey>
-    <bcf:citekey order="11">LAPD</bcf:citekey>
-    <bcf:citekey order="12">LAPD</bcf:citekey>
-    <bcf:citekey order="13">LBNE35tPhaseI</bcf:citekey>
-    <bcf:citekey order="14">LBNE35tPhaseI</bcf:citekey>
+    <bcf:citekey order="8">ICARUS2004</bcf:citekey>
+    <bcf:citekey order="9">Nygren1974</bcf:citekey>
+    <bcf:citekey order="10">Nygren1974</bcf:citekey>
+    <bcf:citekey order="11">Nygren1974</bcf:citekey>
+    <bcf:citekey order="12">Rubbia1977</bcf:citekey>
+    <bcf:citekey order="13">Rubbia1977</bcf:citekey>
+    <bcf:citekey order="14">Rubbia1977</bcf:citekey>
     <bcf:citekey order="15">LAPD</bcf:citekey>
-    <bcf:citekey order="16">LBNE35tPhaseIOverview</bcf:citekey>
-    <bcf:citekey order="17">LBNE35tPhaseI</bcf:citekey>
-    <bcf:citekey order="18">LBNE35tPhaseI</bcf:citekey>
-    <bcf:citekey order="19">LBNE35tPhaseI</bcf:citekey>
-    <bcf:citekey order="20">LBNE35tPhaseI</bcf:citekey>
+    <bcf:citekey order="16">LAPD</bcf:citekey>
+    <bcf:citekey order="17">LAPD</bcf:citekey>
+    <bcf:citekey order="18">LArFilter</bcf:citekey>
+    <bcf:citekey order="19">LArFilter</bcf:citekey>
+    <bcf:citekey order="20">LAPD</bcf:citekey>
+    <bcf:citekey order="21">LAPD</bcf:citekey>
+    <bcf:citekey order="22">LBNE35tPhaseI</bcf:citekey>
+    <bcf:citekey order="23">LBNE35tPhaseI</bcf:citekey>
+    <bcf:citekey order="24">LAPD</bcf:citekey>
+    <bcf:citekey order="25">LBNE35tPhaseIOverview</bcf:citekey>
+    <bcf:citekey order="26">LBNE35tPhaseI</bcf:citekey>
+    <bcf:citekey order="27">LBNE35tPhaseI</bcf:citekey>
+    <bcf:citekey order="28">LBNE35tPhaseI</bcf:citekey>
+    <bcf:citekey order="29">LBNE35tPhaseI</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" type="entry" label="nty">
   <bcf:sorting>
