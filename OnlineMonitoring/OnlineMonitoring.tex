@@ -108,19 +108,26 @@ One of the highlights of being in ROC West (Remote Opertation Control room at FN
 
 Given the way in which data were read out of the detector, it proved challenging finding a way to represent this in a simple way that was comprehensible.  The construction of such a display is the subject of this section.
 
-\section{Selecting the Data}\label{sec:SelectingEVDData}
+\subsection{Selecting the Data}\label{sec:SelectingEVDData}
 
 [The data format will likely be described in the 35ton section -- most of this will probably be moved up to that point and referenced at a later stage...]
 
-[I need to make a diagram showing this.] The raw format for the TPC data is complicated and has many levels of structure.  The 2048 channels are readout out by 16 front end boards (containing the cold electronics, including the digitisers), each processed by an RCE and then read into the DAQ by a board reader.  The format at this point is referred to as a millislice; there is a millislice for each of the detector components (RCEs, SSPs and PTB) and an `event' is a collection of all such millislices.  For the TPC data, a millislice contains all the information for 128 channels.  This data also has further substructure; a millislice is composed of N microslices, with each microslice containing M nanoslices.  A nanoslice contains 128 ADC values, representing one `tick' (== $500$ ns) worth of data for 1/16th of the detector.  A microslice thus contains this information for a `drift window' (M ticks) and a millislice a collection (M) of drift windows.  For the normal data running, N was set to 20 and M 1000.
+The raw format for the TPC data is complicated and has many levels of structure.  Refer to Fig. \ref{fig:DataFormat} during the following description.  The 2048 channels are readout out by 16 front-end boards (containing the cold electronics, including the digitisers), each processed by an RCE and then read into the DAQ by a board reader.  The format at this point is referred to as a millislice; there is a millislice for each of the detector components (RCEs, SSPs and PTB) and an `event' is a collection of all such millislices.  For the TPC data, a millislice contains all the information for 128 channels.  This data also has further substructure; a millislice is composed of N microslices, with each microslice containing M nanoslices.  A nanoslice contains 128 ADC values, representing one `tick' (== $500$ ns) worth of data for 1/16th of the detector.  A microslice thus contains this information for a `drift window' (M ticks) and a millislice a collection (M) of drift windows.  For the normal data running, N was set to 20 and M 1000.
 
-As the detector collects data, the RCEs continually create and save microslices to send to the DAQ to form a millislice.  These microslices are empty (contain no nanoslices) until a trigger is received, at which point nanoslices are made and saved within each microslice.  There is also a buffer in place to save a certain number of full microslices (microslices containing nanoslices) before the microslice containing the trigger.  A certain number of full microslices proceeding the trigger are also recorded by the RCEs.  During normal running, a `$4+1+10$' format was employed; four microlices containing nanolices before the trigger was recieved, the microslice containing the trigger, and the ten following microslices.  It should be further noted that, since the DAQ was designed for continuous data readout, these microlices need not necessarily be within the same millislice: it is possible for the trigger to occur in microslice 18 of a certain millislice, meaning the 15 filled microslices will straddle successive millislices.  This is demonstrated in Fig. \ref{fig:MicrosliceTrigger}.
+\begin{figure}[p]
+  \centering
+  \includegraphics[width=14cm]{data_format.png}
+  \caption[35ton data format]{Demonstration of the format used in 35ton raw data.  A `DAQ event` is composed of a single millislice from each component, each containing further substructure unique to the readout elements.  See the explaination in the text for further details.}
+  \label{fig:DataFormat}
+\end{figure}
+
+As the detector collects data, the RCEs continually create and save microslices to send to the DAQ to form a millislice.  These microslices are empty (contain no nanoslices) until a trigger is received, at which point nanoslices are made and saved within each microslice.  There is also a buffer in place to save a certain number of full microslices (microslices containing nanoslices) before the microslice containing the trigger.  A certain number of full microslices proceeding the trigger are also recorded by the RCEs.  During normal running, a `$4+1+10$' format was employed; four microlices containing nanolices before the trigger was recieved, the microslice containing the trigger, and the ten following microslices.  It should be further noted that, since the DAQ was designed for continuous data readout, these microlices need not necessarily be within the same millislice: it is possible for the trigger to occur in microslice 18 of a certain millislice, meaning the 15 filled microslices will straddle successive millislices.  This is demonstrated in Fig. \ref{fig:TriggeredEvent}.
 
 \begin{figure}[ht]
   \centering
-  \includegraphics[width=16cm]{microsliceTrigger.png}
-  \caption{Demostration of how TPC data is saved when using a DAQ designed for continuous readout.  The black arrows represent hypothetical triggers occurring within the duration of a particular microslice.  In each case, the 4 preceeding microslices and the 10 proceeding microslices are filled with nanoslices and saved; all other microslices are saved with no nanoslices since they contain no useful data.  An example of such an event is shown occurring in Microslice 0 in the figure.  As described in the text, a trigger can cause the useful microslices to straddle consequetive millislices; this is represented in the following microslices in the figure.}
-  \label{fig:MicrosliceTrigger}
+  \includegraphics[width=16cm]{triggered_event.png}
+  \caption{Demostration of how TPC data is saved when using a DAQ designed for continuous readout.  The black arrows represent hypothetical triggers occurring within the duration of a particular microslice.  In each case, the 4 preceeding microslices and the 10 proceeding microslices are filled with nanoslices and saved; all other microslices are saved with no nanoslices since they contain no useful data.  An example of such an event is shown occurring in Millislice 0 in the figure.  As described in the text, a trigger can cause the useful microslices to straddle consequetive millislices; this is represented in the following millislices in the figure.}
+  \label{fig:TriggeredEvent}
 \end{figure}
 Note this also results in real `physics events' being saved in separate `DAQ events'; for this reason a splitter/stitcher module has been designed to extract the actual triggered events from the raw data and repackage them into a useful event structure -- this is the first stage before all offline analysis with the 35ton data.
 
@@ -134,7 +141,7 @@ By working with the system used to record pedestal values of the channels, it is
 
 An example event display is shown in Fig. \ref{fig:EVD}.
 
-\begin{figure}
+\begin{figure}[p]
   \centering
   \includegraphics[width=14cm]{evd.png}
   \caption{Example online event display made as part of the online monitoring framework for run 14306 (2nd March, 2016).  The view is from the top of the detector looking down; the red lines represent the spaces between the APAs and the blue line the location of the APA frames, separating the long and short drift regions.}
@@ -143,3 +150,32 @@ An example event display is shown in Fig. \ref{fig:EVD}.
 
 \section{Monitoring Web Interface}\label{sec:WebInterface}
 
+The output of the monitoring is vital in assuring the experiment continues to take high quality, analysable data.  To facilitate the monitoring, a web interface has been developed to enable all useful information to be displayed on the web and allow convenient, universal access.  This inferface, along with the complementary web page, is relatively basic but certainly functional and delivered all expected of it for the purposes of a short prototype run.  The method of automating the transfer of the monitoring data from where it is saved by the DAQ process to somewhere accessible by the web server is briefly described in Sec. \ref{sec:AutomatedDataTransfer} and the web page itself discussion in Sec. \ref{sec:WebPage}.
+
+\subsection{Automated Data Transfer}\label{sec:AutomatedDataTransfer}
+
+The most complicated part of the web interface is ensuring the monitoring output is available in the correct place when needed.  This is achieved using a combination of disk mounting and automated scripts, demonstrated in Fig. \ref{fig:WebInterface}.
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=12cm]{webInterface.png}
+  \caption[Schematic showing the interface between the online monitoring system and the web]{Schematic showing the interface between the online monitoring system and the web.  The DAQ machines are shown as rectangles with their disks represented as cyliners.  Connections between a node and a disk are shown as straight lines, with dotted lines representing processes running on the machine.}
+  \label{fig:WebInterface}
+\end{figure}
+
+The DAQ aggregator processes run on the lbnedaq6 and lbnedaq7 nodes, requiring any saved output be put in a place which is accessible to these machines.  The solution which was developed was to mount a data disk belonging to lbne35t-gateway02 onto these private nodes and save all relevant information there.  The constraints placed on the setup by the DAQ group, which preferred nothing other than DAQ processes to run on lbne35t-gateway01, required a second gateway node to be utilised to move the files off the private network.  Using lbne35t-gateway02 also allowed the Fermilab web area to be mounted, with an automated job utilised to copy the monitoring output from the data disk to the specific area on the web server.  The frequency of this job, 30s, defined the maximum latency one could expect between data being written out and images appearing online.
+
+\subsection{Web Page}\label{sec:WebPage}
+
+The web page was hosted at FNAL and located at lbne-dqm.fnal.gov.  The method in the monitoring framework used to write out all the ouput also wrote and saved all the html used to allow images of the plots to be displayed on the web.  This html is copied, along with all the images and data files, to the web area as discussed above in Sec. \ref{sec:AutomatedDataTransfer}.  The web page was basic but performed all required for use in the 35ton; it had dedicated pages for all the data quality monitoring information and the online event display (the nearline monitoring was also hosted at this website but not described here).  See Fig. \ref{fig:WebPage} for a demonstration of web page and example navigation.
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=14cm]{webPage.png}
+  \label{fig:WebPage}
+  \caption[Web page for online monitoring and event displays]{Demonstration of the web page developed to display information produced by the online monitoring and event display.  The pages are written in basic html but allowed prompt and convenient feedback directly from the DAQ be accessed anywhere and assist in remote monitoring of the experiment.  All previous runs are also kept on the website for reference.}
+\end{figure}
+
+\section{Online Monitoring Summary}
+
+The monitoring, with web support, was imperative for the success of the 35ton.  During the ongoing vertical slice tests during summer 2015, the majority of the setup was in place and enabled progress in testing and signing off the APAs to be completed months faster than it otherwise would have been.  During this time, and also during commissioning, this framework was the only way of analysing the data without reading it into LArSoft and writing specific software; it was thus invaluable to the successfully running of the 35ton much increased the efficiency of data collection.  The online monitoring was a success and is currently in the process of being adapted for use in the future of DUNE, specifically for use in protoDUNE in 2018.

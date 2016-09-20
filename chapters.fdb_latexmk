@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1473617091 "chapters.tex" "chapters.pdf" "chapters" 1473632866
+["pdflatex"] 1473617091 "chapters.tex" "chapters.pdf" "chapters" 1473806739
   "/usr/local/texlive/2014/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2014/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/local/texlive/2014/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -32,6 +32,6 @@
   "chapters.aux" 1473617092 5040 79a602695322d71bb5b6aeb21886c244 ""
   "chapters.tex" 1472741686 9431 a97564db1e80bc8b1dddf0e8a0083ae6 ""
   (generated)
+  "chapters.aux"
   "chapters.log"
   "chapters.pdf"
-  "chapters.aux"

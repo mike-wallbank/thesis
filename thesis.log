@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  11 SEP 2016 23:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  13 SEP 2016 17:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -532,24 +532,24 @@ Package biblatex Info: Reference segment=0 on input line 16.
  (./thesis.toc [1
 
 
-{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
+{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2])
 \tf@toc=\write4
 \openout4 = `thesis.toc'.
 
- [2] (./thesis.lot)
+ [3] (./thesis.lot)
 \tf@lot=\write5
 \openout5 = `thesis.lot'.
 
- [3
+ [4
 
-] (./thesis.lof [4
+] (./thesis.lof [5
 
 ])
 \tf@lof=\write6
 \openout6 = `thesis.lof'.
 
 
-(./Acknowledgements/Acknowledgements.tex [5]) [6
+(./Acknowledgements/Acknowledgements.tex [6]) [7
 
 ]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 35.
@@ -559,14 +559,14 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 35.
- [7]
+ [8]
 Overfull \hbox (16.75555pt too wide) in paragraph at lines 88--89
 []\OT1/cmr/m/n/12 Show we can re-con-struct $\OML/cmm/m/it/12 ^^W[]$ \OT1/cmr/m
 /n/12 FD elec-trons; re-con-struc-tion ef-fi-cien-cies/completeness/cleanliness
 
  []
 
-[8] (./Introduction/Introduction.tex
+[9] (./Introduction/Introduction.tex
 Chapter 1.
 ) (./NeutrinoPhysics/NeutrinoPhysics.tex [1
 
@@ -604,7 +604,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--34
 
  []
 
-<NeutrinoPhysics/NygrenTPC.png, id=40, 849.1725pt x 545.03625pt>
+<NeutrinoPhysics/NygrenTPC.png, id=43, 849.1725pt x 545.03625pt>
 File: NeutrinoPhysics/NygrenTPC.png Graphic file (type png)
 
 <use NeutrinoPhysics/NygrenTPC.png>
@@ -615,7 +615,7 @@ Overfull \hbox (3.4416pt too wide) in paragraph at lines 63--83
  [][] 
  []
 
-<NeutrinoPhysics/RubbiaLArTPC.png, id=45, 740.7675pt x 585.18625pt>
+<NeutrinoPhysics/RubbiaLArTPC.png, id=48, 740.7675pt x 585.18625pt>
 File: NeutrinoPhysics/RubbiaLArTPC.png Graphic file (type png)
 
 <use NeutrinoPhysics/RubbiaLArTPC.png>
@@ -629,7 +629,7 @@ LaTeX Warning: Reference `fig:ElectricFieldScintillationIonisation' on page 6 u
 ndefined on input line 112.
 
 
-<NeutrinoPhysics/ElectricFieldScintillationIonisation.png, id=54, 460.72125pt x
+<NeutrinoPhysics/ElectricFieldScintillationIonisation.png, id=57, 460.72125pt x
  299.1175pt>
 File: NeutrinoPhysics/ElectricFieldScintillationIonisation.png Graphic file (ty
 pe png)
@@ -656,20 +656,20 @@ See the caption package documentation for explanation.
 LaTeX Warning: Reference `fig:LAPDTankPiping' on page 10 undefined on input lin
 e 24.
 
-<35t/LAPDTankPiping.png, id=69, 823.075pt x 502.87875pt>
+<35t/LAPDTankPiping.png, id=72, 823.075pt x 502.87875pt>
 File: 35t/LAPDTankPiping.png Graphic file (type png)
 
 <use 35t/LAPDTankPiping.png>
 Package pdftex.def Info: 35t/LAPDTankPiping.png used on input line 28.
 (pdftex.def)             Requested size: 426.79134pt x 260.76181pt.
  [10] [11 <./35t/LAPDTankPiping.png>]
-<35t/LAPDPurity.png, id=78, 711.65875pt x 473.77pt>
+<35t/LAPDPurity.png, id=81, 711.65875pt x 473.77pt>
 File: 35t/LAPDPurity.png Graphic file (type png)
  <use 35t/LAPDPurity.png>
 Package pdftex.def Info: 35t/LAPDPurity.png used on input line 47.
 (pdftex.def)             Requested size: 341.43306pt x 227.29858pt.
 
-<35t/PurityMonitor.png, id=79, 896.34875pt x 452.69125pt>
+<35t/PurityMonitor.png, id=82, 896.34875pt x 452.69125pt>
 File: 35t/PurityMonitor.png Graphic file (type png)
 
 <use 35t/PurityMonitor.png>
@@ -680,20 +680,20 @@ Package pdftex.def Info: 35t/PurityMonitor.png used on input line 58.
 LaTeX Warning: Reference `fig:ElectronLifetimes' on page 13 undefined on input 
 line 71.
 
-<35t/LAPDElectronLifetime.png, id=84, 1018.80624pt x 429.605pt>
+<35t/LAPDElectronLifetime.png, id=87, 1018.80624pt x 429.605pt>
 File: 35t/LAPDElectronLifetime.png Graphic file (type png)
 
 <use 35t/LAPDElectronLifetime.png>
 Package pdftex.def Info: 35t/LAPDElectronLifetime.png used on input line 75.
 (pdftex.def)             Requested size: 426.79134pt x 179.96744pt.
  [13 <./35t/PurityMonitor.png>]
-<35t/35tCryostat.png, id=89, 590.205pt x 253.94875pt>
+<35t/35tCryostat.png, id=92, 590.205pt x 253.94875pt>
 File: 35t/35tCryostat.png Graphic file (type png)
 
 <use 35t/35tCryostat.png>
 Package pdftex.def Info: 35t/35tCryostat.png used on input line 93.
 (pdftex.def)             Requested size: 426.79134pt x 183.64119pt.
- <35t/35tLAPD.png, id=90, 1367.1075pt x 556.0775pt>
+ <35t/35tLAPD.png, id=93, 1367.1075pt x 556.0775pt>
 File: 35t/35tLAPD.png Graphic file (type png)
 
 <use 35t/35tLAPD.png>
@@ -708,7 +708,7 @@ Overfull \vbox (237.90096pt too high) has occurred while \output is active []
 Chapter 5.
 [17
 
-] <OnlineMonitoring/lbne-artdaq.png, id=107, 995.72pt x 623.32875pt>
+] <OnlineMonitoring/lbne-artdaq.png, id=110, 995.72pt x 623.32875pt>
 File: OnlineMonitoring/lbne-artdaq.png Graphic file (type png)
 
 <use OnlineMonitoring/lbne-artdaq.png>
@@ -721,7 +721,7 @@ LaTeX Warning: Reference `sec:DetectorComponents' on page 18 undefined on input
  line 21.
 
 [18 <./OnlineMonitoring/lbne-artdaq.png>]
-<OnlineMonitoring/onlineMonitoringFramework.png, id=116, 690.58pt x 514.723pt>
+<OnlineMonitoring/onlineMonitoringFramework.png, id=119, 690.58pt x 514.723pt>
 File: OnlineMonitoring/onlineMonitoringFramework.png Graphic file (type png)
 
 <use OnlineMonitoring/onlineMonitoringFramework.png>
@@ -729,38 +729,70 @@ Package pdftex.def Info: OnlineMonitoring/onlineMonitoringFramework.png used on
  input line 42.
 (pdftex.def)             Requested size: 341.43306pt x 254.48628pt.
  [19] [20 <./OnlineMonitoring/onlineMonitoringFramework.png>] [21] [22]
-<OnlineMonitoring/microsliceTrigger.png, id=131, 800.591pt x 573.342pt>
-File: OnlineMonitoring/microsliceTrigger.png Graphic file (type png)
+<OnlineMonitoring/data_format.png, id=135, 567.721pt x 680.141pt>
+File: OnlineMonitoring/data_format.png Graphic file (type png)
 
-<use OnlineMonitoring/microsliceTrigger.png>
-Package pdftex.def Info: OnlineMonitoring/microsliceTrigger.png used on input l
-ine 121.
-(pdftex.def)             Requested size: 455.24408pt x 326.02971pt.
- [23] [24 <./OnlineMonitoring/microsliceTrigger.png>] <OnlineMonitoring/evd.png
-, id=140, 582.175pt x 568.1225pt>
+<use OnlineMonitoring/data_format.png>
+Package pdftex.def Info: OnlineMonitoring/data_format.png used on input line 11
+9.
+(pdftex.def)             Requested size: 398.33858pt x 477.2163pt.
+
+<OnlineMonitoring/triggered_event.png, id=136, 790.955pt x 571.736pt>
+File: OnlineMonitoring/triggered_event.png Graphic file (type png)
+
+<use OnlineMonitoring/triggered_event.png>
+Package pdftex.def Info: OnlineMonitoring/triggered_event.png used on input lin
+e 128.
+(pdftex.def)             Requested size: 455.24408pt x 329.06842pt.
+ [23] [24 <./OnlineMonitoring/data_format.png>] [25 <./OnlineMonitoring/trigger
+ed_event.png>]
+<OnlineMonitoring/evd.png, id=148, 582.175pt x 568.1225pt>
 File: OnlineMonitoring/evd.png Graphic file (type png)
 
 <use OnlineMonitoring/evd.png>
-Package pdftex.def Info: OnlineMonitoring/evd.png used on input line 139.
+Package pdftex.def Info: OnlineMonitoring/evd.png used on input line 146.
 (pdftex.def)             Requested size: 398.33858pt x 388.72812pt.
+ [26] [27 <./OnlineMonitoring/evd.png>]
+<OnlineMonitoring/webInterface.png, id=156, 550.055pt x 333.245pt>
+File: OnlineMonitoring/webInterface.png Graphic file (type png)
+
+<use OnlineMonitoring/webInterface.png>
+Package pdftex.def Info: OnlineMonitoring/webInterface.png used on input line 1
+61.
+(pdftex.def)             Requested size: 341.43306pt x 206.85892pt.
+
+
+Package caption Warning: \label without proper \caption on input line 175.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:WebPage' on page 28 undefined on input line 170.
+
+[28 <./OnlineMonitoring/webInterface.png>]
+<OnlineMonitoring/webPage.png, id=162, 1439.3775pt x 833.1125pt>
+File: OnlineMonitoring/webPage.png Graphic file (type png)
+
+<use OnlineMonitoring/webPage.png>
+Package pdftex.def Info: OnlineMonitoring/webPage.png used on input line 174.
+(pdftex.def)             Requested size: 398.33858pt x 230.5622pt.
 ) (./LArReconstruction/LArReconstruction.tex
-[25] [26 <./OnlineMonitoring/evd.png>]
+[29 <./OnlineMonitoring/webPage.png>] [30]
 Chapter 6.
-) (./35tAnalysis/35tAnalysis.tex [27
+) (./35tAnalysis/35tAnalysis.tex [31
 
 ]
 Chapter 7.
-) (./FarDetectorAnalysis/FarDetectorAnalysis.tex [28
+) (./FarDetectorAnalysis/FarDetectorAnalysis.tex [32
 
 ]
 Chapter 8.
-) (./Summary/Summary.tex [29
+) (./Summary/Summary.tex [33
 
 ]
 Chapter 9.
-) [30
+) [34
 
-] [31
+] [35
 
 ] (./thesis.aux)
 
@@ -771,10 +803,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 9221 strings out of 493117
- 153352 string characters out of 6135433
- 550240 words of memory out of 5000000
- 12513 multiletter control sequences out of 15000+600000
+ 9241 strings out of 493117
+ 153897 string characters out of 6135433
+ 550332 words of memory out of 5000000
+ 12530 multiletter control sequences out of 15000+600000
  13607 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,12n,53p,1652b,999s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -791,10 +823,10 @@ xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
 live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texl
 ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texli
 ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (39 pages, 2644754 bytes).
+Output written on thesis.pdf (44 pages, 3102803 bytes).
 PDF statistics:
- 211 PDF objects out of 1000 (max. 8388607)
- 129 compressed objects within 2 object streams
+ 233 PDF objects out of 1000 (max. 8388607)
+ 140 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
