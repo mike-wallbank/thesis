@@ -32,15 +32,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Demonstration of the framework designed for online monitoring in the DUNE 35ton experiment.\relax }}{20}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.3}{\ignorespaces 35ton data format}}{24}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Selection of Data Quality Monitoring figures}}{25}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Demostration of how TPC data is saved when using a DAQ designed for continuous readout. The black arrows represent hypothetical triggers occurring within the duration of a particular microslice. In each case, the 4 preceeding microslices and the 10 proceeding microslices are filled with nanoslices and saved; all other microslices are saved with no nanoslices since they contain no useful data. An example of such an event is shown occurring in Millislice 0 in the figure. As described in the text, a trigger can cause the useful microslices to straddle consequetive millislices; this is represented in the following millislices in the figure.\relax }}{25}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces 35ton data format}}{27}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Example online event display made as part of the online monitoring framework for run 14306 (2nd March, 2016). The view is from the top of the detector looking down; the red lines represent the spaces between the APAs and the blue line the location of the APA frames, separating the long and short drift regions.\relax }}{27}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Demostration of how TPC data is saved when using a DAQ designed for continuous readout. The black arrows represent hypothetical triggers occurring within the duration of a particular millislice. In each case, the 4 preceeding microslices and the 10 proceeding microslices are filled with nanoslices and saved; all other microslices are saved with no nanoslices since they contain no useful data. An example of such an event is shown occurring in millislice 0 in the figure. As described in the text, a trigger can cause the useful microslices to straddle consequetive millislices; this is represented in the following millislices in the figure.\relax }}{28}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Schematic showing the interface between the online monitoring system and the web}}{28}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Example online event display made as part of the online monitoring framework for run 14306 (2nd March, 2016). The view is from the top of the detector looking down; the red lines represent the spaces between the APAs and the blue line the location of the APA frames, separating the long and short drift regions.\relax }}{30}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Web page for online monitoring and event displays}}{29}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Schematic showing the interface between the online monitoring system and the web}}{31}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Web page for online monitoring and event displays}}{32}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

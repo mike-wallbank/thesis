@@ -104,24 +104,34 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.3}Data Quality Monitoring}{22}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Online Event Display}{22}
+\contentsline {subsection}{\numberline {5.3.1}TPC Monitoring}{23}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.1}Selecting the Data}{23}
+\contentsline {subsection}{\numberline {5.3.2}Photon Detector Monitoring}{23}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.2}Representing the Data}{26}
+\contentsline {subsection}{\numberline {5.3.3}External Counter Monitoring}{24}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}Monitoring Web Interface}{26}
+\contentsline {subsection}{\numberline {5.3.4}General Monitoring}{24}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.1}Automated Data Transfer}{28}
+\contentsline {subsection}{\numberline {5.3.5}DQM Plots}{24}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.2}Web Page}{29}
+\contentsline {section}{\numberline {5.4}Online Event Display}{24}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.6}Online Monitoring Summary}{29}
+\contentsline {subsection}{\numberline {5.4.1}Selecting the Data}{26}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Reconstruction in a Liquid Argon TPC}{31}
+\contentsline {subsection}{\numberline {5.4.2}Representing the Data}{29}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Detection of $\pi ^0$s in 35t}{32}
+\contentsline {section}{\numberline {5.5}Monitoring Web Interface}{29}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Electron Reconstruction for $\nu _e$ Oscillation Signal at the DUNE Far Detector}{33}
+\contentsline {subsection}{\numberline {5.5.1}Automated Data Transfer}{31}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Summary}{34}
+\contentsline {subsection}{\numberline {5.5.2}Web Page}{32}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.6}Online Monitoring Summary}{33}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Reconstruction in a Liquid Argon TPC}{34}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Detection of $\pi ^0$s in 35t}{35}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}Electron Reconstruction for $\nu _e$ Oscillation Signal at the DUNE Far Detector}{36}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {9}Summary}{37}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  13 SEP 2016 17:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  4 OCT 2016 13:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -712,13 +712,13 @@ Chapter 5.
 File: OnlineMonitoring/lbne-artdaq.png Graphic file (type png)
 
 <use OnlineMonitoring/lbne-artdaq.png>
-Package pdftex.def Info: OnlineMonitoring/lbne-artdaq.png used on input line 16
+Package pdftex.def Info: OnlineMonitoring/lbne-artdaq.png used on input line 20
 .
 (pdftex.def)             Requested size: 341.43306pt x 213.7456pt.
 
 
 LaTeX Warning: Reference `sec:DetectorComponents' on page 18 undefined on input
- line 21.
+ line 25.
 
 [18 <./OnlineMonitoring/lbne-artdaq.png>]
 <OnlineMonitoring/onlineMonitoringFramework.png, id=119, 690.58pt x 514.723pt>
@@ -726,73 +726,93 @@ File: OnlineMonitoring/onlineMonitoringFramework.png Graphic file (type png)
 
 <use OnlineMonitoring/onlineMonitoringFramework.png>
 Package pdftex.def Info: OnlineMonitoring/onlineMonitoringFramework.png used on
- input line 42.
+ input line 47.
 (pdftex.def)             Requested size: 341.43306pt x 254.48628pt.
- [19] [20 <./OnlineMonitoring/onlineMonitoringFramework.png>] [21] [22]
-<OnlineMonitoring/data_format.png, id=135, 567.721pt x 680.141pt>
+ [19] [20 <./OnlineMonitoring/onlineMonitoringFramework.png>] [21] [22] [23]
+<OnlineMonitoring/DQM1.png, id=138, 934.49126pt x 678.535pt>
+File: OnlineMonitoring/DQM1.png Graphic file (type png)
+
+<use OnlineMonitoring/DQM1.png>
+Package pdftex.def Info: OnlineMonitoring/DQM1.png used on input line 157.
+(pdftex.def)             Requested size: 220.56308pt x 160.14943pt.
+
+<OnlineMonitoring/DQM2.png, id=139, 1050.92625pt x 691.58376pt>
+File: OnlineMonitoring/DQM2.png Graphic file (type png)
+
+<use OnlineMonitoring/DQM2.png>
+Package pdftex.def Info: OnlineMonitoring/DQM2.png used on input line 163.
+(pdftex.def)             Requested size: 220.56308pt x 145.14189pt.
+
+<OnlineMonitoring/DQM3.png, id=140, 1026.83624pt x 678.535pt>
+File: OnlineMonitoring/DQM3.png Graphic file (type png)
+
+<use OnlineMonitoring/DQM3.png>
+Package pdftex.def Info: OnlineMonitoring/DQM3.png used on input line 169.
+(pdftex.def)             Requested size: 220.56308pt x 145.74757pt.
+
+<OnlineMonitoring/DQM4.png, id=141, 915.42pt x 683.55376pt>
+File: OnlineMonitoring/DQM4.png Graphic file (type png)
+
+<use OnlineMonitoring/DQM4.png>
+Package pdftex.def Info: OnlineMonitoring/DQM4.png used on input line 175.
+(pdftex.def)             Requested size: 220.56308pt x 164.69249pt.
+ [24] [25 <./OnlineMonitoring/DQM1.png> <./OnlineMonitoring/DQM2.png> <./Online
+Monitoring/DQM3.png> <./OnlineMonitoring/DQM4.png>] <OnlineMonitoring/data_form
+at.png, id=152, 567.721pt x 680.141pt>
 File: OnlineMonitoring/data_format.png Graphic file (type png)
 
 <use OnlineMonitoring/data_format.png>
-Package pdftex.def Info: OnlineMonitoring/data_format.png used on input line 11
+Package pdftex.def Info: OnlineMonitoring/data_format.png used on input line 19
 9.
 (pdftex.def)             Requested size: 398.33858pt x 477.2163pt.
-
-<OnlineMonitoring/triggered_event.png, id=136, 790.955pt x 571.736pt>
+ [26] [27 <./OnlineMonitoring/data_format.png>] <OnlineMonitoring/triggered_eve
+nt.png, id=160, 790.955pt x 571.736pt>
 File: OnlineMonitoring/triggered_event.png Graphic file (type png)
 
 <use OnlineMonitoring/triggered_event.png>
 Package pdftex.def Info: OnlineMonitoring/triggered_event.png used on input lin
-e 128.
+e 208.
 (pdftex.def)             Requested size: 455.24408pt x 329.06842pt.
- [23] [24 <./OnlineMonitoring/data_format.png>] [25 <./OnlineMonitoring/trigger
-ed_event.png>]
-<OnlineMonitoring/evd.png, id=148, 582.175pt x 568.1225pt>
+ [28 <./OnlineMonitoring/triggered_event.png>] <OnlineMonitoring/evd.png, id=16
+6, 582.175pt x 568.1225pt>
 File: OnlineMonitoring/evd.png Graphic file (type png)
 
 <use OnlineMonitoring/evd.png>
-Package pdftex.def Info: OnlineMonitoring/evd.png used on input line 146.
+Package pdftex.def Info: OnlineMonitoring/evd.png used on input line 229.
 (pdftex.def)             Requested size: 398.33858pt x 388.72812pt.
- [26] [27 <./OnlineMonitoring/evd.png>]
-<OnlineMonitoring/webInterface.png, id=156, 550.055pt x 333.245pt>
+ [29] [30 <./OnlineMonitoring/evd.png>]
+<OnlineMonitoring/webInterface.png, id=174, 550.055pt x 333.245pt>
 File: OnlineMonitoring/webInterface.png Graphic file (type png)
 
 <use OnlineMonitoring/webInterface.png>
-Package pdftex.def Info: OnlineMonitoring/webInterface.png used on input line 1
-61.
+Package pdftex.def Info: OnlineMonitoring/webInterface.png used on input line 2
+46.
 (pdftex.def)             Requested size: 341.43306pt x 206.85892pt.
-
-
-Package caption Warning: \label without proper \caption on input line 175.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:WebPage' on page 28 undefined on input line 170.
-
-[28 <./OnlineMonitoring/webInterface.png>]
-<OnlineMonitoring/webPage.png, id=162, 1439.3775pt x 833.1125pt>
+ [31 <./OnlineMonitoring/webInterface.png>] <OnlineMonitoring/webPage.png, id=1
+79, 1439.3775pt x 833.1125pt>
 File: OnlineMonitoring/webPage.png Graphic file (type png)
 
 <use OnlineMonitoring/webPage.png>
-Package pdftex.def Info: OnlineMonitoring/webPage.png used on input line 174.
+Package pdftex.def Info: OnlineMonitoring/webPage.png used on input line 260.
 (pdftex.def)             Requested size: 398.33858pt x 230.5622pt.
 ) (./LArReconstruction/LArReconstruction.tex
-[29 <./OnlineMonitoring/webPage.png>] [30]
+[32 <./OnlineMonitoring/webPage.png>] [33]
 Chapter 6.
-) (./35tAnalysis/35tAnalysis.tex [31
+) (./35tAnalysis/35tAnalysis.tex [34
 
 ]
 Chapter 7.
-) (./FarDetectorAnalysis/FarDetectorAnalysis.tex [32
+) (./FarDetectorAnalysis/FarDetectorAnalysis.tex [35
 
 ]
 Chapter 8.
-) (./Summary/Summary.tex [33
+) (./Summary/Summary.tex [36
 
 ]
 Chapter 9.
-) [34
+) [37
 
-] [35
+] [38
 
 ] (./thesis.aux)
 
@@ -803,11 +823,11 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 9241 strings out of 493117
- 153897 string characters out of 6135433
- 550332 words of memory out of 5000000
- 12530 multiletter control sequences out of 15000+600000
- 13607 words of font info for 49 fonts, out of 8000000 for 9000
+ 9282 strings out of 493117
+ 154786 string characters out of 6135433
+ 550461 words of memory out of 5000000
+ 12567 multiletter control sequences out of 15000+600000
+ 13907 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,12n,53p,1652b,999s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
@@ -823,10 +843,10 @@ xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
 live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texl
 ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texli
 ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (44 pages, 3102803 bytes).
+Output written on thesis.pdf (47 pages, 3446958 bytes).
 PDF statistics:
- 233 PDF objects out of 1000 (max. 8388607)
- 140 compressed objects within 2 object streams
+ 250 PDF objects out of 1000 (max. 8388607)
+ 146 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 

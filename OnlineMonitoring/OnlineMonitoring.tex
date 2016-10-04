@@ -1,12 +1,16 @@
 % Chapter on Online Monitoring, Data Quality Monitoring & Event Displays
 % 10 pages
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{Online Monitoring \& Event Displays for the 35ton}
 
-Monitoring of the data collected during the running of an experiment is imperative to ensure a high quality of data is maintained.  Such monitoring is often provided in real-time (`Online Monitoring'), summarising the data from the current run, or in near real-time (`Nearline Monitoring'), summarising data over runs from typically the previous day, week or month to represent the longer term fluctuations in the data quality.  An event display, designed to illustrate physics events as they occur in the detector, is another desirable feature hugely useful to those ensuring the smooth running of the data collection.  A basic example of such a display is also produced by the monitoring system for the purposes of ensuring good quality physics data collection is maintained.  The system developed to provide online feedback, including an online event display, for the 35ton Run II data taking period is discussed in this present section.
+Monitoring of the data collected during the running of an experiment is imperative to ensure a high quality of data is maintained.  Such monitoring is often provided in real-time (`Online Monitoring'), summarising the data from the current run, or in near real-time (`Nearline Monitoring'), summarising data over runs from typically the previous day, week or month to represent the longer term fluctuations in the data quality.  The system developed to provide online feedback for the 35ton Run II data taking period is discussed in this present section.
 
-The system is designed to be flexible and provide prompt feedback for those operating the experiment.  It was thus included as part of the DAQ (Data Acquisition) system, lbne-artdaq, discussed in Sec. \ref{sec:lbne-artdaq}.  The monitoring framework itself is the subject of Sec. \ref{sec:OnlineMonitoring}, with its two functions, data quality monitoring and producing online event displays, presented in Sec. \ref{sec:DQM} and Sec. \ref{sec:EventDisplay} respectively.  Finally, the web interface developed to fascilitate synchronisation of this monitoring data to a dedicated web page for ease of access is briefly described in Sec. \ref{sec:WebInterface}.
+An event display, designed to illustrate physics events as they occur in the detector, is another desirable feature hugely useful during data collection.  A basic example of such a display is also produced by the monitoring system for the purposes of ensuring good quality physics data collection is maintained.
 
+The system is designed to be flexible and provide prompt feedback for those operating the experiment.  It was thus included as part of the DAQ (Data Acquisition) system, lbne-artdaq, discussed in Sec. \ref{sec:lbne-artdaq}.  The monitoring framework itself is the subject of Sec. \ref{sec:OnlineMonitoring}, with its two functions, data quality monitoring and producing online event displays, presented in Sec. \ref{sec:DQM} and Sec. \ref{sec:EventDisplay} respectively.  Finally, the web interface developed to allow synchronisation of this monitoring data to a dedicated web page for ease of access is briefly described in Sec. \ref{sec:WebInterface}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{The DAQ Framework}\label{sec:lbne-artdaq}
 
 Experiments at FNAL are moving over to using artdaq, a centrally-maintained data acquisition system built on the art framework utilised by all offline software written for experiments hosted at the lab.  The DUNE 35ton experiment was one of the first to use this new software (may be the first... but uBooNE and LArIAT possibly use it... I'll check!) and used an experiment specific system named lbne-artdaq \footnote{Since the formation of the DUNE experiment occurred only a few months before the running of the 35ton, all online software maintained the use of the outdated `lbne' descriptor to prevent unnecessary potential problems associated with large scale code changes and alleviate the risk of further delays.  It should be again stressed that the 35ton was recognised by the DUNE collaboration as an integral part of the DUNE plan and the use of \textit{lbne} was in no way an indication of a project associated only with the dissolved previous experiment!}.  A general overview of lbne-artdaq is shown in Fig. \ref{fig:lbne-artdaq}.
@@ -24,13 +28,14 @@ There are two aggregators which take the full events but process them in very di
 
 Each of the DAQ processes runs on a machine on the private DAQ network and is configured as normal within art (using the \textit{fhicl} (Fermilab Hierarchial Configuration Language) configuration language).  Two nodes on the main FNAL network (lbne-gateway01/02) provide access to these private machines, of which there are 7 (lbnedaq1-7), and contain all scripts and setup necessary to run through the DAQ via a command line interface.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Online Monitoring Framework}\label{sec:OnlineMonitoring}
 
 The framework developed for the monitoring system had the following desgin goals:
 
 \begin{itemize}
-\item to be able to analyse the data read out of memory it in its raw `DAQ format`;
-\item to be as computationally efficient as possible to allow for processing at the event rate;
+\item to be able to analyse the data read out of memory it in its raw `DAQ format';
+\item to be as computationally efficient as possible to allow for processing at the event rate (data taking rate);
 \item to provide the flexibility for further monitoring plots to be added with ease;
 \item to allow for use of an online event display to provide comprehensible images of the raw data.
 \end{itemize}
@@ -44,13 +49,14 @@ In general, the final developed system succeeded in all these goals and provided
   \label{fig:OnlineMonitoringFramework}
 \end{figure}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Monitoring Framework Design}\label{sec:MonitoringFrameworkDesign}
 
 The setup consists of a central `module', \texttt{OnlineMonitoring\_module.cc}, which is configured within the art framework through its base class.  The OnlineMonitoring class controls the running of the system and owns instances of further classes, each designed for a specific purpose, controlling the data flow by calling the relevant methods when required.  Once an event has been obtained, the data for each component is processed and repackaged into RCEFormatter, SSPFormatter and PTBFormatter objects.  The purposes of this method are thus:
 \begin{itemize}
-\item to provide an interface between the raw data and the methods which analyse the data.  This is important as it provides a single point of maintainance for when formats change and allow for various `DAQ modes` to use the same analysis code;
-\item to separate interaction with the DAQ from the handling of data objects;
-\item to allow for jumping around the data for more detailed data analysis which would not be possible if just looking though the data linearly.
+\item to provide an interface between the raw data and the methods which analyse the data.  This is important as it provides a single point of maintainance for when formats change and allow for various `DAQ modes' to use the same analysis code;
+\item to separate interaction with the DAQ from the handling of output data objects;
+\item to fascilitate jumping around the data for more detailed analysis which would not be possible if just looking through linearly.
 \end{itemize}
 The main drawback to performing this step is it requires all the data to be held in memory until the end of the event and represents basically the same information as initially present.  However, it was decided the advantages were worth the compromises in memory useage required and no problems were apparent during the course of the run except when operating at the very limits of the capability of the DAQ.
 
@@ -58,6 +64,7 @@ These reformatted data objects are then passed to the methods in the MonitoringD
 
 The event display is handled by its own dedicated class, EventDisplay; this has methods for making the displays and saving them as an image in the correct place when required.  It is designed to accept the reformatted RCE object and presents the data in as meaningful way as possible; this is detailed fully in Sec. \ref{sec:EventDisplay}.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Writing Monitoring Data}\label{sec:WritingMonitoringData}
 
 The data objects are created new for each subrun and are written out at three points during data taking:
@@ -70,8 +77,9 @@ The parameters N and M are user defined and were set to 30 and 500 resepectively
 
 The event displays are computationally expensive to make and so were only created once per subrun during normal running.  However, since a subrun was automatically stopped by the DAQ and a new one started once the output file had reached 5 GB in size, and (since zero suppression was not utilised at any point during the run) this occurred on average every four minutes, a new event display was made every few minutes.
 
-All the output data were saved on a shared disk on the gateway DAQ machines for further use.  This is discussed properly in Sec. \ref{sec:WebInterface} below.
+All the output data are saved on a shared disk on the gateway DAQ machines for further use.  This is discussed in Sec. \ref{sec:WebInterface} below.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Configuring the Monitoring}\label{sec:MonitoringConfiguration}
 
 [Possibly don't need this section...]
@@ -98,16 +106,88 @@ The system was designed to be flexible and many parameters were available to con
 \item MicrosliceTriggerLength (5) -- the length of the trigger.
 \end{itemize}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Data Quality Monitoring}\label{sec:DQM}
 
+The overarching aims of the online monitoring system was to provide direct feedback informing the operators of the quality of the data being taken.  This is vital for various different aspects of data taking, for example
+\begin{itemize}
+\item ensuring all detector components being used in the currect run are receiving and sending on data;
+\item noting the TPC readout has entered the `high noise state` and acting accordingly; [MW: I will probably have explained what this is in a previous chapter!]
+\item checking the trigger rates from the external cosmic muon counters are feasible;
+\item etc.
+\end{itemize}
 
+The monitoring was diagonalised in a similar way to the DAQ readout with data from the TPC, photon detector and external counters processed separately.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{TPC Monitoring}\label{sec:TPCMonitoring}
+
+Ensuring the high quality of TPC data involved mainly considering various distributions of the ADC values provided by the front-end boards, separated by channel, board and APA.  The mean and RMS of the ADC values for a given channel provides information such as the measured pedestal and the level of noise being read out.  The uncorrelated component of the noise can be monitored using the concept of `DNoise'; this considers the difference in ADC value between two neighbouring channels at a given readout time and represents the level of noise which would be impossible to remove by the use of coherent noise filters only.  Unfortunately, for the 35ton, this uncorrelated component made up most of the noise across all channels (see Fig. \ref{fig:DQMPlot1}).  FFTs of the signal waveforms, performed separately for each RCE, were also useful in monitoring bands of noise in frequency space.
+
+Monitoring of various other problems, such as the digitiser stuck code issue, synchronisation concerns resulting in a different number of microslices being saved in corresponding RCE millislices, and the asymmetry of bipolar pulses, were added as these issues became apparent during the commissioning.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Photon Detector Monitoring}\label{sec:PhotonMonitoring}
+
+Analogously to the TPC situation, monitoring of the photon detectors mainly involved considering various ADC distributions separated by optical channel and by detector.  The peak height, pedestal and integral of each waveform were also considered as a function of channel to ensure each were operating consistently.
+
+The triggers sent on by the SSPs were also studied; unfortunately due to the design of the monitoring framework (with it not guarenteed to receive each event), trigger rates were challenging to compute.  Eventually, it was decided to leave them in the monitoring but only consider the relative rates -- the monitoring code was used offline, processing closed files, to ensure all events are considered and determine accurate rates.  Along with the trigger rate, the number of triggers, the fraction of events containing a trigger and the number of readout ticks within each trigger were also considered.
+
+During installation, one photon detector was erroneously left unconnected to its SSP and so was unavailble during the run.  This was spotted using the online monitoring -- unfortunately after the cryostat had been sealed however!
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{External Counter Monitoring}\label{sec:CounterMonitoring}
+
+Since monitoring the external counters primarily involves considering trigger rates, a similar problem to that encountered in the photon detector monitoring was faced.  A similar solution was agreed upon and the trigger rates were only considered relative to different counters.  For each counter, the hit rate and the average activation time were monitored to ensure counters in similar positions were recording similar cosmic muon data.  The number and type of payloads sent on from the PTB were also detailed so the amount of data, along with information about what the data are comprised of, can be monitored.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{General Monitoring}\label{sec:GeneralMonitoring}
+
+A variety of useful quantities not pertaining to any specific subcomponent were also monitored to assure smooth data taking.  These include the size of output files from recent runs, the average event size from recent runs, information about which detector subcomponents are taking data and the number of events seen by each and also synchronisation information between various detector components.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{DQM Plots}\label{sec:DQMPlots}
+
+The DQM section of the online monitoring produced around 60 figures each time it is run, illustrating the data discussed in the previous sections.  It is unnecessary to reproduce many here [perhaps an appendix? I think unnecessary though] but a sample for reference are shown in Fig. \ref{fig:DQMPlots}.
+
+\begin{figure}[p]
+  \centering
+  \begin{subfigure}{0.48\linewidth}
+    \centering
+    \includegraphics[width=0.95\textwidth]{DQM1.png}
+    \caption{TPC noise. The total noise (RMS of the ADC values) is shown in blue and the uncorrelated component of this noise is shown in green.  This is determined by considering the `DNoise', the difference in ADC between neighbouring channels for any given tick.}
+    \label{fig:DQMPlot1}
+  \end{subfigure}
+  \begin{subfigure}{0.48\linewidth}
+    \centering
+    \includegraphics[width=0.95\textwidth]{DQM2.png}
+    \caption{FFT of the waveform read out by the first RCE (channels 1--128).}
+    \label{fig:DQMPlot2}
+  \end{subfigure}
+  \begin{subfigure}{0.48\linewidth}
+    \centering
+    \includegraphics[width=0.95\textwidth]{DQM3.png}
+    \caption{ADC values as a function of channel; incredibly useful plot containing the mean and RMS for all channels together.}
+    \label{fig:DQMPlot3}
+  \end{subfigure}
+  \begin{subfigure}{0.48\linewidth}
+    \centering
+    \includegraphics[width=0.95\textwidth]{DQM4.png}
+    \caption{Subdetectors which are successfully collecting data.  In this particular run, it can be seen one quarter of the TPC readout was turned off, along with three photon detector readouts.}
+    \label{fig:DQMPlot4}
+  \end{subfigure}
+  \caption[Selection of Data Quality Monitoring figures]{Demonstration of various plots used in the Data Quality Monitoring for the 35ton. [Images are probably placeholders at the moment and should be reconsidered.]}
+  \label{fig:DQMPlots}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Online Event Display}\label{sec:EventDisplay}
 
 One of the highlights of being in ROC West (Remote Opertation Control room at FNAL) during data taking was watching the online event display refresh with updated images representing cosmics passing through the detector.  Watching tracks appear in the data represented such a hugh acheivement for the DUNE 35ton operations team it never failed to cause excitement every time a new event appeared.  The event display also allowed for an incredibly straight forward way of monitoring the data -- high noise states, poor LAr purity and drift field problems were all immediately evident from the display.
 
 Given the way in which data were read out of the detector, it proved challenging finding a way to represent this in a simple way that was comprehensible.  The construction of such a display is the subject of this section.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Selecting the Data}\label{sec:SelectingEVDData}
 
 [The data format will likely be described in the 35ton section -- most of this will probably be moved up to that point and referenced at a later stage...]
@@ -117,25 +197,28 @@ The raw format for the TPC data is complicated and has many levels of structure.
 \begin{figure}[p]
   \centering
   \includegraphics[width=14cm]{data_format.png}
-  \caption[35ton data format]{Demonstration of the format used in 35ton raw data.  A `DAQ event` is composed of a single millislice from each component, each containing further substructure unique to the readout elements.  See the explaination in the text for further details.}
+  \caption[35ton data format]{Demonstration of the format used in 35ton raw data.  A `DAQ event' is composed of a single millislice from each component, each containing further substructure unique to the readout elements.  See the explanation in the text for further details. [The image is possibly confusuing -- can remake if necessary.]}
   \label{fig:DataFormat}
 \end{figure}
 
-As the detector collects data, the RCEs continually create and save microslices to send to the DAQ to form a millislice.  These microslices are empty (contain no nanoslices) until a trigger is received, at which point nanoslices are made and saved within each microslice.  There is also a buffer in place to save a certain number of full microslices (microslices containing nanoslices) before the microslice containing the trigger.  A certain number of full microslices proceeding the trigger are also recorded by the RCEs.  During normal running, a `$4+1+10$' format was employed; four microlices containing nanolices before the trigger was recieved, the microslice containing the trigger, and the ten following microslices.  It should be further noted that, since the DAQ was designed for continuous data readout, these microlices need not necessarily be within the same millislice: it is possible for the trigger to occur in microslice 18 of a certain millislice, meaning the 15 filled microslices will straddle successive millislices.  This is demonstrated in Fig. \ref{fig:TriggeredEvent}.
+As the detector collects data, the RCEs continually create and save microslices to send to the DAQ to form a millislice.  These microslices are empty (contain no nanoslices) until a trigger is received, at which point nanoslices are made and saved within each microslice.  There is also a buffer in place to save a certain number of full microslices (microslices containing nanoslices) before the microslice containing the trigger.  A certain number of full microslices proceeding the trigger are also recorded by the RCEs.  During normal running, a `$4+1+10$' format was employed; four microlices containing nanolices before the trigger was recieved, the microslice containing the trigger, and the ten following microslices.  It should be further noted that, since the DAQ was designed for continuous data readout, these microlices need not necessarily be within the same millislice: it is possible for the trigger to occur in microslice 18 of a certain millislice, resulting in the 15 filled microslices straddling successive millislices.  This is demonstrated in Fig. \ref{fig:TriggeredEvent}.
 
 \begin{figure}[ht]
   \centering
   \includegraphics[width=16cm]{triggered_event.png}
-  \caption{Demostration of how TPC data is saved when using a DAQ designed for continuous readout.  The black arrows represent hypothetical triggers occurring within the duration of a particular microslice.  In each case, the 4 preceeding microslices and the 10 proceeding microslices are filled with nanoslices and saved; all other microslices are saved with no nanoslices since they contain no useful data.  An example of such an event is shown occurring in Millislice 0 in the figure.  As described in the text, a trigger can cause the useful microslices to straddle consequetive millislices; this is represented in the following millislices in the figure.}
+  \caption{Demostration of how TPC data is saved when using a DAQ designed for continuous readout.  The black arrows represent hypothetical triggers occurring within the duration of a particular millislice.  In each case, the 4 preceeding microslices and the 10 proceeding microslices are filled with nanoslices and saved; all other microslices are saved with no nanoslices since they contain no useful data.  An example of such an event is shown occurring in millislice 0 in the figure.  As described in the text, a trigger can cause the useful microslices to straddle consequetive millislices; this is represented in the following millislices in the figure.}
   \label{fig:TriggeredEvent}
 \end{figure}
 Note this also results in real `physics events' being saved in separate `DAQ events'; for this reason a splitter/stitcher module has been designed to extract the actual triggered events from the raw data and repackage them into a useful event structure -- this is the first stage before all offline analysis with the 35ton data.
 
 Since the event display runs online, a subtle selection must be applied to ensure the full physics event occurs within the current DAQ event; proceeding and preceeding events are unaccessible to the DAQ during running.  This is achieved by noting whether or not a trigger occurred (i.e. microslices contain nanoslices) when reformatting the RCE data in DataReformatter, and which microslice it occurred in.  For the event display, a triggered event is only useful if the trigger occurred within a certain range (e.g. microslice 5 to microslice 10); this ensures all the filled microslices are present within the current millislice.  The event displayed is then filled for a given range of microslices around the trigger to capture all the actual physics data.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Representing the Data}\label{RepresentingEVDData}
 
-Due to the wrapped nature of the induction wires in the 35ton, and disambiguation impossible without full reconstruction, it makes little sense to look at charge deposited on these planes.  This results in only the collection planes being useful for showing the data in this way, meaning just one dimension.  A second dimension is possible if the view is changed to show a representation of the TPC from above and use drift time as a second dimension.  This requires the two centre APAs be shown together as one combined readout structure.  A `global collection wire' is defined by numbering the wires across the APAs, leaving a space for the gaps inbetween, and used to represent the dimension across the TPC.  The drift time, in ticks, represents the second spacial coordinate once charge collected in the short drift volume has been corrected to a negative tick.
+[This section requires background of reconstruction -- this will be the previous chapter.]
+
+Due to the wrapped nature of the induction wires in the 35ton, and disambiguation impossible without full reconstruction, it makes little sense to look at charge deposited on these planes.  This results in only the collection planes being useful for showing the data in this way, meaning just one dimension.  A second dimension is possible if the view is changed to show a representation of the TPC from above and using the drift time as a coordinate.  This requires the two centre APAs be shown together as one combined readout structure.  A `global collection wire' is defined by numbering the wires across the APAs, leaving a space for the gaps inbetween, and used to represent the dimension across the TPC.  The drift time, in ticks, represents the second spacial coordinate once charge collected in the short drift volume has been corrected to a negative tick.
 
 By working with the system used to record pedestal values of the channels, it is possible to perform an approximate pedestal subtraction on the data.  Whenever a pedestal run is performed by a shifter, a text file containing all the calculated pedestal values for each channel is created and subsequently uploaded to a database for offline use.  By making sure a copy of the most recent pedestal file is always available to the monitoring framework, it is possible to always represent the charge as accurately as possible.  It is then ensured the pedestal-subtracted ADC values are within the range $0-250$ to limit the noisy channels and correct for any accidental negative charge.  Finally, given the relatively low signal-to-noise ratio, it was decided a greyscale image showed the best resolution for seeing tracks traverse the cryostat.
 
@@ -148,10 +231,12 @@ An example event display is shown in Fig. \ref{fig:EVD}.
   \label{fig:EVD}
 \end{figure}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Monitoring Web Interface}\label{sec:WebInterface}
 
 The output of the monitoring is vital in assuring the experiment continues to take high quality, analysable data.  To facilitate the monitoring, a web interface has been developed to enable all useful information to be displayed on the web and allow convenient, universal access.  This inferface, along with the complementary web page, is relatively basic but certainly functional and delivered all expected of it for the purposes of a short prototype run.  The method of automating the transfer of the monitoring data from where it is saved by the DAQ process to somewhere accessible by the web server is briefly described in Sec. \ref{sec:AutomatedDataTransfer} and the web page itself discussion in Sec. \ref{sec:WebPage}.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Automated Data Transfer}\label{sec:AutomatedDataTransfer}
 
 The most complicated part of the web interface is ensuring the monitoring output is available in the correct place when needed.  This is achieved using a combination of disk mounting and automated scripts, demonstrated in Fig. \ref{fig:WebInterface}.
@@ -165,17 +250,19 @@ The most complicated part of the web interface is ensuring the monitoring output
 
 The DAQ aggregator processes run on the lbnedaq6 and lbnedaq7 nodes, requiring any saved output be put in a place which is accessible to these machines.  The solution which was developed was to mount a data disk belonging to lbne35t-gateway02 onto these private nodes and save all relevant information there.  The constraints placed on the setup by the DAQ group, which preferred nothing other than DAQ processes to run on lbne35t-gateway01, required a second gateway node to be utilised to move the files off the private network.  Using lbne35t-gateway02 also allowed the Fermilab web area to be mounted, with an automated job utilised to copy the monitoring output from the data disk to the specific area on the web server.  The frequency of this job, 30s, defined the maximum latency one could expect between data being written out and images appearing online.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Web Page}\label{sec:WebPage}
 
-The web page was hosted at FNAL and located at lbne-dqm.fnal.gov.  The method in the monitoring framework used to write out all the ouput also wrote and saved all the html used to allow images of the plots to be displayed on the web.  This html is copied, along with all the images and data files, to the web area as discussed above in Sec. \ref{sec:AutomatedDataTransfer}.  The web page was basic but performed all required for use in the 35ton; it had dedicated pages for all the data quality monitoring information and the online event display (the nearline monitoring was also hosted at this website but not described here).  See Fig. \ref{fig:WebPage} for a demonstration of web page and example navigation.
+The web page was hosted at FNAL and located at lbne-dqm.fnal.gov.  The method in the monitoring framework used to write out all the ouput also wrote and saved all the html used to allow images of the plots to be displayed on the web.  This html is copied, along with all the images and data files, to the web area as discussed above in Sec. \ref{sec:AutomatedDataTransfer}.  The web page was basic but performed all required for use in the 35ton; it had dedicated pages for all the data quality monitoring information and the online event display (the nearline monitoring was also hosted at this website but is not described here).  See Fig. \ref{fig:WebPage} for a demonstration of web page and example navigation.
 
 \begin{figure}[ht]
   \centering
   \includegraphics[width=14cm]{webPage.png}
-  \label{fig:WebPage}
   \caption[Web page for online monitoring and event displays]{Demonstration of the web page developed to display information produced by the online monitoring and event display.  The pages are written in basic html but allowed prompt and convenient feedback directly from the DAQ be accessed anywhere and assist in remote monitoring of the experiment.  All previous runs are also kept on the website for reference.}
+  \label{fig:WebPage}
 \end{figure}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Online Monitoring Summary}
 
-The monitoring, with web support, was imperative for the success of the 35ton.  During the ongoing vertical slice tests during summer 2015, the majority of the setup was in place and enabled progress in testing and signing off the APAs to be completed months faster than it otherwise would have been.  During this time, and also during commissioning, this framework was the only way of analysing the data without reading it into LArSoft and writing specific software; it was thus invaluable to the successfully running of the 35ton much increased the efficiency of data collection.  The online monitoring was a success and is currently in the process of being adapted for use in the future of DUNE, specifically for use in protoDUNE in 2018.
+The monitoring, with web support, was imperative for the success of the 35ton.  During the ongoing vertical slice tests during summer 2015, the majority of the setup was in place and enabled progress in testing and signing off the APAs to be completed months faster than it otherwise would have been.  During this time, and also during commissioning, this framework was the only way of analysing the data without reading it into LArSoft and writing specific software.  Overall, the framework provided essential feedback and contributed positively towards DAQ uptime during the data taking period.  It is currently in the process of being adapted for future use in DUNE, specifically as part of the protoDUNE DAQ for the run in 2018.
