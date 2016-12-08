@@ -1,0 +1,181 @@
+% Chapters of thesis -- plan
+
+\documentclass[a4paper,12pt]{report}
+\usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
+\usepackage{enumitem}
+\setlist[enumerate]{label*=\arabic*.}
+\linespread{1.5}
+
+\begin{document}
+
+\chapter*{Proposed thesis chapters}
+\renewcommand*\thesection{\arabic{section}}
+
+\section{Introduction}
+Short chapter -- ~10 pages. Just a brief overview before getting into experiments/theory.
+\subsection{Introduction to Neutrino Physics}
+History of the field.\\
+Maybe something cliched about Pauli's postulate!\\
+Direct detection.\\
+Brief description of neutrino physics and some motivation to set the scene.
+\subsection{Current Understanding}
+Including state of the field at the moment.
+\subsection{The Future}
+Brief look at the direction the field is headed over the next few years.\\
+Will provide motivation for the rest of the thesis!
+
+\section{Neutrino Physics}
+Chapter to cover all relevant theory and experiments -- ~30 pages.\\
+The theory will be discussed in the context of relevant neutrino experiments.\\
+Will also include a description of the liquid argon TPC concept?
+\subsection{Neutrino Theory}
+Background of relevant theory discussed here.
+\subsection{Current Experiments}
+A look at the currect experiments which are relevant.
+\subsection{Future Experiments}
+A look towards future experiments.
+\subsubsection{Liquid Argon TPC Concept}
+Need to discuss this somewhere -- here looks like the best place!
+
+\section{The Deep Underground Neutrino Experiment}
+Standard experiment chapter -- ~20 pages.
+\subsection{Our Physics Needs DUNE!}
+Or some alternate pun... (probably only `funny' in the UK!)\\
+Motivation and the need for DUNE.
+\subsection{DUNE Details}
+Description of the experiment.
+\subsection{The DUNE Effect}
+Potential physics reach -- sensitivity etc.
+\subsection{The Road To DUNE}
+Discuss the plan which will allow DUNE to be built and deliver results.\\
+Background -- why LAr (may already have covered).\\
+The path so far -- ICARUS, MTS, LAPD, 35ton.\\
+Motivate the next chapter...
+
+\section{The 35t Prototype Experiment}
+Chapter to describe the 35t -- ~30 pages\\
+Will contain background and a discussion of Runs I and II
+\subsection{Before the 35ton}
+All the tests and prototypes leading up to the 35ton.
+\subsubsection{Materials Test Stand}
+The materials test stand, which tested different purification techniques, was essential for the 35ton.
+\subsubsection{Liquid Argon Purity Demonstrator (LAPD)}
+The first experiment that showed we don't have to remove impurities through vacuum techniques and that it is possible to 'piston purge' using warm argon gas, which is heavier than air.
+\subsection{The 35ton Overview}
+Description of the 35t.
+\subsubsection{Cryostat}
+Membrane cryostat -- first LAr experiment to be built using such technology.
+\subsubsection{Filling the 35ton}
+Since the way the 35ton is filled and operated is the main point of the prototype, it would be good to talk about it here.
+\subsubsection{Detector}
+APAs -- first experiment to read out two drift regions with the same readout planes.
+\subsubsection{Detector Electronics \& DAQ}
+Testing out detector components such as RCEs and SSPs before future experiments (protoDUNE \& DUNE).\\
+DAQ: first use of lbne-artdaq!
+\subsubsection{The Sheffield Camera System}
+Description of the system, the motivations and results.
+\subsection{The 35ton Runs}
+Talk about both runs, Run I (Jan - Mar 2014) and Run II (Jan - Mar 2016).
+\subsubsection{Run I}
+\paragraph{Overview}
+Discussion on the first run; its purpose and goals.
+\paragraph{Achievements}
+Acheived and maintained ~3 ms lifetime in a membrane cryostat -- first time this has been done!
+\subsubsection{Run II}
+\paragraph{Overview}
+Discussion on the second run; its purpose and goals.
+\paragraph{Achievements}
+The achievements of the run -- there were some!\\
+Maintained 3ms lifetime with the detector in place.\\
+HV feedthrough worked perfectly.\\
+Purification system worked well (before it failed!)\\
+First use of cold digitisers in LAr?\\
+Triggerless DAQ more or less a success.
+\paragraph{Problems \& Challenges}
+Overview of the issues faced when running the 35ton.
+\subsection{Lessons from the 35ton}
+There are numerous, and worth learning!  Every outcome of the 35ton will be detailed and discussed here in the context of improving future experiments.
+
+\section{Reconstruction in LArTPCs}
+Section discussing how reconstruction is possible in a LArTPC -- 30 pages (because it includes a lot of original work).\\
+Probably wouldn't deserve its own section but given how much time I've spent working in this area I think it makes sense to focus on it as much as possible.\\
+Two distinct sections: the general reconstruction chain and then the specifics of shower reconstruction.\\
+Probably would be good to talk about LArSoft too, since it's incredible.
+\subsection{The LArSoft Framework}
+Overview of the framework, focussing on its flexibility in LAr reconstruction.
+\subsection{The Reconstruction Chain}
+The full chain, from charge deposited by drift electrons in the detector to the 3D reconstructed objects ready for analysis.
+\subsubsection{From Charge to Hits}
+Discuss how charge deposited can be identified as a `hit'. Include deconvolution and hit shaping.
+\subsubsection{2D Object Reconstruction}
+Various ways of grouping these hits together to form 2D objects.
+\subsubsection{3D Object Reconstruction}
+Ways of reaching the final reconstruction output; 3D objects ready for analysis.
+\subsubsection{Alternative Chains}
+Probably worth mentioning alternatives, without going into specific detail, such as WireCell.
+\subsection{Shower Reconstruction in LArTPCs}
+Whole section on my reconstruction work.
+\subsubsection{Showers Overview}
+Discuss the concept of showering within a LArTPC and the importance of accurate reconstruction.
+\subsubsection{BlurredCluster Algorithm}
+Section on the BlurredCluster 2D reconstruction algorithm.
+\subsubsection{EMShower Algorithm}
+Section on the EMShower 3D reconstruction algorithm.
+\subsubsection{Track Shower Separation}
+Section on how we achieve track shower separation (well, we don't yet, but we hopefully will be then!)
+\subsubsection{Performance of the Reconstruction}
+Loads of performance and validation plots to demonstrate how effective the reconstruction is.
+
+\section{Online Monitoring \& Event Displays for the 35ton}
+Short chapter -- 10 pages\\
+Describe the Online Monitoring framework and its use in Run II of the 35ton.\\
+Could come before the reconstruction chapter, i.e. directly after the 35ton overview, but I feel context is required (e.g. how the data are used for analysis) going forward.
+\subsection{The DAQ Framework}
+Overview of the lbne-artdaq system to provide background when discussing the monitoring.
+\subsection{Online Monitoring for DQM}
+Description of the Online Monitoring setup; its design choices and justifications.\\
+Also the goals and targets for the system.
+\subsection{Online Event Displays}
+Special section on the event display since it was really cool in the end and worked well.\\
+Description of the display and why it looks the way it does.\\
+How it fits into the system.
+\subsection{Web Interface}
+Short section discussing how the monitoring interfaced with the web to allow remote monitoring of the experiment.
+
+\section{APA Crossing Muons \& Shower Particles in the 35ton}
+Section on analysis of 35ton data -- 20 pages\\
+Dunno about name of chapter...\\
+Will probably have three distinct things which I've looked at:\\
+-- APA Crossing Muons; an analysis of this unique data set. Include small studies such as comparing noise and drift velocities of the two segments of tracks which pass through the APAs. Also talk about the timing issues which are apparent when looking at this data, and my victorious resolution!\\
+-- Measuring purity of LAr with tracks; very short and generic study but useful to do as an exercise for myself -- also instructive when looking at the data.\\
+-- Shower reconstruction in the 35ton; even if it's just one shower, I want something here! It's the reason I started working on shower reconstruction after all. Of course, hopefully we'll have a full automated pi0 selection and reconstructed mass peak, but we'll see...
+\subsection{APA Crossing Muons}
+All the APA crossing muons work.
+\subsubsection{Verifying Detector Timing}
+Measuring T0 and fixing detector component issues.
+\subsubsection{Comparing Collection Plane Noise}
+As says on tin.
+\subsubsection{Comparing Drift Velocity in Both Drift Regions}
+Again, tin.
+\subsubsection{A Look at the Charge Deposited as Particles Traverse}
+See how the charge deposited looks as particles pass through the APAs.
+\subsection{LAr Purity Measurement with Reconstruction Track}
+A neat little study.
+\subsection{Reconstruction of Shower Particles}
+As much as I can get done here!
+
+\section{Charged-Current Single $\pi_0$ Analysis in DUNE Far Detector Monte Carlo}
+Full analysis (hopefully!) -- 40 pages?\\
+Extension of the reconstruction work to the DUNE far detector.\\
+Discuss channel importance.\\
+Show we can reconstruct these events -- reconstruction efficiencies etc.\\
+Separation of electrons and photons in FD\\
+Show separation between these events and CC$\nu_e$ events -- this would be a result!\\
+Bonus: do small $\nu_e$ oscillation signal analysis using the reconstruction.
+
+\section{Summary}
+Summarise everything! $<$10 pages
+
+Total pages as noted above: $\sim$ 200
+
+\end{document}
