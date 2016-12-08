@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  4 OCT 2016 13:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  8 DEC 2016 11:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -549,9 +549,9 @@ Package biblatex Info: Reference segment=0 on input line 16.
 \openout6 = `thesis.lof'.
 
 
-(./Acknowledgements/Acknowledgements.tex [6]) [7
+(./Acknowledgements/Acknowledgements.tex [6] [7
 
-]
+]) [8]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 35.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
@@ -559,14 +559,14 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 35.
- [8]
+ [9]
 Overfull \hbox (16.75555pt too wide) in paragraph at lines 88--89
 []\OT1/cmr/m/n/12 Show we can re-con-struct $\OML/cmm/m/it/12 ^^W[]$ \OT1/cmr/m
 /n/12 FD elec-trons; re-con-struc-tion ef-fi-cien-cies/completeness/cleanliness
 
  []
 
-[9] (./Introduction/Introduction.tex
+[10] (./Introduction/Introduction.tex
 Chapter 1.
 ) (./NeutrinoPhysics/NeutrinoPhysics.tex [1
 
@@ -604,7 +604,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--34
 
  []
 
-<NeutrinoPhysics/NygrenTPC.png, id=43, 849.1725pt x 545.03625pt>
+<NeutrinoPhysics/NygrenTPC.png, id=46, 849.1725pt x 545.03625pt>
 File: NeutrinoPhysics/NygrenTPC.png Graphic file (type png)
 
 <use NeutrinoPhysics/NygrenTPC.png>
@@ -615,7 +615,7 @@ Overfull \hbox (3.4416pt too wide) in paragraph at lines 63--83
  [][] 
  []
 
-<NeutrinoPhysics/RubbiaLArTPC.png, id=48, 740.7675pt x 585.18625pt>
+<NeutrinoPhysics/RubbiaLArTPC.png, id=52, 740.7675pt x 585.18625pt>
 File: NeutrinoPhysics/RubbiaLArTPC.png Graphic file (type png)
 
 <use NeutrinoPhysics/RubbiaLArTPC.png>
@@ -629,7 +629,7 @@ LaTeX Warning: Reference `fig:ElectricFieldScintillationIonisation' on page 6 u
 ndefined on input line 112.
 
 
-<NeutrinoPhysics/ElectricFieldScintillationIonisation.png, id=57, 460.72125pt x
+<NeutrinoPhysics/ElectricFieldScintillationIonisation.png, id=60, 460.72125pt x
  299.1175pt>
 File: NeutrinoPhysics/ElectricFieldScintillationIonisation.png Graphic file (ty
 pe png)
@@ -656,20 +656,20 @@ See the caption package documentation for explanation.
 LaTeX Warning: Reference `fig:LAPDTankPiping' on page 10 undefined on input lin
 e 24.
 
-<35t/LAPDTankPiping.png, id=72, 823.075pt x 502.87875pt>
+<35t/LAPDTankPiping.png, id=76, 823.075pt x 502.87875pt>
 File: 35t/LAPDTankPiping.png Graphic file (type png)
 
 <use 35t/LAPDTankPiping.png>
 Package pdftex.def Info: 35t/LAPDTankPiping.png used on input line 28.
 (pdftex.def)             Requested size: 426.79134pt x 260.76181pt.
  [10] [11 <./35t/LAPDTankPiping.png>]
-<35t/LAPDPurity.png, id=81, 711.65875pt x 473.77pt>
+<35t/LAPDPurity.png, id=84, 711.65875pt x 473.77pt>
 File: 35t/LAPDPurity.png Graphic file (type png)
  <use 35t/LAPDPurity.png>
 Package pdftex.def Info: 35t/LAPDPurity.png used on input line 47.
 (pdftex.def)             Requested size: 341.43306pt x 227.29858pt.
 
-<35t/PurityMonitor.png, id=82, 896.34875pt x 452.69125pt>
+<35t/PurityMonitor.png, id=85, 896.34875pt x 452.69125pt>
 File: 35t/PurityMonitor.png Graphic file (type png)
 
 <use 35t/PurityMonitor.png>
@@ -680,20 +680,20 @@ Package pdftex.def Info: 35t/PurityMonitor.png used on input line 58.
 LaTeX Warning: Reference `fig:ElectronLifetimes' on page 13 undefined on input 
 line 71.
 
-<35t/LAPDElectronLifetime.png, id=87, 1018.80624pt x 429.605pt>
+<35t/LAPDElectronLifetime.png, id=90, 1018.80624pt x 429.605pt>
 File: 35t/LAPDElectronLifetime.png Graphic file (type png)
 
 <use 35t/LAPDElectronLifetime.png>
 Package pdftex.def Info: 35t/LAPDElectronLifetime.png used on input line 75.
 (pdftex.def)             Requested size: 426.79134pt x 179.96744pt.
  [13 <./35t/PurityMonitor.png>]
-<35t/35tCryostat.png, id=92, 590.205pt x 253.94875pt>
+<35t/35tCryostat.png, id=95, 590.205pt x 253.94875pt>
 File: 35t/35tCryostat.png Graphic file (type png)
 
 <use 35t/35tCryostat.png>
 Package pdftex.def Info: 35t/35tCryostat.png used on input line 93.
 (pdftex.def)             Requested size: 426.79134pt x 183.64119pt.
- <35t/35tLAPD.png, id=93, 1367.1075pt x 556.0775pt>
+ <35t/35tLAPD.png, id=96, 1367.1075pt x 556.0775pt>
 File: 35t/35tLAPD.png Graphic file (type png)
 
 <use 35t/35tLAPD.png>
@@ -708,7 +708,7 @@ Overfull \vbox (237.90096pt too high) has occurred while \output is active []
 Chapter 5.
 [17
 
-] <OnlineMonitoring/lbne-artdaq.png, id=110, 995.72pt x 623.32875pt>
+] <OnlineMonitoring/lbne-artdaq.png, id=113, 995.72pt x 623.32875pt>
 File: OnlineMonitoring/lbne-artdaq.png Graphic file (type png)
 
 <use OnlineMonitoring/lbne-artdaq.png>
@@ -721,7 +721,7 @@ LaTeX Warning: Reference `sec:DetectorComponents' on page 18 undefined on input
  line 25.
 
 [18 <./OnlineMonitoring/lbne-artdaq.png>]
-<OnlineMonitoring/onlineMonitoringFramework.png, id=119, 690.58pt x 514.723pt>
+<OnlineMonitoring/onlineMonitoringFramework.png, id=122, 690.58pt x 514.723pt>
 File: OnlineMonitoring/onlineMonitoringFramework.png Graphic file (type png)
 
 <use OnlineMonitoring/onlineMonitoringFramework.png>
@@ -729,28 +729,28 @@ Package pdftex.def Info: OnlineMonitoring/onlineMonitoringFramework.png used on
  input line 47.
 (pdftex.def)             Requested size: 341.43306pt x 254.48628pt.
  [19] [20 <./OnlineMonitoring/onlineMonitoringFramework.png>] [21] [22] [23]
-<OnlineMonitoring/DQM1.png, id=138, 934.49126pt x 678.535pt>
+<OnlineMonitoring/DQM1.png, id=141, 934.49126pt x 678.535pt>
 File: OnlineMonitoring/DQM1.png Graphic file (type png)
 
 <use OnlineMonitoring/DQM1.png>
 Package pdftex.def Info: OnlineMonitoring/DQM1.png used on input line 157.
 (pdftex.def)             Requested size: 220.56308pt x 160.14943pt.
 
-<OnlineMonitoring/DQM2.png, id=139, 1050.92625pt x 691.58376pt>
+<OnlineMonitoring/DQM2.png, id=142, 1050.92625pt x 691.58376pt>
 File: OnlineMonitoring/DQM2.png Graphic file (type png)
 
 <use OnlineMonitoring/DQM2.png>
 Package pdftex.def Info: OnlineMonitoring/DQM2.png used on input line 163.
 (pdftex.def)             Requested size: 220.56308pt x 145.14189pt.
 
-<OnlineMonitoring/DQM3.png, id=140, 1026.83624pt x 678.535pt>
+<OnlineMonitoring/DQM3.png, id=143, 1026.83624pt x 678.535pt>
 File: OnlineMonitoring/DQM3.png Graphic file (type png)
 
 <use OnlineMonitoring/DQM3.png>
 Package pdftex.def Info: OnlineMonitoring/DQM3.png used on input line 169.
 (pdftex.def)             Requested size: 220.56308pt x 145.74757pt.
 
-<OnlineMonitoring/DQM4.png, id=141, 915.42pt x 683.55376pt>
+<OnlineMonitoring/DQM4.png, id=144, 915.42pt x 683.55376pt>
 File: OnlineMonitoring/DQM4.png Graphic file (type png)
 
 <use OnlineMonitoring/DQM4.png>
@@ -758,7 +758,7 @@ Package pdftex.def Info: OnlineMonitoring/DQM4.png used on input line 175.
 (pdftex.def)             Requested size: 220.56308pt x 164.69249pt.
  [24] [25 <./OnlineMonitoring/DQM1.png> <./OnlineMonitoring/DQM2.png> <./Online
 Monitoring/DQM3.png> <./OnlineMonitoring/DQM4.png>] <OnlineMonitoring/data_form
-at.png, id=152, 567.721pt x 680.141pt>
+at.png, id=155, 567.721pt x 680.141pt>
 File: OnlineMonitoring/data_format.png Graphic file (type png)
 
 <use OnlineMonitoring/data_format.png>
@@ -766,7 +766,7 @@ Package pdftex.def Info: OnlineMonitoring/data_format.png used on input line 19
 9.
 (pdftex.def)             Requested size: 398.33858pt x 477.2163pt.
  [26] [27 <./OnlineMonitoring/data_format.png>] <OnlineMonitoring/triggered_eve
-nt.png, id=160, 790.955pt x 571.736pt>
+nt.png, id=164, 790.955pt x 571.736pt>
 File: OnlineMonitoring/triggered_event.png Graphic file (type png)
 
 <use OnlineMonitoring/triggered_event.png>
@@ -774,14 +774,14 @@ Package pdftex.def Info: OnlineMonitoring/triggered_event.png used on input lin
 e 208.
 (pdftex.def)             Requested size: 455.24408pt x 329.06842pt.
  [28 <./OnlineMonitoring/triggered_event.png>] <OnlineMonitoring/evd.png, id=16
-6, 582.175pt x 568.1225pt>
+9, 582.175pt x 568.1225pt>
 File: OnlineMonitoring/evd.png Graphic file (type png)
 
 <use OnlineMonitoring/evd.png>
 Package pdftex.def Info: OnlineMonitoring/evd.png used on input line 229.
 (pdftex.def)             Requested size: 398.33858pt x 388.72812pt.
  [29] [30 <./OnlineMonitoring/evd.png>]
-<OnlineMonitoring/webInterface.png, id=174, 550.055pt x 333.245pt>
+<OnlineMonitoring/webInterface.png, id=177, 550.055pt x 333.245pt>
 File: OnlineMonitoring/webInterface.png Graphic file (type png)
 
 <use OnlineMonitoring/webInterface.png>
@@ -789,7 +789,7 @@ Package pdftex.def Info: OnlineMonitoring/webInterface.png used on input line 2
 46.
 (pdftex.def)             Requested size: 341.43306pt x 206.85892pt.
  [31 <./OnlineMonitoring/webInterface.png>] <OnlineMonitoring/webPage.png, id=1
-79, 1439.3775pt x 833.1125pt>
+82, 1439.3775pt x 833.1125pt>
 File: OnlineMonitoring/webPage.png Graphic file (type png)
 
 <use OnlineMonitoring/webPage.png>
@@ -843,10 +843,10 @@ xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
 live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texl
 ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texli
 ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (47 pages, 3446958 bytes).
+Output written on thesis.pdf (48 pages, 3449816 bytes).
 PDF statistics:
- 250 PDF objects out of 1000 (max. 8388607)
- 146 compressed objects within 2 object streams
+ 253 PDF objects out of 1000 (max. 8388607)
+ 148 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
