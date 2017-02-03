@@ -9,8 +9,8 @@ A level-1 auxiliary file: Introduction/Introduction.aux
 A level-1 auxiliary file: NeutrinoPhysics/NeutrinoPhysics.aux
 A level-1 auxiliary file: DUNE/DUNE.aux
 A level-1 auxiliary file: 35ton/35ton.aux
-A level-1 auxiliary file: OnlineMonitoring/OnlineMonitoring.aux
 A level-1 auxiliary file: LArReconstruction/LArReconstruction.aux
+A level-1 auxiliary file: OnlineMonitoring/OnlineMonitoring.aux
 A level-1 auxiliary file: 35tonAnalysis/35tonAnalysis.aux
 A level-1 auxiliary file: FarDetectorAnalysis/FarDetectorAnalysis.aux
 A level-1 auxiliary file: Summary/Summary.aux
@@ -18,16 +18,16 @@ The style file: apalike.bst
 A level-1 auxiliary file: Appendix1/appendix1.aux
 A level-1 auxiliary file: Appendix2/appendix2.aux
 Database file #1: References/references.bib
+Warning--I didn't find a database entry for "ICARUS2004"
 Warning--I didn't find a database entry for "Nygren1974"
 Warning--I didn't find a database entry for "Rubbia1977"
 Warning--I didn't find a database entry for "LAPD"
-Warning--I didn't find a database entry for "LBNE35tPhaseI"
-Warning--I didn't find a database entry for "ICARUS2004"
 Warning--I didn't find a database entry for "LArFilter"
-Warning--I didn't find a database entry for "LBNE35tPhaseIOverview"
+Warning--I didn't find a database entry for "LBNE35tonPhaseI"
+Warning--I didn't find a database entry for "LBNE35tonPhaseIOverview"
 You've used 0 entries,
             1935 wiz_defined-function locations,
-            500 strings with 4256 characters,
+            500 strings with 4264 characters,
 and the built_in function-call counts, 17 in all, are:
 = -- 0
 > -- 0

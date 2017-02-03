@@ -94,64 +94,49 @@ thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,thesis.tex)
 -include Figs/University_Crest.pdf.gpi.d
 thesis.d: $$(call graphics-source,Figs/University_Crest.pdf)
 thesis.pdf thesis._graphics: $$(call graphics-target,Figs/University_Crest.pdf)
--include Figs/NygrenTPC.png.gpi.d
-thesis.d: $$(call graphics-source,Figs/NygrenTPC.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,Figs/NygrenTPC.png)
--include Figs/RubbiaLArTPC.png.gpi.d
-thesis.d: $$(call graphics-source,Figs/RubbiaLArTPC.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,Figs/RubbiaLArTPC.png)
--include Figs/ElectricFieldScintillationIonisation.png.gpi.d
-thesis.d: $$(call graphics-source,Figs/ElectricFieldScintillationIonisation.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,Figs/ElectricFieldScintillationIonisation.png)
--include Figs/LAPDTankPiping.png.gpi.d
-thesis.d: $$(call graphics-source,Figs/LAPDTankPiping.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,Figs/LAPDTankPiping.png)
--include Figs/LAPDPurity.png.gpi.d
-thesis.d: $$(call graphics-source,Figs/LAPDPurity.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,Figs/LAPDPurity.png)
--include Figs/PurityMonitor.png.gpi.d
-thesis.d: $$(call graphics-source,Figs/PurityMonitor.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,Figs/PurityMonitor.png)
--include Figs/LAPDElectronLifetime.png.gpi.d
-thesis.d: $$(call graphics-source,Figs/LAPDElectronLifetime.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,Figs/LAPDElectronLifetime.png)
--include Figs/35tCryostat.png.gpi.d
-thesis.d: $$(call graphics-source,Figs/35tCryostat.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,Figs/35tCryostat.png)
--include Figs/35tLAPD.png.gpi.d
-thesis.d: $$(call graphics-source,Figs/35tLAPD.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,Figs/35tLAPD.png)
--include Figs/lbne-artdaq.png.gpi.d
-thesis.d: $$(call graphics-source,Figs/lbne-artdaq.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,Figs/lbne-artdaq.png)
--include Figs/onlineMonitoringFramework.png.gpi.d
-thesis.d: $$(call graphics-source,Figs/onlineMonitoringFramework.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,Figs/onlineMonitoringFramework.png)
--include Figs/DQM1.png.gpi.d
-thesis.d: $$(call graphics-source,Figs/DQM1.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,Figs/DQM1.png)
--include Figs/DQM2.png.gpi.d
-thesis.d: $$(call graphics-source,Figs/DQM2.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,Figs/DQM2.png)
--include Figs/DQM3.png.gpi.d
-thesis.d: $$(call graphics-source,Figs/DQM3.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,Figs/DQM3.png)
--include Figs/DQM4.png.gpi.d
-thesis.d: $$(call graphics-source,Figs/DQM4.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,Figs/DQM4.png)
--include Figs/data_format.png.gpi.d
-thesis.d: $$(call graphics-source,Figs/data_format.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,Figs/data_format.png)
--include Figs/triggered_event.png.gpi.d
-thesis.d: $$(call graphics-source,Figs/triggered_event.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,Figs/triggered_event.png)
--include Figs/evd.png.gpi.d
-thesis.d: $$(call graphics-source,Figs/evd.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,Figs/evd.png)
--include Figs/webInterface.png.gpi.d
-thesis.d: $$(call graphics-source,Figs/webInterface.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,Figs/webInterface.png)
--include Figs/webPage.png.gpi.d
-thesis.d: $$(call graphics-source,Figs/webPage.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,Figs/webPage.png)
+-include NeutrinoPhysics/Figs/NygrenTPC.png.gpi.d
+thesis.d: $$(call graphics-source,NeutrinoPhysics/Figs/NygrenTPC.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,NeutrinoPhysics/Figs/NygrenTPC.png)
+-include NeutrinoPhysics/Figs/RubbiaLArTPC.png.gpi.d
+thesis.d: $$(call graphics-source,NeutrinoPhysics/Figs/RubbiaLArTPC.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,NeutrinoPhysics/Figs/RubbiaLArTPC.png)
+-include 35ton/Figs/LAPDTankPiping.png.gpi.d
+thesis.d: $$(call graphics-source,35ton/Figs/LAPDTankPiping.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/LAPDTankPiping.png)
+-include 35ton/Figs/LAPDPurity.png.gpi.d
+thesis.d: $$(call graphics-source,35ton/Figs/LAPDPurity.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/LAPDPurity.png)
+-include 35ton/Figs/PurityMonitor.png.gpi.d
+thesis.d: $$(call graphics-source,35ton/Figs/PurityMonitor.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/PurityMonitor.png)
+-include 35ton/Figs/LAPDElectronLifetime.png.gpi.d
+thesis.d: $$(call graphics-source,35ton/Figs/LAPDElectronLifetime.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/LAPDElectronLifetime.png)
+-include 35ton/Figs/35tonCryostat.png.gpi.d
+thesis.d: $$(call graphics-source,35ton/Figs/35tonCryostat.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/35tonCryostat.png)
+-include 35ton/Figs/35tonLAPD.png.gpi.d
+thesis.d: $$(call graphics-source,35ton/Figs/35tonLAPD.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/35tonLAPD.png)
+-include OnlineMonitoring/Figs/artdaqFramework.pdf.gpi.d
+thesis.d: $$(call graphics-source,OnlineMonitoring/Figs/artdaqFramework.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,OnlineMonitoring/Figs/artdaqFramework.pdf)
+-include OnlineMonitoring/Figs/DQM1.png.gpi.d
+thesis.d: $$(call graphics-source,OnlineMonitoring/Figs/DQM1.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,OnlineMonitoring/Figs/DQM1.png)
+-include OnlineMonitoring/Figs/DQM2.png.gpi.d
+thesis.d: $$(call graphics-source,OnlineMonitoring/Figs/DQM2.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,OnlineMonitoring/Figs/DQM2.png)
+-include OnlineMonitoring/Figs/DQM3.png.gpi.d
+thesis.d: $$(call graphics-source,OnlineMonitoring/Figs/DQM3.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,OnlineMonitoring/Figs/DQM3.png)
+-include OnlineMonitoring/Figs/DQM4.png.gpi.d
+thesis.d: $$(call graphics-source,OnlineMonitoring/Figs/DQM4.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,OnlineMonitoring/Figs/DQM4.png)
+-include OnlineMonitoring/Figs/evd.png.gpi.d
+thesis.d: $$(call graphics-source,OnlineMonitoring/Figs/evd.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,OnlineMonitoring/Figs/evd.png)
+-include OnlineMonitoring/Figs/webPage.png.gpi.d
+thesis.d: $$(call graphics-source,OnlineMonitoring/Figs/webPage.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,OnlineMonitoring/Figs/webPage.png)
 thesis.bbl thesis.aux thesis.aux.make: $(call path-norm,./References/references.bib)
