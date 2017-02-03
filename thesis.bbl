@@ -1,3 +1,61 @@
 \begin{thebibliography}{}
 
+\bibitem[Amerio et~al., 2004]{ICARUS2004}
+Amerio, S., Amoruso, S., Antonello, M., Aprili, P., Armenante, M., Arneodo, F.,
+  Badertscher, A., Baiboussinov, B., {Baldo Ceolin}, M., Battistoni, G.,
+  Bekman, B., Benetti, P., Bernardini, E., Bischofberger, M., {Borio di
+  Tigliole}, A., Brunetti, R., Bruzzese, R., Bueno, A., Calligarich, E.,
+  Campanelli, M., Carbonara, F., Carpanese, C., Cavalli, D., Cavanna, F.,
+  Cennini, P., Centro, S., Cesana, A., Chen, C., Chen, D., Chen, D.~B., Chen,
+  Y., Cid, R., Cline, D.~B., Cie??lik, K., Cocco, A.~G., Corti, D., Dai, Z.,
+  de~Vecchi, C., Dabrowska, A., di~Cicco, A., Dolfini, R., Ereditato, A.,
+  Felcini, M., Ferella, A., Ferrari, A., Ferri, F., Fiorillo, G., Galli, S.,
+  {Garcia Gamez}, D., Ge, Y., Gibin, D., {Gigli Berzolari}, A., Gil-Botella,
+  I., Graczyk, K., Grandi, L., Guglielmi, A., He, K., Holeczek, J., Huang, X.,
+  Juszczak, C., Kielczewska, D., Kisiel, J., Kozlowski, T., Kuna-Ciskal, H.,
+  Laffranchi, M., Lagoda, J., Li, Z., Lisowski, B., Lu, F., Ma, J., Mangano,
+  G., Mannocchi, G., Markiewicz, M., {Martinez de la Ossa}, A., Matthey, C.,
+  Mauri, F., Mazza, D., Melgarejo, A.~J., Menegolli, A., Meng, G., Messina, M.,
+  Mietelski, J.~W., Montanari, C., Muraro, S., Navas-Concha, S., Nicoletto, M.,
+  Nowak, J., Nurzia, G., Osuna, C., Otwinowski, S., Ouyang, Q., Palamara, O.,
+  Pascoli, D., Periale, L., {Piano Mortari}, G., Piazzoli, A., Picchi, P.,
+  Pietropaolo, F., P??lchlopek, W., Prata, M., Rancati, T., Rappoldi, A.,
+  Raselli, G.~L., Rico, J., Rondio, E., Rossella, M., Rubbia, A., Rubbia, C.,
+  Sala, P., Santorelli, R., Scannicchio, D., Segreto, E., Seo, Y.,
+  Sergiampietri, F., Sobczyk, J., Spinelli, N., Stepaniak, J., Sulej, R.,
+  Szeptycka, M., Szarska, M., Terrani, M., Trinchero, G., Velotta, R., Ventura,
+  S., Vignoli, C., Wang, H., Wang, X., Woo, J., Xu, G., Xu, Z., Yang, X.,
+  Zalewska, A., Zalipska, J., Zhang, C., Zhang, Q., Zhen, S., and Zipper, W.
+  (2004).
+\newblock {Design, construction and tests of the ICARUS T600 detector}.
+\newblock {\em Nuclear Instruments and Methods in Physics Research, Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment},
+  527(3):329--410.
+
+\bibitem[Curioni et~al., 2009]{LArFilter}
+Curioni, A., Fleming, B.~T., Jaskierny, W., Kendziora, C., Krider, J., Pordes,
+  S., Soderberg, M., Spitz, J., Tope, T., and Wongjirad, T. (2009).
+\newblock {A regenerable filter for liquid argon purification}.
+\newblock {\em Nuclear Instruments and Methods in Physics Research, Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment},
+  605(3):306--311.
+
+\bibitem[Nygren, 1974]{Nygren1974}
+Nygren, D.~R. (1974).
+\newblock {The Time Projection Chamber - A New 4pi Detector for Charged
+  Particles}.
+\newblock {\em eConf}, C740805(PEP-0144):58--78.
+
+\bibitem[Rubbia, 1977]{Rubbia1977}
+Rubbia, C. (1977).
+\newblock {The Liquid Argon Time Projection Chamber: A New Concept For Neutrino
+  Detectors.pdf}.
+
+\bibitem[Tope et~al., 2014]{LAPD}
+Tope, T., Adamowski, M., Carls, B., Hahn, A., Jaskierny, W., Jostlein, H.,
+  Kendziora, C., Lockwitz, S., Pahlka, B., Plunkett, R., Pordes, S., Rebel, B.,
+  Schmitt, R., Skup, E., Stancari, M., and Yang, T. (2014).
+\newblock {Extreme argon purity in a large, non-evacuated cryostat}.
+\newblock 1169(2014):1169--1175.
+
 \end{thebibliography}

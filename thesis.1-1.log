@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  3 FEB 2017 10:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  3 FEB 2017 10:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1188,39 +1188,42 @@ Normal \count register pool exhausted, switching to extended pool.
 Package: translator 2010/06/12 ver 1.10
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/beamer/translator/translator-lang
-uage-mappings.tex)))) (./thesis-info.tex) (./thesis.aux (./Dedication/dedicatio
-n.aux) (./Declaration/declaration.aux) (./Acknowledgements/acknowledgements.aux
-) (./Abstract/abstract.aux) (./Introduction/Introduction.aux) (./NeutrinoPhysic
-s/NeutrinoPhysics.aux) (./DUNE/DUNE.aux) (./35ton/35ton.aux) (./LArReconstructi
-on/LArReconstruction.aux) (./OnlineMonitoring/OnlineMonitoring.aux) (./35tonAna
-lysis/35tonAnalysis.aux) (./FarDetectorAnalysis/FarDetectorAnalysis.aux) (./Sum
-mary/Summary.aux) (./Appendix1/appendix1.aux) (./Appendix2/appendix2.aux))
+uage-mappings.tex)))) (./thesis-info.tex)
+\bibdata{library.bib}
+No file thesis.bbl.
+(./thesis.aux (./Dedication/dedication.aux) (./Declaration/declaration.aux) (./
+Acknowledgements/acknowledgements.aux) (./Abstract/abstract.aux) (./Introductio
+n/Introduction.aux) (./NeutrinoPhysics/NeutrinoPhysics.aux) (./DUNE/DUNE.aux) (
+./35ton/35ton.aux) (./LArReconstruction/LArReconstruction.aux) (./OnlineMonitor
+ing/OnlineMonitoring.aux) (./35tonAnalysis/35tonAnalysis.aux) (./FarDetectorAna
+lysis/FarDetectorAnalysis.aux) (./Summary/Summary.aux) (./Appendix1/appendix1.a
+ux) (./Appendix2/appendix2.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 108.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 108.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 109.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 109.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 108.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 109.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ) (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -1237,7 +1240,7 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 \makeMPintoPDFobject=\count285
 \everyMPtoPDFconversion=\toks28
 )
-LaTeX Info: Redefining \microtypecontext on input line 108.
+LaTeX Info: Redefining \microtypecontext on input line 109.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1251,7 +1254,7 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 \AtBeginShipoutBox=\box51
-Package hyperref Info: Link coloring ON on input line 108.
+Package hyperref Info: Link coloring ON on input line 109.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -1259,9 +1262,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count286
 )
-LaTeX Info: Redefining \ref on input line 108.
-LaTeX Info: Redefining \pageref on input line 108.
-LaTeX Info: Redefining \nameref on input line 108.
+LaTeX Info: Redefining \ref on input line 109.
+LaTeX Info: Redefining \pageref on input line 109.
+LaTeX Info: Redefining \nameref on input line 109.
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write5
 \openout5 = `thesis.out'.
@@ -1315,7 +1318,7 @@ File: siunitx-abbreviations.cfg 2013/07/31 v2.5s siunitx: Abbreviated units
 )
 \c__siunitx_mathsf_int=\count287
 LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 10
-8.
+9.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
@@ -1324,31 +1327,31 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 10
-8.
+9.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 10
-8.
+9.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 10
-8.
+9.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 108.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 109.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 108.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 109.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 108.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 109.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 108.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 109.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/microtype/mt-msb.cfg
@@ -1365,20 +1368,20 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             See the microtype manual for details.
 \PHD@Title=\box52
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 112.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 113.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 112.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 113.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 112.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 113.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 112.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 113.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 112.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 113.
 \PHD@crest=\box53
 <Figs/University_Crest.pdf, id=253, 59.22125pt x 69.25874pt>
 File: Figs/University_Crest.pdf Graphic file (type pdf)
 <use Figs/University_Crest.pdf>
-Package pdftex.def Info: Figs/University_Crest.pdf used on input line 112.
+Package pdftex.def Info: Figs/University_Crest.pdf used on input line 113.
 (pdftex.def)             Requested size: 87.49088pt x 102.32376pt.
 \PHD@collegecrest=\box54
 \PHD@author=\box55
@@ -1418,7 +1421,7 @@ University_Crest.pdf>]
 
 ])
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 116.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 117.
 [8]
 \openout2 = `Abstract/abstract.aux'.
 
@@ -1939,8 +1942,8 @@ Appendix B.
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 185.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 185.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 186.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 186.
 (./thesis.aux (./Dedication/dedication.aux) (./Declaration/declaration.aux) (./
 Acknowledgements/acknowledgements.aux) (./Abstract/abstract.aux) (./Introductio
 n/Introduction.aux) (./NeutrinoPhysics/NeutrinoPhysics.aux) (./DUNE/DUNE.aux) (
@@ -1948,8 +1951,8 @@ n/Introduction.aux) (./NeutrinoPhysics/NeutrinoPhysics.aux) (./DUNE/DUNE.aux) (
 ing/OnlineMonitoring.aux) (./35tonAnalysis/35tonAnalysis.aux) (./FarDetectorAna
 lysis/FarDetectorAnalysis.aux) (./Summary/Summary.aux) (./Appendix1/appendix1.a
 ux) (./Appendix2/appendix2.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 185.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 185.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 186.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 186.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 1F4E508B6C478F31A0BC91CD820A1078;12095.
 

@@ -1,6 +1,6 @@
 \thispagestyle {empty}
-\contentsline {chapter}{List of figures}{xv}{chapter*.5}
-\contentsline {chapter}{List of tables}{xvii}{chapter*.6}
+\contentsline {chapter}{List of figures}{xv}{chapter*.6}
+\contentsline {chapter}{List of tables}{xvii}{chapter*.7}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}Neutrino Physics}{3}{chapter.2}
 \contentsline {section}{\numberline {2.1}Neutrino Theory}{3}{section.2.1}
@@ -23,14 +23,14 @@
 \contentsline {subsection}{\numberline {4.3.2}The 35\nobreakspace {}ton and LAPD}{16}{subsection.4.3.2}
 \contentsline {section}{\numberline {4.4}The 35\nobreakspace {}ton Detector}{18}{section.4.4}
 \contentsline {subsection}{\numberline {4.4.1}Detector Components}{18}{subsection.4.4.1}
-\contentsline {subsubsection}{TPC}{18}{section*.17}
-\contentsline {subsubsection}{Photon Detectors}{18}{section*.18}
-\contentsline {subsubsection}{External Counters}{18}{section*.19}
+\contentsline {subsubsection}{TPC}{18}{section*.18}
+\contentsline {subsubsection}{Photon Detectors}{18}{section*.19}
+\contentsline {subsubsection}{External Counters}{18}{section*.20}
 \contentsline {subsection}{\numberline {4.4.2}Readout Electronics}{18}{subsection.4.4.2}
-\contentsline {subsubsection}{FEMBs}{18}{section*.20}
-\contentsline {subsubsection}{RCEs}{18}{section*.21}
-\contentsline {subsubsection}{SSPs}{18}{section*.22}
-\contentsline {subsubsection}{PTB}{18}{section*.23}
+\contentsline {subsubsection}{FEMBs}{18}{section*.21}
+\contentsline {subsubsection}{RCEs}{18}{section*.22}
+\contentsline {subsubsection}{SSPs}{18}{section*.23}
+\contentsline {subsubsection}{PTB}{18}{section*.24}
 \contentsline {subsection}{\numberline {4.4.3}DAQ}{18}{subsection.4.4.3}
 \contentsline {section}{\numberline {4.5}Filling the 35\nobreakspace {}ton}{18}{section.4.5}
 \contentsline {section}{\numberline {4.6}The 35\nobreakspace {}ton Experimental Setup}{18}{section.4.6}
@@ -65,6 +65,6 @@
 \contentsline {chapter}{\numberline {7}Analysis of 35\nobreakspace {}ton Data}{39}{chapter.7}
 \contentsline {chapter}{\numberline {8}Electron Reconstruction for $\nu _e$ Oscillation Signal at the DUNE Far Detector}{41}{chapter.8}
 \contentsline {chapter}{\numberline {9}Summary}{43}{chapter.9}
-\contentsline {chapter}{References}{45}{chapter*.32}
+\contentsline {chapter}{References}{45}{chapter*.33}
 \contentsline {chapter}{Appendix \numberline {A}How to install \LaTeX }{47}{Appendix.a.A}
 \contentsline {chapter}{Appendix \numberline {B}Installing the CUED class file}{51}{Appendix.a.B}

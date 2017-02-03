@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  3 FEB 2017 10:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  3 FEB 2017 10:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1188,42 +1188,76 @@ Normal \count register pool exhausted, switching to extended pool.
 Package: translator 2010/06/12 ver 1.10
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/beamer/translator/translator-lang
-uage-mappings.tex)))) (./thesis-info.tex) (./thesis.aux (./Dedication/dedicatio
-n.aux) (./Declaration/declaration.aux) (./Acknowledgements/acknowledgements.aux
-) (./Abstract/abstract.aux) (./Introduction/Introduction.aux) (./NeutrinoPhysic
-s/NeutrinoPhysics.aux) (./DUNE/DUNE.aux) (./35ton/35ton.aux) (./LArReconstructi
-on/LArReconstruction.aux) (./OnlineMonitoring/OnlineMonitoring.aux) (./35tonAna
-lysis/35tonAnalysis.aux) (./FarDetectorAnalysis/FarDetectorAnalysis.aux) (./Sum
-mary/Summary.aux) (./Appendix1/appendix1.aux) (./Appendix2/appendix2.aux))
+uage-mappings.tex)))) (./thesis-info.tex)
+\bibdata{library.bib}
+(./thesis.bbl
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 1.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
+
+./thesis.bbl:1: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{thebibliography}{}
+                             
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./thesis.bbl:1: Undefined control sequence.
+<argument> \@bibsetup 
+                      {}\global \c@NAT@ctr \z@ 
+l.1 \begin{thebibliography}{}
+                             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\bibcite{ICARUS2004}{{1}{2004}{{Amerio et~al.}}{{}}}
+\bibcite{LArFilter}{{2}{2009}{{Curioni et~al.}}{{}}}
+\bibcite{Nygren1974}{{3}{1974}{{Nygren}}{{}}}
+\bibcite{Rubbia1977}{{4}{1977}{{Rubbia}}{{}}}
+\bibcite{LAPD}{{5}{2014}{{Tope et~al.}}{{}}}
+) (./thesis.aux (./Dedication/dedication.aux) (./Declaration/declaration.aux) (
+./Acknowledgements/acknowledgements.aux) (./Abstract/abstract.aux) (./Introduct
+ion/Introduction.aux) (./NeutrinoPhysics/NeutrinoPhysics.aux) (./DUNE/DUNE.aux)
+(./35ton/35ton.aux) (./LArReconstruction/LArReconstruction.aux) (./OnlineMonito
+ring/OnlineMonitoring.aux) (./35tonAnalysis/35tonAnalysis.aux) (./FarDetectorAn
+alysis/FarDetectorAnalysis.aux) (./Summary/Summary.aux) (./Appendix1/appendix1.
+aux) (./Appendix2/appendix2.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 108.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 108.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 109.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 109.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 108.
-(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/t1ptm.fd
-File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-) (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+(/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count280
 \scratchdimen=\dimen198
@@ -1237,7 +1271,7 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 \makeMPintoPDFobject=\count285
 \everyMPtoPDFconversion=\toks28
 )
-LaTeX Info: Redefining \microtypecontext on input line 108.
+LaTeX Info: Redefining \microtypecontext on input line 109.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1251,7 +1285,7 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 \AtBeginShipoutBox=\box51
-Package hyperref Info: Link coloring ON on input line 108.
+Package hyperref Info: Link coloring ON on input line 109.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -1259,9 +1293,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count286
 )
-LaTeX Info: Redefining \ref on input line 108.
-LaTeX Info: Redefining \pageref on input line 108.
-LaTeX Info: Redefining \nameref on input line 108.
+LaTeX Info: Redefining \ref on input line 109.
+LaTeX Info: Redefining \pageref on input line 109.
+LaTeX Info: Redefining \nameref on input line 109.
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write5
 \openout5 = `thesis.out'.
@@ -1315,7 +1349,7 @@ File: siunitx-abbreviations.cfg 2013/07/31 v2.5s siunitx: Abbreviated units
 )
 \c__siunitx_mathsf_int=\count287
 LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 10
-8.
+9.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
@@ -1324,31 +1358,31 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 10
-8.
+9.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 10
-8.
+9.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 10
-8.
+9.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 108.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 109.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 108.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 109.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 108.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 109.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 108.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 109.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/microtype/mt-msb.cfg
@@ -1363,22 +1397,29 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+
+Overfull \vbox (181.21405pt too high) has occurred while \output is active []
+
+[1
+
+
+{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
+
+]
 \PHD@Title=\box52
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 112.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 112.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 113.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 112.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 113.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 112.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 113.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 112.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 113.
 \PHD@crest=\box53
-<Figs/University_Crest.pdf, id=257, 59.22125pt x 69.25874pt>
+<Figs/University_Crest.pdf, id=275, 59.22125pt x 69.25874pt>
 File: Figs/University_Crest.pdf Graphic file (type pdf)
 <use Figs/University_Crest.pdf>
-Package pdftex.def Info: Figs/University_Crest.pdf used on input line 112.
+Package pdftex.def Info: Figs/University_Crest.pdf used on input line 113.
 (pdftex.def)             Requested size: 87.49088pt x 102.32376pt.
 \PHD@collegecrest=\box54
 \PHD@author=\box55
@@ -1388,11 +1429,7 @@ Package pdftex.def Info: Figs/University_Crest.pdf used on input line 112.
 \PHD@submission=\box59
 \PHD@collegedate=\box60
 \PHD@titlepagespacing=\skip75
-[1
-
-
-{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Figs/
-University_Crest.pdf>]
+[1 <./Figs/University_Crest.pdf>]
 \openout2 = `Dedication/dedication.aux'.
 
 (./Dedication/dedication.tex [2
@@ -1418,7 +1455,7 @@ University_Crest.pdf>]
 
 ])
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 116.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 117.
 [8]
 \openout2 = `Abstract/abstract.aux'.
 
@@ -1458,13 +1495,23 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <9> not available
 
 (./Introduction/Introduction.tex
 Chapter 1.
-) [1
+)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.136 \include{Introduction/Introduction}
+                                          [1
 
 
 ]
 \openout2 = `NeutrinoPhysics/NeutrinoPhysics.aux'.
 
-(./NeutrinoPhysics/NeutrinoPhysics.tex [2
+(./NeutrinoPhysics/NeutrinoPhysics.texpdfTeX warning (ext4): destination with t
+he same identifier (name{page.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.6 \chapter
+            {Neutrino Physics}\label{chap:NeutrinoPhysics} [2
 
 
 
@@ -1502,32 +1549,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--36
 
  []
 
-
-Package natbib Warning: Citation `ICARUS2004' on page 4 undefined on input line
- 44.
-
-
-Package natbib Warning: Citation `Nygren1974' on page 4 undefined on input line
- 50.
-
-<NeutrinoPhysics/Figs/NygrenTPC.png, id=452, 849.1725pt x 545.03625pt>
+<NeutrinoPhysics/Figs/NygrenTPC.png, id=468, 849.1725pt x 545.03625pt>
 File: NeutrinoPhysics/Figs/NygrenTPC.png Graphic file (type png)
 <use NeutrinoPhysics/Figs/NygrenTPC.png>
 Package pdftex.def Info: NeutrinoPhysics/Figs/NygrenTPC.png used on input line 
 54.
 (pdftex.def)             Requested size: 284.52756pt x 182.62361pt.
-
-Package natbib Warning: Citation `Nygren1974' on page 4 undefined on input line
- 55.
-
-
-Package natbib Warning: Citation `Nygren1974' on page 4 undefined on input line
- 55.
-
-
-Package natbib Warning: Citation `Rubbia1977' on page 4 undefined on input line
- 59.
-
 [4]
 Underfull \hbox (badness 10000) in paragraph at lines 80--80
 []|\T1/ptm/m/n/12 (+20) Natural abun-dance (Earth
@@ -1539,27 +1566,19 @@ Overfull \hbox (49.67735pt too wide) in paragraph at lines 65--85
  []
 
 [5 <./NeutrinoPhysics/Figs/NygrenTPC.png>] <NeutrinoPhysics/Figs/RubbiaLArTPC.p
-ng, id=465, 740.7675pt x 585.18625pt>
+ng, id=486, 740.7675pt x 585.18625pt>
 File: NeutrinoPhysics/Figs/RubbiaLArTPC.png Graphic file (type png)
 <use NeutrinoPhysics/Figs/RubbiaLArTPC.png>
 Package pdftex.def Info: NeutrinoPhysics/Figs/RubbiaLArTPC.png used on input li
 ne 91.
 (pdftex.def)             Requested size: 284.52756pt x 224.76611pt.
-
-Package natbib Warning: Citation `Rubbia1977' on page 6 undefined on input line
- 92.
-
-
-Package natbib Warning: Citation `Rubbia1977' on page 6 undefined on input line
- 92.
-
 [6 <./NeutrinoPhysics/Figs/RubbiaLArTPC.png>]
 
 LaTeX Warning: Reference `fig:ElectricFieldScintillationIonisation' on page 7 u
 ndefined on input line 114.
 
 
-<NeutrinoPhysics/Figs/ElectricFieldScintillationIonisation.png, id=475, 460.721
+<NeutrinoPhysics/Figs/ElectricFieldScintillationIonisation.png, id=497, 460.721
 25pt x 299.1175pt>
 File: NeutrinoPhysics/Figs/ElectricFieldScintillationIonisation.png Graphic fil
 e (type png)
@@ -1587,9 +1606,6 @@ Chapter 3.
 Chapter 4.
 [11]
 
-Package natbib Warning: Citation `LAPD' on page 12 undefined on input line 22.
-
-
 Package caption Warning: \label without proper \caption on input line 31.
 See the caption package documentation for explanation.
 
@@ -1597,39 +1613,18 @@ See the caption package documentation for explanation.
 LaTeX Warning: Reference `fig:LAPDTankPiping' on page 12 undefined on input lin
 e 26.
 
-<35ton/Figs/LAPDTankPiping.png, id=501, 823.075pt x 502.87875pt>
+<35ton/Figs/LAPDTankPiping.png, id=524, 823.075pt x 502.87875pt>
 File: 35ton/Figs/LAPDTankPiping.png Graphic file (type png)
 <use 35ton/Figs/LAPDTankPiping.png>
 Package pdftex.def Info: 35ton/Figs/LAPDTankPiping.png used on input line 30.
 (pdftex.def)             Requested size: 426.79134pt x 260.76181pt.
-
-Package natbib Warning: Citation `LAPD' on page 12 undefined on input line 32.
-
-
-Package natbib Warning: Citation `LAPD' on page 12 undefined on input line 32.
-
-[12]
-
-Package natbib Warning: Citation `LArFilter' on page 13 undefined on input line
- 43.
-
-
-Package natbib Warning: Citation `LArFilter' on page 13 undefined on input line
- 43.
-
-[13 <./35ton/Figs/LAPDTankPiping.png>] <35ton/Figs/LAPDPurity.png, id=515, 711.
-65875pt x 473.77pt>
+[12] [13 <./35ton/Figs/LAPDTankPiping.png>] <35ton/Figs/LAPDPurity.png, id=541,
+ 711.65875pt x 473.77pt>
 File: 35ton/Figs/LAPDPurity.png Graphic file (type png)
 <use 35ton/Figs/LAPDPurity.png>
 Package pdftex.def Info: 35ton/Figs/LAPDPurity.png used on input line 49.
 (pdftex.def)             Requested size: 341.43306pt x 227.29858pt.
-
-Package natbib Warning: Citation `LAPD' on page 14 undefined on input line 50.
-
-
-Package natbib Warning: Citation `LAPD' on page 14 undefined on input line 50.
-
-<35ton/Figs/PurityMonitor.png, id=518, 896.34875pt x 452.69125pt>
+<35ton/Figs/PurityMonitor.png, id=546, 896.34875pt x 452.69125pt>
 File: 35ton/Figs/PurityMonitor.png Graphic file (type png)
 <use 35ton/Figs/PurityMonitor.png>
 Package pdftex.def Info: 35ton/Figs/PurityMonitor.png used on input line 60.
@@ -1644,13 +1639,10 @@ t line 61.
 
 [14 <./35ton/Figs/LAPDPurity.png>]
 
-Package natbib Warning: Citation `LAPD' on page 15 undefined on input line 73.
-
-
 LaTeX Warning: Reference `fig:ElectronLifetimes' on page 15 undefined on input 
 line 73.
 
-<35ton/Figs/LAPDElectronLifetime.png, id=524, 1018.80624pt x 429.605pt>
+<35ton/Figs/LAPDElectronLifetime.png, id=553, 1018.80624pt x 429.605pt>
 File: 35ton/Figs/LAPDElectronLifetime.png Graphic file (type png)
 <use 35ton/Figs/LAPDElectronLifetime.png>
 Package pdftex.def Info: 35ton/Figs/LAPDElectronLifetime.png used on input line
@@ -1661,7 +1653,7 @@ Package pdftex.def Info: 35ton/Figs/LAPDElectronLifetime.png used on input line
 Package natbib Warning: Citation `LBNE35tonPhaseIOverview' on page 16 undefined
  on input line 87.
 
-<35ton/Figs/35tonCryostat.png, id=530, 590.205pt x 253.94875pt>
+<35ton/Figs/35tonCryostat.png, id=559, 590.205pt x 253.94875pt>
 File: 35ton/Figs/35tonCryostat.png Graphic file (type png)
 <use 35ton/Figs/35tonCryostat.png>
 Package pdftex.def Info: 35ton/Figs/35tonCryostat.png used on input line 95.
@@ -1674,7 +1666,7 @@ t line 96.
 Package natbib Warning: Citation `LBNE35tonPhaseI' on page 16 undefined on inpu
 t line 96.
 
-<35ton/Figs/35tonLAPD.png, id=531, 1367.1075pt x 556.0775pt>
+<35ton/Figs/35tonLAPD.png, id=560, 1367.1075pt x 556.0775pt>
 File: 35ton/Figs/35tonLAPD.png Graphic file (type png)
 <use 35ton/Figs/35tonLAPD.png>
 Package pdftex.def Info: 35ton/Figs/35tonLAPD.png used on input line 108.
@@ -1710,7 +1702,7 @@ Chapter 6.
 
 pdfTeX warning: pdflatex (file ./OnlineMonitoring/Figs/artdaqFramework.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<OnlineMonitoring/Figs/artdaqFramework.pdf, id=584, 939.51pt x 614.295pt>
+<OnlineMonitoring/Figs/artdaqFramework.pdf, id=614, 939.51pt x 614.295pt>
 File: OnlineMonitoring/Figs/artdaqFramework.pdf Graphic file (type pdf)
 <use OnlineMonitoring/Figs/artdaqFramework.pdf>
 Package pdftex.def Info: OnlineMonitoring/Figs/artdaqFramework.pdf used on inpu
@@ -1744,7 +1736,7 @@ wareFramework-eps-converted-to.pdf OnlineMonitoring/Figs/softwareFramework.eps>
 (epstopdf)             \includegraphics on input line 51.
 Package epstopdf Info: Output file is already uptodate.
 
-<OnlineMonitoring/Figs/softwareFramework-eps-converted-to.pdf, id=595, 692.5875
+<OnlineMonitoring/Figs/softwareFramework-eps-converted-to.pdf, id=625, 692.5875
 pt x 516.93124pt>
 File: OnlineMonitoring/Figs/softwareFramework-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -1761,25 +1753,25 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 [25] [26 <./OnlineMonitoring/Figs/softwareFramework-eps-converted-to.pdf>] [27]
-[28] <OnlineMonitoring/Figs/DQM1.png, id=625, 934.49126pt x 678.535pt>
+[28] <OnlineMonitoring/Figs/DQM1.png, id=654, 934.49126pt x 678.535pt>
 File: OnlineMonitoring/Figs/DQM1.png Graphic file (type png)
 <use OnlineMonitoring/Figs/DQM1.png>
 Package pdftex.def Info: OnlineMonitoring/Figs/DQM1.png used on input line 160.
 
 (pdftex.def)             Requested size: 199.47984pt x 144.83646pt.
-<OnlineMonitoring/Figs/DQM2.png, id=626, 1050.92625pt x 691.58376pt>
+<OnlineMonitoring/Figs/DQM2.png, id=655, 1050.92625pt x 691.58376pt>
 File: OnlineMonitoring/Figs/DQM2.png Graphic file (type png)
 <use OnlineMonitoring/Figs/DQM2.png>
 Package pdftex.def Info: OnlineMonitoring/Figs/DQM2.png used on input line 166.
 
 (pdftex.def)             Requested size: 199.47984pt x 131.26509pt.
-<OnlineMonitoring/Figs/DQM3.png, id=627, 1026.83624pt x 678.535pt>
+<OnlineMonitoring/Figs/DQM3.png, id=656, 1026.83624pt x 678.535pt>
 File: OnlineMonitoring/Figs/DQM3.png Graphic file (type png)
 <use OnlineMonitoring/Figs/DQM3.png>
 Package pdftex.def Info: OnlineMonitoring/Figs/DQM3.png used on input line 172.
 
 (pdftex.def)             Requested size: 199.47984pt x 131.81163pt.
-<OnlineMonitoring/Figs/DQM4.png, id=628, 915.42pt x 683.55376pt>
+<OnlineMonitoring/Figs/DQM4.png, id=657, 915.42pt x 683.55376pt>
 File: OnlineMonitoring/Figs/DQM4.png Graphic file (type png)
 <use OnlineMonitoring/Figs/DQM4.png>
 Package pdftex.def Info: OnlineMonitoring/Figs/DQM4.png used on input line 178.
@@ -1799,7 +1791,7 @@ _format-eps-converted-to.pdf OnlineMonitoring/Figs/data_format.eps>
 (epstopdf)             \includegraphics on input line 202.
 Package epstopdf Info: Output file is already uptodate.
 
-<OnlineMonitoring/Figs/data_format-eps-converted-to.pdf, id=642, 598.235pt x 84
+<OnlineMonitoring/Figs/data_format-eps-converted-to.pdf, id=672, 598.235pt x 84
 6.16125pt>
 File: OnlineMonitoring/Figs/data_format-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -1820,7 +1812,7 @@ gered_event-eps-converted-to.pdf OnlineMonitoring/Figs/triggered_event.eps>
 (epstopdf)             \includegraphics on input line 211.
 Package epstopdf Info: Output file is already uptodate.
 
-<OnlineMonitoring/Figs/triggered_event-eps-converted-to.pdf, id=644, 845.1575pt
+<OnlineMonitoring/Figs/triggered_event-eps-converted-to.pdf, id=674, 845.1575pt
  x 599.23875pt>
 File: OnlineMonitoring/Figs/triggered_event-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -1835,7 +1827,7 @@ Overfull \hbox (17.78296pt too wide) in paragraph at lines 211--212
 
 [31] [32 <./OnlineMonitoring/Figs/data_format-eps-converted-to.pdf>] [33 <./Onl
 ineMonitoring/Figs/triggered_event-eps-converted-to.pdf>] <OnlineMonitoring/Fig
-s/evd.png, id=673, 582.175pt x 568.1225pt>
+s/evd.png, id=703, 582.175pt x 568.1225pt>
 File: OnlineMonitoring/Figs/evd.png Graphic file (type png)
 <use OnlineMonitoring/Figs/evd.png>
 Package pdftex.def Info: OnlineMonitoring/Figs/evd.png used on input line 232.
@@ -1852,7 +1844,7 @@ nterface-eps-converted-to.pdf OnlineMonitoring/Figs/webInterface.eps>
 (epstopdf)             \includegraphics on input line 249.
 Package epstopdf Info: Output file is already uptodate.
 
-<OnlineMonitoring/Figs/webInterface-eps-converted-to.pdf, id=677, 550.055pt x 3
+<OnlineMonitoring/Figs/webInterface-eps-converted-to.pdf, id=707, 550.055pt x 3
 35.2525pt>
 File: OnlineMonitoring/Figs/webInterface-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -1861,7 +1853,7 @@ Package pdftex.def Info: OnlineMonitoring/Figs/webInterface-eps-converted-to.pd
 f used on input line 249.
 (pdftex.def)             Requested size: 341.43306pt x 208.10506pt.
 [34] [35 <./OnlineMonitoring/Figs/evd.png>] <OnlineMonitoring/Figs/webPage.png,
- id=689, 1439.3775pt x 833.1125pt>
+ id=720, 1439.3775pt x 833.1125pt>
 File: OnlineMonitoring/Figs/webPage.png Graphic file (type png)
 <use OnlineMonitoring/Figs/webPage.png>
 Package pdftex.def Info: OnlineMonitoring/Figs/webPage.png used on input line 2
@@ -1914,11 +1906,35 @@ Chapter 9.
 ) [43] [44
 
 
-] (./thesis.bbl
-
-Package natbib Warning: Empty `thebibliography' environment on input line 3.
-
-) [45
+] (./thesis.bblpdfTeX warning (ext4): destination with the same identifier (nam
+e{cite.ICARUS2004}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3 \bibitem[Amerio et~al., 2004]{ICARUS2004}
+                                             pdfTeX warning (ext4): destination
+ with the same identifier (name{cite.LArFilter}) has been already used, duplica
+te ignored
+<to be read again> 
+                   \relax 
+l.35 \bibitem[Curioni et~al., 2009]{LArFilter}
+                                              pdfTeX warning (ext4): destinatio
+n with the same identifier (name{cite.Nygren1974}) has been already used, dupli
+cate ignored
+<to be read again> 
+                   \relax 
+l.43 \bibitem[Nygren, 1974]{Nygren1974}
+                                       pdfTeX warning (ext4): destination with 
+the same identifier (name{cite.Rubbia1977}) has been already used, duplicate ig
+nored
+<to be read again> 
+                   \relax 
+l.49 \bibitem[Rubbia, 1977]{Rubbia1977}
+                                       pdfTeX warning (ext4): destination with 
+the same identifier (name{cite.LAPD}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.54 \bibitem[Tope et~al., 2014]{LAPD}
+                                      ) [45
 
 ]
 \openout2 = `Appendix1/appendix1.aux'.
@@ -1944,8 +1960,8 @@ Appendix B.
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 185.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 185.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 186.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 186.
 (./thesis.aux (./Dedication/dedication.aux) (./Declaration/declaration.aux) (./
 Acknowledgements/acknowledgements.aux) (./Abstract/abstract.aux) (./Introductio
 n/Introduction.aux) (./NeutrinoPhysics/NeutrinoPhysics.aux) (./DUNE/DUNE.aux) (
@@ -1953,20 +1969,20 @@ n/Introduction.aux) (./NeutrinoPhysics/NeutrinoPhysics.aux) (./DUNE/DUNE.aux) (
 ing/OnlineMonitoring.aux) (./35tonAnalysis/35tonAnalysis.aux) (./FarDetectorAna
 lysis/FarDetectorAnalysis.aux) (./Summary/Summary.aux) (./Appendix1/appendix1.a
 ux) (./Appendix2/appendix2.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 185.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 185.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 186.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 186.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: FFC543E8B6AF94D59399B7845F495422;12190.
+(rerunfilecheck)             Checksum: 8420D144BE1C8FA7E16C62B290B0AE4B;12190.
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 24032 strings out of 493117
- 426201 string characters out of 6135433
- 494119 words of memory out of 5000000
- 26596 multiletter control sequences out of 15000+600000
- 77333 words of font info for 239 fonts, out of 8000000 for 9000
+ 24061 strings out of 493117
+ 426604 string characters out of 6135433
+ 497147 words of memory out of 5000000
+ 26607 multiletter control sequences out of 15000+600000
+ 78597 words of font info for 246 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  49i,15n,47p,10395b,945s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
@@ -1974,15 +1990,17 @@ Here is how much of TeX's memory you used:
 live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texl
 ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texliv
 e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
-/2014/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2
-014/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2014/texmf-d
-ist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/
-type1/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/
-times/utmri8a.pfb>
-Output written on thesis.pdf (70 pages, 4319181 bytes).
+/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2
+014/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/201
+4/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2014/
+texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2014/texmf-dist/
+fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type
+1/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/time
+s/utmri8a.pfb>
+Output written on thesis.pdf (72 pages, 4378462 bytes).
 PDF statistics:
- 908 PDF objects out of 1000 (max. 8388607)
- 763 compressed objects within 8 object streams
- 202 named destinations out of 1000 (max. 500000)
+ 946 PDF objects out of 1000 (max. 8388607)
+ 791 compressed objects within 8 object streams
+ 208 named destinations out of 1000 (max. 500000)
  47714 words of extra memory for PDF output out of 51595 (max. 10000000)
 
