@@ -139,4 +139,31 @@ thesis.pdf thesis._graphics: $$(call graphics-target,OnlineMonitoring/Figs/evd.p
 -include OnlineMonitoring/Figs/webPage.png.gpi.d
 thesis.d: $$(call graphics-source,OnlineMonitoring/Figs/webPage.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,OnlineMonitoring/Figs/webPage.png)
+-include 35tonAnalysis/Figs/DataRMSGood.png.gpi.d
+thesis.d: $$(call graphics-source,35tonAnalysis/Figs/DataRMSGood.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/DataRMSGood.png)
+-include 35tonAnalysis/Figs/DataRMSBad.png.gpi.d
+thesis.d: $$(call graphics-source,35tonAnalysis/Figs/DataRMSBad.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/DataRMSBad.png)
+-include 35tonAnalysis/Figs/stuckbitsremoval.png.gpi.d
+thesis.d: $$(call graphics-source,35tonAnalysis/Figs/stuckbitsremoval.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/stuckbitsremoval.png)
+-include 35tonAnalysis/Figs/raw_stuck-eps-converted-to.pdf.gpi.d
+thesis.d: $$(call graphics-source,35tonAnalysis/Figs/raw_stuck-eps-converted-to.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/raw_stuck-eps-converted-to.pdf)
+-include 35tonAnalysis/Figs/raw_noise-eps-converted-to.pdf.gpi.d
+thesis.d: $$(call graphics-source,35tonAnalysis/Figs/raw_noise-eps-converted-to.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/raw_noise-eps-converted-to.pdf)
+-include 35tonAnalysis/Figs/evd_t0_2.pdf.gpi.d
+thesis.d: $$(call graphics-source,35tonAnalysis/Figs/evd_t0_2.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/evd_t0_2.pdf)
+-include 35tonAnalysis/Figs/chisquare-eps-converted-to.pdf.gpi.d
+thesis.d: $$(call graphics-source,35tonAnalysis/Figs/chisquare-eps-converted-to.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/chisquare-eps-converted-to.pdf)
+-include 35tonAnalysis/Figs/HitTime-eps-converted-to.pdf.gpi.d
+thesis.d: $$(call graphics-source,35tonAnalysis/Figs/HitTime-eps-converted-to.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/HitTime-eps-converted-to.pdf)
+-include 35tonAnalysis/Figs/HitTimeMC-eps-converted-to.pdf.gpi.d
+thesis.d: $$(call graphics-source,35tonAnalysis/Figs/HitTimeMC-eps-converted-to.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/HitTimeMC-eps-converted-to.pdf)
 thesis.bbl thesis.aux thesis.aux.make: $(call path-norm,./References/references.bib)

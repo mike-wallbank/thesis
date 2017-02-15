@@ -31,14 +31,33 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces Contaminant gradient in the LAPD tank}}{14}{figure.caption.12}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces Design of LAPD and 35\nobreakspace  {}ton style purity monitors}}{15}{figure.caption.13}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces The 35\nobreakspace  {}ton cryostat}}{17}{figure.caption.15}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.1}{\ignorespaces The \textit  {lbne-artdaq} framework}}{24}{figure.caption.24}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.2}{\ignorespaces Software framework built for 35\nobreakspace  {}ton Online Monitoring}}{26}{figure.caption.25}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.3}{\ignorespaces Selection of Data Quality Monitoring figures}}{30}{figure.caption.26}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.4}{\ignorespaces 35\nobreakspace  {}ton data format}}{32}{figure.caption.27}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.5}{\ignorespaces Demonstration of how TPC data from a triggered event in a LArTPC is saved when employing a DAQ with continuous readout}}{33}{figure.caption.28}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.6}{\ignorespaces Example online event display made by the Online Monitoring framework}}{35}{figure.caption.29}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.7}{\ignorespaces Schematic showing the interface between the online monitoring system and the web}}{36}{figure.caption.30}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.8}{\ignorespaces Web page for online monitoring and event displays}}{37}{figure.caption.31}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.1}{\ignorespaces The \textit  {lbne-artdaq} framework}}{24}{figure.caption.17}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.2}{\ignorespaces Software framework built for 35\nobreakspace  {}ton Online Monitoring}}{26}{figure.caption.18}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.3}{\ignorespaces Selection of Data Quality Monitoring figures}}{30}{figure.caption.19}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.4}{\ignorespaces 35\nobreakspace  {}ton data format}}{32}{figure.caption.20}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.5}{\ignorespaces Demonstration of how TPC data from a triggered event in a LArTPC is saved when employing a DAQ with continuous readout}}{33}{figure.caption.21}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.6}{\ignorespaces Example online event display made by the Online Monitoring framework}}{35}{figure.caption.22}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.7}{\ignorespaces Schematic showing the interface between the online monitoring system and the web}}{36}{figure.caption.23}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.8}{\ignorespaces Web page for online monitoring and event displays}}{37}{figure.caption.24}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.10}{\ignorespaces Correcting for T0 using $T_0^{\mathrm  {counter}}$ and $T_0^{\mathrm  {TPC}}$.}}{48}{figure.caption.33}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.11}{\ignorespaces Demonstration of the effect observed in the 35\nobreakspace  {}ton data concerning tracks crossing the APAs.}}{48}{figure.caption.34}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.12}{\ignorespaces Attemping to correct the track segment misalignment by assuming a misunderstanding of the spacing between the collection planes.}}{49}{figure.caption.36}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.13}{\ignorespaces Attempting to correct the track segment misalignment by assuming a misunderstanding of the positioning of the collection wires inside the detector.}}{50}{figure.caption.37}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.14}{\ignorespaces Attempting to correct the track segment misalignment by assuming an incorrect drift velocity.}}{51}{figure.caption.39}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.15}{\ignorespaces Drift velocity shit\relax }}{51}{figure.caption.40}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.16}{\ignorespaces The T0-corrected drift time for hits on APA crossing tracks.}}{52}{figure.caption.42}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.17}{\ignorespaces The difference between the timestamps recorded by the PTB and the RCEs upon recieving a trigger. The absolute timing for the DAQ system is given, along with most experiments at FNAL, by `NO$\nu $A time': a 64\nobreakspace  {}MHz clock starting on 1st January, 2010 (with one NO$\nu $A tick therefore being 15.625\nobreakspace  {}ns). The distribution peaks sharply at 1705 NO$\nu $A ticks, or 26.6\nobreakspace  {}$\mu $s.\relax }}{53}{figure.caption.43}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.18}{\ignorespaces \relax }}{53}{figure.caption.44}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.19}{\ignorespaces The T0-corrected drift time for all hits on an APA crossing track in simulation.}}{54}{figure.caption.45}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.1}{\ignorespaces `Good' and `bad' 35\nobreakspace  {}ton runs}}{40}{figure.caption.25}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.2}{\ignorespaces Correcting for stuck codes in the 35\nobreakspace  {}ton data}}{41}{figure.caption.26}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.3}{\ignorespaces Raw data stuck bit mitigation}}{42}{figure.caption.27}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.4}{\ignorespaces Coherent noise removal in 35\nobreakspace  {}ton data}}{42}{figure.caption.28}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.5}{\ignorespaces Selecting tracks for 35\nobreakspace  {}ton data analysis}}{43}{figure.caption.29}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.6}{\ignorespaces Event display showing the effect of unaccounting for T0}}{45}{figure.caption.30}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.7}{\ignorespaces Method to align track segments on either side of the APAs involving minimising residuals from linear least square fit.}}{46}{figure.caption.31}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.8}{\ignorespaces Method to align track segments on either side of the APAs involving minimising the distance between the projected intersection of each with the centre of the APAs.}}{46}{figure.caption.31}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.9}{\ignorespaces Difference between the T0 calculated from TPC data and the T0 provided by the counters representing the trigger time of the through-going muon.}}{47}{figure.caption.32}}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
@@ -51,10 +70,11 @@
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lot}{\contentsline {table}{\numberline {2.1}{\ignorespaces Properties of noble elements relevant when considering a TPC medium for a neutrino experiment.\relax }}{5}{table.caption.8}}
-\@writefile{toc}{\contentsline {chapter}{Appendix \numberline {A}How to install \LaTeX  }{45}{Appendix.a.A}}
-\@writefile{toc}{\contentsline {chapter}{Appendix \numberline {B}Installing the CUED class file}{49}{Appendix.a.B}}
+\@writefile{toc}{\contentsline {chapter}{Appendix \numberline {A}How to install \LaTeX  }{61}{Appendix.a.A}}
+\@writefile{toc}{\contentsline {chapter}{Appendix \numberline {B}Installing the CUED class file}{65}{Appendix.a.B}}
 \@writefile{toc}{\contentsline {chapter}{List of figures}{xv}{chapter*.5}}
 \@writefile{toc}{\contentsline {chapter}{List of tables}{xvii}{chapter*.6}}
+\@writefile{toc}{\contentsline {chapter}{References}{59}{chapter*.46}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {2}Neutrino Physics}{3}{chapter.2}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {3}The DUNE Experiment}{9}{chapter.3}}
@@ -62,8 +82,11 @@
 \@writefile{toc}{\contentsline {chapter}{\numberline {5}Reconstruction in a Liquid Argon TPC}{21}{chapter.5}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {6}Online Monitoring and Event Displays for the 35\nobreakspace  {}ton Experiment}{23}{chapter.6}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {7}Analysis of 35\nobreakspace  {}ton Data}{39}{chapter.7}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {8}Electron Reconstruction for $\nu _e$ Oscillation Signal at the DUNE Far Detector}{41}{chapter.8}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {9}Summary}{43}{chapter.9}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {8}Electron Reconstruction for $\nu _e$ Oscillation Signal at the DUNE Far Detector}{55}{chapter.8}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {9}Summary}{57}{chapter.9}}
+\@writefile{toc}{\contentsline {paragraph}{Drift velocity}{49}{section*.38}}
+\@writefile{toc}{\contentsline {paragraph}{Geometry}{47}{section*.35}}
+\@writefile{toc}{\contentsline {paragraph}{Timing}{49}{section*.41}}
 \@writefile{toc}{\contentsline {section}{\numberline {2.1}Neutrino Theory}{3}{section.2.1}}
 \@writefile{toc}{\contentsline {section}{\numberline {2.2}Future Neutrino Experiments}{4}{section.2.2}}
 \@writefile{toc}{\contentsline {section}{\numberline {2.3}The LAr TPC Concept}{4}{section.2.3}}
@@ -81,6 +104,11 @@
 \@writefile{toc}{\contentsline {section}{\numberline {6.4}Online Event Display}{29}{section.6.4}}
 \@writefile{toc}{\contentsline {section}{\numberline {6.5}Monitoring Web Interface}{34}{section.6.5}}
 \@writefile{toc}{\contentsline {section}{\numberline {6.6}Online Monitoring Summary}{37}{section.6.6}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.1}Preparing 35\nobreakspace  {}ton Data for Analysis}{39}{section.7.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.2}Measuring LAr Purity from Crossing Muons}{44}{section.7.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.3}APA-Crossing Muons}{44}{section.7.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.4}APA Gap-Crossing Muons}{52}{section.7.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.5}Shower Reconstruction in 35\nobreakspace  {}ton Data}{52}{section.7.5}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1.1}Neutrino Oscillations}{3}{subsection.2.1.1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1.2}Neutrino Mass}{4}{subsection.2.1.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.3.1}A Brief History of Time (Projection Chambers)}{4}{subsection.2.3.1}}
@@ -112,13 +140,21 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.4.2}Representing the Data}{33}{subsection.6.4.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.5.1}Automated Data Transfer}{34}{subsection.6.5.1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.5.2}Web Page}{36}{subsection.6.5.2}}
-\@writefile{toc}{\contentsline {subsubsection}{External Counters}{18}{section*.19}}
-\@writefile{toc}{\contentsline {subsubsection}{FEMBs}{18}{section*.20}}
-\@writefile{toc}{\contentsline {subsubsection}{PTB}{18}{section*.23}}
-\@writefile{toc}{\contentsline {subsubsection}{Photon Detectors}{18}{section*.18}}
-\@writefile{toc}{\contentsline {subsubsection}{RCEs}{18}{section*.21}}
-\@writefile{toc}{\contentsline {subsubsection}{SSPs}{18}{section*.22}}
-\@writefile{toc}{\contentsline {subsubsection}{TPC}{18}{section*.17}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1.1}Selecting the Data}{40}{subsection.7.1.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1.2}Improving Data Quality}{41}{subsection.7.1.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1.3}Reconstructing Muon Tracks}{41}{subsection.7.1.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.1}T0 Determination from APA Crossing Tracks}{44}{subsection.7.3.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.2}Charge Deposited by APA Crossing Tracks}{51}{subsection.7.3.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.3}Comparison Between Drift Regions Using APA Crossing Tracks}{52}{subsection.7.3.3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.1.1}TPC}{18}{subsubsection.4.4.1.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.1.2}Photon Detectors}{18}{subsubsection.4.4.1.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.1.3}External Counters}{18}{subsubsection.4.4.1.3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.2.1}FEMBs}{18}{subsubsection.4.4.2.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.2.2}RCEs}{18}{subsubsection.4.4.2.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.2.3}SSPs}{18}{subsubsection.4.4.2.3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.2.4}PTB}{18}{subsubsection.4.4.2.4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.3.1.1}Aligning APA Crossing Tracks [is this numbering too deep?]}{45}{subsubsection.7.3.1.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.3.1.2}Understanding the Misalignment of APA Crossing Tracks}{47}{subsubsection.7.3.1.2}}
 \@writefile{toc}{\thispagestyle {empty}}
 \AtEndDocument{\ifx\hyper@anchor\@undefined
 \HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
@@ -280,8 +316,8 @@
 \setcounter{NAT@ctr}{0}
 \setcounter{NAT@ctr}{0}
 \setcounter{NAT@ctr}{0}
-\setcounter{NAT@ctr}{0}
-\setcounter{NAT@ctr}{0}
+\setcounter{NAT@ctr}{5}
+\setcounter{NAT@ctr}{5}
 \setcounter{bookmark@seq@number}{0}
 \setcounter{bookmark@seq@number}{0}
 \setcounter{bookmark@seq@number}{0}
@@ -292,11 +328,11 @@
 \setcounter{bookmark@seq@number}{39}
 \setcounter{bookmark@seq@number}{4}
 \setcounter{bookmark@seq@number}{57}
-\setcounter{bookmark@seq@number}{58}
-\setcounter{bookmark@seq@number}{59}
-\setcounter{bookmark@seq@number}{60}
-\setcounter{bookmark@seq@number}{61}
-\setcounter{bookmark@seq@number}{62}
+\setcounter{bookmark@seq@number}{69}
+\setcounter{bookmark@seq@number}{70}
+\setcounter{bookmark@seq@number}{71}
+\setcounter{bookmark@seq@number}{73}
+\setcounter{bookmark@seq@number}{74}
 \setcounter{chapter}{0}
 \setcounter{chapter}{0}
 \setcounter{chapter}{0}
@@ -398,7 +434,7 @@
 \setcounter{figure}{0}
 \setcounter{figure}{0}
 \setcounter{figure}{0}
-\setcounter{figure}{0}
+\setcounter{figure}{19}
 \setcounter{figure}{3}
 \setcounter{figure}{6}
 \setcounter{figure}{8}
@@ -438,12 +474,12 @@
 \setcounter{page}{22}
 \setcounter{page}{2}
 \setcounter{page}{38}
-\setcounter{page}{40}
-\setcounter{page}{42}
-\setcounter{page}{44}
-\setcounter{page}{49}
 \setcounter{page}{4}
-\setcounter{page}{50}
+\setcounter{page}{55}
+\setcounter{page}{56}
+\setcounter{page}{58}
+\setcounter{page}{65}
+\setcounter{page}{66}
 \setcounter{page}{6}
 \setcounter{page}{9}
 \setcounter{page}{9}
@@ -518,8 +554,8 @@
 \setcounter{section}{0}
 \setcounter{section}{0}
 \setcounter{section}{0}
-\setcounter{section}{0}
 \setcounter{section}{3}
+\setcounter{section}{5}
 \setcounter{section}{6}
 \setcounter{section}{8}
 \setcounter{subfigure}{0}

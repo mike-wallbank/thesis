@@ -23,14 +23,14 @@
 \contentsline {subsection}{\numberline {4.3.2}The 35\nobreakspace {}ton and LAPD}{16}{subsection.4.3.2}
 \contentsline {section}{\numberline {4.4}The 35\nobreakspace {}ton Detector}{18}{section.4.4}
 \contentsline {subsection}{\numberline {4.4.1}Detector Components}{18}{subsection.4.4.1}
-\contentsline {subsubsection}{TPC}{18}{section*.17}
-\contentsline {subsubsection}{Photon Detectors}{18}{section*.18}
-\contentsline {subsubsection}{External Counters}{18}{section*.19}
+\contentsline {subsubsection}{\numberline {4.4.1.1}TPC}{18}{subsubsection.4.4.1.1}
+\contentsline {subsubsection}{\numberline {4.4.1.2}Photon Detectors}{18}{subsubsection.4.4.1.2}
+\contentsline {subsubsection}{\numberline {4.4.1.3}External Counters}{18}{subsubsection.4.4.1.3}
 \contentsline {subsection}{\numberline {4.4.2}Readout Electronics}{18}{subsection.4.4.2}
-\contentsline {subsubsection}{FEMBs}{18}{section*.20}
-\contentsline {subsubsection}{RCEs}{18}{section*.21}
-\contentsline {subsubsection}{SSPs}{18}{section*.22}
-\contentsline {subsubsection}{PTB}{18}{section*.23}
+\contentsline {subsubsection}{\numberline {4.4.2.1}FEMBs}{18}{subsubsection.4.4.2.1}
+\contentsline {subsubsection}{\numberline {4.4.2.2}RCEs}{18}{subsubsection.4.4.2.2}
+\contentsline {subsubsection}{\numberline {4.4.2.3}SSPs}{18}{subsubsection.4.4.2.3}
+\contentsline {subsubsection}{\numberline {4.4.2.4}PTB}{18}{subsubsection.4.4.2.4}
 \contentsline {subsection}{\numberline {4.4.3}DAQ}{18}{subsection.4.4.3}
 \contentsline {section}{\numberline {4.5}Filling the 35\nobreakspace {}ton}{18}{section.4.5}
 \contentsline {section}{\numberline {4.6}The 35\nobreakspace {}ton Experimental Setup}{18}{section.4.6}
@@ -63,7 +63,24 @@
 \contentsline {subsection}{\numberline {6.5.2}Web Page}{36}{subsection.6.5.2}
 \contentsline {section}{\numberline {6.6}Online Monitoring Summary}{37}{section.6.6}
 \contentsline {chapter}{\numberline {7}Analysis of 35\nobreakspace {}ton Data}{39}{chapter.7}
-\contentsline {chapter}{\numberline {8}Electron Reconstruction for $\nu _e$ Oscillation Signal at the DUNE Far Detector}{41}{chapter.8}
-\contentsline {chapter}{\numberline {9}Summary}{43}{chapter.9}
-\contentsline {chapter}{Appendix \numberline {A}How to install \LaTeX }{45}{Appendix.a.A}
-\contentsline {chapter}{Appendix \numberline {B}Installing the CUED class file}{49}{Appendix.a.B}
+\contentsline {section}{\numberline {7.1}Preparing 35\nobreakspace {}ton Data for Analysis}{39}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Selecting the Data}{40}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Improving Data Quality}{41}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.3}Reconstructing Muon Tracks}{41}{subsection.7.1.3}
+\contentsline {section}{\numberline {7.2}Measuring LAr Purity from Crossing Muons}{44}{section.7.2}
+\contentsline {section}{\numberline {7.3}APA-Crossing Muons}{44}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}T0 Determination from APA Crossing Tracks}{44}{subsection.7.3.1}
+\contentsline {subsubsection}{\numberline {7.3.1.1}Aligning APA Crossing Tracks [is this numbering too deep?]}{45}{subsubsection.7.3.1.1}
+\contentsline {subsubsection}{\numberline {7.3.1.2}Understanding the Misalignment of APA Crossing Tracks}{47}{subsubsection.7.3.1.2}
+\contentsline {paragraph}{Geometry}{47}{section*.35}
+\contentsline {paragraph}{Drift velocity}{49}{section*.38}
+\contentsline {paragraph}{Timing}{49}{section*.41}
+\contentsline {subsection}{\numberline {7.3.2}Charge Deposited by APA Crossing Tracks}{51}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}Comparison Between Drift Regions Using APA Crossing Tracks}{52}{subsection.7.3.3}
+\contentsline {section}{\numberline {7.4}APA Gap-Crossing Muons}{52}{section.7.4}
+\contentsline {section}{\numberline {7.5}Shower Reconstruction in 35\nobreakspace {}ton Data}{52}{section.7.5}
+\contentsline {chapter}{\numberline {8}Electron Reconstruction for $\nu _e$ Oscillation Signal at the DUNE Far Detector}{55}{chapter.8}
+\contentsline {chapter}{\numberline {9}Summary}{57}{chapter.9}
+\contentsline {chapter}{References}{59}{chapter*.46}
+\contentsline {chapter}{Appendix \numberline {A}How to install \LaTeX }{61}{Appendix.a.A}
+\contentsline {chapter}{Appendix \numberline {B}Installing the CUED class file}{65}{Appendix.a.B}
