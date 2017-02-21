@@ -2,6 +2,9 @@
 \contentsline {chapter}{List of figures}{xv}{chapter*.5}
 \contentsline {chapter}{List of tables}{xvii}{chapter*.6}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Introduction to Neutrino Physics}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Current Understanding}{1}{section.1.2}
+\contentsline {section}{\numberline {1.3}The Future}{1}{section.1.3}
 \contentsline {chapter}{\numberline {2}Neutrino Physics}{3}{chapter.2}
 \contentsline {section}{\numberline {2.1}Neutrino Theory}{3}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Neutrino Oscillations}{3}{subsection.2.1.1}
@@ -70,17 +73,19 @@
 \contentsline {section}{\numberline {7.2}Measuring LAr Purity from Crossing Muons}{44}{section.7.2}
 \contentsline {section}{\numberline {7.3}APA-Crossing Muons}{44}{section.7.3}
 \contentsline {subsection}{\numberline {7.3.1}T0 Determination from APA Crossing Tracks}{44}{subsection.7.3.1}
-\contentsline {subsubsection}{\numberline {7.3.1.1}Aligning APA Crossing Tracks [is this numbering too deep?]}{45}{subsubsection.7.3.1.1}
-\contentsline {subsubsection}{\numberline {7.3.1.2}Understanding the Misalignment of APA Crossing Tracks}{47}{subsubsection.7.3.1.2}
-\contentsline {paragraph}{Geometry}{47}{section*.35}
-\contentsline {paragraph}{Drift velocity}{49}{section*.38}
-\contentsline {paragraph}{Timing}{49}{section*.41}
-\contentsline {subsection}{\numberline {7.3.2}Charge Deposited by APA Crossing Tracks}{51}{subsection.7.3.2}
-\contentsline {subsection}{\numberline {7.3.3}Comparison Between Drift Regions Using APA Crossing Tracks}{52}{subsection.7.3.3}
-\contentsline {section}{\numberline {7.4}APA Gap-Crossing Muons}{52}{section.7.4}
-\contentsline {section}{\numberline {7.5}Shower Reconstruction in 35\nobreakspace {}ton Data}{52}{section.7.5}
-\contentsline {chapter}{\numberline {8}Electron Reconstruction for $\nu _e$ Oscillation Signal at the DUNE Far Detector}{55}{chapter.8}
-\contentsline {chapter}{\numberline {9}Summary}{57}{chapter.9}
-\contentsline {chapter}{References}{59}{chapter*.46}
-\contentsline {chapter}{Appendix \numberline {A}How to install \LaTeX }{61}{Appendix.a.A}
-\contentsline {chapter}{Appendix \numberline {B}Installing the CUED class file}{65}{Appendix.a.B}
+\contentsline {subsubsection}{\numberline {7.3.1.1}Aligning APA Crossing Tracks}{45}{subsubsection.7.3.1.1}
+\contentsline {subsubsection}{\numberline {7.3.1.2}Understanding the Misalignment of APA Crossing Tracks}{48}{subsubsection.7.3.1.2}
+\contentsline {paragraph}{Geometry}{48}{section*.35}
+\contentsline {paragraph}{Drift velocity}{50}{section*.38}
+\contentsline {paragraph}{Timing}{50}{section*.41}
+\contentsline {subsection}{\numberline {7.3.2}Charge Deposited by APA Crossing Tracks}{52}{subsection.7.3.2}
+\contentsline {subsubsection}{\numberline {7.3.2.1}Interaction Time Hits}{53}{subsubsection.7.3.2.1}
+\contentsline {subsubsection}{\numberline {7.3.2.2}Event Displays of APA Crossing Tracks}{56}{subsubsection.7.3.2.2}
+\contentsline {subsection}{\numberline {7.3.3}Comparison Between Drift Regions Using APA Crossing Tracks}{56}{subsection.7.3.3}
+\contentsline {section}{\numberline {7.4}APA Gap-Crossing Muons}{58}{section.7.4}
+\contentsline {section}{\numberline {7.5}Shower Reconstruction in 35\nobreakspace {}ton Data}{58}{section.7.5}
+\contentsline {chapter}{\numberline {8}Electron Reconstruction for $\nu _e$ Oscillation Signal at the DUNE Far Detector}{59}{chapter.8}
+\contentsline {chapter}{\numberline {9}Summary}{61}{chapter.9}
+\contentsline {chapter}{References}{63}{chapter*.51}
+\contentsline {chapter}{Appendix \numberline {A}How to install \LaTeX }{65}{Appendix.a.A}
+\contentsline {chapter}{Appendix \numberline {B}Installing the CUED class file}{69}{Appendix.a.B}

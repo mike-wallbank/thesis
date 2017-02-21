@@ -29,16 +29,20 @@
 \contentsline {figure}{\numberline {7.7}{\ignorespaces Method to align track segments on either side of the APAs involving minimising residuals from linear least square fit.}}{46}{figure.caption.31}
 \contentsline {figure}{\numberline {7.8}{\ignorespaces Method to align track segments on either side of the APAs involving minimising the distance between the projected intersection of each with the centre of the APAs.}}{46}{figure.caption.31}
 \contentsline {figure}{\numberline {7.9}{\ignorespaces Difference between the T0 calculated from TPC data and the T0 provided by the counters representing the trigger time of the through-going muon.}}{47}{figure.caption.32}
-\contentsline {figure}{\numberline {7.10}{\ignorespaces Correcting for T0 using $T_0^{\mathrm {counter}}$ and $T_0^{\mathrm {TPC}}$.}}{48}{figure.caption.33}
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Correcting for T0 using $T_0^{\mathrm {counter}}$ and $T_0^{\mathrm {TPC}}$.}}{47}{figure.caption.33}
 \contentsline {figure}{\numberline {7.11}{\ignorespaces Demonstration of the effect observed in the 35\nobreakspace {}ton data concerning tracks crossing the APAs.}}{48}{figure.caption.34}
 \contentsline {figure}{\numberline {7.12}{\ignorespaces Attemping to correct the track segment misalignment by assuming a misunderstanding of the spacing between the collection planes.}}{49}{figure.caption.36}
-\contentsline {figure}{\numberline {7.13}{\ignorespaces Attempting to correct the track segment misalignment by assuming a misunderstanding of the positioning of the collection wires inside the detector.}}{50}{figure.caption.37}
-\contentsline {figure}{\numberline {7.14}{\ignorespaces Attempting to correct the track segment misalignment by assuming an incorrect drift velocity.}}{51}{figure.caption.39}
-\contentsline {figure}{\numberline {7.15}{\ignorespaces Drift velocity shit\relax }}{51}{figure.caption.40}
+\contentsline {figure}{\numberline {7.13}{\ignorespaces Attempting to correct the track segment misalignment by assuming a misunderstanding of the positioning of the collection wires inside the detector.}}{49}{figure.caption.37}
+\contentsline {figure}{\numberline {7.14}{\ignorespaces Attempting to correct the track segment misalignment by assuming an incorrect drift velocity.}}{50}{figure.caption.39}
+\contentsline {figure}{\numberline {7.15}{\ignorespaces Measuring the drift velocity of the ionisation electrons by taking tracks passing through opposite counter pairs and comparing the corresponding drift distance to the drift time.}}{51}{figure.caption.40}
 \contentsline {figure}{\numberline {7.16}{\ignorespaces The T0-corrected drift time for hits on APA crossing tracks.}}{52}{figure.caption.42}
-\contentsline {figure}{\numberline {7.17}{\ignorespaces The difference between the timestamps recorded by the PTB and the RCEs upon recieving a trigger. The absolute timing for the DAQ system is given, along with most experiments at FNAL, by `NO$\nu $A time': a 64\nobreakspace {}MHz clock starting on 1st January, 2010 (with one NO$\nu $A tick therefore being 15.625\nobreakspace {}ns). The distribution peaks sharply at 1705 NO$\nu $A ticks, or 26.6\nobreakspace {}$\mu $s.\relax }}{53}{figure.caption.43}
+\contentsline {figure}{\numberline {7.17}{\ignorespaces The difference between the timestamps recorded by the PTB and the RCEs upon recieving a trigger.}}{53}{figure.caption.43}
 \contentsline {figure}{\numberline {7.18}{\ignorespaces \relax }}{53}{figure.caption.44}
 \contentsline {figure}{\numberline {7.19}{\ignorespaces The T0-corrected drift time for all hits on an APA crossing track in simulation.}}{54}{figure.caption.45}
+\contentsline {figure}{\numberline {7.20}{\ignorespaces Demonstration of the electron ionisation and hit collection for APA crossing tracks.}}{55}{figure.caption.46}
+\contentsline {figure}{\numberline {7.21}{\ignorespaces Comparison between the T0-corrected hit time distributions on APAs with and without the grounded mesh.}}{56}{figure.caption.47}
+\contentsline {figure}{\numberline {7.22}{\ignorespaces Comparison between the distribution of T0-corrected hit times for hits on wires in front of the APA frame and away from the APA frame to validate the functionality of the mesh.}}{57}{figure.caption.48}
+\contentsline {figure}{\numberline {7.23}{\ignorespaces Average lifetime-corrected charge per hit for hits on an APA crossing track separated according to whether or not the hit was collected around the interaction time.}}{57}{figure.caption.49}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
