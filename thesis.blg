@@ -5,7 +5,6 @@ A level-1 auxiliary file: Dedication/dedication.aux
 A level-1 auxiliary file: Declaration/declaration.aux
 A level-1 auxiliary file: Acknowledgements/acknowledgements.aux
 A level-1 auxiliary file: Abstract/abstract.aux
-A level-1 auxiliary file: Introduction/Introduction.aux
 A level-1 auxiliary file: NeutrinoPhysics/NeutrinoPhysics.aux
 A level-1 auxiliary file: DUNE/DUNE.aux
 A level-1 auxiliary file: 35ton/35ton.aux
@@ -30,48 +29,59 @@ Reallocated ex_buf (elt_size=1) to 60000 items from 40000.
 Reallocated out_buf (elt_size=1) to 60000 items from 40000.
 Reallocated name_tok (elt_size=4) to 60000 items from 40000.
 Reallocated name_sep_char (elt_size=1) to 60000 items from 40000.
-Warning--I didn't find a database entry for "LBNE35tonPhaseI"
-Warning--I didn't find a database entry for "LBNE35tonPhaseIOverview"
+Reallocated buffer (elt_size=1) to 80000 items from 60000.
+Reallocated sv_buffer (elt_size=1) to 80000 items from 60000.
+Reallocated ex_buf (elt_size=1) to 80000 items from 60000.
+Reallocated out_buf (elt_size=1) to 80000 items from 60000.
+Reallocated name_tok (elt_size=4) to 80000 items from 60000.
+Reallocated name_sep_char (elt_size=1) to 80000 items from 60000.
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Warning--empty publisher in Gaisser1990
+Warning--empty journal in LBNE35tonPhaseIOverview
+Reallocated str_pool (elt_size=1) to 195000 items from 130000.
+Warning--you've exceeded 20000, the global-string-size, for entry Schael2006
+while executing--line 1098 of file apalike.bst
+*Please notify the bibstyle designer*
 Warning--empty journal in LAPD
-You've used 5 entries,
+You've used 49 entries,
             1935 wiz_defined-function locations,
-            526 strings with 7490 characters,
-and the built_in function-call counts, 6676 in all, are:
-= -- 498
-> -- 838
-< -- 2
-+ -- 330
-- -- 330
-* -- 785
-:= -- 1261
-add.period$ -- 14
-call.type$ -- 5
-change.case$ -- 190
-chr.to.int$ -- 5
-cite$ -- 6
-duplicate$ -- 66
-empty$ -- 136
-format.name$ -- 335
-if$ -- 1130
-int.to.chr$ -- 1
+            830 strings with 87853 characters,
+and the built_in function-call counts, 165140 in all, are:
+= -- 11343
+> -- 24249
+< -- 17
++ -- 9649
+- -- 9646
+* -- 20559
+:= -- 31592
+add.period$ -- 142
+call.type$ -- 49
+change.case$ -- 5066
+chr.to.int$ -- 46
+cite$ -- 52
+duplicate$ -- 674
+empty$ -- 1388
+format.name$ -- 9703
+if$ -- 27222
+int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 4
-newline$ -- 27
-num.names$ -- 15
-pop$ -- 181
+missing$ -- 47
+newline$ -- 243
+num.names$ -- 147
+pop$ -- 4978
 preamble$ -- 1
-purify$ -- 190
+purify$ -- 5068
 quote$ -- 0
-skip$ -- 51
+skip$ -- 493
 stack$ -- 0
-substring$ -- 160
-swap$ -- 3
+substring$ -- 1626
+swap$ -- 43
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 30
-warning$ -- 1
-while$ -- 18
+type$ -- 290
+warning$ -- 3
+while$ -- 179
 width$ -- 0
-write$ -- 63
-(There were 3 warnings)
+write$ -- 621
+(There were 4 warnings)

@@ -1,7 +1,7 @@
 % ******************************* PhD Thesis Template **************************
 % Please have a look at the README.md file for info on how to use the template
 
-\documentclass[a4paper,12pt,times,numbered,print,index]{Classes/PhDThesisPSnPDF}
+\documentclass[a4paper,12pt,times,numbered,print,index,chapter]{Classes/PhDThesisPSnPDF}
 
 % ******************************************************************************
 % ******************************* Class Options ********************************
@@ -101,7 +101,7 @@
 % To use choose `chapter' option in the document class
 
 \ifdefineChapter
- \includeonly{Chapter3/chapter3}
+ \includeonly{NeutrinoPhysics/NeutrinoPhysics}
  \fi
 
 % ************************ User defined ************************
@@ -135,7 +135,6 @@
 % ******************************** Main Matter *********************************
 \mainmatter
 
-\include{Introduction/Introduction}
 \include{NeutrinoPhysics/NeutrinoPhysics}
 \include{DUNE/DUNE}
 \include{35ton/35ton}
