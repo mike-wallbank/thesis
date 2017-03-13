@@ -22,14 +22,17 @@
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.10}{\ignorespaces First LArTPC detector, Rubbia (1977)}}{18}{figure.caption.11}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.11}{\ignorespaces Affect of electric field on luminosity of ionisation electrons and scintillation light in a LArTPC}}{20}{figure.caption.12}}
 \@writefile{lof}{\contentsline {figure}{\numberline {1.1}{\ignorespaces Energy spectrum of the electron produced in beta decay.}}{2}{figure.caption.1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.2}{\ignorespaces Measurements of the hadron production cross-section around the Z resonance.}}{6}{figure.caption.2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.3}{\ignorespaces Solar neutrino energy spectra as predicted by the Standard Solar Model \cite  {Bahcall2005}. The solid lines repesent neutrinos produced during the p-p chain and dashed line represent neutrinos from the CNO cycle. Each spectrum illustrates a particular reaction during the process of a given chain.\relax }}{7}{figure.caption.3}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.4}{\ignorespaces The double ratio \textit  {R} of muon to electron neutrino events showing data divided by expectation \cite  {Mann1999}. Various underground atmospheric neutrino detectors are shown.\relax }}{9}{figure.caption.4}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.5}{\ignorespaces General scattering mechanics which occur as neutrinos pass through matter. Neutral current scattering (Figure \ref  {fig:MatterEffectsNC}) occurs for all neutrino flavour combinations whereas charged current scattering (Figure \ref  {fig:MatterEffectsCC}) only occurs when the incoming leptons have the same flavour.\relax }}{12}{figure.caption.5}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.6}{\ignorespaces Original TPC design, Nygren (1974)}}{14}{figure.caption.6}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.7}{\ignorespaces First LArTPC detector, Rubbia (1977)}}{15}{figure.caption.8}}
-\@writefile{lof}{\contentsline {figure}{\numberline {1.8}{\ignorespaces Affect of electric field on luminosity of ionisation electrons and scintillation light in a LArTPC}}{17}{figure.caption.9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.2}{\ignorespaces Measurements of the hadron production cross-section around the Z resonance.}}{5}{figure.caption.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.3}{\ignorespaces Solar neutrino energy spectra as predicted by the Standard Solar Model \cite  {Bahcall2005}. The solid lines represent neutrinos produced during the p-p chain and dashed line represent neutrinos from the CNO cycle. Each spectrum illustrates a particular reaction during the process of a given chain.\relax }}{6}{figure.caption.3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.4}{\ignorespaces The double ratio \textit  {R} of muon to electron neutrino events showing data divided by expectation \cite  {Mann1999}. Various underground atmospheric neutrino detectors are shown.\relax }}{8}{figure.caption.4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.5}{\ignorespaces Zenith angle distributions of $\mu $-like and $e$-like events for sub-GeV and multi-GeV data sets. Upward-going particles have $\qopname  \relax o{cos}{\Theta } < 0$ and downward-going particles have $\qopname  \relax o{cos}{\Theta } > 0$. The hatched region shows the Monte Carlo expectation for no oscillations and the bold line is the best-fit expectation for $\nu _{\mu }\rightarrow \nu _{\tau }$ oscillations. Taken from \cite  {SuperKamiokande1998}.\relax }}{10}{figure.caption.5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.6}{\ignorespaces The ratio of the number of data events to Monte Carlo events in the absence of oscillations as a function of reconstructed $L/E_{\nu }$. The dashed lines show the expected shape for $\nu _{\mu }\rightarrow \nu _{\tau }$ oscillations. Taken from \cite  {SuperKamiokande1998}.\relax }}{10}{figure.caption.6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.7}{\ignorespaces \relax }}{12}{figure.caption.7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.8}{\ignorespaces General scattering mechanics which occur as neutrinos pass through matter. Neutral current scattering (Figure \ref  {fig:MatterEffectsNC}) occurs for all neutrino flavour combinations whereas charged current scattering (Figure \ref  {fig:MatterEffectsCC}) only occurs when the incoming leptons have the same flavour.\relax }}{15}{figure.caption.8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.9}{\ignorespaces Original TPC design, Nygren (1974)}}{17}{figure.caption.9}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces LAPD tank and purification system}}{19}{figure.caption.14}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Contaminant gradient in the LAPD tank}}{20}{figure.caption.15}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Design of LAPD and 35\nobreakspace  {}ton style purity monitors}}{21}{figure.caption.16}}
@@ -75,10 +78,10 @@
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{lot}{\contentsline {table}{\numberline {1.1}{\ignorespaces Properties of noble elements relevant when considering a TPC medium for a neutrino experiment.\relax }}{15}{table.caption.7}}
+\@writefile{lot}{\contentsline {table}{\numberline {1.1}{\ignorespaces Properties of noble elements relevant when considering a TPC medium for a neutrino experiment.\relax }}{18}{table.caption.10}}
 \@writefile{toc}{\contentsline {chapter}{Appendix \numberline {A}How to install \LaTeX  }{83}{Appendix.a.A}}
 \@writefile{toc}{\contentsline {chapter}{Appendix \numberline {B}Installing the CUED class file}{87}{Appendix.a.B}}
-\@writefile{toc}{\contentsline {chapter}{References}{69}{chapter*.10}}
+\@writefile{toc}{\contentsline {chapter}{References}{69}{chapter*.13}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {1}Neutrino Physics}{1}{chapter.1}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {2}The DUNE Experiment}{15}{chapter.2}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {3}The DUNE 35\nobreakspace  {}ton Prototype}{17}{chapter.3}}
@@ -90,11 +93,11 @@
 \@writefile{toc}{\contentsline {paragraph}{Drift velocity}{56}{section*.41}}
 \@writefile{toc}{\contentsline {paragraph}{Geometry}{54}{section*.38}}
 \@writefile{toc}{\contentsline {paragraph}{Timing}{56}{section*.44}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.1}Historical Context}{2}{section.1.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.2}Neutrino Oscillations}{10}{section.1.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.3}Current Understanding of Neutrino Physics}{13}{section.1.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.4}Future Neutrino Experiments}{13}{section.1.4}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.5}The LAr TPC Concept [Lee -- could be in DUNE chapter?]}{13}{section.1.5}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.1}Historical Context}{1}{section.1.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.2}Neutrino Oscillations}{11}{section.1.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.3}Current Understanding of Neutrino Physics}{15}{section.1.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.4}Future Neutrino Experiments}{16}{section.1.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.5}The LAr TPC Concept [Lee -- could be in DUNE chapter?]}{16}{section.1.5}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.1}Motivation}{17}{section.3.1}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.2}The Liquid Argon Purity Demonstrator}{18}{section.3.2}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.3}The 35\nobreakspace  {}ton Cryostat}{22}{section.3.3}}
@@ -114,16 +117,16 @@
 \@writefile{toc}{\contentsline {section}{\numberline {6.3}APA-Crossing Muons}{50}{section.6.3}}
 \@writefile{toc}{\contentsline {section}{\numberline {6.4}APA Gap-Crossing Muons}{64}{section.6.4}}
 \@writefile{toc}{\contentsline {section}{\numberline {6.5}Shower Reconstruction in 35\nobreakspace  {}ton Data}{64}{section.6.5}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.1.1}Prediction of the Neutrino}{2}{subsection.1.1.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.1.2}Discovery of the Neutrino}{3}{subsection.1.1.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.1.3}The Solar Neutrino Problem}{5}{subsection.1.1.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.1.4}The Atmospheric Neutrino Anomaly}{8}{subsection.1.1.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.1.5}The Evidence for Neutrino Oscillations}{9}{subsection.1.1.5}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.1}Matter Effects}{12}{subsection.1.2.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.2}CP-Violation}{13}{subsection.1.2.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.3}Neutrino Mass}{13}{subsection.1.2.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.5.1}A Brief History of Time (Projection Chambers)}{13}{subsection.1.5.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.5.2}LAr TPC Operation}{16}{subsection.1.5.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1.1}Prediction of the Neutrino}{1}{subsection.1.1.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1.2}Discovery of the Neutrino}{2}{subsection.1.1.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1.3}The Solar Neutrino Problem}{6}{subsection.1.1.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1.4}The Atmospheric Neutrino Anomaly}{7}{subsection.1.1.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1.5}The Evidence for Neutrino Oscillations}{8}{subsection.1.1.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.1}Matter Effects}{15}{subsection.1.2.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.2}CP-Violation}{15}{subsection.1.2.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.3}Neutrino Mass}{15}{subsection.1.2.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.5.1}A Brief History of Time (Projection Chambers)}{16}{subsection.1.5.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.5.2}LAr TPC Operation}{17}{subsection.1.5.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}LAPD Experimental Setup}{18}{subsection.3.2.1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}The LAPD Filtration System}{19}{subsection.3.2.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.2.3}Purity Monitoring}{20}{subsection.3.2.3}}
@@ -159,6 +162,8 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.3.3}Comparison Between Drift Regions Using APA Crossing Tracks}{62}{subsection.6.3.3}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.4.1}APA-Gap Offset Determination}{64}{subsection.6.4.1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.4.2}Charge Deposited by APA-Gap Crossing Muons}{64}{subsection.6.4.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.1.5.1}SuperKamiokande and the Atmospheric Sector}{9}{subsubsection.1.1.5.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.1.5.2}SNO and the Solar Sector}{9}{subsubsection.1.1.5.2}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.1.1}TPC}{24}{subsubsection.3.4.1.1}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.1.2}Photon Detectors}{24}{subsubsection.3.4.1.2}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.1.3}External Counters}{24}{subsubsection.3.4.1.3}}
@@ -179,6 +184,7 @@
 \citation{Anselmann1992}
 \citation{Bahcall1968}
 \citation{Bahcall1995}
+\citation{Bahcall2005Fluxes}
 \citation{Bahcall2005}
 \citation{Bahcall2005}
 \citation{Bethe1939}
@@ -198,6 +204,7 @@
 \citation{Hampel1999}
 \citation{Hirata1988}
 \citation{ICARUS2004}
+\citation{Kamiokande1994}
 \citation{Kodama2001}
 \citation{LAPD}
 \citation{LAPD}
@@ -235,9 +242,15 @@
 \citation{Rubbia1977}
 \citation{Rubbia1977}
 \citation{Rubbia1977}
+\citation{SNO2002}
 \citation{Schael2006}
 \citation{Schael2006}
 \citation{Schael2006}
+\citation{SuperKamiokande1998}
+\citation{SuperKamiokande1998}
+\citation{SuperKamiokande1998}
+\citation{SuperKamiokande1998}
+\citation{SuperKamiokande1998}
 \citation{Wolfenstein1978}
 \fi}
 \fi}
@@ -464,7 +477,7 @@
 \setcounter{equation}{0}
 \setcounter{equation}{0}
 \setcounter{equation}{0}
-\setcounter{equation}{28}
+\setcounter{equation}{31}
 \setcounter{figure}{0}
 \setcounter{figure}{0}
 \setcounter{figure}{0}
@@ -475,9 +488,9 @@
 \setcounter{figure}{0}
 \setcounter{figure}{0}
 \setcounter{figure}{0}
+\setcounter{figure}{11}
 \setcounter{figure}{24}
 \setcounter{figure}{6}
-\setcounter{figure}{8}
 \setcounter{figure}{8}
 \setcounter{footnote}{0}
 \setcounter{footnote}{0}
@@ -509,7 +522,7 @@
 \setcounter{mpfootnote}{0}
 \setcounter{page}{10}
 \setcounter{page}{16}
-\setcounter{page}{18}
+\setcounter{page}{21}
 \setcounter{page}{26}
 \setcounter{page}{28}
 \setcounter{page}{44}

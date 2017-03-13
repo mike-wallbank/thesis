@@ -204,6 +204,46 @@ Adeva, B., Adriani, O., Aguilar-Benitez, M., Akbari, H., Alcaraz, J., Aloisio,
   boson Z0}.
 \newblock {\em Physics Letters B}, 231(4):509--518.
 
+\bibitem[Ahmad et~al., 2002]{SNO2002}
+Ahmad, Q.~R., Allen, R.~C., Andersen, T.~C., D.Anglin, J., Barton, J.~C.,
+  Beier, E.~W., Bercovitch, M., Bigu, J., Biller, S.~D., Black, R.~A., Blevis,
+  I., Boardman, R.~J., Boger, J., Bonvin, E., Boulay, M.~G., Bowler, M.~G.,
+  Bowles, T.~J., Brice, S.~J., Browne, M.~C., Bullard, T.~V., B{\"{u}}hler, G.,
+  Cameron, J., Chan, Y.~D., Chen, H.~H., Chen, M., Chen, X., Cleveland, B.~T.,
+  Clifford, E. T.~H., Cowan, J. H.~M., Cowen, D.~F., Cox, G.~A., Dai, X.,
+  Dalnoki-Veress, F., Davidson, W.~F., Doe, P.~J., Doucas, G., Dragowsky,
+  M.~R., Duba, C.~A., Duncan, F.~A., Dunford, M., Dunmore, J.~A., Earle, E.~D.,
+  Elliott, S.~R., Evans, H.~C., Ewan, G.~T., Farine, J., Fergani, H., Ferraris,
+  A.~P., Ford, R.~J., Formaggio, J.~A., Fowler, M.~M., Frame, K., Frank, E.~D.,
+  Frati, W., Gagnon, N., Germani, J.~V., Gil, S., Graham, K., Grant, D.~R.,
+  Hahn, R.~L., Hallin, A.~L., Hallman, E.~D., Hamer, A.~S., Hamian, A.~A.,
+  Handler, W.~B., Haq, R.~U., Hargrove, C.~K., Harvey, P.~J., Hazama, R.,
+  Heeger, K.~M., Heintzelman, W.~J., Heise, J., Helmer, R.~L., Hepburn, J.~D.,
+  Heron, H., Hewett, J., Hime, A., Howe, M., Hykawy, J.~G., Isaac, M. C.~P.,
+  Jagam, P., Jelley, N.~A., Jillings, C., Jonkmans, G., Kazkaz, K., Keener,
+  P.~T., Klein, J.~R., Knox, A.~B., Komar, R.~J., Kouzes, R., Kutter, T., Kyba,
+  C. C.~M., Law, J., Lawson, I.~T., Lay, M., Lee, H.~W., Lesko, K.~T., Leslie,
+  J.~R., Levine, I., Locke, W., Luoma, S., Lyon, J., Majerus, S., Mak, H.~B.,
+  Maneira, J., Manor, J., Marino, A.~D., McCauley, N., McDonald, A.~B.,
+  McDonald, D.~S., McFarlane, K., McGregor, G., {Meijer Drees}, R., Mifflin,
+  C., Miller, G.~G., Milton, G., Moffat, B.~A., Moorhead, M., Nally, C.~W.,
+  Neubauer, M.~S., Newcomer, F.~M., Ng, H.~S., Noble, A.~J., Norman, E.~B.,
+  Novikov, V.~M., O'Neill, M., Okada, C.~E., Ollerhead, R.~W., Omori, M.,
+  Orrell, J.~L., Oser, S.~M., Poon, A. W.~P., Radcliffe, T.~J., Roberge, A.,
+  Robertson, B.~C., Robertson, R. G.~H., Rosendahl, S. S.~E., Rowley, J.~K.,
+  Rusu, V.~L., Saettler, E., Schaffer, K.~K., Schwendener, M.~H.,
+  Sch{\"{u}}lke, A., Seifert, H., Shatkay, M., Simpson, J.~J., Sims, C.~J.,
+  Sinclair, D., Skensved, P., Smith, A.~R., Smith, M. W.~E., Spreitzer, T.,
+  Starinsky, N., Steiger, T.~D., Stokstad, R.~G., Stonehill, L.~C., Storey,
+  R.~S., Sur, B., Tafirout, R., Tagg, N., Tanner, N.~W., Taplin, R.~K.,
+  Thorman, M., Thornewell, P.~M., Trent, P.~T., Tserkovnyak, Y.~I., {Van Berg},
+  R., de~Water, R.~G., Virtue, C.~J., Waltham, C.~E., Wang, J.-X., Wark, D.~L.,
+  West, N., Wilhelmy, J.~B., Wilkerson, J.~F., Wilson, J.~R., Wittich, P.,
+  Wouters, J.~M., and Yeh, M. (2002).
+\newblock {Direct Evidence for Neutrino Flavor Transformation from
+  Neutral-Current Interactions in the Sudbury Neutrino Observatory}.
+\newblock {\em Phys. Rev. Lett.}, 89(1):11301.
+
 \bibitem[Akrawy et~al., 1989]{Akrawy1989}
 Akrawy, M.~Z., Alexander, G., Allison, J., Allport, P.~P., Anderson, K.~J.,
   Armitage, J.~C., Arnison, G. T.~J., Ashton, P., Azuelos, G., Baines, J.
@@ -307,6 +347,11 @@ Anselmann, P., Hampel, W., Heusser, G., Kiko, J., Kirsten, T., Pernicka, E.,
   (1992).
 \newblock {Solar neutrinos observed by GALLEX at Gran Sasso}.
 \newblock {\em Physics Letters B}, 285(4):376--389.
+
+\bibitem[Bahcall, 2005]{Bahcall2005Fluxes}
+Bahcall, J.~N. (2005).
+\newblock {Solar Models and Solar Neutrinos}.
+\newblock {\em Physica Scripta}, 2005(T121):46.
 
 \bibitem[Bahcall et~al., 1968]{Bahcall1968}
 Bahcall, J.~N., Bahcall, N.~A., and Shaviv, G. (1968).
@@ -504,6 +549,46 @@ Fermi, E. (1934b).
 \bibitem[Freeman, 2014]{Freeman2014}
 Freeman, J. (2014).
 \newblock {Courtesy of John Freeman, Fermilab}.
+
+\bibitem[Fukuda et~al., 1998]{SuperKamiokande1998}
+Fukuda, Y., Hayakawa, T., Ichihara, E., Inoue, K., Ishihara, K., Ishino, H.,
+  Itow, Y., Kajita, T., Kameda, J., Kasuga, S., Kobayashi, K., Kobayashi, Y.,
+  Koshio, Y., Miura, M., Nakahata, M., Nakayama, S., Okada, A., Okumura, K.,
+  Sakurai, N., Shiozawa, M., Suzuki, Y., Takeuchi, Y., Totsuka, Y., Yamada, S.,
+  Earl, M., Habig, A., Kearns, E., Messier, M.~D., Scholberg, K., Stone, J.~L.,
+  Sulak, L.~R., Walter, C.~W., Goldhaber, M., Barszczxak, T., Casper, D.,
+  Gajewski, W., Halverson, P.~G., Hsu, J., Kropp, W.~R., Price, L.~R., Reines,
+  F., Smy, M., Sobel, H.~W., Vagins, M.~R., Ganezer, K.~S., Keig, W.~E.,
+  Ellsworth, R.~W., Tasaka, S., Flanagan, J.~W., Kibayashi, A., Learned, J.~G.,
+  Matsuno, S., Stenger, V.~J., Takemori, D., Ishii, T., Kanzaki, J., Kobayashi,
+  T., Mine, S., Nakamura, K., Nishikawa, K., Oyama, Y., Sakai, A., Sakuda, M.,
+  Sasaki, O., Echigo, S., Kohama, M., Suzuki, A.~T., Haines, T.~J., Blaufuss,
+  E., Kim, B.~K., Sanford, R., Svoboda, R., Chen, M.~L., Conner, Z., Goodman,
+  J.~A., Sullivan, G.~W., Hill, J., Jung, C.~K., Martens, K., Mauger, C.,
+  McGrew, C., Sharkey, E., Viren, B., Yanagisawa, C., Doki, W., Miyano, K.,
+  Okazawa, H., Saji, C., Takahata, M., Nagashima, Y., Takita, M., Yamaguchi,
+  T., Yoshida, M., Kim, S.~B., Etoh, M., Fujita, K., Hasegawa, A., Hasegawa,
+  T., Hatakeyama, S., Iwamoto, T., Koga, M., Maruyama, T., Ogawa, H., Shirai,
+  J., Suzuki, A., Tsushima, F., Koshiba, M., Nemoto, M., Nishijima, K.,
+  Futagami, T., Hayato, Y., Kanaya, Y., Kaneyuki, K., Watanabe, Y.,
+  Kielczewska, D., Doyle, R.~A., George, J.~S., Stachyra, A.~L., Wai, L.~L.,
+  Wilkes, R.~J., and Young, K.~K. (1998).
+\newblock {Evidence for Oscillation of Atmospheric Neutrinos}.
+\newblock {\em Phys. Rev. Lett.}, 81(8):1562--1567.
+
+\bibitem[Fukuda et~al., 1994]{Kamiokande1994}
+Fukuda, Y., Hayakawa, T., Inoue, K., Ishida, T., Joukou, S., Kajita, T.,
+  Kasuga, S., Koshio, Y., Kumita, T., Matsumoto, K., Nakahata, M., Nakamura,
+  K., Sakai, A., Shiozawa, M., Suzuki, J., Suzuki, Y., Totsuka, Y., Hirata,
+  K.~S., Kihara, K., Mori, M., Oyama, Y., Suzuki, A., Yamada, M., Koshiba, M.,
+  Nishijima, K., Kajimura, T., Suda, T., Suzuki, A.~T., Ishizuka, T., Koga, M.,
+  Miyano, K., Miyata, H., Okazawa, H., Takei, H., Hara, T., Kishi, N.,
+  Nagashima, Y., Takita, M., Yoshimoto, A., Hayato, Y., Kaneyuki, K., Takeuchi,
+  Y., Tanimori, T., Tasaka, S., Nishikawa, K., Beier, E.~W., Frank, E.~D.,
+  Frati, W., Kim, S.~B., Mann, A.~K., Newcomer, F.~M., Berg, R.~V., and Zhang,
+  W. (1994).
+\newblock {Atmospheric v$\mu$ve ratio in the multi-GeV energy range}.
+\newblock {\em Physics Letters B}, 335(2):237--245.
 
 \bibitem[Gaisser, 1990]{Gaisser1990}
 Gaisser, T.~K. (1990).

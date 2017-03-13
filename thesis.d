@@ -96,9 +96,18 @@ thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,thesis.tex)
 -include NeutrinoPhysics/Figs/LEPZ0Resonance.pdf.gpi.d
 thesis.d: $$(call graphics-source,NeutrinoPhysics/Figs/LEPZ0Resonance.pdf)
 thesis.pdf thesis._graphics: $$(call graphics-target,NeutrinoPhysics/Figs/LEPZ0Resonance.pdf)
--include NeutrinoPhysics/Figs/SolarNeutrinos.pdf.gpi.d
-thesis.d: $$(call graphics-source,NeutrinoPhysics/Figs/SolarNeutrinos.pdf)
-thesis.pdf thesis._graphics: $$(call graphics-target,NeutrinoPhysics/Figs/SolarNeutrinos.pdf)
+-include NeutrinoPhysics/Figs/SolarNeutrinoCycles.pdf.gpi.d
+thesis.d: $$(call graphics-source,NeutrinoPhysics/Figs/SolarNeutrinoCycles.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,NeutrinoPhysics/Figs/SolarNeutrinoCycles.pdf)
+-include NeutrinoPhysics/Figs/SuperKamiokandeDirection.pdf.gpi.d
+thesis.d: $$(call graphics-source,NeutrinoPhysics/Figs/SuperKamiokandeDirection.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,NeutrinoPhysics/Figs/SuperKamiokandeDirection.pdf)
+-include NeutrinoPhysics/Figs/SuperKamiokandeLE.pdf.gpi.d
+thesis.d: $$(call graphics-source,NeutrinoPhysics/Figs/SuperKamiokandeLE.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,NeutrinoPhysics/Figs/SuperKamiokandeLE.pdf)
+-include NeutrinoPhysics/Figs/SolarNeutrinoFluxes.pdf.gpi.d
+thesis.d: $$(call graphics-source,NeutrinoPhysics/Figs/SolarNeutrinoFluxes.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,NeutrinoPhysics/Figs/SolarNeutrinoFluxes.pdf)
 -include NeutrinoPhysics/Figs/MatterEffectsNC.pdf.gpi.d
 thesis.d: $$(call graphics-source,NeutrinoPhysics/Figs/MatterEffectsNC.pdf)
 thesis.pdf thesis._graphics: $$(call graphics-target,NeutrinoPhysics/Figs/MatterEffectsNC.pdf)

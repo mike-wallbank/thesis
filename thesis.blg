@@ -5,6 +5,11 @@ A level-1 auxiliary file: Dedication/dedication.aux
 A level-1 auxiliary file: Declaration/declaration.aux
 A level-1 auxiliary file: Acknowledgements/acknowledgements.aux
 A level-1 auxiliary file: Abstract/abstract.aux
+I couldn't open auxiliary file Introduction/Introduction.aux
+---line 24 of file thesis.aux
+ : \@input{Introduction/Introduction.aux
+ :                                      }
+I'm skipping whatever remains of this command
 A level-1 auxiliary file: NeutrinoPhysics/NeutrinoPhysics.aux
 A level-1 auxiliary file: DUNE/DUNE.aux
 A level-1 auxiliary file: 35ton/35ton.aux
@@ -43,45 +48,45 @@ Warning--you've exceeded 20000, the global-string-size, for entry Schael2006
 while executing--line 1098 of file apalike.bst
 *Please notify the bibstyle designer*
 Warning--empty journal in LAPD
-You've used 49 entries,
+You've used 53 entries,
             1935 wiz_defined-function locations,
-            830 strings with 87853 characters,
-and the built_in function-call counts, 165140 in all, are:
-= -- 11343
-> -- 24249
-< -- 17
-+ -- 9649
-- -- 9646
-* -- 20559
-:= -- 31592
-add.period$ -- 142
-call.type$ -- 49
-change.case$ -- 5066
-chr.to.int$ -- 46
-cite$ -- 52
-duplicate$ -- 674
-empty$ -- 1388
-format.name$ -- 9703
-if$ -- 27222
+            858 strings with 93704 characters,
+and the built_in function-call counts, 177383 in all, are:
+= -- 12185
+> -- 26030
+< -- 18
++ -- 10357
+- -- 10354
+* -- 22082
+:= -- 33933
+add.period$ -- 154
+call.type$ -- 53
+change.case$ -- 5440
+chr.to.int$ -- 50
+cite$ -- 56
+duplicate$ -- 730
+empty$ -- 1503
+format.name$ -- 10415
+if$ -- 29245
 int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 47
-newline$ -- 243
-num.names$ -- 147
-pop$ -- 4978
+missing$ -- 51
+newline$ -- 263
+num.names$ -- 159
+pop$ -- 5343
 preamble$ -- 1
-purify$ -- 5068
+purify$ -- 5442
 quote$ -- 0
-skip$ -- 493
+skip$ -- 534
 stack$ -- 0
-substring$ -- 1626
-swap$ -- 43
+substring$ -- 1751
+swap$ -- 47
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 290
+type$ -- 314
 warning$ -- 3
-while$ -- 179
+while$ -- 193
 width$ -- 0
-write$ -- 621
-(There were 4 warnings)
+write$ -- 673
+(There was 1 error message)

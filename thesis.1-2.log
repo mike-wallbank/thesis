@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  13 MAR 2017 11:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  13 MAR 2017 16:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1215,11 +1215,13 @@ Package: translator 2010/06/12 ver 1.10
 (/usr/local/texlive/2014/texmf-dist/tex/latex/beamer/translator/translator-lang
 uage-mappings.tex)))) (./thesis-info.tex) (./thesis.aux (./Dedication/dedicatio
 n.aux) (./Declaration/declaration.aux) (./Acknowledgements/acknowledgements.aux
-) (./Abstract/abstract.aux) (./NeutrinoPhysics/NeutrinoPhysics.aux) (./DUNE/DUN
-E.aux) (./35ton/35ton.aux) (./LArReconstruction/LArReconstruction.aux) (./Onlin
-eMonitoring/OnlineMonitoring.aux) (./35tonAnalysis/35tonAnalysis.aux) (./FarDet
-ectorAnalysis/FarDetectorAnalysis.aux) (./Summary/Summary.aux) (./Appendix1/app
-endix1.aux) (./Appendix2/appendix2.aux))
+) (./Abstract/abstract.aux)
+No file Introduction/Introduction.aux.
+(./NeutrinoPhysics/NeutrinoPhysics.aux) (./DUNE/DUNE.aux) (./35ton/35ton.aux) (
+./LArReconstruction/LArReconstruction.aux) (./OnlineMonitoring/OnlineMonitoring
+.aux) (./35tonAnalysis/35tonAnalysis.aux) (./FarDetectorAnalysis/FarDetectorAna
+lysis.aux) (./Summary/Summary.aux) (./Appendix1/appendix1.aux) (./Appendix2/app
+endix2.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 111.
@@ -1403,136 +1405,149 @@ Package microtype Info: Loading generic settings for font family
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 6.
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--25
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--25
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--25
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--25
-
- []
-
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 27.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 11.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 29.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 13.
 [1
 
 
+
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<NeutrinoPhysics/Figs/ElectronEnergySpectrumBetaDecay.png, id=89, 729.72626pt x
- 538.01pt>
+<NeutrinoPhysics/Figs/ElectronEnergySpectrumBetaDecay.png, id=104, 729.72626pt 
+x 538.01pt>
 File: NeutrinoPhysics/Figs/ElectronEnergySpectrumBetaDecay.png Graphic file (ty
 pe png)
 <use NeutrinoPhysics/Figs/ElectronEnergySpectrumBetaDecay.png>
 Package pdftex.def Info: NeutrinoPhysics/Figs/ElectronEnergySpectrumBetaDecay.p
-ng used on input line 43.
+ng used on input line 27.
 (pdftex.def)             Requested size: 284.52756pt x 209.77379pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 49.
-[2 <./NeutrinoPhysics/Figs/ElectronEnergySpectrumBetaDecay.png>] [3] [4] <Neutr
-inoPhysics/Figs/LEPZ0Resonance.pdf, id=158, 171.65741pt x 174.80807pt>
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 37.
+[2 <./NeutrinoPhysics/Figs/ElectronEnergySpectrumBetaDecay.png>] [3] <NeutrinoP
+hysics/Figs/LEPZ0Resonance.pdf, id=155, 171.65741pt x 174.80807pt>
 File: NeutrinoPhysics/Figs/LEPZ0Resonance.pdf Graphic file (type pdf)
 <use NeutrinoPhysics/Figs/LEPZ0Resonance.pdf>
 Package pdftex.def Info: NeutrinoPhysics/Figs/LEPZ0Resonance.pdf used on input 
-line 97.
+line 81.
 (pdftex.def)             Requested size: 341.43306pt x 347.70013pt.
-[5] [6 <./NeutrinoPhysics/Figs/LEPZ0Resonance.pdf>] <NeutrinoPhysics/Figs/Solar
-Neutrinos.pdf, id=252, 304.94276pt x 225.30444pt>
-File: NeutrinoPhysics/Figs/SolarNeutrinos.pdf Graphic file (type pdf)
-<use NeutrinoPhysics/Figs/SolarNeutrinos.pdf>
-Package pdftex.def Info: NeutrinoPhysics/Figs/SolarNeutrinos.pdf used on input 
-line 110.
+[4] [5 <./NeutrinoPhysics/Figs/LEPZ0Resonance.pdf>]
+<NeutrinoPhysics/Figs/SolarNeutrinoCycles.pdf, id=251, 304.94276pt x 225.30444p
+t>
+File: NeutrinoPhysics/Figs/SolarNeutrinoCycles.pdf Graphic file (type pdf)
+<use NeutrinoPhysics/Figs/SolarNeutrinoCycles.pdf>
+Package pdftex.def Info: NeutrinoPhysics/Figs/SolarNeutrinoCycles.pdf used on i
+nput line 94.
 (pdftex.def)             Requested size: 341.43306pt x 252.26704pt.
-[7 <./NeutrinoPhysics/Figs/SolarNeutrinos.pdf>]
-Overfull \hbox (27.80267pt too wide) in paragraph at lines 120--122
+[6 <./NeutrinoPhysics/Figs/SolarNeutrinoCycles.pdf>]
+Overfull \hbox (27.80267pt too wide) in paragraph at lines 104--106
 \T1/ptm/m/n/12 (-20) These ex-per-i-ments also re-ported `miss-ing' neu-tri-nos
 , de-ter-min-ing cap-ture rates of $\OT1/ztmcm/m/n/12 66\OML/ztmcm/m/it/12 :\OT
 1/ztmcm/m/n/12 6[]$ \T1/ptm/m/n/12 (-20) SNU
  []
 
-[8]
+[7]
 <NeutrinoPhysics/Figs/AtmosphericNeutrinoAnomaly.pdf, id=317, 269.26898pt x 132
 .44713pt>
 File: NeutrinoPhysics/Figs/AtmosphericNeutrinoAnomaly.pdf Graphic file (type pd
 f)
 <use NeutrinoPhysics/Figs/AtmosphericNeutrinoAnomaly.pdf>
 Package pdftex.def Info: NeutrinoPhysics/Figs/AtmosphericNeutrinoAnomaly.pdf us
-ed on input line 138.
+ed on input line 122.
 (pdftex.def)             Requested size: 341.43306pt x 167.95334pt.
-[9 <./NeutrinoPhysics/Figs/AtmosphericNeutrinoAnomaly.pdf>] [10] [11]
+[8 <./NeutrinoPhysics/Figs/AtmosphericNeutrinoAnomaly.pdf>]
+<NeutrinoPhysics/Figs/SuperKamiokandeDirection.pdf, id=403, 443.1045pt x 223.47
+59pt>
+File: NeutrinoPhysics/Figs/SuperKamiokandeDirection.pdf Graphic file (type pdf)
 
-Package natbib Warning: Citation `Wolfenstein1978' on page 12 undefined on inpu
-t line 247.
+<use NeutrinoPhysics/Figs/SuperKamiokandeDirection.pdf>
+Package pdftex.def Info: NeutrinoPhysics/Figs/SuperKamiokandeDirection.pdf used
+ on input line 139.
+(pdftex.def)             Requested size: 443.10342pt x 223.47536pt.
 
-<NeutrinoPhysics/Figs/MatterEffectsNC.pdf, id=431, 205.93678pt x 102.70059pt>
+Overfull \hbox (5.6423pt too wide) in paragraph at lines 139--140
+ [][] 
+ []
+
+
+<NeutrinoPhysics/Figs/SuperKamiokandeLE.pdf, id=406, 223.10562pt x 220.3124pt>
+File: NeutrinoPhysics/Figs/SuperKamiokandeLE.pdf Graphic file (type pdf)
+<use NeutrinoPhysics/Figs/SuperKamiokandeLE.pdf>
+Package pdftex.def Info: NeutrinoPhysics/Figs/SuperKamiokandeLE.pdf used on inp
+ut line 146.
+(pdftex.def)             Requested size: 223.10507pt x 220.31184pt.
+[9] [10 <./NeutrinoPhysics/Figs/SuperKamiokandeDirection.pdf> <./NeutrinoPhysic
+s/Figs/SuperKamiokandeLE.pdf>] <NeutrinoPhysics/Figs/SolarNeutrinoFluxes.pdf, i
+d=558, 794.97pt x 614.295pt>
+File: NeutrinoPhysics/Figs/SolarNeutrinoFluxes.pdf Graphic file (type pdf)
+<use NeutrinoPhysics/Figs/SolarNeutrinoFluxes.pdf>
+Package pdftex.def Info: NeutrinoPhysics/Figs/SolarNeutrinoFluxes.pdf used on i
+nput line 165.
+(pdftex.def)             Requested size: 455.24408pt x 351.79211pt.
+
+Overfull \hbox (17.78296pt too wide) in paragraph at lines 165--166
+ [][] 
+ []
+
+[11] [12 <./NeutrinoPhysics/Figs/SolarNeutrinoFluxes.pdf, page is rotated 90 de
+grees>] [13] [14] <NeutrinoPhysics/Figs/MatterEffectsNC.pdf, id=689, 205.93678p
+t x 102.70059pt>
 File: NeutrinoPhysics/Figs/MatterEffectsNC.pdf Graphic file (type pdf)
 <use NeutrinoPhysics/Figs/MatterEffectsNC.pdf>
 Package pdftex.def Info: NeutrinoPhysics/Figs/MatterEffectsNC.pdf used on input
- line 253.
+ line 274.
 (pdftex.def)             Requested size: 205.93626pt x 102.70033pt.
-<NeutrinoPhysics/Figs/MatterEffectsCC.pdf, id=432, 131.11484pt x 101.54005pt>
+<NeutrinoPhysics/Figs/MatterEffectsCC.pdf, id=690, 131.11484pt x 101.54005pt>
 File: NeutrinoPhysics/Figs/MatterEffectsCC.pdf Graphic file (type pdf)
 <use NeutrinoPhysics/Figs/MatterEffectsCC.pdf>
 Package pdftex.def Info: NeutrinoPhysics/Figs/MatterEffectsCC.pdf used on input
- line 260.
+ line 281.
 (pdftex.def)             Requested size: 131.1145pt x 101.5398pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 275--278
+Underfull \hbox (badness 10000) in paragraph at lines 296--299
 
  []
 
-[12 <./NeutrinoPhysics/Figs/MatterEffectsNC.pdf> <./NeutrinoPhysics/Figs/Matter
-EffectsCC.pdf>] [13] <NeutrinoPhysics/Figs/NygrenTPC.png, id=515, 849.1725pt x 
-545.03625pt>
+[15 <./NeutrinoPhysics/Figs/MatterEffectsNC.pdf> <./NeutrinoPhysics/Figs/Matter
+EffectsCC.pdf>] <NeutrinoPhysics/Figs/NygrenTPC.png, id=765, 849.1725pt x 545.0
+3625pt>
 File: NeutrinoPhysics/Figs/NygrenTPC.png Graphic file (type png)
 <use NeutrinoPhysics/Figs/NygrenTPC.png>
 Package pdftex.def Info: NeutrinoPhysics/Figs/NygrenTPC.png used on input line 
-295.
+316.
 (pdftex.def)             Requested size: 284.52756pt x 182.62361pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 321--321
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 342--342
 []|\T1/ptm/m/n/12 (+20) Natural abun-dance
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--323
+Underfull \hbox (badness 10000) in paragraph at lines 344--344
 []|\T1/ptm/m/n/12 (+20) Electron mo-bil-ity
  []
 
-<NeutrinoPhysics/Figs/RubbiaLArTPC.png, id=521, 740.7675pt x 585.18625pt>
+<NeutrinoPhysics/Figs/RubbiaLArTPC.png, id=779, 740.7675pt x 585.18625pt>
 File: NeutrinoPhysics/Figs/RubbiaLArTPC.png Graphic file (type png)
 <use NeutrinoPhysics/Figs/RubbiaLArTPC.png>
 Package pdftex.def Info: NeutrinoPhysics/Figs/RubbiaLArTPC.png used on input li
-ne 332.
+ne 353.
 (pdftex.def)             Requested size: 284.52756pt x 224.76611pt.
-[14 <./NeutrinoPhysics/Figs/NygrenTPC.png>] [15 <./NeutrinoPhysics/Figs/RubbiaL
+[17 <./NeutrinoPhysics/Figs/NygrenTPC.png>] [18 <./NeutrinoPhysics/Figs/RubbiaL
 ArTPC.png>]
 
-LaTeX Warning: Reference `fig:ElectricFieldScintillationIonisation' on page 16 
-undefined on input line 355.
+LaTeX Warning: Reference `fig:ElectricFieldScintillationIonisation' on page 19 
+undefined on input line 376.
 
 
-<NeutrinoPhysics/Figs/ElectricFieldScintillationIonisation.png, id=539, 460.721
+<NeutrinoPhysics/Figs/ElectricFieldScintillationIonisation.png, id=796, 460.721
 25pt x 299.1175pt>
 File: NeutrinoPhysics/Figs/ElectricFieldScintillationIonisation.png Graphic fil
 e (type png)
 <use NeutrinoPhysics/Figs/ElectricFieldScintillationIonisation.png>
 Package pdftex.def Info: NeutrinoPhysics/Figs/ElectricFieldScintillationIonisat
-ion.png used on input line 359.
+ion.png used on input line 380.
 (pdftex.def)             Requested size: 341.43306pt x 221.66753pt.
-[16]) [17 <./NeutrinoPhysics/Figs/ElectricFieldScintillationIonisation.png>] [6
+[19]) [20 <./NeutrinoPhysics/Figs/ElectricFieldScintillationIonisation.png>] [6
 8
 
 
@@ -1545,39 +1560,33 @@ ion.png used on input line 359.
 
 ] (./thesis.bbl [69
 
-] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79] [80] [81] [82]) [83]
-
-Package natbib Warning: There were undefined citations.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 187.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 187.
+] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79] [80] [81] [82] [83]) [84]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 188.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 188.
 (./thesis.aux (./Dedication/dedication.aux) (./Declaration/declaration.aux) (./
-Acknowledgements/acknowledgements.aux) (./Abstract/abstract.aux) (./NeutrinoPhy
-sics/NeutrinoPhysics.aux) (./DUNE/DUNE.aux) (./35ton/35ton.aux) (./LArReconstru
-ction/LArReconstruction.aux) (./OnlineMonitoring/OnlineMonitoring.aux) (./35ton
-Analysis/35tonAnalysis.aux) (./FarDetectorAnalysis/FarDetectorAnalysis.aux) (./
-Summary/Summary.aux)
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-(./Appendix1/appendix1.aux) (./Appendix2/appendix2.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 187.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 187.
+Acknowledgements/acknowledgements.aux) (./Abstract/abstract.aux)
+No file Introduction/Introduction.aux.
+(./NeutrinoPhysics/NeutrinoPhysics.aux) (./DUNE/DUNE.aux) (./35ton/35ton.aux) (
+./LArReconstruction/LArReconstruction.aux) (./OnlineMonitoring/OnlineMonitoring
+.aux) (./35tonAnalysis/35tonAnalysis.aux) (./FarDetectorAnalysis/FarDetectorAna
+lysis.aux) (./Summary/Summary.aux) (./Appendix1/appendix1.aux) (./Appendix2/app
+endix2.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 188.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 188.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: EEAF9D53597BE8D32C01FA5CDA54545C;3731.
+(rerunfilecheck)             Checksum: 20478D63FC00DCF6FF7400F50A244BA1;3731.
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 24529 strings out of 493117
- 436047 string characters out of 6135433
- 558965 words of memory out of 5000000
- 27212 multiletter control sequences out of 15000+600000
+ 24580 strings out of 493117
+ 437413 string characters out of 6135433
+ 561976 words of memory out of 5000000
+ 27242 multiletter control sequences out of 15000+600000
  67873 words of font info for 217 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,14n,45p,10395b,976s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,14n,45p,10395b,984s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/te
 xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/tex
@@ -1594,10 +1603,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2014/texmf
 /type1/urw/symbol/usyr.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/
 times/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmr
 8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (34 pages, 877958 bytes).
+Output written on thesis.pdf (38 pages, 1318816 bytes).
 PDF statistics:
- 699 PDF objects out of 1000 (max. 8388607)
- 569 compressed objects within 6 object streams
- 138 named destinations out of 1000 (max. 500000)
- 30390 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 965 PDF objects out of 1000 (max. 8388607)
+ 760 compressed objects within 8 object streams
+ 154 named destinations out of 1000 (max. 500000)
+ 30405 words of extra memory for PDF output out of 35830 (max. 10000000)
 

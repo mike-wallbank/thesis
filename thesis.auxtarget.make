@@ -87,11 +87,14 @@
 \newlabel{fig:PurityMonitor}
 \newlabel{fig:RemainingCollectionSpacing}
 \newlabel{fig:RubbiaLArTPC}
-\newlabel{fig:SolarNeutrinos}
+\newlabel{fig:SolarNeutrinoCycles}
+\newlabel{fig:SolarNeutrinoFluxes}
 \newlabel{fig:StuckBitInterpolation}
 \newlabel{fig:StuckBitWaveformStuck}
 \newlabel{fig:StuckBitWaveformUnstuck}
 \newlabel{fig:StuckBitWaveform}
+\newlabel{fig:SuperKamiokandeDirection}
+\newlabel{fig:SuperKamiokandeLE}
 \newlabel{fig:TPCCounterOffset}
 \newlabel{fig:TPCCounterT0CorrectionCounter}
 \newlabel{fig:TPCCounterT0CorrectionTPC}
@@ -146,7 +149,7 @@
 \newlabel{sec:AutomatedDataTransfer}
 \newlabel{sec:CPViolation}
 \newlabel{sec:CounterMonitoring}
-\newlabel{sec:CurrentUndertstanding}
+\newlabel{sec:CurrentUnderstanding}
 \newlabel{sec:DQMPlots}
 \newlabel{sec:DQM}
 \newlabel{sec:EventDisplay}
@@ -174,9 +177,11 @@
 \newlabel{sec:PurityAnalysis}
 \newlabel{sec:PurityMonitoring}
 \newlabel{sec:ReconstructingMuonTracks}
+\newlabel{sec:SNO}
 \newlabel{sec:SelectingEVDData}
 \newlabel{sec:SelectingTheData}
 \newlabel{sec:ShowerData}
+\newlabel{sec:SuperKamiokande}
 \newlabel{sec:TPCMonitoring}
 \newlabel{sec:WebInterface}
 \newlabel{sec:WebPage}

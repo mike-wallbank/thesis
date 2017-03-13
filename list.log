@@ -1,0 +1,1329 @@
+This is TeX, Version 3.14159265 (TeX Live 2014) (preloaded format=tex 2014.5.25)  13 MAR 2017 16:34
+**Aspell 0.60.6.1.  Copyright 2000-2011 by Kevin Atkinson.
+(/usr/local/texlive/2014/texmf-dist/tex/plain/base/list.tex
+\m=\count26
+\n=\count27
+
+
+March 13, 2017 at 1634) 
+Listing 0.60.6.1.
+! I can't find file `0.60.6.1.'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   [dump] config    dumps the current confi
+guration to stdout
+! I can't find file `[dump]'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   config <key>     prints the current valu
+e of an option
+! I can't find file `config'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   soundslike       returns the sounds like
+ equivalent for each word entered
+! I can't find file `soundslike'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   munch            generate possible root 
+words and affixes
+! I can't find file `munch'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   expand [1-4]     expands affix flags
+! I can't find file `expand'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   clean [strict]   cleans a word list so t
+hat every line is a valid word
+! I can't find file `clean'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   -v|version       prints a version line
+! I can't find file `-v|version'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   munch-list [simple] [single|multi] [keep
+]
+! I can't find file `munch-list'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:     reduce the size of a word list via aff
+ix compression
+! I can't find file `reduce'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   conv <from> <to> [<norm-form>]
+! I can't find file `conv'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:     converts from one encoding to another
+! I can't find file `converts'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   norm (<norm-map> | <from> <norm-map> <to
+>) [<norm-form>]
+! I can't find file `norm'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:     perform Unicode normalization
+! I can't find file `perform'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   [dump] dicts | filters | modes
+! I can't find file `[dump]'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:     lists available dictionaries / filters
+ / filter modes
+! I can't find file `lists'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   dump|create|merge master|personal|repl [
+<name>]
+! I can't find file `dump|create|merge'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:     dumps, creates or merges a master, per
+sonal, or replacement dictionary.
+! I can't find file `dumps,'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: 
+! I can't find file `dumps,'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   <norm-form>      normalization form to u
+se, either none, internal, or strict
+! I can't find file `<norm-form>'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: 
+! I can't find file `<norm-form>'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: [options] is any of the following:
+! I can't find file `[options]'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: 
+! I can't find file `[options]'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --conf=<str>                main configu
+ration file
+! I can't find file `--conf=<str>'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --conf-dir=<str>            location of 
+main configuration file
+! I can't find file `--conf-dir=<str>'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --data-dir=<str>            location of 
+language data files
+! I can't find file `--data-dir=<str>'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --add|rem-dict-alias=<str>  create dicti
+onary aliases
+! I can't find file `--add|rem-dict-alias=<str>'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --dict-dir=<str>            location of 
+the main word list
+! I can't find file `--dict-dir=<str>'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --encoding=<str>            encoding to 
+expect data to be in
+! I can't find file `--encoding=<str>'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --add|rem-filter=<str>      add or remov
+es a filter
+! I can't find file `--add|rem-filter=<str>'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --add|rem-filter-path=<str> path(s) aspe
+ll looks for filters
+! I can't find file `--add|rem-filter-path=<str>'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --mode=<str>                filter mode
+! I can't find file `--mode=<str>'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   -e,--mode=email             enter Email 
+mode.
+! I can't find file `-e,--mode=email'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   -H,--mode=html              enter HTML m
+ode.
+! I can't find file `-H,--mode=html'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   -t,--mode=tex               enter TeX mo
+de.
+! I can't find file `-t,--mode=tex'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   -n,--mode=nroff             enter Nroff 
+mode.
+! I can't find file `-n,--mode=nroff'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --add|rem-extra-dicts=<str> extra dictio
+naries to use
+! I can't find file `--add|rem-extra-dicts=<str>'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --home-dir=<str>            location for
+ personal files
+! I can't find file `--home-dir=<str>'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   -W,--ignore=<int>           ignore words
+ <= n chars
+! I can't find file `-W,--ignore=<int>'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --[dont-]ignore-case        ignore case 
+when checking words
+! I can't find file `--[dont-]ignore-case'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --[dont-]ignore-repl        ignore comma
+nds to store replacement pairs
+! I can't find file `--[dont-]ignore-repl'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --keyboard=<str>            keyboard def
+inition to use for typo analysis
+! I can't find file `--keyboard=<str>'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   -l,--lang=<str>             language cod
+e
+! I can't find file `-l,--lang=<str>'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --local-data-dir=<str>      location of 
+local language data files
+! I can't find file `--local-data-dir=<str>'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   -d,--master=<str>           base name of
+ the main dictionary to use
+! I can't find file `-d,--master=<str>'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --[dont-]normalize          enable Unico
+de normalization
+! I can't find file `--[dont-]normalize'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --[dont-]norm-required      Unicode norm
+alization required for current lang
+! I can't find file `--[dont-]norm-required'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --norm-form=<str>           Unicode norm
+alization form: none, nfd, nfc, comp
+! I can't find file `--norm-form=<str>'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --[dont-]norm-strict        avoid lossy 
+conversions when normalization
+! I can't find file `--[dont-]norm-strict'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --per-conf=<str>            personal con
+figuration file
+! I can't find file `--per-conf=<str>'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   -p,--personal=<str>         personal dic
+tionary file name
+! I can't find file `-p,--personal=<str>'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --prefix=<str>              prefix direc
+tory
+! I can't find file `--prefix=<str>'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --repl=<str>                replacements
+ list file name
+! I can't find file `--repl=<str>'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   -C|-B,--[dont-]run-together consider run
+-together words legal
+! I can't find file `-C|-B,--[dont-]run-together'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --run-together-limit=<int>  maximum numb
+er that can be strung together
+! I can't find file `--run-together-limit=<int>'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --run-together-min=<int>    minimal leng
+th of interior words
+! I can't find file `--run-together-min=<int>'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --[dont-]save-repl          save replace
+ment pairs on save all
+! I can't find file `--[dont-]save-repl'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --[dont-]set-prefix         set the pref
+ix based on executable location
+! I can't find file `--[dont-]set-prefix'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --size=<str>                size of the 
+word list
+! I can't find file `--size=<str>'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --sug-mode=<str>            suggestion m
+ode
+! I can't find file `--sug-mode=<str>'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --sug-edit-dist=<int>       edit distanc
+e to use, override sug-mode default
+! I can't find file `--sug-edit-dist=<int>'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --[dont-]sug-typo-analysis  use typo ana
+lysis, override sug-mode default
+! I can't find file `--[dont-]sug-typo-analysis'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --[dont-]sug-repl-table     use replacem
+ent tables, override sug-mode default
+! I can't find file `--[dont-]sug-repl-table'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --add|rem-sug-split-char=<str> character
+s to insert when a word is split
+! I can't find file `--add|rem-sug-split-char=<str>'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --[dont-]use-other-dicts    use personal
+, replacement & session dictionaries
+! I can't find file `--[dont-]use-other-dicts'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --add|rem-variety=<str>     extra inform
+ation for the word list
+! I can't find file `--add|rem-variety=<str>'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --[dont-]warn               enable warni
+ngs
+! I can't find file `--[dont-]warn'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --[dont-]affix-compress     use affix co
+mpression when creating dictionaries
+! I can't find file `--[dont-]affix-compress'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --[dont-]clean-affixes      remove inval
+id affix flags
+! I can't find file `--[dont-]clean-affixes'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --[dont-]clean-words        attempts to 
+clean words so that they are valid
+! I can't find file `--[dont-]clean-words'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --[dont-]invisible-soundslike compute so
+undslike on demand rather than storing
+! I can't find file `--[dont-]invisible-soundslike'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --[dont-]partially-expand   partially ex
+pand affixes for better suggestions
+! I can't find file `--[dont-]partially-expand'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --[dont-]skip-invalid-words skip invalid
+ words
+! I can't find file `--[dont-]skip-invalid-words'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --[dont-]validate-affixes   check if aff
+ix flags are valid
+! I can't find file `--[dont-]validate-affixes'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --[dont-]validate-words     check if wor
+ds are valid
+! I can't find file `--[dont-]validate-words'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   -b|-x,--[dont-]backup       create a bac
+kup file by appending ".bak"
+! I can't find file `-b|-x,--[dont-]backup'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --[dont-]byte-offsets       use byte off
+sets instead of character offsets
+! I can't find file `--[dont-]byte-offsets'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   -m|-P,--[dont-]guess        create missi
+ng root/affix combinations
+! I can't find file `-m|-P,--[dont-]guess'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --keymapping=<str>          keymapping f
+or check mode: "aspell" or "ispell"
+! I can't find file `--keymapping=<str>'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --[dont-]reverse            reverse the 
+order of the suggest list
+! I can't find file `--[dont-]reverse'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --[dont-]suggest            suggest poss
+ible replacements
+! I can't find file `--[dont-]suggest'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --[dont-]time               time load ti
+me and suggest time in pipe mode
+! I can't find file `--[dont-]time'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: 
+! I can't find file `--[dont-]time'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: 
+! I can't find file `--[dont-]time'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: Available Dictionaries:
+! I can't find file `Available'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:     Dictionaries can be selected directly 
+via the "-d" or "master"
+! I can't find file `Dictionaries'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:     option.  They can also be selected ind
+irectly via the "lang",
+! I can't find file `option.'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:     "variety", and "size" options.
+! I can't find file `variety,'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: 
+! I can't find file `variety,'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   en
+! I can't find file `en'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   en-variant_0
+! I can't find file `en-variant_0'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   en-variant_1
+! I can't find file `en-variant_1'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   en-variant_2
+! I can't find file `en-variant_2'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   en-w_accents
+! I can't find file `en-w_accents'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   en-wo_accents
+! I can't find file `en-wo_accents'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   en_CA
+! I can't find file `en_CA'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   en_CA-variant_0
+! I can't find file `en_CA-variant_0'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   en_CA-variant_1
+! I can't find file `en_CA-variant_1'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   en_CA-w_accents
+! I can't find file `en_CA-w_accents'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   en_CA-wo_accents
+! I can't find file `en_CA-wo_accents'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   en_GB
+! I can't find file `en_GB'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   en_GB-ise
+! I can't find file `en_GB-ise'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   en_GB-ise-w_accents
+! I can't find file `en_GB-ise-w_accents'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   en_GB-ise-wo_accents
+! I can't find file `en_GB-ise-wo_accents'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   en_GB-ize
+! I can't find file `en_GB-ize'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   en_GB-ize-w_accents
+! I can't find file `en_GB-ize-w_accents'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   en_GB-ize-wo_accents
+! I can't find file `en_GB-ize-wo_accents'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   en_GB-variant_0
+! I can't find file `en_GB-variant_0'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   en_GB-variant_1
+! I can't find file `en_GB-variant_1'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   en_GB-w_accents
+! I can't find file `en_GB-w_accents'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   en_GB-wo_accents
+! I can't find file `en_GB-wo_accents'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   en_US
+! I can't find file `en_US'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   en_US-variant_0
+! I can't find file `en_US-variant_0'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   en_US-variant_1
+! I can't find file `en_US-variant_1'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   en_US-w_accents
+! I can't find file `en_US-w_accents'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   en_US-wo_accents
+! I can't find file `en_US-wo_accents'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: 
+! I can't find file `en_US-wo_accents'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: 
+! I can't find file `en_US-wo_accents'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: Available Filters (and associated options)
+:
+! I can't find file `Available'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:     Filters can be added or removed via th
+e "filter" option.
+! I can't find file `Filters'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: 
+! I can't find file `Filters'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   url filter: filter to skip URL like cons
+tructs
+! I can't find file `url'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: 
+! I can't find file `url'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   context filter: experimental filter for 
+hiding delimited contexts
+! I can't find file `context'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --add|rem-context-delimiters=<str> conte
+xt delimiters (separated by spaces)
+! I can't find file `--add|rem-context-delimiters=<str>'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --[dont-]context-visible-first swaps vis
+ible and invisible text
+! I can't find file `--[dont-]context-visible-first'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: 
+! I can't find file `--[dont-]context-visible-first'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   email filter: filter for skipping quoted
+ text in email messages
+! I can't find file `email'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --add|rem-email-quote=<str> email quote 
+characters
+! I can't find file `--add|rem-email-quote=<str>'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --email-margin=<int>        num chars th
+at can appear before the quote char
+! I can't find file `--email-margin=<int>'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: 
+! I can't find file `--email-margin=<int>'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   html filter: filter for dealing with HTM
+L documents
+! I can't find file `html'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --add|rem-html-check=<str>  HTML attribu
+tes to always check
+! I can't find file `--add|rem-html-check=<str>'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --add|rem-html-skip=<str>   HTML tags to
+ always skip the contents of
+! I can't find file `--add|rem-html-skip=<str>'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: 
+! I can't find file `--add|rem-html-skip=<str>'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   nroff filter: filter for dealing with Nr
+off documents
+! I can't find file `nroff'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: 
+! I can't find file `nroff'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   sgml filter: filter for dealing with gen
+eric SGML/XML documents
+! I can't find file `sgml'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --add|rem-sgml-check=<str>  SGML attribu
+tes to always check
+! I can't find file `--add|rem-sgml-check=<str>'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --add|rem-sgml-skip=<str>   SGML tags to
+ always skip the contents of
+! I can't find file `--add|rem-sgml-skip=<str>'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: 
+! I can't find file `--add|rem-sgml-skip=<str>'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   tex filter: filter for dealing with TeX/
+LaTeX documents
+! I can't find file `tex'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --[dont-]tex-check-comments check TeX co
+mments
+! I can't find file `--[dont-]tex-check-comments'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --add|rem-tex-command=<str> TeX commands
+
+! I can't find file `--add|rem-tex-command=<str>'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: 
+! I can't find file `--add|rem-tex-command=<str>'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1. 
+                      Copyright 2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   texinfo filter: filter for dealing with 
+Texinfo documents
+(/usr/local/texlive/2014/texmf-dist/tex/texinfo/texinfo.tex [1] [2] [3]
+[4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19]
+[20] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34]
+[35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47] [48] [49]
+[50] [51] [52] [53] [54] [55] [56] [57] [58] [59] [60] [61] [62] [63] [64]
+[65] [66] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79]
+[80] [81] [82] [83] [84] [85] [86] [87] [88] [89] [90] [91] [92] [93] [94]
+[95] [96] [97] [98] [99] [100] [101] [102] [103] [104] [105] [106] [107]
+[108] [109] [110] [111] [112] [113] [114] [115] [116] [117] [118] [119]
+[120] [121] [122] [123] [124] [125] [126] [127] [128] [129] [130] [131]
+[132] [133] [134] [135] [136] [137] [138] [139] [140] [141] [142] [143]
+[144] [145] [146] [147] [148] [149] [150] [151] [152] [153] [154] [155]
+[156] [157] [158] [159] [160] [161] [162] [163] [164] [165] [166] [167]
+[168] [169] [170] [171] [172] [173] [174] [175] [176] [177] [178] [179]
+[180] [181] [182] [183] [184] [185] [186] [187] [188] [189] [190] [191]
+[192] [193] [194] [195]) [196] 
+Listing Copyright
+! I can't find file `Copyright'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1.  Copyright 
+                                2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --add|rem-texinfo-ignore=<str> Texinfo c
+ommands to ignore the parameters of
+! I can't find file `--add|rem-texinfo-ignore=<str>'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1.  Copyright 
+                                2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   --add|rem-texinfo-ignore-env=<str> Texin
+fo environments to ignore
+! I can't find file `--add|rem-texinfo-ignore-env=<str>'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1.  Copyright 
+                                2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: 
+! I can't find file `--add|rem-texinfo-ignore-env=<str>'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1.  Copyright 
+                                2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: 
+! I can't find file `--add|rem-texinfo-ignore-env=<str>'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1.  Copyright 
+                                2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: Available Filter Modes:
+! I can't find file `Available'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1.  Copyright 
+                                2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:     Filter Modes are reconfigured combinat
+ions of filters optimized for
+! I can't find file `Filter'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1.  Copyright 
+                                2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:     files of a specific type. A mode is se
+lected via the "mode" option.
+! I can't find file `files'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1.  Copyright 
+                                2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:     This will happen implicitly if Aspell 
+is able to identify the file
+! I can't find file `This'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1.  Copyright 
+                                2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:     type from the extension, and possibili
+ty the contents, of the file.
+! I can't find file `type'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1.  Copyright 
+                                2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: 
+! I can't find file `type'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1.  Copyright 
+                                2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   ccpp           mode for checking C++ com
+ments and string literals
+! I can't find file `ccpp'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1.  Copyright 
+                                2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   comment        mode to check any lines s
+tarting with a #
+! I can't find file `comment'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1.  Copyright 
+                                2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   email          mode for skipping quoted 
+text in email messages
+! I can't find file `email'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1.  Copyright 
+                                2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   html           mode for checking HTML do
+cuments
+! I can't find file `html'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1.  Copyright 
+                                2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   none           mode to disable all filte
+rs
+! I can't find file `none'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1.  Copyright 
+                                2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   nroff          mode for checking Nroff d
+ocuments
+! I can't find file `nroff'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1.  Copyright 
+                                2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   perl           mode for checking Perl co
+mments and string literals
+! I can't find file `perl'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1.  Copyright 
+                                2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   sgml           mode for checking generic
+ SGML/XML documents
+! I can't find file `sgml'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1.  Copyright 
+                                2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   tex            mode for checking TeX/LaT
+eX documents
+! I can't find file `tex'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1.  Copyright 
+                                2000-2011 by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   texinfo        mode for checking Texinfo
+ documents
+(/usr/local/texlive/2014/texmf-dist/tex/texinfo/texinfo.tex [1] [2] [3]
+[4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19]
+[20] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34]
+[35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47] [48] [49]
+[50] [51] [52] [53] [54] [55] [56] [57] [58] [59] [60] [61] [62] [63] [64]
+[65] [66] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79]
+[80] [81] [82] [83] [84] [85] [86] [87] [88] [89] [90] [91] [92] [93] [94]
+[95] [96] [97] [98] [99] [100] [101] [102] [103] [104] [105] [106] [107]
+[108] [109] [110] [111] [112] [113] [114] [115] [116] [117] [118] [119]
+[120] [121] [122] [123] [124] [125] [126] [127] [128] [129] [130] [131]
+[132] [133] [134] [135] [136] [137] [138] [139] [140] [141] [142] [143]
+[144] [145] [146] [147] [148] [149] [150] [151] [152] [153] [154] [155]
+[156] [157] [158] [159] [160] [161] [162] [163] [164] [165] [166] [167]
+[168] [169] [170] [171] [172] [173] [174] [175] [176] [177] [178] [179]
+[180] [181] [182] [183] [184] [185] [186] [187] [188] [189] [190] [191]
+[192] [193] [194] [195]) [196] 
+Listing 2000-2011
+! I can't find file `2000-2011'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1.  Copyright 2000-2011 
+                                          by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name:   url            mode to skip URL like con
+structs (default mode)
+! I can't find file `url'.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1.  Copyright 2000-2011 
+                                          by Kevin Atkinson.
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: 
+! Emergency stop.
+\doit ...\obeyspaces \global \pageno =1 \input #1 
+                                                  {\eoffont (end of\/ file)}...
+<*> Aspell 0.60.6.1.  Copyright 2000-2011 
+                                          by Kevin Atkinson.
+End of file on the terminal!
+
+Output written on list.dvi (392 pages, 776328 bytes).

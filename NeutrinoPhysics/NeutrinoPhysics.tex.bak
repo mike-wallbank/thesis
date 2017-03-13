@@ -5,14 +5,14 @@
 
 \chapter{Neutrino Physics}\label{chap:NeutrinoPhysics}
 
-This chapter contains a introduction to the field of neutrino physics to provide context for the main work presented in this thesis.  The history of neutrino physics is an interesting story in its own right and provides the foundation for the present and future of the field.  This will be briefly retold in Section \ref{sec:HistoricalContext} and will motive a discussion of neutrino oscillations in Section \ref{sec:NeutrinoOscillations}.  An overview of the current status of the field and its future is contained in Sections \ref{sec:CurrentUnderstanding} and \ref{sec:FutureNeutrinoExperiments} respectively.  As this thesis specifically concerns the DUNE experiment, a brief history and description of liquid argon TPCs is provided in Section \ref{sec:LArTPC} as a basis for future chapters.
+This chapter contains a introduction to the field of neutrino physics to provide context for the main work presented in this thesis.  The history of neutrino physics is an interesting story in its own right and provides the foundation for the present and future of the field.  This will be briefly retold in Section \ref{sec:HistoricalContext} and will motive a discussion of neutrino oscillations in Section \ref{sec:NeutrinoOscillations}.  An overview of the current status of the field and its future is contained in Sections \ref{sec:CurrentUnderstanding} and \ref{sec:FutureNeutrinoExperiments} respectively.  As this thesis specifically concerns the DUNE experiment, a brief history and description of liqud argon TPCs is provided in Section \ref{sec:LArTPC} as a basis for future chapters.
 
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \section{Historical Context}\label{sec:HistoricalContext}
 
 \subsection{Prediction of the Neutrino}\label{NeutrinoPrediction}
 
-The neutrino was first postulated in 1930 by Wolfgang Pauli \cite{Pauli1930} in order to account for an inconsistency in the theory of $\beta$-decay.  In the apparent two-body decay
+The neutrino was first posulated in 1930 by Wolfgang Pauli \cite{Pauli1930} in order to account for an inconsistency in the theory of $\beta$-decay.  In the apparent two-body decay
 \begin{equation}
 A \rightarrow B + e^-,
 \end{equation}
@@ -20,7 +20,7 @@ kinematically the electron must be emitted with an energy given by
 \begin{equation}\label{eq:BetaDecayEnergy}
 E = \left( \frac{m_A^2 - m_B^2 + m_e^2}{2m_A} \right) c^2,
 \end{equation}
-where $m_{\alpha}$ is the mass of particle $\alpha$.  This energy is fixed given the masses of the particles; it was observed however that the electron energy followed a distribution (Figure \ref{fig:BetaDecayEnergy}), with Equation \ref{eq:BetaDecayEnergy} giving the maximum permitted energy.  The neutrino was postulated as a third final state particle in order to account for this result and retain energy conservation laws.  Pauli initially called the particle a \textit{neutron} (preempting the name Chadwick was to give his discovered particle in 1932) but his idea was met with much scepticism.  It was Fermi who named the new particle \textit{neutrino} (`little neutral one') when incorporating Pauli's hypothesis into his theory of beta decay \cite{Fermi1934Italian,Fermi1934German,Wilson1968}.  With the huge success and acceptance of this theory, the field of neutrino physics was born.
+where $m_{\alpha}$ is the mass of particle $\alpha$.  This energy is fixed given the masses of the particles; it was observed however that the electron energy followed a distribution (Figure \ref{fig:BetaDecayEnergy}), with Equation \ref{eq:BetaDecayEnergy} giving the maximum permitted energy.  The neutrino was postulated as a third final state particle in order to account for this result and retain energy conservation laws.  Pauli initially called the particle a \textit{neutron} (preempting the name Chadwick was to give his discovered particle in 1932) but his idea was met with much skeptism.  It was Fermi who named the new particle \textit{neutrino} (`little neutral one') when incorporating Pauli's hypoethesis into his theory of beta decay \cite{Fermi1934Italian,Fermi1934German,Wilson1968}.  With the huge success and acceptance of this theory, the field of neutrino physics was born.
 
 \begin{figure}
   \centering
@@ -29,7 +29,7 @@ where $m_{\alpha}$ is the mass of particle $\alpha$.  This energy is fixed given
   \label{fig:BetaDecayEnergy}
 \end{figure}
 
-Further indications of the existence of the neutrino were provided by the studies of pion and muon decay by Cecil Powell's group at Bristol \cite{Lattes1947-159,Lattes1947-160}.  Topological investigations of the newly discovered $\pi$ meson and its apparent decay into a lighter meson (now known to actually be the muon lepton) appear to hint at the presence of an additional, unknown, daughter particle \cite{Lattes1947-159}.  Given the constantly of the outcoming neutrino energy, it was that a two-body decay.  However, subsequent studies of the decay of this lighter `meson' implied a three-body decay involving two final state neutrinos, analogous to the implication of the neutrino by considering the electron energy distribution \cite{Brown1949}.
+Further indications of the existence of the neutrino were provided by the studies of pion and muon decay by Cecil Powell's group at Bristol \cite{Lattes1947-159,Lattes1947-160}.  Topological investigatons of the newly discovered $\pi$ meson and its apparent decay into a lighter meson (now known to actually be the muon lepton) appear to hint at the presence of an additional, unknown, daughter particle \cite{Lattes1947-159}.  Given the constantly of the outcoming neutrino energy, it was that a two-body decay.  However, subsequent studies of the decay of this lighter `meson' implied a three-body decay involving two final state neutrinos, analogous to the implication of the neutrino by considering the electron energy distribution \cite{Brown1949}.
 
 \subsection{Discovery of the Neutrino}\label{NeutrinoDiscovery}
 
@@ -47,7 +47,7 @@ since it was known from Reines and Cowan that inverse beta decay
 \begin{equation}\label{eq:DavisNeutrino}
   \nu + \textnormal{Cl}^{37} \rightarrow \textnormal{Ar}^{37} + e^- \hspace{1.5cm} (\nu + n \rightarrow p^+ + e^-)
 \end{equation}
-occurs, this facilitates a comparison between the neutrino and the antineutrino.  They found the interaction shown in Equation \ref{eq:DavisAntineutrino} occurred at a rate less than 20 times that represented in Equation \ref{eq:DavisNeutrino}, implying for the first time a difference between neutrinos and antineutrinos \cite{Davis1959}.  This gave rise to the notion of `lepton number' and its conversation in physical interactions.
+occurs, this facilites a comparison between the neutrino and the antineutrino.  They found the interaction shown in Equation \ref{eq:DavisAntineutrino} occurred at a rate less than 20 times that represented in Equation \ref{eq:DavisNeutrino}, implying for the first time a difference between neutrinos and antineutrinos \cite{Davis1959}.  This gave rise to the notion of `lepton number' and its conversation in physical interactions.
 
 It was few years before the next chapter in the history of neutrinos, the discovery of the muon neutrino in 1962 at Brookhaven \cite{Danby1962}.  It was noted the apparently permitted decay
 \begin{equation}
@@ -64,11 +64,11 @@ A third generation of lepton, the $\tau$, was discovered in 1975 by Martin Perl 
 \begin{equation}
   e^+ + e^- \rightarrow e^{\pm} + \mu^{\mp} + \ge 2 \textnormal{ undetected particles},
 \end{equation}
-using the energy and angle distributions to predict at least two additional particles.  They claimed `no conventional explanation' could account for these events and proposed the existence of a heavier charged lepton as an intermediate stage:
+using the energy and angle distributions to predict at least two additional particles.  They claimed `no conventional explaination' could account for these events and proposed the existence of a heavier charged lepton as an intermediate stage:
 \begin{equation}
   e^+ + e^- \rightarrow \tau^+ + \tau^- \rightarrow e^{\pm} + \mu^{\mp} + 4\nu.
 \end{equation}
-The $\tau$ lepton was subsequently characterised by further experiments at by the Mark I detector at SLAC \cite{Feldman1977} and by the PLUTO collaboration at DESY \cite{Burmester1977}.  This result heavily implied the existence of an associated neutrino to complete the symmetry observed in the first two lepton couplets.
+The $\tau$ lepton was subsequently characterised by further experiments at by the Mark I detector at SLAC \cite{Feldman1977} and by the PLUTO collaboration at DESY \cite{Burmester1977}.  This result heavily implied the existence of an associated neutrino to complete the symmetry obvserved in the first two lepton couplets.
 
 Further evidence for a third neutrino was provided by four experiments using the Large Electron-Positron Collider (LEP) at CERN in 1989 which were studying the production of the newly discovered Z$^0$ boson \cite{DeCamp1989,Adeva1989,Akrawy1989,Aarnio1989}.  The width $\Gamma_Z$ of the Z$^0$ resonance is dependent on the partial widths relating to final state charged leptons, hadrons and neutrinos;
 \begin{equation}
@@ -87,12 +87,12 @@ The extremely precise measurement reported by the LEP experiments was enough for
 
 \subsection{The Solar Neutrino Problem}\label{SolarNeutrinoProblem}
 
-It has been known since the 1930s, when Hans Bethe started developing the ideas of stellar nucleosynthesis \cite{Bethe1939}, that an abundance of electron neutrinos is created as byproducts of the nuclear processes powering the Sun.  The Standard Solar Model (SSM), established by John Bahcall in 1968 \cite{Bahcall1968}, explains the nuclear fusion processes responsible for powering stars.  For stars the size of the Sun, this is dominated by the \textit{proton-proton chain}; heavier stars follow the \textit{CNO cycle}.  Figure \ref{fig:SolarNeutrinoCycles} shows the energy spectra of neutrino released during reactions occurring during both chains.
+It has been known since the 1930s, when Hans Bethe started developing the ideas of stellar nucleosynthesis \cite{Bethe1939}, that an adundance of electron neutrinos is created as byproducts of the nuclear processes powering the Sun.  The Standard Solar Model (SSM), established by John Bahcall in 1968 \cite{Bahcall1968}, explains the nuclear fusion processes responsible for powering stars.  For stars the size of the Sun, this is dominated by the \textit{proton-proton chain}; heavier stars follow the \textit{CNO cycle}.  Figure \ref{fig:SolarNeutrinoCycles} shows the energy spectra of neutrino released during reactions occuring during both chains.
 
 \begin{figure}
 \centering
   \includegraphics[width=12cm]{SolarNeutrinoCycles.pdf}
-  \caption{Solar neutrino energy spectra as predicted by the Standard Solar Model \cite{Bahcall2005}.  The solid lines represent neutrinos produced during the p-p chain and dashed line represent neutrinos from the CNO cycle.  Each spectrum illustrates a particular reaction during the process of a given chain.}
+  \caption{Solar neutrino energy spectra as predicted by the Standard Solar Model \cite{Bahcall2005}.  The solid lines repesent neutrinos produced during the p-p chain and dashed line represent neutrinos from the CNO cycle.  Each spectrum illustrates a particular reaction during the process of a given chain.}
   \label{fig:SolarNeutrinoCycles}
 \end{figure}
 
@@ -102,20 +102,20 @@ The subsequent radiochemical experiments SAGE (from 1990) and GALLEX (from 1991)
 \begin{equation}
 \nu + \textnormal{Ga}^{71} \rightarrow \textnormal{Ge}^{71} + e^-.
 \end{equation}
-These experiments also reported `missing' neutrinos, determining capture rates of $66.6^{+6.8+3.8}_{-7.1-4.0}$~SNU (SAGE) \cite{Abdurashitov1994} and $77.5\pm6.2^{+4.3}_{-4.7}$~SNU (GALLEX) \cite{Anselmann1992}, disagreeing with the SSM prediction of 130~SNU \cite{Hampel1999}.  There appeared to be a problem -- either the SSM was incomplete and incorrectly over-predicted the amount of electron neutrinos or hints of new physics were beginning to appear in the experiment data.
+These experiments also reported `missing' neutrinos, determining capture rates of $66.6^{+6.8+3.8}_{-7.1-4.0}$~SNU (SAGE) \cite{Abdurashitov1994} and $77.5\pm6.2^{+4.3}_{-4.7}$~SNU (GALLEX) \cite{Anselmann1992}, disagreeing with the SSM prediction of 130~SNU \cite{Hampel1999}.  There appeared to be a problem -- either the SSM was incomplete and incorrectly overpredicted the amount of electron neutrinos or hints of new physics were beginning to appear in the experiment data.
 
 \subsection{The Atmospheric Neutrino Anomaly}\label{sec:AtmosphericNeutrinoAnomaly}
 
-Another abundant source of natural neutrinos come from cosmic rays interacting with the upper atmosphere and producing `atmospheric neutrinos', typically via the interactions \cite{Gaisser1990}
+Another abundent source of natural neutrinos come from cosmic rays interacting with the upper atmosphere and producing `atmospheric neutrinos', typically via the interactions \cite{Gaisser1990}
 \begin{align}
   \pi^+ \rightarrow \mu^+ + \nu_{\mu}, &\hspace{1.5cm} \mu^- \rightarrow e^- + \bar{\nu}_e + \nu_{\mu} \\
   \pi^- \rightarrow \mu^- + \bar{\nu}_{\mu}, &\hspace{1.5cm} \mu^+ \rightarrow e^+ + \nu_e + \bar{\nu}_{\mu}.
 \end{align}
-Since the decay lengths and kinematics are well known, the predicted ratio of muon to electron neutrinos can be calculated to a good accuracy.  This ratio can be compared to an experimentally determined ratio and analysed as a measure of the efficacy of the model.
+Since the decay lengths and kinematics are well known, the predicted ratio of muon to electron neutrinos can be calculated to a good accuracy.  This ratio can be compared to an experimentally determined ratio and analysed as a measure of the efficiacy of the model.
 
-It was first noticed as early as the late 1970s by experiments designed to search for nucleon decay predicted by the then-popular Grand Unified Theories that the measured flux did not correspond to that predicted by the theory.  The IMB \cite{Haines1986} and Kamioka \cite{Hirata1988} experiments both noticed deficiencies in the ratio between muon and electron neutrinos compared to that predicted by the models.  These experiments utilised large tanks of pure water surrounded by Photo-Multiplier Tubes (PMTs) to detect neutrinos via the Cherenkov radiation created by their charged leptonic daughter particles.  Using ring-imaging techniques, it is possible to distinguish between electron-like and muon-like events and therefore identify the flavour of the incoming neutrino.  The problem implied by these measurements is known as the `atmospheric neutrino anomaly'.
+It was first noticed as early as the late 1970s by experiments designed to search for nucleon decay predicted by the then-popular Grand Unified Theories that the measured flux did not correspond to that predicted by the theory.  The IMB \cite{Haines1986} and Kamioka \cite{Hirata1988} experiments both noticed deficiencies in the ratio between muon and electron neutrinos compared to that prediced by the models.  These experiments utilised large tanks of pure water surrounded by Photo-Multiplier Tubes (PMTs) to detect neutrinos via the Cherenkov radiation created by their charged leptonic daughter particles.  Using ring-imaging techniques, it is possible to distinuish between electron-like and muon-like events and therefore identify the flavour of the incoming neutrino.  The problem implied by these measurements is known as the `atmospheric neutrino anomaly'.
 
-Various other experiments over the following twenty years also reported similar measurements, suggesting an excess of electron neutrinos over prediction, a deficit in the number of muon neutrinos, or both.  Results from numerous experiments are shown in Figure \ref{fig:AtmosphericNeutrinoAnomaly}.  Most experiments report a discrepancy, with its size seemingly dependent on the energy region being studied.  The experiments reporting a ratio consistent with one were much smaller than the others, and with more statistics they also started observing similar effects.  This anomaly, along with the issue of the solar neutrino problem, strongly hinted at a problem with our understanding of neutrino physics.
+Various other experiments over the following twenty years also reported similar measurements, suggesting an excess of electron neutrinos over prediction, a deficit in the number of muon neutrinos, or both.  Results from numerous experiments are shown in Figure \ref{fig:AtmosphericNeutrinoAnomaly}.  Most experiments report a discrepency, with its size seemingly dependent on the energy region being studied.  The experiments reporting a ratio consistent with one were much smaller than the others, and with more statistics they also started observing similar effects.  This anomaly, along with the issue of the solar neutrino problem, strongly hinted at a problem with our understanding of neutrino physics.
 
 \begin{figure}
   \centering
@@ -126,9 +126,9 @@ Various other experiments over the following twenty years also reported similar 
 
 \subsection{The Evidence for Neutrino Oscillations}\label{sec:EvidenceNeutrinoOscillations}
 
-The concept of neutrino oscillations is the idea that a neutrino created in a certain flavour state may not necessary be detected in the same flavour state after it has propagated over some distance and time.  It was first postulated as an explanation of the Solar Neutrino Problem by Pontecorvo in 1968 \cite{Pontecorvo1968}, having initially proposed the phenomenon in 1957 as an analogy to $\textnormal{K}^0 \rightarrow \widetilde{\textnormal{K}}^0$ transition in the quark sector \cite{Pontecorvo1957}.  It offers an elegant solution to both the solar neutrino problem and the atmospheric neutrino anomaly by explaining where the `missing' neutrinos had gone; it is possible they had simply `oscillated' to a different flavour and therefore would not be detected as expected.  Whilst there was speculation that neutrino oscillations may be the explanation behind the issues observed in the data much sooner \cite{Casper1991,BeckerSzendy1992}, definite proof was not provided until the late 1990s.  In many ways, the story of neutrino physics, from the initial observations of the Solar Neutrino Problem and the Atmospheric Neutrino Anomaly, through the speculation and theoretical developments, to the eventual proof, can be considered a triumph for the scientific method.
+The concept of neutrino oscillations is the idea that a neutrino created in a certain flavour state may not necessary be detected in the same flavour state after it has propgated over some distance and time.  It was first postulated as an explaination of the Solar Neutrino Problem by Pontecorvo in 1968 \cite{Pontecorvo1968}, having initially proposed the phonomenon in 1957 as an analogy to $\textnormal{K}^0 \rightarrow \widetilde{\textnormal{K}}^0$ transition in the quark sector \cite{Pontecorvo1957}.  It offers an elegant solution to both the solar neutrino problem and the atmospheric neutrino anomaly by explaining where the `missing' neutrinos had gone; it is possible they had simply `oscillated' to a different flavour and therefore would not be detected as expected.  Whilst there was speculation that neutrino oscillations may be the explanation behind the issues observed in the data much sooner \cite{Casper1991,BeckerSzendy1992}, definite proof was not provided until the late 1990s.  In many ways, the story of neutrino physics, from the initial observations of the Solar Neutrino Problem and the Atmospheric Neutrino Anomaly, through the speculation and theoretical developments, to the eventual proof, can be considered a triumph for the scientific method.
 
-The Kamiokande and SuperKamiokande experiments in Japan (upgrades from the Kamioka experiment noted previously) and the SNO experiment in Sudbury, Canada produced the results which showed indisputable evidence for neutrino oscillations and provided explanations for all previous discrepancies observed.  This result was monumental and the work of both collaborations was rewarded in 2015 when the Nobel Prize was awarded to T. Kajita and A. McDonald, from SuperKamiokande and SNO respectively.
+The Kamiokande and SuperKamiokande experiments in Japan (upgrades from the Kamioka experiment noted previously) and the SNO experiment in Sudbury, Canada produced the results which showed indisputible evidence for neutrino oscillations and provided explanations for all previous discrepencies observed.  This result was monumental and the work of both collaborations was rewarded in 2015 when the Nobel Prize was awarded to T. Kajita and A. McDonald, from SuperKamiokande and SNO respectively.
 
 \subsubsection{SuperKamiokande and the Atmospheric Sector}\label{sec:SuperKamiokande}
 
@@ -158,7 +158,7 @@ SNO was a water Cherenkov detector, like SuperKamiokande, but used heavy water, 
   \nu_x + d &\rightarrow p + n + \nu_x &\textnormal{(NC)} \\
   \nu_x + e^- &\rightarrow \nu_x + e^- &\textnormal{(ES)}.
 \end{align}
-The CC channel is sensitive exclusively to electron neutrinos, whilst the other two are accessible by neutrinos of any flavour.  This allowed for the first time a simultaneous measurement of the total neutrino interaction rate as well as the electron neutrino interaction rate.  The observations of SNO were the smoking gun for neutrino oscillations; the total measured flux for all neutrinos, $\phi_{\textnormal{NC}}^{\textnormal{SNO}} = 6.42 \pm 1.57 \textnormal{ (stat.)} ^{+0.55}_{-0.58} \textnormal{ (sys.)}$, agreed excellently with the electron neutrino flux predicted by the SSM, $\phi^{\textnormal{SSM}} = 5.05 ^{+1.01}_{-0.81}$.  However, the measured electron neutrino flux was around a third lower, $\phi_e^{\textnormal{SNO}} = 1.76 \pm 0.05 \textnormal{ (stat.)} \pm 0.09 \textnormal{ (sys.)}$, consistent with previous measurements from the radiochemical experiments.  The evidence seems conclusive: the solar models are correct and the neutrinos are not disappearing; there are simply changing their flavour state.  A summary plot showing all solar neutrino experiments up until this point is shown in Figure \ref{fig:SolarNeutrinoFluxes} \cite{Bahcall2005Fluxes}.
+The CC channel is sensitive exclusively to electron neutrinos, whilst the other two are accessive by neutrinos of any flavour.  This allowed for the first time a simultaneous measurement of the total neutrino interaction rate as well as the electron neutrino interaction rate.  The observations of SNO were the smoking gun for neutrino oscillations; the total measured flux for all neutrinos, $\phi_{\textnormal{NC}}^{\textnormal{SNO}} = 6.42 \pm 1.57 \textnormal{ (stat.)} ^{+0.55}_{-0.58} \textnormal{ (sys.)}$, agreed excellently with the electron neutrino flux predicted by the SSM, $\phi^{\textnormal{SSM}} = 5.05 ^{+1.01}_{-0.81}$.  However, the measured electron neutrino flux was around a third lower, $\phi_e^{\textnormal{SNO}} = 1.76 \pm 0.05 \textnormal{ (stat.)} \pm 0.09 \textnormal{ (sys.)}$, consistent with previous measurements from the radiochemical experiments.  The evidence seems conclusive: the solar models are correct and the neutrinos are not disappearing; there are simply changing their flavour state.  A summary plot showing all solar neutrino experiments up until this point is shown in Figure \ref{fig:SolarNeutrinoFluxes} \cite{Bahcall2005Fluxes}.
 
 \begin{figure}
   \centering
@@ -226,7 +226,7 @@ For the three neutrino case, the PMNS matrix, decomposed into its three axial ro
 \end{equation}
 where $c_{ij} \equiv \cos{(ij)}$, $s_{ij} \equiv \sin{(ij)}$ and $\delta$ is a CP-violating phase factor.  Each axial component is often referred to by the means with which they are studied, as shown in Equation \ref{eq:PMNS}.
 
-The weak interaction couples to the flavour eigenstates so neutrinos are always created and detected as flavour states.  However, they propagate as mass states since it is these which are eigenstates of the Hamiltonian.  Due to the misalignment of the flavour and mass states, oscillations can be shown to occur.  A neutrino created with flavour $\alpha$ is a superposition of all the mass states (Equation \ref{eq:FlavourSuperposition}).  These states propagate as a plane wave, evolving in time and space such that
+The weak interaction couples to the flavour eigenstates so neutrinos are always created and detected as flavour states.  However, they propagate as mass states since it is these which are eigenstates of the Hamiltonian.  Due to the misalignment of the flavour and mass states, oscillations can be shown to occur.  A neutrino created with flavour $\alpha$ is a superposition of all the mass states (Equation \ref{eq:FlavourSuperposition}).  These states progagate as a plane wave, evolving in time and space such that
 \begin{equation}\label{eq:MassTimeEvolution}
   \ket{\nu_i(x,t)} = \ket{\nu_i (0)} e^{-i \textbf{x} \cdot \textbf{p}},
 \end{equation}
@@ -235,7 +235,7 @@ where \textbf{x} and \textbf{p} are the 4-position and 4-momentum of the neutrin
   \nonumber \ket{\nu_{\alpha}(x,t)} &= \sum_i U_{\alpha i}^* \ket{\nu_i (x,t)} \\
   \label{eq:FlavourTimeEvolution} &= \sum_i U_{\alpha i}^* e^{-i \textbf{x} \cdot \textbf{p}} \ket{\nu_i(0)} .
 \end{align}
-In the ultra-relativistic limit, the mass of the neutrino is negligible compared to its momentum ($m_i \ll \vec{p}$) and $\vec{x} \approx ct$;
+In the ultra-relativistic limit, the mass of the neutrino is negligble compared to its momentum ($m_i \ll \vec{p}$) and $\vec{x} \approx ct$;
 \begin{align}
   \label{eq:RelativisticEnergy} E_i &= \sqrt{|\vec{p}|^2+m_i^2} = \vec{p}\sqrt{1+\frac{m_i^2}{|\vec{p}|^2}} \approx \vec{p}+\frac{m_i^2}{2\vec{p}} \\
   \label{eq:RelativisticEnergyMomentum} \textbf{x}\cdot\textbf{p} &= E_i t - \vec{x}\cdot\vec{p} = \vec{p}\cdot t + \frac{m_i^2}{2\vec{p}}t - \vec{x}\cdot\vec{p} \approx \frac{m_i^2}{2\vec{p}}\vec{x} = \frac{m_i^2}{2p}x ,
@@ -254,7 +254,7 @@ The probability of a neutrino created in flavour state $\alpha$ being observed i
 \end{align}
 and is observed to be dependent on the neutrino momentum, the difference between the squared masses of the flavour states, the propagation distance and the relative mixing of the two flavour states encoded in the matrix elements $U$.
 
-An accelerator based neutrino experiment, such as DUNE, will typically use a $\nu_{\mu}$-dominated beam and look for \textit{muon neutrino disappearance} ($P(\nu_{\mu}\rightarrow \nu_{\mu})$) and \textit{electron neutrino appearance} ($P(\nu_{\mu}\rightarrow \nu_e)$).  In this case, also in the relativistic limit, the relevant appearance and disappearance probabilities can be approximated, respectively, as
+An accelerator based neutrino experiment, such as DUNE, will typically use a $\nu_{\mu}$-dominated beam and look for \textit{muon neutrino disappearance} ($P(\nu_{\mu}\rightarrow \nu_{\mu})$) and \textit{electron neutrino appearance} ($P(\nu_{\mu}\rightarrow \nu_e)$).  In this case, also in the relavistic limit, the relevant appearance and disappearance probabilities can be approximated, respectively, as
 \begin{align}
   \label{eq:ElectronNeutrinoAppearance} P(\nu_{\mu} \rightarrow \nu_e) &\approx \sin^2{2\theta_{13}} \sin^2{\theta_{23}} \sin^2 {\left( 1.27 \frac{\Delta m_{13}^2 L}{E} \right)} \\
   \label{eq:MuonNeutrinoDisappearance} P(\nu_{\mu} \rightarrow \nu_{\mu}) &\approx 1 - \cos^4{\theta_{13}} \sin^2{2\theta_{23}} \sin^2{ \left( 1.27 \frac{\Delta m_{23}^2 L}{E} \right) },
@@ -265,7 +265,7 @@ where $\Delta m_{ij}^2 \equiv m_i^2-m_j^2$ is the \textit{mass squared splitting
 
 The oscillations considered thus far are \textit{vacuum oscillations} which occur due to the mixing of the neutrino mass and flavour states.  When neutrinos propagate through matter, an additional potential can be shown to also produce oscillations, which would occur even in the case of no vacuum oscillations.
 
-As neutrinos pass through matter, coherent scattering (scattering in which the neutrino state is unchanged) due to neutrino interactions with matter cause neutrinos to feel a potential.  As normal matter is composed of electrons, rather than their heavier counterparts muons and taus, electron neutrinos are affected more by this potential.  The mechanism for this is demonstrated in Figure \ref{fig:MatterEffects}.  This gives rise to an additional effective mass splitting between the electron neutrino and the other flavours and therefore results in the possibility of oscillations \cite{Wolfenstein1978}.
+As neutrinos pass through matter, coherent scattering (scattering in which the neutrino state is unchanged) due to neutrino interactions with matter cause neutrinos to feel a potential.  As normal matter is composed of electrons, rather than their heavier counterparts muons and taus, electron neutrinos are affected more by this potential.  The mechanism for this is demonstated in Figure \ref{fig:MatterEffects}.  This gives rise to an additional effective mass splitting between the electron neutrino and the other flavours and therefore results in the possibility of oscillations \cite{Wolfenstein1978}.
 
 \begin{figure}
   \centering
@@ -293,7 +293,7 @@ As neutrinos pass through matter, coherent scattering (scattering in which the n
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \section{Current Understanding of Neutrino Physics}\label{sec:CurrentUnderstanding}
 
-Including oscillation parameters\\
+Including oscialliation parameters\\
 Mass splittings and degeneracy\\
 SN?\\
 
@@ -309,7 +309,7 @@ This section will provide a brief history of LArTPC technology and motivate its 
 
 \subsection{A Brief History of Time (Projection Chambers)}\label{sec:LArTPCHistory}
 
-The use of a time projection chamber as a potential particle detector was put forward by David Nygren in 1974 \cite{Nygren1974}.  He envisioned bubble-chamber quality data but with the possibility of digital readout of the data, fascilitating extremely fine spatial resolution, good timing resolution and fast recovery after triggering.  The basic concept is a drift chamber containing a noble gas placed within a field to drift ionisation electrons created by a propagating particle towards a multielectron array.  This setup allows full three-dimensional reconstruction by combining information from the two-dimensional readout plane with the drift time.  Nygren also included a magnetic field to assist particle identification in his design, shown in Fig. \ref{fig:NygrenTPC}.
+The use of a time projection chamber as a potential particle detector was put forward by David Nygren in 1974 \cite{Nygren1974}.  He envisioned bubble-chamber quality data but with the possiblity of digital readout of the data, fascilitating extremely fine spatial resolution, good timing resolution and fast recovery after triggering.  The basic concept is a drift chamber containing a noble gas placed within a field to drift ionisation electrons created by a propagating particle towards a multielectron array.  This setup allows full three-dimensional reconstruction by combining information from the two-dimensional readout plane with the drift time.  Nygren also included a magnetic field to assist particle identification in his design, shown in Fig. \ref{fig:NygrenTPC}.
 
 \begin{figure}
   \centering
