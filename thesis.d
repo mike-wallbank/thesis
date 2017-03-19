@@ -85,6 +85,7 @@ thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,DUNE/DUNE.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Declaration/declaration.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Dedication/dedication.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,FarDetectorAnalysis/FarDetectorAnalysis.tex)
+thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Introduction/Introduction.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,LArReconstruction/LArReconstruction.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,NeutrinoPhysics/NeutrinoPhysics.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,OnlineMonitoring/OnlineMonitoring.tex)
@@ -114,10 +115,58 @@ thesis.pdf thesis._graphics: $$(call graphics-target,NeutrinoPhysics/Figs/Matter
 -include NeutrinoPhysics/Figs/MatterEffectsCC.pdf.gpi.d
 thesis.d: $$(call graphics-source,NeutrinoPhysics/Figs/MatterEffectsCC.pdf)
 thesis.pdf thesis._graphics: $$(call graphics-target,NeutrinoPhysics/Figs/MatterEffectsCC.pdf)
+-include NeutrinoPhysics/Figs/GlobalFit.pdf.gpi.d
+thesis.d: $$(call graphics-source,NeutrinoPhysics/Figs/GlobalFit.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,NeutrinoPhysics/Figs/GlobalFit.pdf)
+-include NeutrinoPhysics/Figs/MassHierarchy.pdf.gpi.d
+thesis.d: $$(call graphics-source,NeutrinoPhysics/Figs/MassHierarchy.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,NeutrinoPhysics/Figs/MassHierarchy.pdf)
 -include NeutrinoPhysics/Figs/NygrenTPC.png.gpi.d
 thesis.d: $$(call graphics-source,NeutrinoPhysics/Figs/NygrenTPC.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,NeutrinoPhysics/Figs/NygrenTPC.png)
 -include NeutrinoPhysics/Figs/RubbiaLArTPC.png.gpi.d
 thesis.d: $$(call graphics-source,NeutrinoPhysics/Figs/RubbiaLArTPC.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,NeutrinoPhysics/Figs/RubbiaLArTPC.png)
+-include NeutrinoPhysics/Figs/LArTPCOperation1.png.gpi.d
+thesis.d: $$(call graphics-source,NeutrinoPhysics/Figs/LArTPCOperation1.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,NeutrinoPhysics/Figs/LArTPCOperation1.png)
+-include NeutrinoPhysics/Figs/LArTPCOperation2.png.gpi.d
+thesis.d: $$(call graphics-source,NeutrinoPhysics/Figs/LArTPCOperation2.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,NeutrinoPhysics/Figs/LArTPCOperation2.png)
+-include NeutrinoPhysics/Figs/LArTPCOperation3.png.gpi.d
+thesis.d: $$(call graphics-source,NeutrinoPhysics/Figs/LArTPCOperation3.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,NeutrinoPhysics/Figs/LArTPCOperation3.png)
+-include NeutrinoPhysics/Figs/LArTPCOperation4.png.gpi.d
+thesis.d: $$(call graphics-source,NeutrinoPhysics/Figs/LArTPCOperation4.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,NeutrinoPhysics/Figs/LArTPCOperation4.png)
+-include 35tonAnalysis/Figs/DataRMSGood.pdf.gpi.d
+thesis.d: $$(call graphics-source,35tonAnalysis/Figs/DataRMSGood.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/DataRMSGood.pdf)
+-include 35tonAnalysis/Figs/DataRMSBad.pdf.gpi.d
+thesis.d: $$(call graphics-source,35tonAnalysis/Figs/DataRMSBad.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/DataRMSBad.pdf)
+-include 35tonAnalysis/Figs/stuckbitsremoval.png.gpi.d
+thesis.d: $$(call graphics-source,35tonAnalysis/Figs/stuckbitsremoval.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/stuckbitsremoval.png)
+-include 35tonAnalysis/Figs/raw_stuck-eps-converted-to.pdf.gpi.d
+thesis.d: $$(call graphics-source,35tonAnalysis/Figs/raw_stuck-eps-converted-to.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/raw_stuck-eps-converted-to.pdf)
+-include 35tonAnalysis/Figs/raw_noise-eps-converted-to.pdf.gpi.d
+thesis.d: $$(call graphics-source,35tonAnalysis/Figs/raw_noise-eps-converted-to.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/raw_noise-eps-converted-to.pdf)
+-include 35tonAnalysis/Figs/evd_t0_2.pdf.gpi.d
+thesis.d: $$(call graphics-source,35tonAnalysis/Figs/evd_t0_2.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/evd_t0_2.pdf)
+-include 35tonAnalysis/Figs/chisquare-eps-converted-to.pdf.gpi.d
+thesis.d: $$(call graphics-source,35tonAnalysis/Figs/chisquare-eps-converted-to.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/chisquare-eps-converted-to.pdf)
+-include 35tonAnalysis/Figs/HitTimes-eps-converted-to.pdf.gpi.d
+thesis.d: $$(call graphics-source,35tonAnalysis/Figs/HitTimes-eps-converted-to.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/HitTimes-eps-converted-to.pdf)
+-include 35tonAnalysis/Figs/MeshHits-eps-converted-to.pdf.gpi.d
+thesis.d: $$(call graphics-source,35tonAnalysis/Figs/MeshHits-eps-converted-to.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/MeshHits-eps-converted-to.pdf)
+-include 35tonAnalysis/Figs/apa_gap-eps-converted-to.pdf.gpi.d
+thesis.d: $$(call graphics-source,35tonAnalysis/Figs/apa_gap-eps-converted-to.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/apa_gap-eps-converted-to.pdf)
 thesis.bbl thesis.aux thesis.aux.make: $(call path-norm,./References/references.bib)

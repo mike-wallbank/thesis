@@ -498,12 +498,277 @@ The relative noise on the two collection planes can be evaluated by considering 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{APA Gap-Crossing Muons}\label{sec:APAGapCrossing}
 
-One of the primary motivations for the design of the 35~ton TPC was to test the modular design, where a single drift region is read out by multiple anode assemblies.  Particles passing through the detector will inevitably leave deposits in multiple TPCs and will pass uninstrumented regions of the detector, such as gaps in between neighbouring APAs.  It is essential the implications of this design choice are understood before constructing the far detector modules, each of which will contain 150 APAs.
+One of the primary motivations for the design of the 35~ton TPC was to test its modular form, where a single drift region is read out by multiple anode assemblies.  Particles passing through the detector will inevitably leave deposits in multiple TPCs and will pass uninstrumented regions of the detector, such as gaps in between neighbouring APAs.  An example such track is demonstrated schematically in Figure \ref{fig:APAGapCrosser}.  It is essential the implications of this design choice are understood before constructing the far detector modules, each of which will contain 150 APAs.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=12cm]{apa_gap.eps}
+  \caption{Schematic showing an example APA-gap crossing track as viewed looking down from the top of the detector.  The vertical direction represents the drift direction ($x$); the horizontal direction represents the $z$-direction.  In general, these tracks make an angle with respect to the face of the APAs, as shown in the figure.  As the gap in between the APAs is uninstrumented, no charge is desposited in this region.}
+  \label{fig:APAGapCrosser}
+\end{figure}
 
 The 35~ton dataset consisting of muons which pass across the face of APAs and therefore deposit charge in consequetive TPCs is discussed in this present section.  An analysis of these tracks to calculate the size of the gaps is presented in Section \ref{sec:APAGapOffsets} and a study of the charge deposited by such tracks is the subject of Section \ref{sec:APAGapCharge}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{APA-Gap Offset Determination}\label{sec:APAGapOffsets}
+
+It is possible to use these gap crossing tracks to make measurements of the gaps between each of the APAs.  This involves aligning the track segments from neighbouring TPCs, demonstrated in Figure \ref{fig:APAGapZOffset}.  The value of the $z$-offset, $\Delta z$, is determined by considering a range of offset hypotheses, performing a linear fit and finding the offset which minimises the residual least squares
+\begin{equation}
+  L = \sum_i^{nhits} (o_i - e_i)^2,
+\end{equation}
+where $o_i-e_i$ is the distance from hit $i$ to the best fit line.
+
+\begin{figure}
+  \centering
+  \begin{subfigure}[t]{0.48\linewidth}
+    \centering
+    \includegraphics[width=0.92\textwidth]{apa_gap_zoffset.eps}
+    \caption{Before correcting for $\Delta z$.}
+    \label{fig:APAGapZOffsetUncorrected}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[t]{0.48\linewidth}
+    \centering
+    \includegraphics[width=0.98\textwidth]{apa_gap_zoffset_fix.eps}
+    \caption{After correcting for $\Delta z$.}
+    \label{fig:APAGapZOffsetCorrected}
+  \end{subfigure}
+  \caption{Schematic showing an example track crossing two drift regions offset by an unknown quantity $\Delta z$.  The effect of this is evident from the track desposits (Figure \ref{fig:APAGapZOffsetUncorrected}) and can be corrected by ensuring the segments are aligned between the TPCs (Figure \ref{fig:APAGapZOffsetCorrected}).}
+  \label{fig:APAGapZOffset}
+\end{figure}
+
+There are eight gaps which can be measured from the data, demonstrated in Figure \ref{fig:APAGapCrossingGaps}.  Due to very low statistics, it was found measurements of the gaps on the short drift volume side of the APAs were not possible using the 35~ton data.  Analysis of the gaps using tracks passing through the long drift volume, hereafter named TPC1/TPC3, TPC1/TPC5, TPC3/TPC7 and TPC5/TPC7, was therefore the focus of this study.
+
+A number of cuts were applied to ensure only high quality tracks were included for analysis:
+\begin{itemize}
+  \item{Only hits greater than 1~cm and less than 15~cm away from the gap were included in the track segments.  The purpose of this cut is to limit the effect of multiple scatterings and the poorly understood region closest to the gap, where charge deposited in the uninstrumented region may later be collected.}
+  \item{Each track segment must contain at least three hits to allow an accurate measure of the gradient.}
+  \item{The angle between the track segments either side of the gap must be less than 2$^\circ$ to remove any poorly reconstructed tracks, or segments originating from different particle tracks.}
+  \item{The angle the track makes with respect to the APA face must be large enough that the gap offset effect can be measured to an acceptable accuracy.  It is common in the 35~ton to refer to a `counter gradient', the offset between the two counters forming the through-going particle trigger in the drift direction, in units of counter length (refer to Figure \ref{fig:35tonCounters}).  The tracks must have a counter gradient of at least three.}
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Measuring the APA Gaps}\label{sec:MeasuringAPAGaps}
+
+The gap with which we can expect the largest number of crossers is TPC5/TPC7 and so the method will be demonstrated using data from this channel.  The $z$-offset determined using the method and cuts described above is shown in Figure \ref{fig:TPC5TPC7XOffsetZOffset}.  An unexpected feature is evident from this distribution; there is not a single peak but two, seemingly related to the angle which the through-going particle makes with respect to the APAs.
+
+\begin{figure}
+  \centering
+  \begin{subfigure}[t]{0.48\linewidth}
+    \centering
+    \includegraphics[width=\textwidth]{TPC5TPC7Gap.eps}
+    \caption{Full distribution.}
+    \label{fig:TPC5TPC7Gap}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[t]{0.48\linewidth}
+    \centering
+    \includegraphics[width=\textwidth]{TPC5TPC7GapAngle.eps}
+    \caption{Separated by the angle the track makes to the APAs.}
+    \label{fig:TPC5TPC7GapAngle}
+  \end{subfigure}
+  \caption{The $z$-offset for the TPC5/TPC7 gap measured in the 35~ton data.  A very noticable double-peak structure is evident in Figure \ref{fig:TPC5TPC7Gap}; this bias appears to be related to the sign of the angle the particle track makes to the APA planes.}
+  \label{fig:TPC5TPC7XOffsetZOffset}
+\end{figure}
+
+One explanation for this observed double-peak effect involves considering the possibility of additional offsets from the assumed positions of the APAs.  This is demonstrated in Figure \ref{fig:APAGapXOffset}.  It appears an offset in the $x$-position of the APAs could result in the problems encountered in the data.  In order to test this, these offsets were artificially introduced into the simulation; the findings are presented in Figure \ref{fig:APAGapMC}.  It appears the distribution of $\Delta z$ measured from the data is consistent with APAs with offsets from expectation in both $x$ and $z$.  Moreover, it may be possible to measure both offsets from the same data set.
+
+\begin{figure}[p]
+  \centering
+  \begin{subfigure}[t]{0.48\linewidth}
+    \centering
+    \includegraphics[width=0.98\textwidth]{apa_gap_xoffset_pos.eps}
+    \caption{Positive track angle.}
+    \label{fig:APAGapXOffsetPos}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[t]{0.48\linewidth}
+    \centering
+    \includegraphics[width=0.98\textwidth]{apa_gap_xoffset_neg.eps}
+    \caption{Negative track angle.}
+    \label{fig:APAGapXOffsetNeg}
+  \end{subfigure}
+  \vfill
+  \begin{subfigure}[t]{0.48\linewidth}
+    \centering
+    \includegraphics[width=0.98\textwidth]{apa_gap_xoffset_pos_fix.eps}
+    \caption{Aligning the track segments gives a negative value of $\Delta z$ using the positive track.}
+    \label{fig:APAGapXOffsetPosFix}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[t]{0.48\linewidth}
+    \centering
+    \includegraphics[width=0.98\textwidth]{apa_gap_xoffset_neg_fix.eps}
+    \caption{Aligning the track segments gives a positive value of $\Delta z$ using the negative track.}
+    \label{fig:APAGapXOffsetNegFix}
+  \end{subfigure}
+  \caption{Demonstration of how an $x$-offset in the positions of the APAs can explain the degeneracy evident in the $z$-offset measured using the 35~ton data (Figure \ref{fig:TPC5TPC7XOffsetZOffset}).  In the left-hand plots, Figures \ref{fig:APAGapXOffsetPos} and \ref{fig:APAGapXOffsetPosFix}, the through-going particle makes a positive angle to the face of the APAs and the right-hand plots, Figures \ref{fig:APAGapXOffsetNeg} and \ref{fig:APAGapXOffsetNegFix}, the particle is travelling with a negative gradient.  In both cases, the offset of the APAs in the $x$-direction is the same.  It is clear from Figures \ref{fig:APAGapXOffsetPosFix} and \ref{fig:APAGapXOffsetNegFix} how the sign of the measured $\Delta z$ is dependent on the angle of the track.}
+  \label{fig:APAGapXOffset}
+\end{figure}
+
+\begin{figure}[p]
+  \centering
+  \begin{subfigure}[t]{0.52\linewidth}
+    \centering
+    \includegraphics[width=\textwidth]{TPC5TPC7MCZOffset.eps}
+    \caption{$z$-offset = 2~cm, $x$-offset = 0~cm.}
+    \label{fig:APAGapMCZOffset}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[t]{0.49\linewidth}
+    \centering
+    \includegraphics[width=\textwidth]{TPC5TPC7MCXOffsetZOffset.eps}
+    \caption{$z$-offset = 2~cm, $x$-offset = 0.5~cm.}
+    \label{fig:APAGapMCXOffsetZOffset}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[t]{0.49\linewidth}
+    \centering
+    \includegraphics[width=\textwidth]{TPC5TPC7MCXOffsetZOffsetAngle.eps}
+    \caption{$z$-offset = 2~cm, $x$-offset = 0.5~cm.}
+    \label{fig:APAGapMCXOffsetZOffsetAngle}
+  \end{subfigure}
+  \caption{Studies of the effects of offsets in the positions of the APAs in simulation.  Articficial $z$- and $x$- offsets are introduced and their impact observed in the measurements of $\Delta z$.  Figure \ref{fig:APAGapMCZOffset} shows the effect of an offset in the $z$-direction; as expected, there is a single peak measuring the inputed value.  Figures \ref{fig:APAGapMCXOffsetZOffset} and \ref{fig:APAGapMCXOffsetZOffsetAngle} show the consequence of offsets in both the $x$- and $z$-directions.  This appears to show exactly what is seen in the 35~ton data (Figure \ref{fig:TPC5TPC7XOffsetZOffset}).}
+  \label{fig:APAGapMC}
+\end{figure}
+
+\begin{figure}[p]
+  \centering
+  \begin{subfigure}[t]{\linewidth}
+    \centering
+    \includegraphics[width=8cm]{TPC5TPC7MCZOffset.eps}
+    \caption{$z$-offset = 2~cm, $x$-offset = 0~cm.}
+    \label{fig:APAGapMCZOffset}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[t]{\linewidth}
+    \centering
+    \includegraphics[width=8cm]{TPC5TPC7MCXOffsetZOffset.eps}
+    \caption{$z$-offset = 2~cm, $x$-offset = 0.5~cm.}
+    \label{fig:APAGapMCXOffsetZOffset}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[t]{\linewidth}
+    \centering
+    \includegraphics[width=8cm]{TPC5TPC7MCXOffsetZOffsetAngle.eps}
+    \caption{$z$-offset = 2~cm, $x$-offset = 0.5~cm.}
+    \label{fig:APAGapMCXOffsetZOffsetAngle}
+  \end{subfigure}
+  \caption{[Same as previous page -- which is better?  I prefer the layout of the previous page but I like this one because you can see the 2cm offset in line with each other down the page!]  Studies of the effects of offsets in the positions of the APAs in simulation.  Articficial $z$- and $x$- offsets are introduced and their impact observed in the measurements of $\Delta z$.  Figure \ref{fig:APAGapMCZOffset} shows the effect of an offset in the $z$-direction; as expected, there is a single peak measuring the inputed value.  Figures \ref{fig:APAGapMCXOffsetZOffset} and \ref{fig:APAGapMCXOffsetZOffsetAngle} show the consequence of offsets in both the $x$- and $z$-directions.  This appears to show exactly what is seen in the 35~ton data (Figure \ref{fig:TPC5TPC7XOffsetZOffset}).}
+  \label{fig:APAGapMC}
+\end{figure}
+
+It is clear from Figure \ref{fig:APAGapMC} that the $z$-offset may be determined as the minimum between the angular-separated distributions.  This can be justified by geometrical considerations, explained in Figure \ref{fig:APAGapXOffsetZOffset}.  In this case, this may be acheived by fitting a function of the form
+\begin{equation}
+  f(x) = a(x-b)^2+c
+\end{equation}
+and extracting parameter $b$ as the true value of $\Delta z$.  This is shown in Figure \ref{fig:TPC5TPC7GapFit}.
+
+\begin{figure}[p]
+  \centering
+  \begin{subfigure}[t]{0.48\linewidth}
+    \centering
+    \includegraphics[width=0.98\textwidth]{apa_gap_xoffset_zoffset_pos.eps}
+    \caption{Positive track angle.}
+    \label{fig:APAGapXOffsetZOffsetPos}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[t]{0.48\linewidth}
+    \centering
+    \includegraphics[width=0.98\textwidth]{apa_gap_xoffset_zoffset_neg.eps}
+    \caption{Negative track angle.}
+    \label{fig:APAGapXOffsetZOffsetNeg}
+  \end{subfigure}
+  \vfill
+  \begin{subfigure}[t]{0.48\linewidth}
+    \centering
+    \includegraphics[width=0.98\textwidth]{apa_gap_xoffset_zoffset_pos_fix.eps}
+    \caption{Aligning the track segments gives a measured $z$-offset, $\Delta z_m$, which is negative with an absolute value always greater than the true value.}
+    \label{fig:APAGapXOffsetZOffsetPosFix}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[t]{0.48\linewidth}
+    \centering
+    \includegraphics[width=0.98\textwidth]{apa_gap_xoffset_zoffset_neg_fix.eps}
+    \caption{Aligning the track segments gives a measured $z$-offset, $\Delta z_m$, which is positive with an absolute value always less than the true value.}
+    \label{fig:APAGapXOffsetZOffsetNegFix}
+  \end{subfigure}
+  \caption{Demonstration of the effects of offsets in both the $x$- and $z$-directions in the determination of $\Delta z$ between TPC5 and TPC7.  With an $x$-offset present, it is impossible for the true value of $\Delta z$ to be measured -- this is evident from Figure \ref{fig:APAGapMC}.  It is clear from these geometrical considerations how the measured offset $\Delta z_m$ will populate distributions either side of the true value; the true value $\Delta z$ is given by the minimum between the two distributions.}
+  \label{fig:APAGapXOffsetZOffset}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=12cm]{TPC5TPC7GapFit.eps}
+  \caption{Extraction of the true value of $\Delta z$ from the full distribution of measured $z$-offsets.  A measured value of $0.09\pm0.02$~cm is found.}
+  \label{fig:TPC5TPC7GapFit}
+\end{figure}
+
+Using this measured value of $\Delta z$, the offsets can be analysed again, this time measuring the $x$-offset by correcting for the $z$-offset.  The measured $x$-offset distribution is shown in Figure \ref{fig:TPC5TPC7XOff}.  With this value of $\Delta x$, the $z$-offset can be evaluted once more to ensure the distribution contains a single peak, as initially expected.  This is confirmed in Figure \ref{fig:TPC5TPC7ZOff}.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=12cm]{TPC5TPC7XOff.eps}
+  \caption{Measurement of the $x$-offset between TPC5 and TPC7 after applying the $z$-gap corrected determined using the method described in the text and Figure \ref{fig:TPC5TPC7GapFit}.  A measurement of $-0.300\pm0.003$~cm is determined.}
+  \label{fig:TPC5TPC7XOff}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=12cm]{TPC5TPC7ZOff.eps}
+  \caption{Measurement of the $z$-offset between TPC5 and TPC7 after applying the $x$-offset determined from Figure \ref{fig:TPC5TPC7XOff}.  As initially anticipated, there is a single peak distributed around the true value of the offset.  This validates the method used and confirms the initial presence of an $x$-offset between the neighbouring APAs.  The final measurement of $\Delta z$ is $0.057\pm0.009$~cm which agrees reasonably with the value measured previously ($0.09\pm0.02$~cm from Figure \ref{fig:TPC5TPC7GapFit}).}
+  \label{fig:TPC5TPC7ZOff}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Measurements of the APA Offsets}\label{sec:APAOffsetMeasurements}
+
+The offsets apparent from the data for all of the gaps accessible using TPC tracks in the long drift volume were determined as described in Section \ref{sec:MeasuringAPAGaps}.  Appendix \#\# contains all relevant figures (does an appendix seem a good idea here? I don't think we need the same figures as the previous section for each of the gaps here, but might be nice to have them somewhere?).  Table \ref{tab:APAOffsets} contains all the measurements and the new gaps, taking these offsets into account, are presented in Table \ref{fig:APAGaps}.
+
+\begin{table}[p]
+  \centering
+  \caption[Measurements of all the APA offsets determined from the 35~ton TPC data.]{Measurements of all the APA offsets determined from the 35~ton TPC data.  The method followed is described in Section \ref{sec:MeasuringAPAGaps}.  The first row represents the initial measurements of the $z$-offset from the two-peak distribution, with the following two lines detailing the measured offsets that follow from these results.}
+  \label{tab:APAOffsets}
+%  \resizebox*{\columnwidth}{!}{
+    \begin{tabular}{l  c  c  c  c }
+      \toprule
+      & TPC1/TPC3 & TPC1/TPC5 & TPC3/TPC7 & TPC5/TPC7 \\ %\hline\hline
+      \midrule
+      Initial $z$-offset (cm) & $-0.58 \pm 0.08$ & $0.18 \pm 0.02$    & $0.6 \pm 0.1$    & $0.09 \pm 0.02$    \\ %\hline
+      $x$-offset (cm)         & $-0.36 \pm 0.01$ & $-0.252 \pm 0.006$ & $-0.12 \pm 0.02$ & $-0.300 \pm 0.003$ \\ %\hline
+      $z$-offset (cm)         & $-0.57 \pm 0.04$ & $0.09 \pm 0.02$    & $0.55 \pm 0.08$  & $0.057 \pm 0.009$  \\
+      \bottomrule
+    \end{tabular}
+ % }
+  \vspace{3cm}
+  \caption[The corrected gaps between the APAs, in $x$ and $z$, based on the offsets measured (Table \ref{tab:APAGapOffsets}).]{The corrected gaps between the APAs, in $x$ and $z$, based on the offsets measured (Table \ref{tab:APAOffsets}).}
+  \label{tab:APAGaps}
+ % \resizebox*{\columnwidth}{!}{
+    \begin{tabular}{l  c  c  c  c }
+      \toprule
+      & Assumed (cm) & Offset (cm) & Corrected (cm) \\ %\hline\hline
+      \midrule
+      TPC1/TPC3 $x$-gap & 0 & $-0.36 \pm 0.01$   & $-0.36 \pm 0.01$   \\
+      TPC1/TPC5 $x$-gap & 0 & $-0.252 \pm 0.006$ & $-0.252 \pm 0.006$ \\
+      TPC3/TPC7 $x$-gap & 0 & $-0.12 \pm 0.02$   & $-0.12 \pm 0.02$   \\
+      TPC5/TPC7 $x$-gap & 0 & $-0.300 \pm 0.003$ & $-0.300 \pm 0.003$ \\
+      \midrule
+      TPC1/(3)/TPC7 $x$-gap & 0 & $-0.48 \pm 0.02$   & $-0.48 \pm 0.02$   \\
+      TPC1/(5)/TPC7 $x$-gap & 0 & $-0.552 \pm 0.007$ & $-0.552 \pm 0.007$ \\
+      \midrule
+      TPC1/TPC3 $z$-gap & 2.53 & $-0.57 \pm 0.04$ & $1.96 \pm 0.04$ \\
+      TPC1/TPC5 $z$-gap & 2.08 & $0.09 \pm 0.02$  & $2.17 \pm 0.02$ \\
+      TPC3/TPC7 $z$-gap & 1.63 & $0.55 \pm 0.08$    & $2.18 \pm 0.08$ \\
+      TPC5/TPC7 $z$-gap & 2.08 & $0.057 \pm 0.009$  & $2.14 \pm 0.01$ \\
+      \midrule
+      TPC1/(3)/TPC7 $z$-gap & 4.16 & $-0.02 \pm 0.09$ & $4.14 \pm 0.09$ \\
+      TPC1/(5)/TPC7 $z$-gap & 4.16 & $0.15 \pm 0.02$  & $4.31 \pm 0.02$ \\
+      \bottomrule
+    \end{tabular}
+  %}
+\end{table}
+
+Discussion of these numbers.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Charge Deposited by APA-Gap Crossing Muons}\label{sec:APAGapCharge}

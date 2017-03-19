@@ -5,11 +5,7 @@ A level-1 auxiliary file: Dedication/dedication.aux
 A level-1 auxiliary file: Declaration/declaration.aux
 A level-1 auxiliary file: Acknowledgements/acknowledgements.aux
 A level-1 auxiliary file: Abstract/abstract.aux
-I couldn't open auxiliary file Introduction/Introduction.aux
----line 24 of file thesis.aux
- : \@input{Introduction/Introduction.aux
- :                                      }
-I'm skipping whatever remains of this command
+A level-1 auxiliary file: Introduction/Introduction.aux
 A level-1 auxiliary file: NeutrinoPhysics/NeutrinoPhysics.aux
 A level-1 auxiliary file: DUNE/DUNE.aux
 A level-1 auxiliary file: 35ton/35ton.aux
@@ -18,7 +14,7 @@ A level-1 auxiliary file: OnlineMonitoring/OnlineMonitoring.aux
 A level-1 auxiliary file: 35tonAnalysis/35tonAnalysis.aux
 A level-1 auxiliary file: FarDetectorAnalysis/FarDetectorAnalysis.aux
 A level-1 auxiliary file: Summary/Summary.aux
-The style file: apalike.bst
+The style file: andyisgreat.bst
 A level-1 auxiliary file: Appendix1/appendix1.aux
 A level-1 auxiliary file: Appendix2/appendix2.aux
 Database file #1: References/references.bib
@@ -40,53 +36,112 @@ Reallocated ex_buf (elt_size=1) to 80000 items from 60000.
 Reallocated out_buf (elt_size=1) to 80000 items from 60000.
 Reallocated name_tok (elt_size=4) to 80000 items from 60000.
 Reallocated name_sep_char (elt_size=1) to 80000 items from 60000.
+Repeated entry---line 1152 of file References/references.bib
+ : @article{Baller2014
+ :                    ,
+I'm skipping whatever remains of this entry
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-Warning--empty publisher in Gaisser1990
-Warning--empty journal in LBNE35tonPhaseIOverview
 Reallocated str_pool (elt_size=1) to 195000 items from 130000.
-Warning--you've exceeded 20000, the global-string-size, for entry Schael2006
-while executing--line 1098 of file apalike.bst
-*Please notify the bibstyle designer*
+Warning--I didn't find a database entry for ""
+You can't pop an empty literal stack for entry ReinesCowanLiquidScintillation
+while executing---line 953 of file andyisgreat.bst
+You can't pop an empty literal stack for entry Danby1962
+while executing---line 953 of file andyisgreat.bst
+You can't pop an empty literal stack for entry Feldman1977
+while executing---line 953 of file andyisgreat.bst
+You can't pop an empty literal stack for entry Bethe1939
+while executing---line 953 of file andyisgreat.bst
+You can't pop an empty literal stack for entry Bahcall1968
+while executing---line 953 of file andyisgreat.bst
+You can't pop an empty literal stack for entry Bahcall1995
+while executing---line 953 of file andyisgreat.bst
+You can't pop an empty literal stack for entry Haines1986
+while executing---line 953 of file andyisgreat.bst
+You can't pop an empty literal stack for entry Casper1991
+while executing---line 953 of file andyisgreat.bst
+You can't pop an empty literal stack for entry BeckerSzendy1992
+while executing---line 953 of file andyisgreat.bst
+You can't pop an empty literal stack for entry SuperKamiokande1998
+while executing---line 953 of file andyisgreat.bst
+You can't pop an empty literal stack for entry SNO2002
+while executing---line 953 of file andyisgreat.bst
+You can't pop an empty literal stack for entry Wolfenstein1978
+while executing---line 953 of file andyisgreat.bst
+You can't pop an empty literal stack for entry KamLAND2003
+while executing---line 953 of file andyisgreat.bst
+You can't pop an empty literal stack for entry KamLAND2005
+while executing---line 953 of file andyisgreat.bst
+You can't pop an empty literal stack for entry Sage2009
+while executing---line 953 of file andyisgreat.bst
+You can't pop an empty literal stack for entry SNO2013
+while executing---line 953 of file andyisgreat.bst
+You can't pop an empty literal stack for entry KamLAND2013
+while executing---line 953 of file andyisgreat.bst
+You can't pop an empty literal stack for entry SuperKamiokande2010
+while executing---line 953 of file andyisgreat.bst
+You can't pop an empty literal stack for entry IceCube2015
+while executing---line 953 of file andyisgreat.bst
+You can't pop an empty literal stack for entry MINOS2013
+while executing---line 953 of file andyisgreat.bst
+You can't pop an empty literal stack for entry MINOS2013b
+while executing---line 953 of file andyisgreat.bst
+You can't pop an empty literal stack for entry T2Knumu2014
+while executing---line 953 of file andyisgreat.bst
+You can't pop an empty literal stack for entry NOvAnumu2016
+while executing---line 953 of file andyisgreat.bst
+You can't pop an empty literal stack for entry DayaBay2012
+while executing---line 953 of file andyisgreat.bst
+You can't pop an empty literal stack for entry RENO2012
+while executing---line 953 of file andyisgreat.bst
+You can't pop an empty literal stack for entry T2Knue2014
+while executing---line 953 of file andyisgreat.bst
+You can't pop an empty literal stack for entry NOvAnue2016
+while executing---line 953 of file andyisgreat.bst
+Warning--empty journal in T2K2017
+You can't pop an empty literal stack for entry Triotsk2011
+while executing---line 953 of file andyisgreat.bst
+Warning--empty journal in LArIAT2014
 Warning--empty journal in LAPD
-You've used 53 entries,
-            1935 wiz_defined-function locations,
-            858 strings with 93704 characters,
-and the built_in function-call counts, 177383 in all, are:
-= -- 12185
-> -- 26030
-< -- 18
-+ -- 10357
-- -- 10354
-* -- 22082
-:= -- 33933
-add.period$ -- 154
-call.type$ -- 53
-change.case$ -- 5440
-chr.to.int$ -- 50
-cite$ -- 56
-duplicate$ -- 730
-empty$ -- 1503
-format.name$ -- 10415
-if$ -- 29245
-int.to.chr$ -- 4
-int.to.str$ -- 0
-missing$ -- 51
-newline$ -- 263
-num.names$ -- 159
-pop$ -- 5343
+Warning--empty journal in LBNE35tonPhaseIOverview
+You've used 93 entries,
+            1813 wiz_defined-function locations,
+            1079 strings with 146891 characters,
+and the built_in function-call counts, 20814 in all, are:
+= -- 1971
+> -- 783
+< -- 1
++ -- 354
+- -- 177
+* -- 1514
+:= -- 3300
+add.period$ -- 274
+call.type$ -- 93
+change.case$ -- 91
+chr.to.int$ -- 0
+cite$ -- 97
+duplicate$ -- 830
+empty$ -- 2099
+format.name$ -- 177
+if$ -- 4581
+int.to.chr$ -- 0
+int.to.str$ -- 93
+missing$ -- 90
+newline$ -- 463
+num.names$ -- 93
+pop$ -- 184
 preamble$ -- 1
-purify$ -- 5442
+purify$ -- 0
 quote$ -- 0
-skip$ -- 534
+skip$ -- 384
 stack$ -- 0
-substring$ -- 1751
-swap$ -- 47
-text.length$ -- 0
+substring$ -- 1736
+swap$ -- 98
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 314
-warning$ -- 3
-while$ -- 193
-width$ -- 0
-write$ -- 673
-(There was 1 error message)
+type$ -- 0
+warning$ -- 4
+while$ -- 228
+width$ -- 95
+write$ -- 1002
+(There were 29 error messages)
