@@ -94,51 +94,6 @@ thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Summary/Summary
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,thesis-info.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,thesis.tex)
 .SECONDEXPANSION:
--include NeutrinoPhysics/Figs/LEPZ0Resonance.pdf.gpi.d
-thesis.d: $$(call graphics-source,NeutrinoPhysics/Figs/LEPZ0Resonance.pdf)
-thesis.pdf thesis._graphics: $$(call graphics-target,NeutrinoPhysics/Figs/LEPZ0Resonance.pdf)
--include NeutrinoPhysics/Figs/SolarNeutrinoCycles.pdf.gpi.d
-thesis.d: $$(call graphics-source,NeutrinoPhysics/Figs/SolarNeutrinoCycles.pdf)
-thesis.pdf thesis._graphics: $$(call graphics-target,NeutrinoPhysics/Figs/SolarNeutrinoCycles.pdf)
--include NeutrinoPhysics/Figs/SuperKamiokandeDirection.pdf.gpi.d
-thesis.d: $$(call graphics-source,NeutrinoPhysics/Figs/SuperKamiokandeDirection.pdf)
-thesis.pdf thesis._graphics: $$(call graphics-target,NeutrinoPhysics/Figs/SuperKamiokandeDirection.pdf)
--include NeutrinoPhysics/Figs/SuperKamiokandeLE.pdf.gpi.d
-thesis.d: $$(call graphics-source,NeutrinoPhysics/Figs/SuperKamiokandeLE.pdf)
-thesis.pdf thesis._graphics: $$(call graphics-target,NeutrinoPhysics/Figs/SuperKamiokandeLE.pdf)
--include NeutrinoPhysics/Figs/SolarNeutrinoFluxes.pdf.gpi.d
-thesis.d: $$(call graphics-source,NeutrinoPhysics/Figs/SolarNeutrinoFluxes.pdf)
-thesis.pdf thesis._graphics: $$(call graphics-target,NeutrinoPhysics/Figs/SolarNeutrinoFluxes.pdf)
--include NeutrinoPhysics/Figs/MatterEffectsNC.pdf.gpi.d
-thesis.d: $$(call graphics-source,NeutrinoPhysics/Figs/MatterEffectsNC.pdf)
-thesis.pdf thesis._graphics: $$(call graphics-target,NeutrinoPhysics/Figs/MatterEffectsNC.pdf)
--include NeutrinoPhysics/Figs/MatterEffectsCC.pdf.gpi.d
-thesis.d: $$(call graphics-source,NeutrinoPhysics/Figs/MatterEffectsCC.pdf)
-thesis.pdf thesis._graphics: $$(call graphics-target,NeutrinoPhysics/Figs/MatterEffectsCC.pdf)
--include NeutrinoPhysics/Figs/GlobalFit.pdf.gpi.d
-thesis.d: $$(call graphics-source,NeutrinoPhysics/Figs/GlobalFit.pdf)
-thesis.pdf thesis._graphics: $$(call graphics-target,NeutrinoPhysics/Figs/GlobalFit.pdf)
--include NeutrinoPhysics/Figs/MassHierarchy.pdf.gpi.d
-thesis.d: $$(call graphics-source,NeutrinoPhysics/Figs/MassHierarchy.pdf)
-thesis.pdf thesis._graphics: $$(call graphics-target,NeutrinoPhysics/Figs/MassHierarchy.pdf)
--include NeutrinoPhysics/Figs/NygrenTPC.png.gpi.d
-thesis.d: $$(call graphics-source,NeutrinoPhysics/Figs/NygrenTPC.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,NeutrinoPhysics/Figs/NygrenTPC.png)
--include NeutrinoPhysics/Figs/RubbiaLArTPC.png.gpi.d
-thesis.d: $$(call graphics-source,NeutrinoPhysics/Figs/RubbiaLArTPC.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,NeutrinoPhysics/Figs/RubbiaLArTPC.png)
--include NeutrinoPhysics/Figs/LArTPCOperation1.png.gpi.d
-thesis.d: $$(call graphics-source,NeutrinoPhysics/Figs/LArTPCOperation1.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,NeutrinoPhysics/Figs/LArTPCOperation1.png)
--include NeutrinoPhysics/Figs/LArTPCOperation2.png.gpi.d
-thesis.d: $$(call graphics-source,NeutrinoPhysics/Figs/LArTPCOperation2.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,NeutrinoPhysics/Figs/LArTPCOperation2.png)
--include NeutrinoPhysics/Figs/LArTPCOperation3.png.gpi.d
-thesis.d: $$(call graphics-source,NeutrinoPhysics/Figs/LArTPCOperation3.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,NeutrinoPhysics/Figs/LArTPCOperation3.png)
--include NeutrinoPhysics/Figs/LArTPCOperation4.png.gpi.d
-thesis.d: $$(call graphics-source,NeutrinoPhysics/Figs/LArTPCOperation4.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,NeutrinoPhysics/Figs/LArTPCOperation4.png)
 -include 35tonAnalysis/Figs/DataRMSGood.pdf.gpi.d
 thesis.d: $$(call graphics-source,35tonAnalysis/Figs/DataRMSGood.pdf)
 thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/DataRMSGood.pdf)

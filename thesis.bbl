@@ -1,4 +1,53 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
+
+\bibitem{Glashow1961}
+Sheldon~L Glashow.
+\newblock {Partial-symmetries of weak interactions}.
+\newblock {\em Nuclear Physics}, 22(4):579--588, 1961.
+
+\bibitem{Weinberg1967}
+Steven Weinberg.
+\newblock {A Model of Leptons}.
+\newblock {\em Phys. Rev. Lett.}, 19(21):1264--1266, 1967.
+
+\bibitem{Aad2012}
+G.~Aad, et~al.
+\newblock {Observation of a new particle in the search for the Standard Model
+  Higgs boson with the ATLAS detector at the LHC}.
+\newblock {\em Physics Letters B}, 716(1):1--29, 2012.
+
+\bibitem{Chatrchyan2012}
+S.~Chatrchyan, et~al.
+\newblock {Observation of a new boson at a mass of 125 GeV with the CMS
+  experiment at the LHC}.
+\newblock {\em Physics Letters, Section B: Nuclear, Elementary Particle and
+  High-Energy Physics}, 716(1):30--61, 2012.
+
+\bibitem{Shears2012}
+Tara Shears.
+\newblock {The Standard Model}.
+\newblock {\em Phil. Trans. Roy. Soc. Lond.}, A370:805--817, 2012.
+
+\bibitem{Bilenky2015}
+S~M Bilenky.
+\newblock {Neutrino in standard model and beyond}.
+\newblock {\em Physics of Particles and Nuclei}, 46(4):475--496, 2015.
+
+\bibitem{Ellis2012}
+John Ellis.
+\newblock {Outstanding questions: Physics beyond the Standard Model}.
+\newblock {\em Phil. Trans. Roy. Soc. Lond.}, A370:818--830, 2012.
+
+\bibitem{SuperKamiokande1998}
+Y~Fukuda, et~al.
+\newblock {Evidence for Oscillation of Atmospheric Neutrinos}.
+\newblock {\em Phys. Rev. Lett.}, 81(8):1562--1567, 1998.
+
+\bibitem{SNO2002}
+Q~R Ahmad, et~al.
+\newblock {Direct Evidence for Neutrino Flavor Transformation from
+  Neutral-Current Interactions in the Sudbury Neutrino Observatory}.
+\newblock {\em Phys. Rev. Lett.}, 89(1):11301, 2002.
 
 \bibitem{Pauli1930}
 Wolfgang Pauli.
@@ -222,17 +271,6 @@ Y~Fukuda, et~al.
 \newblock {Atmospheric v$\mu$ve ratio in the multi-GeV energy range}.
 \newblock {\em Physics Letters B}, 335(2):237--245, 1994.
 
-\bibitem{SuperKamiokande1998}
-Y~Fukuda, et~al.
-\newblock {Evidence for Oscillation of Atmospheric Neutrinos}.
-\newblock {\em Phys. Rev. Lett.}, 81(8):1562--1567, 1998.
-
-\bibitem{SNO2002}
-Q~R Ahmad, et~al.
-\newblock {Direct Evidence for Neutrino Flavor Transformation from
-  Neutral-Current Interactions in the Sudbury Neutrino Observatory}.
-\newblock {\em Phys. Rev. Lett.}, 89(1):11301, 2002.
-
 \bibitem{Bahcall2005Fluxes}
 J~N Bahcall.
 \newblock {Solar Models and Solar Neutrinos}.
@@ -317,6 +355,12 @@ Tommy Ohlsson, He~Zhang, and Shun Zhou.
   oscillation experiments}.
 \newblock {\em Physical Review D - Particles, Fields, Gravitation and
   Cosmology}, 87(5):1--8, 2013.
+
+\bibitem{DUNECDR1}
+{DUNE Collaboration}.
+\newblock {Long-Baseline Neutrino Facility (LBNF) and Deep Underground Neutrino
+  Experiment (DUNE): The LBNF and DUNE Projects}.
+\newblock 1, 2016.
 
 \bibitem{HyperKamiokande2015}
 K~Abe, et~al.
@@ -489,6 +533,30 @@ Mitch Soderberg.
 V~Chepel and H~Ara{\'{u}}jo.
 \newblock {Liquid noble gas detectors for low energy particle physics}.
 \newblock {\em Journal of Instrumentation}, 8(04):R04001, 2013.
+
+\bibitem{DUNECDR2}
+{DUNE Collaboration}.
+\newblock {Long-Baseline Neutrino Facility (LBNF) and Deep Underground Neutrino
+  Experiment (DUNE): The Physics Program for DUNE at LBNF}.
+\newblock 2, 2015.
+
+\bibitem{DUNECDR3}
+{DUNE Collaboration}.
+\newblock {Long-Baseline Neutrino Facility (LBNF) and Deep Underground Neutrino
+  Experiment (DUNE): Long Baseline Neutrino Facility for DUNE}.
+\newblock 3, 2016.
+
+\bibitem{DUNECDR4}
+{DUNE Collaboration}.
+\newblock {Long-Baseline Neutrino Facility (LBNF) and Deep Underground Neutrino
+  Experiment (DUNE): The DUNE Detectors at LBNF}.
+\newblock 4, 2016.
+
+\bibitem{Huber2011}
+Patrick Huber and Joachim Kopp.
+\newblock {Two experiments for the price of one? The role of the second
+  oscillation maximum in long baseline neutrino experiments}.
+\newblock {\em Journal of High Energy Physics}, 2011(3):13, 2011.
 
 \bibitem{LAPD}
 Terry Tope, et~al.

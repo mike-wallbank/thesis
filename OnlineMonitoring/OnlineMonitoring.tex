@@ -17,7 +17,7 @@ The system is designed to be flexible and provide prompt feedback for those oper
 
 Experiments at FNAL are migrating to \textit{artdaq}, a centrally-maintained data acquisition system built on the art framework utilised by all offline software written for experiments hosted at the lab.  The DUNE 35~ton experiment was one of the first to use this new software (only LArIAT had previously used it for data taking) and used an experiment specific system named lbne-artdaq.
 %% \footnote{Since the formation of the DUNE experiment occurred only a few months before the running of the 35~ton, all online software maintained the use of the outdated `lbne' descriptor to prevent unnecessary potential problems associated with large scale code changes and alleviate the risk of further delays.  It should be again stressed that the 35~ton was recognised by the DUNE collaboration as an integral part of the DUNE plan and the use of \textit{lbne} was in no way an indication of a project associated only with the dissolved previous experiment!}.
-A general overview of lbne-artdaq is shown in Figure \ref{fig:lbne-artdaq}.
+A general overview of lbne-artdaq is shown in Figure~\ref{fig:lbne-artdaq}.
 
 \begin{figure}[ht]
 \centering
@@ -125,7 +125,7 @@ The monitoring was diagonalised in a similar way to the DAQ readout with data fr
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{TPC Monitoring}\label{sec:TPCMonitoring}
 
-Ensuring the high quality of TPC data involved mainly considering various distributions of the ADC values provided by the front-end boards, separated by channel, board and APA.  The mean and RMS of the ADC values for a given channel provides information such as the measured pedestal and the level of noise being read out.  The uncorrelated component of the noise can be monitored using the concept of `DNoise'; this considers the difference in ADC value between two neighbouring channels at a given readout time and represents the level of noise which would be impossible to remove by the use of coherent noise filters only.  Unfortunately, for the 35~ton, this uncorrelated component made up most of the noise across all channels (see Figure \ref{fig:DQMPlot1}).  FFTs of the signal waveforms, performed separately for each RCE, were also useful in monitoring bands of noise in frequency space.
+Ensuring the high quality of TPC data involved mainly considering various distributions of the ADC values provided by the front-end boards, separated by channel, board and APA.  The mean and RMS of the ADC values for a given channel provides information such as the measured pedestal and the level of noise being read out.  The uncorrelated component of the noise can be monitored using the concept of `DNoise'; this considers the difference in ADC value between two neighbouring channels at a given readout time and represents the level of noise which would be impossible to remove by the use of coherent noise filters only.  Unfortunately, for the 35~ton, this uncorrelated component made up most of the noise across all channels (see Figure~\ref{fig:DQMPlot1}).  FFTs of the signal waveforms, performed separately for each RCE, were also useful in monitoring bands of noise in frequency space.
 
 Monitoring of various other problems, such as the `digitiser stuck code' issue, synchronisation concerns resulting in a different number of microslices being saved in corresponding RCE millislices, and the asymmetry of bipolar pulses, were added as these issues became apparent during the commissioning.
 
@@ -151,7 +151,7 @@ A variety of useful quantities not pertaining to any specific subcomponent were 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{DQM Plots}\label{sec:DQMPlots}
 
-The DQM section of the online monitoring produced around 60 figures each time it is run, illustrating the data discussed in the previous sections.  It is unnecessary to reproduce many here [perhaps an appendix? I think unnecessary though] but a sample for reference are shown in Figure \ref{fig:DQMPlots}.
+The DQM section of the online monitoring produced around 60 figures each time it is run, illustrating the data discussed in the previous sections.  It is unnecessary to reproduce many here [perhaps an appendix? I think unnecessary though] but a sample for reference are shown in Figure~\ref{fig:DQMPlots}.
 
 \begin{figure}[p]
   \centering
@@ -195,7 +195,7 @@ Given the way in which data were read out of the detector, it proved challenging
 
 [The data format will likely be described in the 35~ton section -- most of this will probably be moved up to that point and referenced at a later stage...]
 
-The raw format for the TPC data is complicated and has many levels of structure.  Refer to Figure \ref{fig:DataFormat} during the following description.  The 2048 channels are readout out by 16 front-end boards (containing the cold electronics, including the digitisers), each processed by an RCE and then read into the DAQ by a board reader.  The format at this point is referred to as a millislice; there is a millislice for each of the detector components (RCEs, SSPs and PTB) and an `event' is a collection of all such millislices.  For the TPC data, a millislice contains all the information for 128 channels.  This data also has further substructure; a millislice is composed of N microslices, with each microslice containing M nanoslices.  A nanoslice contains 128 ADC values, representing one `tick' ($500$ ns) worth of data for 1/16th of the detector.  A microslice thus contains this information for a `drift window' (M ticks) and a millislice a collection (M) of drift windows.  For the normal data running, N was set to 20 and M 1000.
+The raw format for the TPC data is complicated and has many levels of structure.  Refer to Figure~\ref{fig:DataFormat} during the following description.  The 2048 channels are readout out by 16 front-end boards (containing the cold electronics, including the digitisers), each processed by an RCE and then read into the DAQ by a board reader.  The format at this point is referred to as a millislice; there is a millislice for each of the detector components (RCEs, SSPs and PTB) and an `event' is a collection of all such millislices.  For the TPC data, a millislice contains all the information for 128 channels.  This data also has further substructure; a millislice is composed of N microslices, with each microslice containing M nanoslices.  A nanoslice contains 128 ADC values, representing one `tick' ($500$ ns) worth of data for 1/16th of the detector.  A microslice thus contains this information for a `drift window' (M ticks) and a millislice a collection (M) of drift windows.  For the normal data running, N was set to 20 and M 1000.
 
 \begin{figure}[p]
   \centering
@@ -204,7 +204,7 @@ The raw format for the TPC data is complicated and has many levels of structure.
   \label{fig:DataFormat}
 \end{figure}
 
-As the detector collects data, the RCEs continually create and save microslices to send to the DAQ to form a millislice.  These microslices are empty (contain no nanoslices) until a trigger is received, at which point nanoslices are made and saved within each microslice.  There is also a buffer in place to save a certain number of full microslices (microslices containing nanoslices) before the microslice containing the trigger.  A certain number of full microslices proceeding the trigger are also recorded by the RCEs.  During normal running, a `$4+1+10$' format was employed; four microslices containing nanoslices before the trigger was received, the microslice containing the trigger, and the ten following microslices.  It should be further noted that, since the DAQ was designed for continuous data readout, these microslices need not necessarily be within the same millislice: it is possible for the trigger to occur in microslice 18 of a certain millislice, resulting in the 15 filled microslices straddling successive millislices.  This is demonstrated in Figure \ref{fig:TriggeredEvent}.
+As the detector collects data, the RCEs continually create and save microslices to send to the DAQ to form a millislice.  These microslices are empty (contain no nanoslices) until a trigger is received, at which point nanoslices are made and saved within each microslice.  There is also a buffer in place to save a certain number of full microslices (microslices containing nanoslices) before the microslice containing the trigger.  A certain number of full microslices proceeding the trigger are also recorded by the RCEs.  During normal running, a `$4+1+10$' format was employed; four microslices containing nanoslices before the trigger was received, the microslice containing the trigger, and the ten following microslices.  It should be further noted that, since the DAQ was designed for continuous data readout, these microslices need not necessarily be within the same millislice: it is possible for the trigger to occur in microslice 18 of a certain millislice, resulting in the 15 filled microslices straddling successive millislices.  This is demonstrated in Figure~\ref{fig:TriggeredEvent}.
 
 \begin{figure}[ht]
   \centering
@@ -225,7 +225,7 @@ Due to the wrapped nature of the induction wires in the 35~ton, and disambiguati
 
 By working with the system used to record pedestal values of the channels, it is possible to perform an approximate pedestal subtraction on the data.  Whenever a pedestal run is performed by a shifter, a text file containing all the calculated pedestal values for each channel is created and subsequently uploaded to a database for offline use.  By making sure a copy of the most recent pedestal file is always available to the monitoring framework, it is possible to always represent the charge as accurately as possible.  It is then ensured the pedestal-subtracted ADC values are within the range $0-250$ to limit the noisy channels and correct for any accidental negative charge.  Finally, given the relatively low signal-to-noise ratio, it was decided a grey-scale image showed the best resolution for seeing tracks traverse the cryostat.
 
-An example event display is shown in Figure \ref{fig:EVD}.
+An example event display is shown in Figure~\ref{fig:EVD}.
 
 \begin{figure}[p]
   \centering
@@ -242,7 +242,7 @@ The output of the monitoring is vital in assuring the experiment continues to ta
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Automated Data Transfer}\label{sec:AutomatedDataTransfer}
 
-The most complicated part of the web interface was ensuring the monitoring output were available in the correct place when needed.  This is achieved using a combination of disk mounting and automated scripts, demonstrated in Figure \ref{fig:WebInterface}.
+The most complicated part of the web interface was ensuring the monitoring output were available in the correct place when needed.  This is achieved using a combination of disk mounting and automated scripts, demonstrated in Figure~\ref{fig:WebInterface}.
 
 \begin{figure}[ht]
   \centering
@@ -256,7 +256,7 @@ The DAQ aggregator processes run on the lbnedaq6 and lbnedaq7 nodes, requiring a
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Web Page}\label{sec:WebPage}
 
-The web page was hosted at FNAL and located at lbne-dqm.fnal.gov.  The method in the monitoring framework used to write out all the output also wrote and saved all the HTML used to allow images of the plots to be displayed on the web.  This HTML is copied, along with all the images and data files, to the web area as discussed above in Section \ref{sec:AutomatedDataTransfer}.  The web page was basic but performed all required for use in the 35~ton; it had dedicated pages for all the data quality monitoring information and the online event display (the nearline monitoring was also hosted at this website but is not described here).  See Figure \ref{fig:WebPage} for a demonstration of web page and example navigation.
+The web page was hosted at FNAL and located at lbne-dqm.fnal.gov.  The method in the monitoring framework used to write out all the output also wrote and saved all the HTML used to allow images of the plots to be displayed on the web.  This HTML is copied, along with all the images and data files, to the web area as discussed above in Section \ref{sec:AutomatedDataTransfer}.  The web page was basic but performed all required for use in the 35~ton; it had dedicated pages for all the data quality monitoring information and the online event display (the nearline monitoring was also hosted at this website but is not described here).  See Figure~\ref{fig:WebPage} for a demonstration of web page and example navigation.
 
 \begin{figure}[ht]
   \centering
