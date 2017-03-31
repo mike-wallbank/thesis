@@ -14,8 +14,11 @@
 \newlabel{chap:OnlineMonitoring}
 \newlabel{chap:Summary}
 \newlabel{eq:BetaDecayEnergy}
+\newlabel{eq:DataPi0CandidateMass}
 \newlabel{eq:DavisAntineutrino}
 \newlabel{eq:DavisNeutrino}
+\newlabel{eq:ElectronLifetimeImpurities}
+\newlabel{eq:ElectronLifetime}
 \newlabel{eq:ElectronNeutrinoAppearance}
 \newlabel{eq:FlavourEvolution}
 \newlabel{eq:FlavourMassStates}
@@ -64,6 +67,7 @@
 \newlabel{fig:CoherentNoiseRemovalNoNoise}
 \newlabel{fig:CoherentNoiseRemovalNoise}
 \newlabel{fig:CoherentNoiseRemoval}
+\newlabel{fig:CollectionPlaneNoise}
 \newlabel{fig:DQMPlot1}
 \newlabel{fig:DQMPlot2}
 \newlabel{fig:DQMPlot3}
@@ -71,8 +75,13 @@
 \newlabel{fig:DQMPlots}
 \newlabel{fig:DUNE}
 \newlabel{fig:DataCalorimetryShowerEnergy}
+\newlabel{fig:DataCalorimetryThreshold1}
+\newlabel{fig:DataCalorimetryThreshold2}
+\newlabel{fig:DataCalorimetryThreshold3}
+\newlabel{fig:DataCalorimetryThreshold}
 \newlabel{fig:DataCalorimetrydEdx}
 \newlabel{fig:DataFormat}
+\newlabel{fig:DataPi0Candidate}
 \newlabel{fig:DataRMSBadRun}
 \newlabel{fig:DataRMSGoodRun}
 \newlabel{fig:DataRMS}
@@ -84,6 +93,7 @@
 \newlabel{fig:DriftVelocity}
 \newlabel{fig:EVD}
 \newlabel{fig:ElectricFieldScintillationIonisation}
+\newlabel{fig:FamousShowerReconstructed}
 \newlabel{fig:GlobalFit}
 \newlabel{fig:HitChargeInteraction}
 \newlabel{fig:HitChargeNonInteraction}
@@ -133,6 +143,8 @@
 \newlabel{fig:TPCCounterT0CorrectionCounter}
 \newlabel{fig:TPCCounterT0CorrectionTPC}
 \newlabel{fig:TPCCounterT0Correction}
+\newlabel{fig:TPCCounterT0DifferenceData}
+\newlabel{fig:TPCCounterT0DifferenceMC}
 \newlabel{fig:TPCCounterT0Difference}
 \newlabel{fig:TrackMisalignmentCollectionSpacingGeo}
 \newlabel{fig:TrackMisalignmentCollectionSpacingRes}
@@ -251,6 +263,7 @@
 \newlabel{sec:ShowerData}
 \newlabel{sec:ShowerReconstruction}
 \newlabel{sec:ShowersOverview}
+\newlabel{sec:SimulatedData}
 \newlabel{sec:SuperKamiokande}
 \newlabel{sec:TPCMonitoring}
 \newlabel{sec:TrackShowerSeparation}
@@ -285,6 +298,9 @@
 \newlabel{sub@fig:DQMPlot2}
 \newlabel{sub@fig:DQMPlot3}
 \newlabel{sub@fig:DQMPlot4}
+\newlabel{sub@fig:DataCalorimetryThreshold1}
+\newlabel{sub@fig:DataCalorimetryThreshold2}
+\newlabel{sub@fig:DataCalorimetryThreshold3}
 \newlabel{sub@fig:DataRMSBadRun}
 \newlabel{sub@fig:DataRMSGoodRun}
 \newlabel{sub@fig:DistanceDriftTime}
@@ -309,6 +325,8 @@
 \newlabel{sub@fig:TPC5TPC7Gap}
 \newlabel{sub@fig:TPCCounterT0CorrectionCounter}
 \newlabel{sub@fig:TPCCounterT0CorrectionTPC}
+\newlabel{sub@fig:TPCCounterT0DifferenceData}
+\newlabel{sub@fig:TPCCounterT0DifferenceMC}
 \newlabel{sub@fig:TrackMisalignmentCollectionSpacingGeo}
 \newlabel{sub@fig:TrackMisalignmentCollectionSpacingRes}
 \newlabel{sub@fig:TrackMisalignmentDriftVelocityGeo}

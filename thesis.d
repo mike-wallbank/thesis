@@ -109,9 +109,9 @@ thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/raw_stuc
 -include 35tonAnalysis/Figs/raw_noise-eps-converted-to.pdf.gpi.d
 thesis.d: $$(call graphics-source,35tonAnalysis/Figs/raw_noise-eps-converted-to.pdf)
 thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/raw_noise-eps-converted-to.pdf)
--include 35tonAnalysis/Figs/evd_t0_2.pdf.gpi.d
-thesis.d: $$(call graphics-source,35tonAnalysis/Figs/evd_t0_2.pdf)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/evd_t0_2.pdf)
+-include 35tonAnalysis/Figs/apa_gap-eps-converted-to.pdf.gpi.d
+thesis.d: $$(call graphics-source,35tonAnalysis/Figs/apa_gap-eps-converted-to.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/apa_gap-eps-converted-to.pdf)
 -include 35tonAnalysis/Figs/chisquare-eps-converted-to.pdf.gpi.d
 thesis.d: $$(call graphics-source,35tonAnalysis/Figs/chisquare-eps-converted-to.pdf)
 thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/chisquare-eps-converted-to.pdf)
@@ -121,7 +121,7 @@ thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/HitTimes
 -include 35tonAnalysis/Figs/MeshHits-eps-converted-to.pdf.gpi.d
 thesis.d: $$(call graphics-source,35tonAnalysis/Figs/MeshHits-eps-converted-to.pdf)
 thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/MeshHits-eps-converted-to.pdf)
--include 35tonAnalysis/Figs/apa_gap-eps-converted-to.pdf.gpi.d
-thesis.d: $$(call graphics-source,35tonAnalysis/Figs/apa_gap-eps-converted-to.pdf)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/apa_gap-eps-converted-to.pdf)
+-include 35tonAnalysis/Figs/HitReconstructionBias20-40.pdf.gpi.d
+thesis.d: $$(call graphics-source,35tonAnalysis/Figs/HitReconstructionBias20-40.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/HitReconstructionBias20-40.pdf)
 thesis.bbl thesis.aux thesis.aux.make: $(call path-norm,./References/references.bib)
