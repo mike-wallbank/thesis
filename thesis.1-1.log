@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  27 MAR 2017 16:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  3 APR 2017 10:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -15,6 +15,12 @@ LaTeX Warning: You have requested document class `Classes/PhDThesisPSnPDF',
 Document Class: PhDThesisPSnPDF 2016/07/04 A PhD thesis class file by Krishna K
 umar (v2.2)
 https://github.com/kks32/phd-thesis-template/
+
+Class PhDThesisPSnPDF Warning: You have chosen an option that generates only se
+lected chapters with references, if this was intentional, ignore this warning. 
+If not, please remove the option `chapter' from the document class and recompil
+e. Good luck with your writing! on input line 177.
+
 PhDThesisPSnPDF: Font size is set as 12pt (/usr/local/texlive/2014/texmf-dist/t
 ex/latex/base/book.cls
 Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
@@ -1404,1154 +1410,51 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-\PHD@Title=\box52
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 117.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 117.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 117.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 117.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 117.
-\PHD@crest=\box53
-<Figs/University_Crest.pdf, id=446, 59.22125pt x 69.25874pt>
-File: Figs/University_Crest.pdf Graphic file (type pdf)
-<use Figs/University_Crest.pdf>
-Package pdftex.def Info: Figs/University_Crest.pdf used on input line 117.
-(pdftex.def)             Requested size: 87.49088pt x 102.32376pt.
-\PHD@collegecrest=\box54
-\PHD@author=\box55
-\PHD@supervisor=\box56
-\PHD@advisor=\box57
-\PHD@dept=\box58
-\PHD@submission=\box59
-\PHD@collegedate=\box60
-\PHD@titlepagespacing=\skip76
-[1
+(./thesis.nls) [10
 
 
-{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Figs/
-University_Crest.pdf>]
-\openout2 = `Dedication/dedication.aux'.
 
-(./Dedication/dedication.tex [2
 
-
-]) [3]
-\openout2 = `Declaration/declaration.aux'.
-
-(./Declaration/declaration.tex [4
-
-
-
-]) [5
-
-]
-\openout2 = `Acknowledgements/acknowledgements.aux'.
-
-(./Acknowledgements/acknowledgements.tex [6
-
-
-
-] [7
-
-])
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 121.
-[8]
-\openout2 = `Abstract/abstract.aux'.
-
-(./Abstract/abstract.tex) [9
-
-
-
-
-] [10
-
-
-] (./thesis.toc [11
-
-] [12] [13]
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 128.
-)
-\tf@toc=\write6
-\openout6 = `thesis.toc'.
-
-[14] (./thesis.lof
-
-Package natbib Warning: Citation `Bahcall2005' on page xv undefined on input li
-ne 5.
-
-
-Package natbib Warning: Citation `Mann1999' on page xv undefined on input line 
-6.
-
-
-Package natbib Warning: Citation `SuperKamiokande1998' on page xv undefined on 
-input line 7.
-
-
-Package natbib Warning: Citation `SuperKamiokande1998' on page xv undefined on 
-input line 8.
-
-
-Package natbib Warning: Citation `NuFit2014' on page xv undefined on input line
- 11.
-
-
-Package natbib Warning: Citation `NuFit2017' on page xv undefined on input line
- 11.
-
-[15
-
-] [16] [17] [18])
-\tf@lof=\write7
-\openout7 = `thesis.lof'.
-
-[19] [20
-
-] (./thesis.lot
-
-Package natbib Warning: Citation `NuFit2017' on page xxi undefined on input lin
-e 3.
-
-
-Package natbib Warning: Citation `Soderberg2008' on page xxi undefined on input
- line 4.
-
-
-LaTeX Warning: Reference `tab:APAGapOffsets' on page xxi undefined on input lin
-e 11.
-
-)
-\tf@lot=\write8
-\openout8 = `thesis.lot'.
-
-(./thesis.nls) [21] [22
-
-]
-\openout2 = `Introduction/Introduction.aux'.
-
-(./Introduction/Introduction.tex
-Chapter 1.
-
-Package natbib Warning: Citation `Glashow1961' on page 1 undefined on input lin
-e 9.
-
-
-Package natbib Warning: Citation `Weinberg1967' on page 1 undefined on input li
-ne 9.
-
-
-Package natbib Warning: Citation `Aad2012' on page 1 undefined on input line 9.
-
-
-
-Package natbib Warning: Citation `Chatrchyan2012' on page 1 undefined on input 
-line 9.
-
-
-Package natbib Warning: Citation `Shears2012' on page 1 undefined on input line
- 9.
-
-
-Package natbib Warning: Citation `Bilenky2015' on page 1 undefined on input lin
-e 9.
-
-
-Package natbib Warning: Citation `Ellis2012' on page 1 undefined on input line 
-11.
-
-
-Package natbib Warning: Citation `Bilenky2015' on page 1 undefined on input lin
-e 13.
-
-
-Package natbib Warning: Citation `SuperKamiokande1998' on page 1 undefined on i
-nput line 13.
-
-
-Package natbib Warning: Citation `SNO2002' on page 1 undefined on input line 13
-.
-
-[1
-
-
-]) [2]
-\openout2 = `NeutrinoPhysics/NeutrinoPhysics.aux'.
-
-(./NeutrinoPhysics/NeutrinoPhysics.tex
-Chapter 2.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 13.
-
-Package natbib Warning: Citation `Pauli1930' on page 3 undefined on input line 
-15.
-
-
-Package natbib Warning: Citation `Fermi1934Italian' on page 3 undefined on inpu
-t line 23.
-
-
-Package natbib Warning: Citation `Fermi1934German' on page 3 undefined on input
- line 23.
-
-
-Package natbib Warning: Citation `Wilson1968' on page 3 undefined on input line
- 23.
-
-[3
 
 
 
 ]
-<NeutrinoPhysics/Figs/ElectronEnergySpectrumBetaDecay.png, id=854, 729.72626pt 
-x 538.01pt>
-File: NeutrinoPhysics/Figs/ElectronEnergySpectrumBetaDecay.png Graphic file (ty
-pe png)
-<use NeutrinoPhysics/Figs/ElectronEnergySpectrumBetaDecay.png>
-Package pdftex.def Info: NeutrinoPhysics/Figs/ElectronEnergySpectrumBetaDecay.p
-ng used on input line 27.
-(pdftex.def)             Requested size: 284.52756pt x 209.77379pt.
-
-Package natbib Warning: Citation `Lewis1970' on page 4 undefined on input line 
-28.
-
-
-Package natbib Warning: Citation `Lewis1970' on page 4 undefined on input line 
-28.
-
-
-Package natbib Warning: Citation `Lattes1947-159' on page 4 undefined on input 
-line 32.
-
-
-Package natbib Warning: Citation `Lattes1947-160' on page 4 undefined on input 
-line 32.
-
-
-Package natbib Warning: Citation `Lattes1947-159' on page 4 undefined on input 
-line 32.
-
-
-Package natbib Warning: Citation `Brown1949' on page 4 undefined on input line 
-32.
-
-
-Package natbib Warning: Citation `ReinesCowanLiquidScintillation' on page 4 und
-efined on input line 36.
-
-
-Package natbib Warning: Citation `ReinesCowan1953Proposal' on page 4 undefined 
-on input line 36.
-
-[4 <./NeutrinoPhysics/Figs/ElectronEnergySpectrumBetaDecay.png>]
-
-Package natbib Warning: Citation `ReinesCowan1953' on page 5 undefined on input
- line 40.
-
-
-Package natbib Warning: Citation `ReinesCowan1956' on page 5 undefined on input
- line 40.
-
-
-Package natbib Warning: Citation `Davis1959' on page 5 undefined on input line 
-50.
-
-
-Package natbib Warning: Citation `Danby1962' on page 5 undefined on input line 
-52.
-
-[5]
-
-Package natbib Warning: Citation `Perl1975' on page 6 undefined on input line 6
-3.
-
-
-Package natbib Warning: Citation `Feldman1977' on page 6 undefined on input lin
-e 71.
-
-
-Package natbib Warning: Citation `Burmester1977' on page 6 undefined on input l
-ine 71.
-
-
-Package natbib Warning: Citation `DeCamp1989' on page 6 undefined on input line
- 73.
-
-
-Package natbib Warning: Citation `Adeva1989' on page 6 undefined on input line 
-73.
-
-
-Package natbib Warning: Citation `Akrawy1989' on page 6 undefined on input line
- 73.
-
-
-Package natbib Warning: Citation `Aarnio1989' on page 6 undefined on input line
- 73.
-
-
-Package natbib Warning: Citation `Schael2006' on page 6 undefined on input line
- 77.
-
-<NeutrinoPhysics/Figs/LEPZ0Resonance.pdf, id=872, 171.65741pt x 174.80807pt>
-File: NeutrinoPhysics/Figs/LEPZ0Resonance.pdf Graphic file (type pdf)
-<use NeutrinoPhysics/Figs/LEPZ0Resonance.pdf>
-Package pdftex.def Info: NeutrinoPhysics/Figs/LEPZ0Resonance.pdf used on input 
-line 81.
-(pdftex.def)             Requested size: 341.43306pt x 347.70013pt.
-
-Package natbib Warning: Citation `Schael2006' on page 6 undefined on input line
- 82.
-
-
-Package natbib Warning: Citation `Schael2006' on page 6 undefined on input line
- 82.
-
-[6]
-
-Package natbib Warning: Citation `Kodama2001' on page 7 undefined on input line
- 86.
-
-[7 <./NeutrinoPhysics/Figs/LEPZ0Resonance.pdf>]
-
-Package natbib Warning: Citation `Bethe1939' on page 8 undefined on input line 
-90.
-
-
-Package natbib Warning: Citation `Bahcall1968' on page 8 undefined on input lin
-e 90.
-
-
-<NeutrinoPhysics/Figs/SolarNeutrinoCycles.pdf, id=952, 304.94276pt x 225.30444p
-t>
-File: NeutrinoPhysics/Figs/SolarNeutrinoCycles.pdf Graphic file (type pdf)
-<use NeutrinoPhysics/Figs/SolarNeutrinoCycles.pdf>
-Package pdftex.def Info: NeutrinoPhysics/Figs/SolarNeutrinoCycles.pdf used on i
-nput line 94.
-(pdftex.def)             Requested size: 341.43306pt x 252.26704pt.
-
-Package natbib Warning: Citation `Bahcall2005' on page 8 undefined on input lin
-e 95.
-
-
-Package natbib Warning: Citation `Bahcall2005' on page 8 undefined on input lin
-e 95.
-
-
-Package natbib Warning: Citation `Cleveland1995' on page 8 undefined on input l
-ine 99.
-
-
-Package natbib Warning: Citation `Bahcall1995' on page 8 undefined on input lin
-e 99.
-
-[8 <./NeutrinoPhysics/Figs/SolarNeutrinoCycles.pdf>]
-
-Package natbib Warning: Citation `Abdurashitov1994' on page 9 undefined on inpu
-t line 105.
-
-
-Package natbib Warning: Citation `Anselmann1992' on page 9 undefined on input l
-ine 105.
-
-
-Package natbib Warning: Citation `Hampel1999' on page 9 undefined on input line
- 105.
-
-
-Overfull \hbox (27.80267pt too wide) in paragraph at lines 104--106
-\T1/ptm/m/n/12 (-20) These ex-per-i-ments also re-ported `miss-ing' neu-tri-nos
-, de-ter-min-ing cap-ture rates of $\OT1/ztmcm/m/n/12 66\OML/ztmcm/m/it/12 :\OT
-1/ztmcm/m/n/12 6[]$ \T1/ptm/m/n/12 (-20) SNU
- []
-
-
-Package natbib Warning: Citation `Gaisser1990' on page 9 undefined on input lin
-e 109.
-
-
-Package natbib Warning: Citation `Haines1986' on page 9 undefined on input line
- 116.
-
-
-Package natbib Warning: Citation `Hirata1988' on page 9 undefined on input line
- 116.
-
-[9]
-<NeutrinoPhysics/Figs/AtmosphericNeutrinoAnomaly.pdf, id=997, 269.26898pt x 132
-.44713pt>
-File: NeutrinoPhysics/Figs/AtmosphericNeutrinoAnomaly.pdf Graphic file (type pd
-f)
-<use NeutrinoPhysics/Figs/AtmosphericNeutrinoAnomaly.pdf>
-Package pdftex.def Info: NeutrinoPhysics/Figs/AtmosphericNeutrinoAnomaly.pdf us
-ed on input line 122.
-(pdftex.def)             Requested size: 341.43306pt x 167.95334pt.
-
-Package natbib Warning: Citation `Mann1999' on page 10 undefined on input line 
-123.
-
-
-Package natbib Warning: Citation `Mann1999' on page 10 undefined on input line 
-123.
-
-
-Package natbib Warning: Citation `Pontecorvo1968' on page 10 undefined on input
- line 130.
-
-
-Package natbib Warning: Citation `Pontecorvo1969' on page 10 undefined on input
- line 130.
-
-
-Package natbib Warning: Citation `Pontecorvo1957' on page 10 undefined on input
- line 130.
-
-
-Package natbib Warning: Citation `Casper1991' on page 10 undefined on input lin
-e 134.
-
-
-Package natbib Warning: Citation `BeckerSzendy1992' on page 10 undefined on inp
-ut line 134.
-
-[10 <./NeutrinoPhysics/Figs/AtmosphericNeutrinoAnomaly.pdf>]
-
-Package natbib Warning: Citation `Kamiokande1994' on page 11 undefined on input
- line 140.
-
-
-Package natbib Warning: Citation `SuperKamiokande1998' on page 11 undefined on 
-input line 140.
-
-
-<NeutrinoPhysics/Figs/SuperKamiokandeDirection.pdf, id=1070, 443.1045pt x 223.4
-759pt>
-File: NeutrinoPhysics/Figs/SuperKamiokandeDirection.pdf Graphic file (type pdf)
-
-<use NeutrinoPhysics/Figs/SuperKamiokandeDirection.pdf>
-Package pdftex.def Info: NeutrinoPhysics/Figs/SuperKamiokandeDirection.pdf used
- on input line 144.
-(pdftex.def)             Requested size: 443.10342pt x 223.47536pt.
-
-Overfull \hbox (5.6423pt too wide) in paragraph at lines 144--145
- [][] 
- []
-
-
-Package natbib Warning: Citation `SuperKamiokande1998' on page 11 undefined on 
-input line 145.
-
-
-Package natbib Warning: Citation `SuperKamiokande1998' on page 11 undefined on 
-input line 145.
-
-
-<NeutrinoPhysics/Figs/SuperKamiokandeLE.pdf, id=1071, 223.10562pt x 220.3124pt>
-File: NeutrinoPhysics/Figs/SuperKamiokandeLE.pdf Graphic file (type pdf)
-<use NeutrinoPhysics/Figs/SuperKamiokandeLE.pdf>
-Package pdftex.def Info: NeutrinoPhysics/Figs/SuperKamiokandeLE.pdf used on inp
-ut line 151.
-(pdftex.def)             Requested size: 223.10507pt x 220.31184pt.
-
-Package natbib Warning: Citation `SuperKamiokande1998' on page 11 undefined on 
-input line 152.
-
-
-Package natbib Warning: Citation `SuperKamiokande1998' on page 11 undefined on 
-input line 152.
-
-
-Package natbib Warning: Citation `SNO2002' on page 11 undefined on input line 1
-58.
-
-[11] [12 <./NeutrinoPhysics/Figs/SuperKamiokandeDirection.pdf> <./NeutrinoPhysi
-cs/Figs/SuperKamiokandeLE.pdf>]
-
-Package natbib Warning: Citation `Bahcall2005Fluxes' on page 13 undefined on in
-put line 166.
-
-<NeutrinoPhysics/Figs/SolarNeutrinoFluxes.pdf, id=1213, 794.97pt x 614.295pt>
-File: NeutrinoPhysics/Figs/SolarNeutrinoFluxes.pdf Graphic file (type pdf)
-<use NeutrinoPhysics/Figs/SolarNeutrinoFluxes.pdf>
-Package pdftex.def Info: NeutrinoPhysics/Figs/SolarNeutrinoFluxes.pdf used on i
-nput line 170.
-(pdftex.def)             Requested size: 455.24408pt x 351.79211pt.
-
-Overfull \hbox (17.78296pt too wide) in paragraph at lines 170--171
- [][] 
- []
-
-
-Package natbib Warning: Citation `MNS1962' on page 13 undefined on input line 1
-77.
-
-[13] [14 <./NeutrinoPhysics/Figs/SolarNeutrinoFluxes.pdf, page is rotated 90 de
-grees>] [15] [16]
-
-Package natbib Warning: Citation `Bahcall2002' on page 17 undefined on input li
-ne 272.
-
-
-Package natbib Warning: Citation `Smirnov2003' on page 17 undefined on input li
-ne 272.
-
-
-Package natbib Warning: Citation `Wolfenstein1978' on page 17 undefined on inpu
-t line 274.
-
-
-Package natbib Warning: Citation `MS1985' on page 17 undefined on input line 27
-4.
-
-
-Package natbib Warning: Citation `MS1986' on page 17 undefined on input line 27
-4.
-
-
-<NeutrinoPhysics/Figs/MatterEffectsNC.pdf, id=1339, 205.93678pt x 102.70059pt>
-File: NeutrinoPhysics/Figs/MatterEffectsNC.pdf Graphic file (type pdf)
-<use NeutrinoPhysics/Figs/MatterEffectsNC.pdf>
-Package pdftex.def Info: NeutrinoPhysics/Figs/MatterEffectsNC.pdf used on input
- line 280.
-(pdftex.def)             Requested size: 205.93626pt x 102.70033pt.
-
-<NeutrinoPhysics/Figs/MatterEffectsCC.pdf, id=1340, 131.11484pt x 101.54005pt>
-File: NeutrinoPhysics/Figs/MatterEffectsCC.pdf Graphic file (type pdf)
-<use NeutrinoPhysics/Figs/MatterEffectsCC.pdf>
-Package pdftex.def Info: NeutrinoPhysics/Figs/MatterEffectsCC.pdf used on input
- line 287.
-(pdftex.def)             Requested size: 131.1145pt x 101.5398pt.
-
-Package natbib Warning: Citation `KamLAND2003' on page 17 undefined on input li
-ne 297.
-
-
-Package natbib Warning: Citation `KamLAND2005' on page 17 undefined on input li
-ne 297.
-
-
-Package natbib Warning: Citation `Bandyopadhyay2002' on page 17 undefined on in
-put line 297.
-
-
-Package natbib Warning: Citation `deHolanda2002' on page 17 undefined on input 
-line 297.
-
-
-Package natbib Warning: Citation `Fogli2003' on page 17 undefined on input line
- 297.
-
-[17]
-
-Package natbib Warning: Citation `Mannel2007' on page 18 undefined on input lin
-e 303.
-
-
-Package natbib Warning: Citation `Ohlsson2012' on page 18 undefined on input li
-ne 303.
-
-
-Package natbib Warning: Citation `Ohlsson2013' on page 18 undefined on input li
-ne 303.
-
-[18 <./NeutrinoPhysics/Figs/MatterEffectsNC.pdf> <./NeutrinoPhysics/Figs/Matter
-EffectsCC.pdf>] [19]
-
-Package natbib Warning: Citation `DUNECDR1' on page 20 undefined on input line 
-323.
-
-
-Package natbib Warning: Citation `HyperKamiokande2015' on page 20 undefined on 
-input line 323.
-
-
-Package natbib Warning: Citation `Cleveland1995' on page 20 undefined on input 
-line 328.
-
-
-Package natbib Warning: Citation `Gallex2010' on page 20 undefined on input lin
-e 328.
-
-
-Package natbib Warning: Citation `Sage2009' on page 20 undefined on input line 
-328.
-
-
-Package natbib Warning: Citation `SNO2013' on page 20 undefined on input line 3
-28.
-
-
-Package natbib Warning: Citation `KamLAND2013' on page 20 undefined on input li
-ne 328.
-
-
-Package natbib Warning: Citation `SuperKamiokande2010' on page 20 undefined on 
-input line 328.
-
-
-Package natbib Warning: Citation `IceCube2015' on page 20 undefined on input li
-ne 328.
-
-
-Package natbib Warning: Citation `MINOS2013' on page 20 undefined on input line
- 328.
-
-
-Package natbib Warning: Citation `MINOS2013b' on page 20 undefined on input lin
-e 328.
-
-
-Package natbib Warning: Citation `T2Knumu2014' on page 20 undefined on input li
-ne 328.
-
-
-Package natbib Warning: Citation `NOvAnumu2016' on page 20 undefined on input l
-ine 328.
-
-<NeutrinoPhysics/Figs/GlobalFit.pdf, id=1429, 550.32388pt x 792.95796pt>
-File: NeutrinoPhysics/Figs/GlobalFit.pdf Graphic file (type pdf)
-<use NeutrinoPhysics/Figs/GlobalFit.pdf>
-Package pdftex.def Info: NeutrinoPhysics/Figs/GlobalFit.pdf used on input line 
-332.
-(pdftex.def)             Requested size: 341.43306pt x 491.96764pt.
-
-Package natbib Warning: Citation `NuFit2014' on page 20 undefined on input line
- 333.
-
-
-Package natbib Warning: Citation `NuFit2017' on page 20 undefined on input line
- 333.
-
-
-Package natbib Warning: Citation `NuFit2014' on page 20 undefined on input line
- 333.
-
-
-Package natbib Warning: Citation `NuFit2017' on page 20 undefined on input line
- 333.
-
-
-Package natbib Warning: Citation `DayaBay2012' on page 20 undefined on input li
-ne 337.
-
-
-Package natbib Warning: Citation `RENO2012' on page 20 undefined on input line 
-337.
-
-
-Package natbib Warning: Citation `T2Knue2014' on page 20 undefined on input lin
-e 337.
-
-
-Package natbib Warning: Citation `NOvAnue2016' on page 20 undefined on input li
-ne 337.
-
-
-Package natbib Warning: Citation `T2K2017' on page 20 undefined on input line 3
-39.
-
-
-Package natbib Warning: Citation `NuFit2017' on page 20 undefined on input line
- 342.
-
-
-Package natbib Warning: Citation `NuFit2017' on page 20 undefined on input line
- 342.
-
-[20] [21 <./NeutrinoPhysics/Figs/GlobalFit.pdf>] <NeutrinoPhysics/Figs/MassHier
-archy.pdf, id=1473, 250.77309pt x 207.04922pt>
-File: NeutrinoPhysics/Figs/MassHierarchy.pdf Graphic file (type pdf)
-<use NeutrinoPhysics/Figs/MassHierarchy.pdf>
-Package pdftex.def Info: NeutrinoPhysics/Figs/MassHierarchy.pdf used on input l
-ine 370.
-(pdftex.def)             Requested size: 284.52756pt x 234.9391pt.
-
-Package natbib Warning: Citation `Triotsk2011' on page 22 undefined on input li
-ne 377.
-
-
-Package natbib Warning: Citation `Mainz2005' on page 22 undefined on input line
- 377.
-
-
-Package natbib Warning: Citation `Planck2013' on page 22 undefined on input lin
-e 377.
-
-[22] [23 <./NeutrinoPhysics/Figs/MassHierarchy.pdf>]
-
-Package natbib Warning: Citation `ICARUS2004' on page 24 undefined on input lin
-e 384.
-
-
-Package natbib Warning: Citation `ArgoNeuT2012' on page 24 undefined on input l
-ine 384.
-
-
-Package natbib Warning: Citation `LArIAT2014' on page 24 undefined on input lin
-e 384.
-
-
-Package natbib Warning: Citation `MicroBooNE2017' on page 24 undefined on input
- line 384.
-
-
-Package natbib Warning: Citation `Baller2014' on page 24 undefined on input lin
-e 384.
-
-
-Package natbib Warning: Citation `Nygren1974' on page 24 undefined on input lin
-e 391.
-
-<NeutrinoPhysics/Figs/NygrenTPC.png, id=1574, 849.1725pt x 545.03625pt>
-File: NeutrinoPhysics/Figs/NygrenTPC.png Graphic file (type png)
-<use NeutrinoPhysics/Figs/NygrenTPC.png>
-Package pdftex.def Info: NeutrinoPhysics/Figs/NygrenTPC.png used on input line 
-395.
-(pdftex.def)             Requested size: 284.52756pt x 182.62361pt.
-
-Package natbib Warning: Citation `Nygren1974' on page 24 undefined on input lin
-e 396.
-
-
-Package natbib Warning: Citation `Nygren1974' on page 24 undefined on input lin
-e 396.
-
-
-Package natbib Warning: Citation `Rubbia1977' on page 24 undefined on input lin
-e 400.
-
-[24]
-
-Package natbib Warning: Citation `Soderberg2008' on page 25 undefined on input 
-line 403.
-
-
-Package natbib Warning: Citation `Soderberg2008' on page 25 undefined on input 
-line 403.
-
-
-Overfull \hbox (27.56645pt too wide) in paragraph at lines 406--420
- [][] 
- []
-
-
-Package natbib Warning: Citation `Chepel2013' on page 25 undefined on input lin
-e 422.
-
-[25 <./NeutrinoPhysics/Figs/NygrenTPC.png>] <NeutrinoPhysics/Figs/RubbiaLArTPC.
-png, id=1586, 740.7675pt x 585.18625pt>
-File: NeutrinoPhysics/Figs/RubbiaLArTPC.png Graphic file (type png)
-<use NeutrinoPhysics/Figs/RubbiaLArTPC.png>
-Package pdftex.def Info: NeutrinoPhysics/Figs/RubbiaLArTPC.png used on input li
-ne 426.
-(pdftex.def)             Requested size: 284.52756pt x 224.76611pt.
-
-Package natbib Warning: Citation `Rubbia1977' on page 26 undefined on input lin
-e 427.
-
-
-Package natbib Warning: Citation `Rubbia1977' on page 26 undefined on input lin
-e 427.
-
-[26 <./NeutrinoPhysics/Figs/RubbiaLArTPC.png>]
-<NeutrinoPhysics/Figs/ElectricFieldScintillationIonisation.png, id=1594, 460.72
-125pt x 299.1175pt>
-File: NeutrinoPhysics/Figs/ElectricFieldScintillationIonisation.png Graphic fil
-e (type png)
-<use NeutrinoPhysics/Figs/ElectricFieldScintillationIonisation.png>
-Package pdftex.def Info: NeutrinoPhysics/Figs/ElectricFieldScintillationIonisat
-ion.png used on input line 444.
-(pdftex.def)             Requested size: 341.43306pt x 221.66753pt.
-
-<NeutrinoPhysics/Figs/LArTPCOperation1.png, id=1599, 779.91376pt x 733.74126pt>
-File: NeutrinoPhysics/Figs/LArTPCOperation1.png Graphic file (type png)
-<use NeutrinoPhysics/Figs/LArTPCOperation1.png>
-Package pdftex.def Info: NeutrinoPhysics/Figs/LArTPCOperation1.png used on inpu
-t line 455.
-(pdftex.def)             Requested size: 205.77896pt x 193.58961pt.
-<NeutrinoPhysics/Figs/LArTPCOperation2.png, id=1600, 772.8875pt x 734.745pt>
-File: NeutrinoPhysics/Figs/LArTPCOperation2.png Graphic file (type png)
-<use NeutrinoPhysics/Figs/LArTPCOperation2.png>
-Package pdftex.def Info: NeutrinoPhysics/Figs/LArTPCOperation2.png used on inpu
-t line 462.
-(pdftex.def)             Requested size: 205.77896pt x 195.62582pt.
-<NeutrinoPhysics/Figs/LArTPCOperation3.png, id=1601, 979.66pt x 734.745pt>
-File: NeutrinoPhysics/Figs/LArTPCOperation3.png Graphic file (type png)
-<use NeutrinoPhysics/Figs/LArTPCOperation3.png>
-Package pdftex.def Info: NeutrinoPhysics/Figs/LArTPCOperation3.png used on inpu
-t line 469.
-(pdftex.def)             Requested size: 205.77896pt x 154.32343pt.
-
-<NeutrinoPhysics/Figs/LArTPCOperation4.png, id=1602, 984.67876pt x 740.7675pt>
-File: NeutrinoPhysics/Figs/LArTPCOperation4.png Graphic file (type png)
-<use NeutrinoPhysics/Figs/LArTPCOperation4.png>
-Package pdftex.def Info: NeutrinoPhysics/Figs/LArTPCOperation4.png used on inpu
-t line 476.
-(pdftex.def)             Requested size: 205.77896pt x 154.79715pt.
-[27]) [28 <./NeutrinoPhysics/Figs/ElectricFieldScintillationIonisation.png>] [2
-9 <./NeutrinoPhysics/Figs/LArTPCOperation1.png> <./NeutrinoPhysics/Figs/LArTPCO
-peration2.png> <./NeutrinoPhysics/Figs/LArTPCOperation3.png> <./NeutrinoPhysics
-/Figs/LArTPCOperation4.png>]
-\openout2 = `DUNE/DUNE.aux'.
-
-(./DUNE/DUNE.tex [30
-
-
-
-]
-Chapter 3.
-
-Package natbib Warning: Citation `DUNECDR1' on page 31 undefined on input line 
-8.
-
-
-Package natbib Warning: Citation `DUNECDR2' on page 31 undefined on input line 
-8.
-
-
-Package natbib Warning: Citation `DUNECDR3' on page 31 undefined on input line 
-8.
-
-
-Package natbib Warning: Citation `DUNECDR4' on page 31 undefined on input line 
-8.
-
-<DUNE/Figs/DUNE.jpg, id=1629, 1557.82pt x 513.92pt>
-File: DUNE/Figs/DUNE.jpg Graphic file (type jpg)
-<use DUNE/Figs/DUNE.jpg>
-Package pdftex.def Info: DUNE/Figs/DUNE.jpg used on input line 12.
-(pdftex.def)             Requested size: 398.33858pt x 131.40466pt.
-[31]
-
-Package natbib Warning: Citation `Huber2011' on page 32 undefined on input line
- 24.
-
-<DUNE/Figs/TwoPeakAmbiguity.pdf, id=1642, 215.24635pt x 214.4548pt>
-File: DUNE/Figs/TwoPeakAmbiguity.pdf Graphic file (type pdf)
-<use DUNE/Figs/TwoPeakAmbiguity.pdf>
-Package pdftex.def Info: DUNE/Figs/TwoPeakAmbiguity.pdf used on input line 28.
-(pdftex.def)             Requested size: 284.52756pt x 283.51642pt.
-) [32 <./DUNE/Figs/DUNE.jpg>] [33 <./DUNE/Figs/TwoPeakAmbiguity.pdf>]
-\openout2 = `35ton/35ton.aux'.
-
-(./35ton/35ton.tex [34
-
-
-
-]
-Chapter 4.
-[35]
-
-Package natbib Warning: Citation `LAPD' on page 36 undefined on input line 22.
-
-<35ton/Figs/LAPDTankPiping.png, id=1760, 823.075pt x 502.87875pt>
-File: 35ton/Figs/LAPDTankPiping.png Graphic file (type png)
-<use 35ton/Figs/LAPDTankPiping.png>
-Package pdftex.def Info: 35ton/Figs/LAPDTankPiping.png used on input line 30.
-(pdftex.def)             Requested size: 426.79134pt x 260.76181pt.
-
-Package natbib Warning: Citation `LAPD' on page 36 undefined on input line 31.
-
-
-Package natbib Warning: Citation `LAPD' on page 36 undefined on input line 31.
-
-[36]
-
-Package natbib Warning: Citation `LArFilter' on page 37 undefined on input line
- 43.
-
-
-Package natbib Warning: Citation `LArFilter' on page 37 undefined on input line
- 43.
-
-[37 <./35ton/Figs/LAPDTankPiping.png>] <35ton/Figs/LAPDPurity.png, id=1773, 711
-.65875pt x 473.77pt>
-File: 35ton/Figs/LAPDPurity.png Graphic file (type png)
-<use 35ton/Figs/LAPDPurity.png>
-Package pdftex.def Info: 35ton/Figs/LAPDPurity.png used on input line 49.
-(pdftex.def)             Requested size: 341.43306pt x 227.29858pt.
-
-Package natbib Warning: Citation `LAPD' on page 38 undefined on input line 50.
-
-
-Package natbib Warning: Citation `LAPD' on page 38 undefined on input line 50.
-
-<35ton/Figs/PurityMonitor.png, id=1776, 896.34875pt x 452.69125pt>
-File: 35ton/Figs/PurityMonitor.png Graphic file (type png)
-<use 35ton/Figs/PurityMonitor.png>
-Package pdftex.def Info: 35ton/Figs/PurityMonitor.png used on input line 60.
-(pdftex.def)             Requested size: 341.43306pt x 172.43199pt.
-
-Package natbib Warning: Citation `LBNE35tonPhaseI' on page 38 undefined on inpu
-t line 61.
-
-
-Package natbib Warning: Citation `LBNE35tonPhaseI' on page 38 undefined on inpu
-t line 61.
-
-[38 <./35ton/Figs/LAPDPurity.png>]
-
-Package natbib Warning: Citation `LAPD' on page 39 undefined on input line 73.
-
-
-LaTeX Warning: Reference `fig:ElectronLifetimes' on page 39 undefined on input 
-line 73.
-
-<35ton/Figs/LAPDElectronLifetime.png, id=1782, 1018.80624pt x 429.605pt>
-File: 35ton/Figs/LAPDElectronLifetime.png Graphic file (type png)
-<use 35ton/Figs/LAPDElectronLifetime.png>
-Package pdftex.def Info: 35ton/Figs/LAPDElectronLifetime.png used on input line
- 77.
-(pdftex.def)             Requested size: 426.79134pt x 179.96744pt.
-[39 <./35ton/Figs/PurityMonitor.png>]
-
-Package natbib Warning: Citation `LBNE35tonPhaseIOverview' on page 40 undefined
- on input line 87.
-
-<35ton/Figs/35tonCryostat.png, id=1789, 590.205pt x 253.94875pt>
-File: 35ton/Figs/35tonCryostat.png Graphic file (type png)
-<use 35ton/Figs/35tonCryostat.png>
-Package pdftex.def Info: 35ton/Figs/35tonCryostat.png used on input line 95.
-(pdftex.def)             Requested size: 426.79134pt x 183.64119pt.
-
-Package natbib Warning: Citation `LBNE35tonPhaseI' on page 40 undefined on inpu
-t line 96.
-
-
-Package natbib Warning: Citation `LBNE35tonPhaseI' on page 40 undefined on inpu
-t line 96.
-
-<35ton/Figs/35tonLAPD.png, id=1790, 1367.1075pt x 556.0775pt>
-File: 35ton/Figs/35tonLAPD.png Graphic file (type png)
-<use 35ton/Figs/35tonLAPD.png>
-Package pdftex.def Info: 35ton/Figs/35tonLAPD.png used on input line 108.
-(pdftex.def)             Requested size: 426.79134pt x 173.5956pt.
-
-Package natbib Warning: Citation `LBNE35tonPhaseI' on page 40 undefined on inpu
-t line 109.
-
-
-Package natbib Warning: Citation `LBNE35tonPhaseI' on page 40 undefined on inpu
-t line 109.
-
-[40 <./35ton/Figs/LAPDElectronLifetime.png>] [41 <./35ton/Figs/35tonCryostat.pn
-g>] [42 <./35ton/Figs/35tonLAPD.png>]) [43]
-\openout2 = `LArReconstruction/LArReconstruction.aux'.
-
-(./LArReconstruction/LArReconstruction.tex [44
-
-
-
-]
-Chapter 5.
-) [45] [46]
-\openout2 = `OnlineMonitoring/OnlineMonitoring.aux'.
-
-(./OnlineMonitoring/OnlineMonitoring.tex
-Chapter 6.
-[47
-
-
-
-]
-
-pdfTeX warning: pdflatex (file ./OnlineMonitoring/Figs/artdaqFramework.pdf): PD
-F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<OnlineMonitoring/Figs/artdaqFramework.pdf, id=1843, 939.51pt x 614.295pt>
-File: OnlineMonitoring/Figs/artdaqFramework.pdf Graphic file (type pdf)
-<use OnlineMonitoring/Figs/artdaqFramework.pdf>
-Package pdftex.def Info: OnlineMonitoring/Figs/artdaqFramework.pdf used on inpu
-t line 24.
-(pdftex.def)             Requested size: 455.24408pt x 297.66087pt.
-
-Overfull \hbox (17.78296pt too wide) in paragraph at lines 24--25
- [][] 
- []
-
-
-Package natbib Warning: Citation `Freeman2014' on page 48 undefined on input li
-ne 25.
-
-
-Package natbib Warning: Citation `Freeman2014' on page 48 undefined on input li
-ne 25.
-
-
-LaTeX Warning: Reference `sec:DetectorComponents' on page 48 undefined on input
- line 29.
-
-[48 <./OnlineMonitoring/Figs/artdaqFramework.pdf>]
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 41.
-(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-Package epstopdf Info: Source file: <OnlineMonitoring/Figs/softwareFramework.ep
-s>
-(epstopdf)                    date: 2017-02-02 17:14:54
-(epstopdf)                    size: 53015 bytes
-(epstopdf)             Output file: <OnlineMonitoring/Figs/softwareFramework-ep
-s-converted-to.pdf>
-(epstopdf)                    date: 2017-02-02 17:15:49
-(epstopdf)                    size: 17473 bytes
-(epstopdf)             Command: <repstopdf --outfile=OnlineMonitoring/Figs/soft
-wareFramework-eps-converted-to.pdf OnlineMonitoring/Figs/softwareFramework.eps>
-
-(epstopdf)             \includegraphics on input line 51.
-Package epstopdf Info: Output file is already uptodate.
-
-<OnlineMonitoring/Figs/softwareFramework-eps-converted-to.pdf, id=1854, 692.587
-5pt x 516.93124pt>
-File: OnlineMonitoring/Figs/softwareFramework-eps-converted-to.pdf Graphic file
- (type pdf)
-<use OnlineMonitoring/Figs/softwareFramework-eps-converted-to.pdf>
-Package pdftex.def Info: OnlineMonitoring/Figs/softwareFramework-eps-converted-
-to.pdf used on input line 51.
-(pdftex.def)             Requested size: 341.43306pt x 254.84451pt.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 59.
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-Package microtype Info: Loading generic settings for font family
-(microtype)             `cmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-[49] [50 <./OnlineMonitoring/Figs/softwareFramework-eps-converted-to.pdf>] [51]
-[52] <OnlineMonitoring/Figs/DQM1.png, id=1884, 934.49126pt x 678.535pt>
-File: OnlineMonitoring/Figs/DQM1.png Graphic file (type png)
-<use OnlineMonitoring/Figs/DQM1.png>
-Package pdftex.def Info: OnlineMonitoring/Figs/DQM1.png used on input line 160.
-
-(pdftex.def)             Requested size: 199.47984pt x 144.83646pt.
-<OnlineMonitoring/Figs/DQM2.png, id=1885, 1050.92625pt x 691.58376pt>
-File: OnlineMonitoring/Figs/DQM2.png Graphic file (type png)
-<use OnlineMonitoring/Figs/DQM2.png>
-Package pdftex.def Info: OnlineMonitoring/Figs/DQM2.png used on input line 166.
-
-(pdftex.def)             Requested size: 199.47984pt x 131.26509pt.
-<OnlineMonitoring/Figs/DQM3.png, id=1886, 1026.83624pt x 678.535pt>
-File: OnlineMonitoring/Figs/DQM3.png Graphic file (type png)
-<use OnlineMonitoring/Figs/DQM3.png>
-Package pdftex.def Info: OnlineMonitoring/Figs/DQM3.png used on input line 172.
-
-(pdftex.def)             Requested size: 199.47984pt x 131.81163pt.
-<OnlineMonitoring/Figs/DQM4.png, id=1887, 915.42pt x 683.55376pt>
-File: OnlineMonitoring/Figs/DQM4.png Graphic file (type png)
-<use OnlineMonitoring/Figs/DQM4.png>
-Package pdftex.def Info: OnlineMonitoring/Figs/DQM4.png used on input line 178.
-
-(pdftex.def)             Requested size: 199.47984pt x 148.95335pt.
-[53] [54 <./OnlineMonitoring/Figs/DQM1.png> <./OnlineMonitoring/Figs/DQM2.png> 
-<./OnlineMonitoring/Figs/DQM3.png> <./OnlineMonitoring/Figs/DQM4.png>]
-Package epstopdf Info: Source file: <OnlineMonitoring/Figs/data_format.eps>
-(epstopdf)                    date: 2017-02-02 17:46:49
-(epstopdf)                    size: 549480 bytes
-(epstopdf)             Output file: <OnlineMonitoring/Figs/data_format-eps-conv
-erted-to.pdf>
-(epstopdf)                    date: 2017-02-02 17:47:26
-(epstopdf)                    size: 955333 bytes
-(epstopdf)             Command: <repstopdf --outfile=OnlineMonitoring/Figs/data
-_format-eps-converted-to.pdf OnlineMonitoring/Figs/data_format.eps>
-(epstopdf)             \includegraphics on input line 202.
-Package epstopdf Info: Output file is already uptodate.
-
-<OnlineMonitoring/Figs/data_format-eps-converted-to.pdf, id=1901, 598.235pt x 8
-46.16125pt>
-File: OnlineMonitoring/Figs/data_format-eps-converted-to.pdf Graphic file (type
- pdf)
-<use OnlineMonitoring/Figs/data_format-eps-converted-to.pdf>
-Package pdftex.def Info: OnlineMonitoring/Figs/data_format-eps-converted-to.pdf
- used on input line 202.
-(pdftex.def)             Requested size: 398.33858pt x 563.42612pt.
-Package epstopdf Info: Source file: <OnlineMonitoring/Figs/triggered_event.eps>
-
-(epstopdf)                    date: 2017-02-02 17:46:44
-(epstopdf)                    size: 233049 bytes
-(epstopdf)             Output file: <OnlineMonitoring/Figs/triggered_event-eps-
-converted-to.pdf>
-(epstopdf)                    date: 2017-02-02 17:47:29
-(epstopdf)                    size: 218676 bytes
-(epstopdf)             Command: <repstopdf --outfile=OnlineMonitoring/Figs/trig
-gered_event-eps-converted-to.pdf OnlineMonitoring/Figs/triggered_event.eps>
-(epstopdf)             \includegraphics on input line 211.
-Package epstopdf Info: Output file is already uptodate.
-
-<OnlineMonitoring/Figs/triggered_event-eps-converted-to.pdf, id=1903, 845.1575p
-t x 599.23875pt>
-File: OnlineMonitoring/Figs/triggered_event-eps-converted-to.pdf Graphic file (
-type pdf)
-<use OnlineMonitoring/Figs/triggered_event-eps-converted-to.pdf>
-Package pdftex.def Info: OnlineMonitoring/Figs/triggered_event-eps-converted-to
-.pdf used on input line 211.
-(pdftex.def)             Requested size: 455.24408pt x 322.7886pt.
-
-Overfull \hbox (17.78296pt too wide) in paragraph at lines 211--212
- [][] 
- []
-
-[55] [56 <./OnlineMonitoring/Figs/data_format-eps-converted-to.pdf>] [57 <./Onl
-ineMonitoring/Figs/triggered_event-eps-converted-to.pdf>] <OnlineMonitoring/Fig
-s/evd.png, id=1931, 582.175pt x 568.1225pt>
-File: OnlineMonitoring/Figs/evd.png Graphic file (type png)
-<use OnlineMonitoring/Figs/evd.png>
-Package pdftex.def Info: OnlineMonitoring/Figs/evd.png used on input line 232.
-(pdftex.def)             Requested size: 398.33858pt x 388.72812pt.
-Package epstopdf Info: Source file: <OnlineMonitoring/Figs/webInterface.eps>
-(epstopdf)                    date: 2017-02-02 17:44:49
-(epstopdf)                    size: 62545 bytes
-(epstopdf)             Output file: <OnlineMonitoring/Figs/webInterface-eps-con
-verted-to.pdf>
-(epstopdf)                    date: 2017-02-02 17:47:30
-(epstopdf)                    size: 41789 bytes
-(epstopdf)             Command: <repstopdf --outfile=OnlineMonitoring/Figs/webI
-nterface-eps-converted-to.pdf OnlineMonitoring/Figs/webInterface.eps>
-(epstopdf)             \includegraphics on input line 249.
-Package epstopdf Info: Output file is already uptodate.
-
-<OnlineMonitoring/Figs/webInterface-eps-converted-to.pdf, id=1935, 550.055pt x 
-335.2525pt>
-File: OnlineMonitoring/Figs/webInterface-eps-converted-to.pdf Graphic file (typ
-e pdf)
-<use OnlineMonitoring/Figs/webInterface-eps-converted-to.pdf>
-Package pdftex.def Info: OnlineMonitoring/Figs/webInterface-eps-converted-to.pd
-f used on input line 249.
-(pdftex.def)             Requested size: 341.43306pt x 208.10506pt.
-[58] [59 <./OnlineMonitoring/Figs/evd.png>] <OnlineMonitoring/Figs/webPage.png,
- id=1948, 1439.3775pt x 833.1125pt>
-File: OnlineMonitoring/Figs/webPage.png Graphic file (type png)
-<use OnlineMonitoring/Figs/webPage.png>
-Package pdftex.def Info: OnlineMonitoring/Figs/webPage.png used on input line 2
-63.
-(pdftex.def)             Requested size: 398.33858pt x 230.5622pt.
-[60 <./OnlineMonitoring/Figs/webInterface-eps-converted-to.pdf>]) [61 <./Online
-Monitoring/Figs/webPage.png>]
 \openout2 = `35tonAnalysis/35tonAnalysis.aux'.
 
 (./35tonAnalysis/35tonAnalysis.tex [62
 
 
 
+
+
+
+
+
 ]
 Chapter 7.
-<35tonAnalysis/Figs/DataRMSGood.pdf, id=1981, 492.89969pt x 360.95543pt>
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 7.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 16.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 21.
+<35tonAnalysis/Figs/DataRMSGood.pdf, id=96, 492.89969pt x 360.95543pt>
 File: 35tonAnalysis/Figs/DataRMSGood.pdf Graphic file (type pdf)
 <use 35tonAnalysis/Figs/DataRMSGood.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/DataRMSGood.pdf used on input line 
 29.
 (pdftex.def)             Requested size: 187.01274pt x 136.94968pt.
-<35tonAnalysis/Figs/DataRMSBad.pdf, id=1982, 492.25835pt x 358.09985pt>
+<35tonAnalysis/Figs/DataRMSBad.pdf, id=97, 492.25835pt x 358.09985pt>
 File: 35tonAnalysis/Figs/DataRMSBad.pdf Graphic file (type pdf)
 <use 35tonAnalysis/Figs/DataRMSBad.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/DataRMSBad.pdf used on input line 3
 6.
 (pdftex.def)             Requested size: 187.01274pt x 136.04657pt.
-[63] [64 <./35tonAnalysis/Figs/DataRMSGood.pdf> <./35tonAnalysis/Figs/DataRMSBa
-d.pdf>] <35tonAnalysis/Figs/stuckbitsremoval.png, id=2032, 508.90125pt x 488.82
-625pt>
+[63{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 52.
+[64 <./35tonAnalysis/Figs/DataRMSGood.pdf> <./35tonAnalysis/Figs/DataRMSBad.pdf
+>] <35tonAnalysis/Figs/stuckbitsremoval.png, id=158, 508.90125pt x 488.82625pt>
 File: 35tonAnalysis/Figs/stuckbitsremoval.png Graphic file (type png)
 <use 35tonAnalysis/Figs/stuckbitsremoval.png>
 Package pdftex.def Info: 35tonAnalysis/Figs/stuckbitsremoval.png used on input 
@@ -2566,16 +1469,16 @@ Package epstopdf Info: Source file: <35tonAnalysis/Figs/raw_stuck.eps>
 (epstopdf)                    size: 18527 bytes
 (epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/raw_stu
 ck-eps-converted-to.pdf 35tonAnalysis/Figs/raw_stuck.eps>
-(epstopdf)             \includegraphics on input line 66.
+(epstopdf)             \includegraphics on input line 64.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/raw_stuck-eps-converted-to.pdf, id=2034, 569.12625pt x 265.
-99374pt>
+<35tonAnalysis/Figs/raw_stuck-eps-converted-to.pdf, id=160, 569.12625pt x 265.9
+9374pt>
 File: 35tonAnalysis/Figs/raw_stuck-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 35tonAnalysis/Figs/raw_stuck-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/raw_stuck-eps-converted-to.pdf used
- on input line 66.
+ on input line 64.
 (pdftex.def)             Requested size: 209.97946pt x 98.14014pt.
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/raw_unstuck.eps>
 (epstopdf)                    date: 2017-02-09 10:56:38
@@ -2586,16 +1489,16 @@ ed-to.pdf>
 (epstopdf)                    size: 18373 bytes
 (epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/raw_uns
 tuck-eps-converted-to.pdf 35tonAnalysis/Figs/raw_unstuck.eps>
-(epstopdf)             \includegraphics on input line 73.
+(epstopdf)             \includegraphics on input line 71.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/raw_unstuck-eps-converted-to.pdf, id=2035, 569.12625pt x 26
-5.99374pt>
+<35tonAnalysis/Figs/raw_unstuck-eps-converted-to.pdf, id=161, 569.12625pt x 265
+.99374pt>
 File: 35tonAnalysis/Figs/raw_unstuck-eps-converted-to.pdf Graphic file (type pd
 f)
 <use 35tonAnalysis/Figs/raw_unstuck-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/raw_unstuck-eps-converted-to.pdf us
-ed on input line 73.
+ed on input line 71.
 (pdftex.def)             Requested size: 209.97946pt x 98.14014pt.
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/raw_noise.eps>
 (epstopdf)                    date: 2017-02-09 10:53:37
@@ -2606,16 +1509,16 @@ Package epstopdf Info: Source file: <35tonAnalysis/Figs/raw_noise.eps>
 (epstopdf)                    size: 10591 bytes
 (epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/raw_noi
 se-eps-converted-to.pdf 35tonAnalysis/Figs/raw_noise.eps>
-(epstopdf)             \includegraphics on input line 87.
+(epstopdf)             \includegraphics on input line 85.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/raw_noise-eps-converted-to.pdf, id=2037, 569.12625pt x 265.
-99374pt>
+<35tonAnalysis/Figs/raw_noise-eps-converted-to.pdf, id=163, 569.12625pt x 265.9
+9374pt>
 File: 35tonAnalysis/Figs/raw_noise-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 35tonAnalysis/Figs/raw_noise-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/raw_noise-eps-converted-to.pdf used
- on input line 87.
+ on input line 85.
 (pdftex.def)             Requested size: 209.97946pt x 98.14014pt.
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/raw_nonoise.eps>
 (epstopdf)                    date: 2017-02-09 10:53:37
@@ -2626,16 +1529,16 @@ ed-to.pdf>
 (epstopdf)                    size: 9978 bytes
 (epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/raw_non
 oise-eps-converted-to.pdf 35tonAnalysis/Figs/raw_nonoise.eps>
-(epstopdf)             \includegraphics on input line 94.
+(epstopdf)             \includegraphics on input line 92.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/raw_nonoise-eps-converted-to.pdf, id=2038, 569.12625pt x 26
-5.99374pt>
+<35tonAnalysis/Figs/raw_nonoise-eps-converted-to.pdf, id=164, 569.12625pt x 265
+.99374pt>
 File: 35tonAnalysis/Figs/raw_nonoise-eps-converted-to.pdf Graphic file (type pd
 f)
 <use 35tonAnalysis/Figs/raw_nonoise-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/raw_nonoise-eps-converted-to.pdf us
-ed on input line 94.
+ed on input line 92.
 (pdftex.def)             Requested size: 209.97946pt x 98.14014pt.
 [65 <./35tonAnalysis/Figs/stuckbitsremoval.png>] [66 <./35tonAnalysis/Figs/raw_
 stuck-eps-converted-to.pdf> <./35tonAnalysis/Figs/raw_unstuck-eps-converted-to.
@@ -2650,16 +1553,16 @@ nverted-to.pdf>
 (epstopdf)                    size: 76362 bytes
 (epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/hitsele
 ction_all-eps-converted-to.pdf 35tonAnalysis/Figs/hitselection_all.eps>
-(epstopdf)             \includegraphics on input line 115.
+(epstopdf)             \includegraphics on input line 113.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/hitselection_all-eps-converted-to.pdf, id=2074, 569.12625pt
- x 408.52625pt>
+<35tonAnalysis/Figs/hitselection_all-eps-converted-to.pdf, id=205, 569.12625pt 
+x 408.52625pt>
 File: 35tonAnalysis/Figs/hitselection_all-eps-converted-to.pdf Graphic file (ty
 pe pdf)
 <use 35tonAnalysis/Figs/hitselection_all-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/hitselection_all-eps-converted-to.p
-df used on input line 115.
+df used on input line 113.
 (pdftex.def)             Requested size: 209.97946pt x 150.72845pt.
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/hitselection_shadow.eps
 >
@@ -2671,16 +1574,16 @@ Package epstopdf Info: Source file: <35tonAnalysis/Figs/hitselection_shadow.eps
 (epstopdf)                    size: 21834 bytes
 (epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/hitsele
 ction_shadow-eps-converted-to.pdf 35tonAnalysis/Figs/hitselection_shadow.eps>
-(epstopdf)             \includegraphics on input line 122.
+(epstopdf)             \includegraphics on input line 120.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/hitselection_shadow-eps-converted-to.pdf, id=2075, 569.1262
-5pt x 408.52625pt>
+<35tonAnalysis/Figs/hitselection_shadow-eps-converted-to.pdf, id=206, 569.12625
+pt x 408.52625pt>
 File: 35tonAnalysis/Figs/hitselection_shadow-eps-converted-to.pdf Graphic file 
 (type pdf)
 <use 35tonAnalysis/Figs/hitselection_shadow-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/hitselection_shadow-eps-converted-t
-o.pdf used on input line 122.
+o.pdf used on input line 120.
 (pdftex.def)             Requested size: 209.97946pt x 150.72845pt.
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/hitselection_final.eps>
 
@@ -2692,654 +1595,26 @@ converted-to.pdf>
 (epstopdf)                    size: 14887 bytes
 (epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/hitsele
 ction_final-eps-converted-to.pdf 35tonAnalysis/Figs/hitselection_final.eps>
-(epstopdf)             \includegraphics on input line 129.
+(epstopdf)             \includegraphics on input line 127.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/hitselection_final-eps-converted-to.pdf, id=2076, 569.12625
-pt x 408.52625pt>
+<35tonAnalysis/Figs/hitselection_final-eps-converted-to.pdf, id=207, 569.12625p
+t x 408.52625pt>
 File: 35tonAnalysis/Figs/hitselection_final-eps-converted-to.pdf Graphic file (
 type pdf)
 <use 35tonAnalysis/Figs/hitselection_final-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/hitselection_final-eps-converted-to
-.pdf used on input line 129.
+.pdf used on input line 127.
 (pdftex.def)             Requested size: 209.97946pt x 150.72845pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 130.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 128.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 130.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 128.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 130.
-
-LaTeX Warning: Reference `fig:DUNEFarDetectorDesign' on page 67 undefined on in
-put line 145.
-
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 128.
 [67] [68 <./35tonAnalysis/Figs/hitselection_all-eps-converted-to.pdf> <./35tonA
 nalysis/Figs/hitselection_shadow-eps-converted-to.pdf> <./35tonAnalysis/Figs/hi
-tselection_final-eps-converted-to.pdf>] <35tonAnalysis/Figs/evd_t0_2.pdf, id=21
-17, 563.23283pt x 541.53035pt>
-File: 35tonAnalysis/Figs/evd_t0_2.pdf Graphic file (type pdf)
-<use 35tonAnalysis/Figs/evd_t0_2.pdf>
-Package pdftex.def Info: 35tonAnalysis/Figs/evd_t0_2.pdf used on input line 160
-.
-(pdftex.def)             Requested size: 284.52756pt x 273.56569pt.
-Package epstopdf Info: Source file: <35tonAnalysis/Figs/track_residual.eps>
-(epstopdf)                    date: 2017-02-10 10:14:43
-(epstopdf)                    size: 12870 bytes
-(epstopdf)             Output file: <35tonAnalysis/Figs/track_residual-eps-conv
-erted-to.pdf>
-(epstopdf)                    date: 2017-02-10 10:18:12
-(epstopdf)                    size: 4767 bytes
-(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/track_r
-esidual-eps-converted-to.pdf 35tonAnalysis/Figs/track_residual.eps>
-(epstopdf)             \includegraphics on input line 174.
-Package epstopdf Info: Output file is already uptodate.
-
-<35tonAnalysis/Figs/track_residual-eps-converted-to.pdf, id=2122, 319.1925pt x 
-229.85875pt>
-File: 35tonAnalysis/Figs/track_residual-eps-converted-to.pdf Graphic file (type
- pdf)
-<use 35tonAnalysis/Figs/track_residual-eps-converted-to.pdf>
-Package pdftex.def Info: 35tonAnalysis/Figs/track_residual-eps-converted-to.pdf
- used on input line 174.
-(pdftex.def)             Requested size: 209.97946pt x 151.21269pt.
-Package epstopdf Info: Source file: <35tonAnalysis/Figs/chisquare.eps>
-(epstopdf)                    date: 2017-02-13 13:03:59
-(epstopdf)                    size: 20598 bytes
-(epstopdf)             Output file: <35tonAnalysis/Figs/chisquare-eps-converted
--to.pdf>
-(epstopdf)                    date: 2017-02-13 13:11:39
-(epstopdf)                    size: 46735 bytes
-(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/chisqua
-re-eps-converted-to.pdf 35tonAnalysis/Figs/chisquare.eps>
-(epstopdf)             \includegraphics on input line 181.
-Package epstopdf Info: Output file is already uptodate.
-
-<35tonAnalysis/Figs/chisquare-eps-converted-to.pdf, id=2123, 569.12625pt x 385.
-44pt>
-File: 35tonAnalysis/Figs/chisquare-eps-converted-to.pdf Graphic file (type pdf)
-
-<use 35tonAnalysis/Figs/chisquare-eps-converted-to.pdf>
-Package pdftex.def Info: 35tonAnalysis/Figs/chisquare-eps-converted-to.pdf used
- on input line 181.
-(pdftex.def)             Requested size: 209.97946pt x 142.21063pt.
-Package epstopdf Info: Source file: <35tonAnalysis/Figs/track_separation.eps>
-(epstopdf)                    date: 2017-02-10 10:14:43
-(epstopdf)                    size: 11963 bytes
-(epstopdf)             Output file: <35tonAnalysis/Figs/track_separation-eps-co
-nverted-to.pdf>
-(epstopdf)                    date: 2017-02-10 10:18:13
-(epstopdf)                    size: 10121 bytes
-(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/track_s
-eparation-eps-converted-to.pdf 35tonAnalysis/Figs/track_separation.eps>
-(epstopdf)             \includegraphics on input line 192.
-Package epstopdf Info: Output file is already uptodate.
-
-<35tonAnalysis/Figs/track_separation-eps-converted-to.pdf, id=2124, 318.18875pt
- x 192.72pt>
-File: 35tonAnalysis/Figs/track_separation-eps-converted-to.pdf Graphic file (ty
-pe pdf)
-<use 35tonAnalysis/Figs/track_separation-eps-converted-to.pdf>
-Package pdftex.def Info: 35tonAnalysis/Figs/track_separation-eps-converted-to.p
-df used on input line 192.
-(pdftex.def)             Requested size: 209.97946pt x 127.17793pt.
-Package epstopdf Info: Source file: <35tonAnalysis/Figs/separation.eps>
-(epstopdf)                    date: 2017-02-13 13:04:16
-(epstopdf)                    size: 23926 bytes
-(epstopdf)             Output file: <35tonAnalysis/Figs/separation-eps-converte
-d-to.pdf>
-(epstopdf)                    date: 2017-02-13 13:11:43
-(epstopdf)                    size: 53780 bytes
-(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/separat
-ion-eps-converted-to.pdf 35tonAnalysis/Figs/separation.eps>
-(epstopdf)             \includegraphics on input line 199.
-Package epstopdf Info: Output file is already uptodate.
-
-<35tonAnalysis/Figs/separation-eps-converted-to.pdf, id=2125, 569.12625pt x 385
-.44pt>
-File: 35tonAnalysis/Figs/separation-eps-converted-to.pdf Graphic file (type pdf
-)
-<use 35tonAnalysis/Figs/separation-eps-converted-to.pdf>
-Package pdftex.def Info: 35tonAnalysis/Figs/separation-eps-converted-to.pdf use
-d on input line 199.
-(pdftex.def)             Requested size: 209.97946pt x 142.21063pt.
-[69] [70 <./35tonAnalysis/Figs/evd_t0_2.pdf>] [71 <./35tonAnalysis/Figs/track_r
-esidual-eps-converted-to.pdf> <./35tonAnalysis/Figs/chisquare-eps-converted-to.
-pdf> <./35tonAnalysis/Figs/track_separation-eps-converted-to.pdf> <./35tonAnaly
-sis/Figs/separation-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <35tonAnalysis/Figs/TPCCounterT0Difference.
-eps>
-(epstopdf)                    date: 2017-02-13 12:22:18
-(epstopdf)                    size: 7144 bytes
-(epstopdf)             Output file: <35tonAnalysis/Figs/TPCCounterT0Difference-
-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-02-13 12:24:19
-(epstopdf)                    size: 6507 bytes
-(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/TPCCoun
-terT0Difference-eps-converted-to.pdf 35tonAnalysis/Figs/TPCCounterT0Difference.
-eps>
-(epstopdf)             \includegraphics on input line 211.
-Package epstopdf Info: Output file is already uptodate.
-
-<35tonAnalysis/Figs/TPCCounterT0Difference-eps-converted-to.pdf, id=2182, 569.1
-2625pt x 386.44376pt>
-File: 35tonAnalysis/Figs/TPCCounterT0Difference-eps-converted-to.pdf Graphic fi
-le (type pdf)
-<use 35tonAnalysis/Figs/TPCCounterT0Difference-eps-converted-to.pdf>
-Package pdftex.def Info: 35tonAnalysis/Figs/TPCCounterT0Difference-eps-converte
-d-to.pdf used on input line 211.
-(pdftex.def)             Requested size: 398.33858pt x 270.49109pt.
-Package epstopdf Info: Source file: <35tonAnalysis/Figs/t0correction_before.eps
->
-(epstopdf)                    date: 2017-02-13 13:02:03
-(epstopdf)                    size: 9276 bytes
-(epstopdf)             Output file: <35tonAnalysis/Figs/t0correction_before-eps
--converted-to.pdf>
-(epstopdf)                    date: 2017-02-13 13:11:46
-(epstopdf)                    size: 11557 bytes
-(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/t0corre
-ction_before-eps-converted-to.pdf 35tonAnalysis/Figs/t0correction_before.eps>
-(epstopdf)             \includegraphics on input line 220.
-Package epstopdf Info: Output file is already uptodate.
-
-<35tonAnalysis/Figs/t0correction_before-eps-converted-to.pdf, id=2183, 569.1262
-5pt x 408.52625pt>
-File: 35tonAnalysis/Figs/t0correction_before-eps-converted-to.pdf Graphic file 
-(type pdf)
-<use 35tonAnalysis/Figs/t0correction_before-eps-converted-to.pdf>
-Package pdftex.def Info: 35tonAnalysis/Figs/t0correction_before-eps-converted-t
-o.pdf used on input line 220.
-(pdftex.def)             Requested size: 209.97946pt x 150.72845pt.
-Package epstopdf Info: Source file: <35tonAnalysis/Figs/t0correction_after.eps>
-
-(epstopdf)                    date: 2017-02-13 13:02:03
-(epstopdf)                    size: 9280 bytes
-(epstopdf)             Output file: <35tonAnalysis/Figs/t0correction_after-eps-
-converted-to.pdf>
-(epstopdf)                    date: 2017-02-13 13:11:49
-(epstopdf)                    size: 11610 bytes
-(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/t0corre
-ction_after-eps-converted-to.pdf 35tonAnalysis/Figs/t0correction_after.eps>
-(epstopdf)             \includegraphics on input line 227.
-Package epstopdf Info: Output file is already uptodate.
-
-<35tonAnalysis/Figs/t0correction_after-eps-converted-to.pdf, id=2184, 569.12625
-pt x 408.52625pt>
-File: 35tonAnalysis/Figs/t0correction_after-eps-converted-to.pdf Graphic file (
-type pdf)
-<use 35tonAnalysis/Figs/t0correction_after-eps-converted-to.pdf>
-Package pdftex.def Info: 35tonAnalysis/Figs/t0correction_after-eps-converted-to
-.pdf used on input line 227.
-(pdftex.def)             Requested size: 209.97946pt x 150.72845pt.
-Package epstopdf Info: Source file: <35tonAnalysis/Figs/misalign_track_geo.eps>
-
-(epstopdf)                    date: 2017-02-14 10:05:50
-(epstopdf)                    size: 21400 bytes
-(epstopdf)             Output file: <35tonAnalysis/Figs/misalign_track_geo-eps-
-converted-to.pdf>
-(epstopdf)                    date: 2017-02-14 10:39:07
-(epstopdf)                    size: 9950 bytes
-(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/misalig
-n_track_geo-eps-converted-to.pdf 35tonAnalysis/Figs/misalign_track_geo.eps>
-(epstopdf)             \includegraphics on input line 245.
-Package epstopdf Info: Output file is already uptodate.
-
-<35tonAnalysis/Figs/misalign_track_geo-eps-converted-to.pdf, id=2194, 314.17375
-pt x 192.72pt>
-File: 35tonAnalysis/Figs/misalign_track_geo-eps-converted-to.pdf Graphic file (
-type pdf)
-<use 35tonAnalysis/Figs/misalign_track_geo-eps-converted-to.pdf>
-Package pdftex.def Info: 35tonAnalysis/Figs/misalign_track_geo-eps-converted-to
-.pdf used on input line 245.
-(pdftex.def)             Requested size: 170.71652pt x 104.72006pt.
-[72 <./35tonAnalysis/Figs/TPCCounterT0Difference-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <35tonAnalysis/Figs/misalign_track_collecti
-on_geo.eps>
-(epstopdf)                    date: 2017-02-14 10:34:49
-(epstopdf)                    size: 3637 bytes
-(epstopdf)             Output file: <35tonAnalysis/Figs/misalign_track_collecti
-on_geo-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-02-14 10:36:24
-(epstopdf)                    size: 2730 bytes
-(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/misalig
-n_track_collection_geo-eps-converted-to.pdf 35tonAnalysis/Figs/misalign_track_c
-ollection_geo.eps>
-(epstopdf)             \includegraphics on input line 258.
-Package epstopdf Info: Output file is already uptodate.
-
-<35tonAnalysis/Figs/misalign_track_collection_geo-eps-converted-to.pdf, id=2208
-, 354.32375pt x 191.71625pt>
-File: 35tonAnalysis/Figs/misalign_track_collection_geo-eps-converted-to.pdf Gra
-phic file (type pdf)
-<use 35tonAnalysis/Figs/misalign_track_collection_geo-eps-converted-to.pdf>
-Package pdftex.def Info: 35tonAnalysis/Figs/misalign_track_collection_geo-eps-c
-onverted-to.pdf used on input line 258.
-(pdftex.def)             Requested size: 209.97946pt x 113.61768pt.
-Package epstopdf Info: Source file: <35tonAnalysis/Figs/misalign_track_collecti
-on_res.eps>
-(epstopdf)                    date: 2017-02-14 10:36:07
-(epstopdf)                    size: 9790 bytes
-(epstopdf)             Output file: <35tonAnalysis/Figs/misalign_track_collecti
-on_res-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-02-14 10:36:27
-(epstopdf)                    size: 14887 bytes
-(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/misalig
-n_track_collection_res-eps-converted-to.pdf 35tonAnalysis/Figs/misalign_track_c
-ollection_res.eps>
-(epstopdf)             \includegraphics on input line 265.
-Package epstopdf Info: Output file is already uptodate.
-
-<35tonAnalysis/Figs/misalign_track_collection_res-eps-converted-to.pdf, id=2209
-, 569.12625pt x 408.52625pt>
-File: 35tonAnalysis/Figs/misalign_track_collection_res-eps-converted-to.pdf Gra
-phic file (type pdf)
-<use 35tonAnalysis/Figs/misalign_track_collection_res-eps-converted-to.pdf>
-Package pdftex.def Info: 35tonAnalysis/Figs/misalign_track_collection_res-eps-c
-onverted-to.pdf used on input line 265.
-(pdftex.def)             Requested size: 209.97946pt x 150.72845pt.
-[73 <./35tonAnalysis/Figs/t0correction_before-eps-converted-to.pdf> <./35tonAna
-lysis/Figs/t0correction_after-eps-converted-to.pdf> <./35tonAnalysis/Figs/misal
-ign_track_geo-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <35tonAnalysis/Figs/misalign_track_wire_geo
-.eps>
-(epstopdf)                    date: 2017-02-14 10:35:01
-(epstopdf)                    size: 22117 bytes
-(epstopdf)             Output file: <35tonAnalysis/Figs/misalign_track_wire_geo
--eps-converted-to.pdf>
-(epstopdf)                    date: 2017-02-14 12:15:48
-(epstopdf)                    size: 10120 bytes
-(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/misalig
-n_track_wire_geo-eps-converted-to.pdf 35tonAnalysis/Figs/misalign_track_wire_ge
-o.eps>
-(epstopdf)             \includegraphics on input line 279.
-Package epstopdf Info: Output file is already uptodate.
-
-<35tonAnalysis/Figs/misalign_track_wire_geo-eps-converted-to.pdf, id=2241, 401.
-5pt x 192.72pt>
-File: 35tonAnalysis/Figs/misalign_track_wire_geo-eps-converted-to.pdf Graphic f
-ile (type pdf)
-<use 35tonAnalysis/Figs/misalign_track_wire_geo-eps-converted-to.pdf>
-Package pdftex.def Info: 35tonAnalysis/Figs/misalign_track_wire_geo-eps-convert
-ed-to.pdf used on input line 279.
-(pdftex.def)             Requested size: 209.97946pt x 100.79134pt.
-Package epstopdf Info: Source file: <35tonAnalysis/Figs/misalign_track_wire_res
-.eps>
-(epstopdf)                    date: 2017-02-14 10:36:13
-(epstopdf)                    size: 9790 bytes
-(epstopdf)             Output file: <35tonAnalysis/Figs/misalign_track_wire_res
--eps-converted-to.pdf>
-(epstopdf)                    date: 2017-02-14 12:15:51
-(epstopdf)                    size: 14887 bytes
-(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/misalig
-n_track_wire_res-eps-converted-to.pdf 35tonAnalysis/Figs/misalign_track_wire_re
-s.eps>
-(epstopdf)             \includegraphics on input line 286.
-Package epstopdf Info: Output file is already uptodate.
-
-<35tonAnalysis/Figs/misalign_track_wire_res-eps-converted-to.pdf, id=2242, 569.
-12625pt x 408.52625pt>
-File: 35tonAnalysis/Figs/misalign_track_wire_res-eps-converted-to.pdf Graphic f
-ile (type pdf)
-<use 35tonAnalysis/Figs/misalign_track_wire_res-eps-converted-to.pdf>
-Package pdftex.def Info: 35tonAnalysis/Figs/misalign_track_wire_res-eps-convert
-ed-to.pdf used on input line 286.
-(pdftex.def)             Requested size: 209.97946pt x 150.72845pt.
-Package epstopdf Info: Source file: <35tonAnalysis/Figs/misalign_track_drift_ge
-o.eps>
-(epstopdf)                    date: 2017-02-14 13:21:29
-(epstopdf)                    size: 22084 bytes
-(epstopdf)             Output file: <35tonAnalysis/Figs/misalign_track_drift_ge
-o-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-02-14 13:21:59
-(epstopdf)                    size: 10166 bytes
-(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/misalig
-n_track_drift_geo-eps-converted-to.pdf 35tonAnalysis/Figs/misalign_track_drift_
-geo.eps>
-(epstopdf)             \includegraphics on input line 302.
-Package epstopdf Info: Output file is already uptodate.
-
-<35tonAnalysis/Figs/misalign_track_drift_geo-eps-converted-to.pdf, id=2245, 397
-.485pt x 263.98625pt>
-File: 35tonAnalysis/Figs/misalign_track_drift_geo-eps-converted-to.pdf Graphic 
-file (type pdf)
-<use 35tonAnalysis/Figs/misalign_track_drift_geo-eps-converted-to.pdf>
-Package pdftex.def Info: 35tonAnalysis/Figs/misalign_track_drift_geo-eps-conver
-ted-to.pdf used on input line 302.
-(pdftex.def)             Requested size: 209.97946pt x 139.46089pt.
-Package epstopdf Info: Source file: <35tonAnalysis/Figs/misalign_track_drift_re
-s.eps>
-(epstopdf)                    date: 2017-02-14 13:21:49
-(epstopdf)                    size: 9790 bytes
-(epstopdf)             Output file: <35tonAnalysis/Figs/misalign_track_drift_re
-s-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-02-14 13:22:02
-(epstopdf)                    size: 14887 bytes
-(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/misalig
-n_track_drift_res-eps-converted-to.pdf 35tonAnalysis/Figs/misalign_track_drift_
-res.eps>
-(epstopdf)             \includegraphics on input line 309.
-Package epstopdf Info: Output file is already uptodate.
-
-<35tonAnalysis/Figs/misalign_track_drift_res-eps-converted-to.pdf, id=2246, 569
-.12625pt x 408.52625pt>
-File: 35tonAnalysis/Figs/misalign_track_drift_res-eps-converted-to.pdf Graphic 
-file (type pdf)
-<use 35tonAnalysis/Figs/misalign_track_drift_res-eps-converted-to.pdf>
-Package pdftex.def Info: 35tonAnalysis/Figs/misalign_track_drift_res-eps-conver
-ted-to.pdf used on input line 309.
-(pdftex.def)             Requested size: 209.97946pt x 150.72845pt.
-Package epstopdf Info: Source file: <35tonAnalysis/Figs/DistanceDriftTime.eps>
-(epstopdf)                    date: 2017-02-17 13:03:19
-(epstopdf)                    size: 82504 bytes
-(epstopdf)             Output file: <35tonAnalysis/Figs/DistanceDriftTime-eps-c
-onverted-to.pdf>
-(epstopdf)                    date: 2017-02-17 13:06:59
-(epstopdf)                    size: 258583 bytes
-(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/Distanc
-eDriftTime-eps-converted-to.pdf 35tonAnalysis/Figs/DistanceDriftTime.eps>
-(epstopdf)             \includegraphics on input line 323.
-Package epstopdf Info: Output file is already uptodate.
-
-<35tonAnalysis/Figs/DistanceDriftTime-eps-converted-to.pdf, id=2248, 569.12625p
-t x 409.53pt>
-File: 35tonAnalysis/Figs/DistanceDriftTime-eps-converted-to.pdf Graphic file (t
-ype pdf)
-<use 35tonAnalysis/Figs/DistanceDriftTime-eps-converted-to.pdf>
-Package pdftex.def Info: 35tonAnalysis/Figs/DistanceDriftTime-eps-converted-to.
-pdf used on input line 323.
-(pdftex.def)             Requested size: 209.97946pt x 151.0988pt.
-Package epstopdf Info: Source file: <35tonAnalysis/Figs/DriftVelocity.eps>
-(epstopdf)                    date: 2017-02-17 13:03:19
-(epstopdf)                    size: 10592 bytes
-(epstopdf)             Output file: <35tonAnalysis/Figs/DriftVelocity-eps-conve
-rted-to.pdf>
-(epstopdf)                    date: 2017-02-17 13:07:02
-(epstopdf)                    size: 7732 bytes
-(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/DriftVe
-locity-eps-converted-to.pdf 35tonAnalysis/Figs/DriftVelocity.eps>
-(epstopdf)             \includegraphics on input line 330.
-Package epstopdf Info: Output file is already uptodate.
-
-<35tonAnalysis/Figs/DriftVelocity-eps-converted-to.pdf, id=2249, 569.12625pt x 
-409.53pt>
-File: 35tonAnalysis/Figs/DriftVelocity-eps-converted-to.pdf Graphic file (type 
-pdf)
-<use 35tonAnalysis/Figs/DriftVelocity-eps-converted-to.pdf>
-Package pdftex.def Info: 35tonAnalysis/Figs/DriftVelocity-eps-converted-to.pdf 
-used on input line 330.
-(pdftex.def)             Requested size: 209.97946pt x 151.0988pt.
-[74 <./35tonAnalysis/Figs/misalign_track_collection_geo-eps-converted-to.pdf> <
-./35tonAnalysis/Figs/misalign_track_collection_res-eps-converted-to.pdf>] [75 <
-./35tonAnalysis/Figs/misalign_track_wire_geo-eps-converted-to.pdf> <./35tonAnal
-ysis/Figs/misalign_track_wire_res-eps-converted-to.pdf> <./35tonAnalysis/Figs/m
-isalign_track_drift_geo-eps-converted-to.pdf> <./35tonAnalysis/Figs/misalign_tr
-ack_drift_res-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <35tonAnalysis/Figs/HitTimes.eps>
-(epstopdf)                    date: 2017-02-15 13:26:14
-(epstopdf)                    size: 16133 bytes
-(epstopdf)             Output file: <35tonAnalysis/Figs/HitTimes-eps-converted-
-to.pdf>
-(epstopdf)                    date: 2017-02-15 13:26:38
-(epstopdf)                    size: 11593 bytes
-(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/HitTime
-s-eps-converted-to.pdf 35tonAnalysis/Figs/HitTimes.eps>
-(epstopdf)             \includegraphics on input line 346.
-Package epstopdf Info: Output file is already uptodate.
-
-<35tonAnalysis/Figs/HitTimes-eps-converted-to.pdf, id=2309, 569.12625pt x 409.5
-3pt>
-File: 35tonAnalysis/Figs/HitTimes-eps-converted-to.pdf Graphic file (type pdf)
-<use 35tonAnalysis/Figs/HitTimes-eps-converted-to.pdf>
-Package pdftex.def Info: 35tonAnalysis/Figs/HitTimes-eps-converted-to.pdf used 
-on input line 346.
-(pdftex.def)             Requested size: 209.97946pt x 151.0988pt.
-Package epstopdf Info: Source file: <35tonAnalysis/Figs/HitTimesZoom.eps>
-(epstopdf)                    date: 2017-02-15 13:26:14
-(epstopdf)                    size: 8519 bytes
-(epstopdf)             Output file: <35tonAnalysis/Figs/HitTimesZoom-eps-conver
-ted-to.pdf>
-(epstopdf)                    date: 2017-02-15 13:26:41
-(epstopdf)                    size: 7061 bytes
-(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/HitTime
-sZoom-eps-converted-to.pdf 35tonAnalysis/Figs/HitTimesZoom.eps>
-(epstopdf)             \includegraphics on input line 353.
-Package epstopdf Info: Output file is already uptodate.
-
-<35tonAnalysis/Figs/HitTimesZoom-eps-converted-to.pdf, id=2310, 569.12625pt x 4
-09.53pt>
-File: 35tonAnalysis/Figs/HitTimesZoom-eps-converted-to.pdf Graphic file (type p
-df)
-<use 35tonAnalysis/Figs/HitTimesZoom-eps-converted-to.pdf>
-Package pdftex.def Info: 35tonAnalysis/Figs/HitTimesZoom-eps-converted-to.pdf u
-sed on input line 353.
-(pdftex.def)             Requested size: 209.97946pt x 151.0988pt.
-Package epstopdf Info: Source file: <35tonAnalysis/Figs/PTBRCEDiffTimestamps.ep
-s>
-(epstopdf)                    date: 2017-02-14 16:11:46
-(epstopdf)                    size: 9513 bytes
-(epstopdf)             Output file: <35tonAnalysis/Figs/PTBRCEDiffTimestamps-ep
-s-converted-to.pdf>
-(epstopdf)                    date: 2017-02-14 16:15:04
-(epstopdf)                    size: 8073 bytes
-(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/PTBRCED
-iffTimestamps-eps-converted-to.pdf 35tonAnalysis/Figs/PTBRCEDiffTimestamps.eps>
-
-(epstopdf)             \includegraphics on input line 365.
-Package epstopdf Info: Output file is already uptodate.
-
-<35tonAnalysis/Figs/PTBRCEDiffTimestamps-eps-converted-to.pdf, id=2314, 569.126
-25pt x 409.53pt>
-File: 35tonAnalysis/Figs/PTBRCEDiffTimestamps-eps-converted-to.pdf Graphic file
- (type pdf)
-<use 35tonAnalysis/Figs/PTBRCEDiffTimestamps-eps-converted-to.pdf>
-Package pdftex.def Info: 35tonAnalysis/Figs/PTBRCEDiffTimestamps-eps-converted-
-to.pdf used on input line 365.
-(pdftex.def)             Requested size: 341.43306pt x 245.69489pt.
-[76 <./35tonAnalysis/Figs/DistanceDriftTime-eps-converted-to.pdf> <./35tonAnaly
-sis/Figs/DriftVelocity-eps-converted-to.pdf>] [77 <./35tonAnalysis/Figs/HitTime
-s-eps-converted-to.pdf> <./35tonAnalysis/Figs/HitTimesZoom-eps-converted-to.pdf
-> <./35tonAnalysis/Figs/PTBRCEDiffTimestamps-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <35tonAnalysis/Figs/HitTimesMC.eps>
-(epstopdf)                    date: 2017-02-15 13:26:14
-(epstopdf)                    size: 16228 bytes
-(epstopdf)             Output file: <35tonAnalysis/Figs/HitTimesMC-eps-converte
-d-to.pdf>
-(epstopdf)                    date: 2017-02-15 13:26:44
-(epstopdf)                    size: 11680 bytes
-(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/HitTime
-sMC-eps-converted-to.pdf 35tonAnalysis/Figs/HitTimesMC.eps>
-(epstopdf)             \includegraphics on input line 387.
-Package epstopdf Info: Output file is already uptodate.
-
-<35tonAnalysis/Figs/HitTimesMC-eps-converted-to.pdf, id=2359, 569.12625pt x 409
-.53pt>
-File: 35tonAnalysis/Figs/HitTimesMC-eps-converted-to.pdf Graphic file (type pdf
-)
-<use 35tonAnalysis/Figs/HitTimesMC-eps-converted-to.pdf>
-Package pdftex.def Info: 35tonAnalysis/Figs/HitTimesMC-eps-converted-to.pdf use
-d on input line 387.
-(pdftex.def)             Requested size: 341.43306pt x 245.69489pt.
-[78]
-Package epstopdf Info: Source file: <35tonAnalysis/Figs/MeshHits.eps>
-(epstopdf)                    date: 2017-02-15 12:55:03
-(epstopdf)                    size: 154333 bytes
-(epstopdf)             Output file: <35tonAnalysis/Figs/MeshHits-eps-converted-
-to.pdf>
-(epstopdf)                    date: 2017-02-15 12:55:14
-(epstopdf)                    size: 150890 bytes
-(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/MeshHit
-s-eps-converted-to.pdf 35tonAnalysis/Figs/MeshHits.eps>
-(epstopdf)             \includegraphics on input line 399.
-Package epstopdf Info: Output file is already uptodate.
-
-<35tonAnalysis/Figs/MeshHits-eps-converted-to.pdf, id=2369, 492.84125pt x 576.1
-525pt>
-File: 35tonAnalysis/Figs/MeshHits-eps-converted-to.pdf Graphic file (type pdf)
-<use 35tonAnalysis/Figs/MeshHits-eps-converted-to.pdf>
-Package pdftex.def Info: 35tonAnalysis/Figs/MeshHits-eps-converted-to.pdf used 
-on input line 399.
-(pdftex.def)             Requested size: 341.43306pt x 399.17204pt.
-Package epstopdf Info: Source file: <35tonAnalysis/Figs/HitTimesAPA023.eps>
-(epstopdf)                    date: 2017-02-15 13:26:14
-(epstopdf)                    size: 9668 bytes
-(epstopdf)             Output file: <35tonAnalysis/Figs/HitTimesAPA023-eps-conv
-erted-to.pdf>
-(epstopdf)                    date: 2017-02-15 13:26:47
-(epstopdf)                    size: 7549 bytes
-(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/HitTime
-sAPA023-eps-converted-to.pdf 35tonAnalysis/Figs/HitTimesAPA023.eps>
-(epstopdf)             \includegraphics on input line 410.
-Package epstopdf Info: Output file is already uptodate.
-
-<35tonAnalysis/Figs/HitTimesAPA023-eps-converted-to.pdf, id=2371, 569.12625pt x
- 409.53pt>
-File: 35tonAnalysis/Figs/HitTimesAPA023-eps-converted-to.pdf Graphic file (type
- pdf)
-<use 35tonAnalysis/Figs/HitTimesAPA023-eps-converted-to.pdf>
-Package pdftex.def Info: 35tonAnalysis/Figs/HitTimesAPA023-eps-converted-to.pdf
- used on input line 410.
-(pdftex.def)             Requested size: 209.97946pt x 151.0988pt.
-Package epstopdf Info: Source file: <35tonAnalysis/Figs/HitTimesAPA1.eps>
-(epstopdf)                    date: 2017-02-15 13:26:14
-(epstopdf)                    size: 8782 bytes
-(epstopdf)             Output file: <35tonAnalysis/Figs/HitTimesAPA1-eps-conver
-ted-to.pdf>
-(epstopdf)                    date: 2017-02-15 13:26:50
-(epstopdf)                    size: 7079 bytes
-(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/HitTime
-sAPA1-eps-converted-to.pdf 35tonAnalysis/Figs/HitTimesAPA1.eps>
-(epstopdf)             \includegraphics on input line 417.
-Package epstopdf Info: Output file is already uptodate.
-
-<35tonAnalysis/Figs/HitTimesAPA1-eps-converted-to.pdf, id=2372, 569.12625pt x 4
-09.53pt>
-File: 35tonAnalysis/Figs/HitTimesAPA1-eps-converted-to.pdf Graphic file (type p
-df)
-<use 35tonAnalysis/Figs/HitTimesAPA1-eps-converted-to.pdf>
-Package pdftex.def Info: 35tonAnalysis/Figs/HitTimesAPA1-eps-converted-to.pdf u
-sed on input line 417.
-(pdftex.def)             Requested size: 209.97946pt x 151.0988pt.
-Package epstopdf Info: Source file: <35tonAnalysis/Figs/HitTimesFrame.eps>
-(epstopdf)                    date: 2017-02-15 14:18:49
-(epstopdf)                    size: 13024 bytes
-(epstopdf)             Output file: <35tonAnalysis/Figs/HitTimesFrame-eps-conve
-rted-to.pdf>
-(epstopdf)                    date: 2017-02-15 14:18:59
-(epstopdf)                    size: 10214 bytes
-(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/HitTime
-sFrame-eps-converted-to.pdf 35tonAnalysis/Figs/HitTimesFrame.eps>
-(epstopdf)             \includegraphics on input line 429.
-Package epstopdf Info: Output file is already uptodate.
-
-<35tonAnalysis/Figs/HitTimesFrame-eps-converted-to.pdf, id=2376, 569.12625pt x 
-409.53pt>
-File: 35tonAnalysis/Figs/HitTimesFrame-eps-converted-to.pdf Graphic file (type 
-pdf)
-<use 35tonAnalysis/Figs/HitTimesFrame-eps-converted-to.pdf>
-Package pdftex.def Info: 35tonAnalysis/Figs/HitTimesFrame-eps-converted-to.pdf 
-used on input line 429.
-(pdftex.def)             Requested size: 284.52756pt x 204.74574pt.
-[79 <./35tonAnalysis/Figs/HitTimesMC-eps-converted-to.pdf>] [80 <./35tonAnalysi
-s/Figs/MeshHits-eps-converted-to.pdf>] [81 <./35tonAnalysis/Figs/HitTimesAPA023
--eps-converted-to.pdf> <./35tonAnalysis/Figs/HitTimesAPA1-eps-converted-to.pdf>
- <./35tonAnalysis/Figs/HitTimesFrame-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <35tonAnalysis/Figs/HitChargeInteraction.ep
-s>
-(epstopdf)                    date: 2017-02-15 18:09:42
-(epstopdf)                    size: 9250 bytes
-(epstopdf)             Output file: <35tonAnalysis/Figs/HitChargeInteraction-ep
-s-converted-to.pdf>
-(epstopdf)                    date: 2017-02-16 09:05:00
-(epstopdf)                    size: 7156 bytes
-(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/HitChar
-geInteraction-eps-converted-to.pdf 35tonAnalysis/Figs/HitChargeInteraction.eps>
-
-(epstopdf)             \includegraphics on input line 440.
-Package epstopdf Info: Output file is already uptodate.
-
-<35tonAnalysis/Figs/HitChargeInteraction-eps-converted-to.pdf, id=2418, 569.126
-25pt x 409.53pt>
-File: 35tonAnalysis/Figs/HitChargeInteraction-eps-converted-to.pdf Graphic file
- (type pdf)
-<use 35tonAnalysis/Figs/HitChargeInteraction-eps-converted-to.pdf>
-Package pdftex.def Info: 35tonAnalysis/Figs/HitChargeInteraction-eps-converted-
-to.pdf used on input line 440.
-(pdftex.def)             Requested size: 209.97946pt x 151.0988pt.
-Package epstopdf Info: Source file: <35tonAnalysis/Figs/HitChargeNonInteraction
-.eps>
-(epstopdf)                    date: 2017-02-15 18:09:42
-(epstopdf)                    size: 9565 bytes
-(epstopdf)             Output file: <35tonAnalysis/Figs/HitChargeNonInteraction
--eps-converted-to.pdf>
-(epstopdf)                    date: 2017-02-16 09:05:03
-(epstopdf)                    size: 7303 bytes
-(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/HitChar
-geNonInteraction-eps-converted-to.pdf 35tonAnalysis/Figs/HitChargeNonInteractio
-n.eps>
-(epstopdf)             \includegraphics on input line 447.
-Package epstopdf Info: Output file is already uptodate.
-
-<35tonAnalysis/Figs/HitChargeNonInteraction-eps-converted-to.pdf, id=2419, 569.
-12625pt x 409.53pt>
-File: 35tonAnalysis/Figs/HitChargeNonInteraction-eps-converted-to.pdf Graphic f
-ile (type pdf)
-<use 35tonAnalysis/Figs/HitChargeNonInteraction-eps-converted-to.pdf>
-Package pdftex.def Info: 35tonAnalysis/Figs/HitChargeNonInteraction-eps-convert
-ed-to.pdf used on input line 447.
-(pdftex.def)             Requested size: 209.97946pt x 151.0988pt.
-
-LaTeX Warning: Reference `fig:HookEVDBig' on page 82 undefined on input line 46
-0.
-
-[82 <./35tonAnalysis/Figs/HitChargeInteraction-eps-converted-to.pdf> <./35tonAn
-alysis/Figs/HitChargeNonInteraction-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <35tonAnalysis/Figs/DriftVelocityDiffGeo.ep
-s>
-(epstopdf)                    date: 2017-02-16 15:12:55
-(epstopdf)                    size: 37775 bytes
-(epstopdf)             Output file: <35tonAnalysis/Figs/DriftVelocityDiffGeo-ep
-s-converted-to.pdf>
-(epstopdf)                    date: 2017-02-16 15:13:31
-(epstopdf)                    size: 15982 bytes
-(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/DriftVe
-locityDiffGeo-eps-converted-to.pdf 35tonAnalysis/Figs/DriftVelocityDiffGeo.eps>
-
-(epstopdf)             \includegraphics on input line 473.
-Package epstopdf Info: Output file is already uptodate.
-
-<35tonAnalysis/Figs/DriftVelocityDiffGeo-eps-converted-to.pdf, id=2437, 418.563
-75pt x 191.71625pt>
-File: 35tonAnalysis/Figs/DriftVelocityDiffGeo-eps-converted-to.pdf Graphic file
- (type pdf)
-<use 35tonAnalysis/Figs/DriftVelocityDiffGeo-eps-converted-to.pdf>
-Package pdftex.def Info: 35tonAnalysis/Figs/DriftVelocityDiffGeo-eps-converted-
-to.pdf used on input line 473.
-(pdftex.def)             Requested size: 209.97946pt x 96.17674pt.
-Package epstopdf Info: Source file: <35tonAnalysis/Figs/DriftVelocityDiffRes.ep
-s>
-(epstopdf)                    date: 2017-02-17 13:47:26
-(epstopdf)                    size: 8473 bytes
-(epstopdf)             Output file: <35tonAnalysis/Figs/DriftVelocityDiffRes-ep
-s-converted-to.pdf>
-(epstopdf)                    date: 2017-02-17 13:47:37
-(epstopdf)                    size: 8448 bytes
-(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/DriftVe
-locityDiffRes-eps-converted-to.pdf 35tonAnalysis/Figs/DriftVelocityDiffRes.eps>
-
-(epstopdf)             \includegraphics on input line 480.
-Package epstopdf Info: Output file is already uptodate.
-
-<35tonAnalysis/Figs/DriftVelocityDiffRes-eps-converted-to.pdf, id=2438, 569.126
-25pt x 409.53pt>
-File: 35tonAnalysis/Figs/DriftVelocityDiffRes-eps-converted-to.pdf Graphic file
- (type pdf)
-<use 35tonAnalysis/Figs/DriftVelocityDiffRes-eps-converted-to.pdf>
-Package pdftex.def Info: 35tonAnalysis/Figs/DriftVelocityDiffRes-eps-converted-
-to.pdf used on input line 480.
-(pdftex.def)             Requested size: 209.97946pt x 151.0988pt.
-
-LaTeX Warning: Reference `fig:CollectionPlaneNoise' on page 83 undefined on inp
-ut line 488.
-
+tselection_final-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/apa_gap.eps>
 (epstopdf)                    date: 2017-03-15 10:15:33
 (epstopdf)                    size: 22885 bytes
@@ -3349,18 +1624,17 @@ o.pdf>
 (epstopdf)                    size: 10681 bytes
 (epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/apa_gap
 -eps-converted-to.pdf 35tonAnalysis/Figs/apa_gap.eps>
-(epstopdf)             \includegraphics on input line 504.
+(epstopdf)             \includegraphics on input line 167.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/apa_gap-eps-converted-to.pdf, id=2440, 388.45125pt x 262.98
-25pt>
+<35tonAnalysis/Figs/apa_gap-eps-converted-to.pdf, id=254, 388.45125pt x 262.982
+5pt>
 File: 35tonAnalysis/Figs/apa_gap-eps-converted-to.pdf Graphic file (type pdf)
 <use 35tonAnalysis/Figs/apa_gap-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/apa_gap-eps-converted-to.pdf used o
-n input line 504.
-(pdftex.def)             Requested size: 341.43306pt x 231.15645pt.
-[83 <./35tonAnalysis/Figs/DriftVelocityDiffGeo-eps-converted-to.pdf> <./35tonAn
-alysis/Figs/DriftVelocityDiffRes-eps-converted-to.pdf>]
+n input line 167.
+(pdftex.def)             Requested size: 227.62204pt x 154.10295pt.
+[69]
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/apa_gap_zoffset.eps>
 (epstopdf)                    date: 2017-03-15 10:15:33
 (epstopdf)                    size: 22990 bytes
@@ -3370,16 +1644,16 @@ verted-to.pdf>
 (epstopdf)                    size: 10710 bytes
 (epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/apa_gap
 _zoffset-eps-converted-to.pdf 35tonAnalysis/Figs/apa_gap_zoffset.eps>
-(epstopdf)             \includegraphics on input line 524.
+(epstopdf)             \includegraphics on input line 187.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/apa_gap_zoffset-eps-converted-to.pdf, id=2465, 388.45125pt 
-x 264.99pt>
+<35tonAnalysis/Figs/apa_gap_zoffset-eps-converted-to.pdf, id=271, 388.45125pt x
+ 264.99pt>
 File: 35tonAnalysis/Figs/apa_gap_zoffset-eps-converted-to.pdf Graphic file (typ
 e pdf)
 <use 35tonAnalysis/Figs/apa_gap_zoffset-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/apa_gap_zoffset-eps-converted-to.pd
-f used on input line 524.
+f used on input line 187.
 (pdftex.def)             Requested size: 193.18071pt x 131.78302pt.
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/apa_gap_zoffset_fix.eps
 >
@@ -3391,67 +1665,69 @@ Package epstopdf Info: Source file: <35tonAnalysis/Figs/apa_gap_zoffset_fix.eps
 (epstopdf)                    size: 11070 bytes
 (epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/apa_gap
 _zoffset_fix-eps-converted-to.pdf 35tonAnalysis/Figs/apa_gap_zoffset_fix.eps>
-(epstopdf)             \includegraphics on input line 531.
+(epstopdf)             \includegraphics on input line 194.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/apa_gap_zoffset_fix-eps-converted-to.pdf, id=2466, 417.56pt
- x 264.99pt>
+<35tonAnalysis/Figs/apa_gap_zoffset_fix-eps-converted-to.pdf, id=272, 417.56pt 
+x 264.99pt>
 File: 35tonAnalysis/Figs/apa_gap_zoffset_fix-eps-converted-to.pdf Graphic file 
 (type pdf)
 <use 35tonAnalysis/Figs/apa_gap_zoffset_fix-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/apa_gap_zoffset_fix-eps-converted-t
-o.pdf used on input line 531.
+o.pdf used on input line 194.
 (pdftex.def)             Requested size: 205.77896pt x 130.59427pt.
 
-LaTeX Warning: Reference `fig:APAGapCrossingGaps' on page 84 undefined on input
- line 539.
+LaTeX Warning: Reference `fig:APAGapCrossingGaps' on page 70 undefined on input
+ line 202.
 
-[84 <./35tonAnalysis/Figs/apa_gap-eps-converted-to.pdf>]
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 206.
 
-LaTeX Warning: Reference `fig:35tonCounters' on page 85 undefined on input line
- 546.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+) [70 <./35tonAnalysis/Figs/apa_gap-eps-converted-to.pdf>]
 
-[85 <./35tonAnalysis/Figs/apa_gap_zoffset-eps-converted-to.pdf> <./35tonAnalysi
-s/Figs/apa_gap_zoffset_fix-eps-converted-to.pdf>]
+LaTeX Warning: Reference `fig:35tonCounters' on page 71 undefined on input line
+ 209.
+
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/TPC5TPC7Gap.eps>
-(epstopdf)                    date: 2017-03-15 10:36:10
-(epstopdf)                    size: 9572 bytes
+(epstopdf)                    date: 2017-03-30 13:09:32
+(epstopdf)                    size: 10424 bytes
 (epstopdf)             Output file: <35tonAnalysis/Figs/TPC5TPC7Gap-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2017-03-15 10:36:23
-(epstopdf)                    size: 7882 bytes
+(epstopdf)                    date: 2017-03-30 13:09:46
+(epstopdf)                    size: 8241 bytes
 (epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/TPC5TPC
 7Gap-eps-converted-to.pdf 35tonAnalysis/Figs/TPC5TPC7Gap.eps>
-(epstopdf)             \includegraphics on input line 558.
+(epstopdf)             \includegraphics on input line 221.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/TPC5TPC7Gap-eps-converted-to.pdf, id=2499, 569.12625pt x 40
-9.53pt>
+<35tonAnalysis/Figs/TPC5TPC7Gap-eps-converted-to.pdf, id=291, 569.12625pt x 409
+.53pt>
 File: 35tonAnalysis/Figs/TPC5TPC7Gap-eps-converted-to.pdf Graphic file (type pd
 f)
 <use 35tonAnalysis/Figs/TPC5TPC7Gap-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/TPC5TPC7Gap-eps-converted-to.pdf us
-ed on input line 558.
+ed on input line 221.
 (pdftex.def)             Requested size: 209.97946pt x 151.0988pt.
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/TPC5TPC7GapAngle.eps>
-(epstopdf)                    date: 2017-03-15 10:36:10
-(epstopdf)                    size: 11365 bytes
+(epstopdf)                    date: 2017-03-30 13:09:32
+(epstopdf)                    size: 12286 bytes
 (epstopdf)             Output file: <35tonAnalysis/Figs/TPC5TPC7GapAngle-eps-co
 nverted-to.pdf>
-(epstopdf)                    date: 2017-03-15 10:36:26
-(epstopdf)                    size: 8726 bytes
+(epstopdf)                    date: 2017-03-30 13:09:49
+(epstopdf)                    size: 9208 bytes
 (epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/TPC5TPC
 7GapAngle-eps-converted-to.pdf 35tonAnalysis/Figs/TPC5TPC7GapAngle.eps>
-(epstopdf)             \includegraphics on input line 565.
+(epstopdf)             \includegraphics on input line 228.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/TPC5TPC7GapAngle-eps-converted-to.pdf, id=2500, 569.12625pt
- x 409.53pt>
+<35tonAnalysis/Figs/TPC5TPC7GapAngle-eps-converted-to.pdf, id=292, 569.12625pt 
+x 409.53pt>
 File: 35tonAnalysis/Figs/TPC5TPC7GapAngle-eps-converted-to.pdf Graphic file (ty
 pe pdf)
 <use 35tonAnalysis/Figs/TPC5TPC7GapAngle-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/TPC5TPC7GapAngle-eps-converted-to.p
-df used on input line 565.
+df used on input line 228.
 (pdftex.def)             Requested size: 209.97946pt x 151.0988pt.
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/apa_gap_xoffset_pos.eps
 >
@@ -3463,16 +1739,16 @@ Package epstopdf Info: Source file: <35tonAnalysis/Figs/apa_gap_xoffset_pos.eps
 (epstopdf)                    size: 13986 bytes
 (epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/apa_gap
 _xoffset_pos-eps-converted-to.pdf 35tonAnalysis/Figs/apa_gap_xoffset_pos.eps>
-(epstopdf)             \includegraphics on input line 579.
+(epstopdf)             \includegraphics on input line 242.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/apa_gap_xoffset_pos-eps-converted-to.pdf, id=2505, 455.7025
-pt x 262.9825pt>
+<35tonAnalysis/Figs/apa_gap_xoffset_pos-eps-converted-to.pdf, id=297, 455.7025p
+t x 262.9825pt>
 File: 35tonAnalysis/Figs/apa_gap_xoffset_pos-eps-converted-to.pdf Graphic file 
 (type pdf)
 <use 35tonAnalysis/Figs/apa_gap_xoffset_pos-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/apa_gap_xoffset_pos-eps-converted-t
-o.pdf used on input line 579.
+o.pdf used on input line 242.
 (pdftex.def)             Requested size: 205.77896pt x 118.75433pt.
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/apa_gap_xoffset_neg.eps
 >
@@ -3484,16 +1760,16 @@ Package epstopdf Info: Source file: <35tonAnalysis/Figs/apa_gap_xoffset_neg.eps
 (epstopdf)                    size: 13414 bytes
 (epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/apa_gap
 _xoffset_neg-eps-converted-to.pdf 35tonAnalysis/Figs/apa_gap_xoffset_neg.eps>
-(epstopdf)             \includegraphics on input line 586.
+(epstopdf)             \includegraphics on input line 249.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/apa_gap_xoffset_neg-eps-converted-to.pdf, id=2506, 455.7025
-pt x 264.99pt>
+<35tonAnalysis/Figs/apa_gap_xoffset_neg-eps-converted-to.pdf, id=298, 455.7025p
+t x 264.99pt>
 File: 35tonAnalysis/Figs/apa_gap_xoffset_neg-eps-converted-to.pdf Graphic file 
 (type pdf)
 <use 35tonAnalysis/Figs/apa_gap_xoffset_neg-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/apa_gap_xoffset_neg-eps-converted-t
-o.pdf used on input line 586.
+o.pdf used on input line 249.
 (pdftex.def)             Requested size: 205.77896pt x 119.66086pt.
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/apa_gap_xoffset_pos_fix
 .eps>
@@ -3506,16 +1782,16 @@ Package epstopdf Info: Source file: <35tonAnalysis/Figs/apa_gap_xoffset_pos_fix
 (epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/apa_gap
 _xoffset_pos_fix-eps-converted-to.pdf 35tonAnalysis/Figs/apa_gap_xoffset_pos_fi
 x.eps>
-(epstopdf)             \includegraphics on input line 593.
+(epstopdf)             \includegraphics on input line 256.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/apa_gap_xoffset_pos_fix-eps-converted-to.pdf, id=2507, 420.
-57124pt x 262.9825pt>
+<35tonAnalysis/Figs/apa_gap_xoffset_pos_fix-eps-converted-to.pdf, id=299, 420.5
+7124pt x 262.9825pt>
 File: 35tonAnalysis/Figs/apa_gap_xoffset_pos_fix-eps-converted-to.pdf Graphic f
 ile (type pdf)
 <use 35tonAnalysis/Figs/apa_gap_xoffset_pos_fix-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/apa_gap_xoffset_pos_fix-eps-convert
-ed-to.pdf used on input line 593.
+ed-to.pdf used on input line 256.
 (pdftex.def)             Requested size: 205.77896pt x 128.67393pt.
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/apa_gap_xoffset_neg_fix
 .eps>
@@ -3528,138 +1804,140 @@ Package epstopdf Info: Source file: <35tonAnalysis/Figs/apa_gap_xoffset_neg_fix
 (epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/apa_gap
 _xoffset_neg_fix-eps-converted-to.pdf 35tonAnalysis/Figs/apa_gap_xoffset_neg_fi
 x.eps>
-(epstopdf)             \includegraphics on input line 600.
+(epstopdf)             \includegraphics on input line 263.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/apa_gap_xoffset_neg_fix-eps-converted-to.pdf, id=2508, 471.
-7625pt x 264.99pt>
+<35tonAnalysis/Figs/apa_gap_xoffset_neg_fix-eps-converted-to.pdf, id=300, 471.7
+625pt x 264.99pt>
 File: 35tonAnalysis/Figs/apa_gap_xoffset_neg_fix-eps-converted-to.pdf Graphic f
 ile (type pdf)
 <use 35tonAnalysis/Figs/apa_gap_xoffset_neg_fix-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/apa_gap_xoffset_neg_fix-eps-convert
-ed-to.pdf used on input line 600.
+ed-to.pdf used on input line 263.
 (pdftex.def)             Requested size: 205.77896pt x 115.58914pt.
+[71 <./35tonAnalysis/Figs/apa_gap_zoffset-eps-converted-to.pdf> <./35tonAnalysi
+s/Figs/apa_gap_zoffset_fix-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/TPC5TPC7MCZOffset.eps>
-(epstopdf)                    date: 2017-03-15 10:36:10
+(epstopdf)                    date: 2017-03-30 13:09:32
 (epstopdf)                    size: 10345 bytes
 (epstopdf)             Output file: <35tonAnalysis/Figs/TPC5TPC7MCZOffset-eps-c
 onverted-to.pdf>
-(epstopdf)                    date: 2017-03-15 10:36:29
-(epstopdf)                    size: 9125 bytes
+(epstopdf)                    date: 2017-03-30 13:09:52
+(epstopdf)                    size: 9135 bytes
 (epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/TPC5TPC
 7MCZOffset-eps-converted-to.pdf 35tonAnalysis/Figs/TPC5TPC7MCZOffset.eps>
-(epstopdf)             \includegraphics on input line 612.
+(epstopdf)             \includegraphics on input line 275.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/TPC5TPC7MCZOffset-eps-converted-to.pdf, id=2523, 569.12625p
-t x 409.53pt>
+<35tonAnalysis/Figs/TPC5TPC7MCZOffset-eps-converted-to.pdf, id=335, 569.12625pt
+ x 409.53pt>
 File: 35tonAnalysis/Figs/TPC5TPC7MCZOffset-eps-converted-to.pdf Graphic file (t
 ype pdf)
 <use 35tonAnalysis/Figs/TPC5TPC7MCZOffset-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/TPC5TPC7MCZOffset-eps-converted-to.
-pdf used on input line 612.
+pdf used on input line 275.
 (pdftex.def)             Requested size: 227.48164pt x 163.69035pt.
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOffse
 t.eps>
-(epstopdf)                    date: 2017-03-15 10:36:10
+(epstopdf)                    date: 2017-03-30 13:09:32
 (epstopdf)                    size: 9317 bytes
 (epstopdf)             Output file: <35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOffse
 t-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-03-15 10:36:32
-(epstopdf)                    size: 8949 bytes
+(epstopdf)                    date: 2017-03-30 13:09:56
+(epstopdf)                    size: 8959 bytes
 (epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/TPC5TPC
 7MCXOffsetZOffset-eps-converted-to.pdf 35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOff
 set.eps>
-(epstopdf)             \includegraphics on input line 619.
+(epstopdf)             \includegraphics on input line 282.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOffset-eps-converted-to.pdf, id=2524, 569
-.12625pt x 409.53pt>
+<35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOffset-eps-converted-to.pdf, id=336, 569.
+12625pt x 409.53pt>
 File: 35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOffset-eps-converted-to.pdf Graphic 
 file (type pdf)
 <use 35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOffset-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOffset-eps-conver
-ted-to.pdf used on input line 619.
+ted-to.pdf used on input line 282.
 (pdftex.def)             Requested size: 214.35834pt x 154.24825pt.
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOffse
 tAngle.eps>
-(epstopdf)                    date: 2017-03-15 10:36:10
+(epstopdf)                    date: 2017-03-30 13:09:32
 (epstopdf)                    size: 12191 bytes
 (epstopdf)             Output file: <35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOffse
 tAngle-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-03-15 10:36:36
-(epstopdf)                    size: 10459 bytes
+(epstopdf)                    date: 2017-03-30 13:10:00
+(epstopdf)                    size: 10469 bytes
 (epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/TPC5TPC
 7MCXOffsetZOffsetAngle-eps-converted-to.pdf 35tonAnalysis/Figs/TPC5TPC7MCXOffse
 tZOffsetAngle.eps>
-(epstopdf)             \includegraphics on input line 626.
+(epstopdf)             \includegraphics on input line 289.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOffsetAngle-eps-converted-to.pdf, id=2525
-, 569.12625pt x 409.53pt>
+<35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOffsetAngle-eps-converted-to.pdf, id=337,
+ 569.12625pt x 409.53pt>
 File: 35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOffsetAngle-eps-converted-to.pdf Gra
 phic file (type pdf)
 <use 35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOffsetAngle-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOffsetAngle-eps-c
-onverted-to.pdf used on input line 626.
+onverted-to.pdf used on input line 289.
 (pdftex.def)             Requested size: 214.35834pt x 154.24825pt.
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/TPC5TPC7MCZOffset.eps>
-(epstopdf)                    date: 2017-03-15 10:36:10
+(epstopdf)                    date: 2017-03-30 13:09:32
 (epstopdf)                    size: 10345 bytes
 (epstopdf)             Output file: <35tonAnalysis/Figs/TPC5TPC7MCZOffset-eps-c
 onverted-to.pdf>
-(epstopdf)                    date: 2017-03-15 10:36:29
-(epstopdf)                    size: 9125 bytes
+(epstopdf)                    date: 2017-03-30 13:09:52
+(epstopdf)                    size: 9135 bytes
 (epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/TPC5TPC
 7MCZOffset-eps-converted-to.pdf 35tonAnalysis/Figs/TPC5TPC7MCZOffset.eps>
-(epstopdf)             \includegraphics on input line 638.
+(epstopdf)             \includegraphics on input line 301.
 Package epstopdf Info: Output file is already uptodate.
 File: 35tonAnalysis/Figs/TPC5TPC7MCZOffset-eps-converted-to.pdf Graphic file (t
 ype pdf)
 <use 35tonAnalysis/Figs/TPC5TPC7MCZOffset-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/TPC5TPC7MCZOffset-eps-converted-to.
-pdf used on input line 638.
+pdf used on input line 301.
 (pdftex.def)             Requested size: 227.62204pt x 163.79034pt.
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOffse
 t.eps>
-(epstopdf)                    date: 2017-03-15 10:36:10
+(epstopdf)                    date: 2017-03-30 13:09:32
 (epstopdf)                    size: 9317 bytes
 (epstopdf)             Output file: <35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOffse
 t-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-03-15 10:36:32
-(epstopdf)                    size: 8949 bytes
+(epstopdf)                    date: 2017-03-30 13:09:56
+(epstopdf)                    size: 8959 bytes
 (epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/TPC5TPC
 7MCXOffsetZOffset-eps-converted-to.pdf 35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOff
 set.eps>
-(epstopdf)             \includegraphics on input line 645.
+(epstopdf)             \includegraphics on input line 308.
 Package epstopdf Info: Output file is already uptodate.
 File: 35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOffset-eps-converted-to.pdf Graphic 
 file (type pdf)
 <use 35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOffset-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOffset-eps-conver
-ted-to.pdf used on input line 645.
+ted-to.pdf used on input line 308.
 (pdftex.def)             Requested size: 227.62204pt x 163.79034pt.
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOffse
 tAngle.eps>
-(epstopdf)                    date: 2017-03-15 10:36:10
+(epstopdf)                    date: 2017-03-30 13:09:32
 (epstopdf)                    size: 12191 bytes
 (epstopdf)             Output file: <35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOffse
 tAngle-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-03-15 10:36:36
-(epstopdf)                    size: 10459 bytes
+(epstopdf)                    date: 2017-03-30 13:10:00
+(epstopdf)                    size: 10469 bytes
 (epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/TPC5TPC
 7MCXOffsetZOffsetAngle-eps-converted-to.pdf 35tonAnalysis/Figs/TPC5TPC7MCXOffse
 tZOffsetAngle.eps>
-(epstopdf)             \includegraphics on input line 652.
+(epstopdf)             \includegraphics on input line 315.
 Package epstopdf Info: Output file is already uptodate.
 File: 35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOffsetAngle-eps-converted-to.pdf Gra
 phic file (type pdf)
 <use 35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOffsetAngle-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOffsetAngle-eps-c
-onverted-to.pdf used on input line 652.
+onverted-to.pdf used on input line 315.
 (pdftex.def)             Requested size: 227.62204pt x 163.79034pt.
 
-LaTeX Warning: Float too large for page by 29.88586pt on input line 658.
+LaTeX Warning: Float too large for page by 29.88586pt on input line 321.
 
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/apa_gap_xoffset_zoffset
 _pos.eps>
@@ -3672,16 +1950,16 @@ _pos-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/apa_gap
 _xoffset_zoffset_pos-eps-converted-to.pdf 35tonAnalysis/Figs/apa_gap_xoffset_zo
 ffset_pos.eps>
-(epstopdf)             \includegraphics on input line 670.
+(epstopdf)             \includegraphics on input line 333.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/apa_gap_xoffset_zoffset_pos-eps-converted-to.pdf, id=2545, 
-471.7625pt x 301.125pt>
+<35tonAnalysis/Figs/apa_gap_xoffset_zoffset_pos-eps-converted-to.pdf, id=357, 4
+71.7625pt x 301.125pt>
 File: 35tonAnalysis/Figs/apa_gap_xoffset_zoffset_pos-eps-converted-to.pdf Graph
 ic file (type pdf)
 <use 35tonAnalysis/Figs/apa_gap_xoffset_zoffset_pos-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/apa_gap_xoffset_zoffset_pos-eps-con
-verted-to.pdf used on input line 670.
+verted-to.pdf used on input line 333.
 (pdftex.def)             Requested size: 205.77896pt x 131.3513pt.
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/apa_gap_xoffset_zoffset
 _neg.eps>
@@ -3694,16 +1972,16 @@ _neg-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/apa_gap
 _xoffset_zoffset_neg-eps-converted-to.pdf 35tonAnalysis/Figs/apa_gap_xoffset_zo
 ffset_neg.eps>
-(epstopdf)             \includegraphics on input line 677.
+(epstopdf)             \includegraphics on input line 340.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/apa_gap_xoffset_zoffset_neg-eps-converted-to.pdf, id=2546, 
-471.7625pt x 314.17375pt>
+<35tonAnalysis/Figs/apa_gap_xoffset_zoffset_neg-eps-converted-to.pdf, id=358, 4
+71.7625pt x 314.17375pt>
 File: 35tonAnalysis/Figs/apa_gap_xoffset_zoffset_neg-eps-converted-to.pdf Graph
 ic file (type pdf)
 <use 35tonAnalysis/Figs/apa_gap_xoffset_zoffset_neg-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/apa_gap_xoffset_zoffset_neg-eps-con
-verted-to.pdf used on input line 677.
+verted-to.pdf used on input line 340.
 (pdftex.def)             Requested size: 205.77896pt x 137.04318pt.
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/apa_gap_xoffset_zoffset
 _pos_fix.eps>
@@ -3716,16 +1994,16 @@ _pos_fix-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/apa_gap
 _xoffset_zoffset_pos_fix-eps-converted-to.pdf 35tonAnalysis/Figs/apa_gap_xoffse
 t_zoffset_pos_fix.eps>
-(epstopdf)             \includegraphics on input line 684.
+(epstopdf)             \includegraphics on input line 347.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/apa_gap_xoffset_zoffset_pos_fix-eps-converted-to.pdf, id=25
-47, 426.59375pt x 301.125pt>
+<35tonAnalysis/Figs/apa_gap_xoffset_zoffset_pos_fix-eps-converted-to.pdf, id=35
+9, 426.59375pt x 301.125pt>
 File: 35tonAnalysis/Figs/apa_gap_xoffset_zoffset_pos_fix-eps-converted-to.pdf G
 raphic file (type pdf)
 <use 35tonAnalysis/Figs/apa_gap_xoffset_zoffset_pos_fix-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/apa_gap_xoffset_zoffset_pos_fix-eps
--converted-to.pdf used on input line 684.
+-converted-to.pdf used on input line 347.
 (pdftex.def)             Requested size: 205.77896pt x 145.25974pt.
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/apa_gap_xoffset_zoffset
 _neg_fix.eps>
@@ -3738,170 +2016,821 @@ _neg_fix-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/apa_gap
 _xoffset_zoffset_neg_fix-eps-converted-to.pdf 35tonAnalysis/Figs/apa_gap_xoffse
 t_zoffset_neg_fix.eps>
-(epstopdf)             \includegraphics on input line 691.
+(epstopdf)             \includegraphics on input line 354.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/apa_gap_xoffset_zoffset_neg_fix-eps-converted-to.pdf, id=25
-48, 484.81125pt x 314.17375pt>
+<35tonAnalysis/Figs/apa_gap_xoffset_zoffset_neg_fix-eps-converted-to.pdf, id=36
+0, 484.81125pt x 314.17375pt>
 File: 35tonAnalysis/Figs/apa_gap_xoffset_zoffset_neg_fix-eps-converted-to.pdf G
 raphic file (type pdf)
 <use 35tonAnalysis/Figs/apa_gap_xoffset_zoffset_neg_fix-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/apa_gap_xoffset_zoffset_neg_fix-eps
--converted-to.pdf used on input line 691.
+-converted-to.pdf used on input line 354.
 (pdftex.def)             Requested size: 205.77896pt x 133.35188pt.
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/TPC5TPC7GapFit.eps>
-(epstopdf)                    date: 2017-03-15 10:36:10
-(epstopdf)                    size: 10707 bytes
+(epstopdf)                    date: 2017-03-30 13:09:32
+(epstopdf)                    size: 11560 bytes
 (epstopdf)             Output file: <35tonAnalysis/Figs/TPC5TPC7GapFit-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2017-03-15 10:36:39
-(epstopdf)                    size: 8397 bytes
+(epstopdf)                    date: 2017-03-30 13:10:03
+(epstopdf)                    size: 8764 bytes
 (epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/TPC5TPC
 7GapFit-eps-converted-to.pdf 35tonAnalysis/Figs/TPC5TPC7GapFit.eps>
-(epstopdf)             \includegraphics on input line 701.
+(epstopdf)             \includegraphics on input line 364.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/TPC5TPC7GapFit-eps-converted-to.pdf, id=2551, 569.12625pt x
- 409.53pt>
+<35tonAnalysis/Figs/TPC5TPC7GapFit-eps-converted-to.pdf, id=363, 569.12625pt x 
+409.53pt>
 File: 35tonAnalysis/Figs/TPC5TPC7GapFit-eps-converted-to.pdf Graphic file (type
  pdf)
 <use 35tonAnalysis/Figs/TPC5TPC7GapFit-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/TPC5TPC7GapFit-eps-converted-to.pdf
- used on input line 701.
+ used on input line 364.
 (pdftex.def)             Requested size: 341.43306pt x 245.69489pt.
-[86 <./35tonAnalysis/Figs/TPC5TPC7Gap-eps-converted-to.pdf> <./35tonAnalysis/Fi
-gs/TPC5TPC7GapAngle-eps-converted-to.pdf>] [87 <./35tonAnalysis/Figs/apa_gap_xo
-ffset_pos-eps-converted-to.pdf> <./35tonAnalysis/Figs/apa_gap_xoffset_neg-eps-c
-onverted-to.pdf> <./35tonAnalysis/Figs/apa_gap_xoffset_pos_fix-eps-converted-to
-.pdf> <./35tonAnalysis/Figs/apa_gap_xoffset_neg_fix-eps-converted-to.pdf>] [88 
-<./35tonAnalysis/Figs/TPC5TPC7MCZOffset-eps-converted-to.pdf> <./35tonAnalysis/
-Figs/TPC5TPC7MCXOffsetZOffset-eps-converted-to.pdf> <./35tonAnalysis/Figs/TPC5T
-PC7MCXOffsetZOffsetAngle-eps-converted-to.pdf>] [89] [90 <./35tonAnalysis/Figs/
-apa_gap_xoffset_zoffset_pos-eps-converted-to.pdf> <./35tonAnalysis/Figs/apa_gap
-_xoffset_zoffset_neg-eps-converted-to.pdf> <./35tonAnalysis/Figs/apa_gap_xoffse
-t_zoffset_pos_fix-eps-converted-to.pdf> <./35tonAnalysis/Figs/apa_gap_xoffset_z
-offset_neg_fix-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/TPC5TPC7XOff.eps>
-(epstopdf)                    date: 2017-03-15 10:36:10
-(epstopdf)                    size: 10600 bytes
+(epstopdf)                    date: 2017-03-30 13:09:32
+(epstopdf)                    size: 10241 bytes
 (epstopdf)             Output file: <35tonAnalysis/Figs/TPC5TPC7XOff-eps-conver
 ted-to.pdf>
-(epstopdf)                    date: 2017-03-15 11:05:40
-(epstopdf)                    size: 8150 bytes
+(epstopdf)                    date: 2017-03-30 13:10:07
+(epstopdf)                    size: 8005 bytes
 (epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/TPC5TPC
 7XOff-eps-converted-to.pdf 35tonAnalysis/Figs/TPC5TPC7XOff.eps>
-(epstopdf)             \includegraphics on input line 710.
+(epstopdf)             \includegraphics on input line 373.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/TPC5TPC7XOff-eps-converted-to.pdf, id=2697, 569.12625pt x 4
-09.53pt>
+<35tonAnalysis/Figs/TPC5TPC7XOff-eps-converted-to.pdf, id=366, 569.12625pt x 40
+9.53pt>
 File: 35tonAnalysis/Figs/TPC5TPC7XOff-eps-converted-to.pdf Graphic file (type p
 df)
 <use 35tonAnalysis/Figs/TPC5TPC7XOff-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/TPC5TPC7XOff-eps-converted-to.pdf u
-sed on input line 710.
+sed on input line 373.
 (pdftex.def)             Requested size: 341.43306pt x 245.69489pt.
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/TPC5TPC7ZOff.eps>
-(epstopdf)                    date: 2017-03-15 10:36:10
-(epstopdf)                    size: 10369 bytes
+(epstopdf)                    date: 2017-03-30 13:09:32
+(epstopdf)                    size: 10541 bytes
 (epstopdf)             Output file: <35tonAnalysis/Figs/TPC5TPC7ZOff-eps-conver
 ted-to.pdf>
-(epstopdf)                    date: 2017-03-15 11:05:43
-(epstopdf)                    size: 8164 bytes
+(epstopdf)                    date: 2017-03-30 13:10:10
+(epstopdf)                    size: 8093 bytes
 (epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/TPC5TPC
 7ZOff-eps-converted-to.pdf 35tonAnalysis/Figs/TPC5TPC7ZOff.eps>
-(epstopdf)             \includegraphics on input line 717.
+(epstopdf)             \includegraphics on input line 380.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/TPC5TPC7ZOff-eps-converted-to.pdf, id=2700, 569.12625pt x 4
-09.53pt>
+<35tonAnalysis/Figs/TPC5TPC7ZOff-eps-converted-to.pdf, id=369, 569.12625pt x 40
+9.53pt>
 File: 35tonAnalysis/Figs/TPC5TPC7ZOff-eps-converted-to.pdf Graphic file (type p
 df)
 <use 35tonAnalysis/Figs/TPC5TPC7ZOff-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/TPC5TPC7ZOff-eps-converted-to.pdf u
-sed on input line 717.
+sed on input line 380.
 (pdftex.def)             Requested size: 341.43306pt x 245.69489pt.
-[91 <./35tonAnalysis/Figs/TPC5TPC7GapFit-eps-converted-to.pdf>] [92] [93 <./35t
-onAnalysis/Figs/TPC5TPC7XOff-eps-converted-to.pdf>] [94 <./35tonAnalysis/Figs/T
-PC5TPC7ZOff-eps-converted-to.pdf>] [95]
+
+Overfull \hbox (10.06442pt too wide) in paragraph at lines 395--406
+ [][] 
+ []
+
+[72 <./35tonAnalysis/Figs/TPC5TPC7Gap-eps-converted-to.pdf> <./35tonAnalysis/Fi
+gs/TPC5TPC7GapAngle-eps-converted-to.pdf>] [73 <./35tonAnalysis/Figs/apa_gap_xo
+ffset_pos-eps-converted-to.pdf> <./35tonAnalysis/Figs/apa_gap_xoffset_neg-eps-c
+onverted-to.pdf> <./35tonAnalysis/Figs/apa_gap_xoffset_pos_fix-eps-converted-to
+.pdf> <./35tonAnalysis/Figs/apa_gap_xoffset_neg_fix-eps-converted-to.pdf>] [74 
+<./35tonAnalysis/Figs/TPC5TPC7MCZOffset-eps-converted-to.pdf> <./35tonAnalysis/
+Figs/TPC5TPC7MCXOffsetZOffset-eps-converted-to.pdf> <./35tonAnalysis/Figs/TPC5T
+PC7MCXOffsetZOffsetAngle-eps-converted-to.pdf>] [75] [76 <./35tonAnalysis/Figs/
+apa_gap_xoffset_zoffset_pos-eps-converted-to.pdf> <./35tonAnalysis/Figs/apa_gap
+_xoffset_zoffset_neg-eps-converted-to.pdf> <./35tonAnalysis/Figs/apa_gap_xoffse
+t_zoffset_pos_fix-eps-converted-to.pdf> <./35tonAnalysis/Figs/apa_gap_xoffset_z
+offset_neg_fix-eps-converted-to.pdf>] [77 <./35tonAnalysis/Figs/TPC5TPC7GapFit-
+eps-converted-to.pdf> <./35tonAnalysis/Figs/TPC5TPC7XOff-eps-converted-to.pdf>]
+[78 <./35tonAnalysis/Figs/TPC5TPC7ZOff-eps-converted-to.pdf>] [79]
+
+LaTeX Warning: Reference `fig:DUNEFarDetectorDesign' on page 80 undefined on in
+put line 447.
+
+[80]
+<35tonAnalysis/Figs/evd_run14249_subrun1_event4492.png, id=582, 1601.985pt x 17
+78.645pt>
+File: 35tonAnalysis/Figs/evd_run14249_subrun1_event4492.png Graphic file (type 
+png)
+<use 35tonAnalysis/Figs/evd_run14249_subrun1_event4492.png>
+Package pdftex.def Info: 35tonAnalysis/Figs/evd_run14249_subrun1_event4492.png 
+used on input line 462.
+(pdftex.def)             Requested size: 284.52756pt x 315.88132pt.
+[81] [82 <./35tonAnalysis/Figs/evd_run14249_subrun1_event4492.png>]
+Package epstopdf Info: Source file: <35tonAnalysis/Figs/track_residual.eps>
+(epstopdf)                    date: 2017-02-10 10:14:43
+(epstopdf)                    size: 12870 bytes
+(epstopdf)             Output file: <35tonAnalysis/Figs/track_residual-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2017-02-10 10:18:12
+(epstopdf)                    size: 4767 bytes
+(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/track_r
+esidual-eps-converted-to.pdf 35tonAnalysis/Figs/track_residual.eps>
+(epstopdf)             \includegraphics on input line 476.
+Package epstopdf Info: Output file is already uptodate.
+
+<35tonAnalysis/Figs/track_residual-eps-converted-to.pdf, id=598, 319.1925pt x 2
+29.85875pt>
+File: 35tonAnalysis/Figs/track_residual-eps-converted-to.pdf Graphic file (type
+ pdf)
+<use 35tonAnalysis/Figs/track_residual-eps-converted-to.pdf>
+Package pdftex.def Info: 35tonAnalysis/Figs/track_residual-eps-converted-to.pdf
+ used on input line 476.
+(pdftex.def)             Requested size: 209.97946pt x 151.21269pt.
+Package epstopdf Info: Source file: <35tonAnalysis/Figs/chisquare.eps>
+(epstopdf)                    date: 2017-02-13 13:03:59
+(epstopdf)                    size: 20598 bytes
+(epstopdf)             Output file: <35tonAnalysis/Figs/chisquare-eps-converted
+-to.pdf>
+(epstopdf)                    date: 2017-02-13 13:11:39
+(epstopdf)                    size: 46735 bytes
+(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/chisqua
+re-eps-converted-to.pdf 35tonAnalysis/Figs/chisquare.eps>
+(epstopdf)             \includegraphics on input line 483.
+Package epstopdf Info: Output file is already uptodate.
+
+<35tonAnalysis/Figs/chisquare-eps-converted-to.pdf, id=599, 569.12625pt x 385.4
+4pt>
+File: 35tonAnalysis/Figs/chisquare-eps-converted-to.pdf Graphic file (type pdf)
+
+<use 35tonAnalysis/Figs/chisquare-eps-converted-to.pdf>
+Package pdftex.def Info: 35tonAnalysis/Figs/chisquare-eps-converted-to.pdf used
+ on input line 483.
+(pdftex.def)             Requested size: 209.97946pt x 142.21063pt.
+Package epstopdf Info: Source file: <35tonAnalysis/Figs/track_separation.eps>
+(epstopdf)                    date: 2017-02-10 10:14:43
+(epstopdf)                    size: 11963 bytes
+(epstopdf)             Output file: <35tonAnalysis/Figs/track_separation-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2017-02-10 10:18:13
+(epstopdf)                    size: 10121 bytes
+(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/track_s
+eparation-eps-converted-to.pdf 35tonAnalysis/Figs/track_separation.eps>
+(epstopdf)             \includegraphics on input line 494.
+Package epstopdf Info: Output file is already uptodate.
+
+<35tonAnalysis/Figs/track_separation-eps-converted-to.pdf, id=600, 318.18875pt 
+x 192.72pt>
+File: 35tonAnalysis/Figs/track_separation-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+<use 35tonAnalysis/Figs/track_separation-eps-converted-to.pdf>
+Package pdftex.def Info: 35tonAnalysis/Figs/track_separation-eps-converted-to.p
+df used on input line 494.
+(pdftex.def)             Requested size: 209.97946pt x 127.17793pt.
+Package epstopdf Info: Source file: <35tonAnalysis/Figs/separation.eps>
+(epstopdf)                    date: 2017-02-13 13:04:16
+(epstopdf)                    size: 23926 bytes
+(epstopdf)             Output file: <35tonAnalysis/Figs/separation-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2017-02-13 13:11:43
+(epstopdf)                    size: 53780 bytes
+(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/separat
+ion-eps-converted-to.pdf 35tonAnalysis/Figs/separation.eps>
+(epstopdf)             \includegraphics on input line 501.
+Package epstopdf Info: Output file is already uptodate.
+
+<35tonAnalysis/Figs/separation-eps-converted-to.pdf, id=601, 569.12625pt x 385.
+44pt>
+File: 35tonAnalysis/Figs/separation-eps-converted-to.pdf Graphic file (type pdf
+)
+<use 35tonAnalysis/Figs/separation-eps-converted-to.pdf>
+Package pdftex.def Info: 35tonAnalysis/Figs/separation-eps-converted-to.pdf use
+d on input line 501.
+(pdftex.def)             Requested size: 209.97946pt x 142.21063pt.
+Package epstopdf Info: Source file: <35tonAnalysis/Figs/TPCCounterT0DifferenceM
+C.eps>
+(epstopdf)                    date: 2017-03-30 14:26:43
+(epstopdf)                    size: 7144 bytes
+(epstopdf)             Output file: <35tonAnalysis/Figs/TPCCounterT0DifferenceM
+C-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-03-30 14:26:59
+(epstopdf)                    size: 6517 bytes
+(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/TPCCoun
+terT0DifferenceMC-eps-converted-to.pdf 35tonAnalysis/Figs/TPCCounterT0Differenc
+eMC.eps>
+(epstopdf)             \includegraphics on input line 515.
+Package epstopdf Info: Output file is already uptodate.
+
+<35tonAnalysis/Figs/TPCCounterT0DifferenceMC-eps-converted-to.pdf, id=604, 569.
+12625pt x 386.44376pt>
+File: 35tonAnalysis/Figs/TPCCounterT0DifferenceMC-eps-converted-to.pdf Graphic 
+file (type pdf)
+<use 35tonAnalysis/Figs/TPCCounterT0DifferenceMC-eps-converted-to.pdf>
+Package pdftex.def Info: 35tonAnalysis/Figs/TPCCounterT0DifferenceMC-eps-conver
+ted-to.pdf used on input line 515.
+(pdftex.def)             Requested size: 341.43306pt x 231.84445pt.
+Package epstopdf Info: Source file: <35tonAnalysis/Figs/TPCCounterT0DifferenceD
+ata.eps>
+(epstopdf)                    date: 2017-02-13 12:22:18
+(epstopdf)                    size: 7144 bytes
+(epstopdf)             Output file: <35tonAnalysis/Figs/TPCCounterT0DifferenceD
+ata-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-03-30 14:27:02
+(epstopdf)                    size: 6517 bytes
+(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/TPCCoun
+terT0DifferenceData-eps-converted-to.pdf 35tonAnalysis/Figs/TPCCounterT0Differe
+nceData.eps>
+(epstopdf)             \includegraphics on input line 521.
+Package epstopdf Info: Output file is already uptodate.
+
+<35tonAnalysis/Figs/TPCCounterT0DifferenceData-eps-converted-to.pdf, id=605, 56
+9.12625pt x 386.44376pt>
+File: 35tonAnalysis/Figs/TPCCounterT0DifferenceData-eps-converted-to.pdf Graphi
+c file (type pdf)
+<use 35tonAnalysis/Figs/TPCCounterT0DifferenceData-eps-converted-to.pdf>
+Package pdftex.def Info: 35tonAnalysis/Figs/TPCCounterT0DifferenceData-eps-conv
+erted-to.pdf used on input line 521.
+(pdftex.def)             Requested size: 341.43306pt x 231.84445pt.
+Package epstopdf Info: Source file: <35tonAnalysis/Figs/t0correction_before.eps
+>
+(epstopdf)                    date: 2017-02-13 13:02:03
+(epstopdf)                    size: 9276 bytes
+(epstopdf)             Output file: <35tonAnalysis/Figs/t0correction_before-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2017-02-13 13:11:46
+(epstopdf)                    size: 11557 bytes
+(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/t0corre
+ction_before-eps-converted-to.pdf 35tonAnalysis/Figs/t0correction_before.eps>
+(epstopdf)             \includegraphics on input line 533.
+Package epstopdf Info: Output file is already uptodate.
+
+<35tonAnalysis/Figs/t0correction_before-eps-converted-to.pdf, id=606, 569.12625
+pt x 408.52625pt>
+File: 35tonAnalysis/Figs/t0correction_before-eps-converted-to.pdf Graphic file 
+(type pdf)
+<use 35tonAnalysis/Figs/t0correction_before-eps-converted-to.pdf>
+Package pdftex.def Info: 35tonAnalysis/Figs/t0correction_before-eps-converted-t
+o.pdf used on input line 533.
+(pdftex.def)             Requested size: 209.97946pt x 150.72845pt.
+Package epstopdf Info: Source file: <35tonAnalysis/Figs/t0correction_after.eps>
+
+(epstopdf)                    date: 2017-02-13 13:02:03
+(epstopdf)                    size: 9280 bytes
+(epstopdf)             Output file: <35tonAnalysis/Figs/t0correction_after-eps-
+converted-to.pdf>
+(epstopdf)                    date: 2017-02-13 13:11:49
+(epstopdf)                    size: 11610 bytes
+(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/t0corre
+ction_after-eps-converted-to.pdf 35tonAnalysis/Figs/t0correction_after.eps>
+(epstopdf)             \includegraphics on input line 540.
+Package epstopdf Info: Output file is already uptodate.
+
+<35tonAnalysis/Figs/t0correction_after-eps-converted-to.pdf, id=607, 569.12625p
+t x 408.52625pt>
+File: 35tonAnalysis/Figs/t0correction_after-eps-converted-to.pdf Graphic file (
+type pdf)
+<use 35tonAnalysis/Figs/t0correction_after-eps-converted-to.pdf>
+Package pdftex.def Info: 35tonAnalysis/Figs/t0correction_after-eps-converted-to
+.pdf used on input line 540.
+(pdftex.def)             Requested size: 209.97946pt x 150.72845pt.
+Package epstopdf Info: Source file: <35tonAnalysis/Figs/misalign_track_geo.eps>
+
+(epstopdf)                    date: 2017-02-14 10:05:50
+(epstopdf)                    size: 21400 bytes
+(epstopdf)             Output file: <35tonAnalysis/Figs/misalign_track_geo-eps-
+converted-to.pdf>
+(epstopdf)                    date: 2017-02-14 10:39:07
+(epstopdf)                    size: 9950 bytes
+(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/misalig
+n_track_geo-eps-converted-to.pdf 35tonAnalysis/Figs/misalign_track_geo.eps>
+(epstopdf)             \includegraphics on input line 558.
+Package epstopdf Info: Output file is already uptodate.
+
+<35tonAnalysis/Figs/misalign_track_geo-eps-converted-to.pdf, id=617, 314.17375p
+t x 192.72pt>
+File: 35tonAnalysis/Figs/misalign_track_geo-eps-converted-to.pdf Graphic file (
+type pdf)
+<use 35tonAnalysis/Figs/misalign_track_geo-eps-converted-to.pdf>
+Package pdftex.def Info: 35tonAnalysis/Figs/misalign_track_geo-eps-converted-to
+.pdf used on input line 558.
+(pdftex.def)             Requested size: 227.62204pt x 139.62578pt.
+Package epstopdf Info: Source file: <35tonAnalysis/Figs/misalign_track_collecti
+on_geo.eps>
+(epstopdf)                    date: 2017-02-14 10:34:49
+(epstopdf)                    size: 3637 bytes
+(epstopdf)             Output file: <35tonAnalysis/Figs/misalign_track_collecti
+on_geo-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-02-14 10:36:24
+(epstopdf)                    size: 2730 bytes
+(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/misalig
+n_track_collection_geo-eps-converted-to.pdf 35tonAnalysis/Figs/misalign_track_c
+ollection_geo.eps>
+(epstopdf)             \includegraphics on input line 571.
+Package epstopdf Info: Output file is already uptodate.
+
+<35tonAnalysis/Figs/misalign_track_collection_geo-eps-converted-to.pdf, id=620,
+ 354.32375pt x 191.71625pt>
+File: 35tonAnalysis/Figs/misalign_track_collection_geo-eps-converted-to.pdf Gra
+phic file (type pdf)
+<use 35tonAnalysis/Figs/misalign_track_collection_geo-eps-converted-to.pdf>
+Package pdftex.def Info: 35tonAnalysis/Figs/misalign_track_collection_geo-eps-c
+onverted-to.pdf used on input line 571.
+(pdftex.def)             Requested size: 209.97946pt x 113.61768pt.
+Package epstopdf Info: Source file: <35tonAnalysis/Figs/CorrectedPlaneGap.eps>
+(epstopdf)                    date: 2017-03-30 15:47:29
+(epstopdf)                    size: 9378 bytes
+(epstopdf)             Output file: <35tonAnalysis/Figs/CorrectedPlaneGap-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2017-03-30 15:47:39
+(epstopdf)                    size: 7782 bytes
+(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/Correct
+edPlaneGap-eps-converted-to.pdf 35tonAnalysis/Figs/CorrectedPlaneGap.eps>
+(epstopdf)             \includegraphics on input line 578.
+Package epstopdf Info: Output file is already uptodate.
+
+<35tonAnalysis/Figs/CorrectedPlaneGap-eps-converted-to.pdf, id=621, 569.12625pt
+ x 409.53pt>
+File: 35tonAnalysis/Figs/CorrectedPlaneGap-eps-converted-to.pdf Graphic file (t
+ype pdf)
+<use 35tonAnalysis/Figs/CorrectedPlaneGap-eps-converted-to.pdf>
+Package pdftex.def Info: 35tonAnalysis/Figs/CorrectedPlaneGap-eps-converted-to.
+pdf used on input line 578.
+(pdftex.def)             Requested size: 209.97946pt x 151.0988pt.
+Package epstopdf Info: Source file: <35tonAnalysis/Figs/misalign_track_wire_geo
+.eps>
+(epstopdf)                    date: 2017-02-14 10:35:01
+(epstopdf)                    size: 22117 bytes
+(epstopdf)             Output file: <35tonAnalysis/Figs/misalign_track_wire_geo
+-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-02-14 12:15:48
+(epstopdf)                    size: 10120 bytes
+(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/misalig
+n_track_wire_geo-eps-converted-to.pdf 35tonAnalysis/Figs/misalign_track_wire_ge
+o.eps>
+(epstopdf)             \includegraphics on input line 592.
+Package epstopdf Info: Output file is already uptodate.
+
+<35tonAnalysis/Figs/misalign_track_wire_geo-eps-converted-to.pdf, id=624, 401.5
+pt x 192.72pt>
+File: 35tonAnalysis/Figs/misalign_track_wire_geo-eps-converted-to.pdf Graphic f
+ile (type pdf)
+<use 35tonAnalysis/Figs/misalign_track_wire_geo-eps-converted-to.pdf>
+Package pdftex.def Info: 35tonAnalysis/Figs/misalign_track_wire_geo-eps-convert
+ed-to.pdf used on input line 592.
+(pdftex.def)             Requested size: 209.97946pt x 100.79134pt.
+Package epstopdf Info: Source file: <35tonAnalysis/Figs/misalign_track_wire_res
+.eps>
+(epstopdf)                    date: 2017-02-14 10:36:13
+(epstopdf)                    size: 9790 bytes
+(epstopdf)             Output file: <35tonAnalysis/Figs/misalign_track_wire_res
+-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-02-14 12:15:51
+(epstopdf)                    size: 14887 bytes
+(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/misalig
+n_track_wire_res-eps-converted-to.pdf 35tonAnalysis/Figs/misalign_track_wire_re
+s.eps>
+(epstopdf)             \includegraphics on input line 599.
+Package epstopdf Info: Output file is already uptodate.
+
+<35tonAnalysis/Figs/misalign_track_wire_res-eps-converted-to.pdf, id=625, 569.1
+2625pt x 408.52625pt>
+File: 35tonAnalysis/Figs/misalign_track_wire_res-eps-converted-to.pdf Graphic f
+ile (type pdf)
+<use 35tonAnalysis/Figs/misalign_track_wire_res-eps-converted-to.pdf>
+Package pdftex.def Info: 35tonAnalysis/Figs/misalign_track_wire_res-eps-convert
+ed-to.pdf used on input line 599.
+(pdftex.def)             Requested size: 209.97946pt x 150.72845pt.
+[83] [84 <./35tonAnalysis/Figs/track_residual-eps-converted-to.pdf> <./35tonAna
+lysis/Figs/chisquare-eps-converted-to.pdf> <./35tonAnalysis/Figs/track_separati
+on-eps-converted-to.pdf> <./35tonAnalysis/Figs/separation-eps-converted-to.pdf>
+] [85 <./35tonAnalysis/Figs/TPCCounterT0DifferenceMC-eps-converted-to.pdf> <./3
+5tonAnalysis/Figs/TPCCounterT0DifferenceData-eps-converted-to.pdf>] [86 <./35to
+nAnalysis/Figs/t0correction_before-eps-converted-to.pdf> <./35tonAnalysis/Figs/
+t0correction_after-eps-converted-to.pdf> <./35tonAnalysis/Figs/misalign_track_g
+eo-eps-converted-to.pdf>] [87 <./35tonAnalysis/Figs/misalign_track_collection_g
+eo-eps-converted-to.pdf> <./35tonAnalysis/Figs/CorrectedPlaneGap-eps-converted-
+to.pdf> <./35tonAnalysis/Figs/misalign_track_wire_geo-eps-converted-to.pdf> <./
+35tonAnalysis/Figs/misalign_track_wire_res-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <35tonAnalysis/Figs/misalign_track_drift_ge
+o.eps>
+(epstopdf)                    date: 2017-02-14 13:21:29
+(epstopdf)                    size: 22084 bytes
+(epstopdf)             Output file: <35tonAnalysis/Figs/misalign_track_drift_ge
+o-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-02-14 13:21:59
+(epstopdf)                    size: 10166 bytes
+(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/misalig
+n_track_drift_geo-eps-converted-to.pdf 35tonAnalysis/Figs/misalign_track_drift_
+geo.eps>
+(epstopdf)             \includegraphics on input line 615.
+Package epstopdf Info: Output file is already uptodate.
+
+<35tonAnalysis/Figs/misalign_track_drift_geo-eps-converted-to.pdf, id=740, 397.
+485pt x 263.98625pt>
+File: 35tonAnalysis/Figs/misalign_track_drift_geo-eps-converted-to.pdf Graphic 
+file (type pdf)
+<use 35tonAnalysis/Figs/misalign_track_drift_geo-eps-converted-to.pdf>
+Package pdftex.def Info: 35tonAnalysis/Figs/misalign_track_drift_geo-eps-conver
+ted-to.pdf used on input line 615.
+(pdftex.def)             Requested size: 209.97946pt x 139.46089pt.
+Package epstopdf Info: Source file: <35tonAnalysis/Figs/CorrectedDrift.eps>
+(epstopdf)                    date: 2017-03-30 16:38:31
+(epstopdf)                    size: 10240 bytes
+(epstopdf)             Output file: <35tonAnalysis/Figs/CorrectedDrift-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2017-03-30 16:40:32
+(epstopdf)                    size: 8407 bytes
+(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/Correct
+edDrift-eps-converted-to.pdf 35tonAnalysis/Figs/CorrectedDrift.eps>
+(epstopdf)             \includegraphics on input line 622.
+Package epstopdf Info: Output file is already uptodate.
+
+<35tonAnalysis/Figs/CorrectedDrift-eps-converted-to.pdf, id=741, 569.12625pt x 
+409.53pt>
+File: 35tonAnalysis/Figs/CorrectedDrift-eps-converted-to.pdf Graphic file (type
+ pdf)
+<use 35tonAnalysis/Figs/CorrectedDrift-eps-converted-to.pdf>
+Package pdftex.def Info: 35tonAnalysis/Figs/CorrectedDrift-eps-converted-to.pdf
+ used on input line 622.
+(pdftex.def)             Requested size: 209.97946pt x 151.0988pt.
+Package epstopdf Info: Source file: <35tonAnalysis/Figs/DistanceDriftTime.eps>
+(epstopdf)                    date: 2017-02-17 13:03:19
+(epstopdf)                    size: 82504 bytes
+(epstopdf)             Output file: <35tonAnalysis/Figs/DistanceDriftTime-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2017-02-17 13:06:59
+(epstopdf)                    size: 258583 bytes
+(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/Distanc
+eDriftTime-eps-converted-to.pdf 35tonAnalysis/Figs/DistanceDriftTime.eps>
+(epstopdf)             \includegraphics on input line 636.
+Package epstopdf Info: Output file is already uptodate.
+
+<35tonAnalysis/Figs/DistanceDriftTime-eps-converted-to.pdf, id=743, 569.12625pt
+ x 409.53pt>
+File: 35tonAnalysis/Figs/DistanceDriftTime-eps-converted-to.pdf Graphic file (t
+ype pdf)
+<use 35tonAnalysis/Figs/DistanceDriftTime-eps-converted-to.pdf>
+Package pdftex.def Info: 35tonAnalysis/Figs/DistanceDriftTime-eps-converted-to.
+pdf used on input line 636.
+(pdftex.def)             Requested size: 209.97946pt x 151.0988pt.
+Package epstopdf Info: Source file: <35tonAnalysis/Figs/DriftVelocity.eps>
+(epstopdf)                    date: 2017-02-17 13:03:19
+(epstopdf)                    size: 10592 bytes
+(epstopdf)             Output file: <35tonAnalysis/Figs/DriftVelocity-eps-conve
+rted-to.pdf>
+(epstopdf)                    date: 2017-02-17 13:07:02
+(epstopdf)                    size: 7732 bytes
+(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/DriftVe
+locity-eps-converted-to.pdf 35tonAnalysis/Figs/DriftVelocity.eps>
+(epstopdf)             \includegraphics on input line 643.
+Package epstopdf Info: Output file is already uptodate.
+
+<35tonAnalysis/Figs/DriftVelocity-eps-converted-to.pdf, id=744, 569.12625pt x 4
+09.53pt>
+File: 35tonAnalysis/Figs/DriftVelocity-eps-converted-to.pdf Graphic file (type 
+pdf)
+<use 35tonAnalysis/Figs/DriftVelocity-eps-converted-to.pdf>
+Package pdftex.def Info: 35tonAnalysis/Figs/DriftVelocity-eps-converted-to.pdf 
+used on input line 643.
+(pdftex.def)             Requested size: 209.97946pt x 151.0988pt.
+Package epstopdf Info: Source file: <35tonAnalysis/Figs/HitTimes.eps>
+(epstopdf)                    date: 2017-02-15 13:26:14
+(epstopdf)                    size: 16133 bytes
+(epstopdf)             Output file: <35tonAnalysis/Figs/HitTimes-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2017-02-15 13:26:38
+(epstopdf)                    size: 11593 bytes
+(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/HitTime
+s-eps-converted-to.pdf 35tonAnalysis/Figs/HitTimes.eps>
+(epstopdf)             \includegraphics on input line 659.
+Package epstopdf Info: Output file is already uptodate.
+
+<35tonAnalysis/Figs/HitTimes-eps-converted-to.pdf, id=753, 569.12625pt x 409.53
+pt>
+File: 35tonAnalysis/Figs/HitTimes-eps-converted-to.pdf Graphic file (type pdf)
+<use 35tonAnalysis/Figs/HitTimes-eps-converted-to.pdf>
+Package pdftex.def Info: 35tonAnalysis/Figs/HitTimes-eps-converted-to.pdf used 
+on input line 659.
+(pdftex.def)             Requested size: 209.97946pt x 151.0988pt.
+Package epstopdf Info: Source file: <35tonAnalysis/Figs/HitTimesZoom.eps>
+(epstopdf)                    date: 2017-02-15 13:26:14
+(epstopdf)                    size: 8519 bytes
+(epstopdf)             Output file: <35tonAnalysis/Figs/HitTimesZoom-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2017-02-15 13:26:41
+(epstopdf)                    size: 7061 bytes
+(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/HitTime
+sZoom-eps-converted-to.pdf 35tonAnalysis/Figs/HitTimesZoom.eps>
+(epstopdf)             \includegraphics on input line 666.
+Package epstopdf Info: Output file is already uptodate.
+
+<35tonAnalysis/Figs/HitTimesZoom-eps-converted-to.pdf, id=754, 569.12625pt x 40
+9.53pt>
+File: 35tonAnalysis/Figs/HitTimesZoom-eps-converted-to.pdf Graphic file (type p
+df)
+<use 35tonAnalysis/Figs/HitTimesZoom-eps-converted-to.pdf>
+Package pdftex.def Info: 35tonAnalysis/Figs/HitTimesZoom-eps-converted-to.pdf u
+sed on input line 666.
+(pdftex.def)             Requested size: 209.97946pt x 151.0988pt.
+[88 <./35tonAnalysis/Figs/misalign_track_drift_geo-eps-converted-to.pdf> <./35t
+onAnalysis/Figs/CorrectedDrift-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <35tonAnalysis/Figs/PTBRCEDiffTimestamps.ep
+s>
+(epstopdf)                    date: 2017-02-14 16:11:46
+(epstopdf)                    size: 9513 bytes
+(epstopdf)             Output file: <35tonAnalysis/Figs/PTBRCEDiffTimestamps-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2017-02-14 16:15:04
+(epstopdf)                    size: 8073 bytes
+(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/PTBRCED
+iffTimestamps-eps-converted-to.pdf 35tonAnalysis/Figs/PTBRCEDiffTimestamps.eps>
+
+(epstopdf)             \includegraphics on input line 678.
+Package epstopdf Info: Output file is already uptodate.
+
+<35tonAnalysis/Figs/PTBRCEDiffTimestamps-eps-converted-to.pdf, id=783, 569.1262
+5pt x 409.53pt>
+File: 35tonAnalysis/Figs/PTBRCEDiffTimestamps-eps-converted-to.pdf Graphic file
+ (type pdf)
+<use 35tonAnalysis/Figs/PTBRCEDiffTimestamps-eps-converted-to.pdf>
+Package pdftex.def Info: 35tonAnalysis/Figs/PTBRCEDiffTimestamps-eps-converted-
+to.pdf used on input line 678.
+(pdftex.def)             Requested size: 341.43306pt x 245.69489pt.
+[89 <./35tonAnalysis/Figs/DistanceDriftTime-eps-converted-to.pdf> <./35tonAnaly
+sis/Figs/DriftVelocity-eps-converted-to.pdf>] [90 <./35tonAnalysis/Figs/HitTime
+s-eps-converted-to.pdf> <./35tonAnalysis/Figs/HitTimesZoom-eps-converted-to.pdf
+> <./35tonAnalysis/Figs/PTBRCEDiffTimestamps-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <35tonAnalysis/Figs/HitTimesMC.eps>
+(epstopdf)                    date: 2017-02-15 13:26:14
+(epstopdf)                    size: 16228 bytes
+(epstopdf)             Output file: <35tonAnalysis/Figs/HitTimesMC-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2017-02-15 13:26:44
+(epstopdf)                    size: 11680 bytes
+(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/HitTime
+sMC-eps-converted-to.pdf 35tonAnalysis/Figs/HitTimesMC.eps>
+(epstopdf)             \includegraphics on input line 700.
+Package epstopdf Info: Output file is already uptodate.
+
+<35tonAnalysis/Figs/HitTimesMC-eps-converted-to.pdf, id=829, 569.12625pt x 409.
+53pt>
+File: 35tonAnalysis/Figs/HitTimesMC-eps-converted-to.pdf Graphic file (type pdf
+)
+<use 35tonAnalysis/Figs/HitTimesMC-eps-converted-to.pdf>
+Package pdftex.def Info: 35tonAnalysis/Figs/HitTimesMC-eps-converted-to.pdf use
+d on input line 700.
+(pdftex.def)             Requested size: 341.43306pt x 245.69489pt.
+Package epstopdf Info: Source file: <35tonAnalysis/Figs/MeshHits.eps>
+(epstopdf)                    date: 2017-02-15 12:55:03
+(epstopdf)                    size: 154333 bytes
+(epstopdf)             Output file: <35tonAnalysis/Figs/MeshHits-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2017-02-15 12:55:14
+(epstopdf)                    size: 150890 bytes
+(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/MeshHit
+s-eps-converted-to.pdf 35tonAnalysis/Figs/MeshHits.eps>
+(epstopdf)             \includegraphics on input line 712.
+Package epstopdf Info: Output file is already uptodate.
+
+<35tonAnalysis/Figs/MeshHits-eps-converted-to.pdf, id=833, 492.84125pt x 576.15
+25pt>
+File: 35tonAnalysis/Figs/MeshHits-eps-converted-to.pdf Graphic file (type pdf)
+<use 35tonAnalysis/Figs/MeshHits-eps-converted-to.pdf>
+Package pdftex.def Info: 35tonAnalysis/Figs/MeshHits-eps-converted-to.pdf used 
+on input line 712.
+(pdftex.def)             Requested size: 341.43306pt x 399.17204pt.
+Package epstopdf Info: Source file: <35tonAnalysis/Figs/HitTimesAPA023.eps>
+(epstopdf)                    date: 2017-02-15 13:26:14
+(epstopdf)                    size: 9668 bytes
+(epstopdf)             Output file: <35tonAnalysis/Figs/HitTimesAPA023-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2017-02-15 13:26:47
+(epstopdf)                    size: 7549 bytes
+(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/HitTime
+sAPA023-eps-converted-to.pdf 35tonAnalysis/Figs/HitTimesAPA023.eps>
+(epstopdf)             \includegraphics on input line 723.
+Package epstopdf Info: Output file is already uptodate.
+
+<35tonAnalysis/Figs/HitTimesAPA023-eps-converted-to.pdf, id=835, 569.12625pt x 
+409.53pt>
+File: 35tonAnalysis/Figs/HitTimesAPA023-eps-converted-to.pdf Graphic file (type
+ pdf)
+<use 35tonAnalysis/Figs/HitTimesAPA023-eps-converted-to.pdf>
+Package pdftex.def Info: 35tonAnalysis/Figs/HitTimesAPA023-eps-converted-to.pdf
+ used on input line 723.
+(pdftex.def)             Requested size: 209.97946pt x 151.0988pt.
+Package epstopdf Info: Source file: <35tonAnalysis/Figs/HitTimesAPA1.eps>
+(epstopdf)                    date: 2017-02-15 13:26:14
+(epstopdf)                    size: 8782 bytes
+(epstopdf)             Output file: <35tonAnalysis/Figs/HitTimesAPA1-eps-conver
+ted-to.pdf>
+(epstopdf)                    date: 2017-02-15 13:26:50
+(epstopdf)                    size: 7079 bytes
+(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/HitTime
+sAPA1-eps-converted-to.pdf 35tonAnalysis/Figs/HitTimesAPA1.eps>
+(epstopdf)             \includegraphics on input line 730.
+Package epstopdf Info: Output file is already uptodate.
+
+<35tonAnalysis/Figs/HitTimesAPA1-eps-converted-to.pdf, id=836, 569.12625pt x 40
+9.53pt>
+File: 35tonAnalysis/Figs/HitTimesAPA1-eps-converted-to.pdf Graphic file (type p
+df)
+<use 35tonAnalysis/Figs/HitTimesAPA1-eps-converted-to.pdf>
+Package pdftex.def Info: 35tonAnalysis/Figs/HitTimesAPA1-eps-converted-to.pdf u
+sed on input line 730.
+(pdftex.def)             Requested size: 209.97946pt x 151.0988pt.
+[91]
+Package epstopdf Info: Source file: <35tonAnalysis/Figs/HitTimesFrame.eps>
+(epstopdf)                    date: 2017-02-15 14:18:49
+(epstopdf)                    size: 13024 bytes
+(epstopdf)             Output file: <35tonAnalysis/Figs/HitTimesFrame-eps-conve
+rted-to.pdf>
+(epstopdf)                    date: 2017-02-15 14:18:59
+(epstopdf)                    size: 10214 bytes
+(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/HitTime
+sFrame-eps-converted-to.pdf 35tonAnalysis/Figs/HitTimesFrame.eps>
+(epstopdf)             \includegraphics on input line 742.
+Package epstopdf Info: Output file is already uptodate.
+
+<35tonAnalysis/Figs/HitTimesFrame-eps-converted-to.pdf, id=852, 569.12625pt x 4
+09.53pt>
+File: 35tonAnalysis/Figs/HitTimesFrame-eps-converted-to.pdf Graphic file (type 
+pdf)
+<use 35tonAnalysis/Figs/HitTimesFrame-eps-converted-to.pdf>
+Package pdftex.def Info: 35tonAnalysis/Figs/HitTimesFrame-eps-converted-to.pdf 
+used on input line 742.
+(pdftex.def)             Requested size: 284.52756pt x 204.74574pt.
+Package epstopdf Info: Source file: <35tonAnalysis/Figs/HitChargeInteraction.ep
+s>
+(epstopdf)                    date: 2017-02-15 18:09:42
+(epstopdf)                    size: 9250 bytes
+(epstopdf)             Output file: <35tonAnalysis/Figs/HitChargeInteraction-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2017-02-16 09:05:00
+(epstopdf)                    size: 7156 bytes
+(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/HitChar
+geInteraction-eps-converted-to.pdf 35tonAnalysis/Figs/HitChargeInteraction.eps>
+
+(epstopdf)             \includegraphics on input line 753.
+Package epstopdf Info: Output file is already uptodate.
+
+<35tonAnalysis/Figs/HitChargeInteraction-eps-converted-to.pdf, id=854, 569.1262
+5pt x 409.53pt>
+File: 35tonAnalysis/Figs/HitChargeInteraction-eps-converted-to.pdf Graphic file
+ (type pdf)
+<use 35tonAnalysis/Figs/HitChargeInteraction-eps-converted-to.pdf>
+Package pdftex.def Info: 35tonAnalysis/Figs/HitChargeInteraction-eps-converted-
+to.pdf used on input line 753.
+(pdftex.def)             Requested size: 209.97946pt x 151.0988pt.
+Package epstopdf Info: Source file: <35tonAnalysis/Figs/HitChargeNonInteraction
+.eps>
+(epstopdf)                    date: 2017-02-15 18:09:42
+(epstopdf)                    size: 9565 bytes
+(epstopdf)             Output file: <35tonAnalysis/Figs/HitChargeNonInteraction
+-eps-converted-to.pdf>
+(epstopdf)                    date: 2017-02-16 09:05:03
+(epstopdf)                    size: 7303 bytes
+(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/HitChar
+geNonInteraction-eps-converted-to.pdf 35tonAnalysis/Figs/HitChargeNonInteractio
+n.eps>
+(epstopdf)             \includegraphics on input line 760.
+Package epstopdf Info: Output file is already uptodate.
+
+<35tonAnalysis/Figs/HitChargeNonInteraction-eps-converted-to.pdf, id=855, 569.1
+2625pt x 409.53pt>
+File: 35tonAnalysis/Figs/HitChargeNonInteraction-eps-converted-to.pdf Graphic f
+ile (type pdf)
+<use 35tonAnalysis/Figs/HitChargeNonInteraction-eps-converted-to.pdf>
+Package pdftex.def Info: 35tonAnalysis/Figs/HitChargeNonInteraction-eps-convert
+ed-to.pdf used on input line 760.
+(pdftex.def)             Requested size: 209.97946pt x 151.0988pt.
+
+LaTeX Warning: Reference `fig:HookEVDBig' on page 92 undefined on input line 77
+3.
+
+[92 <./35tonAnalysis/Figs/HitTimesMC-eps-converted-to.pdf>] [93 <./35tonAnalysi
+s/Figs/MeshHits-eps-converted-to.pdf>] [94 <./35tonAnalysis/Figs/HitTimesAPA023
+-eps-converted-to.pdf> <./35tonAnalysis/Figs/HitTimesAPA1-eps-converted-to.pdf>
+ <./35tonAnalysis/Figs/HitTimesFrame-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <35tonAnalysis/Figs/DriftVelocityDiffGeo.ep
+s>
+(epstopdf)                    date: 2017-02-16 15:12:55
+(epstopdf)                    size: 37775 bytes
+(epstopdf)             Output file: <35tonAnalysis/Figs/DriftVelocityDiffGeo-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2017-02-16 15:13:31
+(epstopdf)                    size: 15982 bytes
+(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/DriftVe
+locityDiffGeo-eps-converted-to.pdf 35tonAnalysis/Figs/DriftVelocityDiffGeo.eps>
+
+(epstopdf)             \includegraphics on input line 786.
+Package epstopdf Info: Output file is already uptodate.
+
+<35tonAnalysis/Figs/DriftVelocityDiffGeo-eps-converted-to.pdf, id=899, 418.5637
+5pt x 191.71625pt>
+File: 35tonAnalysis/Figs/DriftVelocityDiffGeo-eps-converted-to.pdf Graphic file
+ (type pdf)
+<use 35tonAnalysis/Figs/DriftVelocityDiffGeo-eps-converted-to.pdf>
+Package pdftex.def Info: 35tonAnalysis/Figs/DriftVelocityDiffGeo-eps-converted-
+to.pdf used on input line 786.
+(pdftex.def)             Requested size: 209.97946pt x 96.17674pt.
+Package epstopdf Info: Source file: <35tonAnalysis/Figs/DriftVelocityDiffRes.ep
+s>
+(epstopdf)                    date: 2017-02-17 13:47:26
+(epstopdf)                    size: 8473 bytes
+(epstopdf)             Output file: <35tonAnalysis/Figs/DriftVelocityDiffRes-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2017-02-17 13:47:37
+(epstopdf)                    size: 8448 bytes
+(epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/DriftVe
+locityDiffRes-eps-converted-to.pdf 35tonAnalysis/Figs/DriftVelocityDiffRes.eps>
+
+(epstopdf)             \includegraphics on input line 793.
+Package epstopdf Info: Output file is already uptodate.
+
+<35tonAnalysis/Figs/DriftVelocityDiffRes-eps-converted-to.pdf, id=900, 569.1262
+5pt x 409.53pt>
+File: 35tonAnalysis/Figs/DriftVelocityDiffRes-eps-converted-to.pdf Graphic file
+ (type pdf)
+<use 35tonAnalysis/Figs/DriftVelocityDiffRes-eps-converted-to.pdf>
+Package pdftex.def Info: 35tonAnalysis/Figs/DriftVelocityDiffRes-eps-converted-
+to.pdf used on input line 793.
+(pdftex.def)             Requested size: 209.97946pt x 151.0988pt.
+[95 <./35tonAnalysis/Figs/HitChargeInteraction-eps-converted-to.pdf> <./35tonAn
+alysis/Figs/HitChargeNonInteraction-eps-converted-to.pdf>] [96 <./35tonAnalysis
+/Figs/DriftVelocityDiffGeo-eps-converted-to.pdf> <./35tonAnalysis/Figs/DriftVel
+ocityDiffRes-eps-converted-to.pdf>]
+<35tonAnalysis/Figs/HitReconstructionBias20-40.pdf, id=956, 843.97896pt x 630.9
+1066pt>
+File: 35tonAnalysis/Figs/HitReconstructionBias20-40.pdf Graphic file (type pdf)
+
+<use 35tonAnalysis/Figs/HitReconstructionBias20-40.pdf>
+Package pdftex.def Info: 35tonAnalysis/Figs/HitReconstructionBias20-40.pdf used
+ on input line 837.
+(pdftex.def)             Requested size: 128.6143pt x 96.14394pt.
+
+<35tonAnalysis/Figs/HitReconstructionBias80-100.pdf, id=957, 839.90123pt x 627.
+0166pt>
+File: 35tonAnalysis/Figs/HitReconstructionBias80-100.pdf Graphic file (type pdf
+)
+<use 35tonAnalysis/Figs/HitReconstructionBias80-100.pdf>
+Package pdftex.def Info: 35tonAnalysis/Figs/HitReconstructionBias80-100.pdf use
+d on input line 844.
+(pdftex.def)             Requested size: 128.6143pt x 96.00977pt.
+
+<35tonAnalysis/Figs/HitReconstructionBias140-160.pdf, id=958, 840.188pt x 626.2
+4142pt>
+File: 35tonAnalysis/Figs/HitReconstructionBias140-160.pdf Graphic file (type pd
+f)
+<use 35tonAnalysis/Figs/HitReconstructionBias140-160.pdf>
+Package pdftex.def Info: 35tonAnalysis/Figs/HitReconstructionBias140-160.pdf us
+ed on input line 851.
+(pdftex.def)             Requested size: 128.6143pt x 95.8624pt.
+
+LaTeX Warning: Reference `fig:CalorimetryShowerEnergy' on page 97 undefined on 
+input line 867.
+
+[97]
+
+LaTeX Warning: Reference `fig:FamousShower' on page 98 undefined on input line 
+878.
+
+[98 <./35tonAnalysis/Figs/HitReconstructionBias20-40.pdf> <./35tonAnalysis/Figs
+/HitReconstructionBias80-100.pdf> <./35tonAnalysis/Figs/HitReconstructionBias14
+0-160.pdf>]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 889.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 816.
+(hyperref)                removing `math shift' on input line 889.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\pi' on input line 816.
+(hyperref)                removing `\pi' on input line 889.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 816.
+(hyperref)                removing `superscript' on input line 889.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 816.
-
-) [96]
-\openout2 = `FarDetectorAnalysis/FarDetectorAnalysis.aux'.
-
-(./FarDetectorAnalysis/FarDetectorAnalysis.tex
-Chapter 8.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 4.
+(hyperref)                removing `math shift' on input line 889.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\nu' on input line 4.
+<35tonAnalysis/Figs/evd_run16110_subrun1_event29.png, id=1063, 1601.985pt x 177
+8.645pt>
+File: 35tonAnalysis/Figs/evd_run16110_subrun1_event29.png Graphic file (type pn
+g)
+<use 35tonAnalysis/Figs/evd_run16110_subrun1_event29.png>
+Package pdftex.def Info: 35tonAnalysis/Figs/evd_run16110_subrun1_event29.png us
+ed on input line 896.
+(pdftex.def)             Requested size: 284.52756pt x 315.88132pt.
+) [99] [100 <./35tonAnalysis/Figs/evd_run16110_subrun1_event29.png>]pdfTeX warn
+ing (ext4): destination with the same identifier (name{page.100}) has been alre
+ady used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.165 \cleardoublepage
+                       [100
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 4.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 4.
-
-) [97
-
-
-
-]
-\openout2 = `Summary/Summary.aux'.
-
-(./Summary/Summary.tex [98
-
-
-
-]
-Chapter 9.
-) [99] [100
 
 
 ]
 No file thesis.bbl.
-\openout2 = `Appendix1/appendix1.aux'.
-
-(./Appendix1/appendix1.tex
-Appendix A.
-[101
-
-
-] [102] [103]) [104]
-\openout2 = `Appendix2/appendix2.aux'.
-
-(./Appendix2/appendix2.tex
-Appendix B.
-) [105
-
-
-
-] [106
-
-
-] (./thesis.ind)
-
-Package natbib Warning: There were undefined citations.
-
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 191.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 191.
 (./thesis.aux (./Dedication/dedication.aux) (./Declaration/declaration.aux) (./
@@ -3913,8 +2842,14 @@ lysis/FarDetectorAnalysis.aux) (./Summary/Summary.aux) (./Appendix1/appendix1.a
 ux) (./Appendix2/appendix2.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 191.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 191.
-Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 35E99DE3D1460450B22CEAA28DF926C0;22701.
+
+Package rerunfilecheck Warning: File `thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `thesis.out':
+(rerunfilecheck)             Before: 40814C141F7BDCEBBA6AC2CD9B3C8586;4641
+(rerunfilecheck)             After:  0E3630CC9DC54459831B06197936B52D;4658.
 
 LaTeX Warning: There were undefined references.
 
@@ -3923,40 +2858,114 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 25706 strings out of 493117
- 467573 string characters out of 6135433
- 548046 words of memory out of 5000000
- 27877 multiletter control sequences out of 15000+600000
- 107414 words of font info for 349 fonts, out of 8000000 for 9000
+ 24911 strings out of 493117
+ 453056 string characters out of 6135433
+ 552144 words of memory out of 5000000
+ 27495 multiletter control sequences out of 15000+600000
+ 81738 words of font info for 277 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,15n,50p,10395b,945s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
+ 49i,12n,45p,10395b,813s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{section.5.3} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.5.4.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.5.4.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.5} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.1.4.2.2} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.1.4.2.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.1.4.1.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.1.3.1.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.5.1} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.4.8} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.5.4} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.5.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.5.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.5.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.1.5} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.4.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.4.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.4.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.1.4} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.3.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.3.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.1.3} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.1.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.1.4} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.1.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.1.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.1.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.1.1} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.1} has been referenced but does not exist, 
+replaced by a fixed one
+
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
-live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texl
-ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texli
-ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texliv
-e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive
-/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/
-2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/20
-14/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2014
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2014/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2014/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2014/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2014/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2014/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2014/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2014/texmf-dist/fon
-ts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1
-/public/cm-super/sftt1200.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/u
-rw/symbol/usyr.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/symbol/u
-syr.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></
-usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/
-texlive/2014/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (128 pages, 8664041 bytes).
+live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texl
+ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texli
+ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
+/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
+2014/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/2014/tex
+mf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2014/texmf-dist/fon
+ts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/ur
+w/times/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/ut
+mr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on thesis.pdf (41 pages, 1971190 bytes).
 PDF statistics:
- 3017 PDF objects out of 3580 (max. 8388607)
- 2386 compressed objects within 24 object streams
- 402 named destinations out of 1000 (max. 500000)
- 60241 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 1160 PDF objects out of 1200 (max. 8388607)
+ 849 compressed objects within 9 object streams
+ 143 named destinations out of 1000 (max. 500000)
+ 42452 words of extra memory for PDF output out of 42996 (max. 10000000)
 

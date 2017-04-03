@@ -108,7 +108,6 @@
 \@writefile{lot}{\contentsline {table}{\numberline {7.2}{\ignorespaces The corrected gaps between the APAs, in $x$ and $z$, based on the offsets measured (Table \ref  {tab:APAGapOffsets}).}}{79}{table.caption.16}}
 \@writefile{toc}{\contentsline {chapter}{Appendix \numberline {A}How to install \LaTeX  }{109}{Appendix.a.A}}
 \@writefile{toc}{\contentsline {chapter}{Appendix \numberline {B}Installing the CUED class file}{113}{Appendix.a.B}}
-\@writefile{toc}{\contentsline {chapter}{References}{101}{chapter*.44}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {2}Neutrino Physics}{3}{chapter.2}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {3}The Deep Underground Neutrino Experiment}{31}{chapter.3}}
@@ -372,7 +371,6 @@
 \providecommand\HyField@AuxAddToCoFields[2]{}
 \providecommand\HyField@AuxAddToFields[1]{}
 \providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
-\providecommand\NAT@force@numbers{}\NAT@force@numbers
 \providecommand\hyper@newdestlabel[2]{}
 \providecommand\hyper@newdestlabel[2]{}
 \providecommand\hyper@newdestlabel[2]{}

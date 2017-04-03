@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  31 MAR 2017 10:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  3 APR 2017 10:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1438,13 +1438,13 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 16.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 21.
-<35tonAnalysis/Figs/DataRMSGood.pdf, id=100, 492.89969pt x 360.95543pt>
+<35tonAnalysis/Figs/DataRMSGood.pdf, id=96, 492.89969pt x 360.95543pt>
 File: 35tonAnalysis/Figs/DataRMSGood.pdf Graphic file (type pdf)
 <use 35tonAnalysis/Figs/DataRMSGood.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/DataRMSGood.pdf used on input line 
 29.
 (pdftex.def)             Requested size: 187.01274pt x 136.94968pt.
-<35tonAnalysis/Figs/DataRMSBad.pdf, id=101, 492.25835pt x 358.09985pt>
+<35tonAnalysis/Figs/DataRMSBad.pdf, id=97, 492.25835pt x 358.09985pt>
 File: 35tonAnalysis/Figs/DataRMSBad.pdf Graphic file (type pdf)
 <use 35tonAnalysis/Figs/DataRMSBad.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/DataRMSBad.pdf used on input line 3
@@ -1454,7 +1454,7 @@ Package pdftex.def Info: 35tonAnalysis/Figs/DataRMSBad.pdf used on input line 3
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 52.
 [64 <./35tonAnalysis/Figs/DataRMSGood.pdf> <./35tonAnalysis/Figs/DataRMSBad.pdf
->] <35tonAnalysis/Figs/stuckbitsremoval.png, id=159, 508.90125pt x 488.82625pt>
+>] <35tonAnalysis/Figs/stuckbitsremoval.png, id=155, 508.90125pt x 488.82625pt>
 File: 35tonAnalysis/Figs/stuckbitsremoval.png Graphic file (type png)
 <use 35tonAnalysis/Figs/stuckbitsremoval.png>
 Package pdftex.def Info: 35tonAnalysis/Figs/stuckbitsremoval.png used on input 
@@ -1472,7 +1472,7 @@ ck-eps-converted-to.pdf 35tonAnalysis/Figs/raw_stuck.eps>
 (epstopdf)             \includegraphics on input line 64.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/raw_stuck-eps-converted-to.pdf, id=161, 569.12625pt x 265.9
+<35tonAnalysis/Figs/raw_stuck-eps-converted-to.pdf, id=157, 569.12625pt x 265.9
 9374pt>
 File: 35tonAnalysis/Figs/raw_stuck-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1492,7 +1492,7 @@ tuck-eps-converted-to.pdf 35tonAnalysis/Figs/raw_unstuck.eps>
 (epstopdf)             \includegraphics on input line 71.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/raw_unstuck-eps-converted-to.pdf, id=162, 569.12625pt x 265
+<35tonAnalysis/Figs/raw_unstuck-eps-converted-to.pdf, id=158, 569.12625pt x 265
 .99374pt>
 File: 35tonAnalysis/Figs/raw_unstuck-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1512,7 +1512,7 @@ se-eps-converted-to.pdf 35tonAnalysis/Figs/raw_noise.eps>
 (epstopdf)             \includegraphics on input line 85.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/raw_noise-eps-converted-to.pdf, id=164, 569.12625pt x 265.9
+<35tonAnalysis/Figs/raw_noise-eps-converted-to.pdf, id=160, 569.12625pt x 265.9
 9374pt>
 File: 35tonAnalysis/Figs/raw_noise-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -1532,7 +1532,7 @@ oise-eps-converted-to.pdf 35tonAnalysis/Figs/raw_nonoise.eps>
 (epstopdf)             \includegraphics on input line 92.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/raw_nonoise-eps-converted-to.pdf, id=165, 569.12625pt x 265
+<35tonAnalysis/Figs/raw_nonoise-eps-converted-to.pdf, id=161, 569.12625pt x 265
 .99374pt>
 File: 35tonAnalysis/Figs/raw_nonoise-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1556,7 +1556,7 @@ ction_all-eps-converted-to.pdf 35tonAnalysis/Figs/hitselection_all.eps>
 (epstopdf)             \includegraphics on input line 113.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/hitselection_all-eps-converted-to.pdf, id=204, 569.12625pt 
+<35tonAnalysis/Figs/hitselection_all-eps-converted-to.pdf, id=200, 569.12625pt 
 x 408.52625pt>
 File: 35tonAnalysis/Figs/hitselection_all-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -1577,7 +1577,7 @@ ction_shadow-eps-converted-to.pdf 35tonAnalysis/Figs/hitselection_shadow.eps>
 (epstopdf)             \includegraphics on input line 120.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/hitselection_shadow-eps-converted-to.pdf, id=205, 569.12625
+<35tonAnalysis/Figs/hitselection_shadow-eps-converted-to.pdf, id=201, 569.12625
 pt x 408.52625pt>
 File: 35tonAnalysis/Figs/hitselection_shadow-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -1598,7 +1598,7 @@ ction_final-eps-converted-to.pdf 35tonAnalysis/Figs/hitselection_final.eps>
 (epstopdf)             \includegraphics on input line 127.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/hitselection_final-eps-converted-to.pdf, id=206, 569.12625p
+<35tonAnalysis/Figs/hitselection_final-eps-converted-to.pdf, id=202, 569.12625p
 t x 408.52625pt>
 File: 35tonAnalysis/Figs/hitselection_final-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -1627,7 +1627,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 167.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/apa_gap-eps-converted-to.pdf, id=252, 388.45125pt x 262.982
+<35tonAnalysis/Figs/apa_gap-eps-converted-to.pdf, id=248, 388.45125pt x 262.982
 5pt>
 File: 35tonAnalysis/Figs/apa_gap-eps-converted-to.pdf Graphic file (type pdf)
 <use 35tonAnalysis/Figs/apa_gap-eps-converted-to.pdf>
@@ -1647,7 +1647,7 @@ _zoffset-eps-converted-to.pdf 35tonAnalysis/Figs/apa_gap_zoffset.eps>
 (epstopdf)             \includegraphics on input line 187.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/apa_gap_zoffset-eps-converted-to.pdf, id=267, 388.45125pt x
+<35tonAnalysis/Figs/apa_gap_zoffset-eps-converted-to.pdf, id=263, 388.45125pt x
  264.99pt>
 File: 35tonAnalysis/Figs/apa_gap_zoffset-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -1668,7 +1668,7 @@ _zoffset_fix-eps-converted-to.pdf 35tonAnalysis/Figs/apa_gap_zoffset_fix.eps>
 (epstopdf)             \includegraphics on input line 194.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/apa_gap_zoffset_fix-eps-converted-to.pdf, id=268, 417.56pt 
+<35tonAnalysis/Figs/apa_gap_zoffset_fix-eps-converted-to.pdf, id=264, 417.56pt 
 x 264.99pt>
 File: 35tonAnalysis/Figs/apa_gap_zoffset_fix-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -1701,7 +1701,7 @@ ed-to.pdf>
 (epstopdf)             \includegraphics on input line 221.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/TPC5TPC7Gap-eps-converted-to.pdf, id=286, 569.12625pt x 409
+<35tonAnalysis/Figs/TPC5TPC7Gap-eps-converted-to.pdf, id=282, 569.12625pt x 409
 .53pt>
 File: 35tonAnalysis/Figs/TPC5TPC7Gap-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1721,7 +1721,7 @@ nverted-to.pdf>
 (epstopdf)             \includegraphics on input line 228.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/TPC5TPC7GapAngle-eps-converted-to.pdf, id=287, 569.12625pt 
+<35tonAnalysis/Figs/TPC5TPC7GapAngle-eps-converted-to.pdf, id=283, 569.12625pt 
 x 409.53pt>
 File: 35tonAnalysis/Figs/TPC5TPC7GapAngle-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -1742,7 +1742,7 @@ _xoffset_pos-eps-converted-to.pdf 35tonAnalysis/Figs/apa_gap_xoffset_pos.eps>
 (epstopdf)             \includegraphics on input line 242.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/apa_gap_xoffset_pos-eps-converted-to.pdf, id=292, 455.7025p
+<35tonAnalysis/Figs/apa_gap_xoffset_pos-eps-converted-to.pdf, id=288, 455.7025p
 t x 262.9825pt>
 File: 35tonAnalysis/Figs/apa_gap_xoffset_pos-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -1763,7 +1763,7 @@ _xoffset_neg-eps-converted-to.pdf 35tonAnalysis/Figs/apa_gap_xoffset_neg.eps>
 (epstopdf)             \includegraphics on input line 249.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/apa_gap_xoffset_neg-eps-converted-to.pdf, id=293, 455.7025p
+<35tonAnalysis/Figs/apa_gap_xoffset_neg-eps-converted-to.pdf, id=289, 455.7025p
 t x 264.99pt>
 File: 35tonAnalysis/Figs/apa_gap_xoffset_neg-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -1785,7 +1785,7 @@ x.eps>
 (epstopdf)             \includegraphics on input line 256.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/apa_gap_xoffset_pos_fix-eps-converted-to.pdf, id=294, 420.5
+<35tonAnalysis/Figs/apa_gap_xoffset_pos_fix-eps-converted-to.pdf, id=290, 420.5
 7124pt x 262.9825pt>
 File: 35tonAnalysis/Figs/apa_gap_xoffset_pos_fix-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -1807,7 +1807,7 @@ x.eps>
 (epstopdf)             \includegraphics on input line 263.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/apa_gap_xoffset_neg_fix-eps-converted-to.pdf, id=295, 471.7
+<35tonAnalysis/Figs/apa_gap_xoffset_neg_fix-eps-converted-to.pdf, id=291, 471.7
 625pt x 264.99pt>
 File: 35tonAnalysis/Figs/apa_gap_xoffset_neg_fix-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -1829,7 +1829,7 @@ onverted-to.pdf>
 (epstopdf)             \includegraphics on input line 275.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/TPC5TPC7MCZOffset-eps-converted-to.pdf, id=331, 569.12625pt
+<35tonAnalysis/Figs/TPC5TPC7MCZOffset-eps-converted-to.pdf, id=326, 569.12625pt
  x 409.53pt>
 File: 35tonAnalysis/Figs/TPC5TPC7MCZOffset-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -1851,7 +1851,7 @@ set.eps>
 (epstopdf)             \includegraphics on input line 282.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOffset-eps-converted-to.pdf, id=332, 569.
+<35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOffset-eps-converted-to.pdf, id=327, 569.
 12625pt x 409.53pt>
 File: 35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOffset-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -1873,7 +1873,7 @@ tZOffsetAngle.eps>
 (epstopdf)             \includegraphics on input line 289.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOffsetAngle-eps-converted-to.pdf, id=333,
+<35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOffsetAngle-eps-converted-to.pdf, id=328,
  569.12625pt x 409.53pt>
 File: 35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOffsetAngle-eps-converted-to.pdf Gra
 phic file (type pdf)
@@ -1953,7 +1953,7 @@ ffset_pos.eps>
 (epstopdf)             \includegraphics on input line 333.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/apa_gap_xoffset_zoffset_pos-eps-converted-to.pdf, id=353, 4
+<35tonAnalysis/Figs/apa_gap_xoffset_zoffset_pos-eps-converted-to.pdf, id=348, 4
 71.7625pt x 301.125pt>
 File: 35tonAnalysis/Figs/apa_gap_xoffset_zoffset_pos-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -1975,7 +1975,7 @@ ffset_neg.eps>
 (epstopdf)             \includegraphics on input line 340.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/apa_gap_xoffset_zoffset_neg-eps-converted-to.pdf, id=354, 4
+<35tonAnalysis/Figs/apa_gap_xoffset_zoffset_neg-eps-converted-to.pdf, id=349, 4
 71.7625pt x 314.17375pt>
 File: 35tonAnalysis/Figs/apa_gap_xoffset_zoffset_neg-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -1998,7 +1998,7 @@ t_zoffset_pos_fix.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <35tonAnalysis/Figs/apa_gap_xoffset_zoffset_pos_fix-eps-converted-to.pdf, id=35
-5, 426.59375pt x 301.125pt>
+0, 426.59375pt x 301.125pt>
 File: 35tonAnalysis/Figs/apa_gap_xoffset_zoffset_pos_fix-eps-converted-to.pdf G
 raphic file (type pdf)
 <use 35tonAnalysis/Figs/apa_gap_xoffset_zoffset_pos_fix-eps-converted-to.pdf>
@@ -2020,7 +2020,7 @@ t_zoffset_neg_fix.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <35tonAnalysis/Figs/apa_gap_xoffset_zoffset_neg_fix-eps-converted-to.pdf, id=35
-6, 484.81125pt x 314.17375pt>
+1, 484.81125pt x 314.17375pt>
 File: 35tonAnalysis/Figs/apa_gap_xoffset_zoffset_neg_fix-eps-converted-to.pdf G
 raphic file (type pdf)
 <use 35tonAnalysis/Figs/apa_gap_xoffset_zoffset_neg_fix-eps-converted-to.pdf>
@@ -2039,7 +2039,7 @@ erted-to.pdf>
 (epstopdf)             \includegraphics on input line 364.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/TPC5TPC7GapFit-eps-converted-to.pdf, id=359, 569.12625pt x 
+<35tonAnalysis/Figs/TPC5TPC7GapFit-eps-converted-to.pdf, id=354, 569.12625pt x 
 409.53pt>
 File: 35tonAnalysis/Figs/TPC5TPC7GapFit-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -2059,7 +2059,7 @@ ted-to.pdf>
 (epstopdf)             \includegraphics on input line 373.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/TPC5TPC7XOff-eps-converted-to.pdf, id=362, 569.12625pt x 40
+<35tonAnalysis/Figs/TPC5TPC7XOff-eps-converted-to.pdf, id=357, 569.12625pt x 40
 9.53pt>
 File: 35tonAnalysis/Figs/TPC5TPC7XOff-eps-converted-to.pdf Graphic file (type p
 df)
@@ -2079,7 +2079,7 @@ ted-to.pdf>
 (epstopdf)             \includegraphics on input line 380.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/TPC5TPC7ZOff-eps-converted-to.pdf, id=365, 569.12625pt x 40
+<35tonAnalysis/Figs/TPC5TPC7ZOff-eps-converted-to.pdf, id=360, 569.12625pt x 40
 9.53pt>
 File: 35tonAnalysis/Figs/TPC5TPC7ZOff-eps-converted-to.pdf Graphic file (type p
 df)
@@ -2111,7 +2111,7 @@ LaTeX Warning: Reference `fig:DUNEFarDetectorDesign' on page 80 undefined on in
 put line 447.
 
 [80]
-<35tonAnalysis/Figs/evd_run14249_subrun1_event4492.png, id=574, 1601.985pt x 17
+<35tonAnalysis/Figs/evd_run14249_subrun1_event4492.png, id=570, 1601.985pt x 17
 78.645pt>
 File: 35tonAnalysis/Figs/evd_run14249_subrun1_event4492.png Graphic file (type 
 png)
@@ -2132,7 +2132,7 @@ esidual-eps-converted-to.pdf 35tonAnalysis/Figs/track_residual.eps>
 (epstopdf)             \includegraphics on input line 476.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/track_residual-eps-converted-to.pdf, id=589, 319.1925pt x 2
+<35tonAnalysis/Figs/track_residual-eps-converted-to.pdf, id=585, 319.1925pt x 2
 29.85875pt>
 File: 35tonAnalysis/Figs/track_residual-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -2152,7 +2152,7 @@ re-eps-converted-to.pdf 35tonAnalysis/Figs/chisquare.eps>
 (epstopdf)             \includegraphics on input line 483.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/chisquare-eps-converted-to.pdf, id=590, 569.12625pt x 385.4
+<35tonAnalysis/Figs/chisquare-eps-converted-to.pdf, id=586, 569.12625pt x 385.4
 4pt>
 File: 35tonAnalysis/Figs/chisquare-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2172,7 +2172,7 @@ eparation-eps-converted-to.pdf 35tonAnalysis/Figs/track_separation.eps>
 (epstopdf)             \includegraphics on input line 494.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/track_separation-eps-converted-to.pdf, id=591, 318.18875pt 
+<35tonAnalysis/Figs/track_separation-eps-converted-to.pdf, id=587, 318.18875pt 
 x 192.72pt>
 File: 35tonAnalysis/Figs/track_separation-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -2192,7 +2192,7 @@ ion-eps-converted-to.pdf 35tonAnalysis/Figs/separation.eps>
 (epstopdf)             \includegraphics on input line 501.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/separation-eps-converted-to.pdf, id=592, 569.12625pt x 385.
+<35tonAnalysis/Figs/separation-eps-converted-to.pdf, id=588, 569.12625pt x 385.
 44pt>
 File: 35tonAnalysis/Figs/separation-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -2214,7 +2214,7 @@ eMC.eps>
 (epstopdf)             \includegraphics on input line 515.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/TPCCounterT0DifferenceMC-eps-converted-to.pdf, id=595, 569.
+<35tonAnalysis/Figs/TPCCounterT0DifferenceMC-eps-converted-to.pdf, id=591, 569.
 12625pt x 386.44376pt>
 File: 35tonAnalysis/Figs/TPCCounterT0DifferenceMC-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -2236,7 +2236,7 @@ nceData.eps>
 (epstopdf)             \includegraphics on input line 521.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/TPCCounterT0DifferenceData-eps-converted-to.pdf, id=596, 56
+<35tonAnalysis/Figs/TPCCounterT0DifferenceData-eps-converted-to.pdf, id=592, 56
 9.12625pt x 386.44376pt>
 File: 35tonAnalysis/Figs/TPCCounterT0DifferenceData-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -2257,7 +2257,7 @@ ction_before-eps-converted-to.pdf 35tonAnalysis/Figs/t0correction_before.eps>
 (epstopdf)             \includegraphics on input line 533.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/t0correction_before-eps-converted-to.pdf, id=597, 569.12625
+<35tonAnalysis/Figs/t0correction_before-eps-converted-to.pdf, id=593, 569.12625
 pt x 408.52625pt>
 File: 35tonAnalysis/Figs/t0correction_before-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -2278,7 +2278,7 @@ ction_after-eps-converted-to.pdf 35tonAnalysis/Figs/t0correction_after.eps>
 (epstopdf)             \includegraphics on input line 540.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/t0correction_after-eps-converted-to.pdf, id=598, 569.12625p
+<35tonAnalysis/Figs/t0correction_after-eps-converted-to.pdf, id=594, 569.12625p
 t x 408.52625pt>
 File: 35tonAnalysis/Figs/t0correction_after-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -2299,7 +2299,7 @@ n_track_geo-eps-converted-to.pdf 35tonAnalysis/Figs/misalign_track_geo.eps>
 (epstopdf)             \includegraphics on input line 558.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/misalign_track_geo-eps-converted-to.pdf, id=608, 314.17375p
+<35tonAnalysis/Figs/misalign_track_geo-eps-converted-to.pdf, id=604, 314.17375p
 t x 192.72pt>
 File: 35tonAnalysis/Figs/misalign_track_geo-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -2321,7 +2321,7 @@ ollection_geo.eps>
 (epstopdf)             \includegraphics on input line 571.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/misalign_track_collection_geo-eps-converted-to.pdf, id=611,
+<35tonAnalysis/Figs/misalign_track_collection_geo-eps-converted-to.pdf, id=607,
  354.32375pt x 191.71625pt>
 File: 35tonAnalysis/Figs/misalign_track_collection_geo-eps-converted-to.pdf Gra
 phic file (type pdf)
@@ -2341,7 +2341,7 @@ edPlaneGap-eps-converted-to.pdf 35tonAnalysis/Figs/CorrectedPlaneGap.eps>
 (epstopdf)             \includegraphics on input line 578.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/CorrectedPlaneGap-eps-converted-to.pdf, id=612, 569.12625pt
+<35tonAnalysis/Figs/CorrectedPlaneGap-eps-converted-to.pdf, id=608, 569.12625pt
  x 409.53pt>
 File: 35tonAnalysis/Figs/CorrectedPlaneGap-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -2363,7 +2363,7 @@ o.eps>
 (epstopdf)             \includegraphics on input line 592.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/misalign_track_wire_geo-eps-converted-to.pdf, id=615, 401.5
+<35tonAnalysis/Figs/misalign_track_wire_geo-eps-converted-to.pdf, id=611, 401.5
 pt x 192.72pt>
 File: 35tonAnalysis/Figs/misalign_track_wire_geo-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -2385,7 +2385,7 @@ s.eps>
 (epstopdf)             \includegraphics on input line 599.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/misalign_track_wire_res-eps-converted-to.pdf, id=616, 569.1
+<35tonAnalysis/Figs/misalign_track_wire_res-eps-converted-to.pdf, id=612, 569.1
 2625pt x 408.52625pt>
 File: 35tonAnalysis/Figs/misalign_track_wire_res-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -2418,7 +2418,7 @@ geo.eps>
 (epstopdf)             \includegraphics on input line 615.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/misalign_track_drift_geo-eps-converted-to.pdf, id=731, 397.
+<35tonAnalysis/Figs/misalign_track_drift_geo-eps-converted-to.pdf, id=727, 397.
 485pt x 263.98625pt>
 File: 35tonAnalysis/Figs/misalign_track_drift_geo-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -2438,7 +2438,7 @@ edDrift-eps-converted-to.pdf 35tonAnalysis/Figs/CorrectedDrift.eps>
 (epstopdf)             \includegraphics on input line 622.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/CorrectedDrift-eps-converted-to.pdf, id=732, 569.12625pt x 
+<35tonAnalysis/Figs/CorrectedDrift-eps-converted-to.pdf, id=728, 569.12625pt x 
 409.53pt>
 File: 35tonAnalysis/Figs/CorrectedDrift-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -2458,7 +2458,7 @@ eDriftTime-eps-converted-to.pdf 35tonAnalysis/Figs/DistanceDriftTime.eps>
 (epstopdf)             \includegraphics on input line 636.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/DistanceDriftTime-eps-converted-to.pdf, id=734, 569.12625pt
+<35tonAnalysis/Figs/DistanceDriftTime-eps-converted-to.pdf, id=730, 569.12625pt
  x 409.53pt>
 File: 35tonAnalysis/Figs/DistanceDriftTime-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -2478,7 +2478,7 @@ locity-eps-converted-to.pdf 35tonAnalysis/Figs/DriftVelocity.eps>
 (epstopdf)             \includegraphics on input line 643.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/DriftVelocity-eps-converted-to.pdf, id=735, 569.12625pt x 4
+<35tonAnalysis/Figs/DriftVelocity-eps-converted-to.pdf, id=731, 569.12625pt x 4
 09.53pt>
 File: 35tonAnalysis/Figs/DriftVelocity-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -2498,7 +2498,7 @@ s-eps-converted-to.pdf 35tonAnalysis/Figs/HitTimes.eps>
 (epstopdf)             \includegraphics on input line 659.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/HitTimes-eps-converted-to.pdf, id=744, 569.12625pt x 409.53
+<35tonAnalysis/Figs/HitTimes-eps-converted-to.pdf, id=740, 569.12625pt x 409.53
 pt>
 File: 35tonAnalysis/Figs/HitTimes-eps-converted-to.pdf Graphic file (type pdf)
 <use 35tonAnalysis/Figs/HitTimes-eps-converted-to.pdf>
@@ -2517,7 +2517,7 @@ sZoom-eps-converted-to.pdf 35tonAnalysis/Figs/HitTimesZoom.eps>
 (epstopdf)             \includegraphics on input line 666.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/HitTimesZoom-eps-converted-to.pdf, id=745, 569.12625pt x 40
+<35tonAnalysis/Figs/HitTimesZoom-eps-converted-to.pdf, id=741, 569.12625pt x 40
 9.53pt>
 File: 35tonAnalysis/Figs/HitTimesZoom-eps-converted-to.pdf Graphic file (type p
 df)
@@ -2541,7 +2541,7 @@ iffTimestamps-eps-converted-to.pdf 35tonAnalysis/Figs/PTBRCEDiffTimestamps.eps>
 (epstopdf)             \includegraphics on input line 678.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/PTBRCEDiffTimestamps-eps-converted-to.pdf, id=773, 569.1262
+<35tonAnalysis/Figs/PTBRCEDiffTimestamps-eps-converted-to.pdf, id=769, 569.1262
 5pt x 409.53pt>
 File: 35tonAnalysis/Figs/PTBRCEDiffTimestamps-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -2565,7 +2565,7 @@ sMC-eps-converted-to.pdf 35tonAnalysis/Figs/HitTimesMC.eps>
 (epstopdf)             \includegraphics on input line 700.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/HitTimesMC-eps-converted-to.pdf, id=819, 569.12625pt x 409.
+<35tonAnalysis/Figs/HitTimesMC-eps-converted-to.pdf, id=815, 569.12625pt x 409.
 53pt>
 File: 35tonAnalysis/Figs/HitTimesMC-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -2585,7 +2585,7 @@ s-eps-converted-to.pdf 35tonAnalysis/Figs/MeshHits.eps>
 (epstopdf)             \includegraphics on input line 712.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/MeshHits-eps-converted-to.pdf, id=823, 492.84125pt x 576.15
+<35tonAnalysis/Figs/MeshHits-eps-converted-to.pdf, id=819, 492.84125pt x 576.15
 25pt>
 File: 35tonAnalysis/Figs/MeshHits-eps-converted-to.pdf Graphic file (type pdf)
 <use 35tonAnalysis/Figs/MeshHits-eps-converted-to.pdf>
@@ -2604,7 +2604,7 @@ sAPA023-eps-converted-to.pdf 35tonAnalysis/Figs/HitTimesAPA023.eps>
 (epstopdf)             \includegraphics on input line 723.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/HitTimesAPA023-eps-converted-to.pdf, id=825, 569.12625pt x 
+<35tonAnalysis/Figs/HitTimesAPA023-eps-converted-to.pdf, id=821, 569.12625pt x 
 409.53pt>
 File: 35tonAnalysis/Figs/HitTimesAPA023-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -2624,7 +2624,7 @@ sAPA1-eps-converted-to.pdf 35tonAnalysis/Figs/HitTimesAPA1.eps>
 (epstopdf)             \includegraphics on input line 730.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/HitTimesAPA1-eps-converted-to.pdf, id=826, 569.12625pt x 40
+<35tonAnalysis/Figs/HitTimesAPA1-eps-converted-to.pdf, id=822, 569.12625pt x 40
 9.53pt>
 File: 35tonAnalysis/Figs/HitTimesAPA1-eps-converted-to.pdf Graphic file (type p
 df)
@@ -2645,7 +2645,7 @@ sFrame-eps-converted-to.pdf 35tonAnalysis/Figs/HitTimesFrame.eps>
 (epstopdf)             \includegraphics on input line 742.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/HitTimesFrame-eps-converted-to.pdf, id=840, 569.12625pt x 4
+<35tonAnalysis/Figs/HitTimesFrame-eps-converted-to.pdf, id=836, 569.12625pt x 4
 09.53pt>
 File: 35tonAnalysis/Figs/HitTimesFrame-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -2667,7 +2667,7 @@ geInteraction-eps-converted-to.pdf 35tonAnalysis/Figs/HitChargeInteraction.eps>
 (epstopdf)             \includegraphics on input line 753.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/HitChargeInteraction-eps-converted-to.pdf, id=842, 569.1262
+<35tonAnalysis/Figs/HitChargeInteraction-eps-converted-to.pdf, id=838, 569.1262
 5pt x 409.53pt>
 File: 35tonAnalysis/Figs/HitChargeInteraction-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -2689,7 +2689,7 @@ n.eps>
 (epstopdf)             \includegraphics on input line 760.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/HitChargeNonInteraction-eps-converted-to.pdf, id=843, 569.1
+<35tonAnalysis/Figs/HitChargeNonInteraction-eps-converted-to.pdf, id=839, 569.1
 2625pt x 409.53pt>
 File: 35tonAnalysis/Figs/HitChargeNonInteraction-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -2719,7 +2719,7 @@ locityDiffGeo-eps-converted-to.pdf 35tonAnalysis/Figs/DriftVelocityDiffGeo.eps>
 (epstopdf)             \includegraphics on input line 786.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/DriftVelocityDiffGeo-eps-converted-to.pdf, id=887, 418.5637
+<35tonAnalysis/Figs/DriftVelocityDiffGeo-eps-converted-to.pdf, id=883, 418.5637
 5pt x 191.71625pt>
 File: 35tonAnalysis/Figs/DriftVelocityDiffGeo-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -2741,7 +2741,7 @@ locityDiffRes-eps-converted-to.pdf 35tonAnalysis/Figs/DriftVelocityDiffRes.eps>
 (epstopdf)             \includegraphics on input line 793.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/DriftVelocityDiffRes-eps-converted-to.pdf, id=888, 569.1262
+<35tonAnalysis/Figs/DriftVelocityDiffRes-eps-converted-to.pdf, id=884, 569.1262
 5pt x 409.53pt>
 File: 35tonAnalysis/Figs/DriftVelocityDiffRes-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -2753,7 +2753,7 @@ to.pdf used on input line 793.
 alysis/Figs/HitChargeNonInteraction-eps-converted-to.pdf>] [96 <./35tonAnalysis
 /Figs/DriftVelocityDiffGeo-eps-converted-to.pdf> <./35tonAnalysis/Figs/DriftVel
 ocityDiffRes-eps-converted-to.pdf>]
-<35tonAnalysis/Figs/HitReconstructionBias20-40.pdf, id=940, 843.97896pt x 630.9
+<35tonAnalysis/Figs/HitReconstructionBias20-40.pdf, id=936, 843.97896pt x 630.9
 1066pt>
 File: 35tonAnalysis/Figs/HitReconstructionBias20-40.pdf Graphic file (type pdf)
 
@@ -2762,7 +2762,7 @@ Package pdftex.def Info: 35tonAnalysis/Figs/HitReconstructionBias20-40.pdf used
  on input line 837.
 (pdftex.def)             Requested size: 128.6143pt x 96.14394pt.
 
-<35tonAnalysis/Figs/HitReconstructionBias80-100.pdf, id=941, 839.90123pt x 627.
+<35tonAnalysis/Figs/HitReconstructionBias80-100.pdf, id=937, 839.90123pt x 627.
 0166pt>
 File: 35tonAnalysis/Figs/HitReconstructionBias80-100.pdf Graphic file (type pdf
 )
@@ -2771,7 +2771,7 @@ Package pdftex.def Info: 35tonAnalysis/Figs/HitReconstructionBias80-100.pdf use
 d on input line 844.
 (pdftex.def)             Requested size: 128.6143pt x 96.00977pt.
 
-<35tonAnalysis/Figs/HitReconstructionBias140-160.pdf, id=942, 840.188pt x 626.2
+<35tonAnalysis/Figs/HitReconstructionBias140-160.pdf, id=938, 840.188pt x 626.2
 4142pt>
 File: 35tonAnalysis/Figs/HitReconstructionBias140-160.pdf Graphic file (type pd
 f)
@@ -2810,7 +2810,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 889.
 
 
-<35tonAnalysis/Figs/evd_run16110_subrun1_event29.png, id=1045, 1601.985pt x 177
+<35tonAnalysis/Figs/evd_run16110_subrun1_event29.png, id=1041, 1601.985pt x 177
 8.645pt>
 File: 35tonAnalysis/Figs/evd_run16110_subrun1_event29.png Graphic file (type pn
 g)
@@ -2839,12 +2839,22 @@ Acknowledgements/acknowledgements.aux) (./Abstract/abstract.aux) (./Introductio
 n/Introduction.aux) (./NeutrinoPhysics/NeutrinoPhysics.aux) (./DUNE/DUNE.aux) (
 ./35ton/35ton.aux) (./LArReconstruction/LArReconstruction.aux) (./OnlineMonitor
 ing/OnlineMonitoring.aux) (./35tonAnalysis/35tonAnalysis.aux) (./FarDetectorAna
-lysis/FarDetectorAnalysis.aux) (./Summary/Summary.aux) (./Appendix1/appendix1.a
-ux) (./Appendix2/appendix2.aux))
+lysis/FarDetectorAnalysis.aux) (./Summary/Summary.aux)
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+(./Appendix1/appendix1.aux) (./Appendix2/appendix2.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 191.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 191.
-Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: B294EA2AB8C75A504CD015E54E0FFBA6;4754.
+
+Package rerunfilecheck Warning: File `thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `thesis.out':
+(rerunfilecheck)             Before: 0E3630CC9DC54459831B06197936B52D;4658
+(rerunfilecheck)             After:  B294EA2AB8C75A504CD015E54E0FFBA6;4754.
 
 LaTeX Warning: There were undefined references.
 
@@ -2853,13 +2863,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 25380 strings out of 493117
- 461219 string characters out of 6135433
- 553867 words of memory out of 5000000
- 27813 multiletter control sequences out of 15000+600000
+ 25379 strings out of 493117
+ 461206 string characters out of 6135433
+ 552188 words of memory out of 5000000
+ 27812 multiletter control sequences out of 15000+600000
  87732 words of font info for 316 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,12n,45p,10395b,1285s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,12n,45p,10395b,1183s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{section.5.3} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -2888,10 +2898,10 @@ mf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2014/texmf-dist/fon
 ts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/ur
 w/times/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/ut
 mr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (48 pages, 2000511 bytes).
+Output written on thesis.pdf (48 pages, 2000455 bytes).
 PDF statistics:
- 1296 PDF objects out of 1440 (max. 8388607)
- 977 compressed objects within 10 object streams
+ 1293 PDF objects out of 1440 (max. 8388607)
+ 974 compressed objects within 10 object streams
  233 named destinations out of 1000 (max. 500000)
- 46556 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 46548 words of extra memory for PDF output out of 51595 (max. 10000000)
 
