@@ -18,7 +18,7 @@ The style file: andyisgreat.bst
 A level-1 auxiliary file: Appendix1/appendix1.aux
 A level-1 auxiliary file: Appendix2/appendix2.aux
 Database file #1: References/references.bib
-Repeated entry---line 505 of file References/references.bib
+Repeated entry---line 509 of file References/references.bib
  : @article{Baller2014
  :                    ,
 I'm skipping whatever remains of this entry
@@ -43,7 +43,6 @@ Reallocated out_buf (elt_size=1) to 80000 items from 60000.
 Reallocated name_tok (elt_size=4) to 80000 items from 60000.
 Reallocated name_sep_char (elt_size=1) to 80000 items from 60000.
 Reallocated str_pool (elt_size=1) to 260000 items from 195000.
-Warning--I didn't find a database entry for ""
 You can't pop an empty literal stack for entry Weinberg1967
 while executing---line 953 of file andyisgreat.bst
 You can't pop an empty literal stack for entry Aad2012
@@ -106,51 +105,56 @@ while executing---line 953 of file andyisgreat.bst
 Warning--empty journal in T2K2017
 You can't pop an empty literal stack for entry Triotsk2011
 while executing---line 953 of file andyisgreat.bst
-Warning--empty journal in LArIAT2014
 Warning--empty journal in DUNECDR2
 Warning--empty journal in DUNECDR3
 Warning--empty journal in DUNECDR4
+Warning--empty journal in LArIAT2014
+Warning--empty institution in PIPII2013
+Warning--empty journal in LBNECDR1
+Warning--empty journal in LBNECDR3
+Warning--empty journal in LBNECDR4a
+Warning--empty journal in P52014
 Warning--empty journal in LAPD
 Warning--empty journal in LBNE35tonPhaseIOverview
-You've used 105 entries,
+You've used 111 entries,
             1813 wiz_defined-function locations,
-            1139 strings with 246056 characters,
-and the built_in function-call counts, 23104 in all, are:
-= -- 2193
-> -- 846
-< -- 1
-+ -- 384
-- -- 192
-* -- 1661
-:= -- 3674
-add.period$ -- 310
-call.type$ -- 105
-change.case$ -- 103
+            1165 strings with 246869 characters,
+and the built_in function-call counts, 23998 in all, are:
+= -- 2272
+> -- 875
+< -- 2
++ -- 398
+- -- 199
+* -- 1698
+:= -- 3832
+add.period$ -- 328
+call.type$ -- 111
+change.case$ -- 109
 chr.to.int$ -- 0
-cite$ -- 113
-duplicate$ -- 934
-empty$ -- 2337
-format.name$ -- 192
-if$ -- 5075
+cite$ -- 124
+duplicate$ -- 982
+empty$ -- 2428
+format.name$ -- 199
+if$ -- 5265
 int.to.chr$ -- 0
-int.to.str$ -- 105
-missing$ -- 102
-newline$ -- 523
-num.names$ -- 105
-pop$ -- 205
+int.to.str$ -- 111
+missing$ -- 107
+newline$ -- 553
+num.names$ -- 111
+pop$ -- 223
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 427
+skip$ -- 447
 stack$ -- 0
-substring$ -- 1908
-swap$ -- 106
-text.length$ -- 1
+substring$ -- 1933
+swap$ -- 108
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 8
-while$ -- 255
-width$ -- 108
-write$ -- 1130
+warning$ -- 13
+while$ -- 263
+width$ -- 114
+write$ -- 1190
 (There were 31 error messages)

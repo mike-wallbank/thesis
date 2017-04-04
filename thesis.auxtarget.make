@@ -338,5 +338,6 @@
 \newlabel{sub@fig:TrackSelectionFinal}
 \newlabel{tab:APAGaps}
 \newlabel{tab:APAOffsets}
+\newlabel{tab:DUNEExposure}
 \newlabel{tab:NobleProperties}
 \newlabel{tab:OscillationParameters}

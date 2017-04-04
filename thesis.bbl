@@ -486,6 +486,24 @@ Ch~Kraus, et~al.
 \newblock {Planck 2013 results. XVI. Cosmological parameters}.
 \newblock {\em Astronomy \& Astrophysics}, 571:A16, 2014.
 
+\bibitem{DUNECDR2}
+{DUNE Collaboration}.
+\newblock {Long-Baseline Neutrino Facility (LBNF) and Deep Underground Neutrino
+  Experiment (DUNE): The Physics Program for DUNE at LBNF}.
+\newblock 2, 2015.
+
+\bibitem{DUNECDR3}
+{DUNE Collaboration}.
+\newblock {Long-Baseline Neutrino Facility (LBNF) and Deep Underground Neutrino
+  Experiment (DUNE): Long Baseline Neutrino Facility for DUNE}.
+\newblock 3, 2016.
+
+\bibitem{DUNECDR4}
+{DUNE Collaboration}.
+\newblock {Long-Baseline Neutrino Facility (LBNF) and Deep Underground Neutrino
+  Experiment (DUNE): The DUNE Detectors at LBNF}.
+\newblock 4, 2016.
+
 \bibitem{ICARUS2004}
 S.~Amerio, et~al.
 \newblock {Design, construction and tests of the ICARUS T600 detector}.
@@ -534,29 +552,44 @@ V~Chepel and H~Ara{\'{u}}jo.
 \newblock {Liquid noble gas detectors for low energy particle physics}.
 \newblock {\em Journal of Instrumentation}, 8(04):R04001, 2013.
 
-\bibitem{DUNECDR2}
-{DUNE Collaboration}.
-\newblock {Long-Baseline Neutrino Facility (LBNF) and Deep Underground Neutrino
-  Experiment (DUNE): The Physics Program for DUNE at LBNF}.
-\newblock 2, 2015.
-
-\bibitem{DUNECDR3}
-{DUNE Collaboration}.
-\newblock {Long-Baseline Neutrino Facility (LBNF) and Deep Underground Neutrino
-  Experiment (DUNE): Long Baseline Neutrino Facility for DUNE}.
-\newblock 3, 2016.
-
-\bibitem{DUNECDR4}
-{DUNE Collaboration}.
-\newblock {Long-Baseline Neutrino Facility (LBNF) and Deep Underground Neutrino
-  Experiment (DUNE): The DUNE Detectors at LBNF}.
-\newblock 4, 2016.
+\bibitem{PIPII2013}
+P.~Derwent, et~al.
+\newblock {Proton Improvement Plan-II (PIP-II)}.
+\newblock Technical Report December, 2013.
 
 \bibitem{Huber2011}
 Patrick Huber and Joachim Kopp.
 \newblock {Two experiments for the price of one? The role of the second
   oscillation maximum in long baseline neutrino experiments}.
 \newblock {\em Journal of High Energy Physics}, 2011(3):13, 2011.
+
+\bibitem{LBNECDR1}
+{LBNE Collaboration}.
+\newblock {Long-Baseline Neutrino Experiment (LBNE) Project: The LBNE Project}.
+\newblock 1, 2012.
+
+\bibitem{LBNECDR3}
+{LBNE Collaboration}.
+\newblock {Long-Baseline Neutrino Experiment (LBNE) Project: Detectors At The
+  Near Site}.
+\newblock 3, 2012.
+
+\bibitem{LBNECDR4a}
+{LBNE Collaboration}.
+\newblock {Long-Baseline Neutrino Experiment (LBNE) Project: Liquid Argon
+  Detector At The Far Site}.
+\newblock 4, 2012.
+
+\bibitem{LAGUNA-LBNO2015}
+Margherita~Buizza Avanzini.
+\newblock {The LAGUNA-LBNO Project}.
+\newblock {\em Physics Procedia}, 61:524--533, 2015.
+
+\bibitem{P52014}
+{HEPAP Subcommittee}.
+\newblock {Building for Discovery: Strategic Plan for U.S. Particle Physics in
+  the Global Context}.
+\newblock 2014.
 
 \bibitem{LAPD}
 Terry Tope, et~al.

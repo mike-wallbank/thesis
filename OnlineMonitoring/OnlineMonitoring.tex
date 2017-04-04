@@ -10,7 +10,7 @@ Monitoring of the data collected during the running of an experiment is imperati
 
 An event display, designed to illustrate physics events as they occur in the detector, is another desirable feature that is particularly useful during data collection.  A basic example of such a display is also produced by the monitoring system for the purposes of ensuring good quality physics data collection is maintained.
 
-The system is designed to be flexible and provide prompt feedback for those operating the experiment.  It was thus included as part of the DAQ (Data Acquisition) system, \textit{lbne-artdaq}, discussed in Section \ref{sec:lbne-artdaq}.  The monitoring framework itself is the subject of Section \ref{sec:OnlineMonitoring}, with its two functions, data quality monitoring and producing online event displays, presented in Section \ref{sec:DQM} and Section \ref{sec:EventDisplay} respectively.  Finally, the web interface developed to allow synchronisation of this monitoring data to a dedicated web page for ease of access is briefly described in Section \ref{sec:WebInterface}.
+The system is designed to be flexible and provide prompt feedback for those operating the experiment.  It was thus included as part of the DAQ (Data Acquisition) system, \textit{lbne-artdaq}, discussed in Section~\ref{sec:lbne-artdaq}.  The monitoring framework itself is the subject of Section~\ref{sec:OnlineMonitoring}, with its two functions, data quality monitoring and producing online event displays, presented in Section~\ref{sec:DQM} and Section~\ref{sec:EventDisplay} respectively.  Finally, the web interface developed to allow synchronisation of this monitoring data to a dedicated web page for ease of access is briefly described in Section~\ref{sec:WebInterface}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{The DAQ Framework}\label{sec:lbne-artdaq}
@@ -26,7 +26,7 @@ A general overview of lbne-artdaq is shown in Figure~\ref{fig:lbne-artdaq}.
   \label{fig:lbne-artdaq}
 \end{figure}
 
-Data flows from left to right and pass through components common to most DAQ systems.  Closest to the detector components (i.e. the RCEs, SSPs and PTB [see Section \ref{sec:DetectorComponents}]) are the board readers which take the output from the firmware as soon as it is ready and sends it downstream to the event builders.  There exists a board reader for each of the detector components (totalling 24) and each is unaware of the existence of the others.  It is the job of the event builders to assemble a full `event' from these individual `fragments' passed on from each of the detector elements.  An event is complete once composed of a full set of fragments and the event builders will wait to receive them all before sending the data onwards to the aggregators.
+Data flows from left to right and pass through components common to most DAQ systems.  Closest to the detector components (i.e. the RCEs, SSPs and PTB [see Section~\ref{sec:DetectorComponents}]) are the board readers which take the output from the firmware as soon as it is ready and sends it downstream to the event builders.  There exists a board reader for each of the detector components (totalling 24) and each is unaware of the existence of the others.  It is the job of the event builders to assemble a full `event' from these individual `fragments' passed on from each of the detector elements.  An event is complete once composed of a full set of fragments and the event builders will wait to receive them all before sending the data onwards to the aggregators.
 
 There are two aggregators which take the full events but process them in very different ways.  All the data passes through only the first aggregator, whose function it is to write the output to disk and thus end processing by the DAQ.  The second aggregator receives no events but instead has access to the shared memory occupied by the data as it passes through the first aggregator; it is thus designed specifically for the purpose of monitoring and in no way affects the data or the output from the first aggregator.  It is within this second aggregator process that the online monitoring system described in the proceeding section is designed to run.
 
@@ -64,9 +64,9 @@ The setup consists of a central `module', \texttt{OnlineMonitoring\_module.cc}, 
 \end{itemize}
 The main drawback to performing this step is it requires all the data to be held in memory until the end of the event and represents basically the same information as initially present.  However, it was decided the advantages were worth the compromises in memory usage required and no problems were apparent during the course of the run except when operating at the very limits of the capability of the DAQ.
 
-These reformatted data objects are then passed to the methods in the MonitoringData class for straight-forward analysis.  This class owns all of the data products which are output from the monitoring (e.g. histograms, graphs, trees and files) and deals with their filling and writing out when required.  This is discussed further in Section \ref{sec:DQM}.
+These reformatted data objects are then passed to the methods in the MonitoringData class for straight-forward analysis.  This class owns all of the data products which are output from the monitoring (e.g. histograms, graphs, trees and files) and deals with their filling and writing out when required.  This is discussed further in Section~\ref{sec:DQM}.
 
-The event display is handled by its own dedicated class, EventDisplay; this has methods for making the displays and saving them as an image in the correct place when required.  It is designed to accept the reformatted RCE object and presents the data in as meaningful way as possible; this is detailed fully in Section \ref{sec:EventDisplay}.
+The event display is handled by its own dedicated class, EventDisplay; this has methods for making the displays and saving them as an image in the correct place when required.  It is designed to accept the reformatted RCE object and presents the data in as meaningful way as possible; this is detailed fully in Section~\ref{sec:EventDisplay}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Writing Monitoring Data}\label{sec:WritingMonitoringData}
@@ -81,7 +81,7 @@ The parameters N and M are user defined and were set to 30 and 500 respectively 
 
 The event displays are computationally expensive to make and so were only created once per subrun during normal running.  However, since a subrun was automatically stopped by the DAQ and a new one started once the output file had reached 5 GB in size, and (since zero suppression was not utilised at any point during the run) this occurred on average every four minutes, a new event display was made every few minutes.
 
-All the output data are saved on a shared disk on the gateway DAQ machines for further use.  This is discussed in Section \ref{sec:WebInterface} below.
+All the output data are saved on a shared disk on the gateway DAQ machines for further use.  This is discussed in Section~\ref{sec:WebInterface} below.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% \subsection{Configuring the Monitoring}\label{sec:MonitoringConfiguration}
@@ -237,7 +237,7 @@ An example event display is shown in Figure~\ref{fig:EVD}.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Monitoring Web Interface}\label{sec:WebInterface}
 
-The output of the monitoring is vital in assuring the experiment continues to take high quality, analysable data.  To facilitate the monitoring, a web interface was developed to enable all useful information to be displayed on the web and allow convenient, universal access.  This interface, along with the complementary web page, was relatively basic but certainly functional and delivered all expected of it for the purposes of a short prototype run.  The method of automating the transfer of the monitoring data from where it was saved by the DAQ process to somewhere accessible by the web server is briefly described in Section \ref{sec:AutomatedDataTransfer} and the web page itself discussion in Section \ref{sec:WebPage}.
+The output of the monitoring is vital in assuring the experiment continues to take high quality, analysable data.  To facilitate the monitoring, a web interface was developed to enable all useful information to be displayed on the web and allow convenient, universal access.  This interface, along with the complementary web page, was relatively basic but certainly functional and delivered all expected of it for the purposes of a short prototype run.  The method of automating the transfer of the monitoring data from where it was saved by the DAQ process to somewhere accessible by the web server is briefly described in Section~\ref{sec:AutomatedDataTransfer} and the web page itself discussion in Section~\ref{sec:WebPage}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Automated Data Transfer}\label{sec:AutomatedDataTransfer}
@@ -256,7 +256,7 @@ The DAQ aggregator processes run on the lbnedaq6 and lbnedaq7 nodes, requiring a
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Web Page}\label{sec:WebPage}
 
-The web page was hosted at FNAL and located at lbne-dqm.fnal.gov.  The method in the monitoring framework used to write out all the output also wrote and saved all the HTML used to allow images of the plots to be displayed on the web.  This HTML is copied, along with all the images and data files, to the web area as discussed above in Section \ref{sec:AutomatedDataTransfer}.  The web page was basic but performed all required for use in the 35~ton; it had dedicated pages for all the data quality monitoring information and the online event display (the nearline monitoring was also hosted at this website but is not described here).  See Figure~\ref{fig:WebPage} for a demonstration of web page and example navigation.
+The web page was hosted at FNAL and located at lbne-dqm.fnal.gov.  The method in the monitoring framework used to write out all the output also wrote and saved all the HTML used to allow images of the plots to be displayed on the web.  This HTML is copied, along with all the images and data files, to the web area as discussed above in Section~\ref{sec:AutomatedDataTransfer}.  The web page was basic but performed all required for use in the 35~ton; it had dedicated pages for all the data quality monitoring information and the online event display (the nearline monitoring was also hosted at this website but is not described here).  See Figure~\ref{fig:WebPage} for a demonstration of web page and example navigation.
 
 \begin{figure}[ht]
   \centering

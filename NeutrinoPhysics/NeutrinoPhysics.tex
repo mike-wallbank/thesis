@@ -1,11 +1,11 @@
 % Neutrino physics
-% Target length: 30 pages
+% Target length: 25 pages
 
 \graphicspath{{NeutrinoPhysics/Figs/}}
 
 \chapter{Neutrino Physics}\label{chap:NeutrinoPhysics}
 
-This chapter contains an introduction to the field of neutrino physics to provide context for the main work presented in this thesis.  The history of neutrino physics is an interesting story in its own right and provides the foundation for the present and future of the field.  This will be briefly retold in Section \ref{sec:HistoricalContext} and will motivate a discussion of neutrino oscillations in Section \ref{sec:NeutrinoOscillations}.  An overview of the current status of the field and its future is contained in Section \ref{sec:NeutrinoPhysicsStatus}.  As this thesis specifically concerns the DUNE experiment, a brief history and description of liquid argon TPCs is provided in Section \ref{sec:LArTPC} as a basis for future chapters.
+This chapter contains an introduction to the field of neutrino physics to provide context for the main work presented in this thesis.  The history of neutrino physics is an interesting story in its own right and provides the foundation for the present and future of the field.  This will be briefly retold in Section~\ref{sec:HistoricalContext} and will motivate a discussion of neutrino oscillations in Section~\ref{sec:NeutrinoOscillations}.  An overview of the current status of the field and its future is contained in Section~\ref{sec:NeutrinoPhysicsStatus}.
 
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \section{Historical Context}\label{sec:HistoricalContext}
@@ -20,7 +20,7 @@ kinematically the electron must be emitted with an energy given by
 \begin{equation}\label{eq:BetaDecayEnergy}
 E = \left( \frac{m_A^2 - m_B^2 + m_e^2}{2m_A} \right) c^2,
 \end{equation}
-where $m_{\alpha}$ is the mass of particle $\alpha$.  This energy is fixed given the masses of the particles; it was observed however that the electron energy followed a distribution (Figure~\ref{fig:BetaDecayEnergy}), with Equation \ref{eq:BetaDecayEnergy} giving the maximum permitted energy.  The neutrino was postulated as a third final state particle in order to account for this result and retain energy conservation laws.  Pauli initially called the particle a \textit{neutron} (preempting the name Chadwick was to give his discovered particle in 1932) but his idea was met with much scepticism.  It was Fermi who named the new particle \textit{neutrino} (`little neutral one') when incorporating Pauli's hypothesis into his theory of beta decay \cite{Fermi1934Italian,Fermi1934German,Wilson1968}.  With the huge success and acceptance of this theory, the field of neutrino physics was born.
+where $m_{\alpha}$ is the mass of particle $\alpha$.  This energy is fixed given the masses of the particles; it was observed however that the electron energy followed a distribution (Figure~\ref{fig:BetaDecayEnergy}), with Equation~\ref{eq:BetaDecayEnergy} giving the maximum permitted energy.  The neutrino was postulated as a third final state particle in order to account for this result and retain energy conservation laws.  Pauli initially called the particle a \textit{neutron} (preempting the name Chadwick was to give his discovered particle in 1932) but his idea was met with much scepticism.  It was Fermi who named the new particle \textit{neutrino} (`little neutral one') when incorporating Pauli's hypothesis into his theory of beta decay \cite{Fermi1934Italian,Fermi1934German,Wilson1968}.  With the huge success and acceptance of this theory, the field of neutrino physics was born.
 
 \begin{figure}
   \centering
@@ -47,7 +47,7 @@ Since it was known from Reines and Cowan that inverse beta decay
 \begin{equation}\label{eq:DavisNeutrino}
   \nu + \textnormal{Cl}^{37} \rightarrow \textnormal{Ar}^{37} + e^- \hspace{1.5cm} (\nu + n \rightarrow p^+ + e^-)
 \end{equation}
-occurs, this facilitated a comparison between the neutrino and the antineutrino.  They found the interaction shown in Equation \ref{eq:DavisAntineutrino} occurred at a rate less than 20 times that represented in Equation \ref{eq:DavisNeutrino}, implying for the first time a difference between neutrinos and antineutrinos \cite{Davis1959}.  This gave rise to the notion of `lepton number' and its conservation in physical interactions.
+occurs, this facilitated a comparison between the neutrino and the antineutrino.  They found the interaction shown in Equation~\ref{eq:DavisAntineutrino} occurred at a rate less than 20 times that represented in Equation~\ref{eq:DavisNeutrino}, implying for the first time a difference between neutrinos and antineutrinos \cite{Davis1959}.  This gave rise to the notion of `lepton number' and its conservation in physical interactions.
 
 It was few years before the next chapter in the history of neutrinos, the discovery of the muon neutrino in 1962 at Brookhaven \cite{Danby1962}.  It was noted the apparently permitted decay
 \begin{equation}
@@ -96,7 +96,7 @@ It has been known since the 1930s, when Hans Bethe started developing the ideas 
   \label{fig:SolarNeutrinoCycles}
 \end{figure}
 
-Ray Davis, in collaboration with Bahcall, conducted the first experiment to detect these solar neutrinos in 1968.  Using a similar detection technique to his previous experiments, Davis used a 380~m$^3$ tank of tetrachloroethene (C$_2$Cl$_4$) to detect neutrinos via the inverse beta decay reaction detailed in Equation \ref{eq:DavisNeutrino}.  Given the threshold for this reaction is 0.814 MeV, the main sources of neutrinos probed by this experiment were Be$^7$ and B$^8$.  In order to eliminate backgrounds from cosmic rays, Davis constructed his experiment 4850~ft underground at the Homestake mine near Lead, SD, U.S.A.  It is worth noting, in a pleasing neutrino-full-circle, this is exactly where the far detector for the DUNE experiment will be housed.  The Davis Homestake experiment ran for 25 years but the results obtained \cite{Cleveland1995} disagreed quite strongly with the SSM \cite{Bahcall1995}, consistently measuring solar electron neutrinos at a rate around a third of that predicted by the model.  This became known as the `solar neutrino problem', and Davis was awarded the Nobel Prize for his work on this famous experiment in 2002.
+Ray Davis, in collaboration with Bahcall, conducted the first experiment to detect these solar neutrinos in 1968.  Using a similar detection technique to his previous experiments, Davis used a 380~m$^3$ tank of tetrachloroethene (C$_2$Cl$_4$) to detect neutrinos via the inverse beta decay reaction detailed in Equation~\ref{eq:DavisNeutrino}.  Given the threshold for this reaction is 0.814 MeV, the main sources of neutrinos probed by this experiment were Be$^7$ and B$^8$.  In order to eliminate backgrounds from cosmic rays, Davis constructed his experiment 4850~ft underground at the Homestake mine near Lead, SD, U.S.A.  It is worth noting, in a pleasing neutrino-full-circle, this is exactly where the far detector for the DUNE experiment will be housed.  The Davis Homestake experiment ran for 25 years but the results obtained \cite{Cleveland1995} disagreed quite strongly with the SSM \cite{Bahcall1995}, consistently measuring solar electron neutrinos at a rate around a third of that predicted by the model.  This became known as the `solar neutrino problem', and Davis was awarded the Nobel Prize for his work on this famous experiment in 2002.
 
 The subsequent radiochemical experiments SAGE (from 1990) and GALLEX (from 1991) were sensitive to the large flux of \textit{pp} neutrinos by utilising a Ga$^{71}$ target and the lower threshold reaction
 \begin{equation}
@@ -115,7 +115,7 @@ Since the decay lengths and kinematics are well known, the predicted ratio of mu
 
 It was first noticed as early as the late 1970s by experiments designed to search for nucleon decay predicted by the then-popular Grand Unified Theories that the measured flux did not correspond to that predicted by the theory.  The IMB \cite{Haines1986} and Kamioka \cite{Hirata1988} experiments, whilst measuring the atmospheric neutrino flux as an important background for nucleon decay, both noticed deficiencies in the ratio between muon and electron neutrinos compared to that predicted by the models.  These experiments utilised large tanks of pure water surrounded by Photo-Multiplier Tubes (PMTs) to detect neutrinos via the Cherenkov radiation created by their charged leptonic daughter particles.  Using ring-imaging techniques, it is possible to distinguish between electron-like and muon-like events and therefore identify the flavour of the incoming neutrino.  The problem implied by these measurements is known as the `atmospheric neutrino anomaly'.
 
-Various other experiments over the following twenty years also reported similar measurements, suggesting an excess of electron neutrinos over prediction, a deficit in the number of muon neutrinos, or both.  Results from numerous experiments are shown in Figure~\ref{fig:AtmosphericNeutrinoAnomaly}.  Most experiments report a discrepancy, with its size seemingly dependent on the energy region being studied.  The experiments reporting a ratio consistent with one were much smaller than the others, and with more statistics they also started observing similar effects.  This anomaly, along with the issue of the solar neutrino problem, strongly hinted at a problem with our understanding of neutrino physics.  This is be discussed in detail in the Section \ref{sec:NeutrinoOscillations}.
+Various other experiments over the following twenty years also reported similar measurements, suggesting an excess of electron neutrinos over prediction, a deficit in the number of muon neutrinos, or both.  Results from numerous experiments are shown in Figure~\ref{fig:AtmosphericNeutrinoAnomaly}.  Most experiments report a discrepancy, with its size seemingly dependent on the energy region being studied.  The experiments reporting a ratio consistent with one were much smaller than the others, and with more statistics they also started observing similar effects.  This anomaly, along with the issue of the solar neutrino problem, strongly hinted at a problem with our understanding of neutrino physics.  This is be discussed in detail in the Section~\ref{sec:NeutrinoOscillations}.
 
 \begin{figure}
   \centering
@@ -228,13 +228,13 @@ For the three neutrino case, the PMNS matrix, decomposed into its three axial ro
   ,
   \label{eq:PMNS}
 \end{equation}
-where $c_{ij} \equiv \cos{(ij)}$, $s_{ij} \equiv \sin{(ij)}$ and $\delta$ is a CP-violating phase factor.  Each axial component is often referred to by the means with which they are studied, as shown in Equation \ref{eq:PMNS}.
+where $c_{ij} \equiv \cos{(ij)}$, $s_{ij} \equiv \sin{(ij)}$ and $\delta$ is a CP-violating phase factor.  Each axial component is often referred to by the means with which they are studied, as shown in Equation~\ref{eq:PMNS}.
 
-The weak interaction couples to the flavour eigenstates so neutrinos are always created and detected as flavour states.  However, they propagate as mass states since it is these which are eigenstates of the Hamiltonian.  Due to the misalignment of the flavour and mass states, oscillations can be shown to occur.  A neutrino created with flavour $\alpha$ is a superposition of all the mass states (Equation \ref{eq:FlavourSuperposition}).  These states propagate as a plane wave, evolving in time and space such that
+The weak interaction couples to the flavour eigenstates so neutrinos are always created and detected as flavour states.  However, they propagate as mass states since it is these which are eigenstates of the Hamiltonian.  Due to the misalignment of the flavour and mass states, oscillations can be shown to occur.  A neutrino created with flavour $\alpha$ is a superposition of all the mass states (Equation~\ref{eq:FlavourSuperposition}).  These states propagate as a plane wave, evolving in time and space such that
 \begin{equation}\label{eq:MassTimeEvolution}
   \ket{\nu_i(x,t)} = \ket{\nu_i (0)} e^{-i \textbf{x} \cdot \textbf{p}},
 \end{equation}
-where \textbf{x} and \textbf{p} are the 4-position and 4-momentum of the neutrino respectively.  From Equations \ref{eq:FlavourSuperposition} and \ref{eq:MassTimeEvolution}, the evolution of the flavour states over space and time is therefore
+where \textbf{x} and \textbf{p} are the 4-position and 4-momentum of the neutrino respectively.  From Equations~\ref{eq:FlavourSuperposition} and~\ref{eq:MassTimeEvolution}, the evolution of the flavour states over space and time is therefore
 \begin{align}
   \nonumber \ket{\nu_{\alpha}(x,t)} &= \sum_i U_{\alpha i}^* \ket{\nu_i (x,t)} \\
   \label{eq:FlavourTimeEvolution} &= \sum_i U_{\alpha i}^* e^{-i \textbf{x} \cdot \textbf{p}} \ket{\nu_i(0)} .
@@ -244,13 +244,13 @@ In the ultra-relativistic limit, the mass of the neutrino is negligible compared
   \label{eq:RelativisticEnergy} E_i &= \sqrt{|\vec{p}|^2+m_i^2} = \vec{p}\sqrt{1+\frac{m_i^2}{|\vec{p}|^2}} \approx \vec{p}+\frac{m_i^2}{2\vec{p}} \\
   \label{eq:RelativisticEnergyMomentum} \textbf{x}\cdot\textbf{p} &= E_i t - \vec{x}\cdot\vec{p} = \vec{p}\cdot t + \frac{m_i^2}{2\vec{p}}t - \vec{x}\cdot\vec{p} \approx \frac{m_i^2}{2\vec{p}}\vec{x} = \frac{m_i^2}{2p}x ,
 \end{align}
-assuming the neutrino displacement is in the direction of its momentum and using natural units ($c \equiv \hbar \equiv 1$).  Thus, using Equations \ref{eq:FlavourTimeEvolution}, \ref{eq:RelativisticEnergyMomentum} and \ref{eq:MassSuperposition},
+assuming the neutrino displacement is in the direction of its momentum and using natural units ($c \equiv \hbar \equiv 1$).  Thus, using Equations~\ref{eq:FlavourTimeEvolution}, \ref{eq:RelativisticEnergyMomentum} and~\ref{eq:MassSuperposition},
 \begin{align}
   \nonumber \ket{\nu_{\alpha}(x,t)} &= \sum_i U_{\alpha i}^* e^{-i \frac{m_i^2}{2p} x} \ket{\nu_i (0)} \\
   \label{eq:FlavourEvolution} &= \sum_i \sum_{\beta} U_{\alpha i}^* e^{-i \frac{m_i^2}{2p} x} U_{\beta i} \ket{\nu_{\beta}}.
 \end{align}
 
-The probability of a neutrino created in flavour state $\alpha$ being observed in flavour $\beta$ can be determined from Equation \ref{eq:FlavourEvolution}
+The probability of a neutrino created in flavour state $\alpha$ being observed in flavour $\beta$ can be determined from Equation~\ref{eq:FlavourEvolution}
 \begin{align}
   P(\alpha \rightarrow \beta) &= |\braket{\nu_{\alpha}}{\nu_{\beta}(x,t)}|^2 \\
   &= \left[ \sum_i U_{\alpha i} e^{i \frac{m_i^2}{2p} x} U_{\beta i}^* \right] \left[ \sum_j U_{\alpha j}^* e^{-i \frac{m_j^2}{2p} x} U_{\beta j} \right] \\
@@ -269,7 +269,7 @@ From these equations, it can be seen the important controllable parameters relev
 
 \subsection{Matter Effects}\label{sec:MatterEffects}
 
-The oscillations considered thus far are \textit{vacuum oscillations} which occur due to the mixing of the neutrino mass and flavour states.  Whilst directly confirming the oscillation of solar neutrinos, the SNO experiment (along with every other solar neutrino experiment) reported more oscillations than can be explained using just the vacuum oscillation model discussed in Section \ref{sec:VacuumOscillations} \cite{Bahcall2002,Smirnov2003}.  When neutrinos propagate through matter, an additional potential can be shown to also produce oscillations, which would occur even in the case of massless neutrinos (as long as mixing occurs).  Since solar neutrinos travel through dense matter before exiting the Sun, it is possible these matter effects explained above could explain this discrepancy.
+The oscillations considered thus far are \textit{vacuum oscillations} which occur due to the mixing of the neutrino mass and flavour states.  Whilst directly confirming the oscillation of solar neutrinos, the SNO experiment (along with every other solar neutrino experiment) reported more oscillations than can be explained using just the vacuum oscillation model discussed in Section~\ref{sec:VacuumOscillations} \cite{Bahcall2002,Smirnov2003}.  When neutrinos propagate through matter, an additional potential can be shown to also produce oscillations, which would occur even in the case of massless neutrinos (as long as mixing occurs).  Since solar neutrinos travel through dense matter before exiting the Sun, it is possible these matter effects explained above could explain this discrepancy.
 
 Coherent scattering (scattering in which the neutrino state is unchanged) due to interactions with the medium cause neutrinos travelling through matter to feel a potential.  As normal matter is composed of electrons, rather than their heavier counterparts muons and taus, electron neutrinos are affected more by this potential.  The mechanism for this is demonstrated in Figure~\ref{fig:MatterEffects}.  This gives rise to an additional effective mass splitting between the electron neutrino and the other flavours and therefore results in the possibility of oscillations \cite{Wolfenstein1978}.  Due to the density of the Sun and the neutrino energies, the neutrinos actually feel a resonance which causes their oscillation probability to become dramatically higher than the vacuum oscillation probabilities.  This is known as the Mikheev-Smirnov-Wolfenstein (MSW) effect \cite{MS1985,MS1986}.  It is worth pointing out at this point that, since normal matter is composed of electrons and not positrons, this effect is also different for $\nu_e$s and $\bar{\nu}_e$s; the importance of this becomes apparent when considering the additional effects of CP-violation.
 
@@ -298,7 +298,7 @@ In order to investigate the possible MSW effects in the Sun, measurements of ele
 
 \subsection{CP-Violation}\label{sec:CPViolation}
 
-The $\delta$ terms in Equation \ref{eq:PMNS} are CP-violating phase factors.  They could be included in any of the diagonalised components but are generally added to the accelerator part since this is how current and future experiments will look for evidence of CP-violation.  As long as all the mixing angles are non-zero, there is the possibility of CP-violation in the lepton sector.
+The $\delta$ terms in Equation~\ref{eq:PMNS} are CP-violating phase factors.  They could be included in any of the diagonalised components but are generally added to the accelerator part since this is how current and future experiments will look for evidence of CP-violation.  As long as all the mixing angles are non-zero, there is the possibility of CP-violation in the lepton sector.
 
 This is an exciting prospect and one of the reasons for the current intense interest in neutrino physics.  It is known CP-violating processes must have occurred in the early Universe since matter has come to dominate massively over antimatter after they were created equally in the Big Bang.  This has been observed in the quark sector but current experimental evidence can only account for a small amount of the necessary CP-violation.  It is also expected but has never been observed in strong interactions \cite{Mannel2007}.  Leptonic CP-violation could potentially account for the matter-antimatter asymmetry in the Universe and ultimately explain how it evolved to include our very existence \cite{Ohlsson2012,Ohlsson2013}.
 
@@ -311,7 +311,7 @@ can be observed and measured.
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \section{Status of Neutrino Physics}\label{sec:NeutrinoPhysicsStatus}
 
-The field of neutrino physics has advanced rapidly over the past twenty to thirty years (discussed in Sections \ref{sec:HistoricalContext} and \ref{sec:NeutrinoOscillations}) and there is currently a good understanding of most experimental results in the context of 3-flavour neutrino oscillations.  Presently, the focus has shifted to making precise measurements of the oscillation parameters and trying to understand the nature of neutrino mass.  The current understanding of each of these areas will be presented in Sections \ref{sec:OscillationParameters} and \ref{sec:NeutrinoMass} respectively following a brief overview of current and future experiments in Section \ref{sec:CurrentExperiments}.
+The field of neutrino physics has advanced rapidly over the past twenty to thirty years (discussed in Sections \ref{sec:HistoricalContext} and \ref{sec:NeutrinoOscillations}) and there is currently a good understanding of most experimental results in the context of 3-flavour neutrino oscillations.  Presently, the focus has shifted to making precise measurements of the oscillation parameters and trying to understand the nature of neutrino mass.  The current understanding of each of these areas will be presented in Sections \ref{sec:OscillationParameters} and \ref{sec:NeutrinoMass} respectively following a brief overview of current and future experiments in Section~\ref{sec:CurrentExperiments}.
 
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \subsection{Current and Future Experiments}\label{sec:CurrentExperiments}
@@ -363,7 +363,7 @@ A summary of the best known values for all these oscillation parameters is shown
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \subsection{Neutrino Mass}\label{sec:NeutrinoMass}
 
-Neutrinos in the Standard Model are massless, for no real reason.  However, the observation of neutrino oscillations implies the existence of neutrino mass (the oscillation probabilities, such as Equations \ref{eq:ElectronNeutrinoAppearance} and \ref{eq:MuonNeutrinoDisappearance}, would be zero if there was no mass splitting).  Three active neutrino flavours gives rise to two independent mass splittings, $\Delta m_{12}^2$ and $\Delta m_{32}^2$, as appear in the oscillation probabilities.  Unfortunately, fitting to the oscillation results provides only a handle on the value of these splittings and not the signs, resulting in an ambiguity in the ordering of the mass states.  This can be resolved in the solar sector by utilising the effect of the MSW resonance encountered by neutrinos in the Sun, allowing the sign of $\Delta m_{12}^2$ to be known (it must be positive as otherwise fewer oscillations, not more, will have been observed by SNO and the other solar neutrino experiments).  This leaves two possible `hierarchies', normal and inverted, which are possible given the experimental data.  These mass splittings also do not offer any indication of an absolute mass scale for the neutrino mass states, this must be constrained using other methods and is currently undetermined.  These uncertainties are illustrated in Figure~\ref{fig:MassHierarchy}.
+Neutrinos in the Standard Model are massless, for no real reason.  However, the observation of neutrino oscillations implies the existence of neutrino mass (the oscillation probabilities, such as Equations~\ref{eq:ElectronNeutrinoAppearance} and~\ref{eq:MuonNeutrinoDisappearance}, would be zero if there was no mass splitting).  Three active neutrino flavours gives rise to two independent mass splittings, $\Delta m_{12}^2$ and $\Delta m_{32}^2$, as appear in the oscillation probabilities.  Unfortunately, fitting to the oscillation results provides only a handle on the value of these splittings and not the signs, resulting in an ambiguity in the ordering of the mass states.  This can be resolved in the solar sector by utilising the effect of the MSW resonance encountered by neutrinos in the Sun, allowing the sign of $\Delta m_{12}^2$ to be known (it must be positive as otherwise fewer oscillations, not more, will have been observed by SNO and the other solar neutrino experiments).  This leaves two possible `hierarchies', normal and inverted, which are possible given the experimental data.  These mass splittings also do not offer any indication of an absolute mass scale for the neutrino mass states, this must be constrained using other methods and is currently undetermined.  These uncertainties are illustrated in Figure~\ref{fig:MassHierarchy}.
 
 \begin{figure}
   \centering
@@ -375,121 +375,3 @@ Neutrinos in the Standard Model are massless, for no real reason.  However, the 
 DUNE will use the MSW effect present as neutrinos propagate through the Earth's crust in order to resolve the hierarchy problem.  It is essential that the hierarchy is resolved since the associated asymmetries between neutrinos and antineutrinos can mimic true CP-violation, which therefore cannot be measured accurately until the mass splittings are completely understood.  Due to the large matter effects associated with its long baseline, the NO$\nu$A experiment is sensitive to the mass hierarchy and may be able to have a say before DUNE and Hyper-Kamiokande.
 
 The absolute neutrino mass cannot be measured from oscillation experiments so other techniques have been developed.  It is possible to use information from $\beta$-decay to get a handle on the mass scale; the $\bar{\nu}_e$ mass alters the spectrum of electrons near the end point so precision measurements can study this effect.  The current best limits on the mass are from H$^3$ $\beta$-decay experiments and yield $m_{\bar{\nu}_e} < 2.05$~eV at 95\% C.L. \cite{Triotsk2011,Mainz2005}.  Cosmological analysis can also constrain the absolute neutrino mass by looking at the distribution of matter in the Universe and information such as galaxy clustering.  The Planck collaboration reported the upper limit on the sum of all neutrino masses as $\sum_i m_{\nu_i} < 0.23$~eV at 95\% C.L. in 2013 \cite{Planck2013}, indicating a significantly lower mass scale than is attainable using current experiments.
-
-%----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-\section{The LAr TPC Concept}\label{sec:LArTPC}
-
-{\color{red} Lee: two things.  Could this be in the DUNE chapter instead?  I like it here I think, but would also work as an introduction to the next chapter.  Also, this should be considered a VERY first draft!  I imagine I will be coming back here often as I write and realise that I assumed something wrt LArTPCs which I had not already explained.  Particularly in the last section, challenges.}
-
-The use of a liquid argon time projection chamber (LArTPC) as a high-precision fine-grained detector medium holds much promise for the successful resolution of the open questions in neutrino physics.  A great amount of R\&D work has taken place to advance the maturity of the technology and pioneering experiments, such as ICARUS \cite{ICARUS2004}, have further increased the understanding of the neutrino community of the detector techniques.  Past and currently running experiments at Fermilab, such as ArgoNeuT \cite{ArgoNeuT2012}, LArIAT \cite{LArIAT2014} and MicroBooNE \cite{MicroBooNE2017}, are successfully using LArTPCs to take and analyse data and it seems certain to be the future of neutrino physics in the U.S. \cite{Baller2014}.
-
-This section will provide a brief history of LArTPC technology and motivate its potential when used in a large experiment such as DUNE.  The basic operation of such a detector will also be described to provide background for discussion of the DUNE and 35~ton experiments, and of reconstruction in LArTPCs, in future chapters.
-
-%----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-\subsection{A Brief History of Time (Projection Chambers)}\label{sec:LArTPCHistory}
-
-The use of a time projection chamber as a potential particle detector was put forward by David Nygren in 1974 \cite{Nygren1974}.  He envisioned bubble-chamber quality data but with the possibility of digital readout of the data, facilitating extremely fine spatial resolution, good timing resolution and fast recovery after triggering.  The basic concept is a drift chamber containing a noble gas placed within a field to drift ionisation electrons created by a propagating particle towards a multielectron array.  This setup allows full three-dimensional reconstruction by combining information from the two-dimensional readout plane with the drift time.  Nygren also included a magnetic field to assist particle identification in his design, shown in Figure~\ref{fig:NygrenTPC}.
-
-\begin{figure}
-  \centering
-  \includegraphics[width=10cm]{NygrenTPC.png}
-  \caption[Original TPC design, Nygren (1974)]{The original concept of the time projection chamber particle detector, drawn by David Nygren in 1974 \cite{Nygren1974}.  The sections are labelled as followed: methane-filled region (A), screen to establish electron field (B), end-cap detectors (C), superconducting solenoid (3.33~T) (D), iron return yoke for magnetic field (E), beam vacuum pipe (F).}
-  \label{fig:NygrenTPC}
-\end{figure}
-
-The extension of this concept to a liquid argon TPC and its potential as a high-precision fine-grained detector medium in neutrino physics was proposed by Carlo Rubbia in 1977 \cite{Rubbia1977}.  The use of a noble liquid rather than gas is necessary in neutrino experiments to provide a high enough target mass for increased probability of neutrino interactions.  Noble liquids have high electron mobility and low diffusion, favourable properties as the detection of particles is from the ionisation and scintillation light created by the particles.  Given the necessity of a high electric field in order to drift these electrons to the readout places, excellent dielectric properties are also required; noble liquids possess such qualities.  The properties of liquid argon which make it almost perfect for this use are demonstrated in Table \ref{tab:NobleProperties}.
-
-\begin{table}
-  \caption{Properties of noble liquids relevant when considering a TPC medium for a neutrino experiment \cite{Soderberg2008}.}
-  \label{tab:NobleProperties}
-  \centering
-  \begin{tabular}{ l c c c c c c }
-    \toprule
-     & Water & He & Ne & \color{red} Ar & Kr & Xe \\
-    \midrule
-    Boiling point [K] @ 1 atm & 373 & 4.2 & 27.1 & \color{red} 87.3 & 120.0 & 165.0 \\
-    Density [g/cm$^3$] & 1 & 0.125 & 1.2 & \color{red} 1.4 & 2.4 & 3.0 \\
-    Radiation length [cm] & 36.1 & 755.2 & 24.0 & \color{red} 14.0 & 4.9 & 2.8 \\
-    Scintillation [$\gamma$/MeV] & - & 19 000 & 30 000 & \color{red} 40 000 & 25 000 & 42 000 \\
-    dE/dx [MeV/cm] & 1.9 & 0.24 & 1.4 & \color{red} 2.1 & 3.0 & 3.8 \\
-    Scintillation $\lambda$ [nm] & - & 80 & 78 & \color{red} 128 & 150 & 175 \\
-    Natural abundance (Earth atm) [ppm] & $5\times 10^4$ & 5.2 & 18.2 & \color{red} 9340.0 & 1.10 & 0.09 \\
-    Electron mobility [cm$^2$/Vs] & low & low & low & \color{red} 400 & 1200 & 2200 \\
-    \bottomrule
-  \end{tabular}
-\end{table}
-
-An additional advantage of this technology is the low threshold for detection; this is set by the ionisation threshold of liquid argon and is only $23.6 \pm 0.5$ eV \cite{Chepel2013}.  Rubbia realised that a LArTPC could be the digital replacement for the high quality particle detection methods used in bubble chambers, very common in neutrino physics in the 1970s.  He proposed the first LArTPC detector design, shown in Figure~\ref{fig:RubbiaLArTPC}, which bears a striking resemblance to the LArTPCs in use today.
-
-\begin{figure}
-  \centering
-  \includegraphics[width=10cm]{RubbiaLArTPC.png}
-  \caption[First LArTPC detector, Rubbia (1977)]{The LArTPC detector proposed by Carlo Rubbia in 1977 \cite{Rubbia1977}.}
-  \label{fig:RubbiaLArTPC}
-\end{figure}
-
-Constructing and operating such a detector was beyond the technology of the time, and is still being understood today.  The operation of a LArTPC detector and the challenges associated with this are the subject of Section \ref{sec:LArTPCOperation}.
-
-%----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-\subsection{LAr TPC Operation}\label{sec:LArTPCOperation}
-
-A LArTPC typically consists of one or more anodes and cathodes at either end of an active drift region.  An ionising particle passing through a LArTPC causes electrons to become free from argon atoms and, in the presence of a field, drift towards an anode where they are read out.
-
-The readout consists of multiple wire planes with different orientations to facilitate the reconstruction.  The wires are either `induction' wires, which allow the electrons to deposit charge but continue past, or `collection' wires, on which the electric field lines end and all the charge on the electron is collected.  Each wire plane is therefore held at a different `bias voltage' to prevent any field lines ending on the induction wire, thus creating local electric fields which promote the continuing forward motion of the electrons.  The signal seen is therefore dependent on the type of wire plane; a bipolar pulse on an induction plane wire and unipolar on a collection plane wire.  It is also common, though not essential, to make use of a `grid plane' upstream of the signal planes in order to shield them from the electron charge until the drift electrons are close.  Without such a plane, the bipolar pulse would be highly asymmetric, though would still have zero integral.  It also makes changing the drift voltage (controlling the electric field) slightly easier as the signal planes are somewhat shielded from its effects.  MicroBooNE does not operate with a grid plane and, although the 35~ton and the DUNE reference design make use of a grid plane, it is uncertain whether the benefit outweighs the cost for a huge LArTPC detector such as the DUNE far detector.  There are alternative readout possibilities to this typical design which have been suggested but, given the scale of future LArTPCs, it is highly unlikely a viable solution which delivers superior readout at a comparable cost will be found.
-
-Upon ionisation, an electron has a certain probability (around 60\%) of recombining before the field can separate it from its ion.  Whilst this compromises the signal observed, it is accompanied by a flash of scintillation light which may be detected and used to assign an `event time' to the interaction, known as T0.  Without this information, it would be impossible to place an absolute time scale on the event and result in an unresolved coordinate along the drift direction.  The magnitude of the applied electric field must be chosen to balance these two effects; a larger field would result in less recombination and therefore compromise the scintillation light while a smaller field would have consequences on the signal received at the wire planes.  Figure~\ref{fig:ElectricFieldScintillationIonisation} demonstrates this and justifies the field value of 500~V/cm which is often chosen in current LAr neutrino experiments.
-
-\begin{figure}
-  \centering
-  \includegraphics[width=12cm]{ElectricFieldScintillationIonisation.png}
-  \caption[Effect of electric field on luminosity of ionisation electrons and scintillation light in a LArTPC.]{Demonstration of the competing effect the electric field has on the luminosity of the ionisation electrons and scintillation light arriving at the detector readout.  Since both are essential in reconstructing the complete interactions, a balance must be found. [PLACEHOLDER IMAGE].}
-  \label{fig:ElectricFieldScintillationIonisation}
-\end{figure}
-
-The basic operational principles of a LArTPC is demonstrated in Figure~\ref{fig:LArTPCOperation}.  The specifics of how the ionisation charge and the scintillation light is collected and processed is experiment-specific and will be discussed in the context of DUNE in Chapter \ref{chap:DUNE} and the 35~ton experiment in Chapter \ref{chap:35ton}.  This information is all that is required to fully understand and analyse the interactions occurring in the detector; methods used to reconstruct particles and interactions in LAr will be the subject of Chapter \ref{chap:LArTPCReconstruction}.
-
-\begin{figure}[p]
-  \centering
-  \begin{subfigure}[t]{0.48\linewidth}
-    \centering
-    \includegraphics[width=0.98\textwidth]{LArTPCOperation1.png}
-    \caption{Typical LArTPC with one cathode (left) and three read out anode planes (right) (two induction, U and V, and one collection, Y), setting up an electric field.  The central region is filled with liquid argon.}
-    \label{fig:LArTPCOperation1}
-  \end{subfigure}
-  \hfill
-  \begin{subfigure}[t]{0.48\linewidth}
-    \centering
-    \includegraphics[width=0.98\textwidth]{LArTPCOperation2.png}
-    \caption{An ionising particle enters the detector and liberates electrons from the medium, which then drift towards the anode planes.}
-    \label{fig:LArTPCOperation2}
-  \end{subfigure}
-  \hfill
-    \begin{subfigure}[t]{0.48\linewidth}
-    \centering
-    \includegraphics[width=0.98\textwidth]{LArTPCOperation3.png}
-    \caption{As the electrons drift through, charge is induced on the first two wire planes and collected on the final one.  Due to the differing orientations of the wires between planes, three complementary views of the interaction are provided (two are shown).}
-    \label{fig:LArTPCOperation3}
-  \end{subfigure}
-  \hfill
-  \begin{subfigure}[t]{0.48\linewidth}
-    \centering
-    \includegraphics[width=0.98\textwidth]{LArTPCOperation4.png}
-    \caption{By combining the two dimensional information provided by the anode planes with the drift time information, the original particle tracks can be inferred.}
-    \label{fig:LArTPCOperation4}
-  \end{subfigure}
-  \caption[Schematic demonstrating the basic operational principles of a LArTPC.]{Schematic demonstrating the basic operational principles of a LArTPC.  The images are stills taken from an illustration created by Bo Yu (BNL) (do I need to cite this?  It's a very common slide and I can't actually find a Bo Yu talk with it in... everyone just puts his name on the slide!).}
-  \label{fig:LArTPCOperation}
-\end{figure}
-
-%----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-\subsection{LArTPC Challenges}\label{sec:LArTPCChallenges}
-
-There is no doubt of the promise of LArTPCs for the future of neutrino physics but with such expectation comes many challenges.  This will be elaborated upon in more detail when discussing the 35~ton run in Section \ref{sec:35tonPhaseII} but will be briefly mentioned here for completeness.
-
-Given the drift fields required, and the necessary distances, the associated high voltage on the cathode must be on the order of $\sim$100~kV.  This presents engineering challenges related to the feedthrough and cryostat design but also can lead to dielectric breakdown of the liquid nearby such huge voltages.  The properties of LAr and the design implications must be very well understood to ensure this does not endanger the quality of the detector medium.
-
-The presence of electro-negative impurities in the argon can capture drift electrons as they travel towards the anode planes and hinder the signal observed.  The probability of this recombination is referred to as the `electron lifetime' and is directly affected by the maintained purity of the argon.  DUNE expects a contaminant no greater than \#\# ppm O2 and \#\# ppm N2 [to be filled in when I write the DUNE chapter].  This necessitates a purification system to remove impurities and requires the constant recirculation of the liquid through it.  A liquifier is also necessary to recondense any boiled-off gases at the surface.
-
-Along with the possibility of lost signal through finite electron lifetimes, the electrons may also undergo interactions and drift off course either transversely or longitudinally.  This `diffusion' affects the location and size of the observed signal so must also be well understood.
-
-With so much resting on the success of the DUNE experiment, and considering all these effects which must be understood, prototyping is essential.  The 35~ton prototype was constructed as an attempt to better understand LArTPCs and is the subject of Chapter \ref{chap:35ton}.
