@@ -139,7 +139,7 @@ The result of this track selection, as evident from Figure~\ref{fig:TrackSelecti
 
 Comparisons with simulated data are often essential in understanding various phenomena in the data.  Throughout the analyses presented in this chapter, simulations were used to aid investigations and therefore it is important to ensure the Monte Carlo is as similar to the real data as possible.
 
-The standard LArSoft simulation tools were used as described in Section~\ref{sec:LArSoft}, employing the CRY cosmic ray generator.  The data passing through the detector was then filtered on counter coincidences, exactly as the raw data is triggered.  The simulated data was then processed in the same way as the real data and reconstructed using the methods described in Section~\ref{sec:ReconstructingMuonTracks}.
+The standard LArSoft simulation tools were used as described in Section~\ref{sec:LArSoft}, employing the CRY cosmic ray generator.  The data passing through the detector was filtered on counter coincidences, exactly as the raw data is triggered.  The simulated data was then processed in the same way as the real data and reconstructed using the methods described in Section~\ref{sec:ReconstructingMuonTracks}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Measuring LAr Purity from Crossing Muons}\label{sec:PurityAnalysis}
@@ -160,7 +160,14 @@ It is possible to make a rough measurement of the electron lifetime directly fro
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{APA Gap-Crossing Muons}\label{sec:APAGapCrossing}
 
-One of the primary motivations for the design of the 35~ton TPC was to test its modular form, where a single drift region is read out by multiple anode assemblies.  Particles passing through the detector will inevitably leave deposits in multiple TPCs and will pass uninstrumented regions of the detector, such as gaps in between neighbouring APAs.  An example such track is demonstrated schematically in Figure~\ref{fig:APAGapCrosser} and many gap crossings are evident from the event display in Figure~\ref{fig:evd_t0}.  It is essential the implications of this design choice are understood before constructing the far detector modules, each of which will contain 150 APAs.
+One of the primary motivations for the design of the 35~ton TPC was to test its modular form, where a single drift region is read out by multiple anode assemblies.  Particles passing through the detector will inevitably leave deposits in multiple TPCs and will pass uninstrumented regions of the detector, such as gaps in between neighbouring APAs.  Many APA gap-crossing tracks are evident from the event display in Figure~\ref{fig:evd_crossing} and an example such track is demonstrated schematically in Figure~\ref{fig:APAGapCrosser}.  It is essential the implications of this design choice are understood before constructing the far detector modules, each of which will contain 150 APAs.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=12cm]{evd_run14249_subrun1_event4492.png}%evd_t0_2.pdf}
+  \caption[Event display showing tracks passing across APA gaps and also through the APAs.]{Event display showing tracks passing across APA gaps and also through the APAs.  A study of the tracks which pass across gaps between the APAs (the red lines) is the subject of Section~\ref{sec:APAGapCrossing}.  There is a visible offset apparent as the track crosses through the APAs (the blue line); correcting for T0 would eliminate this and yield a single accurately connected track.  This is discussed further in Section~\ref{sec:APACrossing}.}
+  \label{fig:evd_crossing}
+\end{figure}
 
 \begin{figure}
   \centering
@@ -204,7 +211,7 @@ There are eight gaps which can be measured from the data, demonstrated in Figure
 A number of cuts were applied to ensure only high quality tracks were included for analysis:
 \begin{itemize}
   \item{Only hits greater than 1~cm and less than 15~cm away from the gap were included in the track segments.  The purpose of this cut is to limit the effect of multiple scatterings and the poorly understood region closest to the gap, where charge deposited in the uninstrumented region may later be collected.}
-  \item{Each track segment must contain at least three hits to allow an accurate measure of the gradient.}
+  \item{Each track segment must contain at least ten hits to allow an accurate measure of the gradient.}
   \item{The angle between the track segments either side of the gap must be less than 2$^\circ$ to remove any poorly reconstructed tracks, or segments originating from different particle tracks.}
   \item{The angle the track makes with respect to the APA face must be large enough that the gap offset effect can be measured to an acceptable accuracy.  It is common in the 35~ton to refer to a `counter gradient', the offset between the two counters forming the through-going particle trigger in the drift direction, in units of counter length (refer to Figure~\ref{fig:35tonCounters}).  The tracks must have a counter gradient of at least three.}
 \end{itemize}
@@ -212,20 +219,20 @@ A number of cuts were applied to ensure only high quality tracks were included f
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Measuring the APA Gaps}\label{sec:MeasuringAPAGaps}
 
-The gap with which we can expect the largest number of crossers is TPC5/TPC7 and so the method will be demonstrated using data from this channel.  The $z$-offset determined using the method and cuts described above is shown in Figure~\ref{fig:TPC5TPC7XOffsetZOffset}.  An unexpected feature is evident from this distribution; there is not a single peak but two, seemingly related to the angle which the through-going particle makes with respect to the APAs.
+The gap which may expect the largest number of crossers is TPC5/TPC7 and so the method will be demonstrated using data from this channel.  The $z$-offset determined using the method and cuts described above is shown in Figure~\ref{fig:TPC5TPC7XOffsetZOffset}.  An unexpected feature is evident from this distribution; there is not a single peak but two, seemingly related to the angle which the through-going particle makes with respect to the APAs.
 
 \begin{figure}
   \centering
-  \begin{subfigure}[t]{0.48\linewidth}
+  \begin{subfigure}[t]{\linewidth}
     \centering
-    \includegraphics[width=\textwidth]{TPC5TPC7Gap.eps}
+    \includegraphics[width=12cm]{TPC5TPC7Gap.eps}
     \caption{Full distribution.}
     \label{fig:TPC5TPC7Gap}
   \end{subfigure}
   \hfill
-  \begin{subfigure}[t]{0.48\linewidth}
+  \begin{subfigure}[t]{\linewidth}
     \centering
-    \includegraphics[width=\textwidth]{TPC5TPC7GapAngle.eps}
+    \includegraphics[width=12cm]{TPC5TPC7GapAngle.eps}
     \caption{Separated by the angle the track makes to the APAs.}
     \label{fig:TPC5TPC7GapAngle}
   \end{subfigure}
@@ -316,7 +323,7 @@ One explanation for this observed double-peak effect involves considering the po
     \caption{$z$-offset = 2~cm, $x$-offset = 0.5~cm.}
     \label{fig:APAGapMCXOffsetZOffsetAngle}
   \end{subfigure}
-  \caption{[Same as previous page -- which is better?  I prefer the layout of the previous page but I like this one because you can see the 2cm offset in line with each other down the page!]  Studies of the effects of offsets in the positions of the APAs in simulation.  Articficial $z$- and $x$- offsets are introduced and their impact observed in the measurements of $\Delta z$.  Figure~\ref{fig:APAGapMCZOffset} shows the effect of an offset in the $z$-direction; as expected, there is a single peak measuring the inputed value.  Figures~\ref{fig:APAGapMCXOffsetZOffset} and~\ref{fig:APAGapMCXOffsetZOffsetAngle} show the consequence of offsets in both the $x$- and $z$-directions.  This appears to show exactly what is seen in the 35~ton data (Figure~\ref{fig:TPC5TPC7XOffsetZOffset}).}
+  \caption{{\color{red} Same as previous page -- which is better?  I prefer the layout of the previous page but I like this one because you can see the 2cm offset in line with each other down the page!}  Studies of the effects of offsets in the positions of the APAs in simulation.  Articficial $z$- and $x$- offsets are introduced and their impact observed in the measurements of $\Delta z$.  Figure~\ref{fig:APAGapMCZOffset} shows the effect of an offset in the $z$-direction; as expected, there is a single peak measuring the inputed value.  Figures~\ref{fig:APAGapMCXOffsetZOffset} and~\ref{fig:APAGapMCXOffsetZOffsetAngle} show the consequence of offsets in both the $x$- and $z$-directions.  This appears to show exactly what is seen in the 35~ton data (Figure~\ref{fig:TPC5TPC7XOffsetZOffset}).}
   \label{fig:APAGapMC}
 \end{figure}
 
@@ -362,7 +369,7 @@ and extracting parameter $b$ as the true value of $\Delta z$.  This is shown in 
 \begin{figure}
   \centering
   \includegraphics[width=12cm]{TPC5TPC7GapFit.eps}
-  \caption{Extraction of the true value of $\Delta z$ from the full distribution of measured $z$-offsets.  A measured value of $0.118\pm0.007$~cm is found.}
+  \caption{Extraction of the true value of $\Delta z$ from the full distribution of measured $z$-offsets.  A measured value of $0.117\pm0.007$~cm is found.}
   \label{fig:TPC5TPC7GapFit}
 \end{figure}
 
@@ -378,14 +385,14 @@ Using this measured value of $\Delta z$, the offsets can be analysed again, this
 \begin{figure}
   \centering
   \includegraphics[width=12cm]{TPC5TPC7ZOff.eps}
-  \caption{Measurement of the $z$-offset between TPC5 and TPC7 after applying the $x$-offset determined from Figure~\ref{fig:TPC5TPC7XOff}.  As initially anticipated, there is a single peak distributed around the true value of the offset.  This validates the method used and confirms the initial presence of an $x$-offset between the neighbouring APAs.  The final measurement of $\Delta z$ is $0.102\pm0.004$~cm which agrees reasonably with the value measured previously ($0.118\pm0.007$~cm from Figure~\ref{fig:TPC5TPC7GapFit}).}
+  \caption{Measurement of the $z$-offset between TPC5 and TPC7 after applying the $x$-offset determined from Figure~\ref{fig:TPC5TPC7XOff}.  As initially anticipated, there is a single peak distributed around the true value of the offset.  This validates the method used and confirms the initial presence of an $x$-offset between the neighbouring APAs.  The final measurement of $\Delta z$ is $0.103\pm0.004$~cm which agrees reasonably with the value measured previously ($0.117\pm0.007$~cm from Figure~\ref{fig:TPC5TPC7GapFit}).}
   \label{fig:TPC5TPC7ZOff}
 \end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Measurements of the APA Offsets}\label{sec:APAOffsetMeasurements}
 
-The offsets apparent from the data for all of the gaps accessible using TPC tracks in the long drift volume were determined as described in Section~\ref{sec:MeasuringAPAGaps}.  Appendix \#\# contains all relevant figures (does an appendix seem a good idea here? I don't think we need the same figures as the previous section for each of the gaps here, but might be nice to have them somewhere?).  Table \ref{tab:APAOffsets} contains all the measurements and the new gaps, taking these offsets into account, are presented in Table \ref{tab:APAGaps}.
+The offsets apparent from the data for all of the gaps accessible using TPC tracks in the long drift volume were determined as described in Section~\ref{sec:MeasuringAPAGaps}.  Appendix \#\# contains all relevant figures {\color{red}(does an appendix seem a good idea here? I don't think we need the same figures as the previous section for each of the gaps here, but might be nice to have them somewhere?)}.  Table \ref{tab:APAOffsets} contains all the measurements and the new gaps, taking these offsets into account, are presented in Table \ref{tab:APAGaps}.
 
 \begin{table}
   \centering
@@ -396,9 +403,9 @@ The offsets apparent from the data for all of the gaps accessible using TPC trac
       \toprule
       & TPC1/TPC3 & TPC1/TPC5 & TPC3/TPC7 & TPC5/TPC7 \\ %\hline\hline
       \midrule
-      Initial $z$-offset (cm) & $-0.61 \pm 0.04$   & $0.15 \pm 0.01$    & $0.55 \pm 0.06$    & $0.118 \pm 0.007$  \\ %\hline
-      $x$-offset (cm)         & $-0.364 \pm 0.007$ & $-0.254 \pm 0.002$ & $-0.16 \pm 0.01$   & $-0.286 \pm 0.002$ \\ %\hline
-      $z$-offset (cm)         & $-0.62 \pm 0.02$   & $0.131 \pm 0.007$  & $0.56 \pm 0.03$    & $0.102 \pm 0.004$  \\
+      Initial $z$-offset (cm) & $-0.64 \pm 0.04$   & $0.15 \pm 0.01$    & $0.58 \pm 0.06$    & $0.117 \pm 0.007$  \\ %\hline
+      $x$-offset (cm)         & $-0.377 \pm 0.006$ & $-0.252 \pm 0.002$ & $-0.16 \pm 0.01$   & $-0.286 \pm 0.002$ \\ %\hline
+      $z$-offset (cm)         & $-0.63 \pm 0.02$   & $0.131 \pm 0.007$  & $0.55 \pm 0.03$    & $0.103 \pm 0.004$  \\
       \bottomrule
     \end{tabular}
  % }
@@ -410,21 +417,21 @@ The offsets apparent from the data for all of the gaps accessible using TPC trac
       \toprule
       & Assumed (cm) & Offset (cm) & Corrected (cm) \\ %\hline\hline
       \midrule
-      TPC1/TPC3 $x$-gap & 0 & $-0.364 \pm 0.007$ & $-0.364 \pm 0.007$ \\
-      TPC1/TPC5 $x$-gap & 0 & $-0.254 \pm 0.002$ & $-0.254 \pm 0.002$ \\
+      TPC1/TPC3 $x$-gap & 0 & $-0.377 \pm 0.006$ & $-0.377 \pm 0.006$ \\
+      TPC1/TPC5 $x$-gap & 0 & $-0.252 \pm 0.002$ & $-0.252 \pm 0.002$ \\
       TPC3/TPC7 $x$-gap & 0 & $-0.16 \pm 0.01$   & $-0.16 \pm 0.01$   \\
       TPC5/TPC7 $x$-gap & 0 & $-0.286 \pm 0.002$ & $-0.286 \pm 0.002$ \\
       \midrule
-      TPC1/(3)/TPC7 $x$-gap & 0 & $-0.52 \pm 0.01$   & $-0.52 \pm 0.01$   \\
-      TPC1/(5)/TPC7 $x$-gap & 0 & $-0.540 \pm 0.003$ & $-0.540 \pm 0.003$ \\
+      TPC1/(3)/TPC7 $x$-gap & 0 & $-0.538 \pm 0.003$ & $-0.538 \pm 0.003$ \\
+      TPC1/(5)/TPC7 $x$-gap & 0 & $-0.537 \pm 0.010$ & $-0.537 \pm 0.010$ \\
       \midrule
-      TPC1/TPC3 $z$-gap & 2.53 & $-0.62 \pm 0.02$  & $1.91 \pm 0.02$   \\
+      TPC1/TPC3 $z$-gap & 2.53 & $-0.63 \pm 0.02$  & $1.90 \pm 0.02$   \\
       TPC1/TPC5 $z$-gap & 2.08 & $0.131 \pm 0.007$ & $2.211 \pm 0.007$ \\
-      TPC3/TPC7 $z$-gap & 1.63 & $0.56 \pm 0.03$   & $2.19 \pm 0.03$   \\
-      TPC5/TPC7 $z$-gap & 2.08 & $0.102 \pm 0.004$ & $2.182 \pm 0.004$ \\
+      TPC3/TPC7 $z$-gap & 1.63 & $0.55 \pm 0.03$   & $2.18 \pm 0.03$   \\
+      TPC5/TPC7 $z$-gap & 2.08 & $0.103 \pm 0.004$ & $2.183 \pm 0.004$ \\
       \midrule
-      TPC1/(3)/TPC7 $z$-gap & 4.16 & $-0.06 \pm 0.04$ & $4.10 \pm 0.04$ \\
-      TPC1/(5)/TPC7 $z$-gap & 4.16 & $0.233 \pm 0.01$ & $4.39 \pm 0.01$ \\
+      TPC1/(3)/TPC7 $z$-gap & 4.16 & $-0.08 \pm 0.04$ & $4.08 \pm 0.04$ \\
+      TPC1/(5)/TPC7 $z$-gap & 4.16 & $0.23 \pm 0.01$ & $4.39 \pm 0.01$ \\
       \bottomrule
     \end{tabular}
   %}
@@ -434,7 +441,7 @@ The offsets apparent from the data for all of the gaps accessible using TPC trac
 
 The determined errors are statistical only; the effects of systematic uncertainties were not considered and assumed to be negligible in comparison.  Given the method used to determine these offsets, which involved multiple fits in differing parameter spaces, one may expect correlations between the uncertainties in the offsets measured in $x$ and $z$.  The implications of this correlation was considered by varying the value of each parameter across the range of its 1$\sigma$ error and evaluating the effect of this on subsequent measurements.  It was found this is negligible in the context of the determined uncertainties and would not justify thorough evaluation.
 
-There appears to be some consistency in the measurements of the $x$-offsets by considering differences in this value between TPC1 and TPC7.  Despite the fact they do not neighbour each other, this is possible by considering the successive offsets measured between TPC1/TPC3 and TPC3/TPC7, and TPC1/TPC5 and TPC5/TPC7.  Within 0.2~mm, undoubtedly beyond the accuracy of the method and engineering precision, the measurements are in agreement.  There also seems to be slight evidence of a rotation between TPC1 and TPC7 when considering the associated $z$-offsets; the offset at the top of the APA (when measured via TPC5) is greater than at the bottom (when measured via TPC3).  However, this can certainly be explained in the context of the limitations of the method and statistical fluctuations and would require more data and a more robust approach to justify these claims.  Such analysis is not possible with the 35~ton data.
+There appears to be some consistency in the measurements of the $x$-offsets by considering differences in this value between TPC1 and TPC7.  Despite the fact they do not neighbour each other, this is possible by considering the successive offsets measured between TPC1/TPC3 and TPC3/TPC7, and TPC1/TPC5 and TPC5/TPC7.  An exceptional agreement is seen between the two values.  There also seems to be slight evidence of a rotation between TPC1 and TPC7 when considering the associated $z$-offsets; the offset at the top of the APA (when measured via TPC5) is greater than at the bottom (when measured via TPC3).  However, this can certainly be explained in the context of the limitations of the method and statistical fluctuations and would require more data and a more robust approach to justify these claims.  Such analysis is not possible with the 35~ton data.
 
 The method demonstrated here will have direct implications for similar studies using the full DUNE far detector.  All the gaps between the APAs, both in the drift and $z$ directions, will need to be understood for accurate reconstruction and are essential in order to make the precise physics measurements DUNE wishes to.  For example, accurate calorimetric reconstruction is imperative in order to perform particle identification and shower energy determination and is directly related to the drift time of the ionisation electrons; any offsets in APA positions will lead to systematic uncertainties in this information.
 
@@ -455,19 +462,12 @@ Given the nature of a TPC detector, an `event time' (T0) must be known in order 
 
 In a LArTPC, an event time is usually given by an external triggering system.  The DUNE far detector will rely on the instantaneous detection of photons produced from the immediate recombination of the ionisation electrons with positive Ar ions.  In the 35~ton, an additional external system was provided by the scintillation counters.  Since the sample of APA crossing muons used in this analysis were all selected and reconstructed using counter information, an interaction time is immediately known.
 
-Without correctly accounting for T0, the tracks on each side of the APAs appear offset from the planes.  This is evident from the event display shown in Figure~\ref{fig:evd_t0}.  By aligning the track segments on either side of the APAs, a measurement of T0 can be made directly from the TPC data.
-
-\begin{figure}
-  \centering
-  \includegraphics[width=10cm]{evd_run14249_subrun1_event4492.png}%evd_t0_2.pdf}
-  \caption[Event display showing the effect of unaccounting for T0]{Event display made during the run in which a track passes through the APAs.  Correcting for T0 would eliminate the visible offset and result in a single accurately connected track.}
-  \label{fig:evd_t0}
-\end{figure}
+Without correctly accounting for T0, the tracks on each side of the APAs appear offset from the planes.  This is evident from the event display shown in Figure~\ref{fig:evd_crossing}.  By aligning the track segments on either side of the APAs, a measurement of T0 can be made directly from the TPC data.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Aligning APA Crossing Tracks}\label{sec:APACrossingAlignment}
 
-Two complementary methods were used to accurately align the track segments across the APA.  Both involved initially correcting for the counter T0, $T_0^{\mathrm{counter}}$, before considering a range of alternative T0 hypotheses and minimising a relevant metric to determine the most likely value.  In the first method, demonstrated in Figure~\ref{fig:APACrossingAlignmentLeastSq}, a least square linear fit is applied to the track and the residual minimised.  The second method, demonstrated in Figure~\ref{fig:APACrossingAlignmentSeparation}, involves fitting a line to each segment in turn and minimising the projected distance between the intersections of the lines with the centre of the APAs ($x=0$).  As will shown later, and can be seen from Figs. \ref{fig:APACrossingAlignmentLeastSqMin} and \ref{fig:APACrossingAlignmentSeparationMin}, the two methods agree very well with each other.
+Two complementary methods were used to accurately align the track segments across the APA.  Both involved initially correcting for the counter T0, $T_0^{\mathrm{counter}}$, before considering a range of alternative T0 hypotheses and minimising a relevant metric to determine the most likely value.  In the first method, demonstrated in Figure~\ref{fig:APACrossingAlignmentLeastSq}, a least square linear fit is applied to the track and the residual minimised (the `residual method').  The second method, demonstrated in Figure~\ref{fig:APACrossingAlignmentSeparation}, involves fitting a line to each segment in turn and minimising the projected distance between the intersections of the lines with the centre of the APAs ($x=0$) (the `separation point method').  As will be shown, and can be seen from Figs. \ref{fig:APACrossingAlignmentLeastSqMin} and \ref{fig:APACrossingAlignmentSeparationMin}, the two methods agree very well with each other.
 
 \begin{figure}
   \centering
@@ -506,23 +506,31 @@ Two complementary methods were used to accurately align the track segments acros
   \label{fig:APACrossingAlignmentSeparation}
 \end{figure}
 
-Naively, one would expect the T0 determined using these methods, $T_0^{\mathrm{TPC}}$, to agree with $T_0^{\mathrm{counter}}$.  This is confirmed It was noted however that there appeared to be a systematic offset between the T0 given by the counters and measured from the TPC data.  The distribution of this disparity is shown in Figure~\ref{fig:TPCCounterT0DifferenceData}; it peaks sharply around 64 ticks (32~$\mu$s) and is importantly inconsistent with zero.  This suggests an inconsistency somewhere in the data taking and attempts to understand this track misalignment will be the subject of the remainder of this section.  Figure~\ref{fig:TPCCounterT0Correction} shows an example track before and after this disparity is corrected for.
+Naively, one would expect the T0 determined using these methods, $T_0^{\mathrm{TPC}}$, to agree with $T_0^{\mathrm{counter}}$.  This is confirmed by applying the analysis to simulated data and demonstrated in Figure~\ref{fig:TPCCounterT0DifferenceMC}.  However, there appears to be a systematic offset between the T0 given by the counters and measured from the TPC data.  The distribution of this discrepancy is shown in Figures~\ref{fig:TPCCounterT0DifferenceData} and~\ref{fig:TPCCounterT0DifferenceDataResidual} for each of the two methods described; it peaks around 61 ticks (30.5~$\mu$s) and is importantly incompatible with zero.  This suggests an inconsistency somewhere in the data taking and attempts to understand this track misalignment will be the subject of the remainder of this section.  Figure~\ref{fig:TPCCounterT0Correction} shows an example track before and after this disparity is corrected for.  As is evident from Figure~\ref{fig:TPCCounterT0Difference}, the separation point method provides more consistent results so this will be used exclusively for alignment measurements in the rest of this section.
 
 \begin{figure}
   \centering
   \begin{subfigure}[t]{\linewidth}
     \centering
-    \includegraphics[width=12cm]{TPCCounterT0DifferenceMC.eps}
-    \caption{MC}
+    \includegraphics[width=0.51\textwidth]{TPCCounterT0DifferenceMC.eps}
+    \caption{35~ton simulation.  The difference in the two measurements of T0 is distributed around zero, as expected, and validates the method.  The peak is actually at 1~tick, indicating a slight systematic offset.}
     \label{fig:TPCCounterT0DifferenceMC}
   \end{subfigure}
-  \begin{subfigure}[t]{\linewidth}
+  \vfill
+  \begin{subfigure}[t]{0.48\linewidth}
     \centering
-    \includegraphics[width=12cm]{TPCCounterT0DifferenceData.eps}
-    \caption[Difference between the T0 calculated from TPC data and the T0 provided by the counters representing the trigger time of the through-going muon.]{[Placeholder image until I get one with full stats again!] Difference between the T0 calculated from TPC data and the T0 provided by the counters representing the trigger time of the through-going muon.  If the two measurements of T0 agreed the distribution would peak at zero; the fact it does not is indicative of a systematic offset somewhere in the data taking.}
+    \includegraphics[width=0.98\textwidth]{TPCCounterT0DifferenceData.eps}
+    \caption{35~ton data using the separation point method.}
     \label{fig:TPCCounterT0DifferenceData}
   \end{subfigure}
-  \caption{Both}
+  \hfill
+  \begin{subfigure}[t]{0.48\linewidth}
+    \centering
+    \includegraphics[width=0.98\textwidth]{TPCCounterT0DifferenceDataResidual.eps}
+    \caption{35~ton data using the residual method.}
+    \label{fig:TPCCounterT0DifferenceDataResidual}
+  \end{subfigure}
+  \caption[Difference between the T0 calculated from TPC data and the T0 provided by the counters representing the trigger time of the through-going muon, for simulation and data.]{Difference between the T0 calculated from TPC data and the T0 provided by the counters representing the trigger time of the through-going muon, for simulation (Figure~\ref{fig:TPCCounterT0DifferenceMC}) and data (Figures~\ref{fig:TPCCounterT0DifferenceData} and~\ref{fig:TPCCounterT0DifferenceDataResidual}).  If the two measurements of T0 agree the distribution would peak around zero, confirmed in simulation; the fact this is not the case for data is indicative of a systematic offset somewhere in the data taking.}
   \label{fig:TPCCounterT0Difference}
 \end{figure}
 
@@ -551,7 +559,7 @@ Naively, one would expect the T0 determined using these methods, $T_0^{\mathrm{T
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{Understanding the Misalignment of APA Crossing Tracks}\label{sec:APACrossingMisalignment}
 
-The underlying issue described above is essentially a misalignment of the same particle track between the two drift regions (see Figure~\ref{fig:TrackMisalignment}).  This obviously is not physical and stems from an issue with the detector or data readout.  The most obvious cause is a miscalibration of the DAQ timing systems for the separate detector components, as previous assumed; there are however other possible causes for this problem.  Most likely, the effect arises from a combination of these different factors.
+The underlying issue described above is essentially a misalignment of the same particle track between the two drift regions, demonstrated plainly in Figure~\ref{fig:TrackMisalignment}.  This obviously is not physical and stems from an issue with the detector or data readout.  The most obvious cause is a miscalibration of the DAQ timing systems for the separate detector components, as previous assumed.  There are however other possible solutions to the problem and it is likely the effect arises from a combination of different factors.
 
 \begin{figure}
   \centering
@@ -575,7 +583,7 @@ Apart from timing, a misunderstanding a the geometry could explain this perceive
   \hfill
   \begin{subfigure}[t]{0.48\linewidth}
     \centering
-    \includegraphics[width=\textwidth]{CorrectedPlaneGap.eps}
+    \includegraphics[width=\textwidth]{misalign_track_collection_res.eps}
     \caption{Corrected spacing between the collection planes after considering a range of values and aligning the track segments.  The red line shows the spacing used in the geometry.  The distribution peaks at $-1.19\pm0.05$~cm.}
     \label{fig:TrackMisalignmentCollectionSpacingRes}
   \end{subfigure}
@@ -583,7 +591,7 @@ Apart from timing, a misunderstanding a the geometry could explain this perceive
   \label{fig:TrackMisalignmentCollectionSpacing}
 \end{figure}
 
-A further problem is related to the wire positioning on the APAs in the $z$-direction; it is understood there may be a discrepency between the two sides of the APA resulting in hits from the long and short drift regions at the same $z$-position reconstructed with a systematic offset.  Figure~\ref{fig:TrackMisalignmentZPositionGeo} shows how this could be utilised to explain the apparent track misalignment with Figure~\ref{fig:TrackMisalignmentZPositionRes} showing the distribution of corrected $z$ positions necessary to resolve the issue.  Offsets of $\sim30$~cm, as suggested by these results, are impossible, indicating again the track alignment problem cannot be resolved in this way.
+A further problem is related to the wire positioning on the APAs in the $z$-direction; it is understood there may be a discrepency between the two sides of the APA resulting in hits from the long and short drift regions at the same $z$-position reconstructed with a systematic offset.  Figure~\ref{fig:TrackMisalignmentZPositionGeo} shows how this could be utilised to explain the apparent track misalignment with Figure~\ref{fig:TrackMisalignmentZPositionRes} showing the distribution of corrected $z$ positions necessary to resolve the issue.  Offsets of $\sim2$~cm, as suggested by these results, are highly unlikely given the scale of offsets identified in Section~\ref{sec:APAOffsetMeasurements}, indicating again the track alignment problem cannot be resolved in this way.
 
 \begin{figure}
   \centering
@@ -600,7 +608,7 @@ A further problem is related to the wire positioning on the APAs in the $z$-dire
     \caption{Corrected $z$-positions of the APA wires after considering a range of values and aligning the track segments.}
     \label{fig:TrackMisalignmentZPositionRes}
   \end{subfigure}
-  \caption[Attempting to correct the track segment misalignment by assuming a misunderstanding of the positioning of the collection wires inside the detector.]{Attempting to correct the track segment misalignment by assuming a misunderstanding of the positioning of the collection wires inside the detector.  The wire offset would have to be around a foot to fix this issue.}
+  \caption[Attempting to correct the track segment misalignment by assuming a misunderstanding of the positioning of the collection wires inside the detector.]{Attempting to correct the track segment misalignment by assuming a misunderstanding of the positioning of the collection wires inside the detector.  The wire offset would have to be around $2$~cm to fix this issue.}
   \label{fig:TrackMisalignmentZPosition}
 \end{figure}
 
@@ -619,7 +627,7 @@ The drift velocity affects the angle of the tracks in wire/time space; a high ve
   \hfill
   \begin{subfigure}[t]{0.48\linewidth}
     \centering
-    \includegraphics[width=\textwidth]{CorrectedDrift.eps}
+    \includegraphics[width=\textwidth]{misalign_track_drift_res.eps}
     \caption{Corrected drift velocity required to align the track across the APAs.  The red line shows the assumed value of 109~cm/ms.}
     \label{fig:TrackMisalignmentDriftVelocityRes}
   \end{subfigure}
@@ -650,24 +658,24 @@ This can be tested by measuring the drift velocity directly from the data.  Taki
 
 \paragraph{Timing}
 
-The timing offset calculated in Section. \ref{sec:APACrossingAlignment}, 32~$\mu$s, is so large it was assumed another explaination for the track segment misalignment was likely.  However, after reviewing all possibilities it appears there must be a significant timing offset present somewhere in the data.  Further evidence for this hypothesis is presented in Figure~\ref{fig:HitTime} which displays the T0-corrected time distribution for all hits on the APA crossing track.  The minimum drift time these hits may have, since they pass directly through the planes, is the interaction time, T0.  As is evident from the distribution in Figure~\ref{fig:HitTimeZoom}, this is around 56 ticks (28~$\mu$s) and is notably inconsistent with zero.  The curious spike at the interaction time motivates the work presented in Section~\ref{sec:APACrossingCharge} and will be discussed there.
+The timing offset calculated in Section. \ref{sec:APACrossingAlignment}, 32~$\mu$s, is so large it was assumed another explaination for the track segment misalignment was likely.  However, after reviewing all possibilities it appears there must be a significant timing offset present somewhere in the data.  Further evidence for this hypothesis is presented in Figure~\ref{fig:HitTime} which displays the T0-corrected time distribution for all hits on the APA crossing track.  The minimum drift time these hits may have, since they pass directly through the planes, is the interaction time, T0.  As is evident from the distribution in Figure~\ref{fig:HitTimeZoom}, this is around 58 ticks (29~$\mu$s) and is notably inconsistent with zero.  The curious spike at the interaction time motivates the work presented in Section~\ref{sec:APACrossingCharge} and will be discussed there.
 
 \begin{figure}
   \centering
   \begin{subfigure}[t]{0.48\linewidth}
     \centering
     \includegraphics[width=\textwidth]{HitTimes.eps}
-    \caption{Over the full range of drift times.}
+    \caption{Over the full range of drift times.  The sharp dip around 500~ticks corresponds to the maximum drift time for hits in the short drift region; beyond this only hits in the long drift region contributes to the distribution.}
     \label{fig:HitTimeRange}
   \end{subfigure}
   \hfill
   \begin{subfigure}[t]{0.48\linewidth}
     \centering
     \includegraphics[width=\textwidth]{HitTimesZoom.eps}
-    \caption{Zoomed in on the interaction time.}
+    \caption{Zoomed in on the interaction time.  The red line is drawn at 58 ticks (29~$\mu$s) and represents, by eye, the start of the distribution.}
     \label{fig:HitTimeZoom}
   \end{subfigure}
-  \caption[The T0-corrected drift time for hits on APA crossing tracks.]{The T0-corrected drift time for hits on APA crossing tracks.  The lower leading edge of this distribution is an indication of the interaction time, T0.  The red line on Figure~\ref{fig:HitTimeZoom} is drawn at 56 ticks (28~$\mu$s) and represents, by eye, the start of the distribution.}
+  \caption[The T0-corrected drift time for hits on APA crossing tracks.]{The T0-corrected drift time for hits on APA crossing tracks.  The lower leading edge of this distribution is an indication of the interaction time, T0.}
   \label{fig:HitTime}
 \end{figure}
 
@@ -680,15 +688,31 @@ This interesting result provoked further investigation into the notion of a timi
   \label{fig:TPCCounterOffset}
 \end{figure}
 
-Within the limitations of all methods discussed, there is agreement between the T0 offset in Figure~\ref{fig:HitTimeZoom} and the timing miscalibration in Figure~\ref{fig:TPCCounterOffset}.  This does not however account for the full track segment misalignment; this represents 64~ticks (32~$\mu$s) if accounted for using timing alone, as seen in Figure~\ref{fig:TPCCounterT0Difference}.  As previously noted, the complete solution is likely a combination of different effects.  Given that drift velocity and $z$-position of wires effects are neglible, the remaining offset must be due to a slight discrepency between the actual spacing of the collection planes and what is being assumed.  With an actual T0 of 56 ticks, this collection plane spacing can be determined in the usual way by aligning tracks.  The results of this are demonstrated in Figure~\ref{fig:RemainingCollectionSpacing}.
+There are now three measurements of the timing offset with a slight disagreement between each.  This will be discussed further in Section~\ref{sec:CombinedOffsets}.
+
+%% Within the limitations of all methods discussed, there is agreement between the T0 offset in Figure~\ref{fig:HitTimeZoom} and the timing miscalibration in Figure~\ref{fig:TPCCounterOffset}.  This does not however account for the full track segment misalignment; this represents 64~ticks (32~$\mu$s) if accounted for using timing alone, as seen in Figure~\ref{fig:TPCCounterT0Difference}.  As previously noted, the complete solution is likely a combination of different effects.  Given that drift velocity and $z$-position of wires effects are neglible, the remaining offset must be due to a slight discrepency between the actual spacing of the collection planes and what is being assumed.  With an actual T0 of 56 ticks, this collection plane spacing can be determined in the usual way by aligning tracks.  The results of this are demonstrated in Figure~\ref{fig:RemainingCollectionSpacing}.
+
+%% \begin{figure}
+%%   \centering
+%%   \caption{}
+%%   \label{fig:RemainingCollectionSpacing}
+%% \end{figure}
+
+%% The misalignment of the tracks, as described in Section~\ref{sec:APACrossingAlignment}, can be understood as a combination of a timing miscalibration between two detector components and a slight offset in the geometry, which is not unexpected.  This is the first time tracks crossing the readout planes have been used in a LArTPC experiment and have proven to be a valuable way of calibrating inter-detector components and finding other inconsistencies in the data.  Without studying this data set, the timing offset between the TPC and the external counters would not have been discovered and all analyses would naively use the incorrect T0.  In the next section, another source of information which can be gleaned from this dataset, this time more about understanding detector responses, will be discussed.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Combined Offset Analysis}\label{sec:CombinedOffsets}
+
+The discussion in Section~\ref{sec:APACrossingMisalignment} hints strongly at an intrinsic timing offset present in the data.  However, as already shown in Section~\ref{sec:APAGaps}, it is understood there are geometrical offsets in the positions of the APAs in the $x$- and $z$-dimensions.  Attempting to measure all these offsets simultaneously presents challenges since they all affect each other.  It is possible the tension between the measurements of the timing offset may be resolved by cominbing the results from each of the offset calculations.
+
+The timing offset will not influence the determination of the geometrical APA gaps (found in Section~\ref{sec:APAGapCrossing}) unless the track segments used to measure the gaps cross through the APA frames; the timing is consistent for each drift region.  A simple cut was used to exclude such events when making these measurements.  However, the geometrical offsets will have an impact on the APA crosser analysis.  For example, the drift times measured for each hit will be affected by the physical positions of the APAs.  Figure~\ref{fig:HitTimesFixed} shows the distribution of the drift times for all track hits corrected for the offsets implied by the $x$-gap measurements.  It can be seen this
 
 \begin{figure}
   \centering
+  \includegraphics[width=12cm]{HitTimesFixed.eps}
   \caption{}
-  \label{fig:RemainingCollectionSpacing}
+  \label{fig:HitTimesFixed}
 \end{figure}
-
-The misalignment of the tracks, as described in Section~\ref{sec:APACrossingAlignment}, can be understood as a combination of a timing miscalibration between two detector components and a slight offset in the geometry, which is not unexpected.  This is the first time tracks crossing the readout planes have been used in a LArTPC experiment and have proven to be a valuable way of calibrating inter-detector components and finding other inconsistencies in the data.  Without studying this data set, the timing offset between the TPC and the external counters would not have been discovered and all analyses would naively use the incorrect T0.  In the next section, another source of information which can be gleaned from this dataset, this time more about understanding detector responses, will be discussed.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Charge Deposited by APA Crossing Tracks}\label{sec:APACrossingCharge}

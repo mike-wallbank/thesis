@@ -73,6 +73,10 @@
 \newlabel{fig:DQMPlot3}
 \newlabel{fig:DQMPlot4}
 \newlabel{fig:DQMPlots}
+\newlabel{fig:DUNEAppearanceProbabilities}
+\newlabel{fig:DUNEMassHierarchyDeltaCP}
+\newlabel{fig:DUNEMassHierarchyTime}
+\newlabel{fig:DUNEMassHierarchy}
 \newlabel{fig:DUNE}
 \newlabel{fig:DataCalorimetryShowerEnergy}
 \newlabel{fig:DataCalorimetryThreshold1}
@@ -103,6 +107,7 @@
 \newlabel{fig:HitTimesAPA023}
 \newlabel{fig:HitTimesAPA1}
 \newlabel{fig:HitTimesAPAs}
+\newlabel{fig:HitTimesFixed}
 \newlabel{fig:HitTimesFrame}
 \newlabel{fig:HitTimesMC}
 \newlabel{fig:HitTime}
@@ -123,7 +128,6 @@
 \newlabel{fig:NygrenTPC}
 \newlabel{fig:OnlineMonitoringFramework}
 \newlabel{fig:PurityMonitor}
-\newlabel{fig:RemainingCollectionSpacing}
 \newlabel{fig:RubbiaLArTPC}
 \newlabel{fig:SolarNeutrinoCycles}
 \newlabel{fig:SolarNeutrinoFluxes}
@@ -143,6 +147,7 @@
 \newlabel{fig:TPCCounterT0CorrectionCounter}
 \newlabel{fig:TPCCounterT0CorrectionTPC}
 \newlabel{fig:TPCCounterT0Correction}
+\newlabel{fig:TPCCounterT0DifferenceDataResidual}
 \newlabel{fig:TPCCounterT0DifferenceData}
 \newlabel{fig:TPCCounterT0DifferenceMC}
 \newlabel{fig:TPCCounterT0Difference}
@@ -164,7 +169,7 @@
 \newlabel{fig:TwoPeakAmbiguity}
 \newlabel{fig:WebInterface}
 \newlabel{fig:WebPage}
-\newlabel{fig:evd_t0}
+\newlabel{fig:evd_crossing}
 \newlabel{fig:lbne-artdaq}
 \newlabel{sec:2DReconstruction}
 \newlabel{sec:35tonCameraSystem}
@@ -208,14 +213,15 @@
 \newlabel{sec:BlurredCluster}
 \newlabel{sec:CPViolation}
 \newlabel{sec:Calorimetry}
+\newlabel{sec:CombinedOffsets}
 \newlabel{sec:CounterMonitoring}
 \newlabel{sec:CurrentExperiments}
 \newlabel{sec:DQMPlots}
 \newlabel{sec:DQM}
 \newlabel{sec:DUNEBeam}
-\newlabel{sec:DUNEEffect}
 \newlabel{sec:DUNEExperiment}
 \newlabel{sec:DUNEOverview}
+\newlabel{sec:DUNEPhyics}
 \newlabel{sec:DataCalorimetryReconstruction}
 \newlabel{sec:DataPi0Reconstruction}
 \newlabel{sec:DataShowerReconstruction}
@@ -298,6 +304,8 @@
 \newlabel{sub@fig:DQMPlot2}
 \newlabel{sub@fig:DQMPlot3}
 \newlabel{sub@fig:DQMPlot4}
+\newlabel{sub@fig:DUNEMassHierarchyDeltaCP}
+\newlabel{sub@fig:DUNEMassHierarchyTime}
 \newlabel{sub@fig:DataCalorimetryThreshold1}
 \newlabel{sub@fig:DataCalorimetryThreshold2}
 \newlabel{sub@fig:DataCalorimetryThreshold3}
@@ -325,6 +333,7 @@
 \newlabel{sub@fig:TPC5TPC7Gap}
 \newlabel{sub@fig:TPCCounterT0CorrectionCounter}
 \newlabel{sub@fig:TPCCounterT0CorrectionTPC}
+\newlabel{sub@fig:TPCCounterT0DifferenceDataResidual}
 \newlabel{sub@fig:TPCCounterT0DifferenceData}
 \newlabel{sub@fig:TPCCounterT0DifferenceMC}
 \newlabel{sub@fig:TrackMisalignmentCollectionSpacingGeo}
