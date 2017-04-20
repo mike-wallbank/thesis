@@ -18,10 +18,6 @@ The style file: andyisgreat.bst
 A level-1 auxiliary file: Appendix1/appendix1.aux
 A level-1 auxiliary file: Appendix2/appendix2.aux
 Database file #1: References/references.bib
-Repeated entry---line 509 of file References/references.bib
- : @article{Baller2014
- :                    ,
-I'm skipping whatever remains of this entry
 Reallocated buffer (elt_size=1) to 40000 items from 20000.
 Reallocated sv_buffer (elt_size=1) to 40000 items from 20000.
 Reallocated ex_buf (elt_size=1) to 40000 items from 20000.
@@ -35,13 +31,17 @@ Reallocated out_buf (elt_size=1) to 60000 items from 40000.
 Reallocated name_tok (elt_size=4) to 60000 items from 40000.
 Reallocated name_sep_char (elt_size=1) to 60000 items from 40000.
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-Reallocated str_pool (elt_size=1) to 195000 items from 130000.
 Reallocated buffer (elt_size=1) to 80000 items from 60000.
 Reallocated sv_buffer (elt_size=1) to 80000 items from 60000.
 Reallocated ex_buf (elt_size=1) to 80000 items from 60000.
 Reallocated out_buf (elt_size=1) to 80000 items from 60000.
 Reallocated name_tok (elt_size=4) to 80000 items from 60000.
 Reallocated name_sep_char (elt_size=1) to 80000 items from 60000.
+Reallocated str_pool (elt_size=1) to 195000 items from 130000.
+Repeated entry---line 1414 of file References/references.bib
+ : @article{Baller2014
+ :                    ,
+I'm skipping whatever remains of this entry
 Reallocated str_pool (elt_size=1) to 260000 items from 195000.
 You can't pop an empty literal stack for entry Weinberg1967
 while executing---line 953 of file andyisgreat.bst
@@ -118,24 +118,24 @@ Warning--empty journal in LAPD
 Warning--empty journal in LBNE35tonPhaseIOverview
 You've used 111 entries,
             1813 wiz_defined-function locations,
-            1165 strings with 246869 characters,
-and the built_in function-call counts, 23998 in all, are:
-= -- 2272
+            1165 strings with 246877 characters,
+and the built_in function-call counts, 24074 in all, are:
+= -- 2283
 > -- 875
 < -- 2
 + -- 398
 - -- 199
-* -- 1698
-:= -- 3832
+* -- 1706
+:= -- 3840
 add.period$ -- 328
 call.type$ -- 111
 change.case$ -- 109
 chr.to.int$ -- 0
 cite$ -- 124
 duplicate$ -- 982
-empty$ -- 2428
+empty$ -- 2435
 format.name$ -- 199
-if$ -- 5265
+if$ -- 5281
 int.to.chr$ -- 0
 int.to.str$ -- 111
 missing$ -- 107
@@ -147,14 +147,14 @@ purify$ -- 0
 quote$ -- 0
 skip$ -- 447
 stack$ -- 0
-substring$ -- 1933
+substring$ -- 1958
 swap$ -- 108
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 13
-while$ -- 263
+while$ -- 264
 width$ -- 114
 write$ -- 1190
 (There were 31 error messages)

@@ -147,6 +147,12 @@ thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/raw_nois
 -include 35tonAnalysis/Figs/apa_gap-eps-converted-to.pdf.gpi.d
 thesis.d: $$(call graphics-source,35tonAnalysis/Figs/apa_gap-eps-converted-to.pdf)
 thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/apa_gap-eps-converted-to.pdf)
+-include 35tonAnalysis/Figs/ChargeHit-eps-converted-to.pdf.gpi.d
+thesis.d: $$(call graphics-source,35tonAnalysis/Figs/ChargeHit-eps-converted-to.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/ChargeHit-eps-converted-to.pdf)
+-include 35tonAnalysis/Figs/evd_gap.pdf.gpi.d
+thesis.d: $$(call graphics-source,35tonAnalysis/Figs/evd_gap.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/evd_gap.pdf)
 -include 35tonAnalysis/Figs/chisquare-eps-converted-to.pdf.gpi.d
 thesis.d: $$(call graphics-source,35tonAnalysis/Figs/chisquare-eps-converted-to.pdf)
 thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/chisquare-eps-converted-to.pdf)
@@ -156,7 +162,19 @@ thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/HitTimes
 -include 35tonAnalysis/Figs/MeshHits-eps-converted-to.pdf.gpi.d
 thesis.d: $$(call graphics-source,35tonAnalysis/Figs/MeshHits-eps-converted-to.pdf)
 thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/MeshHits-eps-converted-to.pdf)
+-include 35tonAnalysis/Figs/evd_hook_raw.pdf.gpi.d
+thesis.d: $$(call graphics-source,35tonAnalysis/Figs/evd_hook_raw.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/evd_hook_raw.pdf)
+-include 35tonAnalysis/Figs/evd_hook_reconstructed.pdf.gpi.d
+thesis.d: $$(call graphics-source,35tonAnalysis/Figs/evd_hook_reconstructed.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/evd_hook_reconstructed.pdf)
 -include 35tonAnalysis/Figs/HitReconstructionBias20-40.pdf.gpi.d
 thesis.d: $$(call graphics-source,35tonAnalysis/Figs/HitReconstructionBias20-40.pdf)
 thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/HitReconstructionBias20-40.pdf)
+-include 35tonAnalysis/Figs/dEdx-eps-converted-to.pdf.gpi.d
+thesis.d: $$(call graphics-source,35tonAnalysis/Figs/dEdx-eps-converted-to.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/dEdx-eps-converted-to.pdf)
+-include 35tonAnalysis/Figs/FamousShowerReconstructed.png.gpi.d
+thesis.d: $$(call graphics-source,35tonAnalysis/Figs/FamousShowerReconstructed.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/FamousShowerReconstructed.png)
 thesis.bbl thesis.aux thesis.aux.make: $(call path-norm,./References/references.bib)
