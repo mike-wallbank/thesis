@@ -120,6 +120,39 @@ thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/LArTPCOperation4.
 -include DUNE/Figs/TwoPeakAmbiguity.pdf.gpi.d
 thesis.d: $$(call graphics-source,DUNE/Figs/TwoPeakAmbiguity.pdf)
 thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/TwoPeakAmbiguity.pdf)
+-include DUNE/Figs/DUNEBeam.pdf.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/DUNEBeam.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/DUNEBeam.pdf)
+-include DUNE/Figs/DUNEBeamFluxesNeutrino.pdf.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/DUNEBeamFluxesNeutrino.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/DUNEBeamFluxesNeutrino.pdf)
+-include DUNE/Figs/DUNEBeamFluxesAntiNeutrino.pdf.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/DUNEBeamFluxesAntiNeutrino.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/DUNEBeamFluxesAntiNeutrino.pdf)
+-include DUNE/Figs/FDCryostats.png.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/FDCryostats.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/FDCryostats.png)
+-include DUNE/Figs/DUNEFarDetectorDesign.png.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/DUNEFarDetectorDesign.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/DUNEFarDetectorDesign.png)
+-include DUNE/Figs/FarDetectorAPA-eps-converted-to.pdf.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/FarDetectorAPA-eps-converted-to.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/FarDetectorAPA-eps-converted-to.pdf)
+-include DUNE/Figs/DUNEPhotonDetectors.png.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/DUNEPhotonDetectors.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/DUNEPhotonDetectors.png)
+-include DUNE/Figs/DUNEPhotonDetectorsAPA.png.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/DUNEPhotonDetectorsAPA.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/DUNEPhotonDetectorsAPA.png)
+-include DUNE/Figs/DUNEDualPhase.png.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/DUNEDualPhase.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/DUNEDualPhase.png)
+-include DUNE/Figs/DUNEDualPhaseCRP.png.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/DUNEDualPhaseCRP.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/DUNEDualPhaseCRP.png)
+-include DUNE/Figs/DUNENearDetector.png.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/DUNENearDetector.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/DUNENearDetector.png)
 -include DUNE/Figs/DUNEAppearanceProbabilities.pdf.gpi.d
 thesis.d: $$(call graphics-source,DUNE/Figs/DUNEAppearanceProbabilities.pdf)
 thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/DUNEAppearanceProbabilities.pdf)
@@ -129,6 +162,48 @@ thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/DUNEMassHierarchy
 -include DUNE/Figs/DUNEMassHierarchyTime.pdf.gpi.d
 thesis.d: $$(call graphics-source,DUNE/Figs/DUNEMassHierarchyTime.pdf)
 thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/DUNEMassHierarchyTime.pdf)
+-include DUNE/Figs/DUNECPViolationDeltaCP.pdf.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/DUNECPViolationDeltaCP.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/DUNECPViolationDeltaCP.pdf)
+-include DUNE/Figs/DUNECPViolationTime.pdf.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/DUNECPViolationTime.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/DUNECPViolationTime.pdf)
+-include DUNE/Figs/DUNEOctantSensitivity.pdf.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/DUNEOctantSensitivity.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/DUNEOctantSensitivity.pdf)
+-include DUNE/Figs/DUNETheta23Resolution.pdf.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/DUNETheta23Resolution.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/DUNETheta23Resolution.pdf)
+-include DUNE/Figs/DUNETheta13Resolution.pdf.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/DUNETheta13Resolution.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/DUNETheta13Resolution.pdf)
+-include DUNE/Figs/DUNEDeltaM31Resolution.pdf.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/DUNEDeltaM31Resolution.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/DUNEDeltaM31Resolution.pdf)
+-include DUNE/Figs/35ton.png.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/35ton.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/35ton.png)
+-include DUNE/Figs/NeutrinoPlatform.jpg.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/NeutrinoPlatform.jpg)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/NeutrinoPlatform.jpg)
+-include 35ton/Figs/LAPDTankPiping.png.gpi.d
+thesis.d: $$(call graphics-source,35ton/Figs/LAPDTankPiping.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/LAPDTankPiping.png)
+-include 35ton/Figs/LAPDPurity.png.gpi.d
+thesis.d: $$(call graphics-source,35ton/Figs/LAPDPurity.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/LAPDPurity.png)
+-include 35ton/Figs/PurityMonitor.png.gpi.d
+thesis.d: $$(call graphics-source,35ton/Figs/PurityMonitor.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/PurityMonitor.png)
+-include 35ton/Figs/LAPDElectronLifetime.png.gpi.d
+thesis.d: $$(call graphics-source,35ton/Figs/LAPDElectronLifetime.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/LAPDElectronLifetime.png)
+-include 35ton/Figs/35tonCryostat.png.gpi.d
+thesis.d: $$(call graphics-source,35ton/Figs/35tonCryostat.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/35tonCryostat.png)
+-include 35ton/Figs/35tonLAPD.png.gpi.d
+thesis.d: $$(call graphics-source,35ton/Figs/35tonLAPD.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/35tonLAPD.png)
 -include 35tonAnalysis/Figs/DataRMSGood.pdf.gpi.d
 thesis.d: $$(call graphics-source,35tonAnalysis/Figs/DataRMSGood.pdf)
 thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/DataRMSGood.pdf)
