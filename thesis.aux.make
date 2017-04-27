@@ -42,24 +42,24 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {3.15}{\ignorespaces Schematic of the DUNE near neutrino detector fine-grained tracker design.}}{44}{figure.caption.16}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.16}{\ignorespaces The appearance probability at a baseline of 1300\nobreakspace  {}km, as a function of neutrino energy, for $\delta _{CP}=-\pi /2$ (blue), 0 (red) and $\pi /2$ (green) for neutrinos (left) and antineutrinos (right), for normal hierarchy. The black lines indicates the oscillation probability if $\theta _{13}$ were equal to zero. Taken from \cite  {DUNECDR2}.\relax }}{47}{figure.caption.18}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.17}{\ignorespaces Sensitivity of the DUNE experiment to the neutrino mass hierarchy.}}{48}{figure.caption.19}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.18}{\ignorespaces Sensitivity of the DUNE experiment to leptonic CP violation.}}{49}{figure.caption.20}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.19}{\ignorespaces The sensitivity of DUNE to the octant and value of $\theta _{23}$.}}{50}{figure.caption.21}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.18}{\ignorespaces Sensitivity of the DUNE experiment to leptonic CP violation.}}{50}{figure.caption.20}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.19}{\ignorespaces The sensitivity of DUNE to the octant and value of $\theta _{23}$.}}{51}{figure.caption.21}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Cartoon showing the configuration of the Deep Underground Neutrino Experiment.}}{26}{figure.caption.1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.20}{\ignorespaces The sensitivity of DUNE to the oscillation parameters describing $\nu _e$ and $\bar {\nu }_e$ appearance.}}{51}{figure.caption.22}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.21}{\ignorespaces The 35\nobreakspace  {}ton cryostat and detector designed to prototype the DUNE far detector design.}}{53}{figure.caption.23}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.22}{\ignorespaces Schematic showing the layout of the ProtoDUNEs at the CERN neutrino platform.}}{54}{figure.caption.24}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.20}{\ignorespaces The sensitivity of DUNE to the oscillation parameters describing $\nu _e$ and $\bar {\nu }_e$ appearance.}}{52}{figure.caption.22}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.21}{\ignorespaces The 35\nobreakspace  {}ton cryostat and detector designed to prototype the DUNE far detector design.}}{54}{figure.caption.23}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.22}{\ignorespaces Schematic showing the layout of the ProtoDUNEs at the CERN neutrino platform.}}{55}{figure.caption.24}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Original TPC design, Nygren (1974)}}{27}{figure.caption.2}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces First LArTPC detector, Rubbia (1977)}}{28}{figure.caption.4}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces Effect of electric field on luminosity of ionisation electrons and scintillation light in a LArTPC.}}{30}{figure.caption.5}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces Schematic demonstrating the basic operational principles of a LArTPC.}}{31}{figure.caption.6}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces Demonstration of how having access to multiple oscillation maxima facilitates measurements of both the neutrino mass hierarchy and leptonic CP-violation using the same experiment.}}{33}{figure.caption.7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces Demonstration of how having access to multiple oscillation maxima facilitates measurements of both the neutrino mass hierarchy and leptonic CP violation using the same experiment.}}{33}{figure.caption.7}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.7}{\ignorespaces Longitudinal section of the LBNF beamline facility at Fermilab \cite  {DUNECDR3}.\relax }}{35}{figure.caption.8}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.8}{\ignorespaces The fluxes of the different neutrino flavour components of the DUNE beam in neutrino and antineutrino running mode.}}{36}{figure.caption.9}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.9}{\ignorespaces The layout of the four cryostats underground at SURF comprising the DUNE far detector.}}{37}{figure.caption.10}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces LAPD tank and purification system}}{57}{figure.caption.25}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces Contaminant gradient in the LAPD tank}}{58}{figure.caption.26}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces Design of LAPD and 35\nobreakspace  {}ton style purity monitors}}{59}{figure.caption.27}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces The 35\nobreakspace  {}ton cryostat}}{61}{figure.caption.29}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces LAPD tank and purification system}}{59}{figure.caption.25}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces Contaminant gradient in the LAPD tank}}{60}{figure.caption.26}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces Design of LAPD and 35\nobreakspace  {}ton style purity monitors}}{61}{figure.caption.27}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces The 35\nobreakspace  {}ton cryostat}}{63}{figure.caption.29}}
 \@writefile{lof}{\contentsline {figure}{\numberline {6.1}{\ignorespaces The \textit  {lbne-artdaq} framework}}{48}{figure.caption.28}}
 \@writefile{lof}{\contentsline {figure}{\numberline {6.2}{\ignorespaces Software framework built for 35\nobreakspace  {}ton Online Monitoring}}{50}{figure.caption.29}}
 \@writefile{lof}{\contentsline {figure}{\numberline {6.3}{\ignorespaces Selection of Data Quality Monitoring figures}}{54}{figure.caption.30}}
@@ -128,7 +128,7 @@
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lot}{\contentsline {table}{\numberline {2.1}{\ignorespaces The current best-fit values for the neutrino oscillation parameters for normal (inverted) hierarchy. Taken from \cite  {NuFit2017}.\relax }}{22}{table.caption.10}}
 \@writefile{lot}{\contentsline {table}{\numberline {3.1}{\ignorespaces Properties of noble liquids relevant when considering a TPC medium for a neutrino experiment \cite  {Soderberg2008}.\relax }}{27}{table.caption.3}}
-\@writefile{lot}{\contentsline {table}{\numberline {3.2}{\ignorespaces Exposures anticipated for the DUNE experiment for the first few years of operation. Due to the staged approach in construction, it will take some time to reach full design capabilities. The first exposure column represents the exposure expected in that year and the next column the cumulative total.\relax }}{46}{table.caption.17}}
+\@writefile{lot}{\contentsline {table}{\numberline {3.2}{\ignorespaces Exposures anticipated for the DUNE experiment for the first few years of operation. Due to the staged approach in construction, it will take some time to reach full design capabilities. The first exposure column represents the exposure expected in that year and the next column the cumulative total. Adapted from \cite  {DUNECDR1}.\relax }}{46}{table.caption.17}}
 \@writefile{lot}{\contentsline {table}{\numberline {7.1}{\ignorespaces Measurements of all the APA offsets determined from the 35\nobreakspace  {}ton TPC data.}}{82}{table.caption.48}}
 \@writefile{lot}{\contentsline {table}{\numberline {7.2}{\ignorespaces The corrected gaps between the APAs, in $x$ and $z$, based on the offsets measured (Table \ref  {tab:APAGapOffsets}).}}{82}{table.caption.48}}
 \@writefile{toc}{\contentsline {chapter}{Appendix \numberline {A}How to install \LaTeX  }{113}{Appendix.a.A}}
@@ -137,7 +137,7 @@
 \@writefile{toc}{\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {2}Neutrino Physics}{3}{chapter.2}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {3}The Deep Underground Neutrino Experiment}{25}{chapter.3}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {4}The DUNE 35\nobreakspace  {}ton Prototype}{55}{chapter.4}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}The DUNE 35\nobreakspace  {}ton Prototype}{57}{chapter.4}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {5}Reconstruction in a Liquid Argon TPC}{45}{chapter.5}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {6}Online Monitoring and Event Displays for the 35\nobreakspace  {}ton Experiment}{47}{chapter.6}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {7}Analysis of 35\nobreakspace  {}ton Data}{63}{chapter.7}}
@@ -153,15 +153,15 @@
 \@writefile{toc}{\contentsline {section}{\numberline {3.2}Overview of DUNE}{32}{section.3.2}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.3}Experimental Details}{34}{section.3.3}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.4}The Physics of DUNE}{45}{section.3.4}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.5}The Road to DUNE}{52}{section.3.5}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}Motivation}{55}{section.4.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}The Liquid Argon Purity Demonstrator}{56}{section.4.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.3}The 35\nobreakspace  {}ton Cryostat}{60}{section.4.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.4}The 35\nobreakspace  {}ton Detector}{61}{section.4.4}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.5}Filling the 35\nobreakspace  {}ton}{62}{section.4.5}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.6}The 35\nobreakspace  {}ton Experimental Setup}{62}{section.4.6}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.7}35\nobreakspace  {}ton Phase I}{63}{section.4.7}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.8}35\nobreakspace  {}ton Phase II}{63}{section.4.8}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.5}The Road to DUNE}{53}{section.3.5}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Motivation}{57}{section.4.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}The Liquid Argon Purity Demonstrator}{58}{section.4.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}The 35\nobreakspace  {}ton Cryostat}{62}{section.4.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}The 35\nobreakspace  {}ton Detector}{63}{section.4.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.5}Filling the 35\nobreakspace  {}ton}{64}{section.4.5}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.6}The 35\nobreakspace  {}ton Experimental Setup}{64}{section.4.6}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.7}35\nobreakspace  {}ton Phase I}{65}{section.4.7}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.8}35\nobreakspace  {}ton Phase II}{65}{section.4.8}}
 \@writefile{toc}{\contentsline {section}{\numberline {5.1}The LArSoft Framework}{46}{section.5.1}}
 \@writefile{toc}{\contentsline {section}{\numberline {5.2}The Reconstruction Chain}{46}{section.5.2}}
 \@writefile{toc}{\contentsline {section}{\numberline {5.3}Calorimetry Reconstruction}{46}{section.5.3}}
@@ -196,26 +196,26 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}Far Detector}{36}{subsection.3.3.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.3.3}Near Detector}{43}{subsection.3.3.3}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.4.1}Mass Hierarchy and CP Violation}{47}{subsection.3.4.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.2}Oscillation Parameters}{50}{subsection.3.4.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.3}Other Physics}{52}{subsection.3.4.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.2}Oscillation Parameters}{49}{subsection.3.4.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.3}Other Physics}{49}{subsection.3.4.3}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.5.1}The 35\nobreakspace  {}ton Prototype}{53}{subsection.3.5.1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.5.2}ProtoDUNE}{53}{subsection.3.5.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}LAPD Experimental Setup}{56}{subsection.4.2.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}The LAPD Filtration System}{57}{subsection.4.2.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.3}Purity Monitoring}{58}{subsection.4.2.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.4}LAPD Results}{59}{subsection.4.2.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}Construction}{60}{subsection.4.3.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}The 35\nobreakspace  {}ton and LAPD}{60}{subsection.4.3.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.1}Detector Components}{62}{subsection.4.4.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.2}Readout Electronics}{62}{subsection.4.4.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.3}DAQ}{62}{subsection.4.4.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.6.1}Filtration System}{62}{subsection.4.6.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.6.2}Purity Monitoring}{63}{subsection.4.6.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.7.1}Outcomes}{63}{subsection.4.7.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.8.1}Commissioning}{63}{subsection.4.8.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.8.2}The Sheffield Camera System}{63}{subsection.4.8.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.8.3}Online Monitoring for Data Quality Monitoring}{63}{subsection.4.8.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.8.4}Outcomes}{63}{subsection.4.8.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}LAPD Experimental Setup}{58}{subsection.4.2.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}The LAPD Filtration System}{59}{subsection.4.2.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.3}Purity Monitoring}{60}{subsection.4.2.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.4}LAPD Results}{61}{subsection.4.2.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}Construction}{62}{subsection.4.3.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}The 35\nobreakspace  {}ton and LAPD}{62}{subsection.4.3.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.1}Detector Components}{64}{subsection.4.4.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.2}Readout Electronics}{64}{subsection.4.4.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.3}DAQ}{64}{subsection.4.4.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.6.1}Filtration System}{64}{subsection.4.6.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.6.2}Purity Monitoring}{65}{subsection.4.6.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7.1}Outcomes}{65}{subsection.4.7.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.8.1}Commissioning}{65}{subsection.4.8.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.8.2}The Sheffield Camera System}{65}{subsection.4.8.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.8.3}Online Monitoring for Data Quality Monitoring}{65}{subsection.4.8.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.8.4}Outcomes}{65}{subsection.4.8.4}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}From Charge to Hits}{46}{subsection.5.2.1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}2D Object Reconstruction}{46}{subsection.5.2.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.2.3}3D Object Reconstruction}{46}{subsection.5.2.3}}
@@ -257,13 +257,13 @@
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.2.2}Dual-Phase}{41}{subsubsection.3.3.2.2}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.3.1}Near Neutrino Detector}{43}{subsubsection.3.3.3.1}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.3.2}Beamline Measurement System}{45}{subsubsection.3.3.3.2}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.1.1}TPC}{62}{subsubsection.4.4.1.1}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.1.2}Photon Detectors}{62}{subsubsection.4.4.1.2}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.1.3}External Counters}{62}{subsubsection.4.4.1.3}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.2.1}FEMBs}{62}{subsubsection.4.4.2.1}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.2.2}RCEs}{62}{subsubsection.4.4.2.2}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.2.3}SSPs}{62}{subsubsection.4.4.2.3}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.2.4}PTB}{62}{subsubsection.4.4.2.4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.1.1}TPC}{64}{subsubsection.4.4.1.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.1.2}Photon Detectors}{64}{subsubsection.4.4.1.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.1.3}External Counters}{64}{subsubsection.4.4.1.3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.2.1}FEMBs}{64}{subsubsection.4.4.2.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.2.2}RCEs}{64}{subsubsection.4.4.2.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.2.3}SSPs}{64}{subsubsection.4.4.2.3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.2.4}PTB}{64}{subsubsection.4.4.2.4}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {7.3.1.1}Measuring the APA Gaps}{73}{subsubsection.7.3.1.1}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {7.3.1.2}Measurements of the APA Offsets}{81}{subsubsection.7.3.1.2}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {7.4.1.1}Aligning APA Crossing Tracks}{85}{subsubsection.7.4.1.1}}
@@ -302,6 +302,8 @@
 \citation{DUNECDR1}
 \citation{DUNECDR1}
 \citation{DUNECDR1}
+\citation{DUNECDR1}
+\citation{DUNECDR1}
 \citation{DUNECDR2}
 \citation{DUNECDR2}
 \citation{DUNECDR2}
@@ -316,6 +318,8 @@
 \citation{DUNECDR3}
 \citation{DUNECDR3}
 \citation{DUNECDR3}
+\citation{DUNECDR4}
+\citation{DUNECDR4}
 \citation{DUNECDR4}
 \citation{DUNECDR4}
 \citation{DUNECDR4}
@@ -1141,9 +1145,9 @@
 \setcounter{page}{3}
 \setcounter{page}{47}
 \setcounter{page}{4}
-\setcounter{page}{55}
+\setcounter{page}{56}
 \setcounter{page}{62}
-\setcounter{page}{64}
+\setcounter{page}{66}
 \setcounter{page}{7}
 \setcounter{page}{8}
 \setcounter{paragraph}{0}
