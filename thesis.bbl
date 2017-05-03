@@ -529,7 +529,7 @@ R~Acciarri, et~al.
 B~Baller, et~al.
 \newblock {Liquid Argon Time Projection Chamber research and development in the
   United States}.
-\newblock {\em Journal of Instrumentation}, 9(05):T05005, 2014.
+\newblock {\em Journal of Instrumentation}, 9(05):T05005--T05005, 2014.
 
 \bibitem{Nygren1974}
 David~R Nygren.
@@ -606,27 +606,30 @@ I~{De Bonis} and Others.
 CERN Courier.
 \newblock {Neutrinos take centre stage}.
 
-\bibitem{LAPD}
-Terry Tope, et~al.
-\newblock {Extreme argon purity in a large, non-evacuated cryostat}.
-\newblock 1169(2014):1169--1175, 2014.
+\bibitem{MTS2006}
+D~Finley, et~al.
+\newblock {Work at FNAL to achieve long electron drift lifetime in liquid
+  argon}.
+\newblock 2006.
 
-\bibitem{LArFilter}
+\bibitem{MTS2009a}
+R~Andrews, et~al.
+\newblock {A system to test the effects of materials on the electron drift
+  lifetime in liquid argon and observations on the effect of water}.
+\newblock {\em Nucl. Instrum. Meth.}, A608:251--258, 2009.
+
+\bibitem{MTS2009b}
 A.~Curioni, et~al.
 \newblock {A regenerable filter for liquid argon purification}.
 \newblock {\em Nuclear Instruments and Methods in Physics Research, Section A:
   Accelerators, Spectrometers, Detectors and Associated Equipment},
   605(3):306--311, 2009.
 
-\bibitem{LBNE35tonPhaseI}
-Alan Hahn, et~al.
-\newblock {The LBNE 35 Ton Prototype Cryostat}.
-\newblock In {\em FERMILAB-CONF-14-420-PPD The}, 2014.
-
-\bibitem{LBNE35tonPhaseIOverview}
-David Montanari, et~al.
-\newblock {First scientific application of the membrane cryostat technology}.
-\newblock 1664(2014):1664--1671, 2014.
+\bibitem{MTS2011}
+B~Rebel, et~al.
+\newblock {Results from the Fermilab materials test stand and status of the
+  liquid argon purity demonstrator}.
+\newblock {\em J. Phys. Conf. Ser.}, 308:12023, 2011.
 
 \bibitem{Freeman2014}
 J.~Freeman.

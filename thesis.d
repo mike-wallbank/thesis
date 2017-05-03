@@ -96,24 +96,9 @@ thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Summary/Summary
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,thesis-info.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,thesis.tex)
 .SECONDEXPANSION:
--include 35ton/Figs/LAPDTankPiping.png.gpi.d
-thesis.d: $$(call graphics-source,35ton/Figs/LAPDTankPiping.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/LAPDTankPiping.png)
--include 35ton/Figs/LAPDPurity.png.gpi.d
-thesis.d: $$(call graphics-source,35ton/Figs/LAPDPurity.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/LAPDPurity.png)
--include 35ton/Figs/PurityMonitor.png.gpi.d
-thesis.d: $$(call graphics-source,35ton/Figs/PurityMonitor.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/PurityMonitor.png)
--include 35ton/Figs/LAPDElectronLifetime.png.gpi.d
-thesis.d: $$(call graphics-source,35ton/Figs/LAPDElectronLifetime.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/LAPDElectronLifetime.png)
--include 35ton/Figs/35tonCryostat.png.gpi.d
-thesis.d: $$(call graphics-source,35ton/Figs/35tonCryostat.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/35tonCryostat.png)
--include 35ton/Figs/35tonLAPD.png.gpi.d
-thesis.d: $$(call graphics-source,35ton/Figs/35tonLAPD.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/35tonLAPD.png)
+-include 35ton/Figs/MTS.pdf.gpi.d
+thesis.d: $$(call graphics-source,35ton/Figs/MTS.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/MTS.pdf)
 -include 35tonAnalysis/Figs/DataRMSGood.pdf.gpi.d
 thesis.d: $$(call graphics-source,35tonAnalysis/Figs/DataRMSGood.pdf)
 thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/DataRMSGood.pdf)

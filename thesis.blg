@@ -31,10 +31,6 @@ Reallocated out_buf (elt_size=1) to 60000 items from 40000.
 Reallocated name_tok (elt_size=4) to 60000 items from 40000.
 Reallocated name_sep_char (elt_size=1) to 60000 items from 40000.
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-Repeated entry---line 795 of file References/references.bib
- : @article{Baller2014
- :                    ,
-I'm skipping whatever remains of this entry
 Reallocated str_pool (elt_size=1) to 195000 items from 130000.
 Reallocated buffer (elt_size=1) to 80000 items from 60000.
 Reallocated sv_buffer (elt_size=1) to 80000 items from 60000.
@@ -43,6 +39,10 @@ Reallocated out_buf (elt_size=1) to 80000 items from 60000.
 Reallocated name_tok (elt_size=4) to 80000 items from 60000.
 Reallocated name_sep_char (elt_size=1) to 80000 items from 60000.
 Reallocated str_pool (elt_size=1) to 260000 items from 195000.
+Repeated entry---line 2066 of file References/references.bib
+ : @article{Baller2014
+ :                    ,
+I'm skipping whatever remains of this entry
 You can't pop an empty literal stack for entry Weinberg1967
 while executing---line 953 of file andyisgreat.bst
 You can't pop an empty literal stack for entry Aad2012
@@ -118,47 +118,46 @@ Warning--empty journal in P52014
 You can't pop an empty literal stack for entry ProtoDUNE-SP
 while executing---line 953 of file andyisgreat.bst
 Warning--empty journal in WA105
-Warning--empty journal in LAPD
-Warning--empty journal in LBNE35tonPhaseIOverview
+Warning--empty journal in MTS2006
 You've used 114 entries,
             1813 wiz_defined-function locations,
-            1182 strings with 252184 characters,
-and the built_in function-call counts, 24472 in all, are:
-= -- 2312
+            1183 strings with 251895 characters,
+and the built_in function-call counts, 24440 in all, are:
+= -- 2314
 > -- 892
 < -- 3
 + -- 406
 - -- 203
-* -- 1724
-:= -- 3911
+* -- 1718
+:= -- 3913
 add.period$ -- 336
 call.type$ -- 114
 change.case$ -- 112
 chr.to.int$ -- 0
-cite$ -- 127
-duplicate$ -- 1003
-empty$ -- 2481
+cite$ -- 126
+duplicate$ -- 999
+empty$ -- 2469
 format.name$ -- 203
-if$ -- 5370
+if$ -- 5360
 int.to.chr$ -- 0
 int.to.str$ -- 114
 missing$ -- 108
 newline$ -- 567
 num.names$ -- 114
-pop$ -- 230
+pop$ -- 224
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
 skip$ -- 459
 stack$ -- 0
-substring$ -- 1951
+substring$ -- 1954
 swap$ -- 111
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 13
+warning$ -- 12
 while$ -- 267
 width$ -- 117
-write$ -- 1220
+write$ -- 1221
 (There were 33 error messages)
