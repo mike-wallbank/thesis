@@ -529,7 +529,7 @@ R~Acciarri, et~al.
 B~Baller, et~al.
 \newblock {Liquid Argon Time Projection Chamber research and development in the
   United States}.
-\newblock {\em Journal of Instrumentation}, 9(05):T05005--T05005, 2014.
+\newblock {\em Journal of Instrumentation}, 9(05):T05005, 2014.
 
 \bibitem{Nygren1974}
 David~R Nygren.
@@ -590,6 +590,12 @@ Margherita~Buizza Avanzini.
   the Global Context}.
 \newblock 2014.
 
+\bibitem{35tonPhaseINeutrino2014}
+M.~Convery and Z.~Djurcic.
+\newblock {The 35-Ton Liquid Argon TPC Prototype for the Long Baseline Neutrino
+  Experiment (Poster)}.
+\newblock In {\em Neutrino 2014 Conference Proceedings}, 2014.
+
 \bibitem{ProtoDUNE-SP}
 T~Kutter.
 \newblock {Proposal for a Full-Scale Prototype Single-Phase Liquid Argon Time
@@ -619,9 +625,9 @@ R~Andrews, et~al.
 \newblock {\em Nucl. Instrum. Meth.}, A608:251--258, 2009.
 
 \bibitem{MTS2009b}
-A.~Curioni, et~al.
+A~Curioni, et~al.
 \newblock {A regenerable filter for liquid argon purification}.
-\newblock {\em Nuclear Instruments and Methods in Physics Research, Section A:
+\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
   Accelerators, Spectrometers, Detectors and Associated Equipment},
   605(3):306--311, 2009.
 
@@ -630,6 +636,66 @@ B~Rebel, et~al.
 \newblock {Results from the Fermilab materials test stand and status of the
   liquid argon purity demonstrator}.
 \newblock {\em J. Phys. Conf. Ser.}, 308:12023, 2011.
+
+\bibitem{ICARUS1993b}
+P~Cennini, et~al.
+\newblock {Argon purification in the liquid phase}.
+\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment},
+  333(2):567--570, 1993.
+
+\bibitem{ICARUS1993a}
+P~Benetti, et~al.
+\newblock {A three-ton liquid argon time projection chamber}.
+\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment},
+  332(3):395--412, 1993.
+
+\bibitem{ICARUS2006}
+F~Arneodo, et~al.
+\newblock {Performance of a liquid argon time projection chamber exposed to the
+  CERN West Area Neutrino Facility neutrino beam}.
+\newblock {\em Phys. Rev. D}, 74(11):112001, 2006.
+
+\bibitem{ICARUSPurityMonitor}
+G~Carugno, et~al.
+\newblock {Electron lifetime detector for liquid argon}.
+\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment},
+  292(3):580--584, 1990.
+
+\bibitem{LAPD2014}
+Terry Tope and Others.
+\newblock {Extreme argon purity in a large, non-evacuated cryostat}.
+\newblock {\em AIP Conf. Proc.}, 1573:1169--1175, 2014.
+
+\bibitem{LAPDJINST2014}
+M~Adamowski, et~al.
+\newblock {The Liquid Argon Purity Demonstrator}.
+\newblock {\em Journal of Instrumentation}, 9(07):P07005, 2014.
+
+\bibitem{LongBo2015}
+C~Bromberg, et~al.
+\newblock {Design and operation of LongBo: a 2 m long drift liquid argon TPC}.
+\newblock {\em Journal of Instrumentation}, 10(07):P07015, 2015.
+
+\bibitem{35tonPhaseI2014Cryostat}
+David Montanari and Others.
+\newblock {First scientific application of the membrane cryostat technology}.
+\newblock {\em AIP Conf. Proc.}, 1573:1664--1671, 2014.
+
+\bibitem{35tonPhaseI2014}
+Alan Hahn, et~al.
+\newblock {The LBNE 35 Ton Prototype Cryostat}.
+\newblock In {\em Proceedings, 21st Symposium on Room-Temperature Semiconductor
+  X-ray and Gamma-ray Detectors (RTSD 2014): Seattle, WA, USA, November 8-15,
+  2014}, page 7431158, 2014.
+
+\bibitem{35tonPhaseI2015}
+David Montanari, et~al.
+\newblock {Performance and results of the LBNE 35 ton membrane cryostat
+  prototype}.
+\newblock {\em Physics Procedia}, 67:308--313, 2015.
 
 \bibitem{Freeman2014}
 J.~Freeman.

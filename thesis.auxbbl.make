@@ -52,11 +52,24 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces First LArTPC detector, Rubbia (1977)}}{28}{figure.caption.4}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces Effect of electric field on luminosity of ionisation electrons and scintillation light in a LArTPC.}}{30}{figure.caption.5}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces Schematic demonstrating the basic operational principles of a LArTPC.}}{31}{figure.caption.6}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces Demonstration of how having access to multiple oscillation maxima facilitates measurements of both the neutrino mass hierarchy and leptonic CP violation using the same experiment.}}{33}{figure.caption.7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces Demonstration of how having access to multiple oscillation maxima facilitates measurements of both the neutrino mass hierarchy and leptonic CP violation using the same experiment.}}{34}{figure.caption.7}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.7}{\ignorespaces Longitudinal section of the LBNF beamline facility at Fermilab \cite  {DUNECDR3}.\relax }}{35}{figure.caption.8}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.8}{\ignorespaces The fluxes of the different neutrino flavour components of the DUNE beam in neutrino and antineutrino running mode.}}{36}{figure.caption.9}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.9}{\ignorespaces The layout of the four cryostats underground at SURF comprising the DUNE far detector.}}{37}{figure.caption.10}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.10}{\ignorespaces The LAr purity within the Liquid Argon Purity Demonstrator cryostat with the LongBo TPC present, measured using both data from the detector and information from the purity monitors.}}{68}{figure.caption.10}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.11}{\ignorespaces The 35\nobreakspace  {}ton cryostat.}}{70}{figure.caption.11}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.12}{\ignorespaces The network linking the 35\nobreakspace  {}ton cryostat, the Liquid Argon Purity Demonstrator and the purification system at PC4, Fermilab.}}{71}{figure.caption.13}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.13}{\ignorespaces Filling the 35\nobreakspace  {}ton cryostat in four stages: piston purge, gas recirculation, cooldown and liquid filling.}}{72}{figure.caption.14}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.14}{\ignorespaces The electron lifetime in the 35\nobreakspace  {}ton cryostat measured by two purity monitors over the course of the two month Phase I run.}}{73}{figure.caption.15}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces The Materials Test Stand Stand at FNAL.}}{59}{figure.caption.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces Results from the Materials Test Stand showing the water contamination in LAr and the corresponding electron lifetime.}}{60}{figure.caption.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces Schematic design of the purity monitors utilised at the FNAL LAr test stands.}}{61}{figure.caption.3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces The Liquid Argon Purity Demonstrator cryostat and purification system.}}{63}{figure.caption.4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces The piston purge technique in the Liquid Argon Purity Demonstrator to remove atmopheric impurities before filling.}}{64}{figure.caption.5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces The concentration of electronegative impurities during the gas circulation stage in the Liquid Argon Purity Demonstrator following the piston purge.}}{65}{figure.caption.6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces Schematic showing the recirculation of the LAr during commissioning and operations of the Liquid Argon Purity Denomstrator.}}{66}{figure.caption.7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces The electron lifetime achieved in the Liquid Argon Purity Demonstrator during a six week run.}}{67}{figure.caption.8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.9}{\ignorespaces The LongBo TPC detector shown within the Liquid Argon Purity Demonstrator Cryostat.}}{68}{figure.caption.9}}
 \@writefile{lof}{\contentsline {figure}{\numberline {6.1}{\ignorespaces The \textit  {lbne-artdaq} framework}}{70}{figure.caption.48}}
 \@writefile{lof}{\contentsline {figure}{\numberline {6.2}{\ignorespaces Software framework built for 35\nobreakspace  {}ton Online Monitoring}}{72}{figure.caption.49}}
 \@writefile{lof}{\contentsline {figure}{\numberline {6.3}{\ignorespaces Selection of Data Quality Monitoring figures}}{76}{figure.caption.50}}
@@ -65,53 +78,53 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {6.6}{\ignorespaces Example online event display made by the Online Monitoring framework}}{81}{figure.caption.53}}
 \@writefile{lof}{\contentsline {figure}{\numberline {6.7}{\ignorespaces Schematic showing the interface between the online monitoring system and the web}}{82}{figure.caption.54}}
 \@writefile{lof}{\contentsline {figure}{\numberline {6.8}{\ignorespaces Web page for online monitoring and event displays}}{83}{figure.caption.55}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.10}{\ignorespaces The $z$-offset for the TPC5/TPC7 gap measured in the 35\nobreakspace  {}ton data. A very noticable double-peak structure is evident in Figure\nobreakspace  {}\ref  {fig:TPC5TPC7Gap}; this bias appears to be related to the sign of the angle the particle track makes to the APA planes.\relax }}{96}{figure.caption.11}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.11}{\ignorespaces Demonstration of how an $x$-offset in the positions of the APAs can explain the degeneracy evident in the $z$-offset measured using the 35\nobreakspace  {}ton data (Figure\nobreakspace  {}\ref  {fig:TPC5TPC7XOffsetZOffset}). In the left-hand plots, Figures\nobreakspace  {}\ref  {fig:APAGapXOffsetPos} and\nobreakspace  {}\ref  {fig:APAGapXOffsetPosFix}, the through-going particle makes a positive angle to the face of the APAs and in the right-hand plots, Figures\nobreakspace  {}\ref  {fig:APAGapXOffsetNeg} and\nobreakspace  {}\ref  {fig:APAGapXOffsetNegFix}, the particle is travelling with a negative gradient. In both cases, the offset of the APAs in the $x$-direction is the same. It is clear from Figures\nobreakspace  {}\ref  {fig:APAGapXOffsetPosFix} and\nobreakspace  {}\ref  {fig:APAGapXOffsetNegFix} how the sign of the measured $\Delta z$ is dependent on the angle of the track.\relax }}{97}{figure.caption.12}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.12}{\ignorespaces Studies of the effects of offsets in the positions of the APAs in simulation. Articficial $z$- and $x$- offsets are introduced and their impact observed in the measurements of $\Delta z$. Figure\nobreakspace  {}\ref  {fig:APAGapMCZOffset} shows the effect of an offset in the $z$-direction; as expected, there is a single peak measuring the inputed value. Figures\nobreakspace  {}\ref  {fig:APAGapMCXOffsetZOffset} and\nobreakspace  {}\ref  {fig:APAGapMCXOffsetZOffsetAngle} show the consequence of offsets in both the $x$- and $z$-directions. This appears to show exactly what is seen in the 35\nobreakspace  {}ton data (Figure\nobreakspace  {}\ref  {fig:TPC5TPC7XOffsetZOffset}).\relax }}{98}{figure.caption.13}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.13}{\ignorespaces {\color {red} Same as previous page -- which is better? I prefer the layout of the previous page but I like this one because you can see the 2cm offset in line with each other down the page!} Studies of the effects of offsets in the positions of the APAs in simulation. Articficial $z$- and $x$- offsets are introduced and their impact observed in the measurements of $\Delta z$. Figure\nobreakspace  {}\ref  {fig:APAGapMCZOffset} shows the effect of an offset in the $z$-direction; as expected, there is a single peak measuring the inputed value. Figures\nobreakspace  {}\ref  {fig:APAGapMCXOffsetZOffset} and\nobreakspace  {}\ref  {fig:APAGapMCXOffsetZOffsetAngle} show the consequence of offsets in both the $x$- and $z$-directions. This appears to show exactly what is seen in the 35\nobreakspace  {}ton data (Figure\nobreakspace  {}\ref  {fig:TPC5TPC7XOffsetZOffset}).\relax }}{99}{figure.caption.14}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.14}{\ignorespaces Demonstration of the effects of offsets in both the $x$- and $z$-directions in the determination of $\Delta z$ between TPC5 and TPC7. With an $x$-offset present, it is impossible for the true value of $\Delta z$ to be measured -- this is evident from Figure\nobreakspace  {}\ref  {fig:APAGapMC}. It is clear from these geometrical considerations how the measured offset $\Delta z_m$ will populate distributions either side of the true value; the true value $\Delta z$ is given by the minimum between the two distributions.\relax }}{100}{figure.caption.15}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.15}{\ignorespaces Extraction of the true value of $\Delta z$ from the full distribution of measured $z$-offsets. A measured value of $0.117\pm 0.007$\nobreakspace  {}cm is found.\relax }}{101}{figure.caption.16}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.16}{\ignorespaces Measurement of the $x$-offset between TPC5 and TPC7 after applying the $z$-gap corrected determined using the method described in the text and Figure\nobreakspace  {}\ref  {fig:TPC5TPC7GapFit}. A measurement of $-0.286\pm 0.002$\nobreakspace  {}cm is determined.\relax }}{101}{figure.caption.17}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.17}{\ignorespaces Measurement of the $z$-offset between TPC5 and TPC7 after applying the $x$-offset determined from Figure\nobreakspace  {}\ref  {fig:TPC5TPC7XOff}. As initially anticipated, there is a single peak distributed around the true value of the offset. This validates the method used and confirms the initial presence of an $x$-offset between the neighbouring APAs. The final measurement of $\Delta z$ is $0.103\pm 0.004$\nobreakspace  {}cm which agrees reasonably with the value measured previously ($0.117\pm 0.007$\nobreakspace  {}cm from Figure\nobreakspace  {}\ref  {fig:TPC5TPC7GapFit}).\relax }}{102}{figure.caption.18}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.18}{\ignorespaces Number of reconstructed hits at different distances from nearest APA gap.}}{106}{figure.caption.20}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.19}{\ignorespaces The average charge of hits as a function of distance to nearest APA gap.}}{106}{figure.caption.20}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.1}{\ignorespaces `Good' and `bad' 35\nobreakspace  {}ton runs}}{86}{figure.caption.2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.20}{\ignorespaces Event display of an APA gap-crossing track, focussed on the gap region.}}{107}{figure.caption.21}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.21}{\ignorespaces Method to align track segments on either side of the APAs involving minimising residuals from linear least square fit.}}{109}{figure.caption.22}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.22}{\ignorespaces Method to align track segments on either side of the APAs involving minimising the distance between the projected intersection of each with the centre of the APAs.}}{109}{figure.caption.22}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.23}{\ignorespaces Difference between the T0 calculated from TPC data and the T0 provided by the counters representing the trigger time of the through-going muon, for simulation and data.}}{110}{figure.caption.23}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.24}{\ignorespaces Correcting for T0 using $T_0^{\mathrm  {counter}}$ and $T_0^{\mathrm  {TPC}}$.}}{111}{figure.caption.24}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.25}{\ignorespaces Demonstration of the effect observed in the 35\nobreakspace  {}ton data concerning tracks crossing the APAs.}}{111}{figure.caption.25}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.26}{\ignorespaces Attemping to correct the track segment misalignment by assuming a misunderstanding of the spacing between the collection planes.}}{112}{figure.caption.27}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.27}{\ignorespaces Attempting to correct the track segment misalignment by assuming a misunderstanding of the positioning of the collection wires inside the detector.}}{113}{figure.caption.28}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.28}{\ignorespaces Attempting to correct the track segment misalignment by assuming an incorrect drift velocity.}}{113}{figure.caption.30}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.29}{\ignorespaces Measuring the drift velocity of the ionisation electrons by taking tracks passing through opposite counter pairs and comparing the corresponding drift distance to the drift time.}}{114}{figure.caption.31}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.2}{\ignorespaces Correcting for stuck codes in the 35\nobreakspace  {}ton data}}{87}{figure.caption.3}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.30}{\ignorespaces The T0-corrected drift time for hits on APA-crossing tracks.}}{115}{figure.caption.33}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.31}{\ignorespaces Difference between the interaction time measured by the TPC data and that provided by photon detector information.}}{115}{figure.caption.34}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.32}{\ignorespaces The difference between the timestamps recorded by the PTB and the RCEs upon recieving a trigger.}}{116}{figure.caption.35}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.33}{\ignorespaces The distribution of the drift times of all hits on APA-crossing tracks after correcting for the APA offsets along the direction parallel to the drift direction.}}{118}{figure.caption.36}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.34}{\ignorespaces Accounting for the extra disprecency in track alignment after fixing for all the measured offsets by assuming a misunderstanding in the collection plane spacing and the $z$-positions of the collection wires.}}{119}{figure.caption.37}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.35}{\ignorespaces The T0-corrected drift time for all hits on an APA-crossing track in simulation.}}{120}{figure.caption.38}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.36}{\ignorespaces Demonstration of the electron ionisation and hit collection for APA-crossing tracks.}}{121}{figure.caption.39}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.37}{\ignorespaces Comparison between the T0-corrected hit time distributions on APAs with and without the grounded mesh.}}{122}{figure.caption.40}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.38}{\ignorespaces Comparison between the distribution of T0-corrected hit times for hits on wires in front of the APA frame and away from the APA frame to validate the functionality of the mesh.}}{123}{figure.caption.41}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.39}{\ignorespaces Average lifetime-corrected charge per hit for hits on an APA-crossing track separated according to whether or not the hit was collected around the interaction time.}}{123}{figure.caption.42}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.3}{\ignorespaces Raw data stuck bit mitigation}}{88}{figure.caption.4}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.40}{\ignorespaces Event display of an APA-crossing track with the charge deposited as it passes through the APAs evident.}}{125}{figure.caption.43}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.41}{\ignorespaces Using APA-crossing tracks to confirm the drift velocity is consistent between the two drift regions.}}{126}{figure.caption.44}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.42}{\ignorespaces Comparison of noise levels between the two drift regions using APA-crossing tracks.}}{126}{figure.caption.45}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.43}{\ignorespaces The bias in the hit selection due to a high noise level in the 35\nobreakspace  {}ton data.}}{128}{figure.caption.46}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.44}{\ignorespaces The dE/dx distribution for MIPs passing through the 35\nobreakspace  {}ton TPC.}}{129}{figure.caption.47}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.45}{\ignorespaces Relationship between deposited charge and energy for 35\nobreakspace  {}ton data, calculated using through-going MIPs.}}{130}{figure.caption.48}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.46}{\ignorespaces Result of applying the shower reconstruction on a shower observed in the 35\nobreakspace  {}ton data.}}{131}{figure.caption.49}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.47}{\ignorespaces A candidate $\pi ^0$ event observed in the online event display during the run.\relax }}{132}{figure.caption.50}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.4}{\ignorespaces Coherent noise removal in 35\nobreakspace  {}ton data}}{88}{figure.caption.5}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.5}{\ignorespaces Selecting tracks for 35\nobreakspace  {}ton data analysis}}{90}{figure.caption.6}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.6}{\ignorespaces Event display showing tracks passing across APA gaps and also through the APAs.}}{92}{figure.caption.7}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.7}{\ignorespaces Schematic showing an example APA gap-crossing track as viewed looking down from the top of the detector. The vertical direction represents the drift direction ($x$); the horizontal direction represents the $z$-direction. In general, these tracks make an angle with respect to the face of the APAs, as shown in the figure. As the gap in between the APAs is uninstrumented, no charge is desposited in this region.\relax }}{93}{figure.caption.8}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.8}{\ignorespaces Schematic showing an example track crossing two drift regions offset by an unknown quantity $\Delta z$. The effect of this is evident from the track desposits (Figure\nobreakspace  {}\ref  {fig:APAGapZOffsetUncorrected}) and can be corrected by ensuring the segments are aligned between the TPCs (Figure\nobreakspace  {}\ref  {fig:APAGapZOffsetCorrected}).\relax }}{94}{figure.caption.9}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.9}{\ignorespaces Illustration of the eight gaps between the four APA frames.\relax }}{94}{figure.caption.10}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.10}{\ignorespaces The $z$-offset for the TPC5/TPC7 gap measured in the 35\nobreakspace  {}ton data. A very noticable double-peak structure is evident in Figure\nobreakspace  {}\ref  {fig:TPC5TPC7Gap}; this bias appears to be related to the sign of the angle the particle track makes to the APA planes.\relax }}{96}{figure.caption.25}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.11}{\ignorespaces Demonstration of how an $x$-offset in the positions of the APAs can explain the degeneracy evident in the $z$-offset measured using the 35\nobreakspace  {}ton data (Figure\nobreakspace  {}\ref  {fig:TPC5TPC7XOffsetZOffset}). In the left-hand plots, Figures\nobreakspace  {}\ref  {fig:APAGapXOffsetPos} and\nobreakspace  {}\ref  {fig:APAGapXOffsetPosFix}, the through-going particle makes a positive angle to the face of the APAs and in the right-hand plots, Figures\nobreakspace  {}\ref  {fig:APAGapXOffsetNeg} and\nobreakspace  {}\ref  {fig:APAGapXOffsetNegFix}, the particle is travelling with a negative gradient. In both cases, the offset of the APAs in the $x$-direction is the same. It is clear from Figures\nobreakspace  {}\ref  {fig:APAGapXOffsetPosFix} and\nobreakspace  {}\ref  {fig:APAGapXOffsetNegFix} how the sign of the measured $\Delta z$ is dependent on the angle of the track.\relax }}{97}{figure.caption.26}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.12}{\ignorespaces Studies of the effects of offsets in the positions of the APAs in simulation. Articficial $z$- and $x$- offsets are introduced and their impact observed in the measurements of $\Delta z$. Figure\nobreakspace  {}\ref  {fig:APAGapMCZOffset} shows the effect of an offset in the $z$-direction; as expected, there is a single peak measuring the inputed value. Figures\nobreakspace  {}\ref  {fig:APAGapMCXOffsetZOffset} and\nobreakspace  {}\ref  {fig:APAGapMCXOffsetZOffsetAngle} show the consequence of offsets in both the $x$- and $z$-directions. This appears to show exactly what is seen in the 35\nobreakspace  {}ton data (Figure\nobreakspace  {}\ref  {fig:TPC5TPC7XOffsetZOffset}).\relax }}{98}{figure.caption.27}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.13}{\ignorespaces {\color {red} Same as previous page -- which is better? I prefer the layout of the previous page but I like this one because you can see the 2cm offset in line with each other down the page!} Studies of the effects of offsets in the positions of the APAs in simulation. Articficial $z$- and $x$- offsets are introduced and their impact observed in the measurements of $\Delta z$. Figure\nobreakspace  {}\ref  {fig:APAGapMCZOffset} shows the effect of an offset in the $z$-direction; as expected, there is a single peak measuring the inputed value. Figures\nobreakspace  {}\ref  {fig:APAGapMCXOffsetZOffset} and\nobreakspace  {}\ref  {fig:APAGapMCXOffsetZOffsetAngle} show the consequence of offsets in both the $x$- and $z$-directions. This appears to show exactly what is seen in the 35\nobreakspace  {}ton data (Figure\nobreakspace  {}\ref  {fig:TPC5TPC7XOffsetZOffset}).\relax }}{99}{figure.caption.28}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.14}{\ignorespaces Demonstration of the effects of offsets in both the $x$- and $z$-directions in the determination of $\Delta z$ between TPC5 and TPC7. With an $x$-offset present, it is impossible for the true value of $\Delta z$ to be measured -- this is evident from Figure\nobreakspace  {}\ref  {fig:APAGapMC}. It is clear from these geometrical considerations how the measured offset $\Delta z_m$ will populate distributions either side of the true value; the true value $\Delta z$ is given by the minimum between the two distributions.\relax }}{100}{figure.caption.29}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.15}{\ignorespaces Extraction of the true value of $\Delta z$ from the full distribution of measured $z$-offsets. A measured value of $0.117\pm 0.007$\nobreakspace  {}cm is found.\relax }}{101}{figure.caption.30}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.16}{\ignorespaces Measurement of the $x$-offset between TPC5 and TPC7 after applying the $z$-gap corrected determined using the method described in the text and Figure\nobreakspace  {}\ref  {fig:TPC5TPC7GapFit}. A measurement of $-0.286\pm 0.002$\nobreakspace  {}cm is determined.\relax }}{101}{figure.caption.31}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.17}{\ignorespaces Measurement of the $z$-offset between TPC5 and TPC7 after applying the $x$-offset determined from Figure\nobreakspace  {}\ref  {fig:TPC5TPC7XOff}. As initially anticipated, there is a single peak distributed around the true value of the offset. This validates the method used and confirms the initial presence of an $x$-offset between the neighbouring APAs. The final measurement of $\Delta z$ is $0.103\pm 0.004$\nobreakspace  {}cm which agrees reasonably with the value measured previously ($0.117\pm 0.007$\nobreakspace  {}cm from Figure\nobreakspace  {}\ref  {fig:TPC5TPC7GapFit}).\relax }}{102}{figure.caption.32}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.18}{\ignorespaces Number of reconstructed hits at different distances from nearest APA gap.}}{106}{figure.caption.34}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.19}{\ignorespaces The average charge of hits as a function of distance to nearest APA gap.}}{106}{figure.caption.34}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.1}{\ignorespaces `Good' and `bad' 35\nobreakspace  {}ton runs}}{86}{figure.caption.16}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.20}{\ignorespaces Event display of an APA gap-crossing track, focussed on the gap region.}}{107}{figure.caption.35}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.21}{\ignorespaces Method to align track segments on either side of the APAs involving minimising residuals from linear least square fit.}}{109}{figure.caption.36}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.22}{\ignorespaces Method to align track segments on either side of the APAs involving minimising the distance between the projected intersection of each with the centre of the APAs.}}{109}{figure.caption.36}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.23}{\ignorespaces Difference between the T0 calculated from TPC data and the T0 provided by the counters representing the trigger time of the through-going muon, for simulation and data.}}{110}{figure.caption.37}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.24}{\ignorespaces Correcting for T0 using $T_0^{\mathrm  {counter}}$ and $T_0^{\mathrm  {TPC}}$.}}{111}{figure.caption.38}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.25}{\ignorespaces Demonstration of the effect observed in the 35\nobreakspace  {}ton data concerning tracks crossing the APAs.}}{111}{figure.caption.39}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.26}{\ignorespaces Attemping to correct the track segment misalignment by assuming a misunderstanding of the spacing between the collection planes.}}{112}{figure.caption.41}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.27}{\ignorespaces Attempting to correct the track segment misalignment by assuming a misunderstanding of the positioning of the collection wires inside the detector.}}{113}{figure.caption.42}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.28}{\ignorespaces Attempting to correct the track segment misalignment by assuming an incorrect drift velocity.}}{113}{figure.caption.44}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.29}{\ignorespaces Measuring the drift velocity of the ionisation electrons by taking tracks passing through opposite counter pairs and comparing the corresponding drift distance to the drift time.}}{114}{figure.caption.45}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.2}{\ignorespaces Correcting for stuck codes in the 35\nobreakspace  {}ton data}}{87}{figure.caption.17}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.30}{\ignorespaces The T0-corrected drift time for hits on APA-crossing tracks.}}{115}{figure.caption.47}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.31}{\ignorespaces Difference between the interaction time measured by the TPC data and that provided by photon detector information.}}{115}{figure.caption.48}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.32}{\ignorespaces The difference between the timestamps recorded by the PTB and the RCEs upon recieving a trigger.}}{116}{figure.caption.49}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.33}{\ignorespaces The distribution of the drift times of all hits on APA-crossing tracks after correcting for the APA offsets along the direction parallel to the drift direction.}}{118}{figure.caption.50}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.34}{\ignorespaces Accounting for the extra disprecency in track alignment after fixing for all the measured offsets by assuming a misunderstanding in the collection plane spacing and the $z$-positions of the collection wires.}}{119}{figure.caption.51}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.35}{\ignorespaces The T0-corrected drift time for all hits on an APA-crossing track in simulation.}}{120}{figure.caption.52}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.36}{\ignorespaces Demonstration of the electron ionisation and hit collection for APA-crossing tracks.}}{121}{figure.caption.53}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.37}{\ignorespaces Comparison between the T0-corrected hit time distributions on APAs with and without the grounded mesh.}}{122}{figure.caption.54}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.38}{\ignorespaces Comparison between the distribution of T0-corrected hit times for hits on wires in front of the APA frame and away from the APA frame to validate the functionality of the mesh.}}{123}{figure.caption.55}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.39}{\ignorespaces Average lifetime-corrected charge per hit for hits on an APA-crossing track separated according to whether or not the hit was collected around the interaction time.}}{123}{figure.caption.56}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.3}{\ignorespaces Raw data stuck bit mitigation}}{88}{figure.caption.18}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.40}{\ignorespaces Event display of an APA-crossing track with the charge deposited as it passes through the APAs evident.}}{125}{figure.caption.57}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.41}{\ignorespaces Using APA-crossing tracks to confirm the drift velocity is consistent between the two drift regions.}}{126}{figure.caption.58}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.42}{\ignorespaces Comparison of noise levels between the two drift regions using APA-crossing tracks.}}{126}{figure.caption.59}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.43}{\ignorespaces The bias in the hit selection due to a high noise level in the 35\nobreakspace  {}ton data.}}{128}{figure.caption.60}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.44}{\ignorespaces The dE/dx distribution for MIPs passing through the 35\nobreakspace  {}ton TPC.}}{129}{figure.caption.61}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.45}{\ignorespaces Relationship between deposited charge and energy for 35\nobreakspace  {}ton data, calculated using through-going MIPs.}}{130}{figure.caption.62}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.46}{\ignorespaces Result of applying the shower reconstruction on a shower observed in the 35\nobreakspace  {}ton data.}}{131}{figure.caption.63}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.47}{\ignorespaces A candidate $\pi ^0$ event observed in the online event display during the run.\relax }}{132}{figure.caption.64}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.4}{\ignorespaces Coherent noise removal in 35\nobreakspace  {}ton data}}{88}{figure.caption.19}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.5}{\ignorespaces Selecting tracks for 35\nobreakspace  {}ton data analysis}}{90}{figure.caption.20}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.6}{\ignorespaces Event display showing tracks passing across APA gaps and also through the APAs.}}{92}{figure.caption.21}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.7}{\ignorespaces Schematic showing an example APA gap-crossing track as viewed looking down from the top of the detector. The vertical direction represents the drift direction ($x$); the horizontal direction represents the $z$-direction. In general, these tracks make an angle with respect to the face of the APAs, as shown in the figure. As the gap in between the APAs is uninstrumented, no charge is desposited in this region.\relax }}{93}{figure.caption.22}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.8}{\ignorespaces Schematic showing an example track crossing two drift regions offset by an unknown quantity $\Delta z$. The effect of this is evident from the track desposits (Figure\nobreakspace  {}\ref  {fig:APAGapZOffsetUncorrected}) and can be corrected by ensuring the segments are aligned between the TPCs (Figure\nobreakspace  {}\ref  {fig:APAGapZOffsetCorrected}).\relax }}{94}{figure.caption.23}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.9}{\ignorespaces Illustration of the eight gaps between the four APA frames.\relax }}{94}{figure.caption.24}}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
@@ -126,11 +139,12 @@
 \@writefile{lot}{\contentsline {table}{\numberline {2.1}{\ignorespaces The current best-fit values for the neutrino oscillation parameters for normal (inverted) hierarchy. Taken from \cite  {NuFit2017}.\relax }}{22}{table.caption.10}}
 \@writefile{lot}{\contentsline {table}{\numberline {3.1}{\ignorespaces Properties of noble liquids relevant when considering a TPC medium for a neutrino experiment \cite  {Soderberg2008}.\relax }}{27}{table.caption.3}}
 \@writefile{lot}{\contentsline {table}{\numberline {3.2}{\ignorespaces Exposures anticipated for the DUNE experiment for the first few years of operation. Due to the staged approach in construction, it will take some time to reach full design capabilities. The first exposure column represents the exposure expected in that year and the next column the cumulative total. Adapted from \cite  {DUNECDR1}.\relax }}{46}{table.caption.17}}
-\@writefile{lot}{\contentsline {table}{\numberline {7.1}{\ignorespaces Measurements of all the APA offsets determined from the 35\nobreakspace  {}ton TPC data.}}{104}{table.caption.19}}
-\@writefile{lot}{\contentsline {table}{\numberline {7.2}{\ignorespaces The corrected gaps between the APAs, in $x$ and $z$, based on the offsets measured (Table \ref  {tab:APAGapOffsets}).}}{104}{table.caption.19}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Details and dimensions of the 35\nobreakspace  {}ton cryostat.}}{70}{table.caption.12}}
+\@writefile{lot}{\contentsline {table}{\numberline {7.1}{\ignorespaces Measurements of all the APA offsets determined from the 35\nobreakspace  {}ton TPC data.}}{104}{table.caption.33}}
+\@writefile{lot}{\contentsline {table}{\numberline {7.2}{\ignorespaces The corrected gaps between the APAs, in $x$ and $z$, based on the offsets measured (Table \ref  {tab:APAGapOffsets}).}}{104}{table.caption.33}}
 \@writefile{toc}{\contentsline {chapter}{Appendix \numberline {A}How to install \LaTeX  }{147}{Appendix.a.A}}
 \@writefile{toc}{\contentsline {chapter}{Appendix \numberline {B}Installing the CUED class file}{151}{Appendix.a.B}}
-\@writefile{toc}{\contentsline {chapter}{References}{139}{chapter*.51}}
+\@writefile{toc}{\contentsline {chapter}{References}{139}{chapter*.65}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {2}Neutrino Physics}{3}{chapter.2}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {3}The Deep Underground Neutrino Experiment}{25}{chapter.3}}
@@ -140,21 +154,21 @@
 \@writefile{toc}{\contentsline {chapter}{\numberline {7}Analysis of 35\nobreakspace  {}ton Data}{85}{chapter.7}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {8}Electron Reconstruction for $\nu _e$ Oscillation Signal at the DUNE Far Detector}{135}{chapter.8}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {9}Summary}{137}{chapter.9}}
-\@writefile{toc}{\contentsline {paragraph}{Drift velocity}{112}{section*.29}}
-\@writefile{toc}{\contentsline {paragraph}{Geometry}{108}{section*.26}}
-\@writefile{toc}{\contentsline {paragraph}{Timing}{112}{section*.32}}
+\@writefile{toc}{\contentsline {paragraph}{Drift velocity}{112}{section*.43}}
+\@writefile{toc}{\contentsline {paragraph}{Geometry}{108}{section*.40}}
+\@writefile{toc}{\contentsline {paragraph}{Timing}{112}{section*.46}}
 \@writefile{toc}{\contentsline {section}{\numberline {2.1}Historical Context}{3}{section.2.1}}
 \@writefile{toc}{\contentsline {section}{\numberline {2.2}Neutrino Oscillations}{10}{section.2.2}}
 \@writefile{toc}{\contentsline {section}{\numberline {2.3}Status of Neutrino Physics}{19}{section.2.3}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.1}The LAr TPC Concept}{25}{section.3.1}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.2}Overview of DUNE}{32}{section.3.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.3}Experimental Details}{34}{section.3.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}Experimental Details}{35}{section.3.3}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.4}The Physics of DUNE}{45}{section.3.4}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.5}The Road to DUNE}{53}{section.3.5}}
 \@writefile{toc}{\contentsline {section}{\numberline {4.1}The Materials Test Stand and Liquid Argon Purity Demonstrator}{58}{section.4.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}35\nobreakspace  {}ton Experiment: Phase I}{60}{section.4.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.3}35\nobreakspace  {}ton Experiment: Phase II}{60}{section.4.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.4}Summary}{61}{section.4.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}35\nobreakspace  {}ton Experiment: Phase I}{67}{section.4.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}35\nobreakspace  {}ton Experiment: Phase II}{74}{section.4.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}Summary}{74}{section.4.4}}
 \@writefile{toc}{\contentsline {section}{\numberline {5.1}The LArSoft Framework}{68}{section.5.1}}
 \@writefile{toc}{\contentsline {section}{\numberline {5.2}The Reconstruction Chain}{68}{section.5.2}}
 \@writefile{toc}{\contentsline {section}{\numberline {5.3}Calorimetry Reconstruction}{68}{section.5.3}}
@@ -184,9 +198,9 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.3.3}Neutrino Mass}{20}{subsection.2.3.3}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}A Brief History of Time (Projection Chambers)}{26}{subsection.3.1.1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}LAr TPC Operation}{28}{subsection.3.1.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.3}LArTPC Challenges}{29}{subsection.3.1.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.3}LArTPC Challenges}{30}{subsection.3.1.3}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}Beam}{35}{subsection.3.3.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}Far Detector}{36}{subsection.3.3.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}Far Detector}{37}{subsection.3.3.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.3.3}Near Detector}{43}{subsection.3.3.3}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.4.1}Mass Hierarchy and CP Violation}{47}{subsection.3.4.1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.4.2}Oscillation Parameters}{49}{subsection.3.4.2}}
@@ -194,15 +208,16 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.5.1}The 35\nobreakspace  {}ton Prototype}{53}{subsection.3.5.1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.5.2}ProtoDUNE}{53}{subsection.3.5.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.1.1}The Materials Test Stand}{58}{subsection.4.1.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.2}The Liquid Argon Purity Demonstrator}{60}{subsection.4.1.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}The 35\nobreakspace  {}ton Cryostat}{60}{subsection.4.2.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}Filling the 35\nobreakspace  {}ton}{60}{subsection.4.2.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.3}Outcomes of Phase I}{60}{subsection.4.2.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}The 35\nobreakspace  {}ton Detector}{61}{subsection.4.3.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}Data Acquisition}{61}{subsection.4.3.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.3}The Sheffield Camera System}{61}{subsection.4.3.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.4}Data Taking}{61}{subsection.4.3.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.5}Outcomes of Phase II}{61}{subsection.4.3.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.2}The Liquid Argon Purity Demonstrator}{61}{subsection.4.1.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.3}LongBo}{65}{subsection.4.1.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}The 35\nobreakspace  {}ton Cryostat}{69}{subsection.4.2.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}Filling the 35\nobreakspace  {}ton}{71}{subsection.4.2.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.3}Outcomes of Phase I}{72}{subsection.4.2.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}The 35\nobreakspace  {}ton Detector}{74}{subsection.4.3.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}Data Acquisition}{74}{subsection.4.3.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.3}The Sheffield Camera System}{74}{subsection.4.3.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.4}Data Taking}{74}{subsection.4.3.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.5}Outcomes of Phase II}{74}{subsection.4.3.5}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}From Charge to Hits}{68}{subsection.5.2.1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}2D Object Reconstruction}{68}{subsection.5.2.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.2.3}3D Object Reconstruction}{68}{subsection.5.2.3}}
@@ -241,14 +256,19 @@
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.1.2}SNO and the Solar Sector}{11}{subsubsection.2.2.1.2}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.3.1}KamLAND and Reactor Neutrinos}{17}{subsubsection.2.2.3.1}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.2.1}Single-Phase}{37}{subsubsection.3.3.2.1}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.2.2}Dual-Phase}{41}{subsubsection.3.3.2.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.2.2}Dual-Phase}{40}{subsubsection.3.3.2.2}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.3.1}Near Neutrino Detector}{43}{subsubsection.3.3.3.1}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.3.2}Beamline Measurement System}{45}{subsubsection.3.3.3.2}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.1.1}TPC}{61}{subsubsection.4.3.1.1}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.1.2}Photon Detectors}{61}{subsubsection.4.3.1.2}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.1.3}External Counters}{61}{subsubsection.4.3.1.3}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.2.1}RCEs, SSPs, PTB}{61}{subsubsection.4.3.2.1}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.2.2}35\nobreakspace  {}ton DAQ}{61}{subsubsection.4.3.2.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.1.1}Filter Regeneration}{60}{subsubsection.4.1.1.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.1.2}Purity Monitoring}{61}{subsubsection.4.1.1.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.2.1}LAPD Experimental Setup}{62}{subsubsection.4.1.2.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.2.2}Filling LAPD}{64}{subsubsection.4.1.2.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.2.3}LAPD Outcomes}{65}{subsubsection.4.1.2.3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.1.1}TPC}{74}{subsubsection.4.3.1.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.1.2}Photon Detectors}{74}{subsubsection.4.3.1.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.1.3}External Counters}{74}{subsubsection.4.3.1.3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.2.1}RCEs, SSPs, PTB}{74}{subsubsection.4.3.2.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.2.2}35\nobreakspace  {}ton DAQ}{74}{subsubsection.4.3.2.2}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {7.3.1.1}Measuring the APA Gaps}{95}{subsubsection.7.3.1.1}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {7.3.1.2}Measurements of the APA Offsets}{103}{subsubsection.7.3.1.2}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {7.4.1.1}Aligning APA Crossing Tracks}{107}{subsubsection.7.4.1.1}}
@@ -261,6 +281,19 @@
 \HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
 \bibdata{References/references}
 \bibstyle{andyisgreat}
+\citation{35tonPhaseI2014Cryostat,35tonPhaseI2014,35tonPhaseI2015}
+\citation{35tonPhaseI2014}
+\citation{35tonPhaseI2014}
+\citation{35tonPhaseI2014}
+\citation{35tonPhaseI2014}
+\citation{35tonPhaseI2015}
+\citation{35tonPhaseI2015}
+\citation{35tonPhaseI2015}
+\citation{35tonPhaseI2015}
+\citation{35tonPhaseI2015}
+\citation{35tonPhaseI2015}
+\citation{35tonPhaseINeutrino2014}
+\citation{35tonPhaseINeutrino2014}
 \citation{Aad2012,Chatrchyan2012}
 \citation{Abdurashitov1994}
 \citation{Anselmann1992}
@@ -335,25 +368,50 @@
 \citation{Huber2011}
 \citation{Huber2011}
 \citation{HyperKamiokande2015}
+\citation{ICARUS1993a,ICARUS2006}
+\citation{ICARUS1993b}
 \citation{ICARUS2004}
+\citation{ICARUSPurityMonitor}
+\citation{ICARUSPurityMonitor}
+\citation{ICARUSPurityMonitor}
 \citation{IceCube2015}
 \citation{KamLAND2003,KamLAND2005}
 \citation{KamLAND2013}
 \citation{Kamiokande1994}
 \citation{Kodama2001}
 \citation{LAGUNA-LBNO2015}
+\citation{LAPD2014}
+\citation{LAPD2014}
+\citation{LAPD2014}
+\citation{LAPD2014}
+\citation{LAPDJINST2014}
+\citation{LAPDJINST2014}
+\citation{LAPDJINST2014}
+\citation{LAPDJINST2014}
+\citation{LAPDJINST2014}
+\citation{LAPDJINST2014}
 \citation{LArIAT2014}
 \citation{LBNECDR1,LBNECDR3,LBNECDR4a}
 \citation{Lattes1947-159,Lattes1947-160}
 \citation{Lattes1947-159}
 \citation{Lewis1970}
 \citation{Lewis1970}
+\citation{LongBo2015}
+\citation{LongBo2015}
+\citation{LongBo2015}
+\citation{LongBo2015}
+\citation{LongBo2015}
 \citation{MINOS2013,MINOS2013b}
 \citation{MNS1962}
 \citation{MS1985,MS1986}
 \citation{MTS2006,MTS2009a,MTS2009b,MTS2011}
+\citation{MTS2009a}
+\citation{MTS2009a}
+\citation{MTS2009a}
+\citation{MTS2009a}
 \citation{MTS2009b}
 \citation{MTS2009b}
+\citation{MTS2011,LAPD2014,LAPDJINST2014}
 \citation{Mann1999}
 \citation{Mann1999}
 \citation{Mannel2007}
@@ -409,6 +467,8 @@
 \citation{Triotsk2011,Mainz2005}
 \citation{WA105}
 \citation{Wolfenstein1978}
+\citation{}
+\citation{}
 \fi}
 \fi}
 \gdef\HyperFirstAtBeginDocument#1{#1}
@@ -560,7 +620,7 @@
 \setcounter{bookmark@seq@number}{16}
 \setcounter{bookmark@seq@number}{1}
 \setcounter{bookmark@seq@number}{33}
-\setcounter{bookmark@seq@number}{48}
+\setcounter{bookmark@seq@number}{49}
 \setcounter{bookmark@seq@number}{75}
 \setcounter{bookmark@seq@number}{93}
 \setcounter{chapter}{0}
@@ -649,9 +709,9 @@
 \setcounter{equation}{0}
 \setcounter{equation}{0}
 \setcounter{equation}{0}
-\setcounter{equation}{0}
-\setcounter{equation}{1}
+\setcounter{equation}{2}
 \setcounter{equation}{32}
+\setcounter{equation}{4}
 \setcounter{equation}{4}
 \setcounter{figure}{0}
 \setcounter{figure}{0}
@@ -664,7 +724,7 @@
 \setcounter{figure}{0}
 \setcounter{figure}{0}
 \setcounter{figure}{10}
-\setcounter{figure}{1}
+\setcounter{figure}{14}
 \setcounter{figure}{22}
 \setcounter{figure}{47}
 \setcounter{figure}{8}
@@ -708,9 +768,9 @@
 \setcounter{page}{3}
 \setcounter{page}{4}
 \setcounter{page}{56}
-\setcounter{page}{62}
 \setcounter{page}{69}
 \setcounter{page}{6}
+\setcounter{page}{75}
 \setcounter{page}{84}
 \setcounter{page}{9}
 \setcounter{paragraph}{0}
@@ -874,7 +934,7 @@
 \setcounter{table}{0}
 \setcounter{table}{0}
 \setcounter{table}{0}
-\setcounter{table}{0}
+\setcounter{table}{1}
 \setcounter{table}{1}
 \setcounter{table}{2}
 \setcounter{table}{2}

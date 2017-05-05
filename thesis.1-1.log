@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  2 MAY 2017 15:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  4 MAY 2017 19:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1234,34 +1234,59 @@ n.aux) (./Declaration/declaration.aux) (./Acknowledgements/acknowledgements.aux
 ) (./Abstract/abstract.aux) (./Introduction/Introduction.aux) (./NeutrinoPhysic
 s/NeutrinoPhysics.aux) (./DUNE/DUNE.aux) (./35ton/35ton.aux) (./LArReconstructi
 on/LArReconstruction.aux) (./OnlineMonitoring/OnlineMonitoring.aux) (./35tonAna
-lysis/35tonAnalysis.aux) (./FarDetectorAnalysis/FarDetectorAnalysis.aux) (./Sum
-mary/Summary.aux) (./Appendix1/appendix1.aux) (./Appendix2/appendix2.aux))
+lysis/35tonAnalysis.aux
+
+LaTeX Warning: Label `eq:ElectronLifetime' multiply defined.
+
+
+LaTeX Warning: Label `fig:APAGapMCZOffset' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:APAGapMCZOffset' multiply defined.
+
+
+LaTeX Warning: Label `fig:APAGapMCXOffsetZOffset' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:APAGapMCXOffsetZOffset' multiply defined.
+
+
+LaTeX Warning: Label `fig:APAGapMCXOffsetZOffsetAngle' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:APAGapMCXOffsetZOffsetAngle' multiply defined.
+
+
+LaTeX Warning: Label `fig:APAGapMC' multiply defined.
+
+) (./FarDetectorAnalysis/FarDetectorAnalysis.aux) (./Summary/Summary.aux) (./Ap
+pendix1/appendix1.aux) (./Appendix2/appendix2.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 112.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 112.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 113.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 113.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 112.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 113.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ) (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -1278,7 +1303,7 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 \makeMPintoPDFobject=\count288
 \everyMPtoPDFconversion=\toks29
 )
-LaTeX Info: Redefining \microtypecontext on input line 112.
+LaTeX Info: Redefining \microtypecontext on input line 113.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1292,7 +1317,7 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 \AtBeginShipoutBox=\box51
-Package hyperref Info: Link coloring ON on input line 112.
+Package hyperref Info: Link coloring ON on input line 113.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -1300,9 +1325,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count289
 )
-LaTeX Info: Redefining \ref on input line 112.
-LaTeX Info: Redefining \pageref on input line 112.
-LaTeX Info: Redefining \nameref on input line 112.
+LaTeX Info: Redefining \ref on input line 113.
+LaTeX Info: Redefining \pageref on input line 113.
+LaTeX Info: Redefining \nameref on input line 113.
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write5
 \openout5 = `thesis.out'.
@@ -1356,7 +1381,7 @@ File: siunitx-abbreviations.cfg 2013/07/31 v2.5s siunitx: Abbreviated units
 )
 \c__siunitx_mathsf_int=\count290
 LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 11
-2.
+3.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
@@ -1365,31 +1390,31 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 11
-2.
+3.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 11
-2.
+3.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 11
-2.
+3.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 112.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 113.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 112.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 113.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 112.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 113.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 112.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 113.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/microtype/mt-msb.cfg
@@ -1428,163 +1453,308 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 LaTeX Font Info:    Try loading font information for TS1+ptm on input line 14.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 19.
-
-LaTeX Warning: Reference `sec:MTSLAPD' on page 57 undefined on input line 19.
-
-
-LaTeX Warning: Reference `sec:35tonPhaseI' on page 57 undefined on input line 1
-9.
-
-
-LaTeX Warning: Reference `sec:35tonPhaseII' on page 57 undefined on input line 
-19.
-
-
-LaTeX Warning: Reference `sec:35tonSummary' on page 57 undefined on input line 
-19.
-
-[57{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+) [57{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 25.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 27.
 
-LaTeX Warning: Reference `fig:MTS' on page 58 undefined on input line 27.
+Package natbib Warning: Citation `MTS2006' on page 58 undefined on input line 2
+7.
 
-<35ton/Figs/MTS.pdf, id=30, 404.51125pt x 317.185pt>
+
+Package natbib Warning: Citation `MTS2009a' on page 58 undefined on input line 
+27.
+
+
+Package natbib Warning: Citation `MTS2009b' on page 58 undefined on input line 
+27.
+
+
+Package natbib Warning: Citation `MTS2011' on page 58 undefined on input line 2
+7.
+
+
+Package natbib Warning: Citation `ICARUS1993b' on page 58 undefined on input li
+ne 27.
+
+
+Package natbib Warning: Citation `ICARUS1993a' on page 58 undefined on input li
+ne 31.
+
+
+Package natbib Warning: Citation `ICARUS2006' on page 58 undefined on input lin
+e 31.
+
+<35ton/Figs/MTS.pdf, id=178, 404.51125pt x 317.185pt>
 File: 35ton/Figs/MTS.pdf Graphic file (type pdf)
 <use 35ton/Figs/MTS.pdf>
-Package pdftex.def Info: 35ton/Figs/MTS.pdf used on input line 31.
+Package pdftex.def Info: 35ton/Figs/MTS.pdf used on input line 35.
 (pdftex.def)             Requested size: 398.33858pt x 312.34918pt.
-)
-Runaway argument?
-{The Materials Test Stand Stand at FNAL.]{The Materials Test Stand St\ETC.
-./thesis.tex:142: File ended while scanning use of \caption@xdblarg.
-<inserted text> 
-                \par 
-l.142 \include{35ton/35ton}
-                           
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
 
+Package natbib Warning: Citation `MTS2009b' on page 58 undefined on input line 
+36.
+
+
+Package natbib Warning: Citation `MTS2009b' on page 58 undefined on input line 
+36.
+
+[58] [59 <./35ton/Figs/MTS.pdf>] <35ton/Figs/MTSResults.pdf, id=219, 393.1278pt
+ x 223.17126pt>
+File: 35ton/Figs/MTSResults.pdf Graphic file (type pdf)
+<use 35ton/Figs/MTSResults.pdf>
+Package pdftex.def Info: 35ton/Figs/MTSResults.pdf used on input line 44.
+(pdftex.def)             Requested size: 341.43306pt x 193.8237pt.
+
+Package natbib Warning: Citation `MTS2009a' on page 60 undefined on input line 
+45.
+
+
+Package natbib Warning: Citation `MTS2009a' on page 60 undefined on input line 
+45.
+
+
+Package natbib Warning: Citation `ICARUSPurityMonitor' on page 60 undefined on 
+input line 59.
+
+[60 <./35ton/Figs/MTSResults.pdf>] <35ton/Figs/PurityMonitor.png, id=260, 427.5
+975pt x 232.87pt>
+File: 35ton/Figs/PurityMonitor.png Graphic file (type png)
+<use 35ton/Figs/PurityMonitor.png>
+Package pdftex.def Info: 35ton/Figs/PurityMonitor.png used on input line 63.
+(pdftex.def)             Requested size: 284.52756pt x 154.95253pt.
+
+Package natbib Warning: Citation `ICARUSPurityMonitor' on page 61 undefined on 
+input line 64.
+
+
+Package natbib Warning: Citation `ICARUSPurityMonitor' on page 61 undefined on 
+input line 64.
+
+
+Package natbib Warning: Citation `MTS2011' on page 61 undefined on input line 7
+4.
+
+
+Package natbib Warning: Citation `LAPD2014' on page 61 undefined on input line 
+74.
+
+
+Package natbib Warning: Citation `LAPDJINST2014' on page 61 undefined on input 
+line 74.
+
+[61 <./35ton/Figs/PurityMonitor.png>] <35ton/Figs/LAPD.pdf, id=278, 185.69376pt
+ x 211.79124pt>
+File: 35ton/Figs/LAPD.pdf Graphic file (type pdf)
+<use 35ton/Figs/LAPD.pdf>
+Package pdftex.def Info: 35ton/Figs/LAPD.pdf used on input line 86.
+(pdftex.def)             Requested size: 284.52756pt x 324.52429pt.
+
+Package natbib Warning: Citation `LAPDJINST2014' on page 62 undefined on input 
+line 87.
+
+
+Package natbib Warning: Citation `LAPDJINST2014' on page 62 undefined on input 
+line 87.
+
+[62] [63 <./35ton/Figs/LAPD.pdf>]
+\largestimage=\box52
+<35ton/Figs/LAPDPistonPurgeSchematic.pdf, id=332, 274.40828pt x 254.93634pt>
+File: 35ton/Figs/LAPDPistonPurgeSchematic.pdf Graphic file (type pdf)
+<use 35ton/Figs/LAPDPistonPurgeSchematic.pdf>
+Package pdftex.def Info: 35ton/Figs/LAPDPistonPurgeSchematic.pdf used on input 
+line 103.
+(pdftex.def)             Requested size: 214.35501pt x 199.14517pt.
+<35ton/Figs/LAPDPistonPurgeImpurities.pdf, id=333, 424.58624pt x 121.45375pt>
+File: 35ton/Figs/LAPDPistonPurgeImpurities.pdf Graphic file (type pdf)
+<use 35ton/Figs/LAPDPistonPurgeImpurities.pdf>
+Package pdftex.def Info: 35ton/Figs/LAPDPistonPurgeImpurities.pdf used on input
+ line 109.
+(pdftex.def)             Requested size: 300.09569pt x 85.84727pt.
+
+Package natbib Warning: Citation `LAPDJINST2014' on page 64 undefined on input 
+line 114.
+
+
+Package natbib Warning: Citation `LAPDJINST2014' on page 64 undefined on input 
+line 114.
+
+[64 <./35ton/Figs/LAPDPistonPurgeSchematic.pdf> <./35ton/Figs/LAPDPistonPurgeIm
+purities.pdf>] <35ton/Figs/LAPDGasCirculation.pdf, id=455, 430.60875pt x 123.46
+124pt>
+File: 35ton/Figs/LAPDGasCirculation.pdf Graphic file (type pdf)
+<use 35ton/Figs/LAPDGasCirculation.pdf>
+Package pdftex.def Info: 35ton/Figs/LAPDGasCirculation.pdf used on input line 1
+22.
+(pdftex.def)             Requested size: 306.22144pt x 87.79936pt.
+
+Package natbib Warning: Citation `LAPDJINST2014' on page 65 undefined on input 
+line 123.
+
+
+Package natbib Warning: Citation `LAPDJINST2014' on page 65 undefined on input 
+line 123.
+
+<35ton/Figs/LAPDLiquidCirculation.pdf, id=457, 597.23125pt x 505.26857pt>
+File: 35ton/Figs/LAPDLiquidCirculation.pdf Graphic file (type pdf)
+<use 35ton/Figs/LAPDLiquidCirculation.pdf>
+Package pdftex.def Info: 35ton/Figs/LAPDLiquidCirculation.pdf used on input lin
+e 131.
+(pdftex.def)             Requested size: 284.52756pt x 240.71436pt.
+
+Package natbib Warning: Citation `LAPD2014' on page 65 undefined on input line 
+132.
+
+
+Package natbib Warning: Citation `MTS2009a' on page 65 undefined on input line 
+132.
+
+
+Package natbib Warning: Citation `LAPD2014' on page 65 undefined on input line 
+132.
+
+
+Package natbib Warning: Citation `MTS2009a' on page 65 undefined on input line 
+132.
+
+<35ton/Figs/LAPDElectronLifetime.png, id=459, 693.59125pt x 290.08376pt>
+File: 35ton/Figs/LAPDElectronLifetime.png Graphic file (type png)
+<use 35ton/Figs/LAPDElectronLifetime.png>
+Package pdftex.def Info: 35ton/Figs/LAPDElectronLifetime.png used on input line
+ 142.
+(pdftex.def)             Requested size: 341.43306pt x 142.80179pt.
+
+Package natbib Warning: Citation `LAPD2014' on page 65 undefined on input line 
+143.
+
+
+Package natbib Warning: Citation `LAPD2014' on page 65 undefined on input line 
+143.
+
+
+Package natbib Warning: Citation `LongBo2015' on page 65 undefined on input lin
+e 149.
+
+<35ton/Figs/LongBo.pdf, id=461, 220.825pt x 273.02pt>
+File: 35ton/Figs/LongBo.pdf Graphic file (type pdf)
+<use 35ton/Figs/LongBo.pdf>
+Package pdftex.def Info: 35ton/Figs/LongBo.pdf used on input line 153.
+(pdftex.def)             Requested size: 227.62204pt x 281.4387pt.
+
+Package natbib Warning: Citation `LongBo2015' on page 65 undefined on input lin
+e 154.
+
+
+Package natbib Warning: Citation `LongBo2015' on page 65 undefined on input lin
+e 154.
+
+[65 <./35ton/Figs/LAPDGasCirculation.pdf>] [66 <./35ton/Figs/LAPDLiquidCirculat
+ion.pdf>] <35ton/Figs/LongBoPurity.pdf, id=550, 407.5225pt x 114.4275pt>
+File: 35ton/Figs/LongBoPurity.pdf Graphic file (type pdf)
+<use 35ton/Figs/LongBoPurity.pdf>
+Package pdftex.def Info: 35ton/Figs/LongBoPurity.pdf used on input line 164.
+(pdftex.def)             Requested size: 398.33858pt x 111.85358pt.
+
+Package natbib Warning: Citation `LongBo2015' on page 67 undefined on input lin
+e 165.
+
+
+Package natbib Warning: Citation `LongBo2015' on page 67 undefined on input lin
+e 165.
+
+
+Package natbib Warning: Citation `35tonPhaseI2014Cryostat' on page 67 undefined
+ on input line 171.
+
+
+Package natbib Warning: Citation `35tonPhaseI2014' on page 67 undefined on inpu
+t line 171.
+
+
+Package natbib Warning: Citation `35tonPhaseI2015' on page 67 undefined on inpu
+t line 171.
+
+[67 <./35ton/Figs/LAPDElectronLifetime.png>] [68 <./35ton/Figs/LongBo.pdf> <./3
+5ton/Figs/LongBoPurity.pdf>] <35ton/Figs/35tonCryostat.pdf, id=649, 280.10849pt
+ x 220.06396pt>
+File: 35ton/Figs/35tonCryostat.pdf Graphic file (type pdf)
+<use 35ton/Figs/35tonCryostat.pdf>
+Package pdftex.def Info: 35ton/Figs/35tonCryostat.pdf used on input line 183.
+(pdftex.def)             Requested size: 284.52756pt x 223.54555pt.
+
+Package natbib Warning: Citation `35tonPhaseI2015' on page 69 undefined on inpu
+t line 184.
+
+
+Package natbib Warning: Citation `35tonPhaseI2015' on page 69 undefined on inpu
+t line 184.
+
+
+Package natbib Warning: Citation `35tonPhaseI2015' on page 69 undefined on inpu
+t line 189.
+
+
+Package natbib Warning: Citation `35tonPhaseI2015' on page 69 undefined on inpu
+t line 189.
+
+<35ton/Figs/35tonLAPD.pdf, id=651, 845.1575pt x 344.74667pt>
+File: 35ton/Figs/35tonLAPD.pdf Graphic file (type pdf)
+<use 35ton/Figs/35tonLAPD.pdf>
+Package pdftex.def Info: 35ton/Figs/35tonLAPD.pdf used on input line 218.
+(pdftex.def)             Requested size: 398.33858pt x 162.48862pt.
+
+Package natbib Warning: Citation `35tonPhaseI2014' on page 69 undefined on inpu
+t line 219.
+
+
+Package natbib Warning: Citation `35tonPhaseI2014' on page 69 undefined on inpu
+t line 219.
+
+[69] [70 <./35ton/Figs/35tonCryostat.pdf>]
+
+LaTeX Warning: Reference `sec:LAPDFilling' on page 71 undefined on input line 2
+27.
+
+<35ton/Figs/35tonGasFilling.pdf, id=708, 228.11304pt x 141.38953pt>
+File: 35ton/Figs/35tonGasFilling.pdf Graphic file (type pdf)
+<use 35ton/Figs/35tonGasFilling.pdf>
+Package pdftex.def Info: 35ton/Figs/35tonGasFilling.pdf used on input line 233.
+
+(pdftex.def)             Requested size: 205.77896pt x 127.5471pt.
+) [71 <./35ton/Figs/35tonLAPD.pdf, page is rotated 270 degrees>] [72 <./35ton/F
+igs/35tonGasFilling.pdf>]
 \openout2 = `35tonAnalysis/35tonAnalysis.aux'.
 
-(./35tonAnalysis/35tonAnalysis.tex
+(./35tonAnalysis/35tonAnalysis.tex [84
+
+
+
+
+
+]
 Chapter 7.
-
-LaTeX Warning: Reference `sec:35tonPhaseII' on page 84 undefined on input line 
-11.
-
-
-LaTeX Warning: Reference `sec:Preparing35tonData' on page 84 undefined on input
- line 13.
-
-
-LaTeX Warning: Reference `sec:PurityAnalysis' on page 84 undefined on input lin
-e 13.
-
-
-LaTeX Warning: Reference `sec:APAGapCrossing' on page 84 undefined on input lin
-e 13.
-
-
-LaTeX Warning: Reference `sec:APACrossing' on page 84 undefined on input line 1
-3.
-
-
-LaTeX Warning: Reference `sec:ShowerData' on page 84 undefined on input line 13
-.
-
-
-LaTeX Warning: Reference `sec:35tonDataSummary' on page 84 undefined on input l
-ine 13.
-
-
-LaTeX Warning: Reference `fig:DataRMS' on page 84 undefined on input line 23.
-
-
-./35tonAnalysis/35tonAnalysis.tex:26: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.26   \centering
-                 
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-<35tonAnalysis/Figs/DataRMSGood.pdf, id=31, 492.89969pt x 360.95543pt>
+<35tonAnalysis/Figs/DataRMSGood.pdf, id=981, 492.89969pt x 360.95543pt>
 File: 35tonAnalysis/Figs/DataRMSGood.pdf Graphic file (type pdf)
 <use 35tonAnalysis/Figs/DataRMSGood.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/DataRMSGood.pdf used on input line 
 29.
 (pdftex.def)             Requested size: 187.01274pt x 136.94968pt.
-<35tonAnalysis/Figs/DataRMSBad.pdf, id=32, 492.25835pt x 358.09985pt>
+<35tonAnalysis/Figs/DataRMSBad.pdf, id=982, 492.25835pt x 358.09985pt>
 File: 35tonAnalysis/Figs/DataRMSBad.pdf Graphic file (type pdf)
 <use 35tonAnalysis/Figs/DataRMSBad.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/DataRMSBad.pdf used on input line 3
 6.
 (pdftex.def)             Requested size: 187.01274pt x 136.04657pt.
-
-LaTeX Warning: Reference `fig:DataRMSGoodRun' on page 84 undefined on input lin
-e 40.
-
-
-LaTeX Warning: Reference `fig:DataRMSBadRun' on page 84 undefined on input line
- 40.
-
-
-LaTeX Warning: Reference `fig:DataRMSGoodRun' on page 84 undefined on input lin
-e 40.
-
-
-LaTeX Warning: Reference `fig:DataRMSBadRun' on page 84 undefined on input line
- 40.
-
-
-LaTeX Warning: Reference `fig:StuckBitInterpolation' on page 84 undefined on in
-put line 51.
-
-
-LaTeX Warning: Reference `fig:StuckBitWaveform' on page 84 undefined on input l
-ine 51.
-
-
-./35tonAnalysis/35tonAnalysis.tex:54: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54   \centering
-                 
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-<35tonAnalysis/Figs/stuckbitsremoval.png, id=34, 508.90125pt x 488.82625pt>
+[85] [86 <./35tonAnalysis/Figs/DataRMSGood.pdf> <./35tonAnalysis/Figs/DataRMSBa
+d.pdf>] <35tonAnalysis/Figs/stuckbitsremoval.png, id=1038, 508.90125pt x 488.82
+625pt>
 File: 35tonAnalysis/Figs/stuckbitsremoval.png Graphic file (type png)
 <use 35tonAnalysis/Figs/stuckbitsremoval.png>
 Package pdftex.def Info: 35tonAnalysis/Figs/stuckbitsremoval.png used on input 
 line 55.
 (pdftex.def)             Requested size: 227.62204pt x 218.64209pt.
-
-./35tonAnalysis/35tonAnalysis.tex:61: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.61   \centering
-                 
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/raw_stuck.eps>
 (epstopdf)                    date: 2017-02-09 10:56:38
 (epstopdf)                    size: 33298 bytes
@@ -1597,8 +1767,8 @@ ck-eps-converted-to.pdf 35tonAnalysis/Figs/raw_stuck.eps>
 (epstopdf)             \includegraphics on input line 64.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/raw_stuck-eps-converted-to.pdf, id=36, 569.12625pt x 265.99
-374pt>
+<35tonAnalysis/Figs/raw_stuck-eps-converted-to.pdf, id=1039, 569.12625pt x 265.
+99374pt>
 File: 35tonAnalysis/Figs/raw_stuck-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 35tonAnalysis/Figs/raw_stuck-eps-converted-to.pdf>
@@ -1617,30 +1787,14 @@ tuck-eps-converted-to.pdf 35tonAnalysis/Figs/raw_unstuck.eps>
 (epstopdf)             \includegraphics on input line 71.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/raw_unstuck-eps-converted-to.pdf, id=37, 569.12625pt x 265.
-99374pt>
+<35tonAnalysis/Figs/raw_unstuck-eps-converted-to.pdf, id=1040, 569.12625pt x 26
+5.99374pt>
 File: 35tonAnalysis/Figs/raw_unstuck-eps-converted-to.pdf Graphic file (type pd
 f)
 <use 35tonAnalysis/Figs/raw_unstuck-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/raw_unstuck-eps-converted-to.pdf us
 ed on input line 71.
 (pdftex.def)             Requested size: 209.97946pt x 98.14014pt.
-
-LaTeX Warning: Reference `fig:CoherentNoiseRemoval' on page 84 undefined on inp
-ut line 79.
-
-
-./35tonAnalysis/35tonAnalysis.tex:82: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.82   \centering
-                 
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/raw_noise.eps>
 (epstopdf)                    date: 2017-02-09 10:53:37
 (epstopdf)                    size: 16843 bytes
@@ -1653,8 +1807,8 @@ se-eps-converted-to.pdf 35tonAnalysis/Figs/raw_noise.eps>
 (epstopdf)             \includegraphics on input line 85.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/raw_noise-eps-converted-to.pdf, id=38, 569.12625pt x 265.99
-374pt>
+<35tonAnalysis/Figs/raw_noise-eps-converted-to.pdf, id=1042, 569.12625pt x 265.
+99374pt>
 File: 35tonAnalysis/Figs/raw_noise-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 35tonAnalysis/Figs/raw_noise-eps-converted-to.pdf>
@@ -1673,46 +1827,18 @@ oise-eps-converted-to.pdf 35tonAnalysis/Figs/raw_nonoise.eps>
 (epstopdf)             \includegraphics on input line 92.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/raw_nonoise-eps-converted-to.pdf, id=39, 569.12625pt x 265.
-99374pt>
+<35tonAnalysis/Figs/raw_nonoise-eps-converted-to.pdf, id=1043, 569.12625pt x 26
+5.99374pt>
 File: 35tonAnalysis/Figs/raw_nonoise-eps-converted-to.pdf Graphic file (type pd
 f)
 <use 35tonAnalysis/Figs/raw_nonoise-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/raw_nonoise-eps-converted-to.pdf us
 ed on input line 92.
 (pdftex.def)             Requested size: 209.97946pt x 98.14014pt.
-
-LaTeX Warning: Reference `sec:ImprovingDataQuality' on page 84 undefined on inp
-ut line 103.
-
-
-LaTeX Warning: Reference `fig:TrackSelection' on page 84 undefined on input lin
-e 107.
-
-
-LaTeX Warning: Reference `fig:TrackSelectionBefore' on page 84 undefined on inp
-ut line 107.
-
-
-LaTeX Warning: Reference `fig:TrackSelectionCounterShadow' on page 84 undefined
- on input line 107.
-
-
-LaTeX Warning: Reference `fig:TrackSelectionFinal' on page 84 undefined on inpu
-t line 107.
-
-
-./35tonAnalysis/35tonAnalysis.tex:110: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.110   \centering
-                  
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+[87 <./35tonAnalysis/Figs/stuckbitsremoval.png>] [88 <./35tonAnalysis/Figs/raw_
+stuck-eps-converted-to.pdf> <./35tonAnalysis/Figs/raw_unstuck-eps-converted-to.
+pdf> <./35tonAnalysis/Figs/raw_noise-eps-converted-to.pdf> <./35tonAnalysis/Fig
+s/raw_nonoise-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/hitselection_all.eps>
 (epstopdf)                    date: 2017-02-09 15:35:15
 (epstopdf)                    size: 21772 bytes
@@ -1725,8 +1851,8 @@ ction_all-eps-converted-to.pdf 35tonAnalysis/Figs/hitselection_all.eps>
 (epstopdf)             \includegraphics on input line 113.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/hitselection_all-eps-converted-to.pdf, id=40, 569.12625pt x
- 408.52625pt>
+<35tonAnalysis/Figs/hitselection_all-eps-converted-to.pdf, id=1084, 569.12625pt
+ x 408.52625pt>
 File: 35tonAnalysis/Figs/hitselection_all-eps-converted-to.pdf Graphic file (ty
 pe pdf)
 <use 35tonAnalysis/Figs/hitselection_all-eps-converted-to.pdf>
@@ -1746,8 +1872,8 @@ ction_shadow-eps-converted-to.pdf 35tonAnalysis/Figs/hitselection_shadow.eps>
 (epstopdf)             \includegraphics on input line 120.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/hitselection_shadow-eps-converted-to.pdf, id=41, 569.12625p
-t x 408.52625pt>
+<35tonAnalysis/Figs/hitselection_shadow-eps-converted-to.pdf, id=1085, 569.1262
+5pt x 408.52625pt>
 File: 35tonAnalysis/Figs/hitselection_shadow-eps-converted-to.pdf Graphic file 
 (type pdf)
 <use 35tonAnalysis/Figs/hitselection_shadow-eps-converted-to.pdf>
@@ -1767,8 +1893,8 @@ ction_final-eps-converted-to.pdf 35tonAnalysis/Figs/hitselection_final.eps>
 (epstopdf)             \includegraphics on input line 127.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/hitselection_final-eps-converted-to.pdf, id=42, 569.12625pt
- x 408.52625pt>
+<35tonAnalysis/Figs/hitselection_final-eps-converted-to.pdf, id=1086, 569.12625
+pt x 408.52625pt>
 File: 35tonAnalysis/Figs/hitselection_final-eps-converted-to.pdf Graphic file (
 type pdf)
 <use 35tonAnalysis/Figs/hitselection_final-eps-converted-to.pdf>
@@ -1781,79 +1907,22 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 128.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 128.
+[89] [90 <./35tonAnalysis/Figs/hitselection_all-eps-converted-to.pdf> <./35tonA
+nalysis/Figs/hitselection_shadow-eps-converted-to.pdf> <./35tonAnalysis/Figs/hi
+tselection_final-eps-converted-to.pdf>]
 
-LaTeX Warning: Reference `fig:TrackSelectionFinal' on page 84 undefined on inpu
-t line 135.
-
-
-LaTeX Warning: Reference `sec:ReconstructingMuonTracks' on page 84 undefined on
- input line 142.
-
-
-LaTeX Warning: Reference `sec:LArPuritySingleTrack' on page 84 undefined on inp
-ut line 153.
-
-
-LaTeX Warning: Reference `sec:LArPurityMultipleTracks' on page 84 undefined on 
+LaTeX Warning: Reference `sec:LArPurityMultipleTracks' on page 91 undefined on 
 input line 153.
 
 
-LaTeX Warning: Reference `fig:evd_crossing' on page 84 undefined on input line 
-160.
-
-
-LaTeX Warning: Reference `fig:APAGapCrosser' on page 84 undefined on input line
- 160.
-
-
-./35tonAnalysis/35tonAnalysis.tex:163: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.163   \centering
-                  
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-<35tonAnalysis/Figs/evd_run14249_subrun1_event4492.png, id=44, 1601.985pt x 177
-8.645pt>
+<35tonAnalysis/Figs/evd_run14249_subrun1_event4492.png, id=1133, 1601.985pt x 1
+778.645pt>
 File: 35tonAnalysis/Figs/evd_run14249_subrun1_event4492.png Graphic file (type 
 png)
 <use 35tonAnalysis/Figs/evd_run14249_subrun1_event4492.png>
 Package pdftex.def Info: 35tonAnalysis/Figs/evd_run14249_subrun1_event4492.png 
 used on input line 164.
 (pdftex.def)             Requested size: 341.43306pt x 379.06302pt.
-
-LaTeX Warning: Reference `sec:APAGapCrossing' on page 84 undefined on input lin
-e 165.
-
-
-LaTeX Warning: Reference `sec:APACrossing' on page 84 undefined on input line 1
-65.
-
-
-LaTeX Warning: Reference `sec:APAGapCrossing' on page 84 undefined on input lin
-e 165.
-
-
-LaTeX Warning: Reference `sec:APACrossing' on page 84 undefined on input line 1
-65.
-
-
-./35tonAnalysis/35tonAnalysis.tex:170: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.170   \centering
-                  
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/apa_gap.eps>
 (epstopdf)                    date: 2017-03-15 10:15:33
 (epstopdf)                    size: 22885 bytes
@@ -1866,37 +1935,14 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 171.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/apa_gap-eps-converted-to.pdf, id=45, 388.45125pt x 262.9825
-pt>
+<35tonAnalysis/Figs/apa_gap-eps-converted-to.pdf, id=1138, 388.45125pt x 262.98
+25pt>
 File: 35tonAnalysis/Figs/apa_gap-eps-converted-to.pdf Graphic file (type pdf)
 <use 35tonAnalysis/Figs/apa_gap-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/apa_gap-eps-converted-to.pdf used o
 n input line 171.
 (pdftex.def)             Requested size: 227.62204pt x 154.10295pt.
-
-LaTeX Warning: Reference `sec:APAGapOffsets' on page 84 undefined on input line
- 176.
-
-
-LaTeX Warning: Reference `sec:APAGapCharge' on page 84 undefined on input line 
-176.
-
-
-LaTeX Warning: Reference `fig:APAGapZOffset' on page 84 undefined on input line
- 181.
-
-
-./35tonAnalysis/35tonAnalysis.tex:188: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.188   \centering
-                  
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+[91] [92 <./35tonAnalysis/Figs/evd_run14249_subrun1_event4492.png>]
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/apa_gap_zoffset.eps>
 (epstopdf)                    date: 2017-03-15 10:15:33
 (epstopdf)                    size: 22990 bytes
@@ -1909,8 +1955,8 @@ _zoffset-eps-converted-to.pdf 35tonAnalysis/Figs/apa_gap_zoffset.eps>
 (epstopdf)             \includegraphics on input line 191.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/apa_gap_zoffset-eps-converted-to.pdf, id=46, 388.45125pt x 
-264.99pt>
+<35tonAnalysis/Figs/apa_gap_zoffset-eps-converted-to.pdf, id=1157, 388.45125pt 
+x 264.99pt>
 File: 35tonAnalysis/Figs/apa_gap_zoffset-eps-converted-to.pdf Graphic file (typ
 e pdf)
 <use 35tonAnalysis/Figs/apa_gap_zoffset-eps-converted-to.pdf>
@@ -1930,46 +1976,14 @@ _zoffset_fix-eps-converted-to.pdf 35tonAnalysis/Figs/apa_gap_zoffset_fix.eps>
 (epstopdf)             \includegraphics on input line 198.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/apa_gap_zoffset_fix-eps-converted-to.pdf, id=47, 417.56pt x
- 264.99pt>
+<35tonAnalysis/Figs/apa_gap_zoffset_fix-eps-converted-to.pdf, id=1158, 417.56pt
+ x 264.99pt>
 File: 35tonAnalysis/Figs/apa_gap_zoffset_fix-eps-converted-to.pdf Graphic file 
 (type pdf)
 <use 35tonAnalysis/Figs/apa_gap_zoffset_fix-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/apa_gap_zoffset_fix-eps-converted-t
 o.pdf used on input line 198.
 (pdftex.def)             Requested size: 205.77896pt x 130.59427pt.
-
-LaTeX Warning: Reference `fig:APAGapZOffsetUncorrected' on page 84 undefined on
- input line 202.
-
-
-LaTeX Warning: Reference `fig:APAGapZOffsetCorrected' on page 84 undefined on i
-nput line 202.
-
-
-LaTeX Warning: Reference `fig:APAGapZOffsetUncorrected' on page 84 undefined on
- input line 202.
-
-
-LaTeX Warning: Reference `fig:APAGapZOffsetCorrected' on page 84 undefined on i
-nput line 202.
-
-
-LaTeX Warning: Reference `fig:APAGapCrossingGaps' on page 84 undefined on input
- line 206.
-
-
-./35tonAnalysis/35tonAnalysis.tex:209: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.209   \centering
-                  
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/APAGapCrossingGaps.eps>
 
 (epstopdf)                    date: 2017-04-18 16:59:00
@@ -1983,33 +1997,21 @@ rossingGaps-eps-converted-to.pdf 35tonAnalysis/Figs/APAGapCrossingGaps.eps>
 (epstopdf)             \includegraphics on input line 210.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/APAGapCrossingGaps-eps-converted-to.pdf, id=48, 555.07375pt
- x 414.54875pt>
+<35tonAnalysis/Figs/APAGapCrossingGaps-eps-converted-to.pdf, id=1164, 555.07375
+pt x 414.54875pt>
 File: 35tonAnalysis/Figs/APAGapCrossingGaps-eps-converted-to.pdf Graphic file (
 type pdf)
 <use 35tonAnalysis/Figs/APAGapCrossingGaps-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/APAGapCrossingGaps-eps-converted-to
 .pdf used on input line 210.
 (pdftex.def)             Requested size: 341.43306pt x 254.99341pt.
+[93 <./35tonAnalysis/Figs/apa_gap-eps-converted-to.pdf>] [94 <./35tonAnalysis/F
+igs/apa_gap_zoffset-eps-converted-to.pdf> <./35tonAnalysis/Figs/apa_gap_zoffset
+_fix-eps-converted-to.pdf> <./35tonAnalysis/Figs/APAGapCrossingGaps-eps-convert
+ed-to.pdf>]
 
-LaTeX Warning: Reference `fig:35tonCounters' on page 84 undefined on input line
+LaTeX Warning: Reference `fig:35tonCounters' on page 95 undefined on input line
  220.
-
-
-LaTeX Warning: Reference `fig:TPC5TPC7XOffsetZOffset' on page 84 undefined on i
-nput line 226.
-
-
-./35tonAnalysis/35tonAnalysis.tex:229: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.229   \centering
-                  
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/TPC5TPC7Gap.eps>
 (epstopdf)                    date: 2017-03-30 13:09:32
@@ -2023,8 +2025,8 @@ ed-to.pdf>
 (epstopdf)             \includegraphics on input line 232.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/TPC5TPC7Gap-eps-converted-to.pdf, id=49, 569.12625pt x 409.
-53pt>
+<35tonAnalysis/Figs/TPC5TPC7Gap-eps-converted-to.pdf, id=1200, 569.12625pt x 40
+9.53pt>
 File: 35tonAnalysis/Figs/TPC5TPC7Gap-eps-converted-to.pdf Graphic file (type pd
 f)
 <use 35tonAnalysis/Figs/TPC5TPC7Gap-eps-converted-to.pdf>
@@ -2043,42 +2045,14 @@ nverted-to.pdf>
 (epstopdf)             \includegraphics on input line 239.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/TPC5TPC7GapAngle-eps-converted-to.pdf, id=50, 569.12625pt x
- 409.53pt>
+<35tonAnalysis/Figs/TPC5TPC7GapAngle-eps-converted-to.pdf, id=1201, 569.12625pt
+ x 409.53pt>
 File: 35tonAnalysis/Figs/TPC5TPC7GapAngle-eps-converted-to.pdf Graphic file (ty
 pe pdf)
 <use 35tonAnalysis/Figs/TPC5TPC7GapAngle-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/TPC5TPC7GapAngle-eps-converted-to.p
 df used on input line 239.
 (pdftex.def)             Requested size: 341.43306pt x 245.69489pt.
-
-LaTeX Warning: Reference `fig:TPC5TPC7Gap' on page 84 undefined on input line 2
-43.
-
-
-LaTeX Warning: Reference `fig:TPC5TPC7Gap' on page 84 undefined on input line 2
-43.
-
-
-LaTeX Warning: Reference `fig:APAGapXOffset' on page 84 undefined on input line
- 247.
-
-
-LaTeX Warning: Reference `fig:APAGapMC' on page 84 undefined on input line 247.
-
-
-
-./35tonAnalysis/35tonAnalysis.tex:250: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.250   \centering
-                  
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/apa_gap_xoffset_pos.eps
 >
 (epstopdf)                    date: 2017-03-15 10:15:33
@@ -2092,8 +2066,8 @@ _xoffset_pos-eps-converted-to.pdf 35tonAnalysis/Figs/apa_gap_xoffset_pos.eps>
 (epstopdf)             \includegraphics on input line 253.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/apa_gap_xoffset_pos-eps-converted-to.pdf, id=51, 455.7025pt
- x 262.9825pt>
+<35tonAnalysis/Figs/apa_gap_xoffset_pos-eps-converted-to.pdf, id=1206, 455.7025
+pt x 262.9825pt>
 File: 35tonAnalysis/Figs/apa_gap_xoffset_pos-eps-converted-to.pdf Graphic file 
 (type pdf)
 <use 35tonAnalysis/Figs/apa_gap_xoffset_pos-eps-converted-to.pdf>
@@ -2113,8 +2087,8 @@ _xoffset_neg-eps-converted-to.pdf 35tonAnalysis/Figs/apa_gap_xoffset_neg.eps>
 (epstopdf)             \includegraphics on input line 260.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/apa_gap_xoffset_neg-eps-converted-to.pdf, id=52, 455.7025pt
- x 264.99pt>
+<35tonAnalysis/Figs/apa_gap_xoffset_neg-eps-converted-to.pdf, id=1207, 455.7025
+pt x 264.99pt>
 File: 35tonAnalysis/Figs/apa_gap_xoffset_neg-eps-converted-to.pdf Graphic file 
 (type pdf)
 <use 35tonAnalysis/Figs/apa_gap_xoffset_neg-eps-converted-to.pdf>
@@ -2135,8 +2109,8 @@ x.eps>
 (epstopdf)             \includegraphics on input line 267.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/apa_gap_xoffset_pos_fix-eps-converted-to.pdf, id=53, 420.57
-124pt x 262.9825pt>
+<35tonAnalysis/Figs/apa_gap_xoffset_pos_fix-eps-converted-to.pdf, id=1208, 420.
+57124pt x 262.9825pt>
 File: 35tonAnalysis/Figs/apa_gap_xoffset_pos_fix-eps-converted-to.pdf Graphic f
 ile (type pdf)
 <use 35tonAnalysis/Figs/apa_gap_xoffset_pos_fix-eps-converted-to.pdf>
@@ -2157,82 +2131,14 @@ x.eps>
 (epstopdf)             \includegraphics on input line 274.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/apa_gap_xoffset_neg_fix-eps-converted-to.pdf, id=54, 471.76
-25pt x 264.99pt>
+<35tonAnalysis/Figs/apa_gap_xoffset_neg_fix-eps-converted-to.pdf, id=1209, 471.
+7625pt x 264.99pt>
 File: 35tonAnalysis/Figs/apa_gap_xoffset_neg_fix-eps-converted-to.pdf Graphic f
 ile (type pdf)
 <use 35tonAnalysis/Figs/apa_gap_xoffset_neg_fix-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/apa_gap_xoffset_neg_fix-eps-convert
 ed-to.pdf used on input line 274.
 (pdftex.def)             Requested size: 205.77896pt x 115.58914pt.
-
-LaTeX Warning: Reference `fig:TPC5TPC7XOffsetZOffset' on page 84 undefined on i
-nput line 278.
-
-
-LaTeX Warning: Reference `fig:APAGapXOffsetPos' on page 84 undefined on input l
-ine 278.
-
-
-LaTeX Warning: Reference `fig:APAGapXOffsetPosFix' on page 84 undefined on inpu
-t line 278.
-
-
-LaTeX Warning: Reference `fig:APAGapXOffsetNeg' on page 84 undefined on input l
-ine 278.
-
-
-LaTeX Warning: Reference `fig:APAGapXOffsetNegFix' on page 84 undefined on inpu
-t line 278.
-
-
-LaTeX Warning: Reference `fig:APAGapXOffsetPosFix' on page 84 undefined on inpu
-t line 278.
-
-
-LaTeX Warning: Reference `fig:APAGapXOffsetNegFix' on page 84 undefined on inpu
-t line 278.
-
-
-LaTeX Warning: Reference `fig:TPC5TPC7XOffsetZOffset' on page 84 undefined on i
-nput line 278.
-
-
-LaTeX Warning: Reference `fig:APAGapXOffsetPos' on page 84 undefined on input l
-ine 278.
-
-
-LaTeX Warning: Reference `fig:APAGapXOffsetPosFix' on page 84 undefined on inpu
-t line 278.
-
-
-LaTeX Warning: Reference `fig:APAGapXOffsetNeg' on page 84 undefined on input l
-ine 278.
-
-
-LaTeX Warning: Reference `fig:APAGapXOffsetNegFix' on page 84 undefined on inpu
-t line 278.
-
-
-LaTeX Warning: Reference `fig:APAGapXOffsetPosFix' on page 84 undefined on inpu
-t line 278.
-
-
-LaTeX Warning: Reference `fig:APAGapXOffsetNegFix' on page 84 undefined on inpu
-t line 278.
-
-
-./35tonAnalysis/35tonAnalysis.tex:283: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.283   \centering
-                  
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/TPC5TPC7MCZOffset.eps>
 (epstopdf)                    date: 2017-03-30 13:09:32
 (epstopdf)                    size: 10345 bytes
@@ -2245,8 +2151,8 @@ onverted-to.pdf>
 (epstopdf)             \includegraphics on input line 286.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/TPC5TPC7MCZOffset-eps-converted-to.pdf, id=55, 569.12625pt 
-x 409.53pt>
+<35tonAnalysis/Figs/TPC5TPC7MCZOffset-eps-converted-to.pdf, id=1224, 569.12625p
+t x 409.53pt>
 File: 35tonAnalysis/Figs/TPC5TPC7MCZOffset-eps-converted-to.pdf Graphic file (t
 ype pdf)
 <use 35tonAnalysis/Figs/TPC5TPC7MCZOffset-eps-converted-to.pdf>
@@ -2267,8 +2173,8 @@ set.eps>
 (epstopdf)             \includegraphics on input line 293.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOffset-eps-converted-to.pdf, id=56, 569.1
-2625pt x 409.53pt>
+<35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOffset-eps-converted-to.pdf, id=1225, 569
+.12625pt x 409.53pt>
 File: 35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOffset-eps-converted-to.pdf Graphic 
 file (type pdf)
 <use 35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOffset-eps-converted-to.pdf>
@@ -2289,58 +2195,14 @@ tZOffsetAngle.eps>
 (epstopdf)             \includegraphics on input line 300.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOffsetAngle-eps-converted-to.pdf, id=57, 
-569.12625pt x 409.53pt>
+<35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOffsetAngle-eps-converted-to.pdf, id=1226
+, 569.12625pt x 409.53pt>
 File: 35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOffsetAngle-eps-converted-to.pdf Gra
 phic file (type pdf)
 <use 35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOffsetAngle-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOffsetAngle-eps-c
 onverted-to.pdf used on input line 300.
 (pdftex.def)             Requested size: 214.35834pt x 154.24825pt.
-
-LaTeX Warning: Reference `fig:APAGapMCZOffset' on page 84 undefined on input li
-ne 304.
-
-
-LaTeX Warning: Reference `fig:APAGapMCXOffsetZOffset' on page 84 undefined on i
-nput line 304.
-
-
-LaTeX Warning: Reference `fig:APAGapMCXOffsetZOffsetAngle' on page 84 undefined
- on input line 304.
-
-
-LaTeX Warning: Reference `fig:TPC5TPC7XOffsetZOffset' on page 84 undefined on i
-nput line 304.
-
-
-LaTeX Warning: Reference `fig:APAGapMCZOffset' on page 84 undefined on input li
-ne 304.
-
-
-LaTeX Warning: Reference `fig:APAGapMCXOffsetZOffset' on page 84 undefined on i
-nput line 304.
-
-
-LaTeX Warning: Reference `fig:APAGapMCXOffsetZOffsetAngle' on page 84 undefined
- on input line 304.
-
-
-LaTeX Warning: Reference `fig:TPC5TPC7XOffsetZOffset' on page 84 undefined on i
-nput line 304.
-
-
-./35tonAnalysis/35tonAnalysis.tex:309: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.309   \centering
-                  
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/TPC5TPC7MCZOffset.eps>
 (epstopdf)                    date: 2017-03-30 13:09:32
 (epstopdf)                    size: 10345 bytes
@@ -2397,60 +2259,7 @@ Package pdftex.def Info: 35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOffsetAngle-eps-c
 onverted-to.pdf used on input line 326.
 (pdftex.def)             Requested size: 227.62204pt x 163.79034pt.
 
-LaTeX Warning: Reference `fig:APAGapMCZOffset' on page 84 undefined on input li
-ne 330.
-
-
-LaTeX Warning: Reference `fig:APAGapMCXOffsetZOffset' on page 84 undefined on i
-nput line 330.
-
-
-LaTeX Warning: Reference `fig:APAGapMCXOffsetZOffsetAngle' on page 84 undefined
- on input line 330.
-
-
-LaTeX Warning: Reference `fig:TPC5TPC7XOffsetZOffset' on page 84 undefined on i
-nput line 330.
-
-
-LaTeX Warning: Reference `fig:APAGapMCZOffset' on page 84 undefined on input li
-ne 330.
-
-
-LaTeX Warning: Reference `fig:APAGapMCXOffsetZOffset' on page 84 undefined on i
-nput line 330.
-
-
-LaTeX Warning: Reference `fig:APAGapMCXOffsetZOffsetAngle' on page 84 undefined
- on input line 330.
-
-
-LaTeX Warning: Reference `fig:TPC5TPC7XOffsetZOffset' on page 84 undefined on i
-nput line 330.
-
-
-LaTeX Warning: Reference `fig:APAGapMC' on page 84 undefined on input line 334.
-
-
-
-LaTeX Warning: Reference `fig:APAGapXOffsetZOffset' on page 84 undefined on inp
-ut line 334.
-
-
-LaTeX Warning: Reference `fig:TPC5TPC7GapFit' on page 84 undefined on input lin
-e 338.
-
-
-./35tonAnalysis/35tonAnalysis.tex:341: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.341   \centering
-                  
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+LaTeX Warning: Float too large for page by 29.88586pt on input line 332.
 
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/apa_gap_xoffset_zoffset
 _pos.eps>
@@ -2466,8 +2275,8 @@ ffset_pos.eps>
 (epstopdf)             \includegraphics on input line 344.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/apa_gap_xoffset_zoffset_pos-eps-converted-to.pdf, id=58, 47
-1.7625pt x 301.125pt>
+<35tonAnalysis/Figs/apa_gap_xoffset_zoffset_pos-eps-converted-to.pdf, id=1246, 
+471.7625pt x 301.125pt>
 File: 35tonAnalysis/Figs/apa_gap_xoffset_zoffset_pos-eps-converted-to.pdf Graph
 ic file (type pdf)
 <use 35tonAnalysis/Figs/apa_gap_xoffset_zoffset_pos-eps-converted-to.pdf>
@@ -2488,8 +2297,8 @@ ffset_neg.eps>
 (epstopdf)             \includegraphics on input line 351.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/apa_gap_xoffset_zoffset_neg-eps-converted-to.pdf, id=59, 47
-1.7625pt x 314.17375pt>
+<35tonAnalysis/Figs/apa_gap_xoffset_zoffset_neg-eps-converted-to.pdf, id=1247, 
+471.7625pt x 314.17375pt>
 File: 35tonAnalysis/Figs/apa_gap_xoffset_zoffset_neg-eps-converted-to.pdf Graph
 ic file (type pdf)
 <use 35tonAnalysis/Figs/apa_gap_xoffset_zoffset_neg-eps-converted-to.pdf>
@@ -2510,8 +2319,8 @@ t_zoffset_pos_fix.eps>
 (epstopdf)             \includegraphics on input line 358.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/apa_gap_xoffset_zoffset_pos_fix-eps-converted-to.pdf, id=60
-, 426.59375pt x 301.125pt>
+<35tonAnalysis/Figs/apa_gap_xoffset_zoffset_pos_fix-eps-converted-to.pdf, id=12
+48, 426.59375pt x 301.125pt>
 File: 35tonAnalysis/Figs/apa_gap_xoffset_zoffset_pos_fix-eps-converted-to.pdf G
 raphic file (type pdf)
 <use 35tonAnalysis/Figs/apa_gap_xoffset_zoffset_pos_fix-eps-converted-to.pdf>
@@ -2532,34 +2341,14 @@ t_zoffset_neg_fix.eps>
 (epstopdf)             \includegraphics on input line 365.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/apa_gap_xoffset_zoffset_neg_fix-eps-converted-to.pdf, id=61
-, 484.81125pt x 314.17375pt>
+<35tonAnalysis/Figs/apa_gap_xoffset_zoffset_neg_fix-eps-converted-to.pdf, id=12
+49, 484.81125pt x 314.17375pt>
 File: 35tonAnalysis/Figs/apa_gap_xoffset_zoffset_neg_fix-eps-converted-to.pdf G
 raphic file (type pdf)
 <use 35tonAnalysis/Figs/apa_gap_xoffset_zoffset_neg_fix-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/apa_gap_xoffset_zoffset_neg_fix-eps
 -converted-to.pdf used on input line 365.
 (pdftex.def)             Requested size: 205.77896pt x 133.35188pt.
-
-LaTeX Warning: Reference `fig:APAGapMC' on page 84 undefined on input line 369.
-
-
-
-LaTeX Warning: Reference `fig:APAGapMC' on page 84 undefined on input line 369.
-
-
-
-./35tonAnalysis/35tonAnalysis.tex:374: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.374   \centering
-                  
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/TPC5TPC7GapFit.eps>
 (epstopdf)                    date: 2017-03-30 13:09:32
 (epstopdf)                    size: 11560 bytes
@@ -2572,34 +2361,14 @@ erted-to.pdf>
 (epstopdf)             \includegraphics on input line 375.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/TPC5TPC7GapFit-eps-converted-to.pdf, id=62, 569.12625pt x 4
-09.53pt>
+<35tonAnalysis/Figs/TPC5TPC7GapFit-eps-converted-to.pdf, id=1252, 569.12625pt x
+ 409.53pt>
 File: 35tonAnalysis/Figs/TPC5TPC7GapFit-eps-converted-to.pdf Graphic file (type
  pdf)
 <use 35tonAnalysis/Figs/TPC5TPC7GapFit-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/TPC5TPC7GapFit-eps-converted-to.pdf
  used on input line 375.
 (pdftex.def)             Requested size: 341.43306pt x 245.69489pt.
-
-LaTeX Warning: Reference `fig:TPC5TPC7XOff' on page 84 undefined on input line 
-380.
-
-
-LaTeX Warning: Reference `fig:TPC5TPC7ZOff' on page 84 undefined on input line 
-380.
-
-
-./35tonAnalysis/35tonAnalysis.tex:383: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.383   \centering
-                  
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/TPC5TPC7XOff.eps>
 (epstopdf)                    date: 2017-03-30 13:09:32
 (epstopdf)                    size: 10241 bytes
@@ -2612,34 +2381,14 @@ ted-to.pdf>
 (epstopdf)             \includegraphics on input line 384.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/TPC5TPC7XOff-eps-converted-to.pdf, id=63, 569.12625pt x 409
-.53pt>
+<35tonAnalysis/Figs/TPC5TPC7XOff-eps-converted-to.pdf, id=1255, 569.12625pt x 4
+09.53pt>
 File: 35tonAnalysis/Figs/TPC5TPC7XOff-eps-converted-to.pdf Graphic file (type p
 df)
 <use 35tonAnalysis/Figs/TPC5TPC7XOff-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/TPC5TPC7XOff-eps-converted-to.pdf u
 sed on input line 384.
 (pdftex.def)             Requested size: 341.43306pt x 245.69489pt.
-
-LaTeX Warning: Reference `fig:TPC5TPC7GapFit' on page 84 undefined on input lin
-e 385.
-
-
-LaTeX Warning: Reference `fig:TPC5TPC7GapFit' on page 84 undefined on input lin
-e 385.
-
-
-./35tonAnalysis/35tonAnalysis.tex:390: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.390   \centering
-                  
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/TPC5TPC7ZOff.eps>
 (epstopdf)                    date: 2017-03-30 13:09:32
 (epstopdf)                    size: 10541 bytes
@@ -2652,97 +2401,33 @@ ted-to.pdf>
 (epstopdf)             \includegraphics on input line 391.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/TPC5TPC7ZOff-eps-converted-to.pdf, id=64, 569.12625pt x 409
-.53pt>
+<35tonAnalysis/Figs/TPC5TPC7ZOff-eps-converted-to.pdf, id=1258, 569.12625pt x 4
+09.53pt>
 File: 35tonAnalysis/Figs/TPC5TPC7ZOff-eps-converted-to.pdf Graphic file (type p
 df)
 <use 35tonAnalysis/Figs/TPC5TPC7ZOff-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/TPC5TPC7ZOff-eps-converted-to.pdf u
 sed on input line 391.
 (pdftex.def)             Requested size: 341.43306pt x 245.69489pt.
-
-LaTeX Warning: Reference `fig:TPC5TPC7XOff' on page 84 undefined on input line 
-392.
-
-
-LaTeX Warning: Reference `fig:TPC5TPC7GapFit' on page 84 undefined on input lin
-e 392.
-
-
-LaTeX Warning: Reference `fig:TPC5TPC7XOff' on page 84 undefined on input line 
-392.
-
-
-LaTeX Warning: Reference `fig:TPC5TPC7GapFit' on page 84 undefined on input lin
-e 392.
-
-
-LaTeX Warning: Reference `sec:MeasuringAPAGaps' on page 84 undefined on input l
-ine 399.
-
-
-LaTeX Warning: Reference `tab:APAOffsets' on page 84 undefined on input line 39
-9.
-
-
-LaTeX Warning: Reference `tab:APAGaps' on page 84 undefined on input line 399.
-
-
-./35tonAnalysis/35tonAnalysis.tex:402: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.402   \centering
-                  
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Reference `sec:MeasuringAPAGaps' on page 84 undefined on input l
-ine 403.
-
-
-LaTeX Warning: Reference `sec:MeasuringAPAGaps' on page 84 undefined on input l
-ine 403.
-
-
+[95] [96 <./35tonAnalysis/Figs/TPC5TPC7Gap-eps-converted-to.pdf> <./35tonAnalys
+is/Figs/TPC5TPC7GapAngle-eps-converted-to.pdf>] [97 <./35tonAnalysis/Figs/apa_g
+ap_xoffset_pos-eps-converted-to.pdf> <./35tonAnalysis/Figs/apa_gap_xoffset_neg-
+eps-converted-to.pdf> <./35tonAnalysis/Figs/apa_gap_xoffset_pos_fix-eps-convert
+ed-to.pdf> <./35tonAnalysis/Figs/apa_gap_xoffset_neg_fix-eps-converted-to.pdf>]
+[98 <./35tonAnalysis/Figs/TPC5TPC7MCZOffset-eps-converted-to.pdf> <./35tonAnaly
+sis/Figs/TPC5TPC7MCXOffsetZOffset-eps-converted-to.pdf> <./35tonAnalysis/Figs/T
+PC5TPC7MCXOffsetZOffsetAngle-eps-converted-to.pdf>] [99] [100 <./35tonAnalysis/
+Figs/apa_gap_xoffset_zoffset_pos-eps-converted-to.pdf> <./35tonAnalysis/Figs/ap
+a_gap_xoffset_zoffset_neg-eps-converted-to.pdf> <./35tonAnalysis/Figs/apa_gap_x
+offset_zoffset_pos_fix-eps-converted-to.pdf> <./35tonAnalysis/Figs/apa_gap_xoff
+set_zoffset_neg_fix-eps-converted-to.pdf>] [101 <./35tonAnalysis/Figs/TPC5TPC7G
+apFit-eps-converted-to.pdf> <./35tonAnalysis/Figs/TPC5TPC7XOff-eps-converted-to
+.pdf>] [102 <./35tonAnalysis/Figs/TPC5TPC7ZOff-eps-converted-to.pdf>]
 Overfull \hbox (10.06442pt too wide) in paragraph at lines 406--417
  [][] 
  []
 
-
-LaTeX Warning: Reference `tab:APAOffsets' on page 84 undefined on input line 41
-7.
-
-
-LaTeX Warning: Reference `tab:APAOffsets' on page 84 undefined on input line 41
-7.
-
-
-LaTeX Warning: Reference `fig:HitGapDistance' on page 84 undefined on input lin
-e 457.
-
-
-LaTeX Warning: Reference `fig:ChargeHit' on page 84 undefined on input line 457
-.
-
-
-LaTeX Warning: Reference `fig:evd_gap' on page 84 undefined on input line 457.
-
-
-./35tonAnalysis/35tonAnalysis.tex:460: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.460   \centering
-                  
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+[103] [104]
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/HitGapDistance.eps>
 (epstopdf)                    date: 2017-04-19 16:05:59
 (epstopdf)                    size: 7363 bytes
@@ -2755,8 +2440,8 @@ istance-eps-converted-to.pdf 35tonAnalysis/Figs/HitGapDistance.eps>
 (epstopdf)             \includegraphics on input line 461.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/HitGapDistance-eps-converted-to.pdf, id=65, 569.12625pt x 4
-09.53pt>
+<35tonAnalysis/Figs/HitGapDistance-eps-converted-to.pdf, id=1476, 569.12625pt x
+ 409.53pt>
 File: 35tonAnalysis/Figs/HitGapDistance-eps-converted-to.pdf Graphic file (type
  pdf)
 <use 35tonAnalysis/Figs/HitGapDistance-eps-converted-to.pdf>
@@ -2775,76 +2460,22 @@ it-eps-converted-to.pdf 35tonAnalysis/Figs/ChargeHit.eps>
 (epstopdf)             \includegraphics on input line 465.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/ChargeHit-eps-converted-to.pdf, id=66, 569.12625pt x 409.53
-pt>
+<35tonAnalysis/Figs/ChargeHit-eps-converted-to.pdf, id=1477, 569.12625pt x 409.
+53pt>
 File: 35tonAnalysis/Figs/ChargeHit-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 35tonAnalysis/Figs/ChargeHit-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/ChargeHit-eps-converted-to.pdf used
  on input line 465.
 (pdftex.def)             Requested size: 341.43306pt x 245.69489pt.
-
-./35tonAnalysis/35tonAnalysis.tex:471: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.471   \centering
-                  
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-<35tonAnalysis/Figs/evd_gap.pdf, id=67, 532.64357pt x 269.13377pt>
+<35tonAnalysis/Figs/evd_gap.pdf, id=1478, 532.64357pt x 269.13377pt>
 File: 35tonAnalysis/Figs/evd_gap.pdf Graphic file (type pdf)
 <use 35tonAnalysis/Figs/evd_gap.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/evd_gap.pdf used on input line 472.
 
 (pdftex.def)             Requested size: 341.43306pt x 172.52428pt.
-
-LaTeX Warning: Reference `sec:APACrossingT0' on page 84 undefined on input line
- 482.
-
-
-LaTeX Warning: Reference `sec:APACrossingCharge' on page 84 undefined on input 
-line 482.
-
-
-LaTeX Warning: Reference `sec:APACrossingDriftComparison' on page 84 undefined 
-on input line 482.
-
-
-LaTeX Warning: Reference `fig:evd_crossing' on page 84 undefined on input line 
-491.
-
-
-LaTeX Warning: Reference `fig:APACrossingAlignmentLeastSq' on page 84 undefined
- on input line 496.
-
-
-LaTeX Warning: Reference `fig:APACrossingAlignmentSeparation' on page 84 undefi
-ned on input line 496.
-
-
-LaTeX Warning: Reference `fig:APACrossingAlignmentLeastSqMin' on page 84 undefi
-ned on input line 496.
-
-
-LaTeX Warning: Reference `fig:APACrossingAlignmentSeparationMin' on page 84 und
-efined on input line 496.
-
-
-./35tonAnalysis/35tonAnalysis.tex:499: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.499   \centering
-                  
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+[105] [106 <./35tonAnalysis/Figs/HitGapDistance-eps-converted-to.pdf> <./35tonA
+nalysis/Figs/ChargeHit-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/track_residual.eps>
 (epstopdf)                    date: 2017-02-10 10:14:43
 (epstopdf)                    size: 12870 bytes
@@ -2857,8 +2488,8 @@ esidual-eps-converted-to.pdf 35tonAnalysis/Figs/track_residual.eps>
 (epstopdf)             \includegraphics on input line 502.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/track_residual-eps-converted-to.pdf, id=69, 319.1925pt x 22
-9.85875pt>
+<35tonAnalysis/Figs/track_residual-eps-converted-to.pdf, id=1519, 319.1925pt x 
+229.85875pt>
 File: 35tonAnalysis/Figs/track_residual-eps-converted-to.pdf Graphic file (type
  pdf)
 <use 35tonAnalysis/Figs/track_residual-eps-converted-to.pdf>
@@ -2877,8 +2508,8 @@ re-eps-converted-to.pdf 35tonAnalysis/Figs/chisquare.eps>
 (epstopdf)             \includegraphics on input line 509.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/chisquare-eps-converted-to.pdf, id=70, 569.12625pt x 385.44
-pt>
+<35tonAnalysis/Figs/chisquare-eps-converted-to.pdf, id=1520, 569.12625pt x 385.
+44pt>
 File: 35tonAnalysis/Figs/chisquare-eps-converted-to.pdf Graphic file (type pdf)
 
 <use 35tonAnalysis/Figs/chisquare-eps-converted-to.pdf>
@@ -2897,8 +2528,8 @@ eparation-eps-converted-to.pdf 35tonAnalysis/Figs/track_separation.eps>
 (epstopdf)             \includegraphics on input line 520.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/track_separation-eps-converted-to.pdf, id=71, 318.18875pt x
- 192.72pt>
+<35tonAnalysis/Figs/track_separation-eps-converted-to.pdf, id=1521, 318.18875pt
+ x 192.72pt>
 File: 35tonAnalysis/Figs/track_separation-eps-converted-to.pdf Graphic file (ty
 pe pdf)
 <use 35tonAnalysis/Figs/track_separation-eps-converted-to.pdf>
@@ -2917,46 +2548,15 @@ ion-eps-converted-to.pdf 35tonAnalysis/Figs/separation.eps>
 (epstopdf)             \includegraphics on input line 527.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/separation-eps-converted-to.pdf, id=72, 569.12625pt x 385.4
-4pt>
+<35tonAnalysis/Figs/separation-eps-converted-to.pdf, id=1522, 569.12625pt x 385
+.44pt>
 File: 35tonAnalysis/Figs/separation-eps-converted-to.pdf Graphic file (type pdf
 )
 <use 35tonAnalysis/Figs/separation-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/separation-eps-converted-to.pdf use
 d on input line 527.
 (pdftex.def)             Requested size: 209.97946pt x 142.21063pt.
-
-LaTeX Warning: Reference `fig:TPCCounterT0DifferenceMC' on page 84 undefined on
- input line 535.
-
-
-LaTeX Warning: Reference `fig:TPCCounterT0DifferenceData' on page 84 undefined 
-on input line 535.
-
-
-LaTeX Warning: Reference `fig:TPCCounterT0DifferenceDataResidual' on page 84 un
-defined on input line 535.
-
-
-LaTeX Warning: Reference `fig:TPCCounterT0Correction' on page 84 undefined on i
-nput line 535.
-
-
-LaTeX Warning: Reference `fig:TPCCounterT0Difference' on page 84 undefined on i
-nput line 535.
-
-
-./35tonAnalysis/35tonAnalysis.tex:538: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.538   \centering
-                  
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+[107 <./35tonAnalysis/Figs/evd_gap.pdf>]
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/TPCCounterT0DifferenceM
 C.eps>
 (epstopdf)                    date: 2017-04-06 16:39:41
@@ -2971,8 +2571,8 @@ eMC.eps>
 (epstopdf)             \includegraphics on input line 541.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/TPCCounterT0DifferenceMC-eps-converted-to.pdf, id=73, 569.1
-2625pt x 409.53pt>
+<35tonAnalysis/Figs/TPCCounterT0DifferenceMC-eps-converted-to.pdf, id=1555, 569
+.12625pt x 409.53pt>
 File: 35tonAnalysis/Figs/TPCCounterT0DifferenceMC-eps-converted-to.pdf Graphic 
 file (type pdf)
 <use 35tonAnalysis/Figs/TPCCounterT0DifferenceMC-eps-converted-to.pdf>
@@ -2993,8 +2593,8 @@ nceData.eps>
 (epstopdf)             \includegraphics on input line 548.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/TPCCounterT0DifferenceData-eps-converted-to.pdf, id=74, 569
-.12625pt x 409.53pt>
+<35tonAnalysis/Figs/TPCCounterT0DifferenceData-eps-converted-to.pdf, id=1556, 5
+69.12625pt x 409.53pt>
 File: 35tonAnalysis/Figs/TPCCounterT0DifferenceData-eps-converted-to.pdf Graphi
 c file (type pdf)
 <use 35tonAnalysis/Figs/TPCCounterT0DifferenceData-eps-converted-to.pdf>
@@ -3016,7 +2616,7 @@ terT0DifferenceDataResidual-eps-converted-to.pdf 35tonAnalysis/Figs/TPCCounterT
 Package epstopdf Info: Output file is already uptodate.
 
 <35tonAnalysis/Figs/TPCCounterT0DifferenceDataResidual-eps-converted-to.pdf, id
-=75, 569.12625pt x 409.53pt>
+=1557, 569.12625pt x 409.53pt>
 File: 35tonAnalysis/Figs/TPCCounterT0DifferenceDataResidual-eps-converted-to.pd
 f Graphic file (type pdf)
 
@@ -3025,42 +2625,6 @@ f Graphic file (type pdf)
 Package pdftex.def Info: 35tonAnalysis/Figs/TPCCounterT0DifferenceDataResidual-
 eps-converted-to.pdf used on input line 555.
 (pdftex.def)             Requested size: 205.77896pt x 148.07431pt.
-
-LaTeX Warning: Reference `fig:TPCCounterT0DifferenceMC' on page 84 undefined on
- input line 559.
-
-
-LaTeX Warning: Reference `fig:TPCCounterT0DifferenceData' on page 84 undefined 
-on input line 559.
-
-
-LaTeX Warning: Reference `fig:TPCCounterT0DifferenceDataResidual' on page 84 un
-defined on input line 559.
-
-
-LaTeX Warning: Reference `fig:TPCCounterT0DifferenceMC' on page 84 undefined on
- input line 559.
-
-
-LaTeX Warning: Reference `fig:TPCCounterT0DifferenceData' on page 84 undefined 
-on input line 559.
-
-
-LaTeX Warning: Reference `fig:TPCCounterT0DifferenceDataResidual' on page 84 un
-defined on input line 559.
-
-
-./35tonAnalysis/35tonAnalysis.tex:564: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.564   \centering
-                  
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/t0correction_before.eps
 >
 (epstopdf)                    date: 2017-02-13 13:02:03
@@ -3074,8 +2638,8 @@ ction_before-eps-converted-to.pdf 35tonAnalysis/Figs/t0correction_before.eps>
 (epstopdf)             \includegraphics on input line 567.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/t0correction_before-eps-converted-to.pdf, id=76, 569.12625p
-t x 408.52625pt>
+<35tonAnalysis/Figs/t0correction_before-eps-converted-to.pdf, id=1564, 569.1262
+5pt x 408.52625pt>
 File: 35tonAnalysis/Figs/t0correction_before-eps-converted-to.pdf Graphic file 
 (type pdf)
 <use 35tonAnalysis/Figs/t0correction_before-eps-converted-to.pdf>
@@ -3095,62 +2659,14 @@ ction_after-eps-converted-to.pdf 35tonAnalysis/Figs/t0correction_after.eps>
 (epstopdf)             \includegraphics on input line 574.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/t0correction_after-eps-converted-to.pdf, id=77, 569.12625pt
- x 408.52625pt>
+<35tonAnalysis/Figs/t0correction_after-eps-converted-to.pdf, id=1565, 569.12625
+pt x 408.52625pt>
 File: 35tonAnalysis/Figs/t0correction_after-eps-converted-to.pdf Graphic file (
 type pdf)
 <use 35tonAnalysis/Figs/t0correction_after-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/t0correction_after-eps-converted-to
 .pdf used on input line 574.
 (pdftex.def)             Requested size: 209.97946pt x 150.72845pt.
-
-LaTeX Warning: Reference `fig:TPCCounterT0CorrectionCounter' on page 84 undefin
-ed on input line 578.
-
-
-LaTeX Warning: Reference `fig:TPCCounterT0CorrectionTPC' on page 84 undefined o
-n input line 578.
-
-
-LaTeX Warning: Reference `fig:APACrossingAlignmentLeastSqMin' on page 84 undefi
-ned on input line 578.
-
-
-LaTeX Warning: Reference `fig:APACrossingAlignmentSeparationMin' on page 84 und
-efined on input line 578.
-
-
-LaTeX Warning: Reference `fig:TPCCounterT0CorrectionCounter' on page 84 undefin
-ed on input line 578.
-
-
-LaTeX Warning: Reference `fig:TPCCounterT0CorrectionTPC' on page 84 undefined o
-n input line 578.
-
-
-LaTeX Warning: Reference `fig:APACrossingAlignmentLeastSqMin' on page 84 undefi
-ned on input line 578.
-
-
-LaTeX Warning: Reference `fig:APACrossingAlignmentSeparationMin' on page 84 und
-efined on input line 578.
-
-
-LaTeX Warning: Reference `fig:TrackMisalignment' on page 84 undefined on input 
-line 588.
-
-
-./35tonAnalysis/35tonAnalysis.tex:591: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.591   \centering
-                  
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/misalign_track_geo.eps>
 
 (epstopdf)                    date: 2017-02-14 10:05:50
@@ -3164,34 +2680,14 @@ n_track_geo-eps-converted-to.pdf 35tonAnalysis/Figs/misalign_track_geo.eps>
 (epstopdf)             \includegraphics on input line 592.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/misalign_track_geo-eps-converted-to.pdf, id=78, 314.17375pt
- x 192.72pt>
+<35tonAnalysis/Figs/misalign_track_geo-eps-converted-to.pdf, id=1575, 314.17375
+pt x 192.72pt>
 File: 35tonAnalysis/Figs/misalign_track_geo-eps-converted-to.pdf Graphic file (
 type pdf)
 <use 35tonAnalysis/Figs/misalign_track_geo-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/misalign_track_geo-eps-converted-to
 .pdf used on input line 592.
 (pdftex.def)             Requested size: 227.62204pt x 139.62578pt.
-
-LaTeX Warning: Reference `fig:TrackMisalignmentCollectionSpacingGeo' on page 84
- undefined on input line 599.
-
-
-LaTeX Warning: Reference `fig:TrackMisalignmentCollectionSpacingRes' on page 84
- undefined on input line 599.
-
-
-./35tonAnalysis/35tonAnalysis.tex:602: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.602   \centering
-                  
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/misalign_track_collecti
 on_geo.eps>
 (epstopdf)                    date: 2017-02-14 10:34:49
@@ -3206,8 +2702,8 @@ ollection_geo.eps>
 (epstopdf)             \includegraphics on input line 605.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/misalign_track_collection_geo-eps-converted-to.pdf, id=79, 
-354.32375pt x 191.71625pt>
+<35tonAnalysis/Figs/misalign_track_collection_geo-eps-converted-to.pdf, id=1578
+, 354.32375pt x 191.71625pt>
 File: 35tonAnalysis/Figs/misalign_track_collection_geo-eps-converted-to.pdf Gra
 phic file (type pdf)
 <use 35tonAnalysis/Figs/misalign_track_collection_geo-eps-converted-to.pdf>
@@ -3228,38 +2724,14 @@ ollection_res.eps>
 (epstopdf)             \includegraphics on input line 612.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/misalign_track_collection_res-eps-converted-to.pdf, id=80, 
-569.12625pt x 409.53pt>
+<35tonAnalysis/Figs/misalign_track_collection_res-eps-converted-to.pdf, id=1579
+, 569.12625pt x 409.53pt>
 File: 35tonAnalysis/Figs/misalign_track_collection_res-eps-converted-to.pdf Gra
 phic file (type pdf)
 <use 35tonAnalysis/Figs/misalign_track_collection_res-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/misalign_track_collection_res-eps-c
 onverted-to.pdf used on input line 612.
 (pdftex.def)             Requested size: 209.97946pt x 151.0988pt.
-
-LaTeX Warning: Reference `fig:TrackMisalignmentZPositionGeo' on page 84 undefin
-ed on input line 620.
-
-
-LaTeX Warning: Reference `fig:TrackMisalignmentZPositionRes' on page 84 undefin
-ed on input line 620.
-
-
-LaTeX Warning: Reference `sec:APAOffsetMeasurements' on page 84 undefined on in
-put line 620.
-
-
-./35tonAnalysis/35tonAnalysis.tex:623: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.623   \centering
-                  
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/misalign_track_wire_geo
 .eps>
 (epstopdf)                    date: 2017-02-14 10:35:01
@@ -3274,8 +2746,8 @@ o.eps>
 (epstopdf)             \includegraphics on input line 626.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/misalign_track_wire_geo-eps-converted-to.pdf, id=81, 401.5p
-t x 192.72pt>
+<35tonAnalysis/Figs/misalign_track_wire_geo-eps-converted-to.pdf, id=1583, 401.
+5pt x 192.72pt>
 File: 35tonAnalysis/Figs/misalign_track_wire_geo-eps-converted-to.pdf Graphic f
 ile (type pdf)
 <use 35tonAnalysis/Figs/misalign_track_wire_geo-eps-converted-to.pdf>
@@ -3296,34 +2768,23 @@ s.eps>
 (epstopdf)             \includegraphics on input line 633.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/misalign_track_wire_res-eps-converted-to.pdf, id=82, 569.12
-625pt x 409.53pt>
+<35tonAnalysis/Figs/misalign_track_wire_res-eps-converted-to.pdf, id=1584, 569.
+12625pt x 409.53pt>
 File: 35tonAnalysis/Figs/misalign_track_wire_res-eps-converted-to.pdf Graphic f
 ile (type pdf)
 <use 35tonAnalysis/Figs/misalign_track_wire_res-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/misalign_track_wire_res-eps-convert
 ed-to.pdf used on input line 633.
 (pdftex.def)             Requested size: 209.97946pt x 151.0988pt.
-
-LaTeX Warning: Reference `fig:TrackMisalignmentDriftVelocityGeo' on page 84 und
-efined on input line 643.
-
-
-LaTeX Warning: Reference `fig:TrackMisalignmentDriftVelocityRes' on page 84 und
-efined on input line 643.
-
-
-./35tonAnalysis/35tonAnalysis.tex:646: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.646   \centering
-                  
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+[108] [109 <./35tonAnalysis/Figs/track_residual-eps-converted-to.pdf> <./35tonA
+nalysis/Figs/chisquare-eps-converted-to.pdf> <./35tonAnalysis/Figs/track_separa
+tion-eps-converted-to.pdf> <./35tonAnalysis/Figs/separation-eps-converted-to.pd
+f>] [110 <./35tonAnalysis/Figs/TPCCounterT0DifferenceMC-eps-converted-to.pdf> <
+./35tonAnalysis/Figs/TPCCounterT0DifferenceData-eps-converted-to.pdf> <./35tonA
+nalysis/Figs/TPCCounterT0DifferenceDataResidual-eps-converted-to.pdf>] [111 <./
+35tonAnalysis/Figs/t0correction_before-eps-converted-to.pdf> <./35tonAnalysis/F
+igs/t0correction_after-eps-converted-to.pdf> <./35tonAnalysis/Figs/misalign_tra
+ck_geo-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/misalign_track_drift_ge
 o.eps>
 (epstopdf)                    date: 2017-02-14 13:21:29
@@ -3338,8 +2799,8 @@ geo.eps>
 (epstopdf)             \includegraphics on input line 649.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/misalign_track_drift_geo-eps-converted-to.pdf, id=83, 397.4
-85pt x 263.98625pt>
+<35tonAnalysis/Figs/misalign_track_drift_geo-eps-converted-to.pdf, id=1678, 397
+.485pt x 263.98625pt>
 File: 35tonAnalysis/Figs/misalign_track_drift_geo-eps-converted-to.pdf Graphic 
 file (type pdf)
 <use 35tonAnalysis/Figs/misalign_track_drift_geo-eps-converted-to.pdf>
@@ -3360,30 +2821,14 @@ res.eps>
 (epstopdf)             \includegraphics on input line 656.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/misalign_track_drift_res-eps-converted-to.pdf, id=84, 569.1
-2625pt x 409.53pt>
+<35tonAnalysis/Figs/misalign_track_drift_res-eps-converted-to.pdf, id=1679, 569
+.12625pt x 409.53pt>
 File: 35tonAnalysis/Figs/misalign_track_drift_res-eps-converted-to.pdf Graphic 
 file (type pdf)
 <use 35tonAnalysis/Figs/misalign_track_drift_res-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/misalign_track_drift_res-eps-conver
 ted-to.pdf used on input line 656.
 (pdftex.def)             Requested size: 209.97946pt x 151.0988pt.
-
-LaTeX Warning: Reference `fig:DriftVelocity' on page 84 undefined on input line
- 664.
-
-
-./35tonAnalysis/35tonAnalysis.tex:667: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.667   \centering
-                  
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/DistanceDriftTime.eps>
 (epstopdf)                    date: 2017-02-17 13:03:19
 (epstopdf)                    size: 82504 bytes
@@ -3396,8 +2841,8 @@ eDriftTime-eps-converted-to.pdf 35tonAnalysis/Figs/DistanceDriftTime.eps>
 (epstopdf)             \includegraphics on input line 670.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/DistanceDriftTime-eps-converted-to.pdf, id=85, 569.12625pt 
-x 409.53pt>
+<35tonAnalysis/Figs/DistanceDriftTime-eps-converted-to.pdf, id=1681, 569.12625p
+t x 409.53pt>
 File: 35tonAnalysis/Figs/DistanceDriftTime-eps-converted-to.pdf Graphic file (t
 ype pdf)
 <use 35tonAnalysis/Figs/DistanceDriftTime-eps-converted-to.pdf>
@@ -3416,62 +2861,20 @@ locity-eps-converted-to.pdf 35tonAnalysis/Figs/DriftVelocity.eps>
 (epstopdf)             \includegraphics on input line 677.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/DriftVelocity-eps-converted-to.pdf, id=86, 569.12625pt x 40
-9.53pt>
+<35tonAnalysis/Figs/DriftVelocity-eps-converted-to.pdf, id=1682, 569.12625pt x 
+409.53pt>
 File: 35tonAnalysis/Figs/DriftVelocity-eps-converted-to.pdf Graphic file (type 
 pdf)
 <use 35tonAnalysis/Figs/DriftVelocity-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/DriftVelocity-eps-converted-to.pdf 
 used on input line 677.
 (pdftex.def)             Requested size: 209.97946pt x 151.0988pt.
-
-LaTeX Warning: Reference `fig:DistanceDriftTime' on page 84 undefined on input 
-line 681.
-
-
-LaTeX Warning: Reference `fig:DriftVelocityGraph' on page 84 undefined on input
- line 681.
-
-
-LaTeX Warning: Reference `fig:DistanceDriftTime' on page 84 undefined on input 
-line 681.
-
-
-LaTeX Warning: Reference `fig:DriftVelocityGraph' on page 84 undefined on input
- line 681.
-
-
-LaTeX Warning: Reference `sec:APACrossingAlignment' on page 84 undefined on inp
-ut line 687.
-
-
-LaTeX Warning: Reference `fig:HitTimes' on page 84 undefined on input line 687.
-
-
-
-LaTeX Warning: Reference `fig:HitTimesZoom' on page 84 undefined on input line 
-687.
-
-
-LaTeX Warning: Reference `sec:APACrossingCharge' on page 84 undefined on input 
-line 687.
-
-
-LaTeX Warning: Reference `fig:TPCPhotonT0Difference' on page 84 undefined on in
-put line 687.
-
-
-./35tonAnalysis/35tonAnalysis.tex:690: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.690   \centering
-                  
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+[112 <./35tonAnalysis/Figs/misalign_track_collection_geo-eps-converted-to.pdf> 
+<./35tonAnalysis/Figs/misalign_track_collection_res-eps-converted-to.pdf>] [113
+ <./35tonAnalysis/Figs/misalign_track_wire_geo-eps-converted-to.pdf> <./35tonAn
+alysis/Figs/misalign_track_wire_res-eps-converted-to.pdf> <./35tonAnalysis/Figs
+/misalign_track_drift_geo-eps-converted-to.pdf> <./35tonAnalysis/Figs/misalign_
+track_drift_res-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/HitTimes.eps>
 (epstopdf)                    date: 2017-04-06 15:02:33
 (epstopdf)                    size: 15303 bytes
@@ -3484,8 +2887,8 @@ s-eps-converted-to.pdf 35tonAnalysis/Figs/HitTimes.eps>
 (epstopdf)             \includegraphics on input line 693.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/HitTimes-eps-converted-to.pdf, id=87, 569.12625pt x 409.53p
-t>
+<35tonAnalysis/Figs/HitTimes-eps-converted-to.pdf, id=1747, 569.12625pt x 409.5
+3pt>
 File: 35tonAnalysis/Figs/HitTimes-eps-converted-to.pdf Graphic file (type pdf)
 <use 35tonAnalysis/Figs/HitTimes-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/HitTimes-eps-converted-to.pdf used 
@@ -3503,26 +2906,14 @@ sZoom-eps-converted-to.pdf 35tonAnalysis/Figs/HitTimesZoom.eps>
 (epstopdf)             \includegraphics on input line 700.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/HitTimesZoom-eps-converted-to.pdf, id=88, 569.12625pt x 409
-.53pt>
+<35tonAnalysis/Figs/HitTimesZoom-eps-converted-to.pdf, id=1748, 569.12625pt x 4
+09.53pt>
 File: 35tonAnalysis/Figs/HitTimesZoom-eps-converted-to.pdf Graphic file (type p
 df)
 <use 35tonAnalysis/Figs/HitTimesZoom-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/HitTimesZoom-eps-converted-to.pdf u
 sed on input line 700.
 (pdftex.def)             Requested size: 209.97946pt x 151.0988pt.
-
-./35tonAnalysis/35tonAnalysis.tex:709: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.709   \centering
-                  
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/T0OffsetTPCPhoton.eps>
 (epstopdf)                    date: 2017-04-18 18:58:15
 (epstopdf)                    size: 7139 bytes
@@ -3535,30 +2926,14 @@ tTPCPhoton-eps-converted-to.pdf 35tonAnalysis/Figs/T0OffsetTPCPhoton.eps>
 (epstopdf)             \includegraphics on input line 710.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/T0OffsetTPCPhoton-eps-converted-to.pdf, id=89, 569.12625pt 
-x 409.53pt>
+<35tonAnalysis/Figs/T0OffsetTPCPhoton-eps-converted-to.pdf, id=1749, 569.12625p
+t x 409.53pt>
 File: 35tonAnalysis/Figs/T0OffsetTPCPhoton-eps-converted-to.pdf Graphic file (t
 ype pdf)
 <use 35tonAnalysis/Figs/T0OffsetTPCPhoton-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/T0OffsetTPCPhoton-eps-converted-to.
 pdf used on input line 710.
 (pdftex.def)             Requested size: 341.43306pt x 245.69489pt.
-
-LaTeX Warning: Reference `fig:TPCCounterOffset' on page 84 undefined on input l
-ine 715.
-
-
-./35tonAnalysis/35tonAnalysis.tex:718: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.718   \centering
-                  
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/PTBRCEDiffTimestamps.ep
 s>
 (epstopdf)                    date: 2017-02-14 16:11:46
@@ -3573,46 +2948,19 @@ iffTimestamps-eps-converted-to.pdf 35tonAnalysis/Figs/PTBRCEDiffTimestamps.eps>
 (epstopdf)             \includegraphics on input line 719.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/PTBRCEDiffTimestamps-eps-converted-to.pdf, id=90, 569.12625
-pt x 409.53pt>
+<35tonAnalysis/Figs/PTBRCEDiffTimestamps-eps-converted-to.pdf, id=1751, 569.126
+25pt x 409.53pt>
 File: 35tonAnalysis/Figs/PTBRCEDiffTimestamps-eps-converted-to.pdf Graphic file
  (type pdf)
 <use 35tonAnalysis/Figs/PTBRCEDiffTimestamps-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/PTBRCEDiffTimestamps-eps-converted-
 to.pdf used on input line 719.
 (pdftex.def)             Requested size: 341.43306pt x 245.69489pt.
-
-LaTeX Warning: Reference `sec:CombinedOffsets' on page 84 undefined on input li
-ne 724.
-
-
-LaTeX Warning: Reference `sec:APACrossingMisalignment' on page 84 undefined on 
-input line 739.
-
-
-LaTeX Warning: Reference `sec:APAGapCrossing' on page 84 undefined on input lin
-e 739.
-
-
-LaTeX Warning: Reference `sec:APAGapCrossing' on page 84 undefined on input lin
-e 741.
-
-
-LaTeX Warning: Reference `fig:HitTimesFixed' on page 84 undefined on input line
- 741.
-
-
-./35tonAnalysis/35tonAnalysis.tex:744: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.744   \centering
-                  
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+[114 <./35tonAnalysis/Figs/DistanceDriftTime-eps-converted-to.pdf> <./35tonAnal
+ysis/Figs/DriftVelocity-eps-converted-to.pdf>] [115 <./35tonAnalysis/Figs/HitTi
+mes-eps-converted-to.pdf> <./35tonAnalysis/Figs/HitTimesZoom-eps-converted-to.p
+df> <./35tonAnalysis/Figs/T0OffsetTPCPhoton-eps-converted-to.pdf>] [116 <./35to
+nAnalysis/Figs/PTBRCEDiffTimestamps-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/HitTimesFixed.eps>
 (epstopdf)                    date: 2017-04-10 11:23:45
 (epstopdf)                    size: 10396 bytes
@@ -3625,58 +2973,14 @@ sFixed-eps-converted-to.pdf 35tonAnalysis/Figs/HitTimesFixed.eps>
 (epstopdf)             \includegraphics on input line 745.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/HitTimesFixed-eps-converted-to.pdf, id=91, 569.12625pt x 40
-9.53pt>
+<35tonAnalysis/Figs/HitTimesFixed-eps-converted-to.pdf, id=1813, 569.12625pt x 
+409.53pt>
 File: 35tonAnalysis/Figs/HitTimesFixed-eps-converted-to.pdf Graphic file (type 
 pdf)
 <use 35tonAnalysis/Figs/HitTimesFixed-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/HitTimesFixed-eps-converted-to.pdf 
 used on input line 745.
 (pdftex.def)             Requested size: 341.43306pt x 245.69489pt.
-
-LaTeX Warning: Reference `sec:APAGapCrossing' on page 84 undefined on input lin
-e 746.
-
-
-LaTeX Warning: Reference `fig:HitTimesZoom' on page 84 undefined on input line 
-746.
-
-
-LaTeX Warning: Reference `sec:APAGapCrossing' on page 84 undefined on input lin
-e 746.
-
-
-LaTeX Warning: Reference `fig:HitTimesZoom' on page 84 undefined on input line 
-746.
-
-
-LaTeX Warning: Reference `fig:TPCCounterT0Difference' on page 84 undefined on i
-nput line 750.
-
-
-LaTeX Warning: Reference `sec:APACrossingMisalignment' on page 84 undefined on 
-input line 750.
-
-
-LaTeX Warning: Reference `fig:ExtraCorrections' on page 84 undefined on input l
-ine 750.
-
-
-LaTeX Warning: Reference `fig:ExtraCorrectionWire' on page 84 undefined on inpu
-t line 750.
-
-
-./35tonAnalysis/35tonAnalysis.tex:753: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.753   \centering
-                  
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/ExtraCorrectionPlaneSpa
 cing.eps>
 (epstopdf)                    date: 2017-04-10 16:36:03
@@ -3691,8 +2995,8 @@ neSpacing.eps>
 (epstopdf)             \includegraphics on input line 756.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/ExtraCorrectionPlaneSpacing-eps-converted-to.pdf, id=92, 56
-9.12625pt x 409.53pt>
+<35tonAnalysis/Figs/ExtraCorrectionPlaneSpacing-eps-converted-to.pdf, id=1822, 
+569.12625pt x 409.53pt>
 File: 35tonAnalysis/Figs/ExtraCorrectionPlaneSpacing-eps-converted-to.pdf Graph
 ic file (type pdf)
 <use 35tonAnalysis/Figs/ExtraCorrectionPlaneSpacing-eps-converted-to.pdf>
@@ -3712,68 +3016,15 @@ rrectionWire-eps-converted-to.pdf 35tonAnalysis/Figs/ExtraCorrectionWire.eps>
 (epstopdf)             \includegraphics on input line 763.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/ExtraCorrectionWire-eps-converted-to.pdf, id=93, 569.12625p
-t x 409.53pt>
+<35tonAnalysis/Figs/ExtraCorrectionWire-eps-converted-to.pdf, id=1823, 569.1262
+5pt x 409.53pt>
 File: 35tonAnalysis/Figs/ExtraCorrectionWire-eps-converted-to.pdf Graphic file 
 (type pdf)
 <use 35tonAnalysis/Figs/ExtraCorrectionWire-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/ExtraCorrectionWire-eps-converted-t
 o.pdf used on input line 763.
 (pdftex.def)             Requested size: 205.77896pt x 148.07431pt.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 764.
-
-LaTeX Warning: Reference `sec:APAOffsetMeasurements' on page 84 undefined on in
-put line 764.
-
-
-LaTeX Warning: Reference `sec:APAOffsetMeasurements' on page 84 undefined on in
-put line 764.
-
-
-LaTeX Warning: Reference `fig:ExtraCorrectionPlaneSpacing' on page 84 undefined
- on input line 767.
-
-
-LaTeX Warning: Reference `fig:ExtraCorrectionWire' on page 84 undefined on inpu
-t line 767.
-
-
-LaTeX Warning: Reference `fig:ExtraCorrectionPlaneSpacing' on page 84 undefined
- on input line 767.
-
-
-LaTeX Warning: Reference `fig:ExtraCorrectionWire' on page 84 undefined on inpu
-t line 767.
-
-
-LaTeX Warning: Reference `fig:HitTimesRange' on page 84 undefined on input line
- 776.
-
-
-LaTeX Warning: Reference `fig:HitTimesMC' on page 84 undefined on input line 77
-6.
-
-
-LaTeX Warning: Reference `sec:InteractionTimeHits' on page 84 undefined on inpu
-t line 776.
-
-
-LaTeX Warning: Reference `sec:HookEVDs' on page 84 undefined on input line 776.
-
-
-
-./35tonAnalysis/35tonAnalysis.tex:779: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.779   \centering
-                  
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+[117] [118 <./35tonAnalysis/Figs/HitTimesFixed-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/HitTimesMC.eps>
 (epstopdf)                    date: 2017-04-06 15:02:58
 (epstopdf)                    size: 16783 bytes
@@ -3786,38 +3037,16 @@ sMC-eps-converted-to.pdf 35tonAnalysis/Figs/HitTimesMC.eps>
 (epstopdf)             \includegraphics on input line 780.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/HitTimesMC-eps-converted-to.pdf, id=94, 569.12625pt x 409.5
-3pt>
+<35tonAnalysis/Figs/HitTimesMC-eps-converted-to.pdf, id=1855, 569.12625pt x 409
+.53pt>
 File: 35tonAnalysis/Figs/HitTimesMC-eps-converted-to.pdf Graphic file (type pdf
 )
 <use 35tonAnalysis/Figs/HitTimesMC-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/HitTimesMC-eps-converted-to.pdf use
 d on input line 780.
 (pdftex.def)             Requested size: 341.43306pt x 245.69489pt.
-
-LaTeX Warning: Reference `fig:HitTimesRange' on page 84 undefined on input line
- 781.
-
-
-LaTeX Warning: Reference `fig:HitTimesRange' on page 84 undefined on input line
- 781.
-
-
-LaTeX Warning: Reference `fig:MeshHits' on page 84 undefined on input line 788.
-
-
-
-./35tonAnalysis/35tonAnalysis.tex:791: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.791   \centering
-                  
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+[119 <./35tonAnalysis/Figs/ExtraCorrectionPlaneSpacing-eps-converted-to.pdf> <.
+/35tonAnalysis/Figs/ExtraCorrectionWire-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/MeshHits.eps>
 (epstopdf)                    date: 2017-02-15 12:55:03
 (epstopdf)                    size: 154333 bytes
@@ -3830,29 +3059,13 @@ s-eps-converted-to.pdf 35tonAnalysis/Figs/MeshHits.eps>
 (epstopdf)             \includegraphics on input line 792.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/MeshHits-eps-converted-to.pdf, id=95, 492.84125pt x 576.152
-5pt>
+<35tonAnalysis/Figs/MeshHits-eps-converted-to.pdf, id=1885, 492.84125pt x 576.1
+525pt>
 File: 35tonAnalysis/Figs/MeshHits-eps-converted-to.pdf Graphic file (type pdf)
 <use 35tonAnalysis/Figs/MeshHits-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/MeshHits-eps-converted-to.pdf used 
 on input line 792.
 (pdftex.def)             Requested size: 341.43306pt x 399.17204pt.
-
-LaTeX Warning: Reference `fig:HitTimesAPAs' on page 84 undefined on input line 
-797.
-
-
-./35tonAnalysis/35tonAnalysis.tex:800: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.800   \centering
-                  
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/HitTimesAPA023.eps>
 (epstopdf)                    date: 2017-04-06 15:10:26
 (epstopdf)                    size: 10878 bytes
@@ -3865,8 +3078,8 @@ sAPA023-eps-converted-to.pdf 35tonAnalysis/Figs/HitTimesAPA023.eps>
 (epstopdf)             \includegraphics on input line 803.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/HitTimesAPA023-eps-converted-to.pdf, id=96, 569.12625pt x 4
-09.53pt>
+<35tonAnalysis/Figs/HitTimesAPA023-eps-converted-to.pdf, id=1887, 569.12625pt x
+ 409.53pt>
 File: 35tonAnalysis/Figs/HitTimesAPA023-eps-converted-to.pdf Graphic file (type
  pdf)
 <use 35tonAnalysis/Figs/HitTimesAPA023-eps-converted-to.pdf>
@@ -3885,38 +3098,16 @@ sAPA1-eps-converted-to.pdf 35tonAnalysis/Figs/HitTimesAPA1.eps>
 (epstopdf)             \includegraphics on input line 810.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/HitTimesAPA1-eps-converted-to.pdf, id=97, 569.12625pt x 409
-.53pt>
+<35tonAnalysis/Figs/HitTimesAPA1-eps-converted-to.pdf, id=1888, 569.12625pt x 4
+09.53pt>
 File: 35tonAnalysis/Figs/HitTimesAPA1-eps-converted-to.pdf Graphic file (type p
 df)
 <use 35tonAnalysis/Figs/HitTimesAPA1-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/HitTimesAPA1-eps-converted-to.pdf u
 sed on input line 810.
 (pdftex.def)             Requested size: 209.97946pt x 151.0988pt.
-
-LaTeX Warning: Reference `fig:HitTimesAPA1' on page 84 undefined on input line 
-814.
-
-
-LaTeX Warning: Reference `fig:HitTimesAPA1' on page 84 undefined on input line 
-814.
-
-
-LaTeX Warning: Reference `fig:HitTimesFrame' on page 84 undefined on input line
- 818.
-
-
-./35tonAnalysis/35tonAnalysis.tex:821: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.821   \centering
-                  
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+[120 <./35tonAnalysis/Figs/HitTimesMC-eps-converted-to.pdf>] [121 <./35tonAnaly
+sis/Figs/MeshHits-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/HitTimesFrame.eps>
 (epstopdf)                    date: 2017-04-06 15:11:01
 (epstopdf)                    size: 13160 bytes
@@ -3929,30 +3120,14 @@ sFrame-eps-converted-to.pdf 35tonAnalysis/Figs/HitTimesFrame.eps>
 (epstopdf)             \includegraphics on input line 822.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/HitTimesFrame-eps-converted-to.pdf, id=98, 569.12625pt x 40
-9.53pt>
+<35tonAnalysis/Figs/HitTimesFrame-eps-converted-to.pdf, id=1915, 569.12625pt x 
+409.53pt>
 File: 35tonAnalysis/Figs/HitTimesFrame-eps-converted-to.pdf Graphic file (type 
 pdf)
 <use 35tonAnalysis/Figs/HitTimesFrame-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/HitTimesFrame-eps-converted-to.pdf 
 used on input line 822.
 (pdftex.def)             Requested size: 284.52756pt x 204.74574pt.
-
-LaTeX Warning: Reference `fig:HitCharges' on page 84 undefined on input line 82
-7.
-
-
-./35tonAnalysis/35tonAnalysis.tex:830: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.830   \centering
-                  
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/HitChargeInteraction.ep
 s>
 (epstopdf)                    date: 2017-02-15 18:09:42
@@ -3967,8 +3142,8 @@ geInteraction-eps-converted-to.pdf 35tonAnalysis/Figs/HitChargeInteraction.eps>
 (epstopdf)             \includegraphics on input line 833.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/HitChargeInteraction-eps-converted-to.pdf, id=99, 569.12625
-pt x 409.53pt>
+<35tonAnalysis/Figs/HitChargeInteraction-eps-converted-to.pdf, id=1917, 569.126
+25pt x 409.53pt>
 File: 35tonAnalysis/Figs/HitChargeInteraction-eps-converted-to.pdf Graphic file
  (type pdf)
 <use 35tonAnalysis/Figs/HitChargeInteraction-eps-converted-to.pdf>
@@ -3989,91 +3164,33 @@ n.eps>
 (epstopdf)             \includegraphics on input line 840.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/HitChargeNonInteraction-eps-converted-to.pdf, id=100, 569.1
-2625pt x 409.53pt>
+<35tonAnalysis/Figs/HitChargeNonInteraction-eps-converted-to.pdf, id=1918, 569.
+12625pt x 409.53pt>
 File: 35tonAnalysis/Figs/HitChargeNonInteraction-eps-converted-to.pdf Graphic f
 ile (type pdf)
 <use 35tonAnalysis/Figs/HitChargeNonInteraction-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/HitChargeNonInteraction-eps-convert
 ed-to.pdf used on input line 840.
 (pdftex.def)             Requested size: 209.97946pt x 151.0988pt.
-
-LaTeX Warning: Reference `sec:InteractionTimeHits' on page 84 undefined on inpu
-t line 853.
-
-
-LaTeX Warning: Reference `fig:EVDHook' on page 84 undefined on input line 853.
-
-
-./35tonAnalysis/35tonAnalysis.tex:856: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.856   \centering
-                  
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-<35tonAnalysis/Figs/evd_hook_raw.pdf, id=101, 530.46515pt x 261.17242pt>
+<35tonAnalysis/Figs/evd_hook_raw.pdf, id=1921, 530.46515pt x 261.17242pt>
 File: 35tonAnalysis/Figs/evd_hook_raw.pdf Graphic file (type pdf)
 <use 35tonAnalysis/Figs/evd_hook_raw.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/evd_hook_raw.pdf used on input line
  859.
 (pdftex.def)             Requested size: 393.71233pt x 193.85037pt.
 
-<35tonAnalysis/Figs/evd_hook_reconstructed.pdf, id=102, 523.32323pt x 291.05203
-pt>
+<35tonAnalysis/Figs/evd_hook_reconstructed.pdf, id=1922, 523.32323pt x 291.0520
+3pt>
 File: 35tonAnalysis/Figs/evd_hook_reconstructed.pdf Graphic file (type pdf)
 <use 35tonAnalysis/Figs/evd_hook_reconstructed.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/evd_hook_reconstructed.pdf used on 
 input line 866.
 (pdftex.def)             Requested size: 393.71233pt x 218.96797pt.
-
-LaTeX Warning: Reference `fig:EVDHookRaw' on page 84 undefined on input line 87
-0.
-
-
-LaTeX Warning: Reference `fig:EVDHookReconstructed' on page 84 undefined on inp
-ut line 870.
-
-
-LaTeX Warning: Reference `fig:EVDHookReconstructed' on page 84 undefined on inp
-ut line 870.
-
-
-LaTeX Warning: Reference `fig:EVDHookRaw' on page 84 undefined on input line 87
-0.
-
-
-LaTeX Warning: Reference `fig:EVDHookReconstructed' on page 84 undefined on inp
-ut line 870.
-
-
-LaTeX Warning: Reference `fig:EVDHookReconstructed' on page 84 undefined on inp
-ut line 870.
-
-
-LaTeX Warning: Reference `fig:DriftVelocityDiffGeo' on page 84 undefined on inp
-ut line 879.
-
-
-LaTeX Warning: Reference `fig:DriftVelocityDiffRes' on page 84 undefined on inp
-ut line 879.
-
-
-./35tonAnalysis/35tonAnalysis.tex:882: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.882   \centering
-                  
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+[122 <./35tonAnalysis/Figs/HitTimesAPA023-eps-converted-to.pdf> <./35tonAnalysi
+s/Figs/HitTimesAPA1-eps-converted-to.pdf>] [123 <./35tonAnalysis/Figs/HitTimesF
+rame-eps-converted-to.pdf> <./35tonAnalysis/Figs/HitChargeInteraction-eps-conve
+rted-to.pdf> <./35tonAnalysis/Figs/HitChargeNonInteraction-eps-converted-to.pdf
+>]
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/DriftVelocityDiffGeo.ep
 s>
 (epstopdf)                    date: 2017-02-16 15:12:55
@@ -4088,8 +3205,8 @@ locityDiffGeo-eps-converted-to.pdf 35tonAnalysis/Figs/DriftVelocityDiffGeo.eps>
 (epstopdf)             \includegraphics on input line 885.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/DriftVelocityDiffGeo-eps-converted-to.pdf, id=103, 418.5637
-5pt x 191.71625pt>
+<35tonAnalysis/Figs/DriftVelocityDiffGeo-eps-converted-to.pdf, id=1981, 418.563
+75pt x 191.71625pt>
 File: 35tonAnalysis/Figs/DriftVelocityDiffGeo-eps-converted-to.pdf Graphic file
  (type pdf)
 <use 35tonAnalysis/Figs/DriftVelocityDiffGeo-eps-converted-to.pdf>
@@ -4110,30 +3227,14 @@ locityDiffRes-eps-converted-to.pdf 35tonAnalysis/Figs/DriftVelocityDiffRes.eps>
 (epstopdf)             \includegraphics on input line 892.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/DriftVelocityDiffRes-eps-converted-to.pdf, id=104, 569.1262
-5pt x 409.53pt>
+<35tonAnalysis/Figs/DriftVelocityDiffRes-eps-converted-to.pdf, id=1982, 569.126
+25pt x 409.53pt>
 File: 35tonAnalysis/Figs/DriftVelocityDiffRes-eps-converted-to.pdf Graphic file
  (type pdf)
 <use 35tonAnalysis/Figs/DriftVelocityDiffRes-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/DriftVelocityDiffRes-eps-converted-
 to.pdf used on input line 892.
 (pdftex.def)             Requested size: 209.97946pt x 151.0988pt.
-
-LaTeX Warning: Reference `fig:CollectionPlaneNoise' on page 84 undefined on inp
-ut line 900.
-
-
-./35tonAnalysis/35tonAnalysis.tex:903: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.903   \centering
-                  
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/CollectionPlaneNoise.ep
 s>
 (epstopdf)                    date: 2017-04-19 10:58:18
@@ -4148,57 +3249,20 @@ ionPlaneNoise-eps-converted-to.pdf 35tonAnalysis/Figs/CollectionPlaneNoise.eps>
 (epstopdf)             \includegraphics on input line 904.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/CollectionPlaneNoise-eps-converted-to.pdf, id=105, 569.1262
-5pt x 409.53pt>
+<35tonAnalysis/Figs/CollectionPlaneNoise-eps-converted-to.pdf, id=1984, 569.126
+25pt x 409.53pt>
 File: 35tonAnalysis/Figs/CollectionPlaneNoise-eps-converted-to.pdf Graphic file
  (type pdf)
 <use 35tonAnalysis/Figs/CollectionPlaneNoise-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/CollectionPlaneNoise-eps-converted-
 to.pdf used on input line 904.
 (pdftex.def)             Requested size: 284.52756pt x 204.74574pt.
-
-LaTeX Warning: Reference `sec:DataSpecificReconstruction' on page 84 undefined 
-on input line 914.
-
-
-LaTeX Warning: Reference `sec:DataCalorimetryReconstruction' on page 84 undefin
-ed on input line 914.
-
-
-LaTeX Warning: Reference `sec:DataShowerReconstruction' on page 84 undefined on
- input line 914.
-
-
-LaTeX Warning: Reference `sec:DataPi0Reconstruction' on page 84 undefined on in
-put line 914.
-
-
-LaTeX Warning: Reference `sec:ReconstructingMuonTracks' on page 84 undefined on
- input line 919.
-
-
-LaTeX Warning: Reference `sec:DataCalorimetryReconstruction' on page 84 undefin
-ed on input line 923.
-
-
-LaTeX Warning: Reference `fig:DataCalorimetryThreshold' on page 84 undefined on
- input line 930.
-
-
-./35tonAnalysis/35tonAnalysis.tex:935: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.935   \centering
-                  
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-<35tonAnalysis/Figs/HitReconstructionBias20-40.pdf, id=110, 516.58162pt x 362.4
-5714pt>
+[124] [125 <./35tonAnalysis/Figs/evd_hook_raw.pdf> <./35tonAnalysis/Figs/evd_ho
+ok_reconstructed.pdf>] [126 <./35tonAnalysis/Figs/DriftVelocityDiffGeo-eps-conv
+erted-to.pdf> <./35tonAnalysis/Figs/DriftVelocityDiffRes-eps-converted-to.pdf> 
+<./35tonAnalysis/Figs/CollectionPlaneNoise-eps-converted-to.pdf>]
+<35tonAnalysis/Figs/HitReconstructionBias20-40.pdf, id=2083, 516.58162pt x 362.
+45714pt>
 File: 35tonAnalysis/Figs/HitReconstructionBias20-40.pdf Graphic file (type pdf)
 
 <use 35tonAnalysis/Figs/HitReconstructionBias20-40.pdf>
@@ -4206,8 +3270,8 @@ Package pdftex.def Info: 35tonAnalysis/Figs/HitReconstructionBias20-40.pdf used
  on input line 938.
 (pdftex.def)             Requested size: 137.19034pt x 96.25531pt.
 
-<35tonAnalysis/Figs/HitReconstructionBias80-100.pdf, id=111, 513.26877pt x 362.
-35446pt>
+<35tonAnalysis/Figs/HitReconstructionBias80-100.pdf, id=2084, 513.26877pt x 362
+.35446pt>
 File: 35tonAnalysis/Figs/HitReconstructionBias80-100.pdf Graphic file (type pdf
 )
 <use 35tonAnalysis/Figs/HitReconstructionBias80-100.pdf>
@@ -4215,38 +3279,15 @@ Package pdftex.def Info: 35tonAnalysis/Figs/HitReconstructionBias80-100.pdf use
 d on input line 945.
 (pdftex.def)             Requested size: 137.19034pt x 96.85283pt.
 
-<35tonAnalysis/Figs/HitReconstructionBias140-160.pdf, id=112, 514.12927pt x 360
-.42354pt>
+<35tonAnalysis/Figs/HitReconstructionBias140-160.pdf, id=2085, 514.12927pt x 36
+0.42354pt>
 File: 35tonAnalysis/Figs/HitReconstructionBias140-160.pdf Graphic file (type pd
 f)
 <use 35tonAnalysis/Figs/HitReconstructionBias140-160.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/HitReconstructionBias140-160.pdf us
 ed on input line 952.
 (pdftex.def)             Requested size: 137.19034pt x 96.17172pt.
-
-LaTeX Warning: Reference `sec:APACrossing' on page 84 undefined on input line 9
-60.
-
-
-LaTeX Warning: Reference `sec:APAGapCrossing' on page 84 undefined on input lin
-e 960.
-
-
-LaTeX Warning: Reference `fig:DataCalorimetrydEdx' on page 84 undefined on inpu
-t line 960.
-
-
-./35tonAnalysis/35tonAnalysis.tex:963: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.963   \centering
-                  
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+[127]
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/dEdx.eps>
 (epstopdf)                    date: 2017-04-18 12:59:37
 (epstopdf)                    size: 8964 bytes
@@ -4259,31 +3300,15 @@ s-converted-to.pdf 35tonAnalysis/Figs/dEdx.eps>
 (epstopdf)             \includegraphics on input line 964.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/dEdx-eps-converted-to.pdf, id=113, 569.12625pt x 409.53pt>
+<35tonAnalysis/Figs/dEdx-eps-converted-to.pdf, id=2097, 569.12625pt x 409.53pt>
 File: 35tonAnalysis/Figs/dEdx-eps-converted-to.pdf Graphic file (type pdf)
 <use 35tonAnalysis/Figs/dEdx-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/dEdx-eps-converted-to.pdf used on i
 nput line 964.
 (pdftex.def)             Requested size: 341.43306pt x 245.69489pt.
 
-LaTeX Warning: Reference `fig:CalorimetryShowerEnergy' on page 84 undefined on 
-input line 969.
-
-
-LaTeX Warning: Reference `fig:DataCalorimetryShowerEnergy' on page 84 undefined
- on input line 969.
-
-
-./35tonAnalysis/35tonAnalysis.tex:972: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.972   \centering
-                  
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+LaTeX Warning: Reference `fig:CalorimetryShowerEnergy' on page 128 undefined on
+ input line 969.
 
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/ChargeEnergy.eps>
 (epstopdf)                    date: 2017-04-19 13:28:01
@@ -4297,8 +3322,8 @@ nergy-eps-converted-to.pdf 35tonAnalysis/Figs/ChargeEnergy.eps>
 (epstopdf)             \includegraphics on input line 973.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/ChargeEnergy-eps-converted-to.pdf, id=114, 569.12625pt x 40
-9.53pt>
+<35tonAnalysis/Figs/ChargeEnergy-eps-converted-to.pdf, id=2099, 569.12625pt x 4
+09.53pt>
 File: 35tonAnalysis/Figs/ChargeEnergy-eps-converted-to.pdf Graphic file (type p
 df)
 <use 35tonAnalysis/Figs/ChargeEnergy-eps-converted-to.pdf>
@@ -4306,44 +3331,14 @@ Package pdftex.def Info: 35tonAnalysis/Figs/ChargeEnergy-eps-converted-to.pdf u
 sed on input line 973.
 (pdftex.def)             Requested size: 341.43306pt x 245.69489pt.
 
-LaTeX Warning: Reference `fig:DataCalorimetryThreshold' on page 84 undefined on
- input line 974.
+LaTeX Warning: Reference `fig:FamousShower' on page 128 undefined on input line
+ 981.
 
-
-LaTeX Warning: Reference `fig:DataCalorimetryThreshold' on page 84 undefined on
- input line 974.
-
-
-LaTeX Warning: Reference `sec:DataSpecificReconstruction' on page 84 undefined 
-on input line 981.
-
-
-LaTeX Warning: Reference `sec:DataCalorimetryReconstruction' on page 84 undefin
-ed on input line 981.
-
-
-LaTeX Warning: Reference `fig:FamousShower' on page 84 undefined on input line 
-981.
-
-
-LaTeX Warning: Reference `fig:FamousShowerReconstructed' on page 84 undefined o
-n input line 981.
-
-
-./35tonAnalysis/35tonAnalysis.tex:984: LaTeX Error: Not in outer par mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.984   \centering
-                  
-You've lost some text.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-<35tonAnalysis/Figs/FamousShowerReconstructed.png, id=115, 699.61375pt x 614.29
-5pt>
+[128 <./35tonAnalysis/Figs/HitReconstructionBias20-40.pdf> <./35tonAnalysis/Fig
+s/HitReconstructionBias80-100.pdf> <./35tonAnalysis/Figs/HitReconstructionBias1
+40-160.pdf>]
+<35tonAnalysis/Figs/FamousShowerReconstructed.png, id=2171, 699.61375pt x 614.2
+95pt>
 File: 35tonAnalysis/Figs/FamousShowerReconstructed.png Graphic file (type png)
 <use 35tonAnalysis/Figs/FamousShowerReconstructed.png>
 Package pdftex.def Info: 35tonAnalysis/Figs/FamousShowerReconstructed.png used 
@@ -4368,51 +3363,29 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 993.
 
 
-LaTeX Warning: Reference `fig:DataPi0Candidate' on page 84 undefined on input l
-ine 997.
-
-
-<35tonAnalysis/Figs/evd_run16110_subrun1_event29.png, id=117, 1601.985pt x 1778
-.645pt>
+<35tonAnalysis/Figs/evd_run16110_subrun1_event29.png, id=2174, 1601.985pt x 177
+8.645pt>
 File: 35tonAnalysis/Figs/evd_run16110_subrun1_event29.png Graphic file (type pn
 g)
 <use 35tonAnalysis/Figs/evd_run16110_subrun1_event29.png>
 Package pdftex.def Info: 35tonAnalysis/Figs/evd_run16110_subrun1_event29.png us
 ed on input line 1000.
 (pdftex.def)             Requested size: 284.52756pt x 315.88132pt.
-
-LaTeX Warning: Reference `sec:DataShowerReconstruction' on page 84 undefined on
- input line 1004.
-
-
-LaTeX Warning: Reference `sec:APACrossing' on page 84 undefined on input line 1
-004.
+[129 <./35tonAnalysis/Figs/dEdx-eps-converted-to.pdf>] [130 <./35tonAnalysis/Fi
+gs/ChargeEnergy-eps-converted-to.pdf>] [131 <./35tonAnalysis/Figs/FamousShowerR
+econstructed.png>] [132 <./35tonAnalysis/Figs/evd_run16110_subrun1_event29.png>
+]) [133] [138
 
 
-LaTeX Warning: Reference `sec:DataCalorimetryReconstruction' on page 84 undefin
-ed on input line 1010.
 
 
-LaTeX Warning: Reference `fig:DataPi0Candidate' on page 84 undefined on input l
-ine 1010.
+]
+No file thesis.bbl.
 
-) (./thesis.bbl)
+Package natbib Warning: There were undefined citations.
 
-./thesis.tex:190: LaTeX Error: \begin{figure} on input line 29 ended by \end{do
-cument}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.190 \end{document}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 190.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 190.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 191.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 191.
 (./thesis.aux (./Dedication/dedication.aux) (./Declaration/declaration.aux) (./
 Acknowledgements/acknowledgements.aux) (./Abstract/abstract.aux) (./Introductio
 n/Introduction.aux) (./NeutrinoPhysics/NeutrinoPhysics.aux) (./DUNE/DUNE.aux) (
@@ -4420,61 +3393,207 @@ n/Introduction.aux) (./NeutrinoPhysics/NeutrinoPhysics.aux) (./DUNE/DUNE.aux) (
 ing/OnlineMonitoring.aux) (./35tonAnalysis/35tonAnalysis.aux) (./FarDetectorAna
 lysis/FarDetectorAnalysis.aux) (./Summary/Summary.aux) (./Appendix1/appendix1.a
 ux) (./Appendix2/appendix2.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 190.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 190.
-Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: CF49C145A849D23C03D49B6186AFCD58;193.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 191.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 191.
+
+Package rerunfilecheck Warning: File `thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `thesis.out':
+(rerunfilecheck)             Before: C26148EC77B531BA53C575F9B635384C;8391
+(rerunfilecheck)             After:  6FD4E02BD054B5ED6B4FBA3D571F236F;8415.
 
 LaTeX Warning: There were undefined references.
 
-./thesis.tex:190: You can't use `\end' in internal vertical mode.
-\enddocument ...cumenthook \deadcycles \z@ \@@end 
-                                                  
-l.190 \end{document}
-                    
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
 
+LaTeX Warning: There were multiply-defined labels.
 
-./thesis.tex:190: LaTeX Error: \begin{figure} on input line 29 ended by \end{do
-cument}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.190 \end{document}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./thesis.tex:190: Missing } inserted.
-<inserted text> 
-                }
-l.190 \end{document}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-)
-! Emergency stop.
-<*> thesis
-          
-*** (job aborted, no legal \end found)
-
- 
+ ) 
 Here is how much of TeX's memory you used:
- 25186 strings out of 493117
- 460909 string characters out of 6135433
- 664901 words of memory out of 5000000
- 27928 multiletter control sequences out of 15000+600000
- 62758 words of font info for 207 fonts, out of 8000000 for 9000
+ 25380 strings out of 493117
+ 464161 string characters out of 6135433
+ 565666 words of memory out of 5000000
+ 27801 multiletter control sequences out of 15000+600000
+ 82648 words of font info for 291 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,11n,45p,10395b,1088s stack positions out of 5000i,500n,10000p,200000b,80000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 49i,12n,47p,10395b,815s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{section.5.3} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.5.4.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.5.4.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.5} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.2.4.2.2} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.2.4.2.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.2.4.1.2} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.2.4.1.3} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.2.4.1.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.2.3.1.2} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.2.3.1.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.5.1} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.2.2.1} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.3.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.3.1} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.3.5} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.6} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.5.4} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.5.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.5.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.5.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.5} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.4.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.4.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.4.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.4} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.3.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.3.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.3} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.2.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.1.4} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.1.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.1.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.2.1.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.2.1} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.2} has been referenced but does not exist, 
+replaced by a fixed one
+
+pdfTeX warning (dest): name{section.1.4} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.3.5} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.3.4} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.3.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.3.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.3.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.1.3} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.2.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.2.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.2.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.1.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.1.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.1.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.1.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.1.1} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.1} has been referenced but does not exist, 
+replaced by a fixed one
+
+{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
+live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texl
+ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texli
+ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texliv
+e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive
+/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2
+014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/201
+4/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014
+/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/2014/texmf-d
+ist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2014/texmf-dist/fonts/t
+ype1/urw/symbol/usyr.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/ti
+mes/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmr8a
+.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on thesis.pdf (69 pages, 16169099 bytes).
+PDF statistics:
+ 2323 PDF objects out of 2487 (max. 8388607)
+ 1712 compressed objects within 18 object streams
+ 246 named destinations out of 1000 (max. 500000)
+ 42741 words of extra memory for PDF output out of 42996 (max. 10000000)
+

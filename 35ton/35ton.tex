@@ -22,32 +22,249 @@ The outcomes of each of these projects at Fermilab are the subject of this prese
 
 The work on developing LArTPCs for future neutrino experiments began at FNAL in 2007 with a view to eventually facilitating a multi-kton LAr experiment.  Even utilising a modular design, as with the DUNE far detector (Section~\ref{sec:FarDetector}), drift distances on the order of a few metres are realistically required, necessitating a low concentration of electronegative impurities.  Attaining and holding the requisite LAr purity in a huge underground cryostat over many years of running is a considerable challenge addressed by the test stands reviewed in this section.
 
-\subsection{The Materials Test Stand}
+\subsection{The Materials Test Stand}\label{sec:MTS}
 
-The Materials Test Stand (MTS) \cite{MTS2006,MTS2009a,MTS2009b,MTS2011} was constructed at FNAL to develop LAr purification techniques and to characterise the effect of various materials on the electron lifetime when submerged in the liquid.  It consists of a small cryostat and two filters containing activated-copper-coated granules and an adsorbent molecular sieve respectively; a schematic of the MTS setup is shown in Figure~\ref{fig:MTS}.  The filters are designed to remove oxygen and water contaminants respectively with functionality similar to that successfully demonstrated by the ICARUS collaboration.  However, they contain the ability to be regenerated in situ, a necessity when planning a long-running experiment, multi-kton experiment, whereas filters used previously were primarily proprietary.
+The Materials Test Stand (MTS) \cite{MTS2006,MTS2009a,MTS2009b,MTS2011} was constructed at FNAL to develop LAr purification techniques and to characterise the effect of various materials on the electron lifetime when submerged in the liquid.  It consists of a small cryostat and two filters containing activated-copper-coated granules and an adsorbent molecular sieve respectively; a schematic of the MTS setup is shown in Figure~\ref{fig:MTS}.  The filters are designed to remove oxygen and water contaminants with functionality similar to that successfully demonstrated by the ICARUS collaboration \cite{ICARUS1993b}.  Oxygen is removed by the copper beads using the chemical reaction
+\begin{equation}
+  2~\textnormal{Cu} + \textnormal{O}_2 \rightarrow 2~\textnormal{CuO}
+\end{equation}
+and water molecules are physically trapped in the microporous structure of the sieve.  The filters additionally contain the ability to be regenerated in situ, a necessity when planning a long-running experiment, multi-kton experiment; those used previously were primarily proprietary \cite{ICARUS1993a,ICARUS2006}.
 
 \begin{figure}
   \centering
   \includegraphics[width=14cm]{MTS.pdf}
-  \caption[The Materials Test Stand Stand at FNAL.]{The Materials Test Stand Stand at FNAL \cite{MTS2009b}.  Liquid argon used to fill the cryostat flows from left to right in the schematic, through two filters designed to reduce the H$_2$O and O$_2$ contamination respectively.}
+  \caption[The Materials Test Stand Stand at FNAL.]{The Materials Test Stand Stand at FNAL \cite{MTS2009b}.  Liquid argon used to fill the cryostat flows from left to right in the schematic, through two filters designed to reduce the H$_2$O and O$_2$ contamination respectively.  A second filter system (the `vapour pump' (V.P.)), using the same materials, is installed within the cryostat to remove impurities introduced by the materials being examined.}
   \label{fig:MTS}
 \end{figure}
 
-\subsection{The Liquid Argon Purity Demonstrator}
+The MTS successfully demonstrated good argon purity ($<3$~ppb~H$_2$O) and showed the primary opposition to electron lifetime is water contamination, demonstrated in Figure~\ref{fig:MTSResults}.  It was found that exposure to warm surfaces in the cryostat, such as above the liquid level, facilitated contamination from water impurities as they remain on surfaces even in a vacuum.  The condenser used in the MTS to recondense gaseous argon returned it directly to the liquid in the cryostat (as `raining' condensation) and was found to dramatically reduce the LAr purity when in use.  This is due to contaminants introduced into the gas by exposure to the warm croystat walls which could be negated by returning the liquid via a different path which maximised subjection to cold surfaces.  Notably, the electron lifetime was found to be unaffected on the introduction of test materials, although as suspected the temperature of the materials did have an impact.  This is a hugely promising result for the future of LArTPC design and construction.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=12cm]{MTSResults.pdf}
+  \caption[Results from the Materials Test Stand showing the water contamination in LAr and the corresponding electron lifetime.]{Results from the Materials Test Stand showing the water contamination in LAr and the corresponding electron lifetime \cite{MTS2009a}.  There is an obvious inverse correlation between the density of electronegative (H$_2$O) impurities and the resulting lifetime.}
+  \label{fig:MTSResults}
+\end{figure}
+
+\subsubsection{Filter Regeneration}\label{sec:FilterRegeneration}
+
+Over time, the filters become less effective as electronegative impurities accumulate.  A significant success of the MTS was demonstrating the process of regenerating the filters in situ.  This is achieved by heating the vessels to 250$^{\circ}$C and, in the case of the molecular sieve, simply using a vacuum pump to remove the water vapour or, in the case of the activated copper, by pumping through a 95:5 mixture of Ar:H$_2$ gas to capture the oxygen through the reduction reaction
+\begin{equation}
+  \textnormal{CuO} + \textnormal{H}_2 \rightarrow \textnormal{Cu} + \textnormal{H}_2\textnormal{O}.
+\end{equation}
+During the running of the test stand, the filters were regenerated after the passage of around 1000~litres of liquid argon.
+
+\subsubsection{Purity Monitoring}\label{sec:PurityMonitoring}
+
+The ability to constantly evaluate the LAr purity during an experimental run is hugely important to ensure high quality data.  The impurity concentrations are typically beyond the capabilities of many conventional gas analysers and so a custom device, known as a `purity monitor' (PrM), is utilised.  The design is based on the purity monitors developed by ICARUS \cite{ICARUSPurityMonitor} and is shown in Figure~\ref{fig:PurityMonitor}.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=10cm]{PurityMonitor.png}
+  \caption[Schematic design of the purity monitors utilised at the FNAL LAr test stands.]{Schematic design of the purity monitors utilised at the FNAL LAr test stands \cite{}.  Purity monitors using this design were pioneered by ICARUS \cite{ICARUSPurityMonitor} and used in the MTS along with the subsequent Liquid Argon Purity Demonstrator (Section~\ref{sec:LAPD}) and 35~ton Runs I (Section~\ref{sec:35tonPhaseI}) and II (Section~\ref{sec:35tonPhaseII}).}
+  \label{fig:PurityMonitor}
+\end{figure}
+
+The PrM consists of a cylindrical volume containing LAr from its surrounding environment and an anode and photocathode separated by a short drift region.  When taking purity measurments, light from a Xenon flash lamp is incident on the cathode, liberating photoelectrons which traverse towards the anode.  Electronegative impurities in the LAr will decrease the electron lifetime and therefore the number of electrons reaching a certain point along the drift volume.  A measurement of the ratio of the charge arriving at the anode to that at the cathode is hence a measurement of the inherit purity of the liquid.
+
+The MTS cryostat contains a purity monitor and they were subsequently used in the Liquid Argon Purity Demonstrator and the 35~ton.  When developed for the Liquid Argon Purity Demonstrator and 35~ton cryostats, two sizes were used; long (47~cm) and short (16~cm).
+
+\subsection{The Liquid Argon Purity Demonstrator}\label{sec:LAPD}
+
+The Liquid Argon Purity Demonstrator (LAPD) \cite{MTS2011,LAPD2014,LAPDJINST2014} was designed to demonstrate the required purity of LArTPC experiments is possible without the use of large scale vacuum pumps.  Previous and current LArTPC experiments, such as ICARUS, Argoneut, LArIAT and MicroBooNE, have been constructed as flat plane vessels and have used an evacuation method as the first step in removing atmospheric impurities to facilitate the required LAr purity.  The necessary mechanical capability of the cryostat to withstand this process, along with the associated equipment, results in unfeasible engineering challenges and costs as detectors increase to multi-kton scales.
+
+In order to circumvent these issues, a design utilising multiple smaller-scale cryostats was proposed.  This however leads to greater complexity relating to both the engineering requirements of the piping infrastructure and the reconstruction capabilities of interactions spanning multiple active volumes.  LAPD successfully pioneering an alternative approach, using a `piston purge' as a first purification step to remove atmospheric impurities.  This is a hugely important result and has significantly influenced the design of future LArTPC experiments, including the 35~ton.  Additionally, although designed to be evacuated with vacuum pumps, MicroBooNE was filled using the piston purge technique following the success of LAPD.
+
+\subsubsection{LAPD Experimental Setup}\label{sec:LAPDExperimentalSetup}
+
+The LAPD cryostat is shown in Figure~\ref{fig:LAPD}.  It consists of a cylindrical tank, diameter 10~feet and height 10~feet, with a domed head capable of holding 32.6~ton LAr.  It is physically next to the MTS and uses the purification system prototyped by this previous effort.  Insulation for the tank is provided by fibreglass sheets covering the outer volume which, along with the tank, is refrigerated by liquid nitrogen (LN$_2$) from an external supply.  As with the MTS, a condenser is utilised above the croystat to recondense argon gas using coils also cooled with LN$_2$.  This liquid is subsequently sent through the filtration system before being returned to the main volume, a consequense of the previous R\&D with the MTS.  After filling, the system is closed and a good LAr purity is maintained by constant circulation of the cryostat content through the filters.
+
+The system is instrumented with PrMs, gas analysers and temperature sensors.  Four PrMs are contained within the cryostat to measure the purity gradient with an additional one just after the filters to sample to liquid before it is returned to the main volume.  Along with purity, the temperature gradient is measured in order to study the effect of this on electron drift velocity.  The contaminants in the LAr are quantified using nitrogen, oxygen and water analysers outside of the main volume.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=10cm]{LAPD.pdf}
+  \caption[The Liquid Argon Purity Demonstrator cryostat and purification system.]{The Liquid Argon Purity Demonstrator cryostat and purification system \cite{LAPDJINST2014}.The two cylinders at the bottom left are the filters described in Section~\ref{sec:MTS}.  The piping facilitates the transport of LAr into and out of the cryostat so continual purification within a closed system may be achieved.}
+  \label{fig:LAPD}
+\end{figure}
+
+\subsubsection{Filling LAPD}\label{sec:FillingLAPD}
+
+The piston purge technique involves injecting warm argon gas at high pressure at the bottom of the cryostat with the top open for venting, demonstrated in Figure~\ref{fig:LAPDPistonPurgeSchematic}.  The heavier than air argon gas acts as a piston, forcing the ambient air out of the top of the cryostat.  Figure~\ref{fig:LAPDPistonPurgeImpurities} demonstrates how this successfully reduces the impurity concentration in the cryostat, shown as a function of complete volume changes.  After completion of the piston purging, the O$_2$ contamination had decreased from 21\% to 6~ppm, N$_2$ from 78\% to 18~ppm and H$_2$O from 200~ppm to 1.2~ppm.
+
+\newsavebox{\largestimage}
+
+\begin{figure}
+  \centering
+  %\savebox{\largestimage}{\includegraphics[width=0.49\textwidth]{LAPDPistonPurgeSchematic.pdf}}
+  \begin{subfigure}[t]{0.5\linewidth}
+    \centering
+    %\usebox{\largestimage}
+    \includegraphics[width=0.98\textwidth]{LAPDPistonPurgeSchematic.pdf}
+    \caption{Schematic of the LAPD piston purge.}
+    \label{fig:LAPDPistonPurgeSchematic}
+  \end{subfigure}\vspace{5mm}
+  \begin{subfigure}[t]{0.7\linewidth}
+    \centering
+    \includegraphics[width=0.98\textwidth]{LAPDPistonPurgeImpurities.pdf}
+    %\raisebox{\dimexpr.5\ht\largestimage-.5\height}{\includegraphics[width=\textwidth]{LAPDPistonPurgeImpurities.pdf}}
+    \caption{LAPD impurity concentration during the piston purge.}
+    \label{fig:LAPDPistonPurgeImpurities}
+  \end{subfigure}
+  \caption[The piston purge technique in the Liquid Argon Purity Demonstrator to remove atmopheric impurities before filling.]{The piston purge technique in the Liquid Argon Purity Demonstrator to remove atmopheric impurities before filling \cite{LAPDJINST2014}.  The results from two LAPD runs are shown, the first with the cryostat only half filled to prototype the technique.  Discontinuities between the impurity concentrations are caused by switches between gas analysers.}
+  \label{fig:LAPDPistonPurge}
+\end{figure}
+
+Following the filling of the cryostat with gaseous argon, the contents are then continually circulated through the filters to further reduce the impurities present.  The improved electronegative concentrations are shown, again with reference to the number of complete volume changes, in Figure~\ref{fig:LAPDGasCirculation}.  This lasted, as can also be observed in the figure, for a number of days and resulted in a much improved O$_2$ contamination of around 20~ppb and an H$_2$O level which balanced the outgassing rate from the warm cryostat surfaces.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.7\linewidth]{LAPDGasCirculation.pdf}
+  \caption[The concentration of electronegative impurities during the gas circulation stage in the Liquid Argon Purity Demonstrator following the piston purge.]{The concentration of electronegative impurities during the gas circulation stage in the Liquid Argon Purity Demonstrator following the piston purge \cite{LAPDJINST2014}.  The stabilisation of the oxygen contamination signified a leak, which was fixed during the break in readings.}
+  \label{fig:LAPDGasCirculation}
+\end{figure}
+
+The filling can thus proceed by transporting LAr through the filter system into the cryostat to ensure a high purity in maintained.  The impurity concetrations were inspected before filling and after filtration and in total, a volume of 29.7~tons LAr was supplied to the LAPD cryostat.  Once filled, and during the course of operations, the liquid argon volume was constantly recirculated through the filtration system to preserve the LAr purity.  This is shown schematically in Figure~\ref{fig:LAPDLiquidCirculation}.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=10cm]{LAPDLiquidCirculation.pdf}
+  \caption[Schematic showing the recirculation of the LAr during commissioning and operations of the Liquid Argon Purity Denomstrator.]{Schematic showing the recirculation of the LAr during commissioning and operations of the Liquid Argon Purity Denomstrator \cite{LAPD2014}.  Liquid is extracted from the bottom of the cryostat and pumped through the filters to remove any impurities which may have established in the medium.  Following the experience of previous R\&D with the MTS \cite{MTS2009a}, the recondensed liquid is passed through the purification system before being reintroduced to the main volume inside the cryostat.}
+  \label{fig:LAPDLiquidCirculation}
+\end{figure}
+
+\subsubsection{LAPD Outcomes}\label{sec:LAPDOutcomes}
+
+LAPD successfully demonstrated achieving and maintaining the required LAr purity for a large neutrino detector is possible without the costly and challenging use of evacuation techniques, reaching purities upwards of 60~ppt O$_2$ equivalent.  The measured electron lifetimes over the course of a six week run is shown in Figure~\ref{fig:LAPDElectronLifetime}.  Lifetimes of up to 4~ms were recorded, greater than the DUNE requirement of 3~ms although utlitising a much smaller-scale cryostat.  Nonetheless, the success of LAPD has great significance for future LArTPCs, including the 35~ton, and was an important stage in the FNAL LAr test program.
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=12cm]{LAPDElectronLifetime.png}
+  \caption[The electron lifetime achieved in the Liquid Argon Purity Demonstrator during a six week run.]{The electron lifetime achieved in the Liquid Argon Purity Demonstrator during a six week run.  Adapted from \cite{LAPD2014}.}
+  \label{fig:LAPDElectronLifetime}
+\end{figure}
+
+\subsection{LongBo}\label{sec:LongBo}
+
+Following the successful LAPD runs, a futher phase involved the introduction of a small-scale TPC detector into the liquid argon \cite{LongBo2015}.  The detector is named LongBo (an upgrade from the smaller Bo test detector) and is cylindrical with 25~cm diameter and 2~m length.  It was positioned vertically in the LAPD cryostat, demonstrated in Figure~\ref{fig:LongBo}, and was equipped with a high voltage on the cathode to produce the drift field and three wire planes at the top of the detector for readout.  External scintillator counters were placed around the outer wall of the cryostat to provide triggers on through-going cosmic muons which may deposit charge in the detector.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=8cm]{LongBo.pdf}
+  \caption[The LongBo TPC detector shown within the Liquid Argon Purity Demonstrator Cryostat.]{The LongBo TPC detector shown within the Liquid Argon Purity Demonstrator Cryostat \cite{LongBo2015}.  The black tube represents the high voltage feedthrough to the cathode at the bottom of the TPC.}
+  \label{fig:LongBo}
+\end{figure}
+
+LongBo was the first LArTPC experiment to utilise `cold readout' electronics to amplify and shape the signal at the front end.  An early version of the ASICs being developed for MicroBooNE were used to read out 16 of the 144 channels with the remaining using preamplifiers made with discrete circuitry.  At the drift field of 350~V/cm, the signal/noise ratio, a useful number in quantifying the electronics, was around 30, with the channels read out by the ASICs reporting values up to 1.4 times larger.
+
+The LAPD/LongBo experiment successfully maintained similar LAr purities than without the presence of the detector, as predicted by the results of the MTS.  By using TPC data, it was also possible to make measurements of the electron lifetime from through-going muons (using Equation~\ref{eq:ElectronLifetime}).  A comparison between the measured values from the purity monitors and the TPC data may be found in Figure~\ref{fig:LongBoPurity}.  A reasonable agreement is observed between these complimentary measurements with values between 6~ms and 14~ms reported, with 95\% confidence.  These promising results confirmed designing and operating a LArTPC within a non-evacuable cryostat is viable and contributed to the development of the LAr program towards the DUNE far detector, with the 35~ton experiment the next stage.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=14cm]{LongBoPurity.pdf}
+  \caption[The LAr purity within the Liquid Argon Purity Demonstrator cryostat with the LongBo TPC present, measured using both data from the detector and information from the purity monitors.]{The LAr purity within the Liquid Argon Purity Demonstrator cryostat with the LongBo TPC present, measured using both data from the detector and information from the purity monitors \cite{LongBo2015}.}
+  \label{fig:LongBoPurity}
+\end{figure}
 
 \section{35~ton Experiment: Phase I}\label{sec:35tonPhaseI}
 
-\subsection{The 35~ton Cryostat}
+The scale of the cryostats required for the DUNE experiment are such that constructing them as flat plane vessels 1.5~km underground would be unfeasibily expensive and pose huge engineering challenges.  Following the success of LAPD (discussed in Section~\ref{sec:LAPD}), which eliminates the requisite to evacuate the cryostat prior to filling, the LBNE collaboration decided to utilise membrane cryostat technology well established in the liquified natural gas (LNG) industry.  The 35~ton \cite{35tonPhaseI2014Cryostat,35tonPhaseI2014,35tonPhaseI2015} was therefore employed to demonstrate the application of a membrane cryostat to a LAr experiment and was the only planned prototype for LBNE.  The DUNE project has maintained this design choice and the 35~ton has since become a recognised and integral part of the collaboration, providing the first test of the technologies envisioned for the eventual far detector.
 
-\subsection{Filling the 35~ton}
+The 35~ton croystat was constructed in 2012 at PC4, a former proton facility in a decomissioned beamline, at Fermilab.  It has operated in two phases: Phase I (December 2013 -- February 2014) was proposed to demonstrate the membrane cryostat technology with just the cryostat and purification systems; Phase II (February 2016 -- April 2016) contained a small-scale DUNE-style detector to validate the integrated system and affirm the detector design elements.  The Phase I run is the subject of Section~\ref{sec:35tonPhaseI} whilst Phase II is considered in detail in Section~\ref{sec:35tonPhaseII}.
 
-\subsection{Outcomes of Phase I}
+The 35~ton is the first membrane cryostat used for scientific purposes and the first overall constructed in the United States.  It is also the first designed to contain LAr, which is around three times denser than LNG.  The initial aims of the project (Phase I) include to demonstrate the feasibility of the cryostat technology for LAr, including thermal performance and leak tightness, and to show the required LAr purity may be acheived without evacuation and maintained through the use of the filtration system developed and validated by the MTS and LAPD.  This first phase will be discussed in this section; the 35~ton cryostat and filling procedures will be described in Sections~\ref{sec:35tonCryostat} and~\ref{sec:35tonFilling} respectively before outcomes of the experiment are presented in Section~\ref{sec:35tonPhaseIOutcomes}.
+
+\subsection{The 35~ton Cryostat}\label{sec:35tonCryostat}
+
+An overview of the 35~ton cryostat is shown in Figure~\ref{fig:35tonCryostat}.  It contains a concrete shell within which the membrane cryostat is constructed from 2~mm think stainless steel panels.  An insulated region between these two segments reduces heat leaking.  The roof consists of two plates; Plate A is flat with insulation and membrane beneath and Plate B contains all penetrations and services.  Relevant properties of the 35~ton cryostat are listed in Table~\ref{tab:35tonCryostat}.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=10cm]{35tonCryostat.pdf}
+  \caption[The 35~ton cryostat.]{The 35~ton cryostat \cite{35tonPhaseI2015}.}
+  \label{fig:35tonCryostat}
+\end{figure}
+
+\begin{table}
+  \caption[Details and dimensions of the 35~ton cryostat.]{Details and dimensions of the 35~ton cryostat \cite{35tonPhaseI2015}.}
+  \label{tab:35tonCryostat}
+  \centering
+  \begin{tabular}{ l l }
+    \toprule
+    Parameter & Value \\
+    \midrule
+    Cryostat volume           & 29.16~m$^3$ \\
+    LAr total mass            & 38.6~metric tons \\
+    Depth of LAr              & 2.565~m (11\% total ullage) \\
+    Inner dimensions          & 4.0~m (length) $\times$ 2.7~m (width) $\times$ 2.7~m (height) \\
+    Insulation                & 0.4~m polyurethane foam \\
+    Primary membrane          & 2.0~mm thick corrugated stainless steel \\
+    Secondary barrier system  & 0.1~mm thick fiberglass \\
+    Vapor barrier             & 1.2~mm thick carbon steel \\
+    Steel reinforced concrete & 0.3~m thick layer \\
+    LAr temperature           & $89\pm1$~K \\
+    Operating gas pressure    & 70~mBar \\
+    Design pressure           & 207~mBar \\
+    Heat leak                 & $<13$~W/m$^2$ \\
+    Leak tightness            & $1\times10^{-6}$~mBar$\cdot$litre/s \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+The 35~ton was constructed physically nearby the Liquid Argon Purity Demonstrator in order to utilise existing infrastructure.  It is connected to the LAPD tank, which may be used to store LAr before transferring to the 35~ton, and uses the filtration setup designed and validated by the MTS and LAPD.  This network is shown schematically in Figure~\ref{fig:35tonLAPD}.  Unlike in LAPD, the pumps used in the 35~ton to circulate the LAr through the purification system are within the liquid but the framework operates in a similar way.  An identical condenser is also employed above the cryostat to cool boiled off gaseous argon which is returned to the bottom of the cryostat, nearby the pumps which subsequently extract the liquid for purification.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=14cm]{35tonLAPD.pdf}
+  \caption[The network linking the 35~ton cryostat, the Liquid Argon Purity Demonstrator and the purification system at PC4, Fermilab.]{The network linking the 35~ton cryostat, the Liquid Argon Purity Demonstrator and the purification system at PC4, Fermilab \cite{35tonPhaseI2014}.}
+  \label{fig:35tonLAPD}
+\end{figure}
+
+The cryogenic environment is monitored and controlled using standard detectors including temperature sensors, pressure transducers, flow meters and level sensors along with a suite of commercial gas analysers.  The height of the volume is instrumented with four purity monitors, two large and two small, with an additional long monitor positioned after the filters, as with LAPD.  Also as previously, the vertical temperature profile in the cryostat is monitored at 23~cm intervals with temperature detectors suspended on a chain.
+
+\subsection{Filling the 35~ton}\label{sec:35tonFilling}
+
+The 35~ton cryostat is filled in a similar way to the Liquid Argon Purity Demonstrator, described in Section~\ref{sec:FillingLAPD}.  Initially, a piston purge with warm gaseous argon is performed to remove atmospheric impurities before closing off the vents and redirecting argon at the top of the cryostat through the filters for purification.  The impurity concentrations for this stage of filling are shown in Figure~\ref{fig:35tonGasFilling}.  Before filling with liquid, the cryostat is cooled in an attempt to reduce outgassing and to create an appropriate environment in which to introduce LAr.  This is achieved by injecting LAr through a spray at the top of the cryostat which generates a turbulent mixing of cold gas within the cryostat and gradually cools the walls of the vessel.  Following this, LAr is transferred from LAPD into the 35~ton; this is conducted in two stages since the 35~ton is slightly larger than LAPD.  The cooldown and LAr filling stages are shown in Figure~\ref{fig:35tonLiquidFilling}.
+
+\begin{figure}
+  \centering
+  \begin{subfigure}[t]{0.48\linewidth}
+    \centering
+    \includegraphics[width=0.98\textwidth]{35tonGasFilling.pdf}
+    \caption{Gas filling.}
+    \label{fig:35tonGasFilling}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[t]{0.48\linewidth}
+    \centering
+    \includegraphics[width=0.98\textwidth]{35tonLiquidFilling.pdf}
+    \caption{Liquid filling.}
+    \label{fig:35tonLiquidFilling}
+  \end{subfigure}
+  \caption[Filling the 35~ton cryostat in four stages: piston purge, gas recirculation, cooldown and liquid filling.]{Filling the 35~ton cryostat in four stages: piston purge, gas recirculation, cooldown, liquid filling \cite{35tonPhaseI2015}.  The gas filling is shown in Figure~\ref{fig:35tonGasFilling} and involves using a piston purge to fill the tank with warm gaseous argon before circulating this gas through the filtration system.  Cooldown and liquid filling is demonstrated in Figure~\ref{fig:35tonLiquidFilling}, which shows the falling temperature of the crysotat as a result of the injection of liquid argon through the cooldown sprayers and the rising LAr level as the cryostat is filled from LAPD.}
+  \label{fig:35tonFilling}
+\end{figure}
+
+\subsection{Outcomes of Phase I}\label{sec:35tonPhaseIOutcomes}
+
+The 35~ton successfully demonstrated the feasibility of membrane cryostats for use with LAr and additionally showed the required LAr purity for future multi-kton LArTPC experiments may be achieved and held in such a vessel.  The lifetime over the course of the $\sim2$~month run, along with external changes to the system, is comprehensively summarised in Figure~\ref{fig:35tonPhaseIElectronLifetime}.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=14cm]{35tonPhaseIElectronLifetime.pdf}
+  \caption[The electron lifetime in the 35~ton cryostat measured by two purity monitors over the course of the two month Phase I run.]{The electron lifetime in the 35~ton cryostat measured by two purity monitors over the course of the two month Phase I run \cite{35tonPhaseI2014}.  The measurements correspond to different positions in the cryostat, with the red points showing purity measurements at the bottom and blue points near the top.  Major external factors affecting the observed LAr purity are shown at the top of the figure.  The old LBNE requirement of 1.4~ms is noted as a dashed grey line; DUNE now requires 3~ms lifetime, equivalent to 100~ppt O$_2$ equivalent and illustrated by the black dashed line.}
+  \label{fig:35tonPhaseIElectronLifetime}
+\end{figure}
+
+The lifetime is observed to reach and remain at the DUNE requirement for a good period of time; this is a major achievement in the context of the future of LArTPC experiments.  Dips in the purity were observed when topping up the croystat after initially filling one LAPD volume and when switching between the two pumps installed to extract the liquid for purification.  In both cases, good purity is recovered after a few volume exchanges.
+
+The same variations of lifetime on temperature were observed as previously noted in the MTS and LAPD, suggesting a genuine effect dependent on the ambient conditions.  Addtionally, during gas circulation a leak was found and fixed in a seal and, during cold operations, a leak developed in the argon cryo-piping as the dielectric breaks necessary to electrically isolate the cryostat from the building were not leak tight at cryogenic temperatures.  All associated 35~ton experience is useful as progress continues to larger and more complicated LAr cryostats.
+
+The success of the 35~ton was exploited by utilising the existing setup for a second run, involving a small-scale DUNE-style detector.  This would be the first time a membrane cryostat would facilitate a detector and is the next stage along in prototyping the DUNE far detector.
 
 \section{35~ton Experiment: Phase II}\label{sec:35tonPhaseII}
 
-Previous and current smaller-scale LArTPC experiments, such as ICARUS, Argoneut, LArIAT and MicroBooNE, have been contructed as flat plane vessels and have used an evacuation method as the first step in removing atmospheric impurities which would contaminate the liquid argon.  Constructing the DUNE far detector cryostats using a similar approach would be both very expensive and incredibly challenging.  In order to investigate possible alternatives, the Fermilab program includes the Liquid Argon Purity Demonstrator (LAPD) and 35~ton experiments, together showing a cheaper and more feasible approach to designing and operating LArTPCs.  These experiments are the subject of the present chaptor.
-
-The 35~ton consists of a membrane cryostat (Section \ref{sec:35tonCryostat}), designed to be filled with 35 metric tons of liquid argon, and a small-scale DUNE-style detector (Section \ref{sec:35tonDetector}) including a TPC and photon detectors.  It was constructed in 2012 at PC4, a former proton facility in a decomissioned beamline, at Fermilab.  The Phase I run, without a detector, took place between December 2013 and February 2014.  Between February 2014 and September 2015 the detector was constructed and heavily tested at FNAL before being installed inside the cryostat ready for the Phase II run.  This took place between February 2016 and April 2016 (offically starting on 11th February, as I type!).
+Time for phase II!
 
 \subsection{The 35~ton Detector}
 
@@ -70,103 +287,6 @@ The 35~ton consists of a membrane cryostat (Section \ref{sec:35tonCryostat}), de
 \subsection{Outcomes of Phase II}
 
 \section{Summary}\label{sec:35tonSummary}
-
-%% %------------------------------------------------------------------------------------------------------------------------------------------------------------
-%% \section{Motivation}\label{sec:35tonMotivation}
-
-%% %------------------------------------------------------------------------------------------------------------------------------------------------------------
-%% \section{The Liquid Argon Purity Demonstrator}\label{sec:LAPD}
-
-%% The Liquid Argon Purity Demonstrator (LAPD) \cite{LAPD} was designed to demonstrate that the required purity of future LArTPC experiments is possible to acheive without the use of large scale vacuum pumps.  The required mechanical capability of the cryostat to withstand such a method, along with the operation of the evacuation system itself, adds a considerable amount to the cost of the project.  Suggestions to get around this include using multiple smaller scale cryostats, but this leads to greater complexity relating to both the engineering requirements of the piping infrastructure and the reconstruction capabilities of interactions spanning numerous fiducial volumes.  LAPD successfully pioneered the method of using purging as the first step in purification of the liquid argon.  This important result is discussed below and has significantly influenced the design of future LAr cryostats, including the 35~ton.
-
-%% \subsection{LAPD Experimental Setup}\label{sec:LAPDExperimentalSetup}
-
-%% LAPD consists of a cylindrical tank (diameter 10 feet, height 10 feet) with a domed head capable of holding 32.6 tons of liquid argon.  It is instrumented with cryogenic equipment and a purification system, consisting of two purifiers and a piping system.  Figure~\ref{fig:LAPDTankPiping} shows a CAD model of the tank and purification piping.
-
-%% \begin{figure}[ht]
-%%   \centering
-%%   \includegraphics[width=15cm]{LAPDTankPiping.png}
-%%   \caption[LAPD tank and purification system]{The LAPD tank and purification system \cite{LAPD}.  The domed tank on the right, beneath the platform, is the cryostat.  The piping allow the flow of liquid argon into and out of the cryostat and is used as part of the purification system.  Two cylindrical purifiers, visible in the lower left of the figure, remove contaminants from the argon as it is pumped through.  All components of the experiment are discussed in the text.}
-%%   \label{fig:LAPDTankPiping}
-%% \end{figure}
-
-%% Insulation for the tank is provided by fibreglass sheets covering the outer volume which, along with the tank, is refrigerated by liquid nitrogen from an external supply.  There also exist cooling coils near the top of the tank which serve to recondense vapourised argon and feed it back into the tank, via the filtration system.
-
-%% The liquid argon is fed into the tank from outside PC4  The argon purity is maintained through the use of the purifiers, located outside of the main volume.  Argon is constantly circulated from the tank to these vessels through stainless steel pipes.  The filtration system used by LAPD, and subsequently by the 35~ton cryostat, is discussed in greater detail in ection \ref{sec:LAPDFiltration}.
-
-%% \subsection{The LAPD Filtration System}\label{sec:LAPDFiltration}
-
-%% A LArTPC relies on the detection of the drift electrons produced upon ionisation of the argon by a propagating particle.  Electronegative contaminants in the medium jeopardise this process by recombining with the electrons before they can reach the readout electronics.  The phase `electron lifetime' therefore refers to the amount of time that an electron will typically drift along the electron field, and is directly related to the concentration of impurities in the liquid.  Even using a modularised detector, as the DUNE far detector will be, drift lengths on the order of 5 m are realistically required, leading to purity requirements of several milliseconds.  The dominant contaminents which are removed by the LAPD and 35~ton filtration system are oxygen and water.
-
-%% The liquid argon is extracted from near the bottom of the tank and returned to the top after passing through the purifiers.  It first passes through the water filter before continuing on through the oxygen filter.  The water filter comprises a molecular sieve which prevents the propagation of large molecules, such as water.  This purification step must occur first since the proceeding filter also removes water molecules and would therefore be less efficient at removing oxygen if used first.  The oxygen filter consists of a thin activated-copper layer on an alumnia substrate \cite{LArFilter}.  Both filters will lose some functionality over time as they collect more and more impurities and so require `regenerating' in order to remove the contaminants.  This can be done in-situ, as described in \cite{LArFilter}; this complicates the design of the filter but is necessary when considering the purification system required for the full DUNE far detector.
-
-%% The contamination gradient, and associated purities at each stage during the LAPD Phase II run, is shown in figure \ref{fig:LAPDPurity}.  These purities are known through the use of purity monitors; these are the subject of section \ref{sec:PurityMonitoring}.
-
-%% \begin{figure}[ht]
-%%   \centering
-%%   \includegraphics[width=12cm]{LAPDPurity.png}
-%%   \caption[Contaminant gradient in the LAPD tank]{Contaminant gradient in the LAPD tank at different stages of the purification process \cite{LAPD}.  The associated LAr purities, in units of parts-per-billion (ppb) are also shown.}
-%%   \label{fig:LAPDPurity}
-%% \end{figure}
-
-%% \subsection{Purity Monitoring}\label{sec:PurityMonitoring}
-
-%% As discussed in section \ref{sec:LAPDFiltration}, extreme LAr purity is required for the successful readout of ionisation electrons by the electronics.  These purites must be constatly monitored to ensure the high quality of argon necessary during data taking.  Since these impurity concentrations on beyond the capabilities of many conventional gas analysers, a device called a purity monitor is employed.  Such a device is shown schematically in figure \ref{fig:PurityMonitor}.
-
-%% \begin{figure}[ht]
-%%   \centering
-%%   \includegraphics[width=12cm]{PurityMonitor.png}
-%%   \caption[Design of LAPD and 35~ton style purity monitors]{Diagram showing schematically the design of purity monitor used in LAPD, and subsequently the 35~ton experiment \cite{LBNE35tonPhaseI}.  Their use is described in the text.}
-%%   \label{fig:PurityMonitor}
-%% \end{figure}
-
-%% The purity monitors deployed consist of a cylindrical volume, filled with LAr for its surrounding environment.  They contain a photo cathode and an anode, between which lies short drift volume.  When taking purity measurments, light from a Xenon flash lamp is incident on the cathode, liberating photoelectrons which traverse towards the anode.  Electronegative impurities in the LAr will decrease the electron lifetime and therefore the mean number of electrons reaching a certain point along the drift volume.  A measurement of the ratio of the charge arriving at the anode to that at the cathode is hence a measurement of the inherit purity of the liquid.
-
-%% These monitors were placed both in the LAPD tank and just after the filtration system in order to study the purity at different points in the recirculation.  Several gas analysers, measuring nitrogen, oxygen and water contaminants to various levels of accuracy, were also used.  Temperature sensors to measure the vertical temperature profile within the cryostat were necessary to account its effect on the electron drift velocity.
-
-%% Several of the technologies pioneered in LAPD were also used in the 35~ton experiment, as will be shortly discussed.
-
-%% \subsection{LAPD Results}\label{sec:LAPDResults}
-
-%% LAPD successfully demonstrated achieving and maintaining the required LAr purity for a large neutrino detector is possible without the costly and challenging use of evacuation techniques.  It initially ran for six weeks and reached a purity of better than 60 ppt (parts-per-trillion) oxygen equivalent \cite{LAPD}.  The measured electron lifetimes over the course of the run is shown in figure \ref{fig:ElectronLifetimes}.  As can be seen, electron lifetimes of up to 4 ms were reached, which is [put into context with current DUNE requirements!].
-
-%% \begin{figure}[ht]
-%%   \centering
-%%   \includegraphics[width=15cm]{LAPDElectronLifetime.png}
-%%   \caption[]{}
-%%   \label{fig:LAPDElectronLifetime}
-%% \end{figure}
-
-%% This important result has great significance when considering future LArTPC experiments and laid the way for the 35~ton experiment.  This experiment will now be discussed in the subsequent sections.
-
-%% %------------------------------------------------------------------------------------------------------------------------------------------------------------
-%% \section{The 35~ton Cryostat}\label{sec:35tonCryostat}
-
-%% The 35~ton prototype takes advantage of membrane cryostat technology and is the first test of this construction technique for LArTPCs.  Membrane cryostats have been widely used in the liquified natural gas industry for many years but the 35~ton experiment is the first to make use of the technology for liquid argon.  Furthermore, it is the first membrane cryostat to be constructed in the United States and the first to be constructed for scientific purposes \cite{LBNE35tonPhaseIOverview}.  The 35~ton cryostat is the subject of the present section.
-
-%% \subsection{Construction}\label{sec:35tonCryostatConstruction}
-
-%% Boring stuff about cement and shit.
-
-%% \begin{figure}[ht]
-%%   \centering
-%%   \includegraphics[width=15cm]{35tonCryostat.png}
-%%   \caption[The 35~ton cryostat]{The 35~ton cryostat \cite{LBNE35tonPhaseI}.  The cryostat as operated during Phase I is shown on the left and the corresponding version, including a full small-scale detector, used in Phase II is on the right.}
-%%   \label{fig:35tonCryostat}
-%% \end{figure}
-
-%% Cryostat!
-
-%% \subsection{The 35~ton and LAPD}\label{35tonLAPD}
-
-%% It's near LAPD!
-
-%% \begin{figure}[ht]
-%%   \centering
-%%   \includegraphics[width=15cm]{35tonLAPD.png}
-%%   \caption[]{\cite{LBNE35tonPhaseI}.}
-%%   \label{fig:35tonLAPD}
-%% \end{figure}
 
 %% %------------------------------------------------------------------------------------------------------------------------------------------------------------
 %% \section{The 35~ton Detector}\label{sec:35tonDetector}
@@ -272,3 +392,6 @@ The 35~ton consists of a membrane cryostat (Section \ref{sec:35tonCryostat}), de
 %% %% \subsection{Overview of the 35-ton}
 
 %% %% The 35-ton is a
+
+%% %% The 35~ton consists of a membrane cryostat (Section \ref{sec:35tonCryostat}), designed to be filled with 35 metric tons of liquid argon, and a small-scale DUNE-style detector (Section \ref{sec:35tonDetector}) including a TPC and photon detectors.  It was constructed in 2012 at PC4, a former proton facility in a decomissioned beamline, at Fermilab.  The Phase I run, without a detector, took place between December 2013 and February 2014.  Between February 2014 and September 2015 the detector was constructed and heavily tested at FNAL before being installed inside the cryostat ready for the Phase II run.  This took place between February 2016 and April 2016 (offically starting on 11th February, as I type!).
+

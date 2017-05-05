@@ -77,7 +77,12 @@ There are two differing designs of LArTPC: single-phase and dual-phase.  In a si
 
 The readout consists of multiple wire planes with different orientations to facilitate the reconstruction.  The wires are either `induction' wires, which allow the electrons to deposit charge but continue past, or `collection' wires, on which the electric field lines end and all the charge on the electron is collected.  Each wire plane is therefore held at a different `bias voltage' to prevent any field lines ending on the induction wire, thus creating local electric fields which promote the continuing forward motion of the electrons.  The signal seen is therefore dependent on the type of wire plane; a bipolar pulse on an induction plane wire and unipolar on a collection plane wire.  It is also common, though not essential, to make use of a `grid plane' upstream of the signal planes in order to shield them from the electron charge until the drift electrons are close.  Without such a plane, the bipolar pulse would be highly asymmetric, though would still have zero integral.  It also makes changing the drift voltage (controlling the electric field) slightly easier as the signal planes are somewhat shielded from its effects.  MicroBooNE does not operate with a grid plane and, although the 35~ton and the DUNE reference design make use of a grid plane, it is uncertain whether the benefit outweighs the cost for a huge LArTPC detector such as the DUNE far detector.  There are alternative readout possibilities to this typical design which have been suggested but, given the scale of future LArTPCs, it is highly unlikely a viable solution which delivers superior readout at a comparable cost will be found.
 
-Upon ionisation, an electron has a certain probability (around 60\%) of recombining before the field can separate it from its ion.  Whilst this compromises the signal observed, it is accompanied by a flash of scintillation light which may be detected and used to assign an `event time' to the interaction, known as T0.  Without this information, it would be impossible to place an absolute time scale on the event and result in an unresolved coordinate along the drift direction.  The magnitude of the applied electric field must be chosen to balance these two effects; a larger field would result in less recombination and therefore compromise the scintillation light while a smaller field would have consequences on the signal received at the wire planes.  Figure~\ref{fig:ElectricFieldScintillationIonisation} demonstrates this and justifies the field value of 500~V/cm which is often chosen in current LAr neutrino experiments.
+Upon ionisation, an electron has a certain probability (around 60\% at a field of 500~V/cm) of recombining before the field can separate it from its ion.  Whilst this compromises the signal observed, it is accompanied by a flash of scintillation light which may be detected and used to assign an `event time' to the interaction, known as T0.  Without this information, it would be impossible to place an absolute time scale on the event and result in an unresolved coordinate along the drift direction.  Scintillation light in LAr is produced by two mechanisms:
+\begin{align}
+  \label{eq:ScintillationExcitation} \textnormal{Ar} &\rightarrow \textnormal{Ar}^* \rightarrow \textnormal{Ar}_2^* \rightarrow 2~\textnormal{Ar} + \gamma \\
+  \label{eq:ScintillationIonisation} \textnormal{Ar} &\rightarrow \textnormal{Ar}^+ \rightarrow \textnormal{Ar}_2^+ + e^- \rightarrow \textnormal{Ar}_2^* \rightarrow 2~\textnormal{Ar} + \gamma ,
+\end{align}
+where in Equation~\ref{eq:ScintillationExcitation} the argon is excited to a higher energy state and in Equation~\ref{eq:ScintillationIonisation} the argon is ionised.  In the second stage, excited and ionised molecules are formed in the liquid before deexcitation leads to the production of scintialltion light.  The magnitude of the applied electric field must be chosen to balance between ionisation and scintillation; a larger field would result in less recombination and therefore compromise the scintillation light while a smaller field would have consequences on the signal received at the wire planes.  Figure~\ref{fig:ElectricFieldScintillationIonisation} demonstrates this and justifies the field value of 500~V/cm which is often chosen in current LAr neutrino experiments.
 
 \begin{figure}
   \centering
@@ -128,7 +133,11 @@ There is no doubt of the promise of LArTPCs for the future of neutrino physics b
 
 Given the drift fields required, and the necessary distances, the associated high voltage on the cathode must be on the order of $\sim$100~kV.  This presents engineering challenges related to the feedthrough and cryostat design but also can lead to dielectric breakdown of the liquid nearby such huge voltages.  The properties of LAr and the design implications must be very well understood to ensure this does not endanger the quality of the detector medium.
 
-The presence of electro-negative impurities in the argon can capture drift electrons as they travel towards the anode planes and hinder the signal observed.  The probability of this recombination is referred to as the `electron lifetime' and is directly affected by the maintained purity of the argon.  DUNE expects a contamination no greater than 100 ppt O$_2$ and 20 ppm N$_2$ (to also ensure sufficient light yield) \cite{DUNECDR4}.  This necessitates a purification system to remove impurities and requires the constant recirculation of the liquid through it.  A liquifier is also necessary to recondense any boiled-off gases at the surface.
+The presence of electro-negative impurities in the argon can capture drift electrons as they travel towards the anode planes and hinder the signal observed.  The probability of this recombination can be parametrised using an `electron lifetime' $\tau$, defined in
+\begin{equation}\label{eq:ElectronLifetime}
+  Q(t) = Q_0 e^{-t/\tau},
+\end{equation}
+where $Q$ is the collected charge after drift time $t$ and $Q_0$ is the initial charge deposited.  The electron lifetime is directly affected by the maintained purity of the argon; DUNE expects a contamination no greater than 100 ppt O$_2$ and 20 ppm N$_2$ (to also ensure sufficient light yield) \cite{DUNECDR4}.  This necessitates a purification system to remove impurities and requires the constant recirculation of the liquid through it.  A liquifier is also necessary to recondense any boiled-off gases at the surface.
 
 Along with the possibility of lost signal through finite electron lifetimes, the electrons may also undergo interactions and drift off course either transversely or longitudinally.  This `diffusion' affects the location and size of the observed signal so must also be well understood.
 
@@ -458,8 +467,8 @@ The first prototype to test many of the design features of the DUNE far detector
 
 \begin{figure}
   \centering
-  \includegraphics[width=8cm]{35ton.png}
-  \caption[The 35~ton cryostat and detector designed to prototype the DUNE far detector design.]{{\color{red}Will replace this will a better image when I write the 35ton chapter.} The 35~ton cryostat and detector designed to prototype the DUNE far detector design.}
+  \includegraphics[width=10cm]{35ton.pdf}
+  \caption[The 35~ton cryostat and detector designed to prototype the DUNE far detector design.]{The 35~ton cryostat and detector designed to prototype the DUNE far detector design \cite{35tonPhaseINeutrino2014}.}
   \label{fig:DUNE35ton}
 \end{figure}
 
