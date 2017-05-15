@@ -144,6 +144,66 @@ thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/35tonLiquidFilli
 -include 35ton/Figs/35tonPhaseIElectronLifetime.pdf.gpi.d
 thesis.d: $$(call graphics-source,35ton/Figs/35tonPhaseIElectronLifetime.pdf)
 thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/35tonPhaseIElectronLifetime.pdf)
+-include 35ton/Figs/35tonDetector.pdf.gpi.d
+thesis.d: $$(call graphics-source,35ton/Figs/35tonDetector.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/35tonDetector.pdf)
+-include 35ton/Figs/35tonPhoto.jpg.gpi.d
+thesis.d: $$(call graphics-source,35ton/Figs/35tonPhoto.jpg)
+thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/35tonPhoto.jpg)
+-include 35ton/Figs/35tonGeometry.png.gpi.d
+thesis.d: $$(call graphics-source,35ton/Figs/35tonGeometry.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/35tonGeometry.png)
+-include 35ton/Figs/35tonPhotonDetectors.pdf.gpi.d
+thesis.d: $$(call graphics-source,35ton/Figs/35tonPhotonDetectors.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/35tonPhotonDetectors.pdf)
+-include 35ton/Figs/35tonExternalCounters.png.gpi.d
+thesis.d: $$(call graphics-source,35ton/Figs/35tonExternalCounters.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/35tonExternalCounters.png)
+-include 35ton/Figs/35tonCamerasImages.pdf.gpi.d
+thesis.d: $$(call graphics-source,35ton/Figs/35tonCamerasImages.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/35tonCamerasImages.pdf)
+-include 35ton/Figs/35tonCameraPhoto.pdf.gpi.d
+thesis.d: $$(call graphics-source,35ton/Figs/35tonCameraPhoto.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/35tonCameraPhoto.pdf)
+-include 35ton/Figs/35tonCameraSchematic.pdf.gpi.d
+thesis.d: $$(call graphics-source,35ton/Figs/35tonCameraSchematic.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/35tonCameraSchematic.pdf)
+-include 35ton/Figs/35tonCameraMounted.pdf.gpi.d
+thesis.d: $$(call graphics-source,35ton/Figs/35tonCameraMounted.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/35tonCameraMounted.pdf)
+-include 35ton/Figs/35tonCameraDiagram.pdf.gpi.d
+thesis.d: $$(call graphics-source,35ton/Figs/35tonCameraDiagram.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/35tonCameraDiagram.pdf)
+-include 35ton/Figs/35tonCamerasDegredation.pdf.gpi.d
+thesis.d: $$(call graphics-source,35ton/Figs/35tonCamerasDegredation.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/35tonCamerasDegredation.pdf)
+-include 35ton/Figs/35tonPipeBreak.png.gpi.d
+thesis.d: $$(call graphics-source,35ton/Figs/35tonPipeBreak.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/35tonPipeBreak.png)
+-include 35ton/Figs/35tonPhaseIIData.png.gpi.d
+thesis.d: $$(call graphics-source,35ton/Figs/35tonPhaseIIData.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/35tonPhaseIIData.png)
+-include 35ton/Figs/FamousShower.png.gpi.d
+thesis.d: $$(call graphics-source,35ton/Figs/FamousShower.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/FamousShower.png)
+-include 35ton/Figs/35tonPhotonDetectorsResolution.pdf.gpi.d
+thesis.d: $$(call graphics-source,35ton/Figs/35tonPhotonDetectorsResolution.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/35tonPhotonDetectorsResolution.pdf)
+-include 35ton/Figs/35tonPhotonDetectorsAttenuation.pdf.gpi.d
+thesis.d: $$(call graphics-source,35ton/Figs/35tonPhotonDetectorsAttenuation.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/35tonPhotonDetectorsAttenuation.pdf)
+-include 35ton/Figs/DataMuonCombined.png.gpi.d
+thesis.d: $$(call graphics-source,35ton/Figs/DataMuonCombined.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/DataMuonCombined.png)
+-include 35ton/Figs/FFTRun13079.png.gpi.d
+thesis.d: $$(call graphics-source,35ton/Figs/FFTRun13079.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/FFTRun13079.png)
+-include 35ton/Figs/FFTRun10286.png.gpi.d
+thesis.d: $$(call graphics-source,35ton/Figs/FFTRun10286.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/FFTRun10286.png)
+-include 35ton/Figs/NoiseCorrelation-eps-converted-to.pdf.gpi.d
+thesis.d: $$(call graphics-source,35ton/Figs/NoiseCorrelation-eps-converted-to.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/NoiseCorrelation-eps-converted-to.pdf)
 -include 35tonAnalysis/Figs/DataRMSGood.pdf.gpi.d
 thesis.d: $$(call graphics-source,35tonAnalysis/Figs/DataRMSGood.pdf)
 thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/DataRMSGood.pdf)

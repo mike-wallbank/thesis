@@ -18,6 +18,10 @@ The style file: andyisgreat.bst
 A level-1 auxiliary file: Appendix1/appendix1.aux
 A level-1 auxiliary file: Appendix2/appendix2.aux
 Database file #1: References/references.bib
+Repeated entry---line 460 of file References/references.bib
+ : @misc{Alion2014
+ :                ,
+I'm skipping whatever remains of this entry
 Reallocated buffer (elt_size=1) to 40000 items from 20000.
 Reallocated sv_buffer (elt_size=1) to 40000 items from 20000.
 Reallocated ex_buf (elt_size=1) to 40000 items from 20000.
@@ -31,18 +35,18 @@ Reallocated out_buf (elt_size=1) to 60000 items from 40000.
 Reallocated name_tok (elt_size=4) to 60000 items from 40000.
 Reallocated name_sep_char (elt_size=1) to 60000 items from 40000.
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-Repeated entry---line 773 of file References/references.bib
- : @article{Baller2014
- :                    ,
-I'm skipping whatever remains of this entry
+Reallocated str_pool (elt_size=1) to 195000 items from 130000.
+Reallocated str_pool (elt_size=1) to 260000 items from 195000.
 Reallocated buffer (elt_size=1) to 80000 items from 60000.
 Reallocated sv_buffer (elt_size=1) to 80000 items from 60000.
 Reallocated ex_buf (elt_size=1) to 80000 items from 60000.
 Reallocated out_buf (elt_size=1) to 80000 items from 60000.
 Reallocated name_tok (elt_size=4) to 80000 items from 60000.
 Reallocated name_sep_char (elt_size=1) to 80000 items from 60000.
-Reallocated str_pool (elt_size=1) to 195000 items from 130000.
-Reallocated str_pool (elt_size=1) to 260000 items from 195000.
+Repeated entry---line 2273 of file References/references.bib
+ : @article{Baller2014
+ :                    ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for ""
 You can't pop an empty literal stack for entry Weinberg1967
 while executing---line 953 of file andyisgreat.bst
@@ -122,45 +126,48 @@ Warning--empty journal in WA105
 Warning--empty journal in MTS2006
 You can't pop an empty literal stack for entry ICARUS2006
 while executing---line 953 of file andyisgreat.bst
-You've used 125 entries,
+Warning--empty journal in Alion2014
+Warning--empty year in 35tonPhotonDetectors
+Warning--empty journal in LZCDR2015
+You've used 133 entries,
             1813 wiz_defined-function locations,
-            1248 strings with 256342 characters,
-and the built_in function-call counts, 27076 in all, are:
-= -- 2565
-> -- 991
-< -- 4
-+ -- 450
-- -- 225
-* -- 1887
-:= -- 4316
-add.period$ -- 369
-call.type$ -- 125
-change.case$ -- 123
+            1286 strings with 257463 characters,
+and the built_in function-call counts, 28374 in all, are:
+= -- 2673
+> -- 1037
+< -- 5
++ -- 472
+- -- 235
+* -- 1946
+:= -- 4506
+add.period$ -- 388
+call.type$ -- 133
+change.case$ -- 131
 chr.to.int$ -- 0
-cite$ -- 137
-duplicate$ -- 1119
-empty$ -- 2734
-format.name$ -- 225
-if$ -- 5961
+cite$ -- 148
+duplicate$ -- 1182
+empty$ -- 2885
+format.name$ -- 235
+if$ -- 6261
 int.to.chr$ -- 0
-int.to.str$ -- 125
-missing$ -- 119
-newline$ -- 622
-num.names$ -- 125
-pop$ -- 250
+int.to.str$ -- 133
+missing$ -- 124
+newline$ -- 657
+num.names$ -- 131
+pop$ -- 291
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 527
+skip$ -- 568
 stack$ -- 0
-substring$ -- 2159
-swap$ -- 139
-text.length$ -- 4
+substring$ -- 2211
+swap$ -- 150
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 12
-while$ -- 293
-width$ -- 128
-write$ -- 1341
-(There were 34 error messages)
+warning$ -- 15
+while$ -- 304
+width$ -- 136
+write$ -- 1411
+(There were 35 error messages)
