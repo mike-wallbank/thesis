@@ -9,11 +9,7 @@ A level-1 auxiliary file: Introduction/Introduction.aux
 A level-1 auxiliary file: NeutrinoPhysics/NeutrinoPhysics.aux
 A level-1 auxiliary file: DUNE/DUNE.aux
 A level-1 auxiliary file: 35ton/35ton.aux
-I couldn't open auxiliary file LArTPCReconstruction/LArTPCReconstruction.aux
----line 28 of file thesis.aux
- : \@input{LArTPCReconstruction/LArTPCReconstruction.aux
- :                                                      }
-I'm skipping whatever remains of this command
+A level-1 auxiliary file: LArTPCReconstruction/LArTPCReconstruction.aux
 A level-1 auxiliary file: OnlineMonitoring/OnlineMonitoring.aux
 A level-1 auxiliary file: 35tonAnalysis/35tonAnalysis.aux
 A level-1 auxiliary file: FarDetectorAnalysis/FarDetectorAnalysis.aux
@@ -47,12 +43,15 @@ Reallocated out_buf (elt_size=1) to 80000 items from 60000.
 Reallocated name_tok (elt_size=4) to 80000 items from 60000.
 Reallocated name_sep_char (elt_size=1) to 80000 items from 60000.
 Reallocated str_pool (elt_size=1) to 260000 items from 195000.
-You can't pop an empty literal stack for entry Weinberg1967
+You can't pop an empty literal stack for entry SuperKamiokande1998
 while executing---line 953 of file andyisgreat.bst
 Reallocated str_pool (elt_size=1) to 325000 items from 260000.
-You can't pop an empty literal stack for entry Aad2012
+Warning--empty journal in DUNECDR3
+Warning--empty journal in DUNECDR2
+Warning--empty journal in DUNECDR1
+You can't pop an empty literal stack for entry Weinberg1967
 while executing---line 953 of file andyisgreat.bst
-You can't pop an empty literal stack for entry SuperKamiokande1998
+You can't pop an empty literal stack for entry Aad2012
 while executing---line 953 of file andyisgreat.bst
 You can't pop an empty literal stack for entry SNO2002
 while executing---line 953 of file andyisgreat.bst
@@ -80,7 +79,6 @@ You can't pop an empty literal stack for entry KamLAND2003
 while executing---line 953 of file andyisgreat.bst
 You can't pop an empty literal stack for entry KamLAND2005
 while executing---line 953 of file andyisgreat.bst
-Warning--empty journal in DUNECDR1
 You can't pop an empty literal stack for entry Sage2009
 while executing---line 953 of file andyisgreat.bst
 You can't pop an empty literal stack for entry SNO2013
@@ -111,8 +109,6 @@ You can't pop an empty literal stack for entry T2K2017
 while executing---line 953 of file andyisgreat.bst
 You can't pop an empty literal stack for entry Triotsk2011
 while executing---line 953 of file andyisgreat.bst
-Warning--empty journal in DUNECDR2
-Warning--empty journal in DUNECDR3
 Warning--empty journal in DUNECDR4
 Warning--empty journal in LArIAT2014
 Warning--empty institution in PIPII2013
@@ -177,4 +173,4 @@ warning$ -- 16
 while$ -- 320
 width$ -- 144
 write$ -- 1495
-(There were 38 error messages)
+(There were 37 error messages)
