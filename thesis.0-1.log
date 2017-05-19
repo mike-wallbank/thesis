@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  18 MAY 2017 17:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  19 MAY 2017 15:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1229,34 +1229,64 @@ Normal \count register pool exhausted, switching to extended pool.
 Package: translator 2010/06/12 ver 1.10
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/beamer/translator/translator-lang
-uage-mappings.tex)))) (./thesis-info.tex)
-No file thesis.aux.
+uage-mappings.tex)))) (./thesis-info.tex) (./thesis.aux (./Dedication/dedicatio
+n.aux) (./Declaration/declaration.aux) (./Acknowledgements/acknowledgements.aux
+) (./Abstract/abstract.aux) (./Introduction/Introduction.aux) (./NeutrinoPhysic
+s/NeutrinoPhysics.aux) (./DUNE/DUNE.aux) (./35ton/35ton.aux)
+No file LArTPCReconstruction/LArTPCReconstruction.aux.
+(./OnlineMonitoring/OnlineMonitoring.aux) (./35tonAnalysis/35tonAnalysis.aux
+
+LaTeX Warning: Label `eq:ElectronLifetime' multiply defined.
+
+
+LaTeX Warning: Label `fig:APAGapMCZOffset' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:APAGapMCZOffset' multiply defined.
+
+
+LaTeX Warning: Label `fig:APAGapMCXOffsetZOffset' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:APAGapMCXOffsetZOffset' multiply defined.
+
+
+LaTeX Warning: Label `fig:APAGapMCXOffsetZOffsetAngle' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:APAGapMCXOffsetZOffsetAngle' multiply defined.
+
+
+LaTeX Warning: Label `fig:APAGapMC' multiply defined.
+
+) (./FarDetectorAnalysis/FarDetectorAnalysis.aux) (./Summary/Summary.aux) (./Ap
+pendix1/appendix1.aux) (./Appendix2/appendix2.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 113.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 113.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 114.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 114.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 113.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 114.
+LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 114.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ) (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -1273,7 +1303,7 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 \makeMPintoPDFobject=\count288
 \everyMPtoPDFconversion=\toks29
 )
-LaTeX Info: Redefining \microtypecontext on input line 113.
+LaTeX Info: Redefining \microtypecontext on input line 114.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1287,7 +1317,7 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 \AtBeginShipoutBox=\box51
-Package hyperref Info: Link coloring ON on input line 113.
+Package hyperref Info: Link coloring ON on input line 114.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -1295,9 +1325,10 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count289
 )
-LaTeX Info: Redefining \ref on input line 113.
-LaTeX Info: Redefining \pageref on input line 113.
-LaTeX Info: Redefining \nameref on input line 113.
+LaTeX Info: Redefining \ref on input line 114.
+LaTeX Info: Redefining \pageref on input line 114.
+LaTeX Info: Redefining \nameref on input line 114.
+(./thesis.out) (./thesis.out)
 \@outlinefile=\write5
 \openout5 = `thesis.out'.
 
@@ -1350,7 +1381,7 @@ File: siunitx-abbreviations.cfg 2013/07/31 v2.5s siunitx: Abbreviated units
 )
 \c__siunitx_mathsf_int=\count290
 LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 11
-3.
+4.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
@@ -1359,31 +1390,31 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 11
-3.
+4.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 11
-3.
+4.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 11
-3.
+4.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 113.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 114.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 113.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 114.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 113.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 114.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 113.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 114.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 ) (/usr/local/texlive/2014/texmf-dist/tex/latex/microtype/mt-msb.cfg
@@ -1398,685 +1429,176 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-No file thesis.nls.
+(./thesis.nls) [10
+
+
+
+
+
+
+
+]
 \openout2 = `35ton/35ton.aux'.
 
-(./35ton/35ton.tex
-Chapter 1.
+(./35ton/35ton.tex [56
+
+
+
+
+
+]
+Chapter 4.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 7.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 9.
-
-LaTeX Warning: Reference `sec:RoadToDUNE' on page 1 undefined on input line 9.
-
-
-LaTeX Warning: Reference `sec:LArTPC' on page 1 undefined on input line 11.
-
 LaTeX Font Info:    Try loading font information for TS1+ptm on input line 15.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-
-LaTeX Warning: Reference `sec:MTSLAPD' on page 1 undefined on input line 20.
-
-
-LaTeX Warning: Reference `sec:35tonPhaseI' on page 1 undefined on input line 20
-.
-
-
-LaTeX Warning: Reference `sec:35tonPhaseII' on page 1 undefined on input line 2
-0.
-
-
-LaTeX Warning: Reference `sec:35tonSummary' on page 1 undefined on input line 2
-0.
-
-[1
-
-
-
-
-
-
-
-
-
-
-
-
-{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+) [57{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 23.
-
-LaTeX Warning: Reference `sec:FarDetector' on page 2 undefined on input line 25
-.
-
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 28.
-
-Package natbib Warning: Citation `MTS2006' on page 2 undefined on input line 30
-.
-
-
-Package natbib Warning: Citation `MTS2009a' on page 2 undefined on input line 3
-0.
-
-
-Package natbib Warning: Citation `MTS2009b' on page 2 undefined on input line 3
-0.
-
-
-Package natbib Warning: Citation `MTS2011' on page 2 undefined on input line 30
-.
-
-
-LaTeX Warning: Reference `fig:MTS' on page 2 undefined on input line 30.
-
-
-Package natbib Warning: Citation `ICARUS1993b' on page 2 undefined on input lin
-e 30.
-
-
-Package natbib Warning: Citation `ICARUS1993a' on page 2 undefined on input lin
-e 34.
-
-
-Package natbib Warning: Citation `ICARUS2006' on page 2 undefined on input line
- 34.
-
-<35ton/Figs/MTS.pdf, id=12, 404.51125pt x 317.185pt>
+<35ton/Figs/MTS.pdf, id=174, 404.51125pt x 317.185pt>
 File: 35ton/Figs/MTS.pdf Graphic file (type pdf)
 <use 35ton/Figs/MTS.pdf>
 Package pdftex.def Info: 35ton/Figs/MTS.pdf used on input line 38.
 (pdftex.def)             Requested size: 398.33858pt x 312.34918pt.
-
-Package natbib Warning: Citation `MTS2009b' on page 2 undefined on input line 3
-9.
-
-
-Package natbib Warning: Citation `MTS2009b' on page 2 undefined on input line 3
-9.
-
-
-LaTeX Warning: Reference `fig:MTSResults' on page 2 undefined on input line 43.
-
-
-[2] [3 <./35ton/Figs/MTS.pdf>] <35ton/Figs/MTSResults.pdf, id=49, 393.1278pt x 
-223.17126pt>
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 44.
+[58] [59 <./35ton/Figs/MTS.pdf>] <35ton/Figs/MTSResults.pdf, id=221, 393.1278pt
+ x 223.17126pt>
 File: 35ton/Figs/MTSResults.pdf Graphic file (type pdf)
 <use 35ton/Figs/MTSResults.pdf>
 Package pdftex.def Info: 35ton/Figs/MTSResults.pdf used on input line 47.
 (pdftex.def)             Requested size: 341.43306pt x 193.8237pt.
-
-Package natbib Warning: Citation `MTS2009a' on page 4 undefined on input line 4
-8.
-
-
-Package natbib Warning: Citation `MTS2009a' on page 4 undefined on input line 4
-8.
-
-
-Package natbib Warning: Citation `ICARUSPurityMonitor' on page 4 undefined on i
-nput line 64.
-
-
-LaTeX Warning: Reference `fig:PurityMonitor' on page 4 undefined on input line 
-64.
-
-[4 <./35ton/Figs/MTSResults.pdf>] <35ton/Figs/PurityMonitor.png, id=90, 427.597
-5pt x 232.87pt>
+[60 <./35ton/Figs/MTSResults.pdf>] <35ton/Figs/PurityMonitor.png, id=266, 427.5
+975pt x 232.87pt>
 File: 35ton/Figs/PurityMonitor.png Graphic file (type png)
 <use 35ton/Figs/PurityMonitor.png>
 Package pdftex.def Info: 35ton/Figs/PurityMonitor.png used on input line 68.
 (pdftex.def)             Requested size: 284.52756pt x 154.95253pt.
-
-Package natbib Warning: Citation `ICARUSPurityMonitor' on page 5 undefined on i
-nput line 69.
-
-
-LaTeX Warning: Reference `sec:LAPD' on page 5 undefined on input line 69.
-
-
-LaTeX Warning: Reference `sec:35tonPhaseI' on page 5 undefined on input line 69
-.
-
-
-LaTeX Warning: Reference `sec:35tonPhaseII' on page 5 undefined on input line 6
-9.
-
-
-Package natbib Warning: Citation `ICARUSPurityMonitor' on page 5 undefined on i
-nput line 69.
-
-
-LaTeX Warning: Reference `sec:LAPD' on page 5 undefined on input line 69.
-
-
-LaTeX Warning: Reference `sec:35tonPhaseI' on page 5 undefined on input line 69
-.
-
-
-LaTeX Warning: Reference `sec:35tonPhaseII' on page 5 undefined on input line 6
-9.
-
-
-Package natbib Warning: Citation `MTS2011' on page 5 undefined on input line 80
-.
-
-
-Package natbib Warning: Citation `LAPD2014' on page 5 undefined on input line 8
-0.
-
-
-Package natbib Warning: Citation `LAPDJINST2014' on page 5 undefined on input l
-ine 80.
-
-[5 <./35ton/Figs/PurityMonitor.png>]
-
-LaTeX Warning: Reference `fig:LAPD' on page 6 undefined on input line 87.
-
-<35ton/Figs/LAPD.pdf, id=100, 185.69376pt x 211.79124pt>
+[61 <./35ton/Figs/PurityMonitor.png>] <35ton/Figs/LAPD.pdf, id=294, 185.69376pt
+ x 211.79124pt>
 File: 35ton/Figs/LAPD.pdf Graphic file (type pdf)
 <use 35ton/Figs/LAPD.pdf>
 Package pdftex.def Info: 35ton/Figs/LAPD.pdf used on input line 93.
 (pdftex.def)             Requested size: 284.52756pt x 324.52429pt.
-
-Package natbib Warning: Citation `LAPDJINST2014' on page 6 undefined on input l
-ine 94.
-
-
-LaTeX Warning: Reference `sec:MTS' on page 6 undefined on input line 94.
-
-
-Package natbib Warning: Citation `LAPDJINST2014' on page 6 undefined on input l
-ine 94.
-
-
-LaTeX Warning: Reference `sec:MTS' on page 6 undefined on input line 94.
-
-
-LaTeX Warning: Reference `fig:LAPDPistonPurgeSchematic' on page 6 undefined on 
-input line 101.
-
-
-LaTeX Warning: Reference `fig:LAPDPistonPurgeImpurities' on page 6 undefined on
- input line 101.
-
-[6] [7 <./35ton/Figs/LAPD.pdf>]
+[62] [63 <./35ton/Figs/LAPD.pdf>]
 \largestimage=\box52
-<35ton/Figs/LAPDPistonPurgeSchematic.pdf, id=151, 274.40828pt x 254.93634pt>
+<35ton/Figs/LAPDPistonPurgeSchematic.pdf, id=351, 274.40828pt x 254.93634pt>
 File: 35ton/Figs/LAPDPistonPurgeSchematic.pdf Graphic file (type pdf)
 <use 35ton/Figs/LAPDPistonPurgeSchematic.pdf>
 Package pdftex.def Info: 35ton/Figs/LAPDPistonPurgeSchematic.pdf used on input 
 line 111.
 (pdftex.def)             Requested size: 214.35501pt x 199.14517pt.
-<35ton/Figs/LAPDPistonPurgeImpurities.pdf, id=152, 424.58624pt x 121.45375pt>
+<35ton/Figs/LAPDPistonPurgeImpurities.pdf, id=352, 424.58624pt x 121.45375pt>
 File: 35ton/Figs/LAPDPistonPurgeImpurities.pdf Graphic file (type pdf)
 <use 35ton/Figs/LAPDPistonPurgeImpurities.pdf>
 Package pdftex.def Info: 35ton/Figs/LAPDPistonPurgeImpurities.pdf used on input
  line 117.
 (pdftex.def)             Requested size: 300.09569pt x 85.84727pt.
-
-Package natbib Warning: Citation `LAPDJINST2014' on page 8 undefined on input l
-ine 122.
-
-
-Package natbib Warning: Citation `LAPDJINST2014' on page 8 undefined on input l
-ine 122.
-
-
-LaTeX Warning: Reference `fig:LAPDGasCirculation' on page 8 undefined on input 
-line 126.
-
-[8 <./35ton/Figs/LAPDPistonPurgeSchematic.pdf> <./35ton/Figs/LAPDPistonPurgeImp
-urities.pdf>] <35ton/Figs/LAPDGasCirculation.pdf, id=273, 430.60875pt x 123.461
-24pt>
+[64 <./35ton/Figs/LAPDPistonPurgeSchematic.pdf> <./35ton/Figs/LAPDPistonPurgeIm
+purities.pdf>] <35ton/Figs/LAPDGasCirculation.pdf, id=475, 430.60875pt x 123.46
+124pt>
 File: 35ton/Figs/LAPDGasCirculation.pdf Graphic file (type pdf)
 <use 35ton/Figs/LAPDGasCirculation.pdf>
 Package pdftex.def Info: 35ton/Figs/LAPDGasCirculation.pdf used on input line 1
 30.
 (pdftex.def)             Requested size: 306.22144pt x 87.79936pt.
-
-Package natbib Warning: Citation `LAPDJINST2014' on page 9 undefined on input l
-ine 131.
-
-
-Package natbib Warning: Citation `LAPDJINST2014' on page 9 undefined on input l
-ine 131.
-
-
-LaTeX Warning: Reference `fig:LAPDLiquidCirculation' on page 9 undefined on inp
-ut line 135.
-
-<35ton/Figs/LAPDLiquidCirculation.pdf, id=274, 597.23125pt x 505.26857pt>
+<35ton/Figs/LAPDLiquidCirculation.pdf, id=479, 597.23125pt x 505.26857pt>
 File: 35ton/Figs/LAPDLiquidCirculation.pdf Graphic file (type pdf)
 <use 35ton/Figs/LAPDLiquidCirculation.pdf>
 Package pdftex.def Info: 35ton/Figs/LAPDLiquidCirculation.pdf used on input lin
 e 139.
 (pdftex.def)             Requested size: 284.52756pt x 240.71436pt.
-
-Package natbib Warning: Citation `LAPD2014' on page 9 undefined on input line 1
-40.
-
-
-Package natbib Warning: Citation `MTS2009a' on page 9 undefined on input line 1
-40.
-
-
-Package natbib Warning: Citation `LAPD2014' on page 9 undefined on input line 1
-40.
-
-
-Package natbib Warning: Citation `MTS2009a' on page 9 undefined on input line 1
-40.
-
-
-LaTeX Warning: Reference `fig:LAPDElectronLifetime' on page 9 undefined on inpu
-t line 147.
-
-<35ton/Figs/LAPDElectronLifetime.png, id=275, 693.59125pt x 290.08376pt>
+<35ton/Figs/LAPDElectronLifetime.png, id=485, 693.59125pt x 290.08376pt>
 File: 35ton/Figs/LAPDElectronLifetime.png Graphic file (type png)
 <use 35ton/Figs/LAPDElectronLifetime.png>
 Package pdftex.def Info: 35ton/Figs/LAPDElectronLifetime.png used on input line
  151.
 (pdftex.def)             Requested size: 341.43306pt x 142.80179pt.
-
-Package natbib Warning: Citation `LAPD2014' on page 9 undefined on input line 1
-52.
-
-
-Package natbib Warning: Citation `LAPD2014' on page 9 undefined on input line 1
-52.
-
-
-Package natbib Warning: Citation `LongBo2015' on page 9 undefined on input line
- 159.
-
-
-LaTeX Warning: Reference `fig:LongBo' on page 9 undefined on input line 159.
-
-<35ton/Figs/LongBo.pdf, id=276, 220.825pt x 273.02pt>
+<35ton/Figs/LongBo.pdf, id=490, 220.825pt x 273.02pt>
 File: 35ton/Figs/LongBo.pdf Graphic file (type pdf)
 <use 35ton/Figs/LongBo.pdf>
 Package pdftex.def Info: 35ton/Figs/LongBo.pdf used on input line 163.
 (pdftex.def)             Requested size: 227.62204pt x 281.4387pt.
-
-Package natbib Warning: Citation `LongBo2015' on page 9 undefined on input line
- 164.
-
-
-Package natbib Warning: Citation `LongBo2015' on page 9 undefined on input line
- 164.
-
-[9 <./35ton/Figs/LAPDGasCirculation.pdf>] [10 <./35ton/Figs/LAPDLiquidCirculati
-on.pdf>]
-
-LaTeX Warning: Reference `eq:ElectronLifetime' on page 11 undefined on input li
-ne 170.
-
-
-LaTeX Warning: Reference `fig:LongBoPurity' on page 11 undefined on input line 
-170.
-
-<35ton/Figs/LongBoPurity.pdf, id=361, 407.5225pt x 114.4275pt>
+[65 <./35ton/Figs/LAPDGasCirculation.pdf>] [66 <./35ton/Figs/LAPDLiquidCirculat
+ion.pdf>] <35ton/Figs/LongBoPurity.pdf, id=581, 407.5225pt x 114.4275pt>
 File: 35ton/Figs/LongBoPurity.pdf Graphic file (type pdf)
 <use 35ton/Figs/LongBoPurity.pdf>
 Package pdftex.def Info: 35ton/Figs/LongBoPurity.pdf used on input line 174.
 (pdftex.def)             Requested size: 398.33858pt x 111.85358pt.
-
-Package natbib Warning: Citation `LongBo2015' on page 11 undefined on input lin
-e 175.
-
-
-Package natbib Warning: Citation `LongBo2015' on page 11 undefined on input lin
-e 175.
-
-
-LaTeX Warning: Reference `sec:LAPD' on page 11 undefined on input line 182.
-
-
-Package natbib Warning: Citation `35tonPhaseI2014Cryostat' on page 11 undefined
- on input line 182.
-
-
-Package natbib Warning: Citation `35tonPhaseI2014' on page 11 undefined on inpu
-t line 182.
-
-
-Package natbib Warning: Citation `35tonPhaseI2015' on page 11 undefined on inpu
-t line 182.
-
-[11 <./35ton/Figs/LAPDElectronLifetime.png>] [12 <./35ton/Figs/LongBo.pdf> <./3
-5ton/Figs/LongBoPurity.pdf>]
-
-LaTeX Warning: Reference `sec:35tonPhaseI' on page 13 undefined on input line 1
-84.
-
-
-LaTeX Warning: Reference `sec:35tonPhaseII' on page 13 undefined on input line 
-184.
-
-
-LaTeX Warning: Reference `sec:35tonCryostat' on page 13 undefined on input line
- 186.
-
-
-LaTeX Warning: Reference `sec:35tonFilling' on page 13 undefined on input line 
-186.
-
-
-LaTeX Warning: Reference `sec:35tonPhaseIOutcomes' on page 13 undefined on inpu
-t line 186.
-
-
-LaTeX Warning: Reference `fig:35tonCryostat' on page 13 undefined on input line
- 191.
-
-
-LaTeX Warning: Reference `tab:35tonCryostat' on page 13 undefined on input line
- 191.
-
-<35ton/Figs/35tonCryostat.pdf, id=452, 280.10849pt x 220.06396pt>
+[67 <./35ton/Figs/LAPDElectronLifetime.png>] [68 <./35ton/Figs/LongBo.pdf> <./3
+5ton/Figs/LongBoPurity.pdf>] <35ton/Figs/35tonCryostat.pdf, id=684, 280.10849pt
+ x 220.06396pt>
 File: 35ton/Figs/35tonCryostat.pdf Graphic file (type pdf)
 <use 35ton/Figs/35tonCryostat.pdf>
 Package pdftex.def Info: 35ton/Figs/35tonCryostat.pdf used on input line 195.
 (pdftex.def)             Requested size: 284.52756pt x 223.54555pt.
-
-Package natbib Warning: Citation `35tonPhaseI2015' on page 13 undefined on inpu
-t line 196.
-
-
-Package natbib Warning: Citation `35tonPhaseI2015' on page 13 undefined on inpu
-t line 196.
-
-
-Package natbib Warning: Citation `35tonPhaseI2015' on page 13 undefined on inpu
-t line 201.
-
-
-Package natbib Warning: Citation `35tonPhaseI2015' on page 13 undefined on inpu
-t line 201.
-
-
-LaTeX Warning: Reference `fig:35tonLAPD' on page 13 undefined on input line 226
-.
-
-<35ton/Figs/35tonLAPD.pdf, id=453, 845.1575pt x 344.74667pt>
+<35ton/Figs/35tonLAPD.pdf, id=690, 845.1575pt x 344.74667pt>
 File: 35ton/Figs/35tonLAPD.pdf Graphic file (type pdf)
 <use 35ton/Figs/35tonLAPD.pdf>
 Package pdftex.def Info: 35ton/Figs/35tonLAPD.pdf used on input line 230.
 (pdftex.def)             Requested size: 398.33858pt x 162.48862pt.
-
-Package natbib Warning: Citation `35tonPhaseI2014' on page 13 undefined on inpu
-t line 231.
-
-
-Package natbib Warning: Citation `35tonPhaseI2014' on page 13 undefined on inpu
-t line 231.
-
-[13] [14 <./35ton/Figs/35tonCryostat.pdf>]
-
-LaTeX Warning: Reference `sec:FillingLAPD' on page 15 undefined on input line 2
-40.
-
-
-LaTeX Warning: Reference `fig:35tonGasFilling' on page 15 undefined on input li
-ne 240.
-
-
-LaTeX Warning: Reference `fig:35tonLiquidFilling' on page 15 undefined on input
- line 240.
-
-<35ton/Figs/35tonGasFilling.pdf, id=509, 228.11304pt x 141.38953pt>
+[69] [70 <./35ton/Figs/35tonCryostat.pdf>] <35ton/Figs/35tonGasFilling.pdf, id=
+752, 228.11304pt x 141.38953pt>
 File: 35ton/Figs/35tonGasFilling.pdf Graphic file (type pdf)
 <use 35ton/Figs/35tonGasFilling.pdf>
 Package pdftex.def Info: 35ton/Figs/35tonGasFilling.pdf used on input line 246.
 
 (pdftex.def)             Requested size: 205.77896pt x 127.5471pt.
-<35ton/Figs/35tonLiquidFilling.pdf, id=510, 470.38976pt x 299.54509pt>
+<35ton/Figs/35tonLiquidFilling.pdf, id=753, 470.38976pt x 299.54509pt>
 File: 35ton/Figs/35tonLiquidFilling.pdf Graphic file (type pdf)
 <use 35ton/Figs/35tonLiquidFilling.pdf>
 Package pdftex.def Info: 35ton/Figs/35tonLiquidFilling.pdf used on input line 2
 53.
 (pdftex.def)             Requested size: 205.77896pt x 131.0415pt.
-
-Package natbib Warning: Citation `35tonPhaseI2015' on page 15 undefined on inpu
-t line 257.
-
-
-LaTeX Warning: Reference `fig:35tonGasFilling' on page 15 undefined on input li
-ne 257.
-
-
-LaTeX Warning: Reference `fig:35tonLiquidFilling' on page 15 undefined on input
- line 257.
-
-
-Package natbib Warning: Citation `35tonPhaseI2015' on page 15 undefined on inpu
-t line 257.
-
-
-LaTeX Warning: Reference `fig:35tonGasFilling' on page 15 undefined on input li
-ne 257.
-
-
-LaTeX Warning: Reference `fig:35tonLiquidFilling' on page 15 undefined on input
- line 257.
-
-
-LaTeX Warning: Reference `fig:35tonPhaseIElectronLifetime' on page 15 undefined
- on input line 264.
-
-[15 <./35ton/Figs/35tonLAPD.pdf, page is rotated 270 degrees>]
-<35ton/Figs/35tonPhaseIElectronLifetime.pdf, id=721, 931.17857pt x 568.95894pt>
+[71 <./35ton/Figs/35tonLAPD.pdf, page is rotated 270 degrees>]
+<35ton/Figs/35tonPhaseIElectronLifetime.pdf, id=971, 931.17857pt x 568.95894pt>
 File: 35ton/Figs/35tonPhaseIElectronLifetime.pdf Graphic file (type pdf)
 <use 35ton/Figs/35tonPhaseIElectronLifetime.pdf>
 Package pdftex.def Info: 35ton/Figs/35tonPhaseIElectronLifetime.pdf used on inp
 ut line 268.
 (pdftex.def)             Requested size: 398.33858pt x 243.38873pt.
-
-Package natbib Warning: Citation `35tonPhaseI2014' on page 16 undefined on inpu
-t line 269.
-
-
-Package natbib Warning: Citation `35tonPhaseI2014' on page 16 undefined on inpu
-t line 269.
-
-[16 <./35ton/Figs/35tonGasFilling.pdf> <./35ton/Figs/35tonLiquidFilling.pdf>] [
-17 <./35ton/Figs/35tonPhaseIElectronLifetime.pdf>]
-
-LaTeX Warning: Reference `sec:35tonPhaseI' on page 18 undefined on input line 2
-82.
-
-
-LaTeX Warning: Reference `sec:35tonDetector' on page 18 undefined on input line
- 284.
-
-
-LaTeX Warning: Reference `sec:35tonDataAcquisition' on page 18 undefined on inp
-ut line 284.
-
-
-LaTeX Warning: Reference `sec:SheffieldCameras' on page 18 undefined on input l
-ine 284.
-
-
-LaTeX Warning: Reference `sec:35tonPhaseIIRun' on page 18 undefined on input li
-ne 284.
-
-
-LaTeX Warning: Reference `sec:35tonPhaseIIOutcomes' on page 18 undefined on inp
-ut line 284.
-
-
-LaTeX Warning: Reference `fig:35tonDetector' on page 18 undefined on input line
- 289.
-
-
-LaTeX Warning: Reference `fig:DUNEFarDetectorDesign' on page 18 undefined on in
-put line 289.
-
-<35ton/Figs/35tonDetector.pdf, id=1072, 596.5277pt x 468.2287pt>
+[72 <./35ton/Figs/35tonGasFilling.pdf> <./35ton/Figs/35tonLiquidFilling.pdf>] [
+73 <./35ton/Figs/35tonPhaseIElectronLifetime.pdf>] <35ton/Figs/35tonDetector.pd
+f, id=1331, 596.5277pt x 468.2287pt>
 File: 35ton/Figs/35tonDetector.pdf Graphic file (type pdf)
 <use 35ton/Figs/35tonDetector.pdf>
 Package pdftex.def Info: 35ton/Figs/35tonDetector.pdf used on input line 293.
 (pdftex.def)             Requested size: 284.52756pt x 223.33972pt.
-
-Package natbib Warning: Citation `35tonPhaseINeutrino2014' on page 18 undefined
- on input line 294.
-
-
-Package natbib Warning: Citation `35tonPhaseINeutrino2014' on page 18 undefined
- on input line 294.
-
-
-LaTeX Warning: Reference `fig:35tonPhoto' on page 18 undefined on input line 29
-8.
-
-<35ton/Figs/35tonPhoto.jpg, id=1073, 803.0pt x 1204.5pt>
+<35ton/Figs/35tonPhoto.jpg, id=1335, 803.0pt x 1204.5pt>
 File: 35ton/Figs/35tonPhoto.jpg Graphic file (type jpg)
 <use 35ton/Figs/35tonPhoto.jpg>
 Package pdftex.def Info: 35ton/Figs/35tonPhoto.jpg used on input line 302.
 (pdftex.def)             Requested size: 312.9803pt x 469.47743pt.
-
-Package natbib Warning: Citation `VMS' on page 18 undefined on input line 303.
-
-
-LaTeX Warning: Reference `sec:SheffieldCameras' on page 18 undefined on input l
-ine 303.
-
-
-Package natbib Warning: Citation `VMS' on page 18 undefined on input line 303.
-
-
-LaTeX Warning: Reference `sec:SheffieldCameras' on page 18 undefined on input l
-ine 303.
-
-[18]
-
-LaTeX Warning: Reference `sec:DUNESinglePhase' on page 19 undefined on input li
-ne 310.
-
-
-LaTeX Warning: Reference `fig:DUNEFarDetectorAPA' on page 19 undefined on input
- line 310.
-
-[19 <./35ton/Figs/35tonDetector.pdf>] [20 <./35ton/Figs/35tonPhoto.jpg>]
-
-LaTeX Warning: Reference `fig:35tonGeometry' on page 21 undefined on input line
- 312.
-
-<35ton/Figs/35tonGeometry.png, id=1142, 426.59375pt x 497.86pt>
+[74] [75 <./35ton/Figs/35tonDetector.pdf>] [76 <./35ton/Figs/35tonPhoto.jpg>] <
+35ton/Figs/35tonGeometry.png, id=1411, 426.59375pt x 497.86pt>
 File: 35ton/Figs/35tonGeometry.png Graphic file (type png)
 <use 35ton/Figs/35tonGeometry.png>
 Package pdftex.def Info: 35ton/Figs/35tonGeometry.png used on input line 316.
 (pdftex.def)             Requested size: 227.62204pt x 265.65736pt.
-
-Package natbib Warning: Citation `35tonGeometryAlion2014' on page 21 undefined 
-on input line 317.
-
-
-Package natbib Warning: Citation `35tonGeometryAlion2014' on page 21 undefined 
-on input line 317.
-
-[21 <./35ton/Figs/35tonGeometry.png>]
-
-LaTeX Warning: Reference `sec:35tonElectronicsReadout' on page 22 undefined on 
-input line 323.
-
-
-LaTeX Warning: Reference `fig:35tonPhotonDetectors' on page 22 undefined on inp
-ut line 328.
-
-
-Package natbib Warning: Citation `35tonPhotonDetectors' on page 22 undefined on
- input line 328.
-
-<35ton/Figs/35tonPhotonDetectors.pdf, id=1150, 415.49535pt x 522.6693pt>
+[77 <./35ton/Figs/35tonGeometry.png>] <35ton/Figs/35tonPhotonDetectors.pdf, id=
+1425, 415.49535pt x 522.6693pt>
 File: 35ton/Figs/35tonPhotonDetectors.pdf Graphic file (type pdf)
 <use 35ton/Figs/35tonPhotonDetectors.pdf>
 Package pdftex.def Info: 35ton/Figs/35tonPhotonDetectors.pdf used on input line
  332.
 (pdftex.def)             Requested size: 170.71652pt x 214.7504pt.
-
-Package natbib Warning: Citation `35tonPhotonDetectors' on page 22 undefined on
- input line 333.
-
-
-Package natbib Warning: Citation `35tonPhotonDetectors' on page 22 undefined on
- input line 333.
-
-
-LaTeX Warning: Reference `fig:DUNEPhotonDetectors' on page 22 undefined on inpu
-t line 337.
-
-
-Package natbib Warning: Citation `CDFCounters2005' on page 22 undefined on inpu
-t line 342.
-
-
-LaTeX Warning: Reference `fig:35tonExternalCounters' on page 22 undefined on in
-put line 342.
-
-[22 <./35ton/Figs/35tonPhotonDetectors.pdf>] <35ton/Figs/35tonExternalCounters.
-png, id=1174, 702.625pt x 526.96875pt>
+[78 <./35ton/Figs/35tonPhotonDetectors.pdf>] <35ton/Figs/35tonExternalCounters.
+png, id=1457, 702.625pt x 526.96875pt>
 File: 35ton/Figs/35tonExternalCounters.png Graphic file (type png)
 <use 35ton/Figs/35tonExternalCounters.png>
 Package pdftex.def Info: 35ton/Figs/35tonExternalCounters.png used on input lin
 e 346.
 (pdftex.def)             Requested size: 341.43306pt x 256.07806pt.
-
-Package natbib Warning: Citation `35tonExternalCounters' on page 23 undefined o
-n input line 347.
-
-
-Package natbib Warning: Citation `35tonExternalCounters' on page 23 undefined o
-n input line 347.
-
-
-LaTeX Warning: Reference `sec:35tonElectronicsReadout' on page 23 undefined on 
-input line 354.
-
-
-LaTeX Warning: Reference `sec:35tonDataFormats' on page 23 undefined on input l
-ine 354.
-
-
-LaTeX Warning: Reference `sec:35tonDAQ' on page 23 undefined on input line 354.
-
-
-[23 <./35ton/Figs/35tonExternalCounters.png>]
-
-Package natbib Warning: Citation `DeGeronimo2011' on page 24 undefined on input
- line 359.
-
-
-Package natbib Warning: Citation `Thorn2012' on page 24 undefined on input line
- 359.
-
-
-LaTeX Warning: Reference `fig:35tonFEASIC' on page 24 undefined on input line 3
-59.
-
-
-Package natbib Warning: Citation `Herbst2014' on page 24 undefined on input lin
-e 359.
-
-<35ton/Figs/35tonFEASIC.png, id=1183, 618.31pt x 418.56375pt>
+[79 <./35ton/Figs/35tonExternalCounters.png>] <35ton/Figs/35tonFEASIC.png, id=1
+477, 618.31pt x 418.56375pt>
 File: 35ton/Figs/35tonFEASIC.png Graphic file (type png)
 <use 35ton/Figs/35tonFEASIC.png>
 Package pdftex.def Info: 35ton/Figs/35tonFEASIC.png used on input line 363.
 (pdftex.def)             Requested size: 284.52756pt x 192.61829pt.
-
-Package natbib Warning: Citation `SSPManual2016' on page 24 undefined on input 
-line 368.
-
-
-LaTeX Warning: Reference `fig:35tonTriggering' on page 24 undefined on input li
-ne 370.
-
-[24 <./35ton/Figs/35tonFEASIC.png>]
+[80 <./35ton/Figs/35tonFEASIC.png>]
 Package epstopdf Info: Source file: <35ton/Figs/trigger_system.eps>
 (epstopdf)                    date: 2017-05-18 15:37:03
 (epstopdf)                    size: 90777 bytes
@@ -2089,17 +1611,13 @@ eps-converted-to.pdf 35ton/Figs/trigger_system.eps>
 (epstopdf)             \includegraphics on input line 374.
 Package epstopdf Info: Output file is already uptodate.
 
-<35ton/Figs/trigger_system-eps-converted-to.pdf, id=1192, 1145.27875pt x 663.47
+<35ton/Figs/trigger_system-eps-converted-to.pdf, id=1495, 1145.27875pt x 663.47
 874pt>
 File: 35ton/Figs/trigger_system-eps-converted-to.pdf Graphic file (type pdf)
 <use 35ton/Figs/trigger_system-eps-converted-to.pdf>
 Package pdftex.def Info: 35ton/Figs/trigger_system-eps-converted-to.pdf used on
  input line 374.
 (pdftex.def)             Requested size: 341.43306pt x 197.79991pt.
-
-LaTeX Warning: Reference `fig:35tonDataFormat' on page 25 undefined on input li
-ne 382.
-
 Package epstopdf Info: Source file: <35ton/Figs/data_format.eps>
 (epstopdf)                    date: 2017-05-18 16:07:07
 (epstopdf)                    size: 538640 bytes
@@ -2112,23 +1630,15 @@ f>
 (epstopdf)             \includegraphics on input line 386.
 Package epstopdf Info: Output file is already uptodate.
 
-<35ton/Figs/data_format-eps-converted-to.pdf, id=1193, 568.1225pt x 681.54625pt
+<35ton/Figs/data_format-eps-converted-to.pdf, id=1499, 568.1225pt x 681.54625pt
 >
 File: 35ton/Figs/data_format-eps-converted-to.pdf Graphic file (type pdf)
 <use 35ton/Figs/data_format-eps-converted-to.pdf>
 Package pdftex.def Info: 35ton/Figs/data_format-eps-converted-to.pdf used on in
 put line 386.
 (pdftex.def)             Requested size: 398.33858pt x 477.87988pt.
-[25 <./35ton/Figs/trigger_system-eps-converted-to.pdf>] [26 <./35ton/Figs/data_
+[81 <./35ton/Figs/trigger_system-eps-converted-to.pdf>] [82 <./35ton/Figs/data_
 format-eps-converted-to.pdf>]
-
-LaTeX Warning: Reference `fig:35tonTriggering' on page 27 undefined on input li
-ne 393.
-
-
-LaTeX Warning: Reference `fig:35tonTriggeredEvent' on page 27 undefined on inpu
-t line 395.
-
 Package epstopdf Info: Source file: <35ton/Figs/triggered_event.eps>
 (epstopdf)                    date: 2017-05-18 16:07:03
 (epstopdf)                    size: 233049 bytes
@@ -2141,7 +1651,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 399.
 Package epstopdf Info: Output file is already uptodate.
 
-<35ton/Figs/triggered_event-eps-converted-to.pdf, id=1223, 845.1575pt x 599.238
+<35ton/Figs/triggered_event-eps-converted-to.pdf, id=1529, 845.1575pt x 599.238
 75pt>
 File: 35ton/Figs/triggered_event-eps-converted-to.pdf Graphic file (type pdf)
 <use 35ton/Figs/triggered_event-eps-converted-to.pdf>
@@ -2154,18 +1664,10 @@ Overfull \hbox (17.78296pt too wide) in paragraph at lines 399--400
  []
 
 
-Package natbib Warning: Citation `Biery2013' on page 27 undefined on input line
- 407.
-
-
-LaTeX Warning: Reference `fig:lbne-artdaq' on page 27 undefined on input line 4
-07.
-
-
 
 pdfTeX warning: pdflatex (file ./35ton/Figs/artdaqFramework.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
-<35ton/Figs/artdaqFramework.pdf, id=1224, 939.51pt x 614.295pt>
+<35ton/Figs/artdaqFramework.pdf, id=1532, 939.51pt x 614.295pt>
 File: 35ton/Figs/artdaqFramework.pdf Graphic file (type pdf)
 <use 35ton/Figs/artdaqFramework.pdf>
 Package pdftex.def Info: 35ton/Figs/artdaqFramework.pdf used on input line 411.
@@ -2176,214 +1678,67 @@ Overfull \hbox (17.78296pt too wide) in paragraph at lines 411--412
  [][] 
  []
 
-
-Package natbib Warning: Citation `Freeman2014' on page 27 undefined on input li
-ne 412.
-
-
-Package natbib Warning: Citation `Freeman2014' on page 27 undefined on input li
-ne 412.
-
-[27] [28 <./35ton/Figs/triggered_event-eps-converted-to.pdf>] [29 <./35ton/Figs
-/artdaqFramework.pdf>]
-
-LaTeX Warning: Reference `chap:OnlineMonitoring' on page 30 undefined on input 
-line 418.
-
-
-Package natbib Warning: Citation `LZCDR2015' on page 30 undefined on input line
- 425.
-
-
-Package natbib Warning: Citation `Blatter2014' on page 30 undefined on input li
-ne 425.
-
-
-Package natbib Warning: Citation `35tonCameras2017' on page 30 undefined on inp
-ut line 425.
-
-
-LaTeX Warning: Reference `fig:35tonCamerasImages' on page 30 undefined on input
- line 427.
-
-[30] <35ton/Figs/35tonCamerasImages.pdf, id=1257, 433.62pt x 181.67876pt>
+[83] [84 <./35ton/Figs/triggered_event-eps-converted-to.pdf>] [85 <./35ton/Figs
+/artdaqFramework.pdf>] [86] <35ton/Figs/35tonCamerasImages.pdf, id=1575, 433.62
+pt x 181.67876pt>
 File: 35ton/Figs/35tonCamerasImages.pdf Graphic file (type pdf)
 <use 35ton/Figs/35tonCamerasImages.pdf>
 Package pdftex.def Info: 35ton/Figs/35tonCamerasImages.pdf used on input line 4
 31.
 (pdftex.def)             Requested size: 426.79134pt x 178.82571pt.
-
-Package natbib Warning: Citation `35tonCameras2017' on page 31 undefined on inp
-ut line 432.
-
-
-Package natbib Warning: Citation `35tonCameras2017' on page 31 undefined on inp
-ut line 432.
-
-
-LaTeX Warning: Reference `fig:35tonCamera' on page 31 undefined on input line 4
-39.
-
-<35ton/Figs/35tonCameraPhoto.pdf, id=1258, 347.2975pt x 260.975pt>
+<35ton/Figs/35tonCameraPhoto.pdf, id=1579, 347.2975pt x 260.975pt>
 File: 35ton/Figs/35tonCameraPhoto.pdf Graphic file (type pdf)
 <use 35ton/Figs/35tonCameraPhoto.pdf>
 Package pdftex.def Info: 35ton/Figs/35tonCameraPhoto.pdf used on input line 445
 .
 (pdftex.def)             Requested size: 205.77896pt x 154.63495pt.
-<35ton/Figs/35tonCameraSchematic.pdf, id=1259, 261.97874pt x 114.4275pt>
+<35ton/Figs/35tonCameraSchematic.pdf, id=1580, 261.97874pt x 114.4275pt>
 File: 35ton/Figs/35tonCameraSchematic.pdf Graphic file (type pdf)
 <use 35ton/Figs/35tonCameraSchematic.pdf>
 Package pdftex.def Info: 35ton/Figs/35tonCameraSchematic.pdf used on input line
  452.
 (pdftex.def)             Requested size: 205.77896pt x 89.88339pt.
-
-Package natbib Warning: Citation `35tonCameras2017' on page 31 undefined on inp
-ut line 456.
-
-
-LaTeX Warning: Reference `fig:35tonCameraPhoto' on page 31 undefined on input l
-ine 456.
-
-
-LaTeX Warning: Reference `fig:35tonCameraSchematic' on page 31 undefined on inp
-ut line 456.
-
-
-Package natbib Warning: Citation `35tonCameras2017' on page 31 undefined on inp
-ut line 456.
-
-
-LaTeX Warning: Reference `fig:35tonCameraPhoto' on page 31 undefined on input l
-ine 456.
-
-
-LaTeX Warning: Reference `fig:35tonCameraSchematic' on page 31 undefined on inp
-ut line 456.
-
-[31 <./35ton/Figs/35tonCamerasImages.pdf>]
-
-LaTeX Warning: Reference `fig:35tonCameraMounted' on page 32 undefined on input
- line 469.
-
-
-LaTeX Warning: Reference `fig:35tonCameraDiagram' on page 32 undefined on input
- line 469.
-
-[32 <./35ton/Figs/35tonCameraPhoto.pdf> <./35ton/Figs/35tonCameraSchematic.pdf>
-] <35ton/Figs/35tonCameraMounted.pdf, id=1375, 259.97125pt x 263.98625pt>
+[87 <./35ton/Figs/35tonCamerasImages.pdf>] [88 <./35ton/Figs/35tonCameraPhoto.p
+df> <./35ton/Figs/35tonCameraSchematic.pdf>] <35ton/Figs/35tonCameraMounted.pdf
+, id=1704, 259.97125pt x 263.98625pt>
 File: 35ton/Figs/35tonCameraMounted.pdf Graphic file (type pdf)
 <use 35ton/Figs/35tonCameraMounted.pdf>
 Package pdftex.def Info: 35ton/Figs/35tonCameraMounted.pdf used on input line 4
 73.
 (pdftex.def)             Requested size: 227.62204pt x 231.13643pt.
-
-Package natbib Warning: Citation `35tonCameras2017' on page 33 undefined on inp
-ut line 474.
-
-
-Package natbib Warning: Citation `35tonCameras2017' on page 33 undefined on inp
-ut line 474.
-
-<35ton/Figs/35tonCameraDiagram.pdf, id=1376, 425.59pt x 252.945pt>
+<35ton/Figs/35tonCameraDiagram.pdf, id=1707, 425.59pt x 252.945pt>
 File: 35ton/Figs/35tonCameraDiagram.pdf Graphic file (type pdf)
 <use 35ton/Figs/35tonCameraDiagram.pdf>
 Package pdftex.def Info: 35ton/Figs/35tonCameraDiagram.pdf used on input line 4
 80.
 (pdftex.def)             Requested size: 341.43306pt x 202.93907pt.
-
-Package natbib Warning: Citation `35tonCameras2017' on page 33 undefined on inp
-ut line 481.
-
-
-Package natbib Warning: Citation `35tonCameras2017' on page 33 undefined on inp
-ut line 481.
-
-
-LaTeX Warning: Reference `sec:PurityMonitoring' on page 33 undefined on input l
-ine 485.
-
-
-Package natbib Warning: Citation `35tonCameraVideo' on page 33 undefined on inp
-ut line 485.
-
-
-LaTeX Warning: Reference `fig:35tonCamerasDegredation' on page 33 undefined on 
-input line 487.
-
-<35ton/Figs/35tonCamerasDegredation.pdf, id=1377, 346.29375pt x 205.76875pt>
+<35ton/Figs/35tonCamerasDegredation.pdf, id=1713, 346.29375pt x 205.76875pt>
 File: 35ton/Figs/35tonCamerasDegredation.pdf Graphic file (type pdf)
 <use 35ton/Figs/35tonCamerasDegredation.pdf>
 Package pdftex.def Info: 35ton/Figs/35tonCamerasDegredation.pdf used on input l
 ine 491.
 (pdftex.def)             Requested size: 341.43306pt x 202.88591pt.
-
-Package natbib Warning: Citation `35tonCameras2017' on page 33 undefined on inp
-ut line 492.
-
-
-Package natbib Warning: Citation `35tonCameras2017' on page 33 undefined on inp
-ut line 492.
-
-[33 <./35ton/Figs/35tonCameraMounted.pdf>] [34 <./35ton/Figs/35tonCameraDiagram
-.pdf>]
-
-LaTeX Warning: Reference `sec:35tonPhaseIIOutcomes' on page 35 undefined on inp
-ut line 509.
-
-[35 <./35ton/Figs/35tonCamerasDegredation.pdf>]
-
-LaTeX Warning: Reference `fig:35tonPipeBreak' on page 36 undefined on input lin
-e 513.
-
-<35ton/Figs/35tonPipeBreak.png, id=1491, 356.33125pt x 471.7625pt>
+[89 <./35ton/Figs/35tonCameraMounted.pdf>] [90 <./35ton/Figs/35tonCameraDiagram
+.pdf>] [91 <./35ton/Figs/35tonCamerasDegredation.pdf>] <35ton/Figs/35tonPipeBre
+ak.png, id=1832, 356.33125pt x 471.7625pt>
 File: 35ton/Figs/35tonPipeBreak.png Graphic file (type png)
 <use 35ton/Figs/35tonPipeBreak.png>
 Package pdftex.def Info: 35ton/Figs/35tonPipeBreak.png used on input line 517.
 (pdftex.def)             Requested size: 170.71652pt x 226.0187pt.
-
-LaTeX Warning: Reference `fig:35tonPhaseIIData' on page 36 undefined on input l
-ine 522.
-
-<35ton/Figs/35tonPhaseIIData.png, id=1492, 768.8725pt x 367.3725pt>
+<35ton/Figs/35tonPhaseIIData.png, id=1834, 768.8725pt x 367.3725pt>
 File: 35ton/Figs/35tonPhaseIIData.png Graphic file (type png)
 <use 35ton/Figs/35tonPhaseIIData.png>
 Package pdftex.def Info: 35ton/Figs/35tonPhaseIIData.png used on input line 526
 .
 (pdftex.def)             Requested size: 426.79134pt x 203.92776pt.
-
-LaTeX Warning: Reference `fig:FamousShower' on page 36 undefined on input line 
-533.
-
-
-LaTeX Warning: Reference `chap:35tonAnalysis' on page 36 undefined on input lin
-e 533.
-
-[36] [37 <./35ton/Figs/35tonPipeBreak.png> <./35ton/Figs/35tonPhaseIIData.png>]
-<35ton/Figs/FamousShower.png, id=1506, 543.02875pt x 487.8225pt>
+[92] [93 <./35ton/Figs/35tonPipeBreak.png> <./35ton/Figs/35tonPhaseIIData.png>]
+<35ton/Figs/FamousShower.png, id=1849, 543.02875pt x 487.8225pt>
 File: 35ton/Figs/FamousShower.png Graphic file (type png)
 <use 35ton/Figs/FamousShower.png>
 Package pdftex.def Info: 35ton/Figs/FamousShower.png used on input line 537.
 (pdftex.def)             Requested size: 341.43306pt x 306.73431pt.
-[38 <./35ton/Figs/FamousShower.png>]
-
-LaTeX Warning: Reference `sec:35tonPhaseIIOutcomesNoise' on page 39 undefined o
-n input line 558.
-
-[39]
-
-LaTeX Warning: Reference `chap:35tonAnalysis' on page 40 undefined on input lin
-e 563.
-
-
-LaTeX Warning: Reference `fig:35tonPhotonDetectorsResolution' on page 40 undefi
-ned on input line 565.
-
-
-LaTeX Warning: Reference `fig:35tonPhotonDetectorsAttenuation' on page 40 undef
-ined on input line 565.
-
-
-<35ton/Figs/35tonPhotonDetectorsResolution.pdf, id=1519, 391.4625pt x 261.97874
+[94 <./35ton/Figs/FamousShower.png>] [95]
+<35ton/Figs/35tonPhotonDetectorsResolution.pdf, id=1867, 391.4625pt x 261.97874
 pt>
 File: 35ton/Figs/35tonPhotonDetectorsResolution.pdf Graphic file (type pdf)
 <use 35ton/Figs/35tonPhotonDetectorsResolution.pdf>
@@ -2391,144 +1746,61 @@ Package pdftex.def Info: 35ton/Figs/35tonPhotonDetectorsResolution.pdf used on
 input line 573.
 (pdftex.def)             Requested size: 188.98022pt x 126.47191pt.
 
-Package natbib Warning: Citation `35tonPhotonDetectors' on page 40 undefined on
- input line 574.
-
-
-Package natbib Warning: Citation `35tonPhotonDetectors' on page 40 undefined on
- input line 574.
-
-
-<35ton/Figs/35tonPhotonDetectorsAttenuation.pdf, id=1520, 397.485pt x 274.02374
+<35ton/Figs/35tonPhotonDetectorsAttenuation.pdf, id=1870, 397.485pt x 274.02374
 pt>
 File: 35ton/Figs/35tonPhotonDetectorsAttenuation.pdf Graphic file (type pdf)
 <use 35ton/Figs/35tonPhotonDetectorsAttenuation.pdf>
 Package pdftex.def Info: 35ton/Figs/35tonPhotonDetectorsAttenuation.pdf used on
  input line 580.
 (pdftex.def)             Requested size: 188.98022pt x 130.28387pt.
-
-Package natbib Warning: Citation `35tonPhotonDetectors' on page 40 undefined on
- input line 581.
-
-
-Package natbib Warning: Citation `35tonPhotonDetectors' on page 40 undefined on
- input line 581.
-
-[40]
-
-LaTeX Warning: Reference `fig:DataSimulationNoiseComparison' on page 41 undefin
-ed on input line 599.
-
-<35ton/Figs/DataMuonCombined.png, id=1528, 542.025pt x 264.99pt>
+[96] [97 <./35ton/Figs/35tonPhotonDetectorsResolution.pdf> <./35ton/Figs/35tonP
+hotonDetectorsAttenuation.pdf>] <35ton/Figs/DataMuonCombined.png, id=1995, 542.
+025pt x 264.99pt>
 File: 35ton/Figs/DataMuonCombined.png Graphic file (type png)
 <use 35ton/Figs/DataMuonCombined.png>
 Package pdftex.def Info: 35ton/Figs/DataMuonCombined.png used on input line 606
 .
 (pdftex.def)             Requested size: 437.46112pt x 213.87651pt.
-
-Package natbib Warning: Citation `35tonNoise2016' on page 41 undefined on input
- line 623.
-
-
-LaTeX Warning: Reference `fig:NoiseStates' on page 41 undefined on input line 6
-23.
-
-<35ton/Figs/FFTRun13079.png, id=1529, 774.895pt x 510.90875pt>
+<35ton/Figs/SimulatedMuonCombined.png, id=1996, 542.025pt x 264.99pt>
+File: 35ton/Figs/SimulatedMuonCombined.png Graphic file (type png)
+<use 35ton/Figs/SimulatedMuonCombined.png>
+Package pdftex.def Info: 35ton/Figs/SimulatedMuonCombined.png used on input lin
+e 613.
+(pdftex.def)             Requested size: 437.46112pt x 213.87651pt.
+<35ton/Figs/FFTRun13079.png, id=1999, 774.895pt x 510.90875pt>
 File: 35ton/Figs/FFTRun13079.png Graphic file (type png)
 <use 35ton/Figs/FFTRun13079.png>
 Package pdftex.def Info: 35ton/Figs/FFTRun13079.png used on input line 629.
 (pdftex.def)             Requested size: 205.77896pt x 135.67082pt.
-<35ton/Figs/FFTRun10286.png, id=1530, 774.895pt x 509.905pt>
+<35ton/Figs/FFTRun10286.png, id=2000, 774.895pt x 509.905pt>
 File: 35ton/Figs/FFTRun10286.png Graphic file (type png)
 <use 35ton/Figs/FFTRun10286.png>
 Package pdftex.def Info: 35ton/Figs/FFTRun10286.png used on input line 636.
 (pdftex.def)             Requested size: 205.77896pt x 135.40427pt.
-
-LaTeX Warning: Reference `fig:NormalNoiseState' on page 41 undefined on input l
-ine 640.
-
-
-LaTeX Warning: Reference `fig:NormalNoiseState' on page 41 undefined on input l
-ine 640.
-
-[41 <./35ton/Figs/35tonPhotonDetectorsResolution.pdf> <./35ton/Figs/35tonPhoton
-DetectorsAttenuation.pdf>]
-
-LaTeX Warning: Reference `fig:NoiseCorrelation' on page 42 undefined on input l
-ine 644.
-
-<35ton/Figs/NoiseCorrelation.png, id=1644, 798.985pt x 575.14874pt>
+<35ton/Figs/NoiseCorrelation.png, id=2004, 798.985pt x 575.14874pt>
 File: 35ton/Figs/NoiseCorrelation.png Graphic file (type png)
 <use 35ton/Figs/NoiseCorrelation.png>
 Package pdftex.def Info: 35ton/Figs/NoiseCorrelation.png used on input line 648
 .
 (pdftex.def)             Requested size: 341.43306pt x 245.7821pt.
-[42 <./35ton/Figs/DataMuonCombined.png>] [43 <./35ton/Figs/FFTRun13079.png> <./
-35ton/Figs/FFTRun10286.png> <./35ton/Figs/NoiseCorrelation.png>] [44]) [45]
+[98] [99 <./35ton/Figs/DataMuonCombined.png> <./35ton/Figs/SimulatedMuonCombine
+d.png>] [100 <./35ton/Figs/FFTRun13079.png> <./35ton/Figs/FFTRun10286.png> <./3
+5ton/Figs/NoiseCorrelation.png>] [101]) [102]
 \openout2 = `OnlineMonitoring/OnlineMonitoring.aux'.
 
-(./OnlineMonitoring/OnlineMonitoring.tex [46
+(./OnlineMonitoring/OnlineMonitoring.tex
+Chapter 5.
+[103
 
 
 
 
 ]
-Chapter 2.
 
-LaTeX Warning: Reference `sec:lbne-artdaq' on page 47 undefined on input line 1
-3.
+LaTeX Warning: Reference `sec:DetectorComponents' on page 104 undefined on inpu
+t line 29.
 
-
-LaTeX Warning: Reference `sec:OnlineMonitoring' on page 47 undefined on input l
-ine 13.
-
-
-LaTeX Warning: Reference `sec:DQM' on page 47 undefined on input line 13.
-
-
-LaTeX Warning: Reference `sec:EventDisplay' on page 47 undefined on input line 
-13.
-
-
-LaTeX Warning: Reference `sec:WebInterface' on page 47 undefined on input line 
-13.
-
-
-LaTeX Warning: Reference `fig:lbne-artdaq' on page 47 undefined on input line 2
-0.
-
-[47]
-
-pdfTeX warning: pdflatex (file ./OnlineMonitoring/Figs/artdaqFramework.pdf): PD
-F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<OnlineMonitoring/Figs/artdaqFramework.pdf, id=1682, 939.51pt x 614.295pt>
-File: OnlineMonitoring/Figs/artdaqFramework.pdf Graphic file (type pdf)
-<use OnlineMonitoring/Figs/artdaqFramework.pdf>
-Package pdftex.def Info: OnlineMonitoring/Figs/artdaqFramework.pdf used on inpu
-t line 24.
-(pdftex.def)             Requested size: 455.24408pt x 297.66087pt.
-
-Overfull \hbox (17.78296pt too wide) in paragraph at lines 24--25
- [][] 
- []
-
-
-Package natbib Warning: Citation `Freeman2014' on page 48 undefined on input li
-ne 25.
-
-
-Package natbib Warning: Citation `Freeman2014' on page 48 undefined on input li
-ne 25.
-
-
-LaTeX Warning: Reference `sec:DetectorComponents' on page 48 undefined on input
- line 29.
-
-[48 <./OnlineMonitoring/Figs/artdaqFramework.pdf>]
-
-LaTeX Warning: Reference `fig:OnlineMonitoringFramework' on page 49 undefined o
-n input line 47.
-
+[104]
 Package epstopdf Info: Source file: <OnlineMonitoring/Figs/softwareFramework.ep
 s>
 (epstopdf)                    date: 2017-02-02 17:14:54
@@ -2543,7 +1815,7 @@ wareFramework-eps-converted-to.pdf OnlineMonitoring/Figs/softwareFramework.eps>
 (epstopdf)             \includegraphics on input line 51.
 Package epstopdf Info: Output file is already uptodate.
 
-<OnlineMonitoring/Figs/softwareFramework-eps-converted-to.pdf, id=1693, 692.587
+<OnlineMonitoring/Figs/softwareFramework-eps-converted-to.pdf, id=2053, 692.587
 5pt x 516.93124pt>
 File: OnlineMonitoring/Figs/softwareFramework-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -2559,85 +1831,38 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-[49]
-
-LaTeX Warning: Reference `sec:DQM' on page 50 undefined on input line 67.
-
-
-LaTeX Warning: Reference `sec:EventDisplay' on page 50 undefined on input line 
-69.
-
-[50 <./OnlineMonitoring/Figs/softwareFramework-eps-converted-to.pdf>]
-
-LaTeX Warning: Reference `sec:WebInterface' on page 51 undefined on input line 
-84.
-
-
-LaTeX Warning: Reference `fig:DQMPlot1' on page 51 undefined on input line 128.
-
-
-[51] [52]
-
-LaTeX Warning: Reference `fig:DQMPlots' on page 53 undefined on input line 154.
-
-
-<OnlineMonitoring/Figs/DQM1.png, id=1725, 934.49126pt x 678.535pt>
+[105 <./OnlineMonitoring/Figs/softwareFramework-eps-converted-to.pdf>] [106] [1
+07] <OnlineMonitoring/Figs/DQM1.png, id=2080, 934.49126pt x 678.535pt>
 File: OnlineMonitoring/Figs/DQM1.png Graphic file (type png)
 <use OnlineMonitoring/Figs/DQM1.png>
 Package pdftex.def Info: OnlineMonitoring/Figs/DQM1.png used on input line 160.
 
 (pdftex.def)             Requested size: 199.47984pt x 144.83646pt.
-<OnlineMonitoring/Figs/DQM2.png, id=1726, 1050.92625pt x 691.58376pt>
+<OnlineMonitoring/Figs/DQM2.png, id=2081, 1050.92625pt x 691.58376pt>
 File: OnlineMonitoring/Figs/DQM2.png Graphic file (type png)
 <use OnlineMonitoring/Figs/DQM2.png>
 Package pdftex.def Info: OnlineMonitoring/Figs/DQM2.png used on input line 166.
 
 (pdftex.def)             Requested size: 199.47984pt x 131.26509pt.
-<OnlineMonitoring/Figs/DQM3.png, id=1727, 1026.83624pt x 678.535pt>
+<OnlineMonitoring/Figs/DQM3.png, id=2082, 1026.83624pt x 678.535pt>
 File: OnlineMonitoring/Figs/DQM3.png Graphic file (type png)
 <use OnlineMonitoring/Figs/DQM3.png>
 Package pdftex.def Info: OnlineMonitoring/Figs/DQM3.png used on input line 172.
 
 (pdftex.def)             Requested size: 199.47984pt x 131.81163pt.
-<OnlineMonitoring/Figs/DQM4.png, id=1728, 915.42pt x 683.55376pt>
+<OnlineMonitoring/Figs/DQM4.png, id=2083, 915.42pt x 683.55376pt>
 File: OnlineMonitoring/Figs/DQM4.png Graphic file (type png)
 <use OnlineMonitoring/Figs/DQM4.png>
 Package pdftex.def Info: OnlineMonitoring/Figs/DQM4.png used on input line 178.
 
 (pdftex.def)             Requested size: 199.47984pt x 148.95335pt.
-
-LaTeX Warning: Reference `sec:35tonDataFormats' on page 53 undefined on input l
-ine 196.
-
-
-LaTeX Warning: Reference `fig:35tonDataFormat' on page 53 undefined on input li
-ne 196.
-
-
-LaTeX Warning: Reference `fig:35tonTriggeredEvent' on page 53 undefined on inpu
-t line 196.
-
-[53] [54 <./OnlineMonitoring/Figs/DQM1.png> <./OnlineMonitoring/Figs/DQM2.png> 
-<./OnlineMonitoring/Figs/DQM3.png> <./OnlineMonitoring/Figs/DQM4.png>] [55]
-
-LaTeX Warning: Reference `fig:EVD' on page 56 undefined on input line 207.
-
-<OnlineMonitoring/Figs/evd.png, id=1753, 582.175pt x 568.1225pt>
+[108] [109 <./OnlineMonitoring/Figs/DQM1.png> <./OnlineMonitoring/Figs/DQM2.png
+> <./OnlineMonitoring/Figs/DQM3.png> <./OnlineMonitoring/Figs/DQM4.png>] [110] 
+<OnlineMonitoring/Figs/evd.png, id=2105, 582.175pt x 568.1225pt>
 File: OnlineMonitoring/Figs/evd.png Graphic file (type png)
 <use OnlineMonitoring/Figs/evd.png>
 Package pdftex.def Info: OnlineMonitoring/Figs/evd.png used on input line 211.
 (pdftex.def)             Requested size: 398.33858pt x 388.72812pt.
-
-LaTeX Warning: Reference `sec:AutomatedDataTransfer' on page 56 undefined on in
-put line 219.
-
-
-LaTeX Warning: Reference `sec:WebPage' on page 56 undefined on input line 219.
-
-
-LaTeX Warning: Reference `fig:WebInterface' on page 56 undefined on input line 
-224.
-
 Package epstopdf Info: Source file: <OnlineMonitoring/Figs/webInterface.eps>
 (epstopdf)                    date: 2017-02-02 17:44:49
 (epstopdf)                    size: 62545 bytes
@@ -2650,7 +1875,7 @@ nterface-eps-converted-to.pdf OnlineMonitoring/Figs/webInterface.eps>
 (epstopdf)             \includegraphics on input line 228.
 Package epstopdf Info: Output file is already uptodate.
 
-<OnlineMonitoring/Figs/webInterface-eps-converted-to.pdf, id=1754, 550.055pt x 
+<OnlineMonitoring/Figs/webInterface-eps-converted-to.pdf, id=2109, 550.055pt x 
 335.2525pt>
 File: OnlineMonitoring/Figs/webInterface-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -2658,94 +1883,101 @@ e pdf)
 Package pdftex.def Info: OnlineMonitoring/Figs/webInterface-eps-converted-to.pd
 f used on input line 228.
 (pdftex.def)             Requested size: 341.43306pt x 208.10506pt.
-
-LaTeX Warning: Reference `sec:AutomatedDataTransfer' on page 56 undefined on in
-put line 238.
-
-
-LaTeX Warning: Reference `fig:WebPage' on page 56 undefined on input line 238.
-
-[56] [57 <./OnlineMonitoring/Figs/evd.png>] <OnlineMonitoring/Figs/webPage.png,
- id=1768, 1439.3775pt x 833.1125pt>
+[111] [112 <./OnlineMonitoring/Figs/evd.png>] <OnlineMonitoring/Figs/webPage.pn
+g, id=2124, 1439.3775pt x 833.1125pt>
 File: OnlineMonitoring/Figs/webPage.png Graphic file (type png)
 <use OnlineMonitoring/Figs/webPage.png>
 Package pdftex.def Info: OnlineMonitoring/Figs/webPage.png used on input line 2
 42.
 (pdftex.def)             Requested size: 398.33858pt x 230.5622pt.
-) [58 <./OnlineMonitoring/Figs/webInterface-eps-converted-to.pdf>] [59 <./Onlin
-eMonitoring/Figs/webPage.png>] [60
+) [113 <./OnlineMonitoring/Figs/webInterface-eps-converted-to.pdf>] [114 <./Onl
+ineMonitoring/Figs/webPage.png>] [138
 
 
 
 
 
-]
-No file thesis.bbl.
+] (./thesis.bbl [139
 
-Package natbib Warning: There were undefined citations.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 191.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 191.
+] [140] [141] [142] [143] [144] [145] [146]) [147]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 192.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 192.
 (./thesis.aux (./Dedication/dedication.aux) (./Declaration/declaration.aux) (./
 Acknowledgements/acknowledgements.aux) (./Abstract/abstract.aux) (./Introductio
 n/Introduction.aux) (./NeutrinoPhysics/NeutrinoPhysics.aux) (./DUNE/DUNE.aux) (
-./35ton/35ton.aux) (./LArReconstruction/LArReconstruction.aux) (./OnlineMonitor
-ing/OnlineMonitoring.aux) (./35tonAnalysis/35tonAnalysis.aux) (./FarDetectorAna
-lysis/FarDetectorAnalysis.aux) (./Summary/Summary.aux) (./Appendix1/appendix1.a
-ux) (./Appendix2/appendix2.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 191.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 191.
-
-Package rerunfilecheck Warning: File `thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `thesis.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  A65FFF4739168D68D85029BE8D831482;7072.
+./35ton/35ton.aux)
+No file LArTPCReconstruction/LArTPCReconstruction.aux.
+(./OnlineMonitoring/OnlineMonitoring.aux) (./35tonAnalysis/35tonAnalysis.aux) (
+./FarDetectorAnalysis/FarDetectorAnalysis.aux) (./Summary/Summary.aux) (./Appen
+dix1/appendix1.aux) (./Appendix2/appendix2.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 192.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 192.
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 3B439260D63BE1E4A625E6FC39E1E8E7;7177.
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 24922 strings out of 493117
- 446885 string characters out of 6135433
- 496171 words of memory out of 5000000
- 27591 multiletter control sequences out of 15000+600000
- 55767 words of font info for 192 fonts, out of 8000000 for 9000
+ 25590 strings out of 493117
+ 458896 string characters out of 6135433
+ 553776 words of memory out of 5000000
+ 28007 multiletter control sequences out of 15000+600000
+ 60042 words of font info for 230 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,12n,47p,10395b,807s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
-{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
-live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texl
-ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texli
-ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texliv
-e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive
-/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2
-014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/201
-4/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014
-/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb></usr/local/texlive/2014/texmf
--dist/fonts/type1/public/tex-gyre/qtmb.pfb></usr/local/texlive/2014/texmf-dist/
-fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texlive/2014/texmf-dist/fonts/
-type1/public/tex-gyre/qtmri.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1
-/public/newtx/rntxmi7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/publi
-c/txfonts/rtxmi.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/newt
-x/rtxmi7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/txfonts/rtx
-r.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sftt1200.
-pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/txfonts/txmia.pfb></
-usr/local/texlive/2014/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/loc
-al/texlive/2014/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/
-2014/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2014/texmf-
-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts
-/type1/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw
-/times/utmri8a.pfb>
-Output written on thesis.pdf (60 pages, 28700113 bytes).
+ 49i,12n,45p,10395b,1421s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{chapter.7} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.12} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.3.3.2.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.7.2.1} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.3.3.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.3.1} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.3.5} has been referenced but does not exist
+, replaced by a fixed one
+
+{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/
+usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texli
+ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texliv
+e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive
+/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/
+2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2
+014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/201
+4/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2014/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/t
+exmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb></usr/local/texlive/2014/texmf-d
+ist/fonts/type1/public/tex-gyre/qtmb.pfb></usr/local/texlive/2014/texmf-dist/fo
+nts/type1/public/tex-gyre/qtmr.pfb></usr/local/texlive/2014/texmf-dist/fonts/ty
+pe1/public/tex-gyre/qtmri.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/p
+ublic/newtx/rntxmi7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/
+txfonts/rtxmi.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/newtx/
+rtxmi7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/txfonts/rtxr.
+pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sftt1200.pf
+b></usr/local/texlive/2014/texmf-dist/fonts/type1/public/txfonts/txmia.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local
+/texlive/2014/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/20
+14/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2014/texmf-di
+st/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/t
+ype1/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/t
+imes/utmri8a.pfb>
+Output written on thesis.pdf (70 pages, 28761569 bytes).
 PDF statistics:
- 1882 PDF objects out of 2073 (max. 8388607)
- 1303 compressed objects within 14 object streams
- 157 named destinations out of 1000 (max. 500000)
- 30459 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 2417 PDF objects out of 2487 (max. 8388607)
+ 1782 compressed objects within 18 object streams
+ 315 named destinations out of 1000 (max. 500000)
+ 30739 words of extra memory for PDF output out of 35830 (max. 10000000)
 

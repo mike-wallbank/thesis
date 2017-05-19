@@ -7,7 +7,6 @@
 \newlabel{chap:DUNE}
 \newlabel{chap:FDAnalysis}
 \newlabel{chap:Introduction}
-\newlabel{chap:LArTPCReconstruction}
 \newlabel{chap:NeutrinoPhysics}
 \newlabel{chap:OnlineMonitoring}
 \newlabel{chap:Summary}
@@ -244,8 +243,6 @@
 \newlabel{fig:evd_crossing}
 \newlabel{fig:evd_gap}
 \newlabel{fig:lbne-artdaq}
-\newlabel{fig:lbne-artdaq}
-\newlabel{sec:2DReconstruction}
 \newlabel{sec:35tonCameraSystemOperation}
 \newlabel{sec:35tonCameraSystem}
 \newlabel{sec:35tonCryostat}
@@ -270,7 +267,6 @@
 \newlabel{sec:35tonSummary}
 \newlabel{sec:35tonTPC}
 \newlabel{sec:35ton}
-\newlabel{sec:3DReconstruction}
 \newlabel{sec:APACrossingAlignment}
 \newlabel{sec:APACrossingCharge}
 \newlabel{sec:APACrossingDriftComparison}
@@ -281,13 +277,10 @@
 \newlabel{sec:APAGapCrossing}
 \newlabel{sec:APAGapOffsets}
 \newlabel{sec:APAOffsetMeasurements}
-\newlabel{sec:AlternativeChains}
 \newlabel{sec:AtmosphericNeutrinoAnomaly}
 \newlabel{sec:AutomatedDataTransfer}
 \newlabel{sec:BLM}
-\newlabel{sec:BlurredCluster}
 \newlabel{sec:CPViolation}
-\newlabel{sec:Calorimetry}
 \newlabel{sec:CombinedOffsets}
 \newlabel{sec:CounterMonitoring}
 \newlabel{sec:CurrentExperiments}
@@ -306,7 +299,6 @@
 \newlabel{sec:DataPi0Reconstruction}
 \newlabel{sec:DataShowerReconstruction}
 \newlabel{sec:DataSpecificReconstruction}
-\newlabel{sec:EMShower}
 \newlabel{sec:EventDisplay}
 \newlabel{sec:EvidenceNeutrinoOscillations}
 \newlabel{sec:FarDetector}
@@ -314,7 +306,6 @@
 \newlabel{sec:FilterRegeneration}
 \newlabel{sec:GeneralMonitoring}
 \newlabel{sec:HistoricalContext}
-\newlabel{sec:HitReconstruction}
 \newlabel{sec:HookEVDs}
 \newlabel{sec:ImprovingDataQuality}
 \newlabel{sec:InteractionTimeHits}
@@ -323,7 +314,6 @@
 \newlabel{sec:LAPDOutcomes}
 \newlabel{sec:LAPD}
 \newlabel{sec:LArPuritySingleTrack}
-\newlabel{sec:LArSoft}
 \newlabel{sec:LArTPCChallenges}
 \newlabel{sec:LArTPCHistory}
 \newlabel{sec:LArTPCOperation}
@@ -347,20 +337,15 @@
 \newlabel{sec:PurityAnalysis}
 \newlabel{sec:PurityMonitoring}
 \newlabel{sec:ReconstructingMuonTracks}
-\newlabel{sec:ReconstructionChain}
-\newlabel{sec:ReconstructionPerformance}
 \newlabel{sec:RoadToDUNE}
 \newlabel{sec:SNO}
 \newlabel{sec:SelectingEVDData}
 \newlabel{sec:SelectingTheData}
 \newlabel{sec:SheffieldCameras}
 \newlabel{sec:ShowerData}
-\newlabel{sec:ShowerReconstruction}
-\newlabel{sec:ShowersOverview}
 \newlabel{sec:SimulatedData}
 \newlabel{sec:SuperKamiokande}
 \newlabel{sec:TPCMonitoring}
-\newlabel{sec:TrackShowerSeparation}
 \newlabel{sec:VacuumOscillations}
 \newlabel{sec:WebInterface}
 \newlabel{sec:WebPage}

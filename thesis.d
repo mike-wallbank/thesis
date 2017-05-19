@@ -88,7 +88,6 @@ thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Declaration/dec
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Dedication/dedication.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,FarDetectorAnalysis/FarDetectorAnalysis.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Introduction/Introduction.tex)
-thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,LArReconstruction/LArReconstruction.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,NeutrinoPhysics/NeutrinoPhysics.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,OnlineMonitoring/OnlineMonitoring.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Preamble/preamble.tex)
@@ -210,6 +209,9 @@ thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/35tonPhotonDetec
 -include 35ton/Figs/DataMuonCombined.png.gpi.d
 thesis.d: $$(call graphics-source,35ton/Figs/DataMuonCombined.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/DataMuonCombined.png)
+-include 35ton/Figs/SimulatedMuonCombined.png.gpi.d
+thesis.d: $$(call graphics-source,35ton/Figs/SimulatedMuonCombined.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/SimulatedMuonCombined.png)
 -include 35ton/Figs/FFTRun13079.png.gpi.d
 thesis.d: $$(call graphics-source,35ton/Figs/FFTRun13079.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/FFTRun13079.png)
@@ -219,9 +221,6 @@ thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/FFTRun10286.png)
 -include 35ton/Figs/NoiseCorrelation.png.gpi.d
 thesis.d: $$(call graphics-source,35ton/Figs/NoiseCorrelation.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/NoiseCorrelation.png)
--include OnlineMonitoring/Figs/artdaqFramework.pdf.gpi.d
-thesis.d: $$(call graphics-source,OnlineMonitoring/Figs/artdaqFramework.pdf)
-thesis.pdf thesis._graphics: $$(call graphics-target,OnlineMonitoring/Figs/artdaqFramework.pdf)
 -include OnlineMonitoring/Figs/DQM1.png.gpi.d
 thesis.d: $$(call graphics-source,OnlineMonitoring/Figs/DQM1.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,OnlineMonitoring/Figs/DQM1.png)

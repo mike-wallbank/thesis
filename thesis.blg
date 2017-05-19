@@ -9,7 +9,11 @@ A level-1 auxiliary file: Introduction/Introduction.aux
 A level-1 auxiliary file: NeutrinoPhysics/NeutrinoPhysics.aux
 A level-1 auxiliary file: DUNE/DUNE.aux
 A level-1 auxiliary file: 35ton/35ton.aux
-A level-1 auxiliary file: LArReconstruction/LArReconstruction.aux
+I couldn't open auxiliary file LArTPCReconstruction/LArTPCReconstruction.aux
+---line 28 of file thesis.aux
+ : \@input{LArTPCReconstruction/LArTPCReconstruction.aux
+ :                                                      }
+I'm skipping whatever remains of this command
 A level-1 auxiliary file: OnlineMonitoring/OnlineMonitoring.aux
 A level-1 auxiliary file: 35tonAnalysis/35tonAnalysis.aux
 A level-1 auxiliary file: FarDetectorAnalysis/FarDetectorAnalysis.aux
@@ -43,9 +47,9 @@ Reallocated out_buf (elt_size=1) to 80000 items from 60000.
 Reallocated name_tok (elt_size=4) to 80000 items from 60000.
 Reallocated name_sep_char (elt_size=1) to 80000 items from 60000.
 Reallocated str_pool (elt_size=1) to 260000 items from 195000.
-Warning--I didn't find a database entry for ""
 You can't pop an empty literal stack for entry Weinberg1967
 while executing---line 953 of file andyisgreat.bst
+Reallocated str_pool (elt_size=1) to 325000 items from 260000.
 You can't pop an empty literal stack for entry Aad2012
 while executing---line 953 of file andyisgreat.bst
 You can't pop an empty literal stack for entry SuperKamiokande1998
@@ -128,39 +132,40 @@ while executing---line 953 of file andyisgreat.bst
 You can't pop an empty literal stack for entry Herbst2014
 while executing---line 953 of file andyisgreat.bst
 Warning--empty institution in SSPManual2016
+Warning--empty institution in Barros2016
 You can't pop an empty literal stack for entry Biery2013
 while executing---line 953 of file andyisgreat.bst
 Warning--empty journal in LZCDR2015
-You've used 140 entries,
+You've used 141 entries,
             1813 wiz_defined-function locations,
-            1329 strings with 259671 characters,
-and the built_in function-call counts, 29868 in all, are:
-= -- 2815
-> -- 1095
+            1333 strings with 259824 characters,
+and the built_in function-call counts, 30015 in all, are:
+= -- 2828
+> -- 1104
 < -- 5
-+ -- 498
-- -- 248
-* -- 2045
-:= -- 4747
-add.period$ -- 408
-call.type$ -- 140
-change.case$ -- 139
++ -- 502
+- -- 250
+* -- 2051
+:= -- 4776
+add.period$ -- 411
+call.type$ -- 141
+change.case$ -- 141
 chr.to.int$ -- 0
-cite$ -- 155
-duplicate$ -- 1240
-empty$ -- 3039
-format.name$ -- 248
-if$ -- 6592
+cite$ -- 157
+duplicate$ -- 1246
+empty$ -- 3051
+format.name$ -- 250
+if$ -- 6623
 int.to.chr$ -- 0
-int.to.str$ -- 140
+int.to.str$ -- 141
 missing$ -- 129
-newline$ -- 691
-num.names$ -- 138
-pop$ -- 306
+newline$ -- 696
+num.names$ -- 139
+pop$ -- 309
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 595
+skip$ -- 597
 stack$ -- 0
 substring$ -- 2329
 swap$ -- 158
@@ -168,8 +173,8 @@ text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 15
-while$ -- 319
-width$ -- 143
-write$ -- 1485
-(There were 37 error messages)
+warning$ -- 16
+while$ -- 320
+width$ -- 144
+write$ -- 1495
+(There were 38 error messages)

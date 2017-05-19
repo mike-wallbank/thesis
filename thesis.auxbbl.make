@@ -9,11 +9,9 @@
 \@setckpt{Dedication/dedication}{
 \@setckpt{FarDetectorAnalysis/FarDetectorAnalysis}{
 \@setckpt{Introduction/Introduction}{
-\@setckpt{LArReconstruction/LArReconstruction}{
 \@setckpt{NeutrinoPhysics/NeutrinoPhysics}{
 \@setckpt{OnlineMonitoring/OnlineMonitoring}{
 \@setckpt{Summary/Summary}{
-\@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lof}{\addvspace {10\p@ }}
@@ -83,22 +81,21 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {4.32}{\ignorespaces Event display depicting the charge deposited by an electromagnetic shower during the 35\nobreakspace  {}ton Phase\nobreakspace  {}II run.}}{94}{figure.caption.33}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.33}{\ignorespaces Difference between optical hit peak times and muon counter trigger times for photon detector 3 in the 35\nobreakspace  {}ton photon detection system.}}{97}{figure.caption.34}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.34}{\ignorespaces Average Optical Hit Amplitude per Event vs. Counter Pair Positions for the 35\nobreakspace  {}ton photon detection system.}}{97}{figure.caption.34}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.35}{\ignorespaces \relax }}{98}{figure.caption.35}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.36}{\ignorespaces FFT of ADC values for RCE00 for two different noise states.}}{99}{figure.caption.36}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.37}{\ignorespaces \relax }}{99}{figure.caption.37}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.35}{\ignorespaces Comparison between example muons tracks observed in 35\nobreakspace  {}ton data and simulation, along with example waveforms for randomly selected channels.}}{99}{figure.caption.35}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.36}{\ignorespaces FFT of ADC values for RCE00 for two different noise states.}}{100}{figure.caption.36}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.37}{\ignorespaces The correlation between waveforms recorded on different channel combinations for all 2048 35\nobreakspace  {}ton channels.}}{100}{figure.caption.37}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces Schematic design of the purity monitors utilised at the FNAL LAr test stands.}}{61}{figure.caption.3}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces The Liquid Argon Purity Demonstrator cryostat and purification system.}}{63}{figure.caption.4}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces The piston purge technique in the Liquid Argon Purity Demonstrator to remove atmopheric impurities before filling.}}{64}{figure.caption.5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces The piston purge technique in the Liquid Argon Purity Demonstrator to remove atmospheric impurities before filling.}}{64}{figure.caption.5}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces The concentration of electronegative impurities during the gas circulation stage in the Liquid Argon Purity Demonstrator following the piston purge.}}{65}{figure.caption.6}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces Schematic showing the recirculation of the LAr during commissioning and operations of the Liquid Argon Purity Denomstrator.}}{66}{figure.caption.7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces Schematic showing the recirculation of the LAr during commissioning and operations of the Liquid Argon Purity Demonstrator.}}{66}{figure.caption.7}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces The electron lifetime achieved in the Liquid Argon Purity Demonstrator during a six week run.}}{67}{figure.caption.8}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.9}{\ignorespaces The LongBo TPC detector shown within the Liquid Argon Purity Demonstrator Cryostat.}}{68}{figure.caption.9}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.1}{\ignorespaces The \textit  {lbne-artdaq} framework}}{70}{figure.caption.38}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.2}{\ignorespaces Software framework built for 35\nobreakspace  {}ton Online Monitoring}}{72}{figure.caption.39}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.3}{\ignorespaces Selection of Data Quality Monitoring figures}}{76}{figure.caption.40}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.4}{\ignorespaces Example online event display made by the Online Monitoring framework}}{79}{figure.caption.41}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.5}{\ignorespaces Schematic showing the interface between the online monitoring system and the web}}{80}{figure.caption.42}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.6}{\ignorespaces Web page for online monitoring and event displays}}{81}{figure.caption.43}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Software framework built for 35\nobreakspace  {}ton Online Monitoring}}{105}{figure.caption.38}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces Selection of Data Quality Monitoring figures}}{109}{figure.caption.39}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces Example online event display made by the Online Monitoring framework}}{112}{figure.caption.40}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces Schematic showing the interface between the online monitoring system and the web}}{113}{figure.caption.41}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces Web page for online monitoring and event displays}}{114}{figure.caption.42}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7.10}{\ignorespaces The $z$-offset for the TPC5/TPC7 gap measured in the 35\nobreakspace  {}ton data. A very noticable double-peak structure is evident in Figure\nobreakspace  {}\ref  {fig:TPC5TPC7Gap}; this bias appears to be related to the sign of the angle the particle track makes to the APA planes.\relax }}{96}{figure.caption.42}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7.11}{\ignorespaces Demonstration of how an $x$-offset in the positions of the APAs can explain the degeneracy evident in the $z$-offset measured using the 35\nobreakspace  {}ton data (Figure\nobreakspace  {}\ref  {fig:TPC5TPC7XOffsetZOffset}). In the left-hand plots, Figures\nobreakspace  {}\ref  {fig:APAGapXOffsetPos} and\nobreakspace  {}\ref  {fig:APAGapXOffsetPosFix}, the through-going particle makes a positive angle to the face of the APAs and in the right-hand plots, Figures\nobreakspace  {}\ref  {fig:APAGapXOffsetNeg} and\nobreakspace  {}\ref  {fig:APAGapXOffsetNegFix}, the particle is travelling with a negative gradient. In both cases, the offset of the APAs in the $x$-direction is the same. It is clear from Figures\nobreakspace  {}\ref  {fig:APAGapXOffsetPosFix} and\nobreakspace  {}\ref  {fig:APAGapXOffsetNegFix} how the sign of the measured $\Delta z$ is dependent on the angle of the track.\relax }}{97}{figure.caption.43}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7.12}{\ignorespaces Studies of the effects of offsets in the positions of the APAs in simulation. Articficial $z$- and $x$- offsets are introduced and their impact observed in the measurements of $\Delta z$. Figure\nobreakspace  {}\ref  {fig:APAGapMCZOffset} shows the effect of an offset in the $z$-direction; as expected, there is a single peak measuring the inputed value. Figures\nobreakspace  {}\ref  {fig:APAGapMCXOffsetZOffset} and\nobreakspace  {}\ref  {fig:APAGapMCXOffsetZOffsetAngle} show the consequence of offsets in both the $x$- and $z$-directions. This appears to show exactly what is seen in the 35\nobreakspace  {}ton data (Figure\nobreakspace  {}\ref  {fig:TPC5TPC7XOffsetZOffset}).\relax }}{98}{figure.caption.44}}
@@ -156,7 +153,6 @@
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lot}{\contentsline {table}{\numberline {2.1}{\ignorespaces The current best-fit values for the neutrino oscillation parameters for normal (inverted) hierarchy. Taken from \cite  {NuFit2017}.\relax }}{22}{table.caption.10}}
 \@writefile{lot}{\contentsline {table}{\numberline {3.1}{\ignorespaces Properties of noble liquids relevant when considering a TPC medium for a neutrino experiment \cite  {Soderberg2008}.\relax }}{27}{table.caption.3}}
 \@writefile{lot}{\contentsline {table}{\numberline {3.2}{\ignorespaces Exposures anticipated for the DUNE experiment for the first few years of operation. Due to the staged approach in construction, it will take some time to reach full design capabilities. The first exposure column represents the exposure expected in that year and the next column the cumulative total. Adapted from \cite  {DUNECDR1}.\relax }}{46}{table.caption.17}}
@@ -165,12 +161,12 @@
 \@writefile{lot}{\contentsline {table}{\numberline {7.2}{\ignorespaces The corrected gaps between the APAs, in $x$ and $z$, based on the offsets measured (Table \ref  {tab:APAGapOffsets}).}}{104}{table.caption.50}}
 \@writefile{toc}{\contentsline {chapter}{Appendix \numberline {A}How to install \LaTeX  }{147}{Appendix.a.A}}
 \@writefile{toc}{\contentsline {chapter}{Appendix \numberline {B}Installing the CUED class file}{151}{Appendix.a.B}}
+\@writefile{toc}{\contentsline {chapter}{References}{139}{chapter*.43}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {2}Neutrino Physics}{3}{chapter.2}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {3}The Deep Underground Neutrino Experiment}{25}{chapter.3}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {4}The DUNE 35\nobreakspace  {}ton Prototype}{57}{chapter.4}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {5}Reconstruction in a Liquid Argon TPC}{67}{chapter.5}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {6}Online Monitoring and Event Displays for the 35\nobreakspace  {}ton Experiment}{69}{chapter.6}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Online Monitoring and Event Displays for the 35\nobreakspace  {}ton Experiment}{103}{chapter.5}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {7}Analysis of 35\nobreakspace  {}ton Data}{85}{chapter.7}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {8}Electron Reconstruction for $\nu _e$ Oscillation Signal at the DUNE Far Detector}{135}{chapter.8}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {9}Summary}{137}{chapter.9}}
@@ -188,17 +184,13 @@
 \@writefile{toc}{\contentsline {section}{\numberline {4.1}The Materials Test Stand and Liquid Argon Purity Demonstrator}{58}{section.4.1}}
 \@writefile{toc}{\contentsline {section}{\numberline {4.2}35\nobreakspace  {}ton Experiment: Phase\nobreakspace  {}I}{67}{section.4.2}}
 \@writefile{toc}{\contentsline {section}{\numberline {4.3}35\nobreakspace  {}ton Experiment: Phase\nobreakspace  {}II}{74}{section.4.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.4}Summary}{101}{section.4.4}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}The LArSoft Framework}{68}{section.5.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}The Reconstruction Chain}{68}{section.5.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.3}Calorimetry Reconstruction}{68}{section.5.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.4}Shower Reconstruction in LArTPCs}{68}{section.5.4}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.1}The DAQ Framework}{69}{section.6.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.2}Online Monitoring Framework}{71}{section.6.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.3}Data Quality Monitoring}{73}{section.6.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.4}Online Event Display}{75}{section.6.4}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.5}Monitoring Web Interface}{78}{section.6.5}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.6}Online Monitoring Summary}{80}{section.6.6}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}Summary}{102}{section.4.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}The DAQ Framework}{103}{section.5.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}Online Monitoring Framework}{104}{section.5.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}Data Quality Monitoring}{107}{section.5.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.4}Online Event Display}{110}{section.5.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.5}Monitoring Web Interface}{111}{section.5.5}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.6}Online Monitoring Summary}{114}{section.5.6}}
 \@writefile{toc}{\contentsline {section}{\numberline {7.1}Preparing 35\nobreakspace  {}ton Data for Analysis}{85}{section.7.1}}
 \@writefile{toc}{\contentsline {section}{\numberline {7.2}LAr Purity from Crossing Muons}{91}{section.7.2}}
 \@writefile{toc}{\contentsline {section}{\numberline {7.3}APA Gap-Crossing Muons}{91}{section.7.3}}
@@ -237,27 +229,18 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}Data Acquisition}{79}{subsection.4.3.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.3.3}The Sheffield Camera System}{86}{subsection.4.3.3}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.3.4}Phase\nobreakspace  {}II Run}{90}{subsection.4.3.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.5}Outcomes of Phase\nobreakspace  {}II}{94}{subsection.4.3.5}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}From Charge to Hits}{68}{subsection.5.2.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}2D Object Reconstruction}{68}{subsection.5.2.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.3}3D Object Reconstruction}{68}{subsection.5.2.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.4}Alternative Chains}{68}{subsection.5.2.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.1}Showers Overview}{68}{subsection.5.4.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.2}BlurredCluster Algorithm}{68}{subsection.5.4.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.3}EMShower Algorithm}{68}{subsection.5.4.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.4}Track/Shower Separation}{68}{subsection.5.4.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.5}Performance of the Reconstruction}{68}{subsection.5.4.5}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.1}Monitoring Framework Design}{71}{subsection.6.2.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2.2}Writing Monitoring Data}{73}{subsection.6.2.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.1}TPC Monitoring}{74}{subsection.6.3.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.2}Photon Detector Monitoring}{74}{subsection.6.3.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.3}External Counter Monitoring}{75}{subsection.6.3.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.4}General Monitoring}{75}{subsection.6.3.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.3.5}DQM Plots}{75}{subsection.6.3.5}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.4.1}Selecting the Data}{77}{subsection.6.4.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.4.2}Representing the Data}{77}{subsection.6.4.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.5.1}Automated Data Transfer}{78}{subsection.6.5.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.5.2}Web Page}{78}{subsection.6.5.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.5}Outcomes of Phase\nobreakspace  {}II}{95}{subsection.4.3.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}Monitoring Framework Design}{105}{subsection.5.2.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}Writing Monitoring Data}{106}{subsection.5.2.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}TPC Monitoring}{107}{subsection.5.3.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.2}Photon Detector Monitoring}{107}{subsection.5.3.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.3}External Counter Monitoring}{108}{subsection.5.3.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.4}General Monitoring}{108}{subsection.5.3.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.5}DQM Plots}{108}{subsection.5.3.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.1}Selecting the Data}{110}{subsection.5.4.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.2}Representing the Data}{110}{subsection.5.4.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5.1}Automated Data Transfer}{111}{subsection.5.5.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5.2}Web Page}{113}{subsection.5.5.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {7.1.1}Selecting the Data}{86}{subsection.7.1.1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {7.1.2}Improving Data Quality}{87}{subsection.7.1.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {7.1.3}Reconstructing Muon Tracks}{87}{subsection.7.1.3}}
@@ -294,8 +277,8 @@
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.3.2}Operation and Outcomes of 35\nobreakspace  {}ton Camera System}{89}{subsubsection.4.3.3.2}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.5.1}Cryostat and TPC}{95}{subsubsection.4.3.5.1}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.5.2}Triggering Systems: Photon Detectors and Muon Counters}{96}{subsubsection.4.3.5.2}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.5.3}DAQ and Computing}{96}{subsubsection.4.3.5.3}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.5.4}Noise Issues}{97}{subsubsection.4.3.5.4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.5.3}DAQ and Computing}{97}{subsubsection.4.3.5.3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.5.4}Noise Issues}{98}{subsubsection.4.3.5.4}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {7.3.1.1}Measuring the APA Gaps}{95}{subsubsection.7.3.1.1}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {7.3.1.2}Measurements of the APA Offsets}{103}{subsubsection.7.3.1.2}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {7.4.1.1}Aligning APA Crossing Tracks}{107}{subsubsection.7.4.1.1}}
@@ -330,6 +313,8 @@
 \citation{35tonPhaseI2014}
 \citation{35tonPhaseI2014}
 \citation{35tonPhaseI2014}
+\citation{35tonPhaseI2014}
+\citation{35tonPhaseI2014}
 \citation{35tonPhaseI2015}
 \citation{35tonPhaseI2015}
 \citation{35tonPhaseI2015}
@@ -359,6 +344,9 @@
 \citation{Bahcall2005}
 \citation{Baller2014}
 \citation{Bandyopadhyay2002,deHolanda2002,Fogli2003}
+\citation{Barros2016}
+\citation{Barros2016}
+\citation{Barros2016}
 \citation{Bethe1939}
 \citation{Biery2013}
 \citation{Bilenky2015}
@@ -413,8 +401,6 @@
 \citation{Ellis2012}
 \citation{Feldman1977}
 \citation{Fermi1934Italian,Fermi1934German,Wilson1968}
-\citation{Freeman2014}
-\citation{Freeman2014}
 \citation{Freeman2014}
 \citation{Freeman2014}
 \citation{Gaisser1990}
@@ -531,11 +517,6 @@
 \citation{VMS}
 \citation{WA105}
 \citation{Wolfenstein1978}
-\citation{}
-\citation{}
-\citation{}
-\citation{}
-\citation{}
 \fi}
 \fi}
 \gdef\HyperFirstAtBeginDocument#1{#1}
@@ -553,7 +534,7 @@
 \providecommand\HyField@AuxAddToCoFields[2]{}
 \providecommand\HyField@AuxAddToFields[1]{}
 \providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
-\providecommand\hyper@newdestlabel[2]{}
+\providecommand\NAT@force@numbers{}\NAT@force@numbers
 \providecommand\hyper@newdestlabel[2]{}
 \providecommand\hyper@newdestlabel[2]{}
 \providecommand\hyper@newdestlabel[2]{}
@@ -583,8 +564,6 @@
 \setcounter{@ppsaveapp}{0}
 \setcounter{@ppsaveapp}{0}
 \setcounter{@ppsaveapp}{0}
-\setcounter{@ppsaveapp}{0}
-\setcounter{@ppsavesec}{0}
 \setcounter{@ppsavesec}{0}
 \setcounter{@ppsavesec}{0}
 \setcounter{@ppsavesec}{0}
@@ -599,7 +578,6 @@
 \setcounter{@ppsavesec}{0}
 \setcounter{@ppsavesec}{9}
 \setcounter{@ppsavesec}{9}
-\setcounter{@pps}{0}
 \setcounter{@pps}{0}
 \setcounter{@pps}{0}
 \setcounter{@pps}{0}
@@ -628,7 +606,6 @@
 \setcounter{ContinuedFloat}{0}
 \setcounter{ContinuedFloat}{0}
 \setcounter{ContinuedFloat}{0}
-\setcounter{ContinuedFloat}{0}
 \setcounter{Hfootnote}{0}
 \setcounter{Hfootnote}{0}
 \setcounter{Hfootnote}{0}
@@ -643,8 +620,6 @@
 \setcounter{Hfootnote}{0}
 \setcounter{Hfootnote}{0}
 \setcounter{Hfootnote}{0}
-\setcounter{Hfootnote}{0}
-\setcounter{Item}{0}
 \setcounter{Item}{0}
 \setcounter{Item}{0}
 \setcounter{Item}{0}
@@ -659,7 +634,6 @@
 \setcounter{Item}{0}
 \setcounter{Item}{23}
 \setcounter{Item}{23}
-\setcounter{NAT@ctr}{0}
 \setcounter{NAT@ctr}{0}
 \setcounter{NAT@ctr}{0}
 \setcounter{NAT@ctr}{0}
@@ -687,8 +661,7 @@
 \setcounter{bookmark@seq@number}{1}
 \setcounter{bookmark@seq@number}{33}
 \setcounter{bookmark@seq@number}{49}
-\setcounter{bookmark@seq@number}{75}
-\setcounter{bookmark@seq@number}{93}
+\setcounter{bookmark@seq@number}{67}
 \setcounter{chapter}{0}
 \setcounter{chapter}{0}
 \setcounter{chapter}{0}
@@ -700,7 +673,6 @@
 \setcounter{chapter}{3}
 \setcounter{chapter}{4}
 \setcounter{chapter}{5}
-\setcounter{chapter}{6}
 \setcounter{chapter}{7}
 \setcounter{chapter}{8}
 \setcounter{chapter}{9}
@@ -718,8 +690,6 @@
 \setcounter{enumiii}{0}
 \setcounter{enumiii}{0}
 \setcounter{enumiii}{0}
-\setcounter{enumiii}{0}
-\setcounter{enumii}{0}
 \setcounter{enumii}{0}
 \setcounter{enumii}{0}
 \setcounter{enumii}{0}
@@ -748,8 +718,6 @@
 \setcounter{enumiv}{0}
 \setcounter{enumiv}{0}
 \setcounter{enumiv}{0}
-\setcounter{enumiv}{0}
-\setcounter{enumi}{0}
 \setcounter{enumi}{0}
 \setcounter{enumi}{0}
 \setcounter{enumi}{0}
@@ -764,7 +732,6 @@
 \setcounter{enumi}{0}
 \setcounter{enumi}{6}
 \setcounter{enumi}{6}
-\setcounter{equation}{0}
 \setcounter{equation}{0}
 \setcounter{equation}{0}
 \setcounter{equation}{0}
@@ -788,13 +755,11 @@
 \setcounter{figure}{0}
 \setcounter{figure}{0}
 \setcounter{figure}{0}
-\setcounter{figure}{0}
 \setcounter{figure}{10}
 \setcounter{figure}{22}
 \setcounter{figure}{37}
 \setcounter{figure}{47}
-\setcounter{figure}{6}
-\setcounter{footnote}{0}
+\setcounter{figure}{5}
 \setcounter{footnote}{0}
 \setcounter{footnote}{0}
 \setcounter{footnote}{0}
@@ -823,9 +788,9 @@
 \setcounter{mpfootnote}{0}
 \setcounter{mpfootnote}{0}
 \setcounter{mpfootnote}{0}
-\setcounter{mpfootnote}{0}
-\setcounter{page}{102}
+\setcounter{page}{103}
 \setcounter{page}{10}
+\setcounter{page}{115}
 \setcounter{page}{134}
 \setcounter{page}{136}
 \setcounter{page}{138}
@@ -835,9 +800,7 @@
 \setcounter{page}{3}
 \setcounter{page}{4}
 \setcounter{page}{56}
-\setcounter{page}{69}
 \setcounter{page}{6}
-\setcounter{page}{82}
 \setcounter{page}{9}
 \setcounter{paragraph}{0}
 \setcounter{paragraph}{0}
@@ -853,7 +816,6 @@
 \setcounter{paragraph}{0}
 \setcounter{paragraph}{0}
 \setcounter{paragraph}{0}
-\setcounter{paragraph}{0}
 \setcounter{parentequation}{0}
 \setcounter{parentequation}{0}
 \setcounter{parentequation}{0}
@@ -868,8 +830,6 @@
 \setcounter{parentequation}{0}
 \setcounter{parentequation}{0}
 \setcounter{parentequation}{0}
-\setcounter{parentequation}{0}
-\setcounter{part}{0}
 \setcounter{part}{0}
 \setcounter{part}{0}
 \setcounter{part}{0}
@@ -896,7 +856,6 @@
 \setcounter{section@level}{1}
 \setcounter{section@level}{1}
 \setcounter{section@level}{1}
-\setcounter{section@level}{2}
 \setcounter{section@level}{2}
 \setcounter{section@level}{2}
 \setcounter{section}{0}
@@ -909,7 +868,6 @@
 \setcounter{section}{0}
 \setcounter{section}{0}
 \setcounter{section}{3}
-\setcounter{section}{4}
 \setcounter{section}{4}
 \setcounter{section}{5}
 \setcounter{section}{6}
@@ -928,8 +886,6 @@
 \setcounter{subfigure}{0}
 \setcounter{subfigure}{0}
 \setcounter{subfigure}{0}
-\setcounter{subfigure}{0}
-\setcounter{subparagraph}{0}
 \setcounter{subparagraph}{0}
 \setcounter{subparagraph}{0}
 \setcounter{subparagraph}{0}
@@ -958,8 +914,6 @@
 \setcounter{subsection}{0}
 \setcounter{subsection}{2}
 \setcounter{subsection}{3}
-\setcounter{subsection}{5}
-\setcounter{subsubsection}{0}
 \setcounter{subsubsection}{0}
 \setcounter{subsubsection}{0}
 \setcounter{subsubsection}{0}
@@ -988,8 +942,6 @@
 \setcounter{subtable}{0}
 \setcounter{subtable}{0}
 \setcounter{subtable}{0}
-\setcounter{subtable}{0}
-\setcounter{table}{0}
 \setcounter{table}{0}
 \setcounter{table}{0}
 \setcounter{table}{0}
@@ -1004,7 +956,6 @@
 \setcounter{table}{1}
 \setcounter{table}{2}
 \setcounter{table}{2}
-}
 }
 }
 }

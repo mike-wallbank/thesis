@@ -664,6 +664,13 @@ G~Carugno, et~al.
   Accelerators, Spectrometers, Detectors and Associated Equipment},
   292(3):580--584, 1990.
 
+\bibitem{35tonPhaseI2014}
+Alan Hahn, et~al.
+\newblock {The LBNE 35 Ton Prototype Cryostat}.
+\newblock In {\em Proceedings, 21st Symposium on Room-Temperature Semiconductor
+  X-ray and Gamma-ray Detectors (RTSD 2014): Seattle, WA, USA, November 8-15,
+  2014}, page 7431158, 2014.
+
 \bibitem{LAPD2014}
 Terry Tope and Others.
 \newblock {Extreme argon purity in a large, non-evacuated cryostat}.
@@ -683,13 +690,6 @@ C~Bromberg, et~al.
 David Montanari and Others.
 \newblock {First scientific application of the membrane cryostat technology}.
 \newblock {\em AIP Conf. Proc.}, 1573:1664--1671, 2014.
-
-\bibitem{35tonPhaseI2014}
-Alan Hahn, et~al.
-\newblock {The LBNE 35 Ton Prototype Cryostat}.
-\newblock In {\em Proceedings, 21st Symposium on Room-Temperature Semiconductor
-  X-ray and Gamma-ray Detectors (RTSD 2014): Seattle, WA, USA, November 8-15,
-  2014}, page 7431158, 2014.
 
 \bibitem{35tonPhaseI2015}
 David Montanari, et~al.
@@ -741,6 +741,11 @@ R~Herbst, et~al.
 \bibitem{SSPManual2016}
 J.T. Anderson, et~al.
 \newblock {SiPM Signal Processor User Manual}.
+\newblock Technical report, 2016.
+
+\bibitem{Barros2016}
+N.~Barros, et~al.
+\newblock {The Penn Trigger Board}.
 \newblock Technical report, 2016.
 
 \bibitem{Biery2013}

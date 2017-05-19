@@ -233,8 +233,6 @@ INPUT DUNE/DUNE.aux
 INPUT DUNE/DUNE.aux
 INPUT 35ton/35ton.aux
 INPUT 35ton/35ton.aux
-INPUT LArReconstruction/LArReconstruction.aux
-INPUT LArReconstruction/LArReconstruction.aux
 INPUT OnlineMonitoring/OnlineMonitoring.aux
 INPUT OnlineMonitoring/OnlineMonitoring.aux
 INPUT 35tonAnalysis/35tonAnalysis.aux
@@ -337,12 +335,12 @@ INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm
-INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
 INPUT 35ton/Figs/MTS.pdf
 INPUT ./35ton/Figs/MTS.pdf
 INPUT ./35ton/Figs/MTS.pdf
+INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /usr/local/texlive/2014/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
@@ -500,6 +498,9 @@ INPUT ./35ton/Figs/35tonPhotonDetectorsAttenuation.pdf
 INPUT 35ton/Figs/DataMuonCombined.png
 INPUT ./35ton/Figs/DataMuonCombined.png
 INPUT ./35ton/Figs/DataMuonCombined.png
+INPUT 35ton/Figs/SimulatedMuonCombined.png
+INPUT ./35ton/Figs/SimulatedMuonCombined.png
+INPUT ./35ton/Figs/SimulatedMuonCombined.png
 INPUT 35ton/Figs/FFTRun13079.png
 INPUT ./35ton/Figs/FFTRun13079.png
 INPUT ./35ton/Figs/FFTRun13079.png
@@ -512,9 +513,6 @@ INPUT ./35ton/Figs/NoiseCorrelation.png
 OUTPUT OnlineMonitoring/OnlineMonitoring.aux
 INPUT OnlineMonitoring/OnlineMonitoring.tex
 INPUT OnlineMonitoring/OnlineMonitoring.tex
-INPUT OnlineMonitoring/Figs/artdaqFramework.pdf
-INPUT ./OnlineMonitoring/Figs/artdaqFramework.pdf
-INPUT ./OnlineMonitoring/Figs/artdaqFramework.pdf
 INPUT OnlineMonitoring/Figs/softwareFramework.eps
 INPUT ./OnlineMonitoring/Figs/softwareFramework.eps
 INPUT ./OnlineMonitoring/Figs/softwareFramework.eps
@@ -554,6 +552,8 @@ INPUT ./OnlineMonitoring/Figs/webInterface-eps-converted-to.pdf
 INPUT OnlineMonitoring/Figs/webPage.png
 INPUT ./OnlineMonitoring/Figs/webPage.png
 INPUT ./OnlineMonitoring/Figs/webPage.png
+INPUT thesis.bbl
+INPUT thesis.bbl
 INPUT thesis.aux
 INPUT Dedication/dedication.aux
 INPUT Dedication/dedication.aux
@@ -571,8 +571,6 @@ INPUT DUNE/DUNE.aux
 INPUT DUNE/DUNE.aux
 INPUT 35ton/35ton.aux
 INPUT 35ton/35ton.aux
-INPUT LArReconstruction/LArReconstruction.aux
-INPUT LArReconstruction/LArReconstruction.aux
 INPUT OnlineMonitoring/OnlineMonitoring.aux
 INPUT OnlineMonitoring/OnlineMonitoring.aux
 INPUT 35tonAnalysis/35tonAnalysis.aux
