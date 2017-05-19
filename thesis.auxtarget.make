@@ -40,8 +40,10 @@
 \newlabel{fig:35tonCamerasImages}
 \newlabel{fig:35tonCamera}
 \newlabel{fig:35tonCryostat}
+\newlabel{fig:35tonDataFormat}
 \newlabel{fig:35tonDetector}
 \newlabel{fig:35tonExternalCounters}
+\newlabel{fig:35tonFEASIC}
 \newlabel{fig:35tonFilling}
 \newlabel{fig:35tonGasFilling}
 \newlabel{fig:35tonGeometry}
@@ -54,6 +56,8 @@
 \newlabel{fig:35tonPhotonDetectors}
 \newlabel{fig:35tonPhoto}
 \newlabel{fig:35tonPipeBreak}
+\newlabel{fig:35tonTriggeredEvent}
+\newlabel{fig:35tonTriggering}
 \newlabel{fig:APACrossingAligmentLeastSqResidual}
 \newlabel{fig:APACrossingAligmentLeastSqSeparation}
 \newlabel{fig:APACrossingAlignmentLeastSqMin}
@@ -128,7 +132,6 @@
 \newlabel{fig:DataCalorimetryThreshold3}
 \newlabel{fig:DataCalorimetryThreshold}
 \newlabel{fig:DataCalorimetrydEdx}
-\newlabel{fig:DataFormat}
 \newlabel{fig:DataMuon}
 \newlabel{fig:DataPi0Candidate}
 \newlabel{fig:DataRMSBadRun}
@@ -235,12 +238,12 @@
 \newlabel{fig:TrackSelectionCounterShadow}
 \newlabel{fig:TrackSelectionFinal}
 \newlabel{fig:TrackSelection}
-\newlabel{fig:TriggeredEvent}
 \newlabel{fig:TwoPeakAmbiguity}
 \newlabel{fig:WebInterface}
 \newlabel{fig:WebPage}
 \newlabel{fig:evd_crossing}
 \newlabel{fig:evd_gap}
+\newlabel{fig:lbne-artdaq}
 \newlabel{fig:lbne-artdaq}
 \newlabel{sec:2DReconstruction}
 \newlabel{sec:35tonCameraSystemOperation}
@@ -248,8 +251,10 @@
 \newlabel{sec:35tonCryostat}
 \newlabel{sec:35tonDAQ}
 \newlabel{sec:35tonDataAcquisition}
+\newlabel{sec:35tonDataFormats}
 \newlabel{sec:35tonDataSummary}
 \newlabel{sec:35tonDetector}
+\newlabel{sec:35tonElectronicsReadout}
 \newlabel{sec:35tonExternalCounters}
 \newlabel{sec:35tonFilling}
 \newlabel{sec:35tonPhaseIIOutcomesCryostatTPC}
@@ -341,7 +346,6 @@
 \newlabel{sec:ProtoDUNE}
 \newlabel{sec:PurityAnalysis}
 \newlabel{sec:PurityMonitoring}
-\newlabel{sec:RCESSPPTB}
 \newlabel{sec:ReconstructingMuonTracks}
 \newlabel{sec:ReconstructionChain}
 \newlabel{sec:ReconstructionPerformance}

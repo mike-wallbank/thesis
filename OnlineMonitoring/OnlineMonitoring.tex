@@ -19,7 +19,7 @@ Experiments at FNAL are migrating to \textit{artdaq}, a centrally-maintained dat
 %% \footnote{Since the formation of the DUNE experiment occurred only a few months before the running of the 35~ton, all online software maintained the use of the outdated `lbne' descriptor to prevent unnecessary potential problems associated with large scale code changes and alleviate the risk of further delays.  It should be again stressed that the 35~ton was recognised by the DUNE collaboration as an integral part of the DUNE plan and the use of \textit{lbne} was in no way an indication of a project associated only with the dissolved previous experiment!}.
 A general overview of lbne-artdaq is shown in Figure~\ref{fig:lbne-artdaq}.
 
-\begin{figure}[ht]
+\begin{figure}
 \centering
   \includegraphics[width=16cm]{artdaqFramework.pdf}
   \caption[The \textit{lbne-artdaq} framework]{Overview of the \textit{lbne-artdaq} framework used for data acquisition by the DUNE 35~ton experiment \cite{Freeman2014}.  See the text for a complete description.}
@@ -153,7 +153,7 @@ A variety of useful quantities not pertaining to any specific subcomponent were 
 
 The DQM section of the online monitoring produced around 60 figures each time it is run, illustrating the data discussed in the previous sections.  It is unnecessary to reproduce many here [perhaps an appendix? I think unnecessary though] but a sample for reference are shown in Figure~\ref{fig:DQMPlots}.
 
-\begin{figure}[p]
+\begin{figure}
   \centering
   \begin{subfigure}[t]{0.48\linewidth}
     \centering
@@ -193,33 +193,12 @@ Given the way in which data were read out of the detector, it proved challenging
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Selecting the Data}\label{sec:SelectingEVDData}
 
-[The data format will likely be described in the 35~ton section -- most of this will probably be moved up to that point and referenced at a later stage...]
-
-The raw format for the TPC data is complicated and has many levels of structure.  Refer to Figure~\ref{fig:DataFormat} during the following description.  The 2048 channels are readout out by 16 front-end boards (containing the cold electronics, including the digitisers), each processed by an RCE and then read into the DAQ by a board reader.  The format at this point is referred to as a millislice; there is a millislice for each of the detector components (RCEs, SSPs and PTB) and an `event' is a collection of all such millislices.  For the TPC data, a millislice contains all the information for 128 channels.  This data also has further substructure; a millislice is composed of N microslices, with each microslice containing M nanoslices.  A nanoslice contains 128 ADC values, representing one `tick' ($500$ ns) worth of data for 1/16th of the detector.  A microslice thus contains this information for a `drift window' (M ticks) and a millislice a collection (M) of drift windows.  For the normal data running, N was set to 20 and M 1000.
-
-\begin{figure}[p]
-  \centering
-  \includegraphics[width=14cm]{data_format.eps}
-  \caption[35~ton data format]{Demonstration of the format used in 35~ton raw data.  A `DAQ event' is composed of a single millislice from each component, each containing further substructure unique to the readout elements.}
-  \label{fig:DataFormat}
-\end{figure}
-
-As the detector collects data, the RCEs continually create and save microslices to send to the DAQ to form a millislice.  These microslices are empty (contain no nanoslices) until a trigger is received, at which point nanoslices are made and saved within each microslice.  There is also a buffer in place to save a certain number of full microslices (microslices containing nanoslices) before the microslice containing the trigger.  A certain number of full microslices proceeding the trigger are also recorded by the RCEs.  During normal running, a `$4+1+10$' format was employed; four microslices containing nanoslices before the trigger was received, the microslice containing the trigger, and the ten following microslices.  It should be further noted that, since the DAQ was designed for continuous data readout, these microslices need not necessarily be within the same millislice: it is possible for the trigger to occur in microslice 18 of a certain millislice, resulting in the 15 filled microslices straddling successive millislices.  This is demonstrated in Figure~\ref{fig:TriggeredEvent}.
-
-\begin{figure}[ht]
-  \centering
-  \includegraphics[width=16cm]{triggered_event.eps}
-  \caption[Demonstration of how TPC data from a triggered event in a LArTPC is saved when employing a DAQ with continuous readout]{Demonstration of how TPC data is saved when using a DAQ designed for continuous readout.  The black arrows represent hypothetical triggers occurring within the duration of a particular millislice.  In each case, the 4 preceding microslices and the 10 proceeding microslices are filled with nanoslices and saved; all other microslices are saved with no nanoslices since they contain no useful data.  An example of such an event is shown occurring in millislice 0 in the figure.  As described in the text, a trigger can cause the useful microslices to straddle consecutive millislices; this is represented in the following millislices in the figure.}
-  \label{fig:TriggeredEvent}
-\end{figure}
-Note this also results in real `physics events' being saved in separate `DAQ events'; for this reason a splitter/stitcher module has been designed to extract the actual triggered events from the raw data and repackage them into a useful event structure -- this is the first stage before all offline analysis with the 35~ton data.
+The raw data formats for the various 35~ton data streams were discussed in detail in Section~\ref{sec:35tonDataFormats}.  Each DAQ event comprises a collection of millislices, one for each of the detector subsystems (RCEs, SSPs, PTB), with further structure specific to each system and demonstrated in Figure~\ref{fig:35tonDataFormat}.  An example triggered event in the 35~ton data is illustrated in Figure~\ref{fig:35tonTriggeredEvent}.
 
 Since the event display runs online, a suitable selection must be applied to ensure the full physics event occurs within the current DAQ event; proceeding and preceding events are inaccessible to the DAQ during running.  This is achieved by noting whether or not a trigger occurred (i.e. microslices contain nanoslices) when reformatting the RCE data in DataReformatter, and which microslice it occurred in.  For the event display, a triggered event is only useful if the trigger occurred within a certain range (e.g. microslice 5 to microslice 10); this ensures all the filled microslices are present within the current millislice.  The event displayed is then filled for a given range of microslices around the trigger to capture all the actual physics data.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Representing the Data}\label{RepresentingEVDData}
-
-[This section requires background of reconstruction -- this will be the previous chapter.]
 
 Due to the wrapped nature of the induction wires in the 35~ton, and disambiguation being impossible without full reconstruction, it makes little sense to look at charge deposited on these planes.  This results in only the collection planes being useful for showing the data in this way, meaning just one dimension.  A second dimension is possible if the view is changed to show a representation of the TPC from above and using the drift time as a coordinate.  This requires the two centre APAs be shown together as one combined readout structure.  A `global collection wire' is defined by numbering the wires across the APAs, leaving a space for the gaps in between, and used to represent the dimension across the TPC.  The drift time, in ticks, represents the second spacial coordinate once charge collected in the short drift volume has been corrected to a negative tick.
 
@@ -227,7 +206,7 @@ By working with the system used to record pedestal values of the channels, it is
 
 An example event display is shown in Figure~\ref{fig:EVD}.
 
-\begin{figure}[p]
+\begin{figure}
   \centering
   \includegraphics[width=14cm]{evd.png}
   \caption[Example online event display made by the Online Monitoring framework]{Example online event display made as part of the online monitoring framework for run 14306 (2nd March, 2016).  The view is from the top of the detector looking down; the red lines represent the spaces between the APAs and the blue line the location of the APA frames, separating the long and short drift regions.}
@@ -244,7 +223,7 @@ The output of the monitoring is vital in assuring the experiment continues to ta
 
 The most complicated part of the web interface was ensuring the monitoring output were available in the correct place when needed.  This is achieved using a combination of disk mounting and automated scripts, demonstrated in Figure~\ref{fig:WebInterface}.
 
-\begin{figure}[ht]
+\begin{figure}
   \centering
   \includegraphics[width=12cm]{webInterface.eps}
   \caption[Schematic showing the interface between the online monitoring system and the web]{Schematic showing the interface between the online monitoring system and the web.  The DAQ machines are shown as rectangles with their disks represented as cylinders.  Connections between a node and a disk are shown as straight lines, with dotted lines representing processes running on the machine.}
@@ -258,7 +237,7 @@ The DAQ aggregator processes run on the lbnedaq6 and lbnedaq7 nodes, requiring a
 
 The web page was hosted at FNAL and located at lbne-dqm.fnal.gov.  The method in the monitoring framework used to write out all the output also wrote and saved all the HTML used to allow images of the plots to be displayed on the web.  This HTML is copied, along with all the images and data files, to the web area as discussed above in Section~\ref{sec:AutomatedDataTransfer}.  The web page was basic but performed all required for use in the 35~ton; it had dedicated pages for all the data quality monitoring information and the online event display (the nearline monitoring was also hosted at this website but is not described here).  See Figure~\ref{fig:WebPage} for a demonstration of web page and example navigation.
 
-\begin{figure}[ht]
+\begin{figure}
   \centering
   \includegraphics[width=14cm]{webPage.png}
   \caption[Web page for online monitoring and event displays]{Demonstration of the web page developed to display information produced by the online monitoring and event display.  The pages are written in HTML and allowed prompt and convenient feedback directly from the DAQ be accessed anywhere and assist in remote monitoring of the experiment.  All previous runs are also kept on the website for reference.}

@@ -700,19 +700,57 @@ David Montanari, et~al.
 \bibitem{VMS}
 {Fermi National Accelerator Laboratory Visual Media Services}, 2015.
 
-\bibitem{Alion2014}
-Tyler Alion and Jae Kim.
-\newblock {Wrapped Wire Angle in Disambiguation}.
-\newblock pages 1--9, 2014.
+\bibitem{35tonGeometryAlion2014}
+T~Alion.
+\newblock {35$\sim$ton Geometry}, 2014.
 
 \bibitem{35tonPhotonDetectors}
 35ton.
 \newblock {35 ton Photon Detectors}.
 \newblock {\em NOT PUBLISHED YET}.
 
+\bibitem{CDFCounters2005}
+A~Artikov, et~al.
+\newblock {Design and construction of new central and forward muon counters for
+  \{CDF\} \{II\}}.
+\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment},
+  538(1–3):358--371, 2005.
+
 \bibitem{35tonExternalCounters}
 M.~Stancari.
 \newblock {35 ton Counter Locations}, 2015.
+
+\bibitem{DeGeronimo2011}
+G~De Geronimo, et~al.
+\newblock {Front-End ASIC for a Liquid Argon TPC}.
+\newblock {\em IEEE Transactions on Nuclear Science}, 58(3):1376--1385, 2011.
+
+\bibitem{Thorn2012}
+C~Thorn, et~al.
+\newblock {Cold Electronics Development for the LBNE LAr TPC}.
+\newblock {\em Physics Procedia}, 37:1295--1302, 2012.
+
+\bibitem{Herbst2014}
+R~Herbst, et~al.
+\newblock {Design of the SLAC RCE Platform: A general purpose ATCA based data
+  acquisition system}.
+\newblock In {\em 2014 IEEE Nuclear Science Symposium and Medical Imaging
+  Conference (NSS/MIC)}, pages 1--4, 2014.
+
+\bibitem{SSPManual2016}
+J.T. Anderson, et~al.
+\newblock {SiPM Signal Processor User Manual}.
+\newblock Technical report, 2016.
+
+\bibitem{Biery2013}
+K~Biery, et~al.
+\newblock {artdaq: An Event-Building, Filtering, and Processing Framework}.
+\newblock {\em IEEE Transactions on Nuclear Science}, 60(5):3764--3771, 2013.
+
+\bibitem{Freeman2014}
+J.~Freeman.
+\newblock {Courtesy of John Freeman, Fermilab}, 2014.
 
 \bibitem{LZCDR2015}
 D~S Akerib and Others.
@@ -733,8 +771,9 @@ N~McConkey, et~al.
 \bibitem{35tonCameraVideo}
 {35$\sim$ton Phase$\sim$II LAr filling monitored by camera system}, 2016.
 
-\bibitem{Freeman2014}
-J.~Freeman.
-\newblock {Courtesy of John Freeman, Fermilab}, 2014.
+\bibitem{35tonNoise2016}
+L~Bagby, et~al.
+\newblock {35$\sim$ton Noise}.
+\newblock {\em DUNE Document Database}, 1834, 2016.
 
 \end{thebibliography}

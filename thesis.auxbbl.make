@@ -67,20 +67,25 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {4.18}{\ignorespaces Photon detector units as implemented within the 35\nobreakspace  {}ton APAs.}}{78}{figure.caption.19}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.19}{\ignorespaces The location of the external counters positioned around the outer walls and in the ceiling above the 35\nobreakspace  {}ton cryostat.}}{79}{figure.caption.20}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces The Materials Test Stand Stand at FNAL.}}{59}{figure.caption.1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.20}{\ignorespaces The calibration images for the 8 cameras in the system. Upper (left to right): phase separator, ullage, cathode top right, cathode bottom right. Lower (left to right) cooldown sprayers, cathode top left, cathode bottom left and high voltage feedthrough. The upper images were taken with a halogen light illuminating the cryostat, prior to it being sealed up. The lower images were taken with the LED ring light on, with the cryostat sealed up. All images are left-right inverted due to software. Taken from \cite  {35tonCameras2017}.\relax }}{80}{figure.caption.21}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.21}{\ignorespaces An example camera module developed for the 35\nobreakspace  {}ton Sheffield camera system.}}{81}{figure.caption.22}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.22}{\ignorespaces Two camera modules mounted on cryo piping in the 35\nobreakspace  {}ton cryostat.}}{82}{figure.caption.23}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.23}{\ignorespaces Full system block diagram for the camera modules in the DUNE 35\nobreakspace  {}ton prototype.}}{83}{figure.caption.24}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.24}{\ignorespaces The variation in picture quality degradation in the 35\nobreakspace  {}ton camera system is illustrated by the changes in Camera\nobreakspace  {}1 and Camera\nobreakspace  {}4 over time.}}{84}{figure.caption.25}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.25}{\ignorespaces The broken pipe, originally part of the framework introducing gaseous argon from LAPD into the 35\nobreakspace  {}ton to maintain LAr levels, which resulted in the poisoning of the whole LAr volume by allowing the introduction of air into the system.}}{86}{figure.caption.26}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.26}{\ignorespaces The data taking period of the 35\nobreakspace  {}ton Phase\nobreakspace  {}II experiment.}}{87}{figure.caption.27}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.27}{\ignorespaces Event display depicting the charge deposited by an electromagnetic shower during the 35\nobreakspace  {}ton Phase\nobreakspace  {}II run.}}{88}{figure.caption.28}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.28}{\ignorespaces Difference between optical hit peak times and muon counter trigger times for photon detector 3 in the 35\nobreakspace  {}ton photon detection system.}}{90}{figure.caption.29}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.29}{\ignorespaces Average Optical Hit Amplitude per Event vs. Counter Pair Positions for the 35\nobreakspace  {}ton photon detection system.}}{90}{figure.caption.29}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.20}{\ignorespaces Electronics response of the front end ASIC for different configuration settings.}}{80}{figure.caption.21}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.21}{\ignorespaces Block diagram showing the triggering system for the 35\nobreakspace  {}ton Phase\nobreakspace  {}II.}}{81}{figure.caption.22}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.22}{\ignorespaces 35\nobreakspace  {}ton data format}}{82}{figure.caption.23}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.23}{\ignorespaces Demonstration of how TPC data from a triggered event in a LArTPC is saved when employing a DAQ with continuous readout}}{84}{figure.caption.24}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.24}{\ignorespaces The \textit  {lbne-artdaq} framework}}{85}{figure.caption.25}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.25}{\ignorespaces The calibration images for the 8 cameras in the system. Upper (left to right): phase separator, ullage, cathode top right, cathode bottom right. Lower (left to right) cooldown sprayers, cathode top left, cathode bottom left and high voltage feedthrough. The upper images were taken with a halogen light illuminating the cryostat, prior to it being sealed up. The lower images were taken with the LED ring light on, with the cryostat sealed up. All images are left-right inverted due to software. Taken from \cite  {35tonCameras2017}.\relax }}{87}{figure.caption.26}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.26}{\ignorespaces An example camera module developed for the 35\nobreakspace  {}ton Sheffield camera system.}}{88}{figure.caption.27}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.27}{\ignorespaces Two camera modules mounted on cryo piping in the 35\nobreakspace  {}ton cryostat.}}{89}{figure.caption.28}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.28}{\ignorespaces Full system block diagram for the camera modules in the DUNE 35\nobreakspace  {}ton prototype.}}{90}{figure.caption.29}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.29}{\ignorespaces The variation in picture quality degradation in the 35\nobreakspace  {}ton camera system is illustrated by the changes in Camera\nobreakspace  {}1 and Camera\nobreakspace  {}4 over time.}}{91}{figure.caption.30}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces Results from the Materials Test Stand showing the water contamination in LAr and the corresponding electron lifetime.}}{60}{figure.caption.2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.30}{\ignorespaces \relax }}{91}{figure.caption.30}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.31}{\ignorespaces FFT of ADC values for RCE00 for two different noise states.}}{92}{figure.caption.31}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.32}{\ignorespaces \relax }}{92}{figure.caption.32}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.30}{\ignorespaces The broken pipe, originally part of the framework introducing gaseous argon from LAPD into the 35\nobreakspace  {}ton to maintain LAr levels, which resulted in the poisoning of the whole LAr volume by allowing the introduction of air into the system.}}{93}{figure.caption.31}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.31}{\ignorespaces The data taking period of the 35\nobreakspace  {}ton Phase\nobreakspace  {}II experiment.}}{93}{figure.caption.32}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.32}{\ignorespaces Event display depicting the charge deposited by an electromagnetic shower during the 35\nobreakspace  {}ton Phase\nobreakspace  {}II run.}}{94}{figure.caption.33}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.33}{\ignorespaces Difference between optical hit peak times and muon counter trigger times for photon detector 3 in the 35\nobreakspace  {}ton photon detection system.}}{97}{figure.caption.34}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.34}{\ignorespaces Average Optical Hit Amplitude per Event vs. Counter Pair Positions for the 35\nobreakspace  {}ton photon detection system.}}{97}{figure.caption.34}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.35}{\ignorespaces \relax }}{98}{figure.caption.35}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.36}{\ignorespaces FFT of ADC values for RCE00 for two different noise states.}}{99}{figure.caption.36}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.37}{\ignorespaces \relax }}{99}{figure.caption.37}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces Schematic design of the purity monitors utilised at the FNAL LAr test stands.}}{61}{figure.caption.3}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces The Liquid Argon Purity Demonstrator cryostat and purification system.}}{63}{figure.caption.4}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces The piston purge technique in the Liquid Argon Purity Demonstrator to remove atmopheric impurities before filling.}}{64}{figure.caption.5}}
@@ -88,14 +93,12 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces Schematic showing the recirculation of the LAr during commissioning and operations of the Liquid Argon Purity Denomstrator.}}{66}{figure.caption.7}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces The electron lifetime achieved in the Liquid Argon Purity Demonstrator during a six week run.}}{67}{figure.caption.8}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.9}{\ignorespaces The LongBo TPC detector shown within the Liquid Argon Purity Demonstrator Cryostat.}}{68}{figure.caption.9}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.1}{\ignorespaces The \textit  {lbne-artdaq} framework}}{70}{figure.caption.48}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.2}{\ignorespaces Software framework built for 35\nobreakspace  {}ton Online Monitoring}}{72}{figure.caption.49}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.3}{\ignorespaces Selection of Data Quality Monitoring figures}}{76}{figure.caption.50}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.4}{\ignorespaces 35\nobreakspace  {}ton data format}}{78}{figure.caption.51}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.5}{\ignorespaces Demonstration of how TPC data from a triggered event in a LArTPC is saved when employing a DAQ with continuous readout}}{79}{figure.caption.52}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.6}{\ignorespaces Example online event display made by the Online Monitoring framework}}{81}{figure.caption.53}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.7}{\ignorespaces Schematic showing the interface between the online monitoring system and the web}}{82}{figure.caption.54}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6.8}{\ignorespaces Web page for online monitoring and event displays}}{83}{figure.caption.55}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.1}{\ignorespaces The \textit  {lbne-artdaq} framework}}{70}{figure.caption.38}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.2}{\ignorespaces Software framework built for 35\nobreakspace  {}ton Online Monitoring}}{72}{figure.caption.39}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.3}{\ignorespaces Selection of Data Quality Monitoring figures}}{76}{figure.caption.40}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.4}{\ignorespaces Example online event display made by the Online Monitoring framework}}{79}{figure.caption.41}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.5}{\ignorespaces Schematic showing the interface between the online monitoring system and the web}}{80}{figure.caption.42}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6.6}{\ignorespaces Web page for online monitoring and event displays}}{81}{figure.caption.43}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7.10}{\ignorespaces The $z$-offset for the TPC5/TPC7 gap measured in the 35\nobreakspace  {}ton data. A very noticable double-peak structure is evident in Figure\nobreakspace  {}\ref  {fig:TPC5TPC7Gap}; this bias appears to be related to the sign of the angle the particle track makes to the APA planes.\relax }}{96}{figure.caption.42}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7.11}{\ignorespaces Demonstration of how an $x$-offset in the positions of the APAs can explain the degeneracy evident in the $z$-offset measured using the 35\nobreakspace  {}ton data (Figure\nobreakspace  {}\ref  {fig:TPC5TPC7XOffsetZOffset}). In the left-hand plots, Figures\nobreakspace  {}\ref  {fig:APAGapXOffsetPos} and\nobreakspace  {}\ref  {fig:APAGapXOffsetPosFix}, the through-going particle makes a positive angle to the face of the APAs and in the right-hand plots, Figures\nobreakspace  {}\ref  {fig:APAGapXOffsetNeg} and\nobreakspace  {}\ref  {fig:APAGapXOffsetNegFix}, the particle is travelling with a negative gradient. In both cases, the offset of the APAs in the $x$-direction is the same. It is clear from Figures\nobreakspace  {}\ref  {fig:APAGapXOffsetPosFix} and\nobreakspace  {}\ref  {fig:APAGapXOffsetNegFix} how the sign of the measured $\Delta z$ is dependent on the angle of the track.\relax }}{97}{figure.caption.43}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7.12}{\ignorespaces Studies of the effects of offsets in the positions of the APAs in simulation. Articficial $z$- and $x$- offsets are introduced and their impact observed in the measurements of $\Delta z$. Figure\nobreakspace  {}\ref  {fig:APAGapMCZOffset} shows the effect of an offset in the $z$-direction; as expected, there is a single peak measuring the inputed value. Figures\nobreakspace  {}\ref  {fig:APAGapMCXOffsetZOffset} and\nobreakspace  {}\ref  {fig:APAGapMCXOffsetZOffsetAngle} show the consequence of offsets in both the $x$- and $z$-directions. This appears to show exactly what is seen in the 35\nobreakspace  {}ton data (Figure\nobreakspace  {}\ref  {fig:TPC5TPC7XOffsetZOffset}).\relax }}{98}{figure.caption.44}}
@@ -162,7 +165,6 @@
 \@writefile{lot}{\contentsline {table}{\numberline {7.2}{\ignorespaces The corrected gaps between the APAs, in $x$ and $z$, based on the offsets measured (Table \ref  {tab:APAGapOffsets}).}}{104}{table.caption.50}}
 \@writefile{toc}{\contentsline {chapter}{Appendix \numberline {A}How to install \LaTeX  }{147}{Appendix.a.A}}
 \@writefile{toc}{\contentsline {chapter}{Appendix \numberline {B}Installing the CUED class file}{151}{Appendix.a.B}}
-\@writefile{toc}{\contentsline {chapter}{References}{139}{chapter*.82}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {2}Neutrino Physics}{3}{chapter.2}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {3}The Deep Underground Neutrino Experiment}{25}{chapter.3}}
@@ -186,7 +188,7 @@
 \@writefile{toc}{\contentsline {section}{\numberline {4.1}The Materials Test Stand and Liquid Argon Purity Demonstrator}{58}{section.4.1}}
 \@writefile{toc}{\contentsline {section}{\numberline {4.2}35\nobreakspace  {}ton Experiment: Phase\nobreakspace  {}I}{67}{section.4.2}}
 \@writefile{toc}{\contentsline {section}{\numberline {4.3}35\nobreakspace  {}ton Experiment: Phase\nobreakspace  {}II}{74}{section.4.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.4}Summary}{91}{section.4.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}Summary}{101}{section.4.4}}
 \@writefile{toc}{\contentsline {section}{\numberline {5.1}The LArSoft Framework}{68}{section.5.1}}
 \@writefile{toc}{\contentsline {section}{\numberline {5.2}The Reconstruction Chain}{68}{section.5.2}}
 \@writefile{toc}{\contentsline {section}{\numberline {5.3}Calorimetry Reconstruction}{68}{section.5.3}}
@@ -195,8 +197,8 @@
 \@writefile{toc}{\contentsline {section}{\numberline {6.2}Online Monitoring Framework}{71}{section.6.2}}
 \@writefile{toc}{\contentsline {section}{\numberline {6.3}Data Quality Monitoring}{73}{section.6.3}}
 \@writefile{toc}{\contentsline {section}{\numberline {6.4}Online Event Display}{75}{section.6.4}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.5}Monitoring Web Interface}{80}{section.6.5}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.6}Online Monitoring Summary}{83}{section.6.6}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.5}Monitoring Web Interface}{78}{section.6.5}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.6}Online Monitoring Summary}{80}{section.6.6}}
 \@writefile{toc}{\contentsline {section}{\numberline {7.1}Preparing 35\nobreakspace  {}ton Data for Analysis}{85}{section.7.1}}
 \@writefile{toc}{\contentsline {section}{\numberline {7.2}LAr Purity from Crossing Muons}{91}{section.7.2}}
 \@writefile{toc}{\contentsline {section}{\numberline {7.3}APA Gap-Crossing Muons}{91}{section.7.3}}
@@ -233,9 +235,9 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.2.3}Outcomes of Phase\nobreakspace  {}I}{72}{subsection.4.2.3}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}The 35\nobreakspace  {}ton Detector}{74}{subsection.4.3.1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}Data Acquisition}{79}{subsection.4.3.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.3}The Sheffield Camera System}{79}{subsection.4.3.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.4}Phase\nobreakspace  {}II Run}{84}{subsection.4.3.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.5}Outcomes of Phase\nobreakspace  {}II}{87}{subsection.4.3.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.3}The Sheffield Camera System}{86}{subsection.4.3.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.4}Phase\nobreakspace  {}II Run}{90}{subsection.4.3.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.5}Outcomes of Phase\nobreakspace  {}II}{94}{subsection.4.3.5}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}From Charge to Hits}{68}{subsection.5.2.1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}2D Object Reconstruction}{68}{subsection.5.2.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.2.3}3D Object Reconstruction}{68}{subsection.5.2.3}}
@@ -253,9 +255,9 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.3.4}General Monitoring}{75}{subsection.6.3.4}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.3.5}DQM Plots}{75}{subsection.6.3.5}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.4.1}Selecting the Data}{77}{subsection.6.4.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.4.2}Representing the Data}{79}{subsection.6.4.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.5.1}Automated Data Transfer}{80}{subsection.6.5.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.5.2}Web Page}{82}{subsection.6.5.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4.2}Representing the Data}{77}{subsection.6.4.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.5.1}Automated Data Transfer}{78}{subsection.6.5.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.5.2}Web Page}{78}{subsection.6.5.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {7.1.1}Selecting the Data}{86}{subsection.7.1.1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {7.1.2}Improving Data Quality}{87}{subsection.7.1.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {7.1.3}Reconstructing Muon Tracks}{87}{subsection.7.1.3}}
@@ -284,15 +286,16 @@
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.2.3}LAPD Outcomes}{65}{subsubsection.4.1.2.3}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.1.1}TPC}{75}{subsubsection.4.3.1.1}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.1.2}Photon Detectors}{78}{subsubsection.4.3.1.2}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.1.3}External Counters}{78}{subsubsection.4.3.1.3}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.2.1}RCEs, SSPs, PTB}{79}{subsubsection.4.3.2.1}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.2.2}35\nobreakspace  {}ton DAQ}{79}{subsubsection.4.3.2.2}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.3.1}The Camera System}{80}{subsubsection.4.3.3.1}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.3.2}Operation and Outcomes of 35\nobreakspace  {}ton Camera System}{82}{subsubsection.4.3.3.2}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.5.1}Cryostat and TPC}{87}{subsubsection.4.3.5.1}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.5.2}Triggering Systems: Photon Detectors and Muon Counters}{89}{subsubsection.4.3.5.2}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.5.3}DAQ}{90}{subsubsection.4.3.5.3}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.5.4}Noise Issues}{91}{subsubsection.4.3.5.4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.1.3}External Counters}{79}{subsubsection.4.3.1.3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.2.1}Electronics and Readout}{80}{subsubsection.4.3.2.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.2.2}35\nobreakspace  {}ton Data Formats}{81}{subsubsection.4.3.2.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.2.3}35\nobreakspace  {}ton DAQ}{83}{subsubsection.4.3.2.3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.3.1}The Camera System}{87}{subsubsection.4.3.3.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.3.2}Operation and Outcomes of 35\nobreakspace  {}ton Camera System}{89}{subsubsection.4.3.3.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.5.1}Cryostat and TPC}{95}{subsubsection.4.3.5.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.5.2}Triggering Systems: Photon Detectors and Muon Counters}{96}{subsubsection.4.3.5.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.5.3}DAQ and Computing}{96}{subsubsection.4.3.5.3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.5.4}Noise Issues}{97}{subsubsection.4.3.5.4}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {7.3.1.1}Measuring the APA Gaps}{95}{subsubsection.7.3.1.1}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {7.3.1.2}Measurements of the APA Offsets}{103}{subsubsection.7.3.1.2}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {7.4.1.1}Aligning APA Crossing Tracks}{107}{subsubsection.7.4.1.1}}
@@ -319,6 +322,9 @@
 \citation{35tonCameras2017}
 \citation{35tonExternalCounters}
 \citation{35tonExternalCounters}
+\citation{35tonGeometryAlion2014}
+\citation{35tonGeometryAlion2014}
+\citation{35tonNoise2016}
 \citation{35tonPhaseI2014Cryostat,35tonPhaseI2014,35tonPhaseI2015}
 \citation{35tonPhaseI2014}
 \citation{35tonPhaseI2014}
@@ -343,8 +349,6 @@
 \citation{35tonPhotonDetectors}
 \citation{Aad2012,Chatrchyan2012}
 \citation{Abdurashitov1994}
-\citation{Alion2014}
-\citation{Alion2014}
 \citation{Anselmann1992}
 \citation{ArgoNeuT2012}
 \citation{Bahcall1968}
@@ -356,10 +360,12 @@
 \citation{Baller2014}
 \citation{Bandyopadhyay2002,deHolanda2002,Fogli2003}
 \citation{Bethe1939}
+\citation{Biery2013}
 \citation{Bilenky2015}
 \citation{Blatter2014}
 \citation{Brown1949}
 \citation{Burmester1977}
+\citation{CDFCounters2005}
 \citation{Casper1991,BeckerSzendy1992}
 \citation{Chepel2013}
 \citation{Cleveland1995}
@@ -403,9 +409,12 @@
 \citation{Davis1959}
 \citation{DayaBay2012}
 \citation{DeCamp1989,Adeva1989,Akrawy1989,Aarnio1989}
+\citation{DeGeronimo2011,Thorn2012}
 \citation{Ellis2012}
 \citation{Feldman1977}
 \citation{Fermi1934Italian,Fermi1934German,Wilson1968}
+\citation{Freeman2014}
+\citation{Freeman2014}
 \citation{Freeman2014}
 \citation{Freeman2014}
 \citation{Gaisser1990}
@@ -413,6 +422,7 @@
 \citation{Glashow1961,Weinberg1967}
 \citation{Haines1986}
 \citation{Hampel1999}
+\citation{Herbst2014}
 \citation{Hirata1988}
 \citation{Huber2011}
 \citation{Huber2011}
@@ -497,6 +507,7 @@
 \citation{Rubbia1977}
 \citation{SNO2002}
 \citation{SNO2013}
+\citation{SSPManual2016}
 \citation{Sage2009}
 \citation{Schael2006}
 \citation{Schael2006}
@@ -522,6 +533,9 @@
 \citation{Wolfenstein1978}
 \citation{}
 \citation{}
+\citation{}
+\citation{}
+\citation{}
 \fi}
 \fi}
 \gdef\HyperFirstAtBeginDocument#1{#1}
@@ -539,7 +553,6 @@
 \providecommand\HyField@AuxAddToCoFields[2]{}
 \providecommand\HyField@AuxAddToFields[1]{}
 \providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
-\providecommand\NAT@force@numbers{}\NAT@force@numbers
 \providecommand\hyper@newdestlabel[2]{}
 \providecommand\hyper@newdestlabel[2]{}
 \providecommand\hyper@newdestlabel[2]{}
@@ -778,9 +791,9 @@
 \setcounter{figure}{0}
 \setcounter{figure}{10}
 \setcounter{figure}{22}
-\setcounter{figure}{32}
+\setcounter{figure}{37}
 \setcounter{figure}{47}
-\setcounter{figure}{8}
+\setcounter{figure}{6}
 \setcounter{footnote}{0}
 \setcounter{footnote}{0}
 \setcounter{footnote}{0}
@@ -811,6 +824,7 @@
 \setcounter{mpfootnote}{0}
 \setcounter{mpfootnote}{0}
 \setcounter{mpfootnote}{0}
+\setcounter{page}{102}
 \setcounter{page}{10}
 \setcounter{page}{134}
 \setcounter{page}{136}
@@ -823,8 +837,7 @@
 \setcounter{page}{56}
 \setcounter{page}{69}
 \setcounter{page}{6}
-\setcounter{page}{84}
-\setcounter{page}{93}
+\setcounter{page}{82}
 \setcounter{page}{9}
 \setcounter{paragraph}{0}
 \setcounter{paragraph}{0}
