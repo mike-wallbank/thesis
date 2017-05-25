@@ -11,7 +11,11 @@ A level-1 auxiliary file: DUNE/DUNE.aux
 A level-1 auxiliary file: 35ton/35ton.aux
 A level-1 auxiliary file: LArTPCReconstruction/LArTPCReconstruction.aux
 A level-1 auxiliary file: OnlineMonitoring/OnlineMonitoring.aux
-A level-1 auxiliary file: 35tonAnalysis/35tonAnalysis.aux
+I couldn't open auxiliary file 35tonAnalysis/35tonAnalysis.aux
+---line 30 of file thesis.aux
+ : \@input{35tonAnalysis/35tonAnalysis.aux
+ :                                        }
+I'm skipping whatever remains of this command
 A level-1 auxiliary file: FarDetectorAnalysis/FarDetectorAnalysis.aux
 A level-1 auxiliary file: Summary/Summary.aux
 The style file: andyisgreat.bst
@@ -32,7 +36,7 @@ Reallocated name_tok (elt_size=4) to 60000 items from 40000.
 Reallocated name_sep_char (elt_size=1) to 60000 items from 40000.
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Reallocated str_pool (elt_size=1) to 195000 items from 130000.
-Repeated entry---line 865 of file References/references.bib
+Repeated entry---line 916 of file References/references.bib
  : @article{Baller2014
  :                    ,
 I'm skipping whatever remains of this entry
@@ -43,15 +47,12 @@ Reallocated out_buf (elt_size=1) to 80000 items from 60000.
 Reallocated name_tok (elt_size=4) to 80000 items from 60000.
 Reallocated name_sep_char (elt_size=1) to 80000 items from 60000.
 Reallocated str_pool (elt_size=1) to 260000 items from 195000.
-You can't pop an empty literal stack for entry SuperKamiokande1998
-while executing---line 953 of file andyisgreat.bst
 Reallocated str_pool (elt_size=1) to 325000 items from 260000.
-Warning--empty journal in DUNECDR3
-Warning--empty journal in DUNECDR2
-Warning--empty journal in DUNECDR1
 You can't pop an empty literal stack for entry Weinberg1967
 while executing---line 953 of file andyisgreat.bst
 You can't pop an empty literal stack for entry Aad2012
+while executing---line 953 of file andyisgreat.bst
+You can't pop an empty literal stack for entry SuperKamiokande1998
 while executing---line 953 of file andyisgreat.bst
 You can't pop an empty literal stack for entry SNO2002
 while executing---line 953 of file andyisgreat.bst
@@ -79,6 +80,7 @@ You can't pop an empty literal stack for entry KamLAND2003
 while executing---line 953 of file andyisgreat.bst
 You can't pop an empty literal stack for entry KamLAND2005
 while executing---line 953 of file andyisgreat.bst
+Warning--empty journal in DUNECDR1
 You can't pop an empty literal stack for entry Sage2009
 while executing---line 953 of file andyisgreat.bst
 You can't pop an empty literal stack for entry SNO2013
@@ -109,6 +111,8 @@ You can't pop an empty literal stack for entry T2K2017
 while executing---line 953 of file andyisgreat.bst
 You can't pop an empty literal stack for entry Triotsk2011
 while executing---line 953 of file andyisgreat.bst
+Warning--empty journal in DUNECDR2
+Warning--empty journal in DUNECDR3
 Warning--empty journal in DUNECDR4
 Warning--empty journal in LArIAT2014
 Warning--empty institution in PIPII2013
@@ -132,45 +136,51 @@ Warning--empty institution in Barros2016
 You can't pop an empty literal stack for entry Biery2013
 while executing---line 953 of file andyisgreat.bst
 Warning--empty journal in LZCDR2015
-You've used 141 entries,
+Warning--empty journal in LArSoft2013
+Warning--empty year in Snider2016
+You can't pop an empty literal stack for entry GEANT42006
+while executing---line 953 of file andyisgreat.bst
+Warning--empty institution in WireCellWebsite
+Warning--empty year in WireCellWebsite
+You've used 151 entries,
             1813 wiz_defined-function locations,
-            1333 strings with 259824 characters,
-and the built_in function-call counts, 30015 in all, are:
-= -- 2828
-> -- 1104
+            1385 strings with 262376 characters,
+and the built_in function-call counts, 31656 in all, are:
+= -- 2966
+> -- 1163
 < -- 5
-+ -- 502
-- -- 250
-* -- 2051
-:= -- 4776
-add.period$ -- 411
-call.type$ -- 141
-change.case$ -- 141
++ -- 530
+- -- 263
+* -- 2137
+:= -- 5029
+add.period$ -- 437
+call.type$ -- 151
+change.case$ -- 152
 chr.to.int$ -- 0
-cite$ -- 157
-duplicate$ -- 1246
-empty$ -- 3051
-format.name$ -- 250
-if$ -- 6623
+cite$ -- 171
+duplicate$ -- 1326
+empty$ -- 3240
+format.name$ -- 263
+if$ -- 6991
 int.to.chr$ -- 0
-int.to.str$ -- 141
-missing$ -- 129
-newline$ -- 696
-num.names$ -- 139
-pop$ -- 309
+int.to.str$ -- 151
+missing$ -- 136
+newline$ -- 742
+num.names$ -- 147
+pop$ -- 347
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 597
+skip$ -- 642
 stack$ -- 0
-substring$ -- 2329
-swap$ -- 158
+substring$ -- 2400
+swap$ -- 167
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 16
-while$ -- 320
-width$ -- 144
-write$ -- 1495
-(There were 37 error messages)
+warning$ -- 20
+while$ -- 334
+width$ -- 154
+write$ -- 1586
+(There were 39 error messages)
