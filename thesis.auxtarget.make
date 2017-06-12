@@ -98,7 +98,6 @@
 \newlabel{fig:DataSimulationNoiseComparison}
 \newlabel{fig:EVD}
 \newlabel{fig:ElectricFieldScintillationIonisation}
-\newlabel{fig:ElectronicsResponse}
 \newlabel{fig:FDCryostats}
 \newlabel{fig:FamousShower}
 \newlabel{fig:GlobalFit}
@@ -190,6 +189,7 @@
 \newlabel{sec:DUNEPhysics}
 \newlabel{sec:DUNESinglePhase}
 \newlabel{sec:EMShower}
+\newlabel{sec:EnergyDetermination}
 \newlabel{sec:EventDisplay}
 \newlabel{sec:EvidenceNeutrinoOscillations}
 \newlabel{sec:FarDetector}
@@ -229,6 +229,7 @@
 \newlabel{sec:SNO}
 \newlabel{sec:SelectingEVDData}
 \newlabel{sec:SheffieldCameras}
+\newlabel{sec:ShowerEnergy}
 \newlabel{sec:ShowerReconstruction}
 \newlabel{sec:ShowersOverview}
 \newlabel{sec:SuperKamiokande}

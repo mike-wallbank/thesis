@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  25 MAY 2017 15:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  12 JUN 2017 13:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1229,8 +1229,14 @@ Normal \count register pool exhausted, switching to extended pool.
 Package: translator 2010/06/12 ver 1.10
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/beamer/translator/translator-lang
-uage-mappings.tex)))) (./thesis-info.tex)
-No file thesis.aux.
+uage-mappings.tex)))) (./thesis-info.tex) (./thesis.aux (./Dedication/dedicatio
+n.aux) (./Declaration/declaration.aux) (./Acknowledgements/acknowledgements.aux
+) (./Abstract/abstract.aux) (./Introduction/Introduction.aux) (./NeutrinoPhysic
+s/NeutrinoPhysics.aux) (./DUNE/DUNE.aux) (./35ton/35ton.aux) (./LArTPCReconstru
+ction/LArTPCReconstruction.aux) (./OnlineMonitoring/OnlineMonitoring.aux)
+No file 35tonAnalysis/35tonAnalysis.aux.
+(./FarDetectorAnalysis/FarDetectorAnalysis.aux) (./Summary/Summary.aux) (./Appe
+ndix1/appendix1.aux) (./Appendix2/appendix2.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 115.
@@ -1298,6 +1304,7 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 115.
 LaTeX Info: Redefining \pageref on input line 115.
 LaTeX Info: Redefining \nameref on input line 115.
+(./thesis.out) (./thesis.out)
 \@outlinefile=\write5
 \openout5 = `thesis.out'.
 
@@ -1398,64 +1405,24 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-No file thesis.nls.
+(./thesis.nls) [10
+
+
+
+
+
+
+
+]
 \openout2 = `LArTPCReconstruction/LArTPCReconstruction.aux'.
 
 (./LArTPCReconstruction/LArTPCReconstruction.tex
-Chapter 1.
+Chapter 5.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 7.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 13.
-
-LaTeX Warning: Reference `sec:LArSoft' on page 1 undefined on input line 13.
-
-
-LaTeX Warning: Reference `sec:ReconstructionChain' on page 1 undefined on input
- line 13.
-
-
-LaTeX Warning: Reference `sec:Calorimetry' on page 1 undefined on input line 13
-.
-
-
-LaTeX Warning: Reference `sec:ShowerReconstruction' on page 1 undefined on inpu
-t line 13.
-
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 16.
-
-Package natbib Warning: Citation `LArSoftWebsite' on page 1 undefined on input 
-line 18.
-
-
-Package natbib Warning: Citation `LArSoft2013' on page 1 undefined on input lin
-e 18.
-
-
-Package natbib Warning: Citation `LArSoft2016' on page 1 undefined on input lin
-e 18.
-
-
-Package natbib Warning: Citation `Snider2016' on page 1 undefined on input line
- 18.
-
-
-Package natbib Warning: Citation `artWebsite' on page 1 undefined on input line
- 18.
-
-
-Package natbib Warning: Citation `art2012' on page 1 undefined on input line 18
-.
-
-[1
-
-
-
-
-
-
-
+[103
 
 
 
@@ -1463,34 +1430,13 @@ Package natbib Warning: Citation `art2012' on page 1 undefined on input line 18
 
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-Package natbib Warning: Citation `GENIE2010' on page 2 undefined on input line 
-20.
-
-
-Package natbib Warning: Citation `GEANT42006' on page 2 undefined on input line
- 20.
-
-
-LaTeX Warning: Reference `fig:LArSoftStructure' on page 2 undefined on input li
-ne 20.
-
-
-<LArTPCReconstruction/Figs/LArSoftStructure.pdf, id=14, 171.64125pt x 133.49875
-pt>
+<LArTPCReconstruction/Figs/LArSoftStructure.pdf, id=104, 171.64125pt x 133.4987
+5pt>
 File: LArTPCReconstruction/Figs/LArSoftStructure.pdf Graphic file (type pdf)
 <use LArTPCReconstruction/Figs/LArSoftStructure.pdf>
 Package pdftex.def Info: LArTPCReconstruction/Figs/LArSoftStructure.pdf used on
  input line 24.
 (pdftex.def)             Requested size: 199.16928pt x 154.90955pt.
-
-Package natbib Warning: Citation `LArSoft2016' on page 2 undefined on input lin
-e 25.
-
-
-Package natbib Warning: Citation `LArSoft2016' on page 2 undefined on input lin
-e 25.
-
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 29.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
@@ -1499,141 +1445,75 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-[2 <./LArTPCReconstruction/Figs/LArSoftStructure.pdf>]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 32.
+[104 <./LArTPCReconstruction/Figs/LArSoftStructure.pdf>]
 
-Package natbib Warning: Citation `MicroBooNEReconstruction2017' on page 3 undef
-ined on input line 33.
-
-
-LaTeX Warning: Reference `chap:35tonAnalysis' on page 3 undefined on input line
- 33.
+LaTeX Warning: Reference `chap:35tonAnalysis' on page 105 undefined on input li
+ne 33.
 
 
-LaTeX Warning: Reference `sec:ReconstructionChain' on page 3 undefined on input
- line 33.
-
-
-LaTeX Warning: Reference `sec:Calorimetry' on page 3 undefined on input line 33
-.
-
-
-LaTeX Warning: Reference `sec:ShowerReconstruction' on page 3 undefined on inpu
-t line 35.
-
-
-LaTeX Warning: Reference `fig:ReconstructionWorkflow' on page 3 undefined on in
-put line 40.
-
-
-<LArTPCReconstruction/Figs/ReconstructionWorkflow.pdf, id=46, 211.79124pt x 214
-.8025pt>
+<LArTPCReconstruction/Figs/ReconstructionWorkflow.pdf, id=146, 211.79124pt x 21
+4.8025pt>
 File: LArTPCReconstruction/Figs/ReconstructionWorkflow.pdf Graphic file (type p
 df)
 <use LArTPCReconstruction/Figs/ReconstructionWorkflow.pdf>
 Package pdftex.def Info: LArTPCReconstruction/Figs/ReconstructionWorkflow.pdf u
 sed on input line 44.
 (pdftex.def)             Requested size: 227.62204pt x 230.86557pt.
-
-Package natbib Warning: Citation `LArSoft2016' on page 3 undefined on input lin
-e 45.
-
-
-Package natbib Warning: Citation `LArSoft2016' on page 3 undefined on input lin
-e 45.
-
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 50.
-[3]
-
-LaTeX Warning: Reference `fig:HitFinding' on page 4 undefined on input line 60.
-
-
-<LArTPCReconstruction/Figs/HitFindingU.pdf, id=57, 454.29735pt x 83.31636pt>
+[105] <LArTPCReconstruction/Figs/HitFindingU.pdf, id=161, 454.29735pt x 83.3163
+6pt>
 File: LArTPCReconstruction/Figs/HitFindingU.pdf Graphic file (type pdf)
 <use LArTPCReconstruction/Figs/HitFindingU.pdf>
 Package pdftex.def Info: LArTPCReconstruction/Figs/HitFindingU.pdf used on inpu
 t line 66.
 (pdftex.def)             Requested size: 131.23967pt x 24.06958pt.
-<LArTPCReconstruction/Figs/HitFindingV.pdf, id=58, 453.96832pt x 82.50142pt>
+<LArTPCReconstruction/Figs/HitFindingV.pdf, id=162, 453.96832pt x 82.50142pt>
 File: LArTPCReconstruction/Figs/HitFindingV.pdf Graphic file (type pdf)
 <use LArTPCReconstruction/Figs/HitFindingV.pdf>
 Package pdftex.def Info: LArTPCReconstruction/Figs/HitFindingV.pdf used on inpu
 t line 73.
 (pdftex.def)             Requested size: 131.23967pt x 23.85051pt.
-<LArTPCReconstruction/Figs/HitFindingZ.pdf, id=59, 452.8377pt x 82.95595pt>
+<LArTPCReconstruction/Figs/HitFindingZ.pdf, id=163, 452.8377pt x 82.95595pt>
 File: LArTPCReconstruction/Figs/HitFindingZ.pdf Graphic file (type pdf)
 <use LArTPCReconstruction/Figs/HitFindingZ.pdf>
 Package pdftex.def Info: LArTPCReconstruction/Figs/HitFindingZ.pdf used on inpu
 t line 80.
 (pdftex.def)             Requested size: 131.23967pt x 24.04141pt.
 
-LaTeX Warning: Reference `fig:ElectronicsResponse' on page 4 undefined on input
- line 84.
+LaTeX Warning: Reference `fig:ElectronicsResponse' on page 106 undefined on inp
+ut line 84.
 
 
-LaTeX Warning: Reference `fig:ElectronicsResponse' on page 4 undefined on input
- line 84.
+LaTeX Warning: Reference `fig:ElectronicsResponse' on page 106 undefined on inp
+ut line 84.
 
-
-LaTeX Warning: Reference `sec:DUNESinglePhase' on page 4 undefined on input lin
-e 88.
-
-
-LaTeX Warning: Reference `sec:35tonTPC' on page 4 undefined on input line 88.
-
-[4 <./LArTPCReconstruction/Figs/ReconstructionWorkflow.pdf>]
-
-LaTeX Warning: Reference `fig:2DnumuCC' on page 5 undefined on input line 95.
-
-
-LaTeX Warning: Reference `fig:2DnumuCCHits' on page 5 undefined on input line 9
-5.
-
-
-LaTeX Warning: Reference `fig:2DnumuCCClusters' on page 5 undefined on input li
-ne 95.
-
-<LArTPCReconstruction/Figs/2DnumuCCHits.pdf, id=91, 533.32912pt x 523.4457pt>
+[106 <./LArTPCReconstruction/Figs/ReconstructionWorkflow.pdf>]
+<LArTPCReconstruction/Figs/2DnumuCCHits.pdf, id=203, 533.32912pt x 523.4457pt>
 File: LArTPCReconstruction/Figs/2DnumuCCHits.pdf Graphic file (type pdf)
 <use LArTPCReconstruction/Figs/2DnumuCCHits.pdf>
 Package pdftex.def Info: LArTPCReconstruction/Figs/2DnumuCCHits.pdf used on inp
 ut line 101.
 (pdftex.def)             Requested size: 205.77896pt x 201.97049pt.
 
-<LArTPCReconstruction/Figs/2DnumuCCClusters.pdf, id=92, 533.84288pt x 522.91222
-pt>
+<LArTPCReconstruction/Figs/2DnumuCCClusters.pdf, id=204, 533.84288pt x 522.9122
+2pt>
 File: LArTPCReconstruction/Figs/2DnumuCCClusters.pdf Graphic file (type pdf)
 <use LArTPCReconstruction/Figs/2DnumuCCClusters.pdf>
 Package pdftex.def Info: LArTPCReconstruction/Figs/2DnumuCCClusters.pdf used on
  input line 108.
 (pdftex.def)             Requested size: 205.77896pt x 201.56519pt.
-
-LaTeX Warning: Reference `sec:ShowerReconstruction' on page 5 undefined on inpu
-t line 116.
-
-[5 <./LArTPCReconstruction/Figs/HitFindingU.pdf> <./LArTPCReconstruction/Figs/H
-itFindingV.pdf> <./LArTPCReconstruction/Figs/HitFindingZ.pdf>]
-
-LaTeX Warning: Reference `fig:2DnumuCC' on page 6 undefined on input line 118.
-
-
-LaTeX Warning: Reference `fig:3DnumuCC' on page 6 undefined on input line 118.
-
-
-LaTeX Warning: Reference `fig:3DnumuCC2D' on page 6 undefined on input line 118
-.
-
-
-LaTeX Warning: Reference `fig:3DnumuCC3D' on page 6 undefined on input line 118
-.
-
-<LArTPCReconstruction/Figs/3DnumuCC2D.pdf, id=179, 532.68799pt x 522.71286pt>
+[107 <./LArTPCReconstruction/Figs/HitFindingU.pdf> <./LArTPCReconstruction/Figs
+/HitFindingV.pdf> <./LArTPCReconstruction/Figs/HitFindingZ.pdf>] <LArTPCReconst
+ruction/Figs/3DnumuCC2D.pdf, id=299, 532.68799pt x 522.71286pt>
 File: LArTPCReconstruction/Figs/3DnumuCC2D.pdf Graphic file (type pdf)
 <use LArTPCReconstruction/Figs/3DnumuCC2D.pdf>
 Package pdftex.def Info: LArTPCReconstruction/Figs/3DnumuCC2D.pdf used on input
  line 124.
 (pdftex.def)             Requested size: 205.77896pt x 201.92702pt.
-<LArTPCReconstruction/Figs/3DnumuCC3D.pdf, id=180, 569.12625pt x 643.40375pt>
+<LArTPCReconstruction/Figs/3DnumuCC3D.pdf, id=300, 569.12625pt x 643.40375pt>
 File: LArTPCReconstruction/Figs/3DnumuCC3D.pdf Graphic file (type pdf)
 <use LArTPCReconstruction/Figs/3DnumuCC3D.pdf>
 Package pdftex.def Info: LArTPCReconstruction/Figs/3DnumuCC3D.pdf used on input
@@ -1645,28 +1525,18 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 132.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 132.
-
-LaTeX Warning: Reference `sec:ShowerReconstruction' on page 6 undefined on inpu
-t line 139.
-
-
-Package natbib Warning: Citation `WireCellWebsite' on page 6 undefined on input
- line 139.
-
-[6 <./LArTPCReconstruction/Figs/2DnumuCCHits.pdf> <./LArTPCReconstruction/Figs/
-2DnumuCCClusters.pdf>]) [7 <./LArTPCReconstruction/Figs/3DnumuCC2D.pdf> <./LArT
-PCReconstruction/Figs/3DnumuCC3D.pdf>] [8
+[108 <./LArTPCReconstruction/Figs/2DnumuCCHits.pdf> <./LArTPCReconstruction/Fig
+s/2DnumuCCClusters.pdf>] [109 <./LArTPCReconstruction/Figs/3DnumuCC2D.pdf> <./L
+ArTPCReconstruction/Figs/3DnumuCC3D.pdf>]) [110] [176
 
 
 
 
 
 
-]
-No file thesis.bbl.
+] (./thesis.bbl [177
 
-Package natbib Warning: There were undefined citations.
-
+] [178] [179] [180] [181] [182] [183] [184]) [185]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 193.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 193.
 (./thesis.aux (./Dedication/dedication.aux) (./Declaration/declaration.aux) (./
@@ -1685,37 +1555,91 @@ Package rerunfilecheck Warning: File `thesis.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `thesis.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D5E46AA9722EEE57D05CDD8397F58D7E;2567.
+(rerunfilecheck)             Before: 17251D5F22EE5D50AA0D807AAC2AA90B;3448
+(rerunfilecheck)             After:  FE456CF119732D6C66439736A29D7AEF;2593.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 24392 strings out of 493117
- 433791 string characters out of 6135433
- 493171 words of memory out of 5000000
- 27271 multiletter control sequences out of 15000+600000
- 64485 words of font info for 199 fonts, out of 8000000 for 9000
+ 25163 strings out of 493117
+ 447551 string characters out of 6135433
+ 528819 words of memory out of 5000000
+ 27735 multiletter control sequences out of 15000+600000
+ 70420 words of font info for 256 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,12n,47p,10395b,781s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
-{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
-live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texl
-ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texliv
-e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
-/2014/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2
-014/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2014/texmf-d
-ist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/
-type1/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/
-times/utmri8a.pfb>
-Output written on thesis.pdf (8 pages, 1742291 bytes).
+ 49i,11n,45p,10395b,1421s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{subsubsection.4.3.1.1} has been referenced but do
+es not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.3.3.2.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter*.37} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.4.4} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.3.5} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.3.4} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.3.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.3.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.3.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.4.3} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.2.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.2.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.2.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.4.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.1.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.1.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.4.1.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.4.1} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.4} has been referenced but does not exist, 
+replaced by a fixed one
+
+{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/
+usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texli
+ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texliv
+e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/
+2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
+014/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/201
+4/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2014/texmf-dis
+t/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/ty
+pe1/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/ti
+mes/utmri8a.pfb>
+Output written on thesis.pdf (19 pages, 1778169 bytes).
 PDF statistics:
- 384 PDF objects out of 1000 (max. 8388607)
- 275 compressed objects within 3 object streams
- 27 named destinations out of 1000 (max. 500000)
- 39470 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 739 PDF objects out of 1000 (max. 8388607)
+ 609 compressed objects within 7 object streams
+ 211 named destinations out of 1000 (max. 500000)
+ 39606 words of extra memory for PDF output out of 42996 (max. 10000000)
 

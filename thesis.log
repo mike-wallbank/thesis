@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  25 MAY 2017 15:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  12 JUN 2017 13:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1482,15 +1482,23 @@ File: LArTPCReconstruction/Figs/HitFindingZ.pdf Graphic file (type pdf)
 Package pdftex.def Info: LArTPCReconstruction/Figs/HitFindingZ.pdf used on inpu
 t line 80.
 (pdftex.def)             Requested size: 131.23967pt x 24.04141pt.
+
+LaTeX Warning: Reference `fig:ElectronicsResponse' on page 106 undefined on inp
+ut line 84.
+
+
+LaTeX Warning: Reference `fig:ElectronicsResponse' on page 106 undefined on inp
+ut line 84.
+
 [106 <./LArTPCReconstruction/Figs/ReconstructionWorkflow.pdf>]
-<LArTPCReconstruction/Figs/2DnumuCCHits.pdf, id=183, 533.32912pt x 523.4457pt>
+<LArTPCReconstruction/Figs/2DnumuCCHits.pdf, id=181, 533.32912pt x 523.4457pt>
 File: LArTPCReconstruction/Figs/2DnumuCCHits.pdf Graphic file (type pdf)
 <use LArTPCReconstruction/Figs/2DnumuCCHits.pdf>
 Package pdftex.def Info: LArTPCReconstruction/Figs/2DnumuCCHits.pdf used on inp
 ut line 101.
 (pdftex.def)             Requested size: 205.77896pt x 201.97049pt.
 
-<LArTPCReconstruction/Figs/2DnumuCCClusters.pdf, id=184, 533.84288pt x 522.9122
+<LArTPCReconstruction/Figs/2DnumuCCClusters.pdf, id=182, 533.84288pt x 522.9122
 2pt>
 File: LArTPCReconstruction/Figs/2DnumuCCClusters.pdf Graphic file (type pdf)
 <use LArTPCReconstruction/Figs/2DnumuCCClusters.pdf>
@@ -1499,13 +1507,13 @@ Package pdftex.def Info: LArTPCReconstruction/Figs/2DnumuCCClusters.pdf used on
 (pdftex.def)             Requested size: 205.77896pt x 201.56519pt.
 [107 <./LArTPCReconstruction/Figs/HitFindingU.pdf> <./LArTPCReconstruction/Figs
 /HitFindingV.pdf> <./LArTPCReconstruction/Figs/HitFindingZ.pdf>] <LArTPCReconst
-ruction/Figs/3DnumuCC2D.pdf, id=275, 532.68799pt x 522.71286pt>
+ruction/Figs/3DnumuCC2D.pdf, id=276, 532.68799pt x 522.71286pt>
 File: LArTPCReconstruction/Figs/3DnumuCC2D.pdf Graphic file (type pdf)
 <use LArTPCReconstruction/Figs/3DnumuCC2D.pdf>
 Package pdftex.def Info: LArTPCReconstruction/Figs/3DnumuCC2D.pdf used on input
  line 124.
 (pdftex.def)             Requested size: 205.77896pt x 201.92702pt.
-<LArTPCReconstruction/Figs/3DnumuCC3D.pdf, id=276, 569.12625pt x 643.40375pt>
+<LArTPCReconstruction/Figs/3DnumuCC3D.pdf, id=277, 569.12625pt x 643.40375pt>
 File: LArTPCReconstruction/Figs/3DnumuCC3D.pdf Graphic file (type pdf)
 <use LArTPCReconstruction/Figs/3DnumuCC3D.pdf>
 Package pdftex.def Info: LArTPCReconstruction/Figs/3DnumuCC3D.pdf used on input
@@ -1518,8 +1526,8 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 132.
 [108 <./LArTPCReconstruction/Figs/2DnumuCCHits.pdf> <./LArTPCReconstruction/Fig
-s/2DnumuCCClusters.pdf>]) [109 <./LArTPCReconstruction/Figs/3DnumuCC2D.pdf> <./
-LArTPCReconstruction/Figs/3DnumuCC3D.pdf>] [176
+s/2DnumuCCClusters.pdf>] [109 <./LArTPCReconstruction/Figs/3DnumuCC2D.pdf> <./L
+ArTPCReconstruction/Figs/3DnumuCC3D.pdf>]) [110] [176
 
 
 
@@ -1542,24 +1550,21 @@ ndix1/appendix1.aux) (./Appendix2/appendix2.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 193.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 193.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 882F693442A5E563DBDD743987288E5C;2671.
+(rerunfilecheck)             Checksum: FE456CF119732D6C66439736A29D7AEF;2593.
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 25138 strings out of 493117
- 447167 string characters out of 6135433
- 528669 words of memory out of 5000000
- 27729 multiletter control sequences out of 15000+600000
+ 25142 strings out of 493117
+ 447243 string characters out of 6135433
+ 528819 words of memory out of 5000000
+ 27731 multiletter control sequences out of 15000+600000
  70420 words of font info for 256 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  49i,11n,45p,10395b,1421s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{figure.caption.21} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsubsection.4.3.1.1} has been referenced but does
- not exist, replaced by a fixed one
+pdfTeX warning (dest): name{subsubsection.4.3.1.1} has been referenced but do
+es not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{subsubsection.3.3.2.1} has been referenced but does
  not exist, replaced by a fixed one
@@ -1574,10 +1579,10 @@ e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/
 t/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/ty
 pe1/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on thesis.pdf (18 pages, 1774902 bytes).
+Output written on thesis.pdf (19 pages, 1776795 bytes).
 PDF statistics:
- 691 PDF objects out of 1000 (max. 8388607)
- 566 compressed objects within 6 object streams
- 192 named destinations out of 1000 (max. 500000)
+ 706 PDF objects out of 1000 (max. 8388607)
+ 577 compressed objects within 6 object streams
+ 194 named destinations out of 1000 (max. 500000)
  39574 words of extra memory for PDF output out of 42996 (max. 10000000)
 

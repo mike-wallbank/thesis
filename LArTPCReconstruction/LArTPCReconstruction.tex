@@ -92,7 +92,7 @@ Due to the wrapped wires, multiple hits will be reconstructed on each channel, o
 
 The next typical stage of the reconstruction following hit finding is the process of forming 2D objects, or `clustering'.  In LArSoft, all 2D objects, regardless of their topology, are named `clusters' and are simply a collection of hits identified as being associated with a common ionising particle.  These 2D structures exist only on a given plane and do not have contributions from multiple views; the extension to 3D reconstruction involves combining numerous clusters between the views.  Multiple cluster algorithms exist in LArSoft, each designed for different specialisations.
 
-An example 2D view of a $\nu_{\mu}$CC event, simulated in a reduced far detector volume, is shown in Figure~\ref{fig:2DnumuCC}.  This particular interaction is $nu$.  The outcome of hit reconstruction is demonstrated in Figure~\ref{fig:2DnumuCCHits} and the result of applying clustering to these hits is displayed in Figure~\ref{fig:2DnumuCCClusters}, with each colour representing a separate cluster.
+An example 2D view of a $\nu_{\mu}$CC event, simulated in a reduced far detector volume, is shown in Figure~\ref{fig:2DnumuCC}.  This particular interaction is a deep inelastic scattering producing, along with the muon, multiple final state protons and a very high energy $\pi^+$ meson.  The outcome of hit reconstruction is demonstrated in Figure~\ref{fig:2DnumuCCHits} and the result of applying clustering to these hits is displayed in Figure~\ref{fig:2DnumuCCClusters}, with each colour representing a separate cluster.
 
 \begin{figure}
   \centering
@@ -109,13 +109,13 @@ An example 2D view of a $\nu_{\mu}$CC event, simulated in a reduced far detector
     \caption{Cluster reconstruction.}
     \label{fig:2DnumuCCClusters}
   \end{subfigure}
-  \caption{}
+  \caption[Demonstration of 2D reconstruction in LArSoft on a simulated $\nu_{\mu}$CC event.]{Demonstration of 2D reconstruction in LArSoft on a simulated $\nu_{\mu}$CC event.  The result of hit finding is shown in Figure~\ref{fig:2DnumuCCHits}, where each black rectangle represents a separate hits, and the grouping of these hits into clusters is illustrated in Figure~\ref{fig:2DnumuCCClusters}, where blocks of hits sharing a common colour are associated to the same cluster object.}
   \label{fig:2DnumuCC}
 \end{figure}
 
-Combining 2D information from multiple views in a LArTPC enables the formation of 3D objects.  In LArSoft, several 3D products exist: `space points', `vertices', `tracks' and `showers'.  Space points are a form of 3D hit and are defined by a point in the detector Cartesian geometry and vertices are a specific example of these locations, created to represent an important part of the event (e.g. the neutrino interation point or even just the start of a track).  Tracks and showers are more complete objects which represent individual particles and contain associated properties relevant to the topology of each.  Tracking is relatively advanced in LArSoft, with multiple track fitters shown to produce well-formed track objects efficiently; shower reconstruction is less so and will be discussed in detail in Section~\ref{sec:ShowerReconstruction}.
+Combining 2D information from multiple views in a LArTPC enables the formation of 3D objects.  In LArSoft, several 3D products exist: `space points', `vertices', `tracks' and `showers'.  Space points are a form of 3D hit, defined simply by a point in the detector Cartesian geometry, and vertices are a specific example of these locations created to represent an important part of the event (e.g. the neutrino interation point or even just a track start).  Tracks and showers are more complete objects which represent individual particles and contain associated properties relevant to the topology of each.  Tracking is relatively advanced in LArSoft, with multiple track fitters shown to produce well-formed track objects efficiently; shower reconstruction is less so and will be discussed in detail in Section~\ref{sec:ShowerReconstruction}.
 
-The result of applying track reconstruction to the $\nu_{\mu}$CC interaction discussed in Figure~\ref{fig:2DnumuCC} is shown in Figure~\ref{fig:3DnumuCC}.  As with clusters, each colour represents a unique track object and it is clear from Figure~\ref{fig:3DnumuCC2D} that hits across multiple planes contribute to a given track.  A separate view is also shown in Figure~\ref{fig:3DnumuCC3D}, where the objects are represented in two orthogonal views in the detector coordinate system.
+The result of applying track reconstruction to the $\nu_{\mu}$CC interaction discussed in Figure~\ref{fig:2DnumuCC} is shown in Figure~\ref{fig:3DnumuCC}.  As with clusters, each colour represents a unique track object and it is clear from Figure~\ref{fig:3DnumuCC2D} that hits across multiple planes contribute to a given track.  A complementary view is also shown in Figure~\ref{fig:3DnumuCC3D}, where the objects are represented in two orthogonal views in the detector coordinate system.
 
 \begin{figure}
   \centering
@@ -132,16 +132,22 @@ The result of applying track reconstruction to the $\nu_{\mu}$CC interaction dis
     \caption{3D view; $x$-$z$ and $y$-$z$ othogonal planes.}
     \label{fig:3DnumuCC3D}
   \end{subfigure}
-  \caption{}
+  \caption[Demonstration of 3D reconstruction in LArSoft on a simulated $\nu_{\mu}$CC event.]{Demonstration of 3D reconstruction in LArSoft on a simulated $\nu_{\mu}$CC event.  Each colour represents a unique 3D track object, with information shared between each of the anode planes; this is evident in Figure~\ref{fig:3DnumuCC2D}.  An additional view is demonstrated in Figure~\ref{fig:3DnumuCC3D} where two orthogonal planes of the detector geometry are shown.}
   \label{fig:3DnumuCC}
 \end{figure}
 
 It is worth noting the approach to forming the eventual 3D objects, from which particle identification and analysis may be executed, is not unique.  The method outlined above is most relevent to the shower reconstruction discussed in Section~\ref{sec:ShowerReconstruction} and is the most common chain used in most LArSoft processing; however, progress is being made on an additional technique which focusses directly on 3D reconstruction.  This is called `Wire-Cell' \cite{WireCellWebsite} and utilises a tomographic method, following the LArTPC principal that each plane observes the same amount of ionisation electrons, to build up a 3D image of the event.  This may then be characterised to find the properties of the particles and make the track and shower products.  All reconstruction methods utilise the same information provided by the detector but not necessarily in the same order.
 
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-\subsection{Calorimetry Reconstruction}\label{sec:Calorimetry}
+\subsection{Calorimetry}\label{sec:Calorimetry}
 
-The extremely precise energy measurements is a hugely attractive features of LArTPCs and is achieved by careful calibration of the charge recieved from the drift electrons.  Following deconvolution and hit finding, the charge carried by each packet of electrons is understood as the Gaussian integral of the hit and has units 10~e$^-$ (often just `ADC' in certain following plots).  This is converted to an energy
+The possibility of extremely precise energy measurements is a hugely attractive feature of LArTPCs and is achieved by careful calibration of the charge recieved from the drift electrons.  There are two distinct calibrations which must be conducted to ensure reliable calorimetric measurements; setting the ADC to energy translation and determining the shower energy conversion from the total deposited charge.  These will be discussed in Sections~\ref{sec:EnergyDetermination} and~\ref{sec:ShowerEnergy} respectively.
+
+\subsubsection{Energy Determination}\label{sec:EnergyDetermination}
+
+Following deconvolution and hit finding, the charge carried by each packet of electrons is understood as the Gaussian integral of the hit and has units 10~e$^-$ (often just `ADC' in certain following plots).  This is converted to an energy
+
+\subsubsection{Shower Energy Reconstruction}\label{sec:ShowerEnergy}
 
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \section{Shower Reconstruction in LArTPCs}\label{sec:ShowerReconstruction}
