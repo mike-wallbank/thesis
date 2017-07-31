@@ -1,5 +1,60 @@
 \begin{thebibliography}{100}
 
+\bibitem{Bahcall2005}
+John~N. Bahcall, Aldo~M. Serenelli, and Sarbani Basu.
+\newblock {New Solar Opacities, Abundances, Helioseismology, and Neutrino
+  Fluxes}.
+\newblock {\em The Astrophysical Journal}, 621(1):L85--L88, 2005.
+
+\bibitem{Mann1999}
+W~Anthony Mann.
+\newblock {Atmospheric neutrinos and the oscillations bonanza}.
+\newblock {\em Int. J. Mod. Phys.}, A15S1:229--256, 2000.
+
+\bibitem{SuperKamiokande1998}
+Y~Fukuda, et~al.
+\newblock {Evidence for Oscillation of Atmospheric Neutrinos}.
+\newblock {\em Phys. Rev. Lett.}, 81(8):1562--1567, 1998.
+
+\bibitem{NuFit2014}
+M~C Gonzalez-Garcia, Michele Maltoni, and Thomas Schwetz.
+\newblock {Updated fit to three neutrino mixing: status of leptonic CP
+  violation}.
+\newblock {\em Journal of High Energy Physics}, 2014(11):52, 2014.
+
+\bibitem{NuFit2017}
+Ivan Esteban, et~al.
+\newblock {Updated fit to three neutrino mixing: exploring the
+  accelerator-reactor complementarity}.
+\newblock {\em Journal of High Energy Physics}, 2017(1):87, 2017.
+
+\bibitem{DUNECDR3}
+{DUNE Collaboration}.
+\newblock {Long-Baseline Neutrino Facility (LBNF) and Deep Underground Neutrino
+  Experiment (DUNE): Long Baseline Neutrino Facility for DUNE}.
+\newblock 3, 2016.
+
+\bibitem{DUNECDR2}
+{DUNE Collaboration}.
+\newblock {Long-Baseline Neutrino Facility (LBNF) and Deep Underground Neutrino
+  Experiment (DUNE): The Physics Program for DUNE at LBNF}.
+\newblock 2, 2015.
+
+\bibitem{35tonCameras2017}
+N~McConkey, et~al.
+\newblock {Cryogenic CMOS cameras for high voltage monitoring in liquid argon}.
+\newblock {\em Journal of Instrumentation}, 12(03):P03014, 2017.
+
+\bibitem{Soderberg2008}
+Mitch Soderberg.
+\newblock {The MicroBooNE Proposal}, 2008.
+
+\bibitem{DUNECDR1}
+{DUNE Collaboration}.
+\newblock {Long-Baseline Neutrino Facility (LBNF) and Deep Underground Neutrino
+  Experiment (DUNE): The LBNF and DUNE Projects}.
+\newblock 1, 2016.
+
 \bibitem{Glashow1961}
 Sheldon~L Glashow.
 \newblock {Partial-symmetries of weak interactions}.
@@ -37,11 +92,6 @@ S~M Bilenky.
 John Ellis.
 \newblock {Outstanding questions: Physics beyond the Standard Model}.
 \newblock {\em Phil. Trans. Roy. Soc. Lond.}, A370:818--830, 2012.
-
-\bibitem{SuperKamiokande1998}
-Y~Fukuda, et~al.
-\newblock {Evidence for Oscillation of Atmospheric Neutrinos}.
-\newblock {\em Phys. Rev. Lett.}, 81(8):1562--1567, 1998.
 
 \bibitem{SNO2002}
 Q~R Ahmad, et~al.
@@ -183,12 +233,6 @@ John~N Bahcall, Neta~A Bahcall, and Giora Shaviv.
   $^{37}\mathrm{Cl}$ Solar-Neutrino Experiment}.
 \newblock {\em Phys. Rev. Lett.}, 20(21):1209--1212, 1968.
 
-\bibitem{Bahcall2005}
-John~N. Bahcall, Aldo~M. Serenelli, and Sarbani Basu.
-\newblock {New Solar Opacities, Abundances, Helioseismology, and Neutrino
-  Fluxes}.
-\newblock {\em The Astrophysical Journal}, 621(1):L85--L88, 2005.
-
 \bibitem{Cleveland1995}
 B.~T. Cleveland, et~al.
 \newblock {Update on the measurement of the solar neutrino flux with the
@@ -233,11 +277,6 @@ T~J Haines, et~al.
 K~S Hirata, et~al.
 \newblock {Experimental study of the atmospheric neutrino flux}.
 \newblock {\em Physics Letters B}, 205(2):416--420, 1988.
-
-\bibitem{Mann1999}
-W~Anthony Mann.
-\newblock {Atmospheric neutrinos and the oscillations bonanza}.
-\newblock {\em Int. J. Mod. Phys.}, A15S1:229--256, 2000.
 
 \bibitem{Pontecorvo1968}
 B~Pontecorvo.
@@ -356,12 +395,6 @@ Tommy Ohlsson, He~Zhang, and Shun Zhou.
 \newblock {\em Physical Review D - Particles, Fields, Gravitation and
   Cosmology}, 87(5):1--8, 2013.
 
-\bibitem{DUNECDR1}
-{DUNE Collaboration}.
-\newblock {Long-Baseline Neutrino Facility (LBNF) and Deep Underground Neutrino
-  Experiment (DUNE): The LBNF and DUNE Projects}.
-\newblock 1, 2016.
-
 \bibitem{HyperKamiokande2015}
 K~Abe, et~al.
 \newblock {Physics potential of a long-baseline neutrino oscillation experiment
@@ -428,18 +461,6 @@ P~Adamson, et~al.
 \newblock {First measurement of muon-neutrino disappearance in NOvA}.
 \newblock {\em Phys. Rev. D}, 93(5):51104, 2016.
 
-\bibitem{NuFit2014}
-M~C Gonzalez-Garcia, Michele Maltoni, and Thomas Schwetz.
-\newblock {Updated fit to three neutrino mixing: status of leptonic CP
-  violation}.
-\newblock {\em Journal of High Energy Physics}, 2014(11):52, 2014.
-
-\bibitem{NuFit2017}
-Ivan Esteban, et~al.
-\newblock {Updated fit to three neutrino mixing: exploring the
-  accelerator-reactor complementarity}.
-\newblock {\em Journal of High Energy Physics}, 2017(1):87, 2017.
-
 \bibitem{DayaBay2012}
 F~P An, et~al.
 \newblock {Observation of Electron-Antineutrino Disappearance at Daya Bay}.
@@ -485,18 +506,6 @@ Ch~Kraus, et~al.
 \newblock {Planck 2013 results. XVI. Cosmological parameters}.
 \newblock {\em Astronomy \& Astrophysics}, 571:A16, 2014.
 
-\bibitem{DUNECDR2}
-{DUNE Collaboration}.
-\newblock {Long-Baseline Neutrino Facility (LBNF) and Deep Underground Neutrino
-  Experiment (DUNE): The Physics Program for DUNE at LBNF}.
-\newblock 2, 2015.
-
-\bibitem{DUNECDR3}
-{DUNE Collaboration}.
-\newblock {Long-Baseline Neutrino Facility (LBNF) and Deep Underground Neutrino
-  Experiment (DUNE): Long Baseline Neutrino Facility for DUNE}.
-\newblock 3, 2016.
-
 \bibitem{DUNECDR4}
 {DUNE Collaboration}.
 \newblock {Long-Baseline Neutrino Facility (LBNF) and Deep Underground Neutrino
@@ -529,7 +538,7 @@ R~Acciarri, et~al.
 B~Baller, et~al.
 \newblock {Liquid Argon Time Projection Chamber research and development in the
   United States}.
-\newblock {\em Journal of Instrumentation}, 9(05):T05005, 2014.
+\newblock {\em Journal of Instrumentation}, 9(05):T05005--T05005, 2014.
 
 \bibitem{Nygren1974}
 David~R Nygren.
@@ -541,10 +550,6 @@ David~R Nygren.
 Carlo Rubbia.
 \newblock {The Liquid Argon Time Projection Chamber: A New Concept For Neutrino
   Detectors.pdf}, 1977.
-
-\bibitem{Soderberg2008}
-Mitch Soderberg.
-\newblock {The MicroBooNE Proposal}, 2008.
 
 \bibitem{Chepel2013}
 V~Chepel and H~Ara{\'{u}}jo.
@@ -775,11 +780,6 @@ A~Blatter, et~al.
 \newblock {Experimental study of electric breakdowns in liquid argon at
   centimeter scale}.
 \newblock {\em Journal of Instrumentation}, 9(04):P04006, 2014.
-
-\bibitem{35tonCameras2017}
-N~McConkey, et~al.
-\newblock {Cryogenic CMOS cameras for high voltage monitoring in liquid argon}.
-\newblock {\em Journal of Instrumentation}, 12(03):P03014, 2017.
 
 \bibitem{35tonCameraVideo}
 {35$\sim$ton Phase$\sim$II LAr filling monitored by camera system}, 2016.

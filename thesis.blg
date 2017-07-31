@@ -11,17 +11,17 @@ A level-1 auxiliary file: DUNE/DUNE.aux
 A level-1 auxiliary file: 35ton/35ton.aux
 A level-1 auxiliary file: LArTPCReconstruction/LArTPCReconstruction.aux
 A level-1 auxiliary file: OnlineMonitoring/OnlineMonitoring.aux
-I couldn't open auxiliary file 35tonAnalysis/35tonAnalysis.aux
----line 30 of file thesis.aux
- : \@input{35tonAnalysis/35tonAnalysis.aux
- :                                        }
-I'm skipping whatever remains of this command
+A level-1 auxiliary file: 35tonAnalysis/35tonAnalysis.aux
 A level-1 auxiliary file: FarDetectorAnalysis/FarDetectorAnalysis.aux
 A level-1 auxiliary file: Summary/Summary.aux
 The style file: andyisgreat.bst
 A level-1 auxiliary file: Appendix1/appendix1.aux
 A level-1 auxiliary file: Appendix2/appendix2.aux
 Database file #1: References/references.bib
+Repeated entry---line 226 of file References/references.bib
+ : @article{Baller2014
+ :                    ,
+I'm skipping whatever remains of this entry
 Reallocated buffer (elt_size=1) to 40000 items from 20000.
 Reallocated sv_buffer (elt_size=1) to 40000 items from 20000.
 Reallocated ex_buf (elt_size=1) to 40000 items from 20000.
@@ -35,24 +35,23 @@ Reallocated out_buf (elt_size=1) to 60000 items from 40000.
 Reallocated name_tok (elt_size=4) to 60000 items from 40000.
 Reallocated name_sep_char (elt_size=1) to 60000 items from 40000.
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-Reallocated str_pool (elt_size=1) to 195000 items from 130000.
-Repeated entry---line 925 of file References/references.bib
- : @article{Baller2014
- :                    ,
-I'm skipping whatever remains of this entry
 Reallocated buffer (elt_size=1) to 80000 items from 60000.
 Reallocated sv_buffer (elt_size=1) to 80000 items from 60000.
 Reallocated ex_buf (elt_size=1) to 80000 items from 60000.
 Reallocated out_buf (elt_size=1) to 80000 items from 60000.
 Reallocated name_tok (elt_size=4) to 80000 items from 60000.
 Reallocated name_sep_char (elt_size=1) to 80000 items from 60000.
+Reallocated str_pool (elt_size=1) to 195000 items from 130000.
 Reallocated str_pool (elt_size=1) to 260000 items from 195000.
 Reallocated str_pool (elt_size=1) to 325000 items from 260000.
+You can't pop an empty literal stack for entry SuperKamiokande1998
+while executing---line 953 of file andyisgreat.bst
+Warning--empty journal in DUNECDR3
+Warning--empty journal in DUNECDR2
+Warning--empty journal in DUNECDR1
 You can't pop an empty literal stack for entry Weinberg1967
 while executing---line 953 of file andyisgreat.bst
 You can't pop an empty literal stack for entry Aad2012
-while executing---line 953 of file andyisgreat.bst
-You can't pop an empty literal stack for entry SuperKamiokande1998
 while executing---line 953 of file andyisgreat.bst
 You can't pop an empty literal stack for entry SNO2002
 while executing---line 953 of file andyisgreat.bst
@@ -80,7 +79,6 @@ You can't pop an empty literal stack for entry KamLAND2003
 while executing---line 953 of file andyisgreat.bst
 You can't pop an empty literal stack for entry KamLAND2005
 while executing---line 953 of file andyisgreat.bst
-Warning--empty journal in DUNECDR1
 You can't pop an empty literal stack for entry Sage2009
 while executing---line 953 of file andyisgreat.bst
 You can't pop an empty literal stack for entry SNO2013
@@ -111,8 +109,6 @@ You can't pop an empty literal stack for entry T2K2017
 while executing---line 953 of file andyisgreat.bst
 You can't pop an empty literal stack for entry Triotsk2011
 while executing---line 953 of file andyisgreat.bst
-Warning--empty journal in DUNECDR2
-Warning--empty journal in DUNECDR3
 Warning--empty journal in DUNECDR4
 Warning--empty journal in LArIAT2014
 Warning--empty institution in PIPII2013
@@ -144,24 +140,24 @@ Warning--empty institution in WireCellWebsite
 Warning--empty year in WireCellWebsite
 You've used 151 entries,
             1813 wiz_defined-function locations,
-            1385 strings with 262376 characters,
-and the built_in function-call counts, 31656 in all, are:
-= -- 2966
+            1385 strings with 262384 characters,
+and the built_in function-call counts, 31732 in all, are:
+= -- 2977
 > -- 1163
 < -- 5
 + -- 530
 - -- 263
-* -- 2137
-:= -- 5029
+* -- 2145
+:= -- 5037
 add.period$ -- 437
 call.type$ -- 151
 change.case$ -- 152
 chr.to.int$ -- 0
 cite$ -- 171
 duplicate$ -- 1326
-empty$ -- 3240
+empty$ -- 3247
 format.name$ -- 263
-if$ -- 6991
+if$ -- 7007
 int.to.chr$ -- 0
 int.to.str$ -- 151
 missing$ -- 136
@@ -173,14 +169,14 @@ purify$ -- 0
 quote$ -- 0
 skip$ -- 642
 stack$ -- 0
-substring$ -- 2400
+substring$ -- 2425
 swap$ -- 167
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 20
-while$ -- 334
+while$ -- 335
 width$ -- 154
 write$ -- 1586
-(There were 39 error messages)
+(There were 38 error messages)
