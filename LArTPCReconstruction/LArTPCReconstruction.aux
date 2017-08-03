@@ -12,61 +12,145 @@
 \citation{GEANT42006}
 \citation{LArSoft2016}
 \citation{LArSoft2016}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces The LArSoft architecture, highlighting support for both common and experiment-specific algorithms and methods and the interfacing with other packages.}}{104}{figure.caption.78}}
-\newlabel{fig:LArSoftStructure}{{5.1}{104}{The LArSoft architecture, highlighting support for both common and experiment-specific algorithms and methods and the interfacing with other packages}{figure.caption.78}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces The LArSoft architecture, highlighting support for both common and experiment-specific algorithms and methods and the interfacing with other packages.}}{104}{figure.caption.1}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:LArSoftStructure}{{5.1}{104}{The LArSoft architecture, highlighting support for both common and experiment-specific algorithms and methods and the interfacing with other packages}{figure.caption.1}{}}
 \citation{MicroBooNEReconstruction2017}
 \citation{LArSoft2016}
 \citation{LArSoft2016}
 \@writefile{toc}{\contentsline {section}{\numberline {5.2}The Reconstruction Chain}{105}{section.5.2}}
 \newlabel{sec:ReconstructionChain}{{5.2}{105}{The Reconstruction Chain}{section.5.2}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}From Charge to Hits}{105}{subsection.5.2.1}}
-\newlabel{sec:HitReconstruction}{{5.2.1}{105}{From Charge to Hits}{subsection.5.2.1}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces The LArSoft reconstruction workflow to produce 3D reconstructed objects from the raw charge read out by the anode wires.}}{106}{figure.caption.79}}
-\newlabel{fig:ReconstructionWorkflow}{{5.2}{106}{The LArSoft reconstruction workflow to produce 3D reconstructed objects from the raw charge read out by the anode wires}{figure.caption.79}{}}
-\newlabel{fig:HitFindingU}{{5.3a}{107}{U plane.\relax }{figure.caption.80}{}}
-\newlabel{sub@fig:HitFindingU}{{a}{107}{U plane.\relax }{figure.caption.80}{}}
-\newlabel{fig:HitFindingV}{{5.3b}{107}{V plane.\relax }{figure.caption.80}{}}
-\newlabel{sub@fig:HitFindingV}{{b}{107}{V plane.\relax }{figure.caption.80}{}}
-\newlabel{fig:HitFindingZ}{{5.3c}{107}{Z plane.\relax }{figure.caption.80}{}}
-\newlabel{sub@fig:HitFindingZ}{{c}{107}{Z plane.\relax }{figure.caption.80}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces The process of deconvolution and hit finding to determine the correct charge from the measured pulses on the readout wires.}}{107}{figure.caption.80}}
-\newlabel{fig:HitFinding}{{5.3}{107}{The process of deconvolution and hit finding to determine the correct charge from the measured pulses on the readout wires}{figure.caption.80}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}Object Reconstruction}{107}{subsection.5.2.2}}
-\newlabel{sec:ObjectReconstruction}{{5.2.2}{107}{Object Reconstruction}{subsection.5.2.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}Raw Charge Calibration}{105}{subsection.5.2.1}}
+\newlabel{sec:HitReconstruction}{{5.2.1}{105}{Raw Charge Calibration}{subsection.5.2.1}{}}
+\citation{Shockley1938,Ramo1939}
+\citation{MicroBooNERawCharge2016}
+\citation{GarfieldWebsite}
+\citation{MicroBooNERawCharge2016}
+\citation{MicroBooNERawCharge2016}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces The LArSoft reconstruction workflow to produce 3D reconstructed objects from the raw charge read out by the anode wires.}}{106}{figure.caption.2}}
+\newlabel{fig:ReconstructionWorkflow}{{5.2}{106}{The LArSoft reconstruction workflow to produce 3D reconstructed objects from the raw charge read out by the anode wires}{figure.caption.2}{}}
+\newlabel{fig:FieldResponse}{{5.3a}{107}{Field response.\relax }{figure.caption.3}{}}
+\newlabel{sub@fig:FieldResponse}{{a}{107}{Field response.\relax }{figure.caption.3}{}}
+\newlabel{fig:ElectronicsResponse}{{5.3b}{107}{Electronics response.\relax }{figure.caption.3}{}}
+\newlabel{sub@fig:ElectronicsResponse}{{b}{107}{Electronics response.\relax }{figure.caption.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces Detector response for charge readout in a LArTPC.}}{107}{figure.caption.3}}
+\newlabel{fig:DetectorResponse}{{5.3}{107}{Detector response for charge readout in a LArTPC}{figure.caption.3}{}}
+\newlabel{fig:HitFindingU}{{5.4a}{107}{U plane.\relax }{figure.caption.4}{}}
+\newlabel{sub@fig:HitFindingU}{{a}{107}{U plane.\relax }{figure.caption.4}{}}
+\newlabel{fig:HitFindingV}{{5.4b}{107}{V plane.\relax }{figure.caption.4}{}}
+\newlabel{sub@fig:HitFindingV}{{b}{107}{V plane.\relax }{figure.caption.4}{}}
+\newlabel{fig:HitFindingZ}{{5.4c}{107}{Z plane.\relax }{figure.caption.4}{}}
+\newlabel{sub@fig:HitFindingZ}{{c}{107}{Z plane.\relax }{figure.caption.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces The process of deconvolution and hit finding to determine the correct charge from the measured pulses on the readout wires.}}{107}{figure.caption.4}}
+\newlabel{fig:HitFinding}{{5.4}{107}{The process of deconvolution and hit finding to determine the correct charge from the measured pulses on the readout wires}{figure.caption.4}{}}
+\citation{ClusterCrawler}
+\newlabel{fig:2DnumuCCHits}{{5.5a}{108}{Hit reconstruction.\relax }{figure.caption.5}{}}
+\newlabel{sub@fig:2DnumuCCHits}{{a}{108}{Hit reconstruction.\relax }{figure.caption.5}{}}
+\newlabel{fig:2DnumuCCClusters}{{5.5b}{108}{Cluster reconstruction.\relax }{figure.caption.5}{}}
+\newlabel{sub@fig:2DnumuCCClusters}{{b}{108}{Cluster reconstruction.\relax }{figure.caption.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces Demonstration of 2D reconstruction in LArSoft on a simulated $\nu _{\mu }$CC event.}}{108}{figure.caption.5}}
+\newlabel{fig:2DnumuCC}{{5.5}{108}{Demonstration of 2D reconstruction in LArSoft on a simulated $\nu _{\mu }$CC event}{figure.caption.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}Pattern Recognition}{108}{subsection.5.2.2}}
+\newlabel{sec:PatternRecognition}{{5.2.2}{108}{Pattern Recognition}{subsection.5.2.2}{}}
+\citation{PMA2013}
 \citation{WireCellWebsite}
-\newlabel{fig:2DnumuCCHits}{{5.4a}{108}{Hit reconstruction.\relax }{figure.caption.81}{}}
-\newlabel{sub@fig:2DnumuCCHits}{{a}{108}{Hit reconstruction.\relax }{figure.caption.81}{}}
-\newlabel{fig:2DnumuCCClusters}{{5.4b}{108}{Cluster reconstruction.\relax }{figure.caption.81}{}}
-\newlabel{sub@fig:2DnumuCCClusters}{{b}{108}{Cluster reconstruction.\relax }{figure.caption.81}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces Demonstration of 2D reconstruction in LArSoft on a simulated $\nu _{\mu }$CC event.}}{108}{figure.caption.81}}
-\newlabel{fig:2DnumuCC}{{5.4}{108}{Demonstration of 2D reconstruction in LArSoft on a simulated $\nu _{\mu }$CC event}{figure.caption.81}{}}
-\newlabel{fig:3DnumuCC2D}{{5.5a}{109}{2D view; wire vs tick for multiple wire planes.\relax }{figure.caption.82}{}}
-\newlabel{sub@fig:3DnumuCC2D}{{a}{109}{2D view; wire vs tick for multiple wire planes.\relax }{figure.caption.82}{}}
-\newlabel{fig:3DnumuCC3D}{{5.5b}{109}{3D view; $x$-$z$ and $y$-$z$ othogonal planes.\relax }{figure.caption.82}{}}
-\newlabel{sub@fig:3DnumuCC3D}{{b}{109}{3D view; $x$-$z$ and $y$-$z$ othogonal planes.\relax }{figure.caption.82}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces Demonstration of 3D reconstruction in LArSoft on a simulated $\nu _{\mu }$CC event.}}{109}{figure.caption.82}}
-\newlabel{fig:3DnumuCC}{{5.5}{109}{Demonstration of 3D reconstruction in LArSoft on a simulated $\nu _{\mu }$CC event}{figure.caption.82}{}}
+\newlabel{fig:3DnumuCC2D}{{5.6a}{109}{2D view; wire vs tick for multiple wire planes.\relax }{figure.caption.6}{}}
+\newlabel{sub@fig:3DnumuCC2D}{{a}{109}{2D view; wire vs tick for multiple wire planes.\relax }{figure.caption.6}{}}
+\newlabel{fig:3DnumuCC3D}{{5.6b}{109}{3D view; $x$-$z$ and $y$-$z$ othogonal planes.\relax }{figure.caption.6}{}}
+\newlabel{sub@fig:3DnumuCC3D}{{b}{109}{3D view; $x$-$z$ and $y$-$z$ othogonal planes.\relax }{figure.caption.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces Demonstration of 3D reconstruction in LArSoft on a simulated $\nu _{\mu }$CC event.}}{109}{figure.caption.6}}
+\newlabel{fig:3DnumuCC}{{5.6}{109}{Demonstration of 3D reconstruction in LArSoft on a simulated $\nu _{\mu }$CC event}{figure.caption.6}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.2.3}Calorimetry}{110}{subsection.5.2.3}}
 \newlabel{sec:Calorimetry}{{5.2.3}{110}{Calorimetry}{subsection.5.2.3}{}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.3.1}Energy Determination}{110}{subsubsection.5.2.3.1}}
 \newlabel{sec:EnergyDetermination}{{5.2.3.1}{110}{Energy Determination}{subsubsection.5.2.3.1}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.3.2}Shower Energy Reconstruction}{110}{subsubsection.5.2.3.2}}
-\newlabel{sec:ShowerEnergy}{{5.2.3.2}{110}{Shower Energy Reconstruction}{subsubsection.5.2.3.2}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.3}Shower Reconstruction in LArTPCs}{110}{section.5.3}}
-\newlabel{sec:ShowerReconstruction}{{5.3}{110}{Shower Reconstruction in LArTPCs}{section.5.3}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}Showers Overview}{110}{subsection.5.3.1}}
-\newlabel{sec:ShowersOverview}{{5.3.1}{110}{Showers Overview}{subsection.5.3.1}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.2}BlurredCluster Algorithm}{110}{subsection.5.3.2}}
-\newlabel{sec:BlurredCluster}{{5.3.2}{110}{BlurredCluster Algorithm}{subsection.5.3.2}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.3}EMShower Algorithm}{110}{subsection.5.3.3}}
-\newlabel{sec:EMShower}{{5.3.3}{110}{EMShower Algorithm}{subsection.5.3.3}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.4}Track/Shower Separation}{110}{subsection.5.3.4}}
-\newlabel{sec:TrackShowerSeparation}{{5.3.4}{110}{Track/Shower Separation}{subsection.5.3.4}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.5}Performance of the Reconstruction}{110}{subsection.5.3.5}}
-\newlabel{sec:ReconstructionPerformance}{{5.3.5}{110}{Performance of the Reconstruction}{subsection.5.3.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.7}{\ignorespaces Correlation between the true deposited energy in an electromagnetic shower and the total charge in the detector for electron showers in the DUNE far detector.}}{111}{figure.caption.7}}
+\newlabel{fig:ShowerEnergyConversion}{{5.7}{111}{Correlation between the true deposited energy in an electromagnetic shower and the total charge in the detector for electron showers in the DUNE far detector}{figure.caption.7}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.3.2}Shower Energy Reconstruction}{111}{subsubsection.5.2.3.2}}
+\newlabel{sec:ShowerEnergy}{{5.2.3.2}{111}{Shower Energy Reconstruction}{subsubsection.5.2.3.2}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.3.3}Neutrino Energy Reconstruction}{111}{subsubsection.5.2.3.3}}
+\newlabel{sec:NeutrinoEnergy}{{5.2.3.3}{111}{Neutrino Energy Reconstruction}{subsubsection.5.2.3.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}Shower Reconstruction in LArTPCs}{112}{section.5.3}}
+\newlabel{sec:ShowerReconstruction}{{5.3}{112}{Shower Reconstruction in LArTPCs}{section.5.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}Showers Overview}{112}{subsection.5.3.1}}
+\newlabel{sec:ShowersOverview}{{5.3.1}{112}{Showers Overview}{subsection.5.3.1}{}}
+\citation{KabothThesis}
+\citation{BlurredCluster,BlurredClusterLArSoft}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.8}{\ignorespaces An example particle gun $\pi ^0$ event in the 35\nobreakspace  {}ton geometry.}}{113}{figure.caption.8}}
+\newlabel{fig:pi0Showers}{{5.8}{113}{An example particle gun $\pi ^0$ event in the 35~ton geometry}{figure.caption.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.2}BlurredCluster Algorithm}{113}{subsection.5.3.2}}
+\newlabel{sec:BlurredCluster}{{5.3.2}{113}{BlurredCluster Algorithm}{subsection.5.3.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.9}{\ignorespaces A example 2D Gaussian kernel alongside the contributions from each dimension.}}{114}{figure.caption.9}}
+\newlabel{fig:2DGaussianKernel}{{5.9}{114}{A example 2D Gaussian kernel alongside the contributions from each dimension}{figure.caption.9}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.2.1}Algorithm Description}{114}{subsubsection.5.3.2.1}}
+\newlabel{sec:BlurredClusterDescription}{{5.3.2.1}{114}{Algorithm Description}{subsubsection.5.3.2.1}{}}
+\newlabel{eq:2DGaussianKernel}{{5.5}{114}{Algorithm Description}{equation.5.3.5}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.2.2}Configuring the Clustering}{115}{subsubsection.5.3.2.2}}
+\newlabel{sec:BlurredClusterConfiguration}{{5.3.2.2}{115}{Configuring the Clustering}{subsubsection.5.3.2.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.10}{\ignorespaces Simplified demonstration, in 1D, of the blurring process used when smearing charge from a hit map.}}{116}{figure.caption.10}}
+\newlabel{fig:BlurringProcess}{{5.10}{116}{Simplified demonstration, in 1D, of the blurring process used when smearing charge from a hit map}{figure.caption.10}{}}
+\newlabel{fig:pi0ShowerBlurredMapPlane0}{{5.11a}{116}{Plane 0.\relax }{figure.caption.11}{}}
+\newlabel{sub@fig:pi0ShowerBlurredMapPlane0}{{a}{116}{Plane 0.\relax }{figure.caption.11}{}}
+\newlabel{fig:pi0ShowerBlurredMapPlane2}{{5.11b}{116}{Plane 2.\relax }{figure.caption.11}{}}
+\newlabel{sub@fig:pi0ShowerBlurredMapPlane2}{{b}{116}{Plane 2.\relax }{figure.caption.11}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.11}{\ignorespaces The output of the blurring stage of the BlurredCluster algorithm on the hit maps from two planes of the 35\nobreakspace  {}ton $\pi ^0$ event illustrated in Figure\nobreakspace  {}\ref  {fig:pi0Showers}.}}{116}{figure.caption.11}}
+\newlabel{fig:pi0ShowersBlurredMap}{{5.11}{116}{The output of the blurring stage of the BlurredCluster algorithm on the hit maps from two planes of the 35~ton $\pi ^0$ event illustrated in Figure~\ref {fig:pi0Showers}}{figure.caption.11}{}}
+\citation{EMShower,EMShowerLArSoft}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.12}{\ignorespaces The 2D clusters made using BlurredCluster when applied to the 35\nobreakspace  {}ton $\pi ^0$ event shown in Figure\nobreakspace  {}\ref  {fig:pi0Showers}.}}{117}{figure.caption.12}}
+\newlabel{fig:pi0ShowersClusters}{{5.12}{117}{The 2D clusters made using BlurredCluster when applied to the 35~ton $\pi ^0$ event shown in Figure~\ref {fig:pi0Showers}}{figure.caption.12}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.3}EMShower Algorithm}{117}{subsection.5.3.3}}
+\newlabel{sec:EMShower}{{5.3.3}{117}{EMShower Algorithm}{subsection.5.3.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.13}{\ignorespaces Demonstration of the `global wire' concept in single-phase LArTPC reconstruction.}}{118}{figure.caption.13}}
+\newlabel{fig:GlobalWire}{{5.13}{118}{Demonstration of the `global wire' concept in single-phase LArTPC reconstruction}{figure.caption.13}{}}
+\newlabel{fig:pi0ShowersTracksClusters}{{5.14a}{119}{BlurredCluster.\relax }{figure.caption.14}{}}
+\newlabel{sub@fig:pi0ShowersTracksClusters}{{a}{119}{BlurredCluster.\relax }{figure.caption.14}{}}
+\newlabel{fig:pi0ShowersTracksTracks}{{5.14b}{119}{Projection Matching Algorithm.\relax }{figure.caption.14}{}}
+\newlabel{sub@fig:pi0ShowersTracksTracks}{{b}{119}{Projection Matching Algorithm.\relax }{figure.caption.14}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.14}{\ignorespaces Comparison of the 2D shower cluster reconstruction and the 3D tracking reconstruction for a 35\nobreakspace  {}ton $\pi ^0$ event.}}{119}{figure.caption.14}}
+\newlabel{fig:pi0ShowersTracks}{{5.14}{119}{Comparison of the 2D shower cluster reconstruction and the 3D tracking reconstruction for a 35~ton $\pi ^0$ event}{figure.caption.14}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.3.1}Shower Pattern Forming}{119}{subsubsection.5.3.3.1}}
+\newlabel{sec:EMShowerPattern}{{5.3.3.1}{119}{Shower Pattern Forming}{subsubsection.5.3.3.1}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.3.2}Shower Properties Reconstruction}{120}{subsubsection.5.3.3.2}}
+\newlabel{sec:EMShowerProperties}{{5.3.3.2}{120}{Shower Properties Reconstruction}{subsubsection.5.3.3.2}{}}
+\newlabel{fig:EMShowerOrientationPositive}{{5.15a}{121}{Positive gradient.\relax }{figure.caption.15}{}}
+\newlabel{sub@fig:EMShowerOrientationPositive}{{a}{121}{Positive gradient.\relax }{figure.caption.15}{}}
+\newlabel{fig:EMShowerOrientationNegative}{{5.15b}{121}{Negative gradient.\relax }{figure.caption.15}{}}
+\newlabel{sub@fig:EMShowerOrientationNegative}{{b}{121}{Negative gradient.\relax }{figure.caption.15}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.15}{\ignorespaces Demonstration of the method utilised to ensure a correct shower orientation of the shower in a given view for the purpose of shower start finding in the EMShower algorithm.}}{121}{figure.caption.15}}
+\newlabel{fig:EMShowerOrientation}{{5.15}{121}{Demonstration of the method utilised to ensure a correct shower orientation of the shower in a given view for the purpose of shower start finding in the EMShower algorithm}{figure.caption.15}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.4}Track/Shower Separation}{121}{subsection.5.3.4}}
+\newlabel{sec:TrackShowerSeparation}{{5.3.4}{121}{Track/Shower Separation}{subsection.5.3.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.5}Performance of the Reconstruction}{121}{subsection.5.3.5}}
+\newlabel{sec:ReconstructionPerformance}{{5.3.5}{121}{Performance of the Reconstruction}{subsection.5.3.5}{}}
+\newlabel{fig:pi0ShowersShowers2D}{{5.16a}{122}{2D.\relax }{figure.caption.16}{}}
+\newlabel{sub@fig:pi0ShowersShowers2D}{{a}{122}{2D.\relax }{figure.caption.16}{}}
+\newlabel{fig:pi0ShowersShowers3D}{{5.16b}{122}{3D.\relax }{figure.caption.16}{}}
+\newlabel{sub@fig:pi0ShowersShowers3D}{{b}{122}{3D.\relax }{figure.caption.16}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.16}{\ignorespaces The output from the full 3D shower reconstruction provided by BlurredCluster/EMShower when applied to the 35\nobreakspace  {}ton $\pi ^0$ event shown in Figure\nobreakspace  {}\ref  {fig:pi0Showers}.}}{122}{figure.caption.16}}
+\newlabel{fig:pi0ShowersShowers}{{5.16}{122}{The output from the full 3D shower reconstruction provided by BlurredCluster/EMShower when applied to the 35~ton $\pi ^0$ event shown in Figure~\ref {fig:pi0Showers}}{figure.caption.16}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.17}{\ignorespaces The fraction of total shower particles for which a shower object is created when using BlurredCluster/EMShower reconstruction.}}{123}{figure.caption.17}}
+\newlabel{fig:ShowerReconstructedEnergy}{{5.17}{123}{The fraction of total shower particles for which a shower object is created when using BlurredCluster/EMShower reconstruction}{figure.caption.17}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.5.1}Shower Properties}{123}{subsubsection.5.3.5.1}}
+\newlabel{sec:ShowerProperties}{{5.3.5.1}{123}{Shower Properties}{subsubsection.5.3.5.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.18}{\ignorespaces The difference between the true and reconstructed shower conversion points.}}{124}{figure.caption.18}}
+\newlabel{fig:ShowerStart}{{5.18}{124}{The difference between the true and reconstructed shower conversion points}{figure.caption.18}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.19}{\ignorespaces The vector dot product between the true and reconstructed initial shower direction.}}{124}{figure.caption.18}}
+\newlabel{fig:ShowerDirection}{{5.19}{124}{The vector dot product between the true and reconstructed initial shower direction}{figure.caption.18}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.20}{\ignorespaces The completeness of the reconstruction shower energy when compared with the true deposited energy from simulation.}}{124}{figure.caption.19}}
+\newlabel{fig:ShowerEnergy}{{5.20}{124}{The completeness of the reconstruction shower energy when compared with the true deposited energy from simulation}{figure.caption.19}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.21}{\ignorespaces The dE/dx information from the start of the reconstructed shower object.}}{124}{figure.caption.19}}
+\newlabel{fig:ShowerdEdx}{{5.21}{124}{The dE/dx information from the start of the reconstructed shower object}{figure.caption.19}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.22}{\ignorespaces The 35\nobreakspace  {}ton fully reconstructed $\pi ^0$ invariant mass peak.}}{125}{figure.caption.20}}
+\newlabel{fig:Pi0MassPeak}{{5.22}{125}{The 35~ton fully reconstructed $\pi ^0$ invariant mass peak}{figure.caption.20}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.5.2}$\pi ^0$ Reconstruction}{125}{subsubsection.5.3.5.2}}
+\newlabel{sec:pi0Reconstruction}{{5.3.5.2}{125}{$\pi ^0$ Reconstruction}{subsubsection.5.3.5.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.23}{\ignorespaces The 35\nobreakspace  {}ton $\pi ^0$ mass peak considered using a combination of reconstructed and truth information.}}{126}{figure.caption.21}}
+\newlabel{fig:Pi0MassPeakTruth}{{5.23}{126}{The 35~ton $\pi ^0$ mass peak considered using a combination of reconstructed and truth information}{figure.caption.21}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.5.3}Track/Shower Performance}{126}{subsubsection.5.3.5.3}}
+\newlabel{sec:TrackShowerPerformance}{{5.3.5.3}{126}{Track/Shower Performance}{subsubsection.5.3.5.3}{}}
 \@setckpt{LArTPCReconstruction/LArTPCReconstruction}{
-\setcounter{page}{111}
-\setcounter{equation}{1}
+\setcounter{page}{127}
+\setcounter{equation}{6}
 \setcounter{enumi}{0}
 \setcounter{enumii}{0}
 \setcounter{enumiii}{0}
@@ -77,10 +161,10 @@
 \setcounter{chapter}{5}
 \setcounter{section}{3}
 \setcounter{subsection}{5}
-\setcounter{subsubsection}{0}
+\setcounter{subsubsection}{3}
 \setcounter{paragraph}{0}
 \setcounter{subparagraph}{0}
-\setcounter{figure}{5}
+\setcounter{figure}{23}
 \setcounter{table}{0}
 \setcounter{@pps}{0}
 \setcounter{@ppsavesec}{0}
@@ -91,7 +175,7 @@
 \setcounter{Hfootnote}{0}
 \setcounter{bookmark@seq@number}{64}
 \setcounter{ContinuedFloat}{0}
-\setcounter{subfigure}{2}
+\setcounter{subfigure}{0}
 \setcounter{subtable}{0}
-\setcounter{section@level}{2}
+\setcounter{section@level}{3}
 }
