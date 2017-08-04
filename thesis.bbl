@@ -829,9 +829,88 @@ R~Acciarri and Others.
   MicroBooNE LArTPC}.
 \newblock {\em Submitted to: JINST}, 2017.
 
+\bibitem{Shockley1938}
+W~Shockley.
+\newblock {Currents to Conductors Induced by a Moving Point Charge}.
+\newblock {\em Journal of Applied Physics}, 9(10):635--636, 1938.
+
+\bibitem{Ramo1939}
+S~Ramo.
+\newblock {Currents Induced by Electron Motion}.
+\newblock {\em Proceedings of the IRE}, 27(9):584--585, 1939.
+
+\bibitem{MicroBooNERawCharge2016}
+{The MicroBooNE Collaboration}.
+\newblock {A Method to Extract the Charge Distribution Arriving at the TPC Wire
+  Planes in MicroBooNE}.
+\newblock {\em MicroBooNE Public Note}, 1017, 2016.
+
+\bibitem{GarfieldWebsite}
+{Garfield simulation}.
+
+\bibitem{ClusterCrawler}
+B~Baller.
+\newblock {Cluster Crawler Manual}, 2014.
+
+\bibitem{PMA2013}
+M~Antonello and Others.
+\newblock {Precise 3D track reconstruction algorithm for the ICARUS T600 liquid
+  argon time projection chamber detector}.
+\newblock {\em Adv. High Energy Phys.}, 2013:260820, 2013.
+
 \bibitem{WireCellWebsite}
 BNL.
 \newblock {Wire-Cell LArTPC Reconstruction}.
 \newblock Technical report.
+
+\bibitem{Grant2017}
+N~Grant and T~Yang.
+\newblock {Neutrino Energy Reconstruction in the DUNE Far Detector}.
+\newblock Technical report, 2017.
+
+\bibitem{KabothThesis}
+A~C Kaboth.
+\newblock {\em {Detecting the Invisible Universe with Neutrinos and Dark
+  Matter}}.
+\newblock PhD thesis, Massachusetts Institute of Technology, 2012.
+
+\bibitem{BlurredCluster}
+M~Wallbank.
+\newblock {The BlurredCluster Reconstruction Technique}.
+\newblock {\em DUNE Document Database}, 54, 2016.
+
+\bibitem{BlurredClusterLArSoft}
+M~Wallbank.
+\newblock {BlurredCluster Algorithm}, 2016.
+
+\bibitem{EMShower}
+M~Wallbank.
+\newblock {The EMShower Reconstruction Technique}.
+\newblock {\em DUNE Document Database}, (1369), 2016.
+
+\bibitem{EMShowerLArSoft}
+M~Wallbank.
+\newblock {EMShower Algorithm}, 2016.
+
+\bibitem{Insler2016}
+J~Insler.
+\newblock {Module to Unstick ADC Codes}.
+\newblock Technical report, 2016.
+
+\bibitem{CRY2007}
+C~Hagmann, D~Lange, and D~Wright.
+\newblock {Cosmic-ray shower generator (CRY) for Monte Carlo transport codes}.
+\newblock In {\em 2007 IEEE Nuclear Science Symposium Conference Record},
+  volume~2, pages 1143--1146, 2007.
+
+\bibitem{Brailsford2016}
+D~Brailsford.
+\newblock {Longitudinal Electron Diffusion}.
+\newblock Technical report, 2016.
+
+\bibitem{MicroBooNECosmics2016}
+The~MicroBooNE Collaboration.
+\newblock {Cosmic Shielding Studies at MicroBooNE}.
+\newblock {\em MicroBooNE Public Note}, 1005, 2016.
 
 \end{thebibliography}

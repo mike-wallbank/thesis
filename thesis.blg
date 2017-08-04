@@ -18,7 +18,7 @@ The style file: andyisgreat.bst
 A level-1 auxiliary file: Appendix1/appendix1.aux
 A level-1 auxiliary file: Appendix2/appendix2.aux
 Database file #1: References/references.bib
-Repeated entry---line 226 of file References/references.bib
+Repeated entry---line 228 of file References/references.bib
  : @article{Baller2014
  :                    ,
 I'm skipping whatever remains of this entry
@@ -136,47 +136,55 @@ Warning--empty journal in LArSoft2013
 Warning--empty year in Snider2016
 You can't pop an empty literal stack for entry GEANT42006
 while executing---line 953 of file andyisgreat.bst
+You can't pop an empty literal stack for entry Ramo1939
+while executing---line 953 of file andyisgreat.bst
 Warning--empty institution in WireCellWebsite
 Warning--empty year in WireCellWebsite
-You've used 151 entries,
+Warning--empty institution in Grant2017
+Warning--there's a number but no volume in EMShower
+Warning--empty institution in Insler2016
+You can't pop an empty literal stack for entry CRY2007
+while executing---line 953 of file andyisgreat.bst
+Warning--empty institution in Brailsford2016
+You've used 167 entries,
             1813 wiz_defined-function locations,
-            1385 strings with 262384 characters,
-and the built_in function-call counts, 31732 in all, are:
-= -- 2977
-> -- 1163
-< -- 5
-+ -- 530
-- -- 263
-* -- 2145
-:= -- 5037
-add.period$ -- 437
-call.type$ -- 151
-change.case$ -- 152
+            1465 strings with 264175 characters,
+and the built_in function-call counts, 34329 in all, are:
+= -- 3211
+> -- 1243
+< -- 7
++ -- 569
+- -- 282
+* -- 2263
+:= -- 5447
+add.period$ -- 480
+call.type$ -- 167
+change.case$ -- 170
 chr.to.int$ -- 0
-cite$ -- 171
-duplicate$ -- 1326
-empty$ -- 3247
-format.name$ -- 263
-if$ -- 7007
+cite$ -- 191
+duplicate$ -- 1453
+empty$ -- 3534
+format.name$ -- 282
+if$ -- 7591
 int.to.chr$ -- 0
-int.to.str$ -- 151
-missing$ -- 136
-newline$ -- 742
-num.names$ -- 147
-pop$ -- 347
+int.to.str$ -- 167
+missing$ -- 144
+newline$ -- 817
+num.names$ -- 162
+pop$ -- 402
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 642
+skip$ -- 716
 stack$ -- 0
-substring$ -- 2425
-swap$ -- 167
-text.length$ -- 5
+substring$ -- 2533
+swap$ -- 193
+text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 20
-while$ -- 335
-width$ -- 154
-write$ -- 1586
-(There were 38 error messages)
+warning$ -- 24
+while$ -- 358
+width$ -- 170
+write$ -- 1745
+(There were 40 error messages)

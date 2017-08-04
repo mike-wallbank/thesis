@@ -9,8 +9,8 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {7.1}{\ignorespaces Measurements of all the APA offsets determined from the 35\nobreakspace {}ton TPC data.}}{142}{table.caption.105}
-\contentsline {table}{\numberline {7.2}{\ignorespaces The corrected gaps between the APAs, in $x$ and $z$, based on the offsets measured (Table \ref {tab:APAGapOffsets}).}}{142}{table.caption.105}
+\contentsline {table}{\numberline {7.1}{\ignorespaces Measurements of all the APA offsets determined from the 35\nobreakspace {}ton TPC data.}}{164}{table.caption.128}
+\contentsline {table}{\numberline {7.2}{\ignorespaces The corrected gaps between the APAs, in $x$ and $z$, based on the offsets measured (Table \ref {tab:APAGapOffsets}).}}{164}{table.caption.128}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

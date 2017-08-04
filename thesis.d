@@ -378,6 +378,12 @@ thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/NoiseCorrelation
 -include LArTPCReconstruction/Figs/LArSoftStructure.pdf.gpi.d
 thesis.d: $$(call graphics-source,LArTPCReconstruction/Figs/LArSoftStructure.pdf)
 thesis.pdf thesis._graphics: $$(call graphics-target,LArTPCReconstruction/Figs/LArSoftStructure.pdf)
+-include LArTPCReconstruction/Figs/FieldResponse.png.gpi.d
+thesis.d: $$(call graphics-source,LArTPCReconstruction/Figs/FieldResponse.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,LArTPCReconstruction/Figs/FieldResponse.png)
+-include LArTPCReconstruction/Figs/ElectronicsResponse.png.gpi.d
+thesis.d: $$(call graphics-source,LArTPCReconstruction/Figs/ElectronicsResponse.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,LArTPCReconstruction/Figs/ElectronicsResponse.png)
 -include LArTPCReconstruction/Figs/HitFindingU.pdf.gpi.d
 thesis.d: $$(call graphics-source,LArTPCReconstruction/Figs/HitFindingU.pdf)
 thesis.pdf thesis._graphics: $$(call graphics-target,LArTPCReconstruction/Figs/HitFindingU.pdf)
@@ -399,6 +405,69 @@ thesis.pdf thesis._graphics: $$(call graphics-target,LArTPCReconstruction/Figs/3
 -include LArTPCReconstruction/Figs/3DnumuCC3D.pdf.gpi.d
 thesis.d: $$(call graphics-source,LArTPCReconstruction/Figs/3DnumuCC3D.pdf)
 thesis.pdf thesis._graphics: $$(call graphics-target,LArTPCReconstruction/Figs/3DnumuCC3D.pdf)
+-include LArTPCReconstruction/Figs/EVDPi0Hits.pdf.gpi.d
+thesis.d: $$(call graphics-source,LArTPCReconstruction/Figs/EVDPi0Hits.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,LArTPCReconstruction/Figs/EVDPi0Hits.pdf)
+-include LArTPCReconstruction/Figs/2DGaussianKernel.png.gpi.d
+thesis.d: $$(call graphics-source,LArTPCReconstruction/Figs/2DGaussianKernel.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,LArTPCReconstruction/Figs/2DGaussianKernel.png)
+-include LArTPCReconstruction/Figs/blurring1.png.gpi.d
+thesis.d: $$(call graphics-source,LArTPCReconstruction/Figs/blurring1.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,LArTPCReconstruction/Figs/blurring1.png)
+-include LArTPCReconstruction/Figs/blurring2.png.gpi.d
+thesis.d: $$(call graphics-source,LArTPCReconstruction/Figs/blurring2.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,LArTPCReconstruction/Figs/blurring2.png)
+-include LArTPCReconstruction/Figs/blurring3.png.gpi.d
+thesis.d: $$(call graphics-source,LArTPCReconstruction/Figs/blurring3.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,LArTPCReconstruction/Figs/blurring3.png)
+-include LArTPCReconstruction/Figs/blurring4.png.gpi.d
+thesis.d: $$(call graphics-source,LArTPCReconstruction/Figs/blurring4.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,LArTPCReconstruction/Figs/blurring4.png)
+-include LArTPCReconstruction/Figs/blurring5.png.gpi.d
+thesis.d: $$(call graphics-source,LArTPCReconstruction/Figs/blurring5.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,LArTPCReconstruction/Figs/blurring5.png)
+-include LArTPCReconstruction/Figs/blurring6.png.gpi.d
+thesis.d: $$(call graphics-source,LArTPCReconstruction/Figs/blurring6.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,LArTPCReconstruction/Figs/blurring6.png)
+-include LArTPCReconstruction/Figs/blurring7.png.gpi.d
+thesis.d: $$(call graphics-source,LArTPCReconstruction/Figs/blurring7.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,LArTPCReconstruction/Figs/blurring7.png)
+-include LArTPCReconstruction/Figs/blurring8.png.gpi.d
+thesis.d: $$(call graphics-source,LArTPCReconstruction/Figs/blurring8.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,LArTPCReconstruction/Figs/blurring8.png)
+-include LArTPCReconstruction/Figs/blurring9.png.gpi.d
+thesis.d: $$(call graphics-source,LArTPCReconstruction/Figs/blurring9.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,LArTPCReconstruction/Figs/blurring9.png)
+-include LArTPCReconstruction/Figs/EVDPi0BlurPlane0.pdf.gpi.d
+thesis.d: $$(call graphics-source,LArTPCReconstruction/Figs/EVDPi0BlurPlane0.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,LArTPCReconstruction/Figs/EVDPi0BlurPlane0.pdf)
+-include LArTPCReconstruction/Figs/EVDPi0BlurPlane2.pdf.gpi.d
+thesis.d: $$(call graphics-source,LArTPCReconstruction/Figs/EVDPi0BlurPlane2.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,LArTPCReconstruction/Figs/EVDPi0BlurPlane2.pdf)
+-include LArTPCReconstruction/Figs/EVDPi0Clusters.pdf.gpi.d
+thesis.d: $$(call graphics-source,LArTPCReconstruction/Figs/EVDPi0Clusters.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,LArTPCReconstruction/Figs/EVDPi0Clusters.pdf)
+-include LArTPCReconstruction/Figs/EVDPi0Clusters.pdf.gpi.d
+thesis.d: $$(call graphics-source,LArTPCReconstruction/Figs/EVDPi0Clusters.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,LArTPCReconstruction/Figs/EVDPi0Clusters.pdf)
+-include LArTPCReconstruction/Figs/EVDPi0Tracks2D.pdf.gpi.d
+thesis.d: $$(call graphics-source,LArTPCReconstruction/Figs/EVDPi0Tracks2D.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,LArTPCReconstruction/Figs/EVDPi0Tracks2D.pdf)
+-include LArTPCReconstruction/Figs/EVDPi0Shower2D.pdf.gpi.d
+thesis.d: $$(call graphics-source,LArTPCReconstruction/Figs/EVDPi0Shower2D.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,LArTPCReconstruction/Figs/EVDPi0Shower2D.pdf)
+-include LArTPCReconstruction/Figs/EVDPi0Shower3D.pdf.gpi.d
+thesis.d: $$(call graphics-source,LArTPCReconstruction/Figs/EVDPi0Shower3D.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,LArTPCReconstruction/Figs/EVDPi0Shower3D.pdf)
+-include LArTPCReconstruction/Figs/NuECCHits.pdf.gpi.d
+thesis.d: $$(call graphics-source,LArTPCReconstruction/Figs/NuECCHits.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,LArTPCReconstruction/Figs/NuECCHits.pdf)
+-include LArTPCReconstruction/Figs/NuECCTrackShower2D.pdf.gpi.d
+thesis.d: $$(call graphics-source,LArTPCReconstruction/Figs/NuECCTrackShower2D.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,LArTPCReconstruction/Figs/NuECCTrackShower2D.pdf)
+-include LArTPCReconstruction/Figs/NuECCTrackShower3D.pdf.gpi.d
+thesis.d: $$(call graphics-source,LArTPCReconstruction/Figs/NuECCTrackShower3D.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,LArTPCReconstruction/Figs/NuECCTrackShower3D.pdf)
 -include OnlineMonitoring/Figs/DQM1.png.gpi.d
 thesis.d: $$(call graphics-source,OnlineMonitoring/Figs/DQM1.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,OnlineMonitoring/Figs/DQM1.png)
@@ -423,9 +492,9 @@ thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/DataRMSG
 -include 35tonAnalysis/Figs/DataRMSBad.pdf.gpi.d
 thesis.d: $$(call graphics-source,35tonAnalysis/Figs/DataRMSBad.pdf)
 thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/DataRMSBad.pdf)
--include 35tonAnalysis/Figs/stuckbitsremoval.png.gpi.d
-thesis.d: $$(call graphics-source,35tonAnalysis/Figs/stuckbitsremoval.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/stuckbitsremoval.png)
+-include 35tonAnalysis/Figs/stuckbitsremoval.pdf.gpi.d
+thesis.d: $$(call graphics-source,35tonAnalysis/Figs/stuckbitsremoval.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/stuckbitsremoval.pdf)
 -include 35tonAnalysis/Figs/raw_stuck-eps-converted-to.pdf.gpi.d
 thesis.d: $$(call graphics-source,35tonAnalysis/Figs/raw_stuck-eps-converted-to.pdf)
 thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/raw_stuck-eps-converted-to.pdf)
@@ -435,6 +504,9 @@ thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/raw_nois
 -include 35tonAnalysis/Figs/apa_gap-eps-converted-to.pdf.gpi.d
 thesis.d: $$(call graphics-source,35tonAnalysis/Figs/apa_gap-eps-converted-to.pdf)
 thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/apa_gap-eps-converted-to.pdf)
+-include 35tonAnalysis/Figs/TPC5TPC7CombinedOffsets.png.gpi.d
+thesis.d: $$(call graphics-source,35tonAnalysis/Figs/TPC5TPC7CombinedOffsets.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/TPC5TPC7CombinedOffsets.png)
 -include 35tonAnalysis/Figs/ChargeHit-eps-converted-to.pdf.gpi.d
 thesis.d: $$(call graphics-source,35tonAnalysis/Figs/ChargeHit-eps-converted-to.pdf)
 thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/ChargeHit-eps-converted-to.pdf)
