@@ -27,17 +27,17 @@ The level of noise present in the TPC data varied hugely between runs -- this is
   \begin{subfigure}{0.45\linewidth}
     \centering
     \includegraphics[width=0.95\textwidth]{DataRMSGood.pdf}
-    \caption{Good run}
+    \caption{Good run.}
     \label{fig:DataRMSGoodRun}
   \end{subfigure}
   \hfill
   \begin{subfigure}{0.45\linewidth}
     \centering
     \includegraphics[width=0.95\textwidth]{DataRMSBad.pdf}
-    \caption{Bad run}
+    \caption{Bad run.}
     \label{fig:DataRMSBadRun}
   \end{subfigure}
-  \caption[`Good' and `bad' 35~ton runs]{Comparison between noise levels for `good' and `bad' 35~ton runs.  The channels shown are on APA2 (online convention, APA0 offline) and are read out by RCEs 8 through 11 (labelled).  The increase in read out charge RMS in evident in the case of the noisy run.  These plots are from runs 15797 (Fig \ref{fig:DataRMSGoodRun}) and 15790 (Figure~\ref{fig:DataRMSBadRun}) and were taken only 50 minutes apart.}
+  \caption[Comparison between noise levels for `good' and `bad' 35~ton runs.]{Comparison between noise levels for `good' and `bad' 35~ton runs.  The channels shown are on APA2 (online convention, APA0 offline) and are read out by RCEs 8 through 11 (labelled).  The increase in read out charge RMS in evident in the case of the noisy run.  These plots are from runs 15797 (Fig \ref{fig:DataRMSGoodRun}) and 15790 (Figure~\ref{fig:DataRMSBadRun}) and were taken only 50 minutes apart.}
   \label{fig:DataRMS}
 \end{figure}
 
@@ -53,7 +53,7 @@ Two issues present in the raw data, namely the presence of correlated noise and 
 \begin{figure}
   \centering
   \includegraphics[width=8cm]{stuckbitsremoval.pdf}
-  \caption[Correcting for stuck codes in the 35~ton data]{Simulated demonstration of the method used to correct for stuck codes in the 35~ton data \cite{Insler2016}.  On a given channel, ADCs exhibiting the consequences of this problem are corrected by interpolating charge at neighbouring time units.  This is tested by simulating a waveform and adding the observed stuck code effect; the efficacy of the method at correcting the afflicted bits can then be evaluated.}
+  \caption[Simulated demonstration of the method used to correct for stuck codes in the 35~ton data.]{Simulated demonstration of the method used to correct for stuck codes in the 35~ton data \cite{Insler2016}.  On a given channel, ADCs exhibiting the consequences of this problem are corrected by interpolating charge at neighbouring time units.  This is tested by simulating a waveform and adding the observed stuck code effect; the efficacy of the method at correcting the afflicted bits can then be evaluated.}
   \label{fig:StuckBitInterpolation}
 \end{figure}
 
@@ -72,7 +72,7 @@ Two issues present in the raw data, namely the presence of correlated noise and 
     \caption{After applying stuck bit mitigation.}
     \label{fig:StuckBitWaveformUnstuck}
   \end{subfigure}
-  \caption[Raw data stuck bit mitigation]{The effect of applying stuck bit mitigation to a waveform as seen in raw data.  This particular waveform is from run 15660, channel 722 (induction channel).}
+  \caption[The effect of applying stuck bit mitigation to a waveform as seen in raw 35~ton data.]{The effect of applying stuck bit mitigation to a waveform as seen in raw 35~ton data.  This particular waveform is from run 15660, channel 722 (induction channel).}
   \label{fig:StuckBitWaveform}
 \end{figure}
 
@@ -93,7 +93,7 @@ Following this process, a coherent noise removal stage is applied.  This simply 
     \caption{After removing coherent noise.}
     \label{fig:CoherentNoiseRemovalNoNoise}
   \end{subfigure}
-  \caption[Coherent noise removal in 35~ton data]{The effect of removing coherent noise from all channels on a voltage regulator.  This waveform is from run 15660, channel 2010 (collection channel).  The signal is noticeably larger following this process, considerably improving reconstruction performance.}
+  \caption[The effect of removing coherent noise from all channels on a voltage regulator in the 35~ton data.]{The effect of removing coherent noise from all channels on a voltage regulator in the 35~ton data.  This waveform is from run 15660, channel 2010 (collection channel).  The signal is noticeably larger following this process, considerably improving reconstruction performance.}
   \label{fig:CoherentNoiseRemoval}
 \end{figure}
 
@@ -128,7 +128,7 @@ Figure~\ref{fig:TrackSelection} outlines the stages of selecting hits originatin
     \caption{Hits on single wire occupancy and with residual $<2$~cm.}
     \label{fig:TrackSelectionFinal}
   \end{subfigure}
-  \caption[Selecting tracks for 35~ton data analysis]{Demonstration of the successive stages applied to hits on collection wires in order to select hits from the through-going track associated with the particle which caused the trigger.  The hits left after all stages are taken forward into the analyses.}
+  \caption[Demonstration of the successive stages applied to hits on collection wires in the 35~ton data in order to select hits from the through-going track associated with the particle which caused the trigger.]{Demonstration of the successive stages applied to hits on collection wires in the 35~ton data in order to select hits from the through-going track associated with the particle which caused the trigger.  The hits left after all stages are taken forward into the analyses.}
   \label{fig:TrackSelection}
 \end{figure}
 
@@ -183,7 +183,7 @@ One of the primary motivations for the design of the 35~ton TPC was to test its 
 \begin{figure}
   \centering
   \includegraphics[width=8cm]{apa_gap.eps}
-  \caption{Schematic showing an example APA gap-crossing track as viewed looking down from the top of the detector.  The vertical direction represents the drift direction ($x$); the horizontal direction represents the $z$-direction.  In general, these tracks make an angle with respect to the face of the APAs, as shown in the figure.  As the gap in between the APAs is uninstrumented, no charge is deposited in this region.}
+  \caption[Schematic showing an example APA gap-crossing track as viewed looking down from the top of the detector.]{Schematic showing an example APA gap-crossing track as viewed looking down from the top of the detector.  The vertical direction represents the drift direction ($x$); the horizontal direction represents the $z$-direction.  In general, these tracks make an angle with respect to the face of the APAs, as shown in the figure.  As the gap in between the APAs is uninstrumented, no charge is deposited in this region.}
   \label{fig:APAGapCrosser}
 \end{figure}
 
@@ -213,7 +213,7 @@ where $o_i-e_i$ is the distance from hit $i$ to the best fit line.
     \caption{After correcting for $\Delta z$.}
     \label{fig:APAGapZOffsetCorrected}
   \end{subfigure}
-  \caption{Schematic showing an example track crossing two drift regions offset by an unknown quantity $\Delta z$.  The effect of this is evident from the track deposits (Figure~\ref{fig:APAGapZOffsetUncorrected}) and can be corrected by ensuring the segments are aligned between the DVs (Figure~\ref{fig:APAGapZOffsetCorrected}).}
+  \caption[Schematic showing an example track crossing two drift regions offset by an unknown quantity $\Delta z$.]{Schematic showing an example track crossing two drift regions offset by an unknown quantity $\Delta z$.  The effect of this is evident from the track deposits (Figure~\ref{fig:APAGapZOffsetUncorrected}) and can be corrected by ensuring the segments are aligned between the DVs (Figure~\ref{fig:APAGapZOffsetCorrected}).}
   \label{fig:APAGapZOffset}
 \end{figure}
 
@@ -254,7 +254,7 @@ The gap which may expect the largest number of crossers is DV5/DV7 and so the pr
     \caption{Separated by the angle the track makes to the APAs.}
     \label{fig:DV5DV7GapAngle}
   \end{subfigure}
-  \caption{The $z$-offset for the DV5/DV7 gap measured in the 35~ton data.  A very noticeable double-peak structure is evident in Figure~\ref{fig:DV5DV7Gap}; this bias appears to be related to the sign of the angle the particle track makes to the APA planes.}
+  \caption[The $z$-offset for the DV5/DV7 gap measured in the 35~ton data.]{The $z$-offset for the DV5/DV7 gap measured in the 35~ton data.  A very noticeable double-peak structure is evident in Figure~\ref{fig:DV5DV7Gap}; this bias appears to be related to the sign of the angle the particle track makes to the APA planes.}
   \label{fig:DV5DV7XOffsetZOffset}
 \end{figure}
 
@@ -289,7 +289,7 @@ One explanation for this observed double-peak effect involves considering the po
     \caption{Aligning the track segments gives a positive value of $\Delta z$ using the negative track.}
     \label{fig:APAGapXOffsetNegFix}
   \end{subfigure}
-  \caption{Demonstration of how an $x$-offset in the positions of the APAs can explain the degeneracy evident in the $z$-offset measured using the 35~ton data (Figure~\ref{fig:DV5DV7XOffsetZOffset}).  In the left-hand plots, Figures~\ref{fig:APAGapXOffsetPos} and~\ref{fig:APAGapXOffsetPosFix}, the through-going particle makes a positive angle to the face of the APAs and in the right-hand plots, Figures~\ref{fig:APAGapXOffsetNeg} and~\ref{fig:APAGapXOffsetNegFix}, the particle is travelling with a negative gradient.  In both cases, the offset of the APAs in the $x$-direction is the same.  It is clear from Figures~\ref{fig:APAGapXOffsetPosFix} and~\ref{fig:APAGapXOffsetNegFix} how the sign of the measured $\Delta z$ is dependent on the angle of the track.}
+  \caption[Demonstration of how an $x$-offset in the positions of the APAs can explain the degeneracy evident in the $z$-offset measured using the 35~ton data.]{Demonstration of how an $x$-offset in the positions of the APAs can explain the degeneracy evident in the $z$-offset measured using the 35~ton data (Figure~\ref{fig:DV5DV7XOffsetZOffset}).  In the left-hand plots, Figures~\ref{fig:APAGapXOffsetPos} and~\ref{fig:APAGapXOffsetPosFix}, the through-going particle makes a positive angle to the face of the APAs and in the right-hand plots, Figures~\ref{fig:APAGapXOffsetNeg} and~\ref{fig:APAGapXOffsetNegFix}, the particle is travelling with a negative gradient.  In both cases, the offset of the APAs in the $x$-direction is the same.  It is clear from Figures~\ref{fig:APAGapXOffsetPosFix} and~\ref{fig:APAGapXOffsetNegFix} how the sign of the measured $\Delta z$ is dependent on the angle of the track.}
   \label{fig:APAGapXOffset}
 \end{figure}
 
@@ -315,7 +315,7 @@ One explanation for this observed double-peak effect involves considering the po
     \caption{$z$-offset = 2~cm, $x$-offset = 0.5~cm.}
     \label{fig:APAGapMCXOffsetZOffsetAngle}
   \end{subfigure}
-  \caption{Studies of the effects of offsets in the positions of the APAs in simulation.  Artificial $z$- and $x$- offsets are introduced and their impact observed in the measurements of $\Delta z$.  Figure~\ref{fig:APAGapMCZOffset} shows the effect of an offset in the $z$-direction; as expected, there is a single peak measuring the input value.  Figures~\ref{fig:APAGapMCXOffsetZOffset} and~\ref{fig:APAGapMCXOffsetZOffsetAngle} show the consequence of offsets in both the $x$- and $z$-directions.  This appears to show exactly what is seen in the 35~ton data (Figure~\ref{fig:DV5DV7XOffsetZOffset}).}
+  \caption[Studies of the effects of offsets in the positions of the APAs in simulation.]{Studies of the effects of offsets in the positions of the APAs in simulation.  Artificial $z$- and $x$- offsets are introduced and their impact observed in the measurements of $\Delta z$.  Figure~\ref{fig:APAGapMCZOffset} shows the effect of an offset in the $z$-direction; as expected, there is a single peak measuring the input value.  Figures~\ref{fig:APAGapMCXOffsetZOffset} and~\ref{fig:APAGapMCXOffsetZOffsetAngle} show the consequence of offsets in both the $x$- and $z$-directions.  This appears to show exactly what is seen in the 35~ton data (Figure~\ref{fig:DV5DV7XOffsetZOffset}).}
   \label{fig:APAGapMC}
 \end{figure}
 
@@ -341,7 +341,7 @@ One explanation for this observed double-peak effect involves considering the po
     \caption{$z$-offset = 2~cm, $x$-offset = 0.5~cm.}
     \label{fig:APAGapMCXOffsetZOffsetAngle}
   \end{subfigure}
-  \caption{{\color{red} Same as previous page -- which is better?  I prefer the layout of the previous page but I like this one because you can see the 2cm offset in line with each other down the page!}  Studies of the effects of offsets in the positions of the APAs in simulation.  Artificial $z$- and $x$- offsets are introduced and their impact observed in the measurements of $\Delta z$.  Figure~\ref{fig:APAGapMCZOffset} shows the effect of an offset in the $z$-direction; as expected, there is a single peak measuring the input value.  Figures~\ref{fig:APAGapMCXOffsetZOffset} and~\ref{fig:APAGapMCXOffsetZOffsetAngle} show the consequence of offsets in both the $x$- and $z$-directions.  This appears to show exactly what is seen in the 35~ton data (Figure~\ref{fig:DV5DV7XOffsetZOffset}).}
+  \caption[Studies of the effects of offsets in the positions of the APAs in simulation.]{{\color{red} Same as previous page -- which is better?  I prefer the layout of the previous page but I like this one because you can see the 2cm offset in line with each other down the page!}  Studies of the effects of offsets in the positions of the APAs in simulation.  Artificial $z$- and $x$- offsets are introduced and their impact observed in the measurements of $\Delta z$.  Figure~\ref{fig:APAGapMCZOffset} shows the effect of an offset in the $z$-direction; as expected, there is a single peak measuring the input value.  Figures~\ref{fig:APAGapMCXOffsetZOffset} and~\ref{fig:APAGapMCXOffsetZOffsetAngle} show the consequence of offsets in both the $x$- and $z$-directions.  This appears to show exactly what is seen in the 35~ton data (Figure~\ref{fig:DV5DV7XOffsetZOffset}).}
   \label{fig:APAGapMC}
 \end{figure}
 
@@ -389,14 +389,14 @@ and extracting parameter $b$ as the true value of $\Delta z$.  This is shown in 
     \caption{Aligning the track segments gives a measured $z$-offset, $\Delta z_m$, which is positive with an absolute value always less than the true value.}
     \label{fig:APAGapXOffsetZOffsetNegFix}
   \end{subfigure}
-  \caption{Demonstration of the effects of offsets in both the $x$- and $z$-directions in the determination of $\Delta z$ between DV5 and DV7.  With an $x$-offset present, it is impossible for the true value of $\Delta z$ to be measured -- this is evident from Figure~\ref{fig:APAGapMC}.  It is clear from these geometrical considerations how the measured offset $\Delta z_m$ will populate distributions either side of the true value; the true value $\Delta z$ is given by the minimum between the two distributions.}
+  \caption[Demonstration of the effects of offsets in both the $x$- and $z$-directions in the determination of $\Delta z$ between DV5 and DV7.]{Demonstration of the effects of offsets in both the $x$- and $z$-directions in the determination of $\Delta z$ between DV5 and DV7.  With an $x$-offset present, it is impossible for the true value of $\Delta z$ to be measured -- this is evident from Figure~\ref{fig:APAGapMC}.  It is clear from these geometrical considerations how the measured offset $\Delta z_m$ will populate distributions either side of the true value; the true value $\Delta z$ is given by the minimum between the two distributions.}
   \label{fig:APAGapXOffsetZOffset}
 \end{figure}
 
 \begin{figure}
   \centering
   \includegraphics[width=12cm]{TPC5TPC7GapFit.eps}
-  \caption{Extraction of the true value of $\Delta z$ from the full distribution of measured $z$-offsets.  A measured value of $0.117\pm0.007$~cm is found.}
+  \caption[Extraction of the true value of $\Delta z$ from the full distribution of measured $z$-offsets.]{Extraction of the true value of $\Delta z$ from the full distribution of measured $z$-offsets.  A measured value of $0.117\pm0.007$~cm is found.}
   \label{fig:DV5DV7GapFit}
 \end{figure}
 
@@ -405,14 +405,14 @@ Using this measured value of $\Delta z$, the offsets can be analysed again, this
 \begin{figure}
   \centering
   \includegraphics[width=12cm]{TPC5TPC7XOff.eps}
-  \caption{Measurement of the $x$-offset between DV5 and DV7 after applying the $z$-gap corrected determined using the method described in the text and Figure~\ref{fig:DV5DV7GapFit}.  A measurement of $-0.286\pm0.002$~cm is determined.}
+  \caption[Measurement of the $x$-offset between DV5 and DV7 after applying the $z$-gap correction.]{Measurement of the $x$-offset between DV5 and DV7 after applying the $z$-gap correction determined using the method described in the text and Figure~\ref{fig:DV5DV7GapFit}.  A measurement of $-0.286\pm0.002$~cm is determined.}
   \label{fig:DV5DV7XOff}
 \end{figure}
 
 \begin{figure}
   \centering
   \includegraphics[width=12cm]{TPC5TPC7ZOff.eps}
-  \caption{Measurement of the $z$-offset between DV5 and DV7 after applying the $x$-offset determined from Figure~\ref{fig:DV5DV7XOff}.  As initially anticipated, there is a single peak distributed around the true value of the offset.  This validates the method used and confirms the initial presence of an $x$-offset between the neighbouring APAs.  The final measurement of $\Delta z$ is $0.103\pm0.004$~cm which agrees reasonably with the value measured previously ($0.117\pm0.007$~cm from Figure~\ref{fig:DV5DV7GapFit}).}
+  \caption[of the $z$-offset between DV5 and DV7 after applying the $x$-offset previously determined.]{Measurement of the $z$-offset between DV5 and DV7 after applying the $x$-offset determined from Figure~\ref{fig:DV5DV7XOff}.  As initially anticipated, there is a single peak distributed around the true value of the offset.  This validates the method used and confirms the initial presence of an $x$-offset between the neighbouring APAs.  The final measurement of $\Delta z$ is $0.103\pm0.004$~cm which agrees reasonably with the value measured previously ($0.117\pm0.007$~cm from Figure~\ref{fig:DV5DV7GapFit}).}
   \label{fig:DV5DV7ZOff}
 \end{figure}
 
@@ -1026,7 +1026,7 @@ Without full reconstruction and selection, identifying candidate events is very 
 \begin{figure}[htb]
   \centering
   \includegraphics[width=10cm]{evd_run16110_subrun1_event29.png}
-  \caption{A candidate $\pi^0$ event observed in the online event display during the run.}
+  \caption[A candidate $\pi^0$ event observed in the online event display during the run.]{A candidate $\pi^0$ event observed in the online event display during the run.}
   \label{fig:DataPi0Candidate}
 \end{figure}
 Unlike the shower discussed in Section~\ref{sec:DataShowerReconstruction}, there is no associated photon detector information for this event; however, one of the candidate photons passes through the APA frames so techniques developed for the APA-crosser analysis (Section~\ref{sec:APACrossing}) may be employed to determine the relevant interaction time.  Applying the calorimetry reconstruction, the dE/dx information associated with the high energy candidate photon (the one which crosses the APAs) gives a value of 4.75~MeV/cm, entirely consistent with the expectation for a photon of a distribution centred around 4.2~MeV/cm.  The low energy candidate photon travels almost completely along the collection view direction resulting in unreliable dE/dx information.  The total energy for each shower is determined to be 161.8~MeV and 500.5~MeV with an implied invariant mass of

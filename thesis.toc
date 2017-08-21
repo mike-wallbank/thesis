@@ -143,7 +143,8 @@
 \contentsline {subsection}{\numberline {7.4.3}Shower Reconstruction}{189}{subsection.7.4.3}
 \contentsline {subsection}{\numberline {7.4.4}$\pi ^0$ Reconstruction}{192}{subsection.7.4.4}
 \contentsline {section}{\numberline {7.5}35\nobreakspace {}ton Data Analysis Summary}{193}{section.7.5}
-\contentsline {chapter}{\numberline {8}Electron Reconstruction for $\nu _e$ Oscillation Signal at the DUNE Far Detector}{195}{chapter.8}
+\contentsline {chapter}{\numberline {8}The $\nu _e$ Oscillation Signal at the DUNE Far Detector}{195}{chapter.8}
+\contentsline {section}{\numberline {8.1}Cut-Based Approach}{195}{section.8.1}
 \contentsline {chapter}{\numberline {9}Summary}{197}{chapter.9}
 \contentsline {chapter}{References}{199}{chapter*.160}
 \contentsline {chapter}{Appendix \numberline {A}How to install \LaTeX }{209}{Appendix.a.A}

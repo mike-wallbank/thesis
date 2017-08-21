@@ -202,7 +202,7 @@
 \@writefile{toc}{\contentsline {chapter}{\numberline {5}Reconstruction in a Liquid Argon TPC}{103}{chapter.5}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {6}Online Monitoring and Event Displays for the 35\nobreakspace  {}ton Experiment}{133}{chapter.6}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {7}Analysis of 35\nobreakspace  {}ton Data}{145}{chapter.7}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {8}Electron Reconstruction for $\nu _e$ Oscillation Signal at the DUNE Far Detector}{195}{chapter.8}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {8}The $\nu _e$ Oscillation Signal at the DUNE Far Detector}{195}{chapter.8}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {9}Summary}{197}{chapter.9}}
 \@writefile{toc}{\contentsline {paragraph}{Drift velocity}{172}{section*.138}}
 \@writefile{toc}{\contentsline {paragraph}{Geometry}{168}{section*.135}}
@@ -232,6 +232,7 @@
 \@writefile{toc}{\contentsline {section}{\numberline {7.3}APA-Crossing Muons}{165}{section.7.3}}
 \@writefile{toc}{\contentsline {section}{\numberline {7.4}Shower Reconstruction in 35\nobreakspace  {}ton Data}{184}{section.7.4}}
 \@writefile{toc}{\contentsline {section}{\numberline {7.5}35\nobreakspace  {}ton Data Analysis Summary}{193}{section.7.5}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.1}Cut-Based Approach}{195}{section.8.1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1.1}Prediction of the Neutrino}{3}{subsection.2.1.1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1.2}Discovery of the Neutrino}{4}{subsection.2.1.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1.3}The Solar Neutrino Problem}{8}{subsection.2.1.3}}
@@ -1291,17 +1292,17 @@
 \setcounter{NAT@ctr}{0}
 \setcounter{NAT@ctr}{0}
 \setcounter{NAT@ctr}{0}
-\setcounter{NAT@ctr}{166}
-\setcounter{NAT@ctr}{166}
+\setcounter{NAT@ctr}{167}
+\setcounter{NAT@ctr}{167}
 \setcounter{bookmark@seq@number}{0}
 \setcounter{bookmark@seq@number}{0}
 \setcounter{bookmark@seq@number}{0}
 \setcounter{bookmark@seq@number}{0}
 \setcounter{bookmark@seq@number}{101}
-\setcounter{bookmark@seq@number}{102}
 \setcounter{bookmark@seq@number}{103}
-\setcounter{bookmark@seq@number}{105}
+\setcounter{bookmark@seq@number}{104}
 \setcounter{bookmark@seq@number}{106}
+\setcounter{bookmark@seq@number}{107}
 \setcounter{bookmark@seq@number}{19}
 \setcounter{bookmark@seq@number}{36}
 \setcounter{bookmark@seq@number}{4}
@@ -1526,7 +1527,7 @@
 \setcounter{section}{0}
 \setcounter{section}{0}
 \setcounter{section}{0}
-\setcounter{section}{0}
+\setcounter{section}{1}
 \setcounter{section}{3}
 \setcounter{section}{3}
 \setcounter{section}{4}

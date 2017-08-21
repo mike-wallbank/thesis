@@ -96,9 +96,9 @@ thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Summary/Summary
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,thesis-info.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,thesis.tex)
 .SECONDEXPANSION:
--include Figs/University_Crest.pdf.gpi.d
-thesis.d: $$(call graphics-source,Figs/University_Crest.pdf)
-thesis.pdf thesis._graphics: $$(call graphics-target,Figs/University_Crest.pdf)
+-include Figs/SheffieldShield.jpg.gpi.d
+thesis.d: $$(call graphics-source,Figs/SheffieldShield.jpg)
+thesis.pdf thesis._graphics: $$(call graphics-target,Figs/SheffieldShield.jpg)
 -include NeutrinoPhysics/Figs/LEPZ0Resonance.pdf.gpi.d
 thesis.d: $$(call graphics-source,NeutrinoPhysics/Figs/LEPZ0Resonance.pdf)
 thesis.pdf thesis._graphics: $$(call graphics-target,NeutrinoPhysics/Figs/LEPZ0Resonance.pdf)

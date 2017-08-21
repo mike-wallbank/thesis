@@ -1194,7 +1194,7 @@ wish to left align your text}
     \ifthenelse{\equal{\@supervisor}{}}{
       % supervisor is not defined
     }{
-      \centering \Large {\@supervisorrole \parbox[t]{0.4\textwidth}{\@supervisor}}
+      \centering \Large \@supervisorrole \@supervisor %{\@supervisorrole \parbox[t]{0.4\textwidth}{\@supervisor}}
       \vspace{0.5em}
     } % supervisor is defined
   \end{minipage}
