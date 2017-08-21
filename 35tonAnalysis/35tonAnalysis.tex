@@ -15,7 +15,7 @@ Before analyses are presented, techniques developed to enhance the quality of th
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \section{Preparing 35~ton Data for Analysis}\label{sec:Preparing35tonData}
 
-To ensure analyses are as accurate as possible, careful pre-selection and preprocessing of the data is performed.  Methods for producing the analysable sample are discussed in the section.
+To ensure analyses are as accurate as possible, careful pre-selection and preprocessing of the data is performed.  Methods for producing the analysable sample are discussed in this section.
 
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \subsection{Selecting the Data}\label{sec:SelectingTheData}
@@ -37,18 +37,18 @@ The level of noise present in the TPC data varied hugely between runs -- this is
     \caption{Bad run.}
     \label{fig:DataRMSBadRun}
   \end{subfigure}
-  \caption[Comparison between noise levels for `good' and `bad' 35~ton runs.]{Comparison between noise levels for `good' and `bad' 35~ton runs.  The channels shown are on APA2 (online convention, APA0 offline) and are read out by RCEs 8 through 11 (labelled).  The increase in read out charge RMS in evident in the case of the noisy run.  These plots are from runs 15797 (Fig \ref{fig:DataRMSGoodRun}) and 15790 (Figure~\ref{fig:DataRMSBadRun}) and were taken only 50 minutes apart.}
+  \caption[Comparison between noise levels for `good' and `bad' 35~ton runs.]{Comparison between noise levels for `good' and `bad' 35~ton runs.  The channels shown are on APA2 (online convention, APA0 offline) and are read out by RCEs 8 through 11 (labelled).  The increase in read out charge RMS is evident in the case of the noisy run.  These plots are from runs 15797 (Fig \ref{fig:DataRMSGoodRun}) and 15790 (Figure~\ref{fig:DataRMSBadRun}) and were taken only 50 minutes apart.}
   \label{fig:DataRMS}
 \end{figure}
 
-Runs which exhibited the lowest noise were selected for analysis.  In all there were 1269 runs used representing some data taken before the FNAL site wide power outage (3rd March 2016) with most the week after stabilising the experiment again (9th March -- 17th March 2016).  A selection of bad channels, classified as either `dead' (electrically) or `bad' (exhibit sufficiently more than average noise), represent 8\% of the total number of channels.
+Runs which exhibited the lowest noise were selected for analysis.  In all there were 1269 runs used, representing some data taken before the FNAL site wide power outage (3rd March 2016) with most the week after stabilising the experiment again (9th March -- 17th March 2016).  A selection of bad channels, classified as either `dead' (electrically) or `bad' (exhibit sufficiently more than average noise), represent 8\% of the total number of channels.
 
 Due to the continuous nature of data taking, there is a non-trivial correlation between a `DAQ event', a collection of fragments read out by the DAQ, and a `physics event', an event in which particle interactions occurred.  The external triggers used in the 35~ton, namely the external muon scintillators and the photon detectors, are used to define the event time.  Given the trigger rate at which most data was taken ($\sim1$~Hz), a typical run comprising a few thousand events will only contain $\mathcal{O}(10)$ triggered events.  Furthermore, as described in Section~\ref{sec:35tonDataFormats}, these events often straddle multiple DAQ events (previously demonstrated in Figure~\ref{fig:35tonTriggeredEvent}), requiring the use of a splitter/stitcher module to search for triggers within runs and construct physics events containing the information useful for analysis.
 
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \subsection{Improving Data Quality}\label{sec:ImprovingDataQuality}
 
-Two issues present in the raw data, namely the presence of correlated noise and the stuck bits in the digitiser, are dealt with as an initial step of the reconstruction.  First, an algorithm attempting to correct for the stuck bits analyses waveforms on a wire and identifies problematic ADCs; interpolating between charges read out at neighbouring times is successful at reconstructing the initial waveform in most cases.  Figure~\ref{fig:StuckBitInterpolation} demonstrates this interpolation method on simulated data.  The effect of applying this algorithm on a full waveform, to correct for all the stuck bits, is apparent in Figure~\ref{fig:StuckBitWaveform}.
+Two issues present in the raw data, namely the presence of correlated noise and the stuck bits in the digitiser, are dealt with as an initial step of the reconstruction.  Initially, an algorithm attempting to correct for the stuck bits analyses waveforms on a wire and identifies problematic ADCs; interpolating between charges read out at neighbouring times is successful at reconstructing the initial waveform in most cases.  Figure~\ref{fig:StuckBitInterpolation} demonstrates this interpolation method on simulated data.  The effect of applying this algorithm on a full waveform, to correct for all the stuck bits, is apparent in Figure~\ref{fig:StuckBitWaveform}.
 
 \begin{figure}
   \centering
@@ -164,7 +164,7 @@ The standard LArSoft simulation tools were used as described in Section~\ref{sec
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \section{APA Gap-Crossing Muons}\label{sec:APAGapCrossing}
 
-One of the primary motivations for the design of the 35~ton TPC was to test its modular form, where a single drift region is read out by multiple anode assemblies.  Particles passing through the detector will leave deposits in multiple DVs and will pass uninstrumented regions of the detector, such as gaps in between neighbouring APAs; some example tracks are demonstrated in Figure~\ref{fig:35tonCounters}.  Many APA gap-crossing tracks are evident from the event display in Figure~\ref{fig:evd_crossing} and an example such track is depicted schematically in Figure~\ref{fig:APAGapCrosser}.  It is essential the implications of this design choice are understood before constructing the far detector modules, each of which will contain 150 APAs.
+One of the primary motivations for the design of the 35~ton TPC was to test its modular form, where a single drift region is read out by multiple anode assemblies.  Particles passing through the detector will leave deposits in multiple DVs and will pass uninstrumented regions of the detector, such as gaps in between neighbouring APAs; some example tracks are demonstrated in Figure~\ref{fig:35tonCounters}.  Many APA gap-crossing tracks are evident from the event display in Figure~\ref{fig:evd_crossing} and an example of such a track is depicted schematically in Figure~\ref{fig:APAGapCrosser}.  It is essential the implications of this design choice are understood before constructing the far detector modules, each of which will contain 150 APAs.
 
 \begin{figure}
   \centering
@@ -613,7 +613,7 @@ Naively, one would expect the T0 determined using these methods, $T_0^{\mathrm{T
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \subsubsection{Understanding the Misalignment of APA-Crossing Tracks}\label{sec:APACrossingMisalignment}
 
-The underlying issue described above is essentially a misalignment of the same particle track between the two drift regions, demonstrated plainly in Figure~\ref{fig:TrackMisalignment}.  This obviously is not physical and stems from an issue with the detector or data readout.  The most obvious cause is a miscalibration of the DAQ timing systems for the separate detector components, as previous assumed.  There are however other possible solutions to the problem and it is likely the effect arises from a combination of different factors.
+The underlying issue described above is essentially a misalignment of the same particle track between the two drift regions, demonstrated plainly in Figure~\ref{fig:TrackMisalignment}.  This obviously is not physical and stems from an issue with the detector or data readout.  The most obvious cause is a miscalibration of the DAQ timing systems for the separate detector components, as previously assumed.  There are however other possible solutions to the problem, and it is likely the effect arises from a combination of different factors.
 
 \begin{figure}
   \centering
@@ -624,7 +624,7 @@ The underlying issue described above is essentially a misalignment of the same p
 
 \paragraph{Geometry}
 
-Apart from timing, a misunderstanding a the geometry could explain this perceived misalignment.  The spacing between the collection planes is one such example, as demonstrated in Figure~\ref{fig:TrackMisalignmentCollectionSpacingGeo}; the spacing necessary to explain this affect, determined by aligning the tracks using the methods discussed above over a range of collection plane spacing hypotheses, is demonstrated in Figure~\ref{fig:TrackMisalignmentCollectionSpacingRes}.  As is evident from the figure, the collection planes must be repositioned in such a way that they would be reversed; the track alignment complications cannot be explained solely by this.
+Apart from timing, a misunderstanding of the geometry could explain this perceived misalignment.  The spacing between the collection planes is one such example, as demonstrated in Figure~\ref{fig:TrackMisalignmentCollectionSpacingGeo}; the spacing necessary to explain this effect, determined by aligning the tracks using the methods discussed above over a range of collection plane spacing hypotheses, is demonstrated in Figure~\ref{fig:TrackMisalignmentCollectionSpacingRes}.  As is evident from the figure, the collection planes must be repositioned in such a way that they would be reversed; the track alignment complications cannot be explained solely by this.
 
 \begin{figure}
   \centering
@@ -685,7 +685,7 @@ The drift velocity affects the angle of the tracks in wire/time space; a high ve
     \caption{Corrected drift velocity required to align the track across the APAs.  The red line shows the assumed value of 109~cm/ms.}
     \label{fig:TrackMisalignmentDriftVelocityRes}
   \end{subfigure}
-  \caption[Attempting to correct the track segment misalignment by assuming an incorrect drift velocity.]{Attempting to correct the track segment misalignment by assuming an incorrect drift velocity.  In order to account for the effect noted in the data the drift velocity would have to around five times larger than that initially calculated from models.}
+  \caption[Attempting to correct the track segment misalignment by assuming an incorrect drift velocity.]{Attempting to correct the track segment misalignment by assuming an incorrect drift velocity.  In order to account for the effect noted in the data the drift velocity would have to be around five times larger than that initially calculated from models.}
   \label{fig:TrackMisalignmentDriftVelocity}
 \end{figure}
 
@@ -801,7 +801,7 @@ This is the first time tracks crossing the readout planes have been used in a LA
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \subsection{Charge Deposited by APA Crossing Tracks}\label{sec:APACrossingCharge}
 
-The intriguing distribution of the T0-corrected hit times observed in the data, shown in Figure~\ref{fig:HitTimesRange}, hints at some aspect of the detector response that needs to be understood.  In the DUNE far detector, a large number of events will contain particles which pass through the APA frames so characterising resulting effects is critical.  The equivalent plot for simulated data is shown in Figure~\ref{fig:HitTimesMC}.  Comparing these distributions, there is a very obvious difference around the interaction time. It appears there is an effect present in the data, not currently being simulated, which manifests in around twice the amount of hits occurring at T0 on the collection planes for APA-crossing tracks.  This is described in Section~\ref{sec:InteractionTimeHits} and the phenomenon is visible on event displays presented in Section~\ref{sec:HookEVDs}.
+The intriguing distribution of the T0-corrected hit times observed in the data, shown in Figure~\ref{fig:HitTimesRange}, hints at some aspect of the detector response that needs to be understood.  In the DUNE far detector, a large number of events will contain particles which pass through the APA frames, so characterising resulting effects is critical.  The equivalent plot for simulated data is shown in Figure~\ref{fig:HitTimesMC}.  Comparing these distributions, there is a very obvious difference around the interaction time. It appears there is an effect present in the data, not currently being simulated, which manifests in around twice the amount of hits occurring at T0 on the collection planes for APA-crossing tracks.  This is described in Section~\ref{sec:InteractionTimeHits} and the phenomenon is visible on event displays presented in Section~\ref{sec:HookEVDs}.
 
 \begin{figure}
   \centering
@@ -822,7 +822,7 @@ The excess of hits at the interaction time is due to the use of a grounded `mesh
   \label{fig:MeshHits}
 \end{figure}
 
-A convenient way of confirming whether or not the mesh can explain this excess of hits at the interaction time is possible since one of the four APAs in the 35~ton was constructed without the mesh, precisely for this purpose.  Unfortunately, this was the APA which was most plagued by noise issues so very little good data is available from channels on this APAs.  It is however possible to make a crude comparison; this is shown in Figure~\ref{fig:HitTimesAPAs}.  This appears to confirm the shark peak of hits occurring at the interaction time comes from the APAs which use a mesh.
+A convenient way of confirming whether or not the mesh can explain this excess of hits at the interaction time is possible since one of the four APAs in the 35~ton was constructed without the mesh, precisely for this purpose.  Unfortunately, this was the APA which was most plagued by noise issues, so very little good data is available from channels on this APA.  It is however possible to make a crude comparison; this is shown in Figure~\ref{fig:HitTimesAPAs}.  This appears to confirm the shark peak of hits occurring at the interaction time comes from the APAs which use a mesh.
 
 \begin{figure}
   \centering
@@ -902,7 +902,7 @@ The effect investigated in Section~\ref{sec:InteractionTimeHits} is directly obs
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \subsection{Comparing Drift Regions with APA-Crossing Tracks}\label{sec:APACrossingDriftComparison}
 
-APA-crossing tracks may be utilised to make unique, specific measurements of the detector made possible since they originate from the same particle.  For example, any drift velocity differences between the drift regions may be observed and the noise levels on the collection readouts on either side of the APA can be studied and compared.
+APA-crossing tracks may be utilised to make unique, specific measurements of the detector, made possible since they originate from the same particle.  For example, any drift velocity differences between the drift regions may be observed and the noise levels on the collection readouts on either side of the APA can be studied and compared.
 
 The drift velocity is given by the angle of the track in wire/time space and any difference between this velocity in the two drift regions would be noticeable in a refraction-like effect.  This is demonstrated in Figure~\ref{fig:DriftVelocityDiffGeo}.  A measure of the angle between the track segments in the different regions would therefore be a measure of the change in drift velocity; this is shown in Figure~\ref{fig:DriftVelocityDiffRes}.
 
@@ -955,7 +955,7 @@ Since it is highly unlikely the electronics models and detector responses used i
 
 There are two relevant calorimetric conversions which are pertinent to shower reconstruction (both previously discussed in Section~\ref{sec:Calorimetry}): the calorimetry constant and the shower energy conversion.  The methods used to determine these for data will be discussed in this section.
 
-It should be stressed that due to the large noise levels, accurate calorimetry will not be possible in the 35~ton data.  This may be understood by considering the distribution of charge deposited by ionising particles; typically this is sampled from a Landau distribution with a most probable value dependent on the electron drift distance (due to lifetime effects).  Since hit reconstruction tends to put cut on the hit `threshold', the height of the peak above pedestal, this compromises lower energy hits populating the full charge distribution and biases the reconstruction toward higher energies.  This is demonstrated in Figure~\ref{fig:DataCalorimetryThreshold}.  As far as possible, steps to mitigate these effects have been applied in the proceeding discussion.  There will however be an inevitable bias so the following should not be treated as a full, rigorous assessment.
+It should be stressed that due to the large noise levels, accurate calorimetry will not be possible in the 35~ton data.  This may be understood by considering the distribution of charge deposited by ionising particles; typically this is sampled from a Landau distribution with a most probable value dependent on the electron drift distance (due to lifetime effects).  Since hit reconstruction tends to cut on the hit `threshold', the height of the peak above pedestal, this compromises lower energy hits populating the full charge distribution and biases the reconstruction toward higher energies.  This is demonstrated in Figure~\ref{fig:DataCalorimetryThreshold}.  As far as possible, steps to mitigate these effects have been applied in the proceeding discussion.  There will however be an inevitable bias so the following should not be treated as a full, rigorous assessment.
 
 Calorimetric reconstruction is only attempted for the collection planes where the effects of noise are mitigated somewhat compared to the induction views.  Since the data used were taken at a drift field of 250~V/cm (half the nominal voltage), the recombination factor used must take this into account.  At 500~V/cm the value is 0.63 whilst at 250~V/cm a factor of 0.52 is used.
 
@@ -1040,7 +1040,7 @@ Without fully considering uncertainties and biases present, it is not possible t
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \section{35~ton Data Analysis Summary}\label{sec:35tonDataSummary}
 
-Despite initial problems with the 35~ton good progress has been made in analyses, specifically focussing on understanding the detector.  Techniques developed will be directly applicable to the data collected with the eventual far detector and for the commissioning and operation of ProtoDUNE.
+Despite initial problems with the 35~ton, good progress has been made in analyses, specifically focussing on understanding the detector.  Techniques developed will be directly applicable to the data collected with the eventual far detector and for the commissioning and operation of ProtoDUNE.
 
 The studies using TPC-crossing muons are highly useful in developing a better understanding of the detector and will be vital for future stages in the DUNE programme.  Indeed, both measurements of APA-crossing and APA-gap crossing muons yielded unexpected offsets, demonstrating the utility of such methods and again highlighting the need for prototyping.  Despite being unable to perform a $\pi^0$ analysis with the 35~ton data, good progress was made applying the novel reconstruction methods described in Chapter~\ref{chap:LArTPCReconstruction} to real data.  This is hugely important for the future of the DUNE experiment, along with the demonstration of automated reconstruction in the 35~ton data.
 
