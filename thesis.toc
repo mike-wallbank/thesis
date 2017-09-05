@@ -1,6 +1,7 @@
 \thispagestyle {empty}
 \contentsline {chapter}{List of figures}{xv}{chapter*.5}
-\contentsline {chapter}{List of tables}{xxv}{chapter*.6}
+\contentsline {chapter}{List of tables}{xxiii}{chapter*.6}
+\contentsline {chapter}{List of acronyms}{xxv}{chapter*.7}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}Neutrino Physics}{3}{chapter.2}
 \contentsline {section}{\numberline {2.1}Historical Context}{3}{section.2.1}
@@ -11,15 +12,15 @@
 \contentsline {section}{\numberline {2.2}Neutrino Oscillations}{10}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}The Evidence for Neutrino Oscillations}{11}{subsection.2.2.1}
 \contentsline {subsubsection}{\numberline {2.2.1.1}Super-Kamiokande and the Atmospheric Sector}{11}{subsubsection.2.2.1.1}
-\contentsline {subsubsection}{\numberline {2.2.1.2}SNO and the Solar Sector}{11}{subsubsection.2.2.1.2}
+\contentsline {subsubsection}{\numberline {2.2.1.2}SNO and the Solar Sector}{13}{subsubsection.2.2.1.2}
 \contentsline {subsection}{\numberline {2.2.2}Vacuum Oscillations}{13}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}Matter Effects}{17}{subsection.2.2.3}
-\contentsline {subsubsection}{\numberline {2.2.3.1}KamLAND and Reactor Neutrinos}{17}{subsubsection.2.2.3.1}
+\contentsline {subsubsection}{\numberline {2.2.3.1}KamLAND and Reactor Neutrinos}{18}{subsubsection.2.2.3.1}
 \contentsline {subsection}{\numberline {2.2.4}CP Violation}{18}{subsection.2.2.4}
 \contentsline {section}{\numberline {2.3}Status of Neutrino Physics}{19}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Current and Future Experiments}{19}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Oscillation Parameters}{20}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Neutrino Mass}{20}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.3}Neutrino Mass}{22}{subsection.2.3.3}
 \contentsline {chapter}{\numberline {3}The Deep Underground Neutrino Experiment}{25}{chapter.3}
 \contentsline {section}{\numberline {3.1}The LAr TPC Concept}{25}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}A Brief History of Time (Projection Chambers)}{26}{subsection.3.1.1}
@@ -68,12 +69,12 @@
 \contentsline {subsubsection}{\numberline {4.3.3.1}The Camera System}{86}{subsubsection.4.3.3.1}
 \contentsline {subsubsection}{\numberline {4.3.3.2}Operation and Outcomes of 35\nobreakspace {}ton Camera System}{88}{subsubsection.4.3.3.2}
 \contentsline {subsection}{\numberline {4.3.4}Phase\nobreakspace {}II Run}{91}{subsection.4.3.4}
-\contentsline {subsection}{\numberline {4.3.5}Outcomes of Phase\nobreakspace {}II}{93}{subsection.4.3.5}
+\contentsline {subsection}{\numberline {4.3.5}Outcomes of Phase\nobreakspace {}II}{95}{subsection.4.3.5}
 \contentsline {subsubsection}{\numberline {4.3.5.1}Cryostat and TPC}{95}{subsubsection.4.3.5.1}
 \contentsline {subsubsection}{\numberline {4.3.5.2}Triggering Systems: Photon Detectors and Muon Counters}{96}{subsubsection.4.3.5.2}
-\contentsline {subsubsection}{\numberline {4.3.5.3}DAQ and Computing}{96}{subsubsection.4.3.5.3}
-\contentsline {subsubsection}{\numberline {4.3.5.4}Noise Issues}{97}{subsubsection.4.3.5.4}
-\contentsline {section}{\numberline {4.4}Summary}{101}{section.4.4}
+\contentsline {subsubsection}{\numberline {4.3.5.3}DAQ and Computing}{97}{subsubsection.4.3.5.3}
+\contentsline {subsubsection}{\numberline {4.3.5.4}Noise Issues}{98}{subsubsection.4.3.5.4}
+\contentsline {section}{\numberline {4.4}Summary}{102}{section.4.4}
 \contentsline {chapter}{\numberline {5}Reconstruction in a Liquid Argon TPC}{103}{chapter.5}
 \contentsline {section}{\numberline {5.1}The LArSoft Framework}{103}{section.5.1}
 \contentsline {section}{\numberline {5.2}The Reconstruction Chain}{105}{section.5.2}
@@ -129,9 +130,9 @@
 \contentsline {subsection}{\numberline {7.3.1}T0 Determination from APA Crossing Tracks}{167}{subsection.7.3.1}
 \contentsline {subsubsection}{\numberline {7.3.1.1}Aligning APA Crossing Tracks}{167}{subsubsection.7.3.1.1}
 \contentsline {subsubsection}{\numberline {7.3.1.2}Understanding the Misalignment of APA-Crossing Tracks}{168}{subsubsection.7.3.1.2}
-\contentsline {paragraph}{Geometry}{168}{section*.135}
-\contentsline {paragraph}{Drift velocity}{172}{section*.138}
-\contentsline {paragraph}{Timing}{172}{section*.141}
+\contentsline {paragraph}{Geometry}{168}{section*.136}
+\contentsline {paragraph}{Drift velocity}{172}{section*.139}
+\contentsline {paragraph}{Timing}{172}{section*.142}
 \contentsline {subsubsection}{\numberline {7.3.1.3}Combined Offset Analysis}{177}{subsubsection.7.3.1.3}
 \contentsline {subsection}{\numberline {7.3.2}Charge Deposited by APA Crossing Tracks}{179}{subsection.7.3.2}
 \contentsline {subsubsection}{\numberline {7.3.2.1}Interaction Time Hits}{180}{subsubsection.7.3.2.1}
@@ -146,6 +147,6 @@
 \contentsline {chapter}{\numberline {8}The $\nu _e$ Oscillation Signal at the DUNE Far Detector}{195}{chapter.8}
 \contentsline {section}{\numberline {8.1}Cut-Based Approach}{195}{section.8.1}
 \contentsline {chapter}{\numberline {9}Summary}{197}{chapter.9}
-\contentsline {chapter}{References}{199}{chapter*.160}
+\contentsline {chapter}{References}{199}{chapter*.161}
 \contentsline {chapter}{Appendix \numberline {A}How to install \LaTeX }{209}{Appendix.a.A}
 \contentsline {chapter}{Appendix \numberline {B}Installing the CUED class file}{213}{Appendix.a.B}
