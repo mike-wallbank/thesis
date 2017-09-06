@@ -74,12 +74,8 @@
 \newlabel{fig:APAGapCrosser}
 \newlabel{fig:APAGapCrossingGaps}
 \newlabel{fig:APAGapMCXOffsetZOffsetAngle}
-\newlabel{fig:APAGapMCXOffsetZOffsetAngle}
-\newlabel{fig:APAGapMCXOffsetZOffset}
 \newlabel{fig:APAGapMCXOffsetZOffset}
 \newlabel{fig:APAGapMCZOffset}
-\newlabel{fig:APAGapMCZOffset}
-\newlabel{fig:APAGapMC}
 \newlabel{fig:APAGapMC}
 \newlabel{fig:APAGapXOffsetNegFix}
 \newlabel{fig:APAGapXOffsetNeg}
@@ -363,6 +359,13 @@
 \newlabel{sec:EnergyDetermination}
 \newlabel{sec:EventDisplay}
 \newlabel{sec:EvidenceNeutrinoOscillations}
+\newlabel{sec:FDCutFV}
+\newlabel{sec:FDCutSelection}
+\newlabel{sec:FDCut}
+\newlabel{sec:FDMVAPerformance}
+\newlabel{sec:FDMVAVariables}
+\newlabel{sec:FDMVA}
+\newlabel{sec:FDOutlook}
 \newlabel{sec:FarDetector}
 \newlabel{sec:FillingLAPD}
 \newlabel{sec:FilterRegeneration}
@@ -436,10 +439,7 @@
 \newlabel{sub@fig:APACrossingAlignmentLeastSqMin}
 \newlabel{sub@fig:APACrossingAlignmentSeparationMin}
 \newlabel{sub@fig:APAGapMCXOffsetZOffsetAngle}
-\newlabel{sub@fig:APAGapMCXOffsetZOffsetAngle}
 \newlabel{sub@fig:APAGapMCXOffsetZOffset}
-\newlabel{sub@fig:APAGapMCXOffsetZOffset}
-\newlabel{sub@fig:APAGapMCZOffset}
 \newlabel{sub@fig:APAGapMCZOffset}
 \newlabel{sub@fig:APAGapXOffsetNegFix}
 \newlabel{sub@fig:APAGapXOffsetNeg}

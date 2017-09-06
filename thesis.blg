@@ -41,7 +41,7 @@ Reallocated name_sep_char (elt_size=1) to 80000 items from 60000.
 Reallocated str_pool (elt_size=1) to 195000 items from 130000.
 Reallocated str_pool (elt_size=1) to 260000 items from 195000.
 Reallocated str_pool (elt_size=1) to 325000 items from 260000.
-Repeated entry---line 2680 of file References/references.bib
+Repeated entry---line 2688 of file References/references.bib
  : @article{Baller2014
  :                    ,
 I'm skipping whatever remains of this entry
@@ -143,49 +143,50 @@ Warning--empty institution in WireCellWebsite
 Warning--empty year in WireCellWebsite
 Warning--empty institution in Grant2017
 Warning--there's a number but no volume in EMShower
+Warning--empty institution in Kirby2016
 Warning--empty institution in Insler2016
 You can't pop an empty literal stack for entry CRY2007
 while executing---line 953 of file andyisgreat.bst
 Warning--empty institution in Brailsford2016
-You've used 167 entries,
+You've used 169 entries,
             1813 wiz_defined-function locations,
-            1466 strings with 264188 characters,
-and the built_in function-call counts, 34253 in all, are:
-= -- 3200
-> -- 1243
+            1477 strings with 264445 characters,
+and the built_in function-call counts, 34573 in all, are:
+= -- 3228
+> -- 1256
 < -- 7
-+ -- 569
-- -- 282
-* -- 2255
-:= -- 5439
-add.period$ -- 480
-call.type$ -- 167
-change.case$ -- 170
++ -- 575
+- -- 285
+* -- 2273
+:= -- 5495
+add.period$ -- 486
+call.type$ -- 169
+change.case$ -- 173
 chr.to.int$ -- 0
-cite$ -- 191
-duplicate$ -- 1453
-empty$ -- 3527
-format.name$ -- 282
-if$ -- 7575
+cite$ -- 194
+duplicate$ -- 1468
+empty$ -- 3559
+format.name$ -- 285
+if$ -- 7644
 int.to.chr$ -- 0
-int.to.str$ -- 167
-missing$ -- 144
-newline$ -- 817
-num.names$ -- 162
-pop$ -- 402
+int.to.str$ -- 169
+missing$ -- 145
+newline$ -- 827
+num.names$ -- 164
+pop$ -- 407
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 716
+skip$ -- 722
 stack$ -- 0
-substring$ -- 2508
-swap$ -- 193
+substring$ -- 2517
+swap$ -- 194
 text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 24
-while$ -- 357
-width$ -- 170
-write$ -- 1745
+warning$ -- 25
+while$ -- 360
+width$ -- 172
+write$ -- 1766
 (There were 40 error messages)

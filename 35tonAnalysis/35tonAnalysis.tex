@@ -6,9 +6,7 @@
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \chapter{Analysis of 35~ton Data}\label{chap:35tonAnalysis}
 
-{\color{red} Could this chapter be a little more specifically titled?}
-
-The 35~ton run (see Section~\ref{sec:35tonPhaseII}) provided 22 days of good quality (high purity, stable field ($250$~V/cm), stable DAQ), analysable data.  Due to the issues encountered, high quality physics analyses proved very challenging and instead studies, particularly those presented here, focused on trying to understand the detector and characterise previously untested responses.  In this respect, the 35~ton proves to be a vital experiment in informing the next generation of prototypes and even the final DUNE far detector design.  It also boasts datasets which no planned experiment will before the full DUNE modules; it is therefore essential as much information as possible is extracted from the 35~ton analyses.
+The 35~ton run (see Section~\ref{sec:35tonPhaseII}) provided 22 days of good quality (high purity, stable field ($250$~V/cm), stable DAQ), analysable data.  Due to the issues encountered, high quality physics analyses proved very challenging and instead studies, particularly those presented here, focused on trying to understand the detector and characterise previously untested responses.  In this respect, the 35~ton proves to be a vital experiment in informing the next generation of prototypes and even the final DUNE far detector design.  It also boasts unique datasets which no other planned experiment will possess before the full DUNE modules; it is therefore essential as much information as possible is extracted from the 35~ton analyses.
 
 Before analyses are presented, techniques developed to enhance the quality of the data, and the data selection, will be discussed in Section~\ref{sec:Preparing35tonData}.  The main studies, concerning tracks passing across APA gaps and through the APA frames, are presented in Section~\ref{sec:APAGapCrossing} and Section~\ref{sec:APACrossing} respectively before a brief investigation into the performance of basic shower and calorimetric reconstruction on the 35~ton data is discussed in Section~\ref{sec:ShowerData}.  A summary is provided in Section~\ref{sec:35tonDataSummary}.
 
@@ -20,7 +18,7 @@ To ensure analyses are as accurate as possible, careful pre-selection and prepro
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \subsection{Selecting the Data}\label{sec:SelectingTheData}
 
-The level of noise present in the TPC data varied hugely between runs -- this is evident from analysing the RMS of the charge read out on a particular channel.  Figure~\ref{fig:DataRMS} shows a comparison of this metric for `good' and `bad' runs.
+The level of noise present in the TPC data varied hugely between runs and is immediately evident when analysing the RMS of the charge read out on a particular channel.  Figure~\ref{fig:DataRMS} shows a comparison of this metric for `good' and `bad' runs.
 
 \begin{figure}
   \centering
@@ -41,19 +39,19 @@ The level of noise present in the TPC data varied hugely between runs -- this is
   \label{fig:DataRMS}
 \end{figure}
 
-Runs which exhibited the lowest noise were selected for analysis.  In all there were 1269 runs used, representing some data taken before the FNAL site wide power outage (3rd March 2016) with most the week after stabilising the experiment again (9th March -- 17th March 2016).  A selection of bad channels, classified as either `dead' (electrically) or `bad' (exhibit sufficiently more than average noise), represent 8\% of the total number of channels.
+The collaboration assembled a `good run' list by removing all runs which exhibited obviously higher noise from data taken during the period of stable running.  In all there were 1269 runs used for analysis, containing some data taken before the FNAL site wide power outage (3rd March 2016) with most the week after stabilising the experiment again (9th March -- 17th March 2016), and representing around 80\% of all runs from the period.  A selection of bad channels, classified as either `dead' (electrically) or `bad' (exhibit sufficiently more than average noise), constitute 13--25\% of the total number of channels \cite{Kirby2016}.
 
 Due to the continuous nature of data taking, there is a non-trivial correlation between a `DAQ event', a collection of fragments read out by the DAQ, and a `physics event', an event in which particle interactions occurred.  The external triggers used in the 35~ton, namely the external muon scintillators and the photon detectors, are used to define the event time.  Given the trigger rate at which most data was taken ($\sim1$~Hz), a typical run comprising a few thousand events will only contain $\mathcal{O}(10)$ triggered events.  Furthermore, as described in Section~\ref{sec:35tonDataFormats}, these events often straddle multiple DAQ events (previously demonstrated in Figure~\ref{fig:35tonTriggeredEvent}), requiring the use of a splitter/stitcher module to search for triggers within runs and construct physics events containing the information useful for analysis.
 
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \subsection{Improving Data Quality}\label{sec:ImprovingDataQuality}
 
-Two issues present in the raw data, namely the presence of correlated noise and the stuck bits in the digitiser, are dealt with as an initial step of the reconstruction.  Initially, an algorithm attempting to correct for the stuck bits analyses waveforms on a wire and identifies problematic ADCs; interpolating between charges read out at neighbouring times is successful at reconstructing the initial waveform in most cases.  Figure~\ref{fig:StuckBitInterpolation} demonstrates this interpolation method on simulated data.  The effect of applying this algorithm on a full waveform, to correct for all the stuck bits, is apparent in Figure~\ref{fig:StuckBitWaveform}.
+Two issues present in the raw data, namely the presence of correlated noise and the stuck codes in the digitiser, are dealt with as an initial step of the reconstruction.  Initially, an algorithm attempts to correct for the stuck bits analyses waveforms on a wire and identifies problematic ADCs; interpolating between charges read out at neighbouring times is successful at reconstructing the initial waveform in most cases.  Figure~\ref{fig:StuckBitInterpolation} demonstrates this interpolation method on simulated data.  The effect of applying this algorithm on a full waveform, to correct for all the stuck bits, is apparent in Figure~\ref{fig:StuckBitWaveform}.
 
 \begin{figure}
   \centering
   \includegraphics[width=8cm]{stuckbitsremoval.pdf}
-  \caption[Simulated demonstration of the method used to correct for stuck codes in the 35~ton data.]{Simulated demonstration of the method used to correct for stuck codes in the 35~ton data \cite{Insler2016}.  On a given channel, ADCs exhibiting the consequences of this problem are corrected by interpolating charge at neighbouring time units.  This is tested by simulating a waveform and adding the observed stuck code effect; the efficacy of the method at correcting the afflicted bits can then be evaluated.}
+  \caption[Simulated demonstration of the method used to correct for stuck codes in the 35~ton data.]{Simulated demonstration of the method used to correct for stuck codes in the 35~ton data \cite{Insler2016}.  On a given channel, ADCs exhibiting the consequences of this problem are corrected by interpolating charge at neighbouring time units.  This is tested by simulating a waveform and applying the observed stuck code effect, demonstrated by the black and red waveforms respectively.  The efficiacy of the developed algorithm at correcting the afflicted bits may then be evaluated, shown by the blue trace.}
   \label{fig:StuckBitInterpolation}
 \end{figure}
 
@@ -237,7 +235,7 @@ A number of cuts were applied to ensure only high quality tracks were included f
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \subsubsection{Measuring the APA Gaps}\label{sec:MeasuringAPAGaps}
 
-The gap which may expect the largest number of crossers is DV5/DV7 and so the procedure will be demonstrated using data from this channel.  The $z$-offset determined using the method and cuts described above is shown in Figure~\ref{fig:DV5DV7XOffsetZOffset}.  An unexpected feature is evident from this distribution; there is not a single peak but two, seemingly related to the angle which the through-going particle makes with respect to the APAs.
+The gap which possesses the largest number of crossers is DV5/DV7 and so the procedure will be demonstrated using data from this channel.  The $z$-offset determined using the method and cuts described above is shown in Figure~\ref{fig:DV5DV7XOffsetZOffset}.  An unexpected feature is evident from this distribution; there is not a single peak but two, seemingly related to the angle which the through-going particle makes with respect to the APAs.
 
 \begin{figure}
   \centering
@@ -295,32 +293,6 @@ One explanation for this observed double-peak effect involves considering the po
 
 \begin{figure}
   \centering
-  \begin{subfigure}[t]{0.52\linewidth}
-    \centering
-    \includegraphics[width=\textwidth]{TPC5TPC7MCZOffset.eps}
-    \caption{$z$-offset = 2~cm, $x$-offset = 0~cm.}
-    \label{fig:APAGapMCZOffset}
-  \end{subfigure}
-  \hfill
-  \begin{subfigure}[t]{0.49\linewidth}
-    \centering
-    \includegraphics[width=\textwidth]{TPC5TPC7MCXOffsetZOffset.eps}
-    \caption{$z$-offset = 2~cm, $x$-offset = 0.5~cm.}
-    \label{fig:APAGapMCXOffsetZOffset}
-  \end{subfigure}
-  \hfill
-  \begin{subfigure}[t]{0.49\linewidth}
-    \centering
-    \includegraphics[width=\textwidth]{TPC5TPC7MCXOffsetZOffsetAngle.eps}
-    \caption{$z$-offset = 2~cm, $x$-offset = 0.5~cm.}
-    \label{fig:APAGapMCXOffsetZOffsetAngle}
-  \end{subfigure}
-  \caption[Studies of the effects of offsets in the positions of the APAs in simulation.]{Studies of the effects of offsets in the positions of the APAs in simulation.  Artificial $z$- and $x$- offsets are introduced and their impact observed in the measurements of $\Delta z$.  Figure~\ref{fig:APAGapMCZOffset} shows the effect of an offset in the $z$-direction; as expected, there is a single peak measuring the input value.  Figures~\ref{fig:APAGapMCXOffsetZOffset} and~\ref{fig:APAGapMCXOffsetZOffsetAngle} show the consequence of offsets in both the $x$- and $z$-directions.  This appears to show exactly what is seen in the 35~ton data (Figure~\ref{fig:DV5DV7XOffsetZOffset}).}
-  \label{fig:APAGapMC}
-\end{figure}
-
-\begin{figure}
-  \centering
   \begin{subfigure}[t]{\linewidth}
     \centering
     \includegraphics[width=8cm]{TPC5TPC7MCZOffset.eps}
@@ -341,7 +313,7 @@ One explanation for this observed double-peak effect involves considering the po
     \caption{$z$-offset = 2~cm, $x$-offset = 0.5~cm.}
     \label{fig:APAGapMCXOffsetZOffsetAngle}
   \end{subfigure}
-  \caption[Studies of the effects of offsets in the positions of the APAs in simulation.]{{\color{red} Same as previous page -- which is better?  I prefer the layout of the previous page but I like this one because you can see the 2cm offset in line with each other down the page!}  Studies of the effects of offsets in the positions of the APAs in simulation.  Artificial $z$- and $x$- offsets are introduced and their impact observed in the measurements of $\Delta z$.  Figure~\ref{fig:APAGapMCZOffset} shows the effect of an offset in the $z$-direction; as expected, there is a single peak measuring the input value.  Figures~\ref{fig:APAGapMCXOffsetZOffset} and~\ref{fig:APAGapMCXOffsetZOffsetAngle} show the consequence of offsets in both the $x$- and $z$-directions.  This appears to show exactly what is seen in the 35~ton data (Figure~\ref{fig:DV5DV7XOffsetZOffset}).}
+  \caption[Studies of the effects of offsets in the positions of the APAs in simulation.]{Studies of the effects of offsets in the positions of the APAs in simulation.  Artificial $z$- and $x$- offsets are introduced and their impact observed in the measurements of $\Delta z$.  Figure~\ref{fig:APAGapMCZOffset} shows the effect of an offset in the $z$-direction; as expected, there is a single peak measuring the input value.  Figures~\ref{fig:APAGapMCXOffsetZOffset} and~\ref{fig:APAGapMCXOffsetZOffsetAngle} show the consequence of offsets in both the $x$- and $z$-directions.  This appears to show exactly what is seen in the 35~ton data (Figure~\ref{fig:DV5DV7XOffsetZOffset}).}
   \label{fig:APAGapMC}
 \end{figure}
 
@@ -419,7 +391,7 @@ Using this measured value of $\Delta z$, the offsets can be analysed again, this
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \subsubsection{Measurements of the APA Offsets}\label{sec:APAOffsetMeasurements}
 
-The offsets apparent from the data for all of the gaps accessible using TPC tracks in the long drift volume were determined as described in Section~\ref{sec:MeasuringAPAGaps}.  Appendix \# contains all relevant figures {\color{red}(I'm not sure an appendix is necessary but I have all the plots for all gaps so can add this if we think it would be appropriate.)}.  Table \ref{tab:APAOffsets} contains all the measurements and the new gaps, taking these offsets into account, are presented in Table \ref{tab:APAGaps}.  The determined errors are statistical only; the effects of systematic uncertainties were not considered and assumed to be negligible in comparison.
+The offsets apparent from the data for all of the gaps accessible using TPC tracks in the long drift volume were determined as described in Section~\ref{sec:MeasuringAPAGaps}.  {\color{red}Figures~\#\# show the other offsets...}  Table \ref{tab:APAOffsets} contains all the measurements, and the new gaps are presented in Table \ref{tab:APAGaps} after taking all the offsets into account.  The determined errors are statistical only; the effects of systematic uncertainties were not considered and assumed to be negligible in comparison.
 
 \begin{table}
   \centering
@@ -505,7 +477,7 @@ Figure~\ref{fig:HitGapDistance} demonstrates the properties of hits as a functio
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \section{APA-Crossing Muons}\label{sec:APACrossing}
 
-The 35~ton is the only proposed experiment before the full DUNE far detector modules that have fully implemented anode planes within the cryostat reading out data from multiple drift regions simultaneously (ProtoDUNE will have wrapped wire APAs but will only read out one drift region each and SBND has the CPAs in the centre of the cryostat with the APAs at the edges).  Referring to Figure~\ref{fig:DUNEFarDetectorDesign}, this is a design consideration that features prominently in the eventual detector so any implications in the data must be well understood.  Analysis of tracks which pass through the APAs and deposit charge in both drift regions is the subject of this section.
+The 35~ton is the only proposed experiment before the full DUNE far detector modules that has fully implemented anode planes within the cryostat reading out data from multiple drift regions simultaneously (ProtoDUNE will have wrapped wire APAs but will only read out one drift region each and SBND has the CPAs in the centre of the cryostat with the APAs at the edges).  Referring to Figure~\ref{fig:DUNEFarDetectorDesign}, this is a design consideration that features prominently in the eventual detector so any implications in the data must be well understood.  Analysis of tracks which pass through the APAs and deposit charge in both drift regions is the subject of this section.
 
 In Section~\ref{sec:APACrossingT0}, a method to determine the absolute event time, T0, from APA-crossing tracks is presented and in Section~\ref{sec:APACrossingCharge} the charge deposited by these tracks, particularly when crossing through the planes, is studied.  Comparisons between the two drift regions, made possible by comparing tracks left by the same particle, are contained in Section~\ref{sec:APACrossingDriftComparison}.
 
@@ -613,12 +585,12 @@ Naively, one would expect the T0 determined using these methods, $T_0^{\mathrm{T
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \subsubsection{Understanding the Misalignment of APA-Crossing Tracks}\label{sec:APACrossingMisalignment}
 
-The underlying issue described above is essentially a misalignment of the same particle track between the two drift regions, demonstrated plainly in Figure~\ref{fig:TrackMisalignment}.  This obviously is not physical and stems from an issue with the detector or data readout.  The most obvious cause is a miscalibration of the DAQ timing systems for the separate detector components, as previously assumed.  There are however other possible solutions to the problem, and it is likely the effect arises from a combination of different factors.
+The underlying issue described above is essentially a misalignment of the same particle track between the two drift regions, demonstrated plainly in Figure~\ref{fig:TrackMisalignment}.  This obviously implies a misunderstanding somewhere in the data processing and stems from an issue with the detector or data readout.  The most obvious cause is a miscalibration of the DAQ timing systems for the separate detector components, as previously assumed.  There are however other possible solutions to the problem, and it is likely the effect arises from a combination of different factors.
 
 \begin{figure}
   \centering
   \includegraphics[width=8cm]{misalign_track_geo.eps}
-  \caption[Demonstration of the effect observed in the 35~ton data concerning tracks crossing the APAs.]{{\color{red} Possibly unnecessary, but helps to explain all the various factors which could explain the offset. Can remake if necessary.} Demonstration of the effect observed in the 35~ton data concerning tracks crossing the APAs.  Even after correcting for the T0 provided by the counters, there is still a misalignment of the track segments across the APA frames.}
+  \caption[Demonstration of the effect observed in the 35~ton data concerning tracks crossing the APAs.]{Demonstration of the effect observed in the 35~ton data concerning tracks crossing the APAs.  Even after correcting for the T0 provided by the counters, there is still a misalignment of the track segments across the APA frames.}
   \label{fig:TrackMisalignment}
 \end{figure}
 
@@ -712,7 +684,7 @@ This can be tested by measuring the drift velocity directly from the data.  Taki
 
 \paragraph{Timing}
 
-The timing offset calculated in Section. \ref{sec:APACrossingAlignment}, 32~$\mu$s, is so large it was assumed another explanation for the track segment misalignment was likely.  However, after reviewing all possibilities it appears there must be a significant timing offset present somewhere in the data.  Further evidence for this hypothesis is presented in Figure~\ref{fig:HitTimes} which displays the T0-corrected time distribution for all hits on the APA-crossing track.  The minimum drift time these hits may have, since they pass directly through the planes, is the interaction time, T0.  As is evident from the distribution in Figure~\ref{fig:HitTimesZoom}, this is around 58 ticks (29~$\mu$s) and is notably inconsistent with zero.  The curious spike at the interaction time motivates the work presented in Section~\ref{sec:APACrossingCharge} and will be discussed there.  Additionally, it is possible to compare the T0 provided by the counters with information from the photon detectors.  This is shown in Figure~\ref{fig:TPCPhotonT0Difference} and provides further confirmation for a timing miscalibration in the TPC readout.
+The timing offset of 32~$\mu$s, calculated in Section~\ref{sec:APACrossingAlignment}, is so large it was assumed another explanation for the track segment misalignment was likely.  However, after reviewing all possibilities it appears there must be a significant timing offset present somewhere in the data.  Further evidence for this hypothesis is presented in Figure~\ref{fig:HitTimes} which displays the T0-corrected time distribution for all hits on the APA-crossing track.  The minimum drift time these hits may have, since they pass directly through the planes, is the interaction time, T0.  As is evident from the distribution in Figure~\ref{fig:HitTimesZoom}, this is around 58~ticks (29~$\mu$s) and is notably inconsistent with zero.  The curious spike at the interaction time motivates the work presented in Section~\ref{sec:APACrossingCharge} and will be discussed there.  Additionally, it is possible to compare the T0 provided by the counters with information from the photon detectors.  This is shown in Figure~\ref{fig:TPCPhotonT0Difference} and provides further confirmation for a timing miscalibration in the TPC readout.
 
 \begin{figure}
   \centering
@@ -775,7 +747,7 @@ The timing offset will not influence the determination of the geometrical APA ga
   \label{fig:HitTimesFixed}
 \end{figure}
 
-Correcting for this timing offset, along with those in the $x$- and $z$-positions of the APAs, does not entirely account for the initial inconsistency observed in Figure~\ref{fig:TPCCounterT0Difference}.  A similar evaluation to that undertaken in Section~\ref{sec:APACrossingMisalignment}, namely considering the required disparities in various quantities to account for this, may be used to facilitate a complete understanding.  After correcting for the three aforementioned offsets, Figure~\ref{fig:ExtraCorrections} demonstrates the necessary misunderstandings in the collection plane spacing and the $z$-positions of the collection wires to account for the remaining discrepancy.  It seems highly likely that the offsets between the APA gaps left unresolved in the short drift region, incalculable in the 35~ton data, can account for the outstanding misalignment between the track segments.  Nothing conclusive can be extracted from Figure~\ref{fig:ExtraCorrectionWire} with regards to the values of these uncertainties since this considers differences between all short drift region TPCs and long drift region TPCs together but implies further offsets at a similar scale to those measured in the long drift region may still be present.  With corrected APA gaps in the short drift region, it is reasonable to argue the track segment misalignment between drift regions would be completely resolved.
+Correcting for the time offset of 53~ticks implied by the sub-component timestamp miscalibration, along with those in the $x$- and $z$-positions of the APAs, does not entirely account for the initial inconsistency observed in Figure~\ref{fig:TPCCounterT0Difference}.  A similar evaluation to that undertaken in Section~\ref{sec:APACrossingMisalignment}, namely considering the required disparities in various quantities to account for this, may be used to facilitate a complete understanding.  After correcting for the three aforementioned offsets, Figure~\ref{fig:ExtraCorrections} demonstrates the necessary misunderstandings in the collection plane spacing and the $z$-positions of the collection wires to account for the remaining discrepancy.  It seems highly likely that the offsets between the APA gaps left unresolved in the short drift region, incalculable in the 35~ton data, can account for the outstanding misalignment between the track segments.  Nothing conclusive can be extracted from Figure~\ref{fig:ExtraCorrectionWire} with regards to the values of these uncertainties since this considers differences between all short drift region TPCs and long drift region TPCs together, but implies further offsets at a similar scale to those measured in the long drift region may still be present.  With corrected APA gaps in the short drift region, it is reasonable to argue the track segment misalignment between drift regions would be completely resolved.
 
 \begin{figure}
   \centering
@@ -822,7 +794,7 @@ The excess of hits at the interaction time is due to the use of a grounded `mesh
   \label{fig:MeshHits}
 \end{figure}
 
-A convenient way of confirming whether or not the mesh can explain this excess of hits at the interaction time is possible since one of the four APAs in the 35~ton was constructed without the mesh, precisely for this purpose.  Unfortunately, this was the APA which was most plagued by noise issues, so very little good data is available from channels on this APA.  It is however possible to make a crude comparison; this is shown in Figure~\ref{fig:HitTimesAPAs}.  This appears to confirm the shark peak of hits occurring at the interaction time comes from the APAs which use a mesh.
+A convenient way of confirming whether or not the mesh can explain this excess of hits at the interaction time is possible since one of the four APAs in the 35~ton was constructed without the mesh, precisely for this purpose.  Unfortunately, this was the APA which was most plagued by noise issues, so very little good data is available from channels on this APA.  It is however possible to make a crude comparison; this is shown in Figure~\ref{fig:HitTimesAPAs}.  This appears to confirm the sharp peak of hits occurring at the interaction time comes from the APAs which use a mesh.
 
 \begin{figure}
   \centering

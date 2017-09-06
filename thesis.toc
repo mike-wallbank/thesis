@@ -82,9 +82,9 @@
 \contentsline {subsection}{\numberline {5.2.2}Pattern Recognition}{108}{subsection.5.2.2}
 \contentsline {subsection}{\numberline {5.2.3}Calorimetry}{110}{subsection.5.2.3}
 \contentsline {subsubsection}{\numberline {5.2.3.1}Energy Determination}{110}{subsubsection.5.2.3.1}
-\contentsline {subsubsection}{\numberline {5.2.3.2}Shower Energy Reconstruction}{111}{subsubsection.5.2.3.2}
+\contentsline {subsubsection}{\numberline {5.2.3.2}Shower Energy Reconstruction}{110}{subsubsection.5.2.3.2}
 \contentsline {subsubsection}{\numberline {5.2.3.3}Neutrino Energy Reconstruction}{111}{subsubsection.5.2.3.3}
-\contentsline {section}{\numberline {5.3}Shower Reconstruction in LArTPCs}{112}{section.5.3}
+\contentsline {section}{\numberline {5.3}Shower Reconstruction in LArTPCs}{111}{section.5.3}
 \contentsline {subsection}{\numberline {5.3.1}Showers Overview}{112}{subsection.5.3.1}
 \contentsline {subsection}{\numberline {5.3.2}BlurredCluster Algorithm}{113}{subsection.5.3.2}
 \contentsline {subsubsection}{\numberline {5.3.2.1}Algorithm Description}{114}{subsubsection.5.3.2.1}
@@ -95,26 +95,26 @@
 \contentsline {subsection}{\numberline {5.3.4}Track/Shower Separation}{121}{subsection.5.3.4}
 \contentsline {subsection}{\numberline {5.3.5}Performance of the Reconstruction}{126}{subsection.5.3.5}
 \contentsline {subsubsection}{\numberline {5.3.5.1}Shower Properties}{126}{subsubsection.5.3.5.1}
-\contentsline {subsubsection}{\numberline {5.3.5.2}$\pi ^0$ Reconstruction}{128}{subsubsection.5.3.5.2}
-\contentsline {subsubsection}{\numberline {5.3.5.3}Track/Shower Separation Performance}{129}{subsubsection.5.3.5.3}
+\contentsline {subsubsection}{\numberline {5.3.5.2}$\pi ^0$ Reconstruction}{127}{subsubsection.5.3.5.2}
+\contentsline {subsubsection}{\numberline {5.3.5.3}Track/Shower Separation Performance}{130}{subsubsection.5.3.5.3}
 \contentsline {chapter}{\numberline {6}Online Monitoring and Event Displays for the 35\nobreakspace {}ton Experiment}{133}{chapter.6}
 \contentsline {section}{\numberline {6.1}The Online Monitoring Framework}{133}{section.6.1}
 \contentsline {subsection}{\numberline {6.1.1}Design of the Monitoring Framework}{134}{subsection.6.1.1}
 \contentsline {subsection}{\numberline {6.1.2}Interface with the DAQ Framework}{135}{subsection.6.1.2}
 \contentsline {subsection}{\numberline {6.1.3}Writing the Monitoring Data}{136}{subsection.6.1.3}
-\contentsline {section}{\numberline {6.2}Data Quality Monitoring}{136}{section.6.2}
+\contentsline {section}{\numberline {6.2}Data Quality Monitoring}{137}{section.6.2}
 \contentsline {subsection}{\numberline {6.2.1}TPC Monitoring}{137}{subsection.6.2.1}
 \contentsline {subsection}{\numberline {6.2.2}Photon Detector Monitoring}{137}{subsection.6.2.2}
 \contentsline {subsection}{\numberline {6.2.3}External Counter Monitoring}{138}{subsection.6.2.3}
 \contentsline {subsection}{\numberline {6.2.4}General Monitoring}{138}{subsection.6.2.4}
 \contentsline {subsection}{\numberline {6.2.5}DQM Plots}{138}{subsection.6.2.5}
-\contentsline {section}{\numberline {6.3}Online Event Display}{138}{section.6.3}
+\contentsline {section}{\numberline {6.3}Online Event Display}{140}{section.6.3}
 \contentsline {subsection}{\numberline {6.3.1}Selecting the Data}{140}{subsection.6.3.1}
 \contentsline {subsection}{\numberline {6.3.2}Representing the Data}{140}{subsection.6.3.2}
 \contentsline {section}{\numberline {6.4}Monitoring Web Interface}{141}{section.6.4}
 \contentsline {subsection}{\numberline {6.4.1}Automated Data Transfer}{141}{subsection.6.4.1}
 \contentsline {subsection}{\numberline {6.4.2}Web Page}{143}{subsection.6.4.2}
-\contentsline {section}{\numberline {6.5}Online Monitoring Summary}{143}{section.6.5}
+\contentsline {section}{\numberline {6.5}Online Monitoring Summary}{144}{section.6.5}
 \contentsline {chapter}{\numberline {7}Analysis of 35\nobreakspace {}ton Data}{145}{chapter.7}
 \contentsline {section}{\numberline {7.1}Preparing 35\nobreakspace {}ton Data for Analysis}{145}{section.7.1}
 \contentsline {subsection}{\numberline {7.1.1}Selecting the Data}{146}{subsection.7.1.1}
@@ -124,29 +124,35 @@
 \contentsline {section}{\numberline {7.2}APA Gap-Crossing Muons}{151}{section.7.2}
 \contentsline {subsection}{\numberline {7.2.1}APA-Gap Offset Determination}{153}{subsection.7.2.1}
 \contentsline {subsubsection}{\numberline {7.2.1.1}Measuring the APA Gaps}{155}{subsubsection.7.2.1.1}
-\contentsline {subsubsection}{\numberline {7.2.1.2}Measurements of the APA Offsets}{160}{subsubsection.7.2.1.2}
-\contentsline {subsection}{\numberline {7.2.2}Charge Deposited by APA Gap-Crossing Muons}{165}{subsection.7.2.2}
-\contentsline {section}{\numberline {7.3}APA-Crossing Muons}{165}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}T0 Determination from APA Crossing Tracks}{167}{subsection.7.3.1}
-\contentsline {subsubsection}{\numberline {7.3.1.1}Aligning APA Crossing Tracks}{167}{subsubsection.7.3.1.1}
+\contentsline {subsubsection}{\numberline {7.2.1.2}Measurements of the APA Offsets}{159}{subsubsection.7.2.1.2}
+\contentsline {subsection}{\numberline {7.2.2}Charge Deposited by APA Gap-Crossing Muons}{164}{subsection.7.2.2}
+\contentsline {section}{\numberline {7.3}APA-Crossing Muons}{164}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}T0 Determination from APA Crossing Tracks}{166}{subsection.7.3.1}
+\contentsline {subsubsection}{\numberline {7.3.1.1}Aligning APA Crossing Tracks}{166}{subsubsection.7.3.1.1}
 \contentsline {subsubsection}{\numberline {7.3.1.2}Understanding the Misalignment of APA-Crossing Tracks}{168}{subsubsection.7.3.1.2}
-\contentsline {paragraph}{Geometry}{168}{section*.136}
-\contentsline {paragraph}{Drift velocity}{172}{section*.139}
-\contentsline {paragraph}{Timing}{172}{section*.142}
-\contentsline {subsubsection}{\numberline {7.3.1.3}Combined Offset Analysis}{177}{subsubsection.7.3.1.3}
-\contentsline {subsection}{\numberline {7.3.2}Charge Deposited by APA Crossing Tracks}{179}{subsection.7.3.2}
-\contentsline {subsubsection}{\numberline {7.3.2.1}Interaction Time Hits}{180}{subsubsection.7.3.2.1}
-\contentsline {subsubsection}{\numberline {7.3.2.2}Event Displays of APA-Crossing Tracks}{182}{subsubsection.7.3.2.2}
-\contentsline {subsection}{\numberline {7.3.3}Comparing Drift Regions with APA-Crossing Tracks}{184}{subsection.7.3.3}
-\contentsline {section}{\numberline {7.4}Shower Reconstruction in 35\nobreakspace {}ton Data}{184}{section.7.4}
-\contentsline {subsection}{\numberline {7.4.1}Data Specific Reconstruction}{184}{subsection.7.4.1}
-\contentsline {subsection}{\numberline {7.4.2}Calorimetry Reconstruction}{187}{subsection.7.4.2}
+\contentsline {paragraph}{Geometry}{168}{section*.135}
+\contentsline {paragraph}{Drift velocity}{172}{section*.138}
+\contentsline {paragraph}{Timing}{172}{section*.141}
+\contentsline {subsubsection}{\numberline {7.3.1.3}Combined Offset Analysis}{173}{subsubsection.7.3.1.3}
+\contentsline {subsection}{\numberline {7.3.2}Charge Deposited by APA Crossing Tracks}{178}{subsection.7.3.2}
+\contentsline {subsubsection}{\numberline {7.3.2.1}Interaction Time Hits}{178}{subsubsection.7.3.2.1}
+\contentsline {subsubsection}{\numberline {7.3.2.2}Event Displays of APA-Crossing Tracks}{179}{subsubsection.7.3.2.2}
+\contentsline {subsection}{\numberline {7.3.3}Comparing Drift Regions with APA-Crossing Tracks}{182}{subsection.7.3.3}
+\contentsline {section}{\numberline {7.4}Shower Reconstruction in 35\nobreakspace {}ton Data}{185}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}Data Specific Reconstruction}{185}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.2}Calorimetry Reconstruction}{185}{subsection.7.4.2}
 \contentsline {subsection}{\numberline {7.4.3}Shower Reconstruction}{189}{subsection.7.4.3}
-\contentsline {subsection}{\numberline {7.4.4}$\pi ^0$ Reconstruction}{192}{subsection.7.4.4}
-\contentsline {section}{\numberline {7.5}35\nobreakspace {}ton Data Analysis Summary}{193}{section.7.5}
-\contentsline {chapter}{\numberline {8}The $\nu _e$ Oscillation Signal at the DUNE Far Detector}{195}{chapter.8}
-\contentsline {section}{\numberline {8.1}Cut-Based Approach}{195}{section.8.1}
-\contentsline {chapter}{\numberline {9}Summary}{197}{chapter.9}
-\contentsline {chapter}{References}{199}{chapter*.161}
-\contentsline {chapter}{Appendix \numberline {A}How to install \LaTeX }{209}{Appendix.a.A}
-\contentsline {chapter}{Appendix \numberline {B}Installing the CUED class file}{213}{Appendix.a.B}
+\contentsline {subsection}{\numberline {7.4.4}$\pi ^0$ Reconstruction}{190}{subsection.7.4.4}
+\contentsline {section}{\numberline {7.5}35\nobreakspace {}ton Data Analysis Summary}{191}{section.7.5}
+\contentsline {chapter}{\numberline {8}The $\nu _e$ Oscillation Signal at the DUNE Far Detector}{193}{chapter.8}
+\contentsline {section}{\numberline {8.1}Cut-Based Tuning}{194}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Selection}{194}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}Fiducial Volume Tuning}{194}{subsection.8.1.2}
+\contentsline {section}{\numberline {8.2}MVA-Based Selection}{194}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}MVA Input Variables}{194}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}Analysis Performance}{194}{subsection.8.2.2}
+\contentsline {section}{\numberline {8.3}Outlook for Future Selections}{194}{section.8.3}
+\contentsline {chapter}{\numberline {9}Summary}{195}{chapter.9}
+\contentsline {chapter}{References}{197}{chapter*.160}
+\contentsline {chapter}{Appendix \numberline {A}How to install \LaTeX }{207}{Appendix.a.A}
+\contentsline {chapter}{Appendix \numberline {B}Installing the CUED class file}{211}{Appendix.a.B}

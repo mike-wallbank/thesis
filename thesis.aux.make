@@ -1,5 +1,5 @@
     {1}{324.9803pt}}
-    {2}{98.41167pt}\LT@entry 
+    {3}{98.41167pt}\LT@entry 
 \@setckpt{35ton/35ton}{
 \@setckpt{35tonAnalysis/35tonAnalysis}{
 \@setckpt{Abstract/abstract}{
@@ -107,14 +107,14 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {5.19}{\ignorespaces The result of applying the track/shower separation, BlurredCluster and EMShower algorithms to the example DUNE far detector $\nu _e$CC event demonstrated in Figure\nobreakspace  {}\ref  {fig:nueCC}.}}{125}{figure.caption.97}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces The LArSoft architecture, highlighting support for both common and experiment-specific algorithms and methods and the interfacing with other packages.}}{104}{figure.caption.79}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5.20}{\ignorespaces The fraction of total shower particles for which a shower object is created when using BlurredCluster/EMShower reconstruction.}}{127}{figure.caption.98}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.21}{\ignorespaces The difference between the true and reconstructed shower conversion points.}}{127}{figure.caption.99}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.22}{\ignorespaces The vector dot product between the true and reconstructed initial shower direction.}}{127}{figure.caption.99}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.21}{\ignorespaces The difference between the true and reconstructed shower conversion points.}}{128}{figure.caption.99}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.22}{\ignorespaces The vector dot product between the true and reconstructed initial shower direction.}}{128}{figure.caption.99}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5.23}{\ignorespaces The completeness of the reconstruction shower energy when compared with the true deposited energy from simulation.}}{128}{figure.caption.100}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5.24}{\ignorespaces The dE/dx information from the start of the reconstructed shower object.}}{128}{figure.caption.100}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5.25}{\ignorespaces The 35\nobreakspace  {}ton fully reconstructed $\pi ^0$ invariant mass peak.}}{129}{figure.caption.101}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5.26}{\ignorespaces The 35\nobreakspace  {}ton $\pi ^0$ mass peak considered using a combination of reconstructed and truth information.}}{130}{figure.caption.102}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5.27}{\ignorespaces Performance of the track/shower separation reconstruction by considering how well separated tracks and showers from the neutrino interaction vertex are, and the quality of the reconstructed electron shower.}}{131}{figure.caption.103}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.28}{\ignorespaces The performance of the track/shower separation and shower reconstruction when applied to DUNE $\nu _e$CC far detector interactions.}}{131}{figure.caption.104}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.28}{\ignorespaces The performance of the track/shower separation and shower reconstruction when applied to DUNE $\nu _e$CC far detector interactions.}}{132}{figure.caption.104}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces The LArSoft reconstruction workflow to produce 3D reconstructed objects from the raw charge read out by the anode wires.}}{106}{figure.caption.80}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces Detector response for charge readout in a LArTPC.}}{107}{figure.caption.81}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces The process of deconvolution and hit finding to determine the correct charge from the measured pulses on the readout wires.}}{107}{figure.caption.82}}
@@ -122,7 +122,7 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces Demonstration of 3D reconstruction in LArSoft on a simulated $\nu _{\mu }$CC event.}}{109}{figure.caption.84}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5.7}{\ignorespaces Correlation between the true deposited energy in an electromagnetic shower and the total charge in the detector for electron showers in the DUNE far detector.}}{111}{figure.caption.85}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5.8}{\ignorespaces An example particle gun $\pi ^0$ event in the 35\nobreakspace  {}ton geometry.}}{113}{figure.caption.86}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.9}{\ignorespaces A example 2D Gaussian kernel alongside the contributions from each dimension.}}{114}{figure.caption.87}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.9}{\ignorespaces An example 2D Gaussian kernel alongside the contributions from each dimension.}}{114}{figure.caption.87}}
 \@writefile{lof}{\contentsline {figure}{\numberline {6.1}{\ignorespaces The software framework designed and built for online monitoring during the 35\nobreakspace  {}ton Phase\nobreakspace  {}II run.}}{134}{figure.caption.105}}
 \@writefile{lof}{\contentsline {figure}{\numberline {6.2}{\ignorespaces Selection of figures made by the Data Quality Monitoring framework during 35\nobreakspace  {}ton Phase\nobreakspace  {}II running.}}{139}{figure.caption.106}}
 \@writefile{lof}{\contentsline {figure}{\numberline {6.3}{\ignorespaces Example online event display made by the Online Monitoring framework.}}{142}{figure.caption.107}}
@@ -132,44 +132,43 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {7.11}{\ignorespaces The $z$-offset for the DV5/DV7 gap measured in the 35\nobreakspace  {}ton data.}}{156}{figure.caption.120}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7.12}{\ignorespaces Demonstration of how an $x$-offset in the positions of the APAs can explain the degeneracy evident in the $z$-offset measured using the 35\nobreakspace  {}ton data.}}{157}{figure.caption.121}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7.13}{\ignorespaces Studies of the effects of offsets in the positions of the APAs in simulation.}}{158}{figure.caption.122}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.14}{\ignorespaces Studies of the effects of offsets in the positions of the APAs in simulation.}}{159}{figure.caption.123}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.15}{\ignorespaces The $\chi ^2$ distribution for all APA-gap traversing tracks in $\Delta z$-$\Delta x$ space.}}{160}{figure.caption.124}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.16}{\ignorespaces Demonstration of the effects of offsets in both the $x$- and $z$-directions in the determination of $\Delta z$ between DV5 and DV7.}}{161}{figure.caption.125}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.17}{\ignorespaces Extraction of the true value of $\Delta z$ from the full distribution of measured $z$-offsets.}}{162}{figure.caption.126}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.18}{\ignorespaces Measurement of the $x$-offset between DV5 and DV7 after applying the $z$-gap correction.}}{162}{figure.caption.127}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.19}{\ignorespaces of the $z$-offset between DV5 and DV7 after applying the $x$-offset previously determined.}}{163}{figure.caption.128}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.14}{\ignorespaces The $\chi ^2$ distribution for all APA-gap traversing tracks in $\Delta z$-$\Delta x$ space.}}{159}{figure.caption.123}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.15}{\ignorespaces Demonstration of the effects of offsets in both the $x$- and $z$-directions in the determination of $\Delta z$ between DV5 and DV7.}}{160}{figure.caption.124}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.16}{\ignorespaces Extraction of the true value of $\Delta z$ from the full distribution of measured $z$-offsets.}}{161}{figure.caption.125}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.17}{\ignorespaces Measurement of the $x$-offset between DV5 and DV7 after applying the $z$-gap correction.}}{161}{figure.caption.126}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.18}{\ignorespaces of the $z$-offset between DV5 and DV7 after applying the $x$-offset previously determined.}}{162}{figure.caption.127}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.19}{\ignorespaces The number of hits, and the average reconstructed hit charge, as a function of distance of the collection point from the nearest APA gap.}}{165}{figure.caption.129}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7.1}{\ignorespaces Comparison between noise levels for `good' and `bad' 35\nobreakspace  {}ton runs.}}{146}{figure.caption.110}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.20}{\ignorespaces The number of hits, and the average reconstructed hit charge, as a function of distance of the collection point from the nearest APA gap.}}{166}{figure.caption.130}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.21}{\ignorespaces Event display of an APA gap-crossing track, focussed on the gap region.}}{166}{figure.caption.131}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.22}{\ignorespaces Method to align track segments on either side of the APAs involving minimising residuals from linear least square fit.}}{169}{figure.caption.132}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.23}{\ignorespaces Method to align track segments on either side of the APAs involving minimising the distance between the projected intersection of each with the centre of the APAs.}}{169}{figure.caption.132}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.24}{\ignorespaces Difference between the T0 calculated from TPC data and the T0 provided by the counters representing the trigger time of the through-going muon, for simulation and data.}}{170}{figure.caption.133}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.25}{\ignorespaces Correcting for T0 using $T_0^{\mathrm  {counter}}$ and $T_0^{\mathrm  {TPC}}$.}}{171}{figure.caption.134}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.26}{\ignorespaces Demonstration of the effect observed in the 35\nobreakspace  {}ton data concerning tracks crossing the APAs.}}{171}{figure.caption.135}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.27}{\ignorespaces Attempting to correct the track segment misalignment by assuming a misunderstanding of the spacing between the collection planes.}}{172}{figure.caption.137}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.28}{\ignorespaces Attempting to correct the track segment misalignment by assuming a misunderstanding of the positioning of the collection wires inside the detector.}}{173}{figure.caption.138}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.29}{\ignorespaces Attempting to correct the track segment misalignment by assuming an incorrect drift velocity.}}{173}{figure.caption.140}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.20}{\ignorespaces Event display of an APA gap-crossing track, focussed on the gap region.}}{165}{figure.caption.130}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.21}{\ignorespaces Method to align track segments on either side of the APAs involving minimising residuals from linear least square fit.}}{167}{figure.caption.131}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.22}{\ignorespaces Method to align track segments on either side of the APAs involving minimising the distance between the projected intersection of each with the centre of the APAs.}}{167}{figure.caption.131}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.23}{\ignorespaces Difference between the T0 calculated from TPC data and the T0 provided by the counters representing the trigger time of the through-going muon, for simulation and data.}}{169}{figure.caption.132}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.24}{\ignorespaces Correcting for T0 using $T_0^{\mathrm  {counter}}$ and $T_0^{\mathrm  {TPC}}$.}}{170}{figure.caption.133}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.25}{\ignorespaces Demonstration of the effect observed in the 35\nobreakspace  {}ton data concerning tracks crossing the APAs.}}{170}{figure.caption.134}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.26}{\ignorespaces Attempting to correct the track segment misalignment by assuming a misunderstanding of the spacing between the collection planes.}}{171}{figure.caption.136}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.27}{\ignorespaces Attempting to correct the track segment misalignment by assuming a misunderstanding of the positioning of the collection wires inside the detector.}}{171}{figure.caption.137}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.28}{\ignorespaces Attempting to correct the track segment misalignment by assuming an incorrect drift velocity.}}{172}{figure.caption.139}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.29}{\ignorespaces Measuring the drift velocity of the ionisation electrons by taking tracks passing through opposite counter pairs and comparing the corresponding drift distance to the drift time.}}{173}{figure.caption.140}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7.2}{\ignorespaces Simulated demonstration of the method used to correct for stuck codes in the 35\nobreakspace  {}ton data.}}{147}{figure.caption.111}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.30}{\ignorespaces Measuring the drift velocity of the ionisation electrons by taking tracks passing through opposite counter pairs and comparing the corresponding drift distance to the drift time.}}{174}{figure.caption.141}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.31}{\ignorespaces The T0-corrected drift time for hits on APA-crossing tracks.}}{175}{figure.caption.143}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.32}{\ignorespaces Difference between the interaction time measured by the TPC data and that provided by photon detector information.}}{175}{figure.caption.144}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.33}{\ignorespaces The difference between the timestamps recorded by the PTB and the RCEs upon receiving a trigger.}}{176}{figure.caption.145}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.34}{\ignorespaces The distribution of the drift times of all hits on APA-crossing tracks after correcting for the APA offsets along the direction parallel to the drift direction.}}{178}{figure.caption.146}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.35}{\ignorespaces Accounting for the extra discrepancy in track alignment after fixing for all the measured offsets by assuming a misunderstanding in the collection plane spacing and the $z$-positions of the collection wires.}}{179}{figure.caption.147}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.36}{\ignorespaces The T0-corrected drift time for all hits on an APA-crossing track in simulation.}}{180}{figure.caption.148}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.37}{\ignorespaces Demonstration of the electron ionisation and hit collection for APA-crossing tracks.}}{181}{figure.caption.149}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.38}{\ignorespaces Comparison between the T0-corrected hit time distributions on APAs with and without the grounded mesh.}}{182}{figure.caption.150}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.39}{\ignorespaces Comparison between the distribution of T0-corrected hit times for hits on wires in front of the APA frame and away from the APA frame to validate the functionality of the mesh.}}{183}{figure.caption.151}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.30}{\ignorespaces The T0-corrected drift time for hits on APA-crossing tracks.}}{174}{figure.caption.142}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.31}{\ignorespaces Difference between the interaction time measured by the TPC data and that provided by photon detector information.}}{174}{figure.caption.143}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.32}{\ignorespaces The difference between the timestamps recorded by the PTB and the RCEs upon receiving a trigger.}}{175}{figure.caption.144}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.33}{\ignorespaces The distribution of the drift times of all hits on APA-crossing tracks after correcting for the APA offsets along the direction parallel to the drift direction.}}{176}{figure.caption.145}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.34}{\ignorespaces Accounting for the extra discrepancy in track alignment after fixing for all the measured offsets by assuming a misunderstanding in the collection plane spacing and the $z$-positions of the collection wires.}}{177}{figure.caption.146}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.35}{\ignorespaces The T0-corrected drift time for all hits on an APA-crossing track in simulation.}}{178}{figure.caption.147}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.36}{\ignorespaces Demonstration of the electron ionisation and hit collection for APA-crossing tracks.}}{180}{figure.caption.148}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.37}{\ignorespaces Comparison between the T0-corrected hit time distributions on APAs with and without the grounded mesh.}}{181}{figure.caption.149}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.38}{\ignorespaces Comparison between the distribution of T0-corrected hit times for hits on wires in front of the APA frame and away from the APA frame to validate the functionality of the mesh.}}{181}{figure.caption.150}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.39}{\ignorespaces Average lifetime-corrected charge per hit for hits on an APA-crossing track separated according to whether or not the hit was collected around the interaction time.}}{182}{figure.caption.151}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7.3}{\ignorespaces The effect of applying stuck bit mitigation to a waveform as seen in raw 35\nobreakspace  {}ton data.}}{148}{figure.caption.112}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.40}{\ignorespaces Average lifetime-corrected charge per hit for hits on an APA-crossing track separated according to whether or not the hit was collected around the interaction time.}}{183}{figure.caption.152}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.41}{\ignorespaces Event display of an APA-crossing track with the charge deposited as it passes through the APAs evident.}}{185}{figure.caption.153}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.42}{\ignorespaces Using APA-crossing tracks to confirm the drift velocity is consistent between the two drift regions.}}{186}{figure.caption.154}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.43}{\ignorespaces Comparison of noise levels between the two drift regions using APA-crossing tracks.}}{186}{figure.caption.155}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.44}{\ignorespaces The bias in the hit selection due to a high noise level in the 35\nobreakspace  {}ton data.}}{188}{figure.caption.156}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.45}{\ignorespaces The dE/dx distribution for mips passing through the 35\nobreakspace  {}ton TPC.}}{189}{figure.caption.157}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.46}{\ignorespaces Relationship between deposited charge and energy for 35\nobreakspace  {}ton data, calculated using through-going mips.}}{190}{figure.caption.158}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.47}{\ignorespaces Result of applying the shower reconstruction on a shower observed in the 35\nobreakspace  {}ton data.}}{191}{figure.caption.159}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.48}{\ignorespaces A candidate $\pi ^0$ event observed in the online event display during the run.}}{192}{figure.caption.160}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.40}{\ignorespaces Event display of an APA-crossing track with the charge deposited as it passes through the APAs evident.}}{183}{figure.caption.152}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.41}{\ignorespaces Using APA-crossing tracks to confirm the drift velocity is consistent between the two drift regions.}}{184}{figure.caption.153}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.42}{\ignorespaces Comparison of noise levels between the two drift regions using APA-crossing tracks.}}{184}{figure.caption.154}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.43}{\ignorespaces The bias in the hit selection due to a high noise level in the 35\nobreakspace  {}ton data.}}{186}{figure.caption.155}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.44}{\ignorespaces The dE/dx distribution for mips passing through the 35\nobreakspace  {}ton TPC.}}{187}{figure.caption.156}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.45}{\ignorespaces Relationship between deposited charge and energy for 35\nobreakspace  {}ton data, calculated using through-going mips.}}{188}{figure.caption.157}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.46}{\ignorespaces Result of applying the shower reconstruction on a shower observed in the 35\nobreakspace  {}ton data.}}{189}{figure.caption.158}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.47}{\ignorespaces A candidate $\pi ^0$ event observed in the online event display during the run.}}{190}{figure.caption.159}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7.4}{\ignorespaces The effect of removing coherent noise from all channels on a voltage regulator in the 35\nobreakspace  {}ton data.}}{148}{figure.caption.113}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7.5}{\ignorespaces Demonstration of the successive stages applied to hits on collection wires in the 35\nobreakspace  {}ton data in order to select hits from the through-going track associated with the particle which caused the trigger.}}{150}{figure.caption.114}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7.6}{\ignorespaces Demonstration of crossing muons tracks in the 35\nobreakspace  {}ton TPC.}}{151}{figure.caption.115}}
@@ -191,14 +190,14 @@
 \@writefile{lot}{\contentsline {table}{\numberline {3.1}{\ignorespaces Properties of noble liquids relevant when considering a TPC medium for a neutrino experiment.}}{27}{table.caption.21}}
 \@writefile{lot}{\contentsline {table}{\numberline {3.2}{\ignorespaces Exposures anticipated for the DUNE experiment for the first few years of operation.}}{46}{table.caption.35}}
 \@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Details and dimensions of the 35\nobreakspace  {}ton cryostat.}}{70}{table.caption.54}}
-\@writefile{lot}{\contentsline {table}{\numberline {7.1}{\ignorespaces Measurements of all the APA offsets determined from the 35\nobreakspace  {}ton TPC data.}}{164}{table.caption.129}}
-\@writefile{lot}{\contentsline {table}{\numberline {7.2}{\ignorespaces The corrected gaps between the APAs, in $x$ and $z$, based on the offsets measured (Table \ref  {tab:APAGapOffsets}).}}{164}{table.caption.129}}
-\@writefile{toc}{\contentsline {chapter}{Appendix \numberline {A}How to install \LaTeX  }{209}{Appendix.a.A}}
-\@writefile{toc}{\contentsline {chapter}{Appendix \numberline {B}Installing the CUED class file}{213}{Appendix.a.B}}
+\@writefile{lot}{\contentsline {table}{\numberline {7.1}{\ignorespaces Measurements of all the APA offsets determined from the 35\nobreakspace  {}ton TPC data.}}{163}{table.caption.128}}
+\@writefile{lot}{\contentsline {table}{\numberline {7.2}{\ignorespaces The corrected gaps between the APAs, in $x$ and $z$, based on the offsets measured (Table \ref  {tab:APAGapOffsets}).}}{163}{table.caption.128}}
+\@writefile{toc}{\contentsline {chapter}{Appendix \numberline {A}How to install \LaTeX  }{207}{Appendix.a.A}}
+\@writefile{toc}{\contentsline {chapter}{Appendix \numberline {B}Installing the CUED class file}{211}{Appendix.a.B}}
 \@writefile{toc}{\contentsline {chapter}{List of acronyms}{xxv}{chapter*.7}}
 \@writefile{toc}{\contentsline {chapter}{List of figures}{xv}{chapter*.5}}
 \@writefile{toc}{\contentsline {chapter}{List of tables}{xxiii}{chapter*.6}}
-\@writefile{toc}{\contentsline {chapter}{References}{199}{chapter*.161}}
+\@writefile{toc}{\contentsline {chapter}{References}{197}{chapter*.160}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {2}Neutrino Physics}{3}{chapter.2}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {3}The Deep Underground Neutrino Experiment}{25}{chapter.3}}
@@ -206,11 +205,11 @@
 \@writefile{toc}{\contentsline {chapter}{\numberline {5}Reconstruction in a Liquid Argon TPC}{103}{chapter.5}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {6}Online Monitoring and Event Displays for the 35\nobreakspace  {}ton Experiment}{133}{chapter.6}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {7}Analysis of 35\nobreakspace  {}ton Data}{145}{chapter.7}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {8}The $\nu _e$ Oscillation Signal at the DUNE Far Detector}{195}{chapter.8}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {9}Summary}{197}{chapter.9}}
-\@writefile{toc}{\contentsline {paragraph}{Drift velocity}{172}{section*.139}}
-\@writefile{toc}{\contentsline {paragraph}{Geometry}{168}{section*.136}}
-\@writefile{toc}{\contentsline {paragraph}{Timing}{172}{section*.142}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {8}The $\nu _e$ Oscillation Signal at the DUNE Far Detector}{193}{chapter.8}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {9}Summary}{195}{chapter.9}}
+\@writefile{toc}{\contentsline {paragraph}{Drift velocity}{172}{section*.138}}
+\@writefile{toc}{\contentsline {paragraph}{Geometry}{168}{section*.135}}
+\@writefile{toc}{\contentsline {paragraph}{Timing}{172}{section*.141}}
 \@writefile{toc}{\contentsline {section}{\numberline {2.1}Historical Context}{3}{section.2.1}}
 \@writefile{toc}{\contentsline {section}{\numberline {2.2}Neutrino Oscillations}{10}{section.2.2}}
 \@writefile{toc}{\contentsline {section}{\numberline {2.3}Status of Neutrino Physics}{19}{section.2.3}}
@@ -225,18 +224,20 @@
 \@writefile{toc}{\contentsline {section}{\numberline {4.4}Summary}{102}{section.4.4}}
 \@writefile{toc}{\contentsline {section}{\numberline {5.1}The LArSoft Framework}{103}{section.5.1}}
 \@writefile{toc}{\contentsline {section}{\numberline {5.2}The Reconstruction Chain}{105}{section.5.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.3}Shower Reconstruction in LArTPCs}{112}{section.5.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}Shower Reconstruction in LArTPCs}{111}{section.5.3}}
 \@writefile{toc}{\contentsline {section}{\numberline {6.1}The Online Monitoring Framework}{133}{section.6.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.2}Data Quality Monitoring}{136}{section.6.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.3}Online Event Display}{138}{section.6.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.2}Data Quality Monitoring}{137}{section.6.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.3}Online Event Display}{140}{section.6.3}}
 \@writefile{toc}{\contentsline {section}{\numberline {6.4}Monitoring Web Interface}{141}{section.6.4}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.5}Online Monitoring Summary}{143}{section.6.5}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.5}Online Monitoring Summary}{144}{section.6.5}}
 \@writefile{toc}{\contentsline {section}{\numberline {7.1}Preparing 35\nobreakspace  {}ton Data for Analysis}{145}{section.7.1}}
 \@writefile{toc}{\contentsline {section}{\numberline {7.2}APA Gap-Crossing Muons}{151}{section.7.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.3}APA-Crossing Muons}{165}{section.7.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.4}Shower Reconstruction in 35\nobreakspace  {}ton Data}{184}{section.7.4}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.5}35\nobreakspace  {}ton Data Analysis Summary}{193}{section.7.5}}
-\@writefile{toc}{\contentsline {section}{\numberline {8.1}Cut-Based Approach}{195}{section.8.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.3}APA-Crossing Muons}{164}{section.7.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.4}Shower Reconstruction in 35\nobreakspace  {}ton Data}{185}{section.7.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.5}35\nobreakspace  {}ton Data Analysis Summary}{191}{section.7.5}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.1}Cut-Based Tuning}{194}{section.8.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.2}MVA-Based Selection}{194}{section.8.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.3}Outlook for Future Selections}{194}{section.8.3}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1.1}Prediction of the Neutrino}{3}{subsection.2.1.1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1.2}Discovery of the Neutrino}{4}{subsection.2.1.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1.3}The Solar Neutrino Problem}{8}{subsection.2.1.3}}
@@ -295,14 +296,18 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {7.1.3}Reconstructing Muon Tracks}{147}{subsection.7.1.3}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {7.1.4}Preparing Simulated Data}{149}{subsection.7.1.4}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {7.2.1}APA-Gap Offset Determination}{153}{subsection.7.2.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.2.2}Charge Deposited by APA Gap-Crossing Muons}{165}{subsection.7.2.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.1}T0 Determination from APA Crossing Tracks}{167}{subsection.7.3.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.2}Charge Deposited by APA Crossing Tracks}{179}{subsection.7.3.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.3}Comparing Drift Regions with APA-Crossing Tracks}{184}{subsection.7.3.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.4.1}Data Specific Reconstruction}{184}{subsection.7.4.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.4.2}Calorimetry Reconstruction}{187}{subsection.7.4.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2.2}Charge Deposited by APA Gap-Crossing Muons}{164}{subsection.7.2.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.1}T0 Determination from APA Crossing Tracks}{166}{subsection.7.3.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.2}Charge Deposited by APA Crossing Tracks}{178}{subsection.7.3.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.3}Comparing Drift Regions with APA-Crossing Tracks}{182}{subsection.7.3.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.4.1}Data Specific Reconstruction}{185}{subsection.7.4.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.4.2}Calorimetry Reconstruction}{185}{subsection.7.4.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {7.4.3}Shower Reconstruction}{189}{subsection.7.4.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.4.4}$\pi ^0$ Reconstruction}{192}{subsection.7.4.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.4.4}$\pi ^0$ Reconstruction}{190}{subsection.7.4.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1.1}Selection}{194}{subsection.8.1.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1.2}Fiducial Volume Tuning}{194}{subsection.8.1.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.2.1}MVA Input Variables}{194}{subsection.8.2.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.2.2}Analysis Performance}{194}{subsection.8.2.2}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.1.1}Super-Kamiokande and the Atmospheric Sector}{11}{subsubsection.2.2.1.1}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.1.2}SNO and the Solar Sector}{13}{subsubsection.2.2.1.2}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.3.1}KamLAND and Reactor Neutrinos}{18}{subsubsection.2.2.3.1}}
@@ -328,22 +333,22 @@
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.5.3}DAQ and Computing}{97}{subsubsection.4.3.5.3}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.5.4}Noise Issues}{98}{subsubsection.4.3.5.4}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.3.1}Energy Determination}{110}{subsubsection.5.2.3.1}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.3.2}Shower Energy Reconstruction}{111}{subsubsection.5.2.3.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.3.2}Shower Energy Reconstruction}{110}{subsubsection.5.2.3.2}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.3.3}Neutrino Energy Reconstruction}{111}{subsubsection.5.2.3.3}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.2.1}Algorithm Description}{114}{subsubsection.5.3.2.1}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.2.2}Configuring the Clustering}{115}{subsubsection.5.3.2.2}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.3.1}Shower Pattern Forming}{119}{subsubsection.5.3.3.1}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.3.2}Shower Properties Reconstruction}{120}{subsubsection.5.3.3.2}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.5.1}Shower Properties}{126}{subsubsection.5.3.5.1}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.5.2}$\pi ^0$ Reconstruction}{128}{subsubsection.5.3.5.2}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.5.3}Track/Shower Separation Performance}{129}{subsubsection.5.3.5.3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.5.2}$\pi ^0$ Reconstruction}{127}{subsubsection.5.3.5.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.3.5.3}Track/Shower Separation Performance}{130}{subsubsection.5.3.5.3}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {7.2.1.1}Measuring the APA Gaps}{155}{subsubsection.7.2.1.1}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.2.1.2}Measurements of the APA Offsets}{160}{subsubsection.7.2.1.2}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.3.1.1}Aligning APA Crossing Tracks}{167}{subsubsection.7.3.1.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.2.1.2}Measurements of the APA Offsets}{159}{subsubsection.7.2.1.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.3.1.1}Aligning APA Crossing Tracks}{166}{subsubsection.7.3.1.1}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {7.3.1.2}Understanding the Misalignment of APA-Crossing Tracks}{168}{subsubsection.7.3.1.2}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.3.1.3}Combined Offset Analysis}{177}{subsubsection.7.3.1.3}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.3.2.1}Interaction Time Hits}{180}{subsubsection.7.3.2.1}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.3.2.2}Event Displays of APA-Crossing Tracks}{182}{subsubsection.7.3.2.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.3.1.3}Combined Offset Analysis}{173}{subsubsection.7.3.1.3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.3.2.1}Interaction Time Hits}{178}{subsubsection.7.3.2.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.3.2.2}Event Displays of APA-Crossing Tracks}{179}{subsubsection.7.3.2.2}}
 \@writefile{toc}{\thispagestyle {empty}}
 \AtEndDocument{\ifx\hyper@anchor\@undefined
 \HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
@@ -495,6 +500,7 @@
 \citation{KamLAND2003,KamLAND2005}
 \citation{KamLAND2013}
 \citation{Kamiokande1994}
+\citation{Kirby2016}
 \citation{Kodama2001}
 \citation{LAGUNA-LBNO2015}
 \citation{LAPD2014}
@@ -559,6 +565,7 @@
 \citation{P52014}
 \citation{PIPII2013}
 \citation{PMA2013}
+\citation{Pandora2015}
 \citation{Pauli1930}
 \citation{Perl1975}
 \citation{Planck2013}
@@ -691,12 +698,8 @@
 \newlabel{fig:APAGapCrosser}
 \newlabel{fig:APAGapCrossingGaps}
 \newlabel{fig:APAGapMCXOffsetZOffsetAngle}
-\newlabel{fig:APAGapMCXOffsetZOffsetAngle}
-\newlabel{fig:APAGapMCXOffsetZOffset}
 \newlabel{fig:APAGapMCXOffsetZOffset}
 \newlabel{fig:APAGapMCZOffset}
-\newlabel{fig:APAGapMCZOffset}
-\newlabel{fig:APAGapMC}
 \newlabel{fig:APAGapMC}
 \newlabel{fig:APAGapXOffsetNegFix}
 \newlabel{fig:APAGapXOffsetNeg}
@@ -980,6 +983,13 @@
 \newlabel{sec:EnergyDetermination}
 \newlabel{sec:EventDisplay}
 \newlabel{sec:EvidenceNeutrinoOscillations}
+\newlabel{sec:FDCutFV}
+\newlabel{sec:FDCutSelection}
+\newlabel{sec:FDCut}
+\newlabel{sec:FDMVAPerformance}
+\newlabel{sec:FDMVAVariables}
+\newlabel{sec:FDMVA}
+\newlabel{sec:FDOutlook}
 \newlabel{sec:FarDetector}
 \newlabel{sec:FillingLAPD}
 \newlabel{sec:FilterRegeneration}
@@ -1053,10 +1063,7 @@
 \newlabel{sub@fig:APACrossingAlignmentLeastSqMin}
 \newlabel{sub@fig:APACrossingAlignmentSeparationMin}
 \newlabel{sub@fig:APAGapMCXOffsetZOffsetAngle}
-\newlabel{sub@fig:APAGapMCXOffsetZOffsetAngle}
 \newlabel{sub@fig:APAGapMCXOffsetZOffset}
-\newlabel{sub@fig:APAGapMCXOffsetZOffset}
-\newlabel{sub@fig:APAGapMCZOffset}
 \newlabel{sub@fig:APAGapMCZOffset}
 \newlabel{sub@fig:APAGapXOffsetNegFix}
 \newlabel{sub@fig:APAGapXOffsetNeg}
@@ -1326,17 +1333,17 @@
 \setcounter{NAT@ctr}{0}
 \setcounter{NAT@ctr}{0}
 \setcounter{NAT@ctr}{0}
-\setcounter{NAT@ctr}{167}
-\setcounter{NAT@ctr}{167}
+\setcounter{NAT@ctr}{169}
+\setcounter{NAT@ctr}{169}
 \setcounter{bookmark@seq@number}{0}
 \setcounter{bookmark@seq@number}{0}
 \setcounter{bookmark@seq@number}{0}
 \setcounter{bookmark@seq@number}{0}
 \setcounter{bookmark@seq@number}{102}
-\setcounter{bookmark@seq@number}{104}
-\setcounter{bookmark@seq@number}{105}
-\setcounter{bookmark@seq@number}{107}
-\setcounter{bookmark@seq@number}{108}
+\setcounter{bookmark@seq@number}{110}
+\setcounter{bookmark@seq@number}{111}
+\setcounter{bookmark@seq@number}{113}
+\setcounter{bookmark@seq@number}{114}
 \setcounter{bookmark@seq@number}{20}
 \setcounter{bookmark@seq@number}{37}
 \setcounter{bookmark@seq@number}{4}
@@ -1454,7 +1461,7 @@
 \setcounter{figure}{22}
 \setcounter{figure}{28}
 \setcounter{figure}{36}
-\setcounter{figure}{48}
+\setcounter{figure}{47}
 \setcounter{figure}{5}
 \setcounter{footnote}{0}
 \setcounter{footnote}{0}
@@ -1490,13 +1497,13 @@
 \setcounter{mpfootnote}{0}
 \setcounter{page}{103}
 \setcounter{page}{10}
-\setcounter{page}{132}
+\setcounter{page}{133}
 \setcounter{page}{145}
-\setcounter{page}{194}
+\setcounter{page}{192}
+\setcounter{page}{195}
 \setcounter{page}{196}
-\setcounter{page}{198}
-\setcounter{page}{213}
-\setcounter{page}{214}
+\setcounter{page}{211}
+\setcounter{page}{212}
 \setcounter{page}{25}
 \setcounter{page}{28}
 \setcounter{page}{3}
@@ -1577,7 +1584,7 @@
 \setcounter{section}{0}
 \setcounter{section}{0}
 \setcounter{section}{0}
-\setcounter{section}{1}
+\setcounter{section}{3}
 \setcounter{section}{3}
 \setcounter{section}{3}
 \setcounter{section}{4}

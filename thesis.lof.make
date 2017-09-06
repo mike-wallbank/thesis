@@ -79,7 +79,7 @@
 \contentsline {figure}{\numberline {5.6}{\ignorespaces Demonstration of 3D reconstruction in LArSoft on a simulated $\nu _{\mu }$CC event.}}{109}{figure.caption.84}
 \contentsline {figure}{\numberline {5.7}{\ignorespaces Correlation between the true deposited energy in an electromagnetic shower and the total charge in the detector for electron showers in the DUNE far detector.}}{111}{figure.caption.85}
 \contentsline {figure}{\numberline {5.8}{\ignorespaces An example particle gun $\pi ^0$ event in the 35\nobreakspace {}ton geometry.}}{113}{figure.caption.86}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces A example 2D Gaussian kernel alongside the contributions from each dimension.}}{114}{figure.caption.87}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces An example 2D Gaussian kernel alongside the contributions from each dimension.}}{114}{figure.caption.87}
 \contentsline {figure}{\numberline {5.10}{\ignorespaces Simplified demonstration, in 1D, of the blurring process used when smearing charge from a hit map.}}{116}{figure.caption.88}
 \contentsline {figure}{\numberline {5.11}{\ignorespaces The output of the blurring stage of the BlurredCluster algorithm on the hit maps from two planes of the 35\nobreakspace {}ton $\pi ^0$ event illustrated in Figure\nobreakspace {}\ref {fig:pi0Showers}.}}{116}{figure.caption.89}
 \contentsline {figure}{\numberline {5.12}{\ignorespaces The 2D clusters made using BlurredCluster when applied to the 35\nobreakspace {}ton $\pi ^0$ event shown in Figure\nobreakspace {}\ref {fig:pi0Showers}.}}{117}{figure.caption.90}
@@ -91,14 +91,14 @@
 \contentsline {figure}{\numberline {5.18}{\ignorespaces A simplified event topology demonstrated typical track and shower topologies.}}{124}{figure.caption.96}
 \contentsline {figure}{\numberline {5.19}{\ignorespaces The result of applying the track/shower separation, BlurredCluster and EMShower algorithms to the example DUNE far detector $\nu _e$CC event demonstrated in Figure\nobreakspace {}\ref {fig:nueCC}.}}{125}{figure.caption.97}
 \contentsline {figure}{\numberline {5.20}{\ignorespaces The fraction of total shower particles for which a shower object is created when using BlurredCluster/EMShower reconstruction.}}{127}{figure.caption.98}
-\contentsline {figure}{\numberline {5.21}{\ignorespaces The difference between the true and reconstructed shower conversion points.}}{127}{figure.caption.99}
-\contentsline {figure}{\numberline {5.22}{\ignorespaces The vector dot product between the true and reconstructed initial shower direction.}}{127}{figure.caption.99}
+\contentsline {figure}{\numberline {5.21}{\ignorespaces The difference between the true and reconstructed shower conversion points.}}{128}{figure.caption.99}
+\contentsline {figure}{\numberline {5.22}{\ignorespaces The vector dot product between the true and reconstructed initial shower direction.}}{128}{figure.caption.99}
 \contentsline {figure}{\numberline {5.23}{\ignorespaces The completeness of the reconstruction shower energy when compared with the true deposited energy from simulation.}}{128}{figure.caption.100}
 \contentsline {figure}{\numberline {5.24}{\ignorespaces The dE/dx information from the start of the reconstructed shower object.}}{128}{figure.caption.100}
 \contentsline {figure}{\numberline {5.25}{\ignorespaces The 35\nobreakspace {}ton fully reconstructed $\pi ^0$ invariant mass peak.}}{129}{figure.caption.101}
 \contentsline {figure}{\numberline {5.26}{\ignorespaces The 35\nobreakspace {}ton $\pi ^0$ mass peak considered using a combination of reconstructed and truth information.}}{130}{figure.caption.102}
 \contentsline {figure}{\numberline {5.27}{\ignorespaces Performance of the track/shower separation reconstruction by considering how well separated tracks and showers from the neutrino interaction vertex are, and the quality of the reconstructed electron shower.}}{131}{figure.caption.103}
-\contentsline {figure}{\numberline {5.28}{\ignorespaces The performance of the track/shower separation and shower reconstruction when applied to DUNE $\nu _e$CC far detector interactions.}}{131}{figure.caption.104}
+\contentsline {figure}{\numberline {5.28}{\ignorespaces The performance of the track/shower separation and shower reconstruction when applied to DUNE $\nu _e$CC far detector interactions.}}{132}{figure.caption.104}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {6.1}{\ignorespaces The software framework designed and built for online monitoring during the 35\nobreakspace {}ton Phase\nobreakspace {}II run.}}{134}{figure.caption.105}
 \contentsline {figure}{\numberline {6.2}{\ignorespaces Selection of figures made by the Data Quality Monitoring framework during 35\nobreakspace {}ton Phase\nobreakspace {}II running.}}{139}{figure.caption.106}
@@ -119,41 +119,40 @@
 \contentsline {figure}{\numberline {7.11}{\ignorespaces The $z$-offset for the DV5/DV7 gap measured in the 35\nobreakspace {}ton data.}}{156}{figure.caption.120}
 \contentsline {figure}{\numberline {7.12}{\ignorespaces Demonstration of how an $x$-offset in the positions of the APAs can explain the degeneracy evident in the $z$-offset measured using the 35\nobreakspace {}ton data.}}{157}{figure.caption.121}
 \contentsline {figure}{\numberline {7.13}{\ignorespaces Studies of the effects of offsets in the positions of the APAs in simulation.}}{158}{figure.caption.122}
-\contentsline {figure}{\numberline {7.14}{\ignorespaces Studies of the effects of offsets in the positions of the APAs in simulation.}}{159}{figure.caption.123}
-\contentsline {figure}{\numberline {7.15}{\ignorespaces The $\chi ^2$ distribution for all APA-gap traversing tracks in $\Delta z$-$\Delta x$ space.}}{160}{figure.caption.124}
-\contentsline {figure}{\numberline {7.16}{\ignorespaces Demonstration of the effects of offsets in both the $x$- and $z$-directions in the determination of $\Delta z$ between DV5 and DV7.}}{161}{figure.caption.125}
-\contentsline {figure}{\numberline {7.17}{\ignorespaces Extraction of the true value of $\Delta z$ from the full distribution of measured $z$-offsets.}}{162}{figure.caption.126}
-\contentsline {figure}{\numberline {7.18}{\ignorespaces Measurement of the $x$-offset between DV5 and DV7 after applying the $z$-gap correction.}}{162}{figure.caption.127}
-\contentsline {figure}{\numberline {7.19}{\ignorespaces of the $z$-offset between DV5 and DV7 after applying the $x$-offset previously determined.}}{163}{figure.caption.128}
-\contentsline {figure}{\numberline {7.20}{\ignorespaces The number of hits, and the average reconstructed hit charge, as a function of distance of the collection point from the nearest APA gap.}}{166}{figure.caption.130}
-\contentsline {figure}{\numberline {7.21}{\ignorespaces Event display of an APA gap-crossing track, focussed on the gap region.}}{166}{figure.caption.131}
-\contentsline {figure}{\numberline {7.22}{\ignorespaces Method to align track segments on either side of the APAs involving minimising residuals from linear least square fit.}}{169}{figure.caption.132}
-\contentsline {figure}{\numberline {7.23}{\ignorespaces Method to align track segments on either side of the APAs involving minimising the distance between the projected intersection of each with the centre of the APAs.}}{169}{figure.caption.132}
-\contentsline {figure}{\numberline {7.24}{\ignorespaces Difference between the T0 calculated from TPC data and the T0 provided by the counters representing the trigger time of the through-going muon, for simulation and data.}}{170}{figure.caption.133}
-\contentsline {figure}{\numberline {7.25}{\ignorespaces Correcting for T0 using $T_0^{\mathrm {counter}}$ and $T_0^{\mathrm {TPC}}$.}}{171}{figure.caption.134}
-\contentsline {figure}{\numberline {7.26}{\ignorespaces Demonstration of the effect observed in the 35\nobreakspace {}ton data concerning tracks crossing the APAs.}}{171}{figure.caption.135}
-\contentsline {figure}{\numberline {7.27}{\ignorespaces Attempting to correct the track segment misalignment by assuming a misunderstanding of the spacing between the collection planes.}}{172}{figure.caption.137}
-\contentsline {figure}{\numberline {7.28}{\ignorespaces Attempting to correct the track segment misalignment by assuming a misunderstanding of the positioning of the collection wires inside the detector.}}{173}{figure.caption.138}
-\contentsline {figure}{\numberline {7.29}{\ignorespaces Attempting to correct the track segment misalignment by assuming an incorrect drift velocity.}}{173}{figure.caption.140}
-\contentsline {figure}{\numberline {7.30}{\ignorespaces Measuring the drift velocity of the ionisation electrons by taking tracks passing through opposite counter pairs and comparing the corresponding drift distance to the drift time.}}{174}{figure.caption.141}
-\contentsline {figure}{\numberline {7.31}{\ignorespaces The T0-corrected drift time for hits on APA-crossing tracks.}}{175}{figure.caption.143}
-\contentsline {figure}{\numberline {7.32}{\ignorespaces Difference between the interaction time measured by the TPC data and that provided by photon detector information.}}{175}{figure.caption.144}
-\contentsline {figure}{\numberline {7.33}{\ignorespaces The difference between the timestamps recorded by the PTB and the RCEs upon receiving a trigger.}}{176}{figure.caption.145}
-\contentsline {figure}{\numberline {7.34}{\ignorespaces The distribution of the drift times of all hits on APA-crossing tracks after correcting for the APA offsets along the direction parallel to the drift direction.}}{178}{figure.caption.146}
-\contentsline {figure}{\numberline {7.35}{\ignorespaces Accounting for the extra discrepancy in track alignment after fixing for all the measured offsets by assuming a misunderstanding in the collection plane spacing and the $z$-positions of the collection wires.}}{179}{figure.caption.147}
-\contentsline {figure}{\numberline {7.36}{\ignorespaces The T0-corrected drift time for all hits on an APA-crossing track in simulation.}}{180}{figure.caption.148}
-\contentsline {figure}{\numberline {7.37}{\ignorespaces Demonstration of the electron ionisation and hit collection for APA-crossing tracks.}}{181}{figure.caption.149}
-\contentsline {figure}{\numberline {7.38}{\ignorespaces Comparison between the T0-corrected hit time distributions on APAs with and without the grounded mesh.}}{182}{figure.caption.150}
-\contentsline {figure}{\numberline {7.39}{\ignorespaces Comparison between the distribution of T0-corrected hit times for hits on wires in front of the APA frame and away from the APA frame to validate the functionality of the mesh.}}{183}{figure.caption.151}
-\contentsline {figure}{\numberline {7.40}{\ignorespaces Average lifetime-corrected charge per hit for hits on an APA-crossing track separated according to whether or not the hit was collected around the interaction time.}}{183}{figure.caption.152}
-\contentsline {figure}{\numberline {7.41}{\ignorespaces Event display of an APA-crossing track with the charge deposited as it passes through the APAs evident.}}{185}{figure.caption.153}
-\contentsline {figure}{\numberline {7.42}{\ignorespaces Using APA-crossing tracks to confirm the drift velocity is consistent between the two drift regions.}}{186}{figure.caption.154}
-\contentsline {figure}{\numberline {7.43}{\ignorespaces Comparison of noise levels between the two drift regions using APA-crossing tracks.}}{186}{figure.caption.155}
-\contentsline {figure}{\numberline {7.44}{\ignorespaces The bias in the hit selection due to a high noise level in the 35\nobreakspace {}ton data.}}{188}{figure.caption.156}
-\contentsline {figure}{\numberline {7.45}{\ignorespaces The dE/dx distribution for mips passing through the 35\nobreakspace {}ton TPC.}}{189}{figure.caption.157}
-\contentsline {figure}{\numberline {7.46}{\ignorespaces Relationship between deposited charge and energy for 35\nobreakspace {}ton data, calculated using through-going mips.}}{190}{figure.caption.158}
-\contentsline {figure}{\numberline {7.47}{\ignorespaces Result of applying the shower reconstruction on a shower observed in the 35\nobreakspace {}ton data.}}{191}{figure.caption.159}
-\contentsline {figure}{\numberline {7.48}{\ignorespaces A candidate $\pi ^0$ event observed in the online event display during the run.}}{192}{figure.caption.160}
+\contentsline {figure}{\numberline {7.14}{\ignorespaces The $\chi ^2$ distribution for all APA-gap traversing tracks in $\Delta z$-$\Delta x$ space.}}{159}{figure.caption.123}
+\contentsline {figure}{\numberline {7.15}{\ignorespaces Demonstration of the effects of offsets in both the $x$- and $z$-directions in the determination of $\Delta z$ between DV5 and DV7.}}{160}{figure.caption.124}
+\contentsline {figure}{\numberline {7.16}{\ignorespaces Extraction of the true value of $\Delta z$ from the full distribution of measured $z$-offsets.}}{161}{figure.caption.125}
+\contentsline {figure}{\numberline {7.17}{\ignorespaces Measurement of the $x$-offset between DV5 and DV7 after applying the $z$-gap correction.}}{161}{figure.caption.126}
+\contentsline {figure}{\numberline {7.18}{\ignorespaces of the $z$-offset between DV5 and DV7 after applying the $x$-offset previously determined.}}{162}{figure.caption.127}
+\contentsline {figure}{\numberline {7.19}{\ignorespaces The number of hits, and the average reconstructed hit charge, as a function of distance of the collection point from the nearest APA gap.}}{165}{figure.caption.129}
+\contentsline {figure}{\numberline {7.20}{\ignorespaces Event display of an APA gap-crossing track, focussed on the gap region.}}{165}{figure.caption.130}
+\contentsline {figure}{\numberline {7.21}{\ignorespaces Method to align track segments on either side of the APAs involving minimising residuals from linear least square fit.}}{167}{figure.caption.131}
+\contentsline {figure}{\numberline {7.22}{\ignorespaces Method to align track segments on either side of the APAs involving minimising the distance between the projected intersection of each with the centre of the APAs.}}{167}{figure.caption.131}
+\contentsline {figure}{\numberline {7.23}{\ignorespaces Difference between the T0 calculated from TPC data and the T0 provided by the counters representing the trigger time of the through-going muon, for simulation and data.}}{169}{figure.caption.132}
+\contentsline {figure}{\numberline {7.24}{\ignorespaces Correcting for T0 using $T_0^{\mathrm {counter}}$ and $T_0^{\mathrm {TPC}}$.}}{170}{figure.caption.133}
+\contentsline {figure}{\numberline {7.25}{\ignorespaces Demonstration of the effect observed in the 35\nobreakspace {}ton data concerning tracks crossing the APAs.}}{170}{figure.caption.134}
+\contentsline {figure}{\numberline {7.26}{\ignorespaces Attempting to correct the track segment misalignment by assuming a misunderstanding of the spacing between the collection planes.}}{171}{figure.caption.136}
+\contentsline {figure}{\numberline {7.27}{\ignorespaces Attempting to correct the track segment misalignment by assuming a misunderstanding of the positioning of the collection wires inside the detector.}}{171}{figure.caption.137}
+\contentsline {figure}{\numberline {7.28}{\ignorespaces Attempting to correct the track segment misalignment by assuming an incorrect drift velocity.}}{172}{figure.caption.139}
+\contentsline {figure}{\numberline {7.29}{\ignorespaces Measuring the drift velocity of the ionisation electrons by taking tracks passing through opposite counter pairs and comparing the corresponding drift distance to the drift time.}}{173}{figure.caption.140}
+\contentsline {figure}{\numberline {7.30}{\ignorespaces The T0-corrected drift time for hits on APA-crossing tracks.}}{174}{figure.caption.142}
+\contentsline {figure}{\numberline {7.31}{\ignorespaces Difference between the interaction time measured by the TPC data and that provided by photon detector information.}}{174}{figure.caption.143}
+\contentsline {figure}{\numberline {7.32}{\ignorespaces The difference between the timestamps recorded by the PTB and the RCEs upon receiving a trigger.}}{175}{figure.caption.144}
+\contentsline {figure}{\numberline {7.33}{\ignorespaces The distribution of the drift times of all hits on APA-crossing tracks after correcting for the APA offsets along the direction parallel to the drift direction.}}{176}{figure.caption.145}
+\contentsline {figure}{\numberline {7.34}{\ignorespaces Accounting for the extra discrepancy in track alignment after fixing for all the measured offsets by assuming a misunderstanding in the collection plane spacing and the $z$-positions of the collection wires.}}{177}{figure.caption.146}
+\contentsline {figure}{\numberline {7.35}{\ignorespaces The T0-corrected drift time for all hits on an APA-crossing track in simulation.}}{178}{figure.caption.147}
+\contentsline {figure}{\numberline {7.36}{\ignorespaces Demonstration of the electron ionisation and hit collection for APA-crossing tracks.}}{180}{figure.caption.148}
+\contentsline {figure}{\numberline {7.37}{\ignorespaces Comparison between the T0-corrected hit time distributions on APAs with and without the grounded mesh.}}{181}{figure.caption.149}
+\contentsline {figure}{\numberline {7.38}{\ignorespaces Comparison between the distribution of T0-corrected hit times for hits on wires in front of the APA frame and away from the APA frame to validate the functionality of the mesh.}}{181}{figure.caption.150}
+\contentsline {figure}{\numberline {7.39}{\ignorespaces Average lifetime-corrected charge per hit for hits on an APA-crossing track separated according to whether or not the hit was collected around the interaction time.}}{182}{figure.caption.151}
+\contentsline {figure}{\numberline {7.40}{\ignorespaces Event display of an APA-crossing track with the charge deposited as it passes through the APAs evident.}}{183}{figure.caption.152}
+\contentsline {figure}{\numberline {7.41}{\ignorespaces Using APA-crossing tracks to confirm the drift velocity is consistent between the two drift regions.}}{184}{figure.caption.153}
+\contentsline {figure}{\numberline {7.42}{\ignorespaces Comparison of noise levels between the two drift regions using APA-crossing tracks.}}{184}{figure.caption.154}
+\contentsline {figure}{\numberline {7.43}{\ignorespaces The bias in the hit selection due to a high noise level in the 35\nobreakspace {}ton data.}}{186}{figure.caption.155}
+\contentsline {figure}{\numberline {7.44}{\ignorespaces The dE/dx distribution for mips passing through the 35\nobreakspace {}ton TPC.}}{187}{figure.caption.156}
+\contentsline {figure}{\numberline {7.45}{\ignorespaces Relationship between deposited charge and energy for 35\nobreakspace {}ton data, calculated using through-going mips.}}{188}{figure.caption.157}
+\contentsline {figure}{\numberline {7.46}{\ignorespaces Result of applying the shower reconstruction on a shower observed in the 35\nobreakspace {}ton data.}}{189}{figure.caption.158}
+\contentsline {figure}{\numberline {7.47}{\ignorespaces A candidate $\pi ^0$ event observed in the online event display during the run.}}{190}{figure.caption.159}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

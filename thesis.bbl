@@ -892,6 +892,12 @@ M~Wallbank.
 M~Wallbank.
 \newblock {EMShower Algorithm}, 2016.
 
+\bibitem{Kirby2016}
+B.~Kirby.
+\newblock {35$\sim$ton Cold Electronics Testing, Integration and Commissioning
+  Experience}.
+\newblock Technical report, 2016.
+
 \bibitem{Insler2016}
 J~Insler.
 \newblock {Module to Unstick ADC Codes}.
@@ -912,5 +918,10 @@ D~Brailsford.
 The~MicroBooNE Collaboration.
 \newblock {Cosmic Shielding Studies at MicroBooNE}.
 \newblock {\em MicroBooNE Public Note}, 1005, 2016.
+
+\bibitem{Pandora2015}
+J~S Marshall and M~A Thomson.
+\newblock {The Pandora software development kit for pattern recognition}.
+\newblock {\em The European Physical Journal C}, 75(9):439, 2015.
 
 \end{thebibliography}

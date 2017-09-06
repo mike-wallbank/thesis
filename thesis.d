@@ -412,9 +412,6 @@ thesis.pdf thesis._graphics: $$(call graphics-target,LArTPCReconstruction/Figs/3
 -include LArTPCReconstruction/Figs/EVDPi0Hits.pdf.gpi.d
 thesis.d: $$(call graphics-source,LArTPCReconstruction/Figs/EVDPi0Hits.pdf)
 thesis.pdf thesis._graphics: $$(call graphics-target,LArTPCReconstruction/Figs/EVDPi0Hits.pdf)
--include LArTPCReconstruction/Figs/2DGaussianKernel.png.gpi.d
-thesis.d: $$(call graphics-source,LArTPCReconstruction/Figs/2DGaussianKernel.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,LArTPCReconstruction/Figs/2DGaussianKernel.png)
 -include LArTPCReconstruction/Figs/blurring1.png.gpi.d
 thesis.d: $$(call graphics-source,LArTPCReconstruction/Figs/blurring1.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,LArTPCReconstruction/Figs/blurring1.png)
