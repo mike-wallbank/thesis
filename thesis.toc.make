@@ -25,13 +25,13 @@
 \contentsline {section}{\numberline {3.1}The LAr TPC Concept}{25}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}A Brief History of Time (Projection Chambers)}{26}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}LAr TPC Operation}{28}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}LArTPC Challenges}{30}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.3}LArTPC Challenges}{31}{subsection.3.1.3}
 \contentsline {section}{\numberline {3.2}Overview of DUNE}{32}{section.3.2}
 \contentsline {section}{\numberline {3.3}Experimental Details}{35}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Beam}{35}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Far Detector}{37}{subsection.3.3.2}
-\contentsline {subsubsection}{\numberline {3.3.2.1}Single-Phase}{37}{subsubsection.3.3.2.1}
-\contentsline {subsubsection}{\numberline {3.3.2.2}Dual-Phase}{40}{subsubsection.3.3.2.2}
+\contentsline {subsection}{\numberline {3.3.2}Far Detector}{36}{subsection.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.2.1}Single-Phase}{38}{subsubsection.3.3.2.1}
+\contentsline {subsubsection}{\numberline {3.3.2.2}Dual-Phase}{42}{subsubsection.3.3.2.2}
 \contentsline {subsection}{\numberline {3.3.3}Near Detector}{43}{subsection.3.3.3}
 \contentsline {subsubsection}{\numberline {3.3.3.1}Near Neutrino Detector}{43}{subsubsection.3.3.3.1}
 \contentsline {subsubsection}{\numberline {3.3.3.2}Beamline Measurement System}{45}{subsubsection.3.3.3.2}
@@ -56,7 +56,7 @@
 \contentsline {subsection}{\numberline {4.2.1}The 35\nobreakspace {}ton Cryostat}{69}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}Filling the 35\nobreakspace {}ton}{71}{subsection.4.2.2}
 \contentsline {subsection}{\numberline {4.2.3}Outcomes of Phase\nobreakspace {}I}{72}{subsection.4.2.3}
-\contentsline {section}{\numberline {4.3}35\nobreakspace {}ton Experiment: Phase\nobreakspace {}II}{74}{section.4.3}
+\contentsline {section}{\numberline {4.3}35\nobreakspace {}ton Experiment: Phase\nobreakspace {}II}{73}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}The 35\nobreakspace {}ton Detector}{74}{subsection.4.3.1}
 \contentsline {subsubsection}{\numberline {4.3.1.1}TPC}{75}{subsubsection.4.3.1.1}
 \contentsline {subsubsection}{\numberline {4.3.1.2}Photon Detectors}{78}{subsubsection.4.3.1.2}
@@ -69,12 +69,12 @@
 \contentsline {subsubsection}{\numberline {4.3.3.1}The Camera System}{86}{subsubsection.4.3.3.1}
 \contentsline {subsubsection}{\numberline {4.3.3.2}Operation and Outcomes of 35\nobreakspace {}ton Camera System}{88}{subsubsection.4.3.3.2}
 \contentsline {subsection}{\numberline {4.3.4}Phase\nobreakspace {}II Run}{91}{subsection.4.3.4}
-\contentsline {subsection}{\numberline {4.3.5}Outcomes of Phase\nobreakspace {}II}{95}{subsection.4.3.5}
+\contentsline {subsection}{\numberline {4.3.5}Outcomes of Phase\nobreakspace {}II}{93}{subsection.4.3.5}
 \contentsline {subsubsection}{\numberline {4.3.5.1}Cryostat and TPC}{95}{subsubsection.4.3.5.1}
 \contentsline {subsubsection}{\numberline {4.3.5.2}Triggering Systems: Photon Detectors and Muon Counters}{96}{subsubsection.4.3.5.2}
-\contentsline {subsubsection}{\numberline {4.3.5.3}DAQ and Computing}{97}{subsubsection.4.3.5.3}
-\contentsline {subsubsection}{\numberline {4.3.5.4}Noise Issues}{98}{subsubsection.4.3.5.4}
-\contentsline {section}{\numberline {4.4}Summary}{102}{section.4.4}
+\contentsline {subsubsection}{\numberline {4.3.5.3}DAQ and Computing}{96}{subsubsection.4.3.5.3}
+\contentsline {subsubsection}{\numberline {4.3.5.4}Noise Issues}{97}{subsubsection.4.3.5.4}
+\contentsline {section}{\numberline {4.4}Summary}{101}{section.4.4}
 \contentsline {chapter}{\numberline {5}Reconstruction in a Liquid Argon TPC}{103}{chapter.5}
 \contentsline {section}{\numberline {5.1}The LArSoft Framework}{103}{section.5.1}
 \contentsline {section}{\numberline {5.2}The Reconstruction Chain}{105}{section.5.2}
@@ -154,5 +154,3 @@
 \contentsline {section}{\numberline {8.3}Outlook for Future Selections}{194}{section.8.3}
 \contentsline {chapter}{\numberline {9}Summary}{195}{chapter.9}
 \contentsline {chapter}{References}{197}{chapter*.160}
-\contentsline {chapter}{Appendix \numberline {A}How to install \LaTeX }{207}{Appendix.a.A}
-\contentsline {chapter}{Appendix \numberline {B}Installing the CUED class file}{211}{Appendix.a.B}

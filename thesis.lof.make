@@ -15,16 +15,16 @@
 \contentsline {figure}{\numberline {3.2}{\ignorespaces The original concept of the time projection chamber particle detector, drawn by David Nygren in 1974.}}{27}{figure.caption.20}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces The LArTPC detector proposed by Carlo Rubbia in 1977.}}{28}{figure.caption.22}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Effect of electric field on luminosity of ionisation electrons and scintillation light in a LArTPC.}}{30}{figure.caption.23}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Schematic demonstrating the basic operational principles of a LArTPC.}}{31}{figure.caption.24}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Schematic demonstrating the basic operation principles of a LArTPC.}}{31}{figure.caption.24}
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Demonstration of how having access to multiple oscillation maxima facilitates measurements of both the neutrino mass hierarchy and leptonic CP violation using the same experiment.}}{34}{figure.caption.25}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Longitudinal section of the LBNF beamline facility at Fermilab.}}{35}{figure.caption.26}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces The fluxes of the different neutrino flavour components of the DUNE beam in neutrino and antineutrino running mode.}}{36}{figure.caption.27}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Longitudinal section of the LBNF beamline facility at Fermilab.}}{36}{figure.caption.26}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces The fluxes of the different neutrino flavour components of the DUNE beam in neutrino and antineutrino running mode.}}{37}{figure.caption.27}
 \contentsline {figure}{\numberline {3.9}{\ignorespaces The layout of the four cryostats underground at SURF comprising the DUNE far detector.}}{37}{figure.caption.28}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces The basic design of a single-phase DUNE far detector module.}}{38}{figure.caption.29}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Design of a DUNE far detector Anode Plane Assembly (APA).}}{39}{figure.caption.30}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces The basic design of a single-phase DUNE far detector module.}}{39}{figure.caption.29}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Design of a DUNE far detector Anode Plane Assembly (APA).}}{40}{figure.caption.30}
 \contentsline {figure}{\numberline {3.12}{\ignorespaces The design of the photon detectors for the DUNE far detector.}}{41}{figure.caption.31}
 \contentsline {figure}{\numberline {3.13}{\ignorespaces The DUNE dual-phase detector (partially open).}}{42}{figure.caption.32}
-\contentsline {figure}{\numberline {3.14}{\ignorespaces The extraction, amplification and readout of the ionisation electrons through the gaseous argon phase in the DUNE dual-phase LArTPC design.}}{42}{figure.caption.33}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces The extraction, amplification and readout of the ionisation electrons through the gaseous argon phase in the DUNE dual-phase LArTPC design.}}{43}{figure.caption.33}
 \contentsline {figure}{\numberline {3.15}{\ignorespaces Schematic of the DUNE near neutrino detector fine-grained tracker design.}}{44}{figure.caption.34}
 \contentsline {figure}{\numberline {3.16}{\ignorespaces The appearance probability at a baseline of 1300\nobreakspace {}km, as a function of neutrino energy, for $\delta _{CP}=-\pi /2$, 0 and $\pi /2$, neutrinos and antineutrinos, assuming normal hierarchy.}}{47}{figure.caption.36}
 \contentsline {figure}{\numberline {3.17}{\ignorespaces Sensitivity of the DUNE experiment to the neutrino mass hierarchy.}}{48}{figure.caption.37}
@@ -48,7 +48,7 @@
 \contentsline {figure}{\numberline {4.12}{\ignorespaces The network linking the 35\nobreakspace {}ton cryostat, the Liquid Argon Purity Demonstrator and the purification system at PC4, Fermilab.}}{71}{figure.caption.55}
 \contentsline {figure}{\numberline {4.13}{\ignorespaces Filling the 35\nobreakspace {}ton cryostat in four stages: piston purge, gas recirculation, cooldown and liquid filling.}}{72}{figure.caption.56}
 \contentsline {figure}{\numberline {4.14}{\ignorespaces The electron lifetime in the 35\nobreakspace {}ton cryostat measured by two purity monitors over the course of the two month Phase\nobreakspace {}I run.}}{73}{figure.caption.57}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces The 35\nobreakspace {}ton detector operated during Phase\nobreakspace {}II of the 35\nobreakspace {}ton programme.}}{75}{figure.caption.58}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces The 35\nobreakspace {}ton detector operated during Phase\nobreakspace {}II of the 35\nobreakspace {}ton programme.}}{74}{figure.caption.58}
 \contentsline {figure}{\numberline {4.16}{\ignorespaces Photograph of the partially installed 35\nobreakspace {}ton detector.}}{76}{figure.caption.59}
 \contentsline {figure}{\numberline {4.17}{\ignorespaces The 35\nobreakspace {}ton TPC geometry.}}{77}{figure.caption.60}
 \contentsline {figure}{\numberline {4.18}{\ignorespaces Photon detector units as implemented within the 35\nobreakspace {}ton APAs.}}{78}{figure.caption.61}
@@ -153,7 +153,5 @@
 \contentsline {figure}{\numberline {7.45}{\ignorespaces Relationship between deposited charge and energy for 35\nobreakspace {}ton data, calculated using through-going mips.}}{188}{figure.caption.157}
 \contentsline {figure}{\numberline {7.46}{\ignorespaces Result of applying the shower reconstruction on a shower observed in the 35\nobreakspace {}ton data.}}{189}{figure.caption.158}
 \contentsline {figure}{\numberline {7.47}{\ignorespaces A candidate $\pi ^0$ event observed in the online event display during the run.}}{190}{figure.caption.159}
-\addvspace {10\p@ }
-\addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

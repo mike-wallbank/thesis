@@ -5,8 +5,6 @@
 \@setckpt{Abstract/abstract}{
 \@setckpt{Acknowledgements/acknowledgements}{
 \@setckpt{Acronyms/acronyms}{
-\@setckpt{Appendix1/appendix1}{
-\@setckpt{Appendix2/appendix2}{
 \@setckpt{DUNE/DUNE}{
 \@setckpt{Declaration/declaration}{
 \@setckpt{Dedication/dedication}{
@@ -16,8 +14,6 @@
 \@setckpt{NeutrinoPhysics/NeutrinoPhysics}{
 \@setckpt{OnlineMonitoring/OnlineMonitoring}{
 \@setckpt{Summary/Summary}{
-\@writefile{lof}{\addvspace {10\p@ }}
-\@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lof}{\addvspace {10\p@ }}
@@ -37,11 +33,11 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {2.7}{\ignorespaces Comparison of the predictions of the neutrino fluxes from the Standard Solar Model with measured rates from a variety of solar neutrino experiments.}}{14}{figure.caption.14}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2.8}{\ignorespaces General scattering mechanics which occur as neutrinos pass through matter.}}{18}{figure.caption.15}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2.9}{\ignorespaces Recent global 3-neutrino oscillation analysis.}}{21}{figure.caption.16}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.10}{\ignorespaces The basic design of a single-phase DUNE far detector module.}}{38}{figure.caption.29}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.11}{\ignorespaces Design of a DUNE far detector Anode Plane Assembly (APA).}}{39}{figure.caption.30}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.10}{\ignorespaces The basic design of a single-phase DUNE far detector module.}}{39}{figure.caption.29}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.11}{\ignorespaces Design of a DUNE far detector Anode Plane Assembly (APA).}}{40}{figure.caption.30}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.12}{\ignorespaces The design of the photon detectors for the DUNE far detector.}}{41}{figure.caption.31}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.13}{\ignorespaces The DUNE dual-phase detector (partially open).}}{42}{figure.caption.32}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.14}{\ignorespaces The extraction, amplification and readout of the ionisation electrons through the gaseous argon phase in the DUNE dual-phase LArTPC design.}}{42}{figure.caption.33}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.14}{\ignorespaces The extraction, amplification and readout of the ionisation electrons through the gaseous argon phase in the DUNE dual-phase LArTPC design.}}{43}{figure.caption.33}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.15}{\ignorespaces Schematic of the DUNE near neutrino detector fine-grained tracker design.}}{44}{figure.caption.34}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.16}{\ignorespaces The appearance probability at a baseline of 1300\nobreakspace  {}km, as a function of neutrino energy, for $\delta _{CP}=-\pi /2$, 0 and $\pi /2$, neutrinos and antineutrinos, assuming normal hierarchy.}}{47}{figure.caption.36}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.17}{\ignorespaces Sensitivity of the DUNE experiment to the neutrino mass hierarchy.}}{48}{figure.caption.37}}
@@ -54,17 +50,17 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces The original concept of the time projection chamber particle detector, drawn by David Nygren in 1974.}}{27}{figure.caption.20}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces The LArTPC detector proposed by Carlo Rubbia in 1977.}}{28}{figure.caption.22}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces Effect of electric field on luminosity of ionisation electrons and scintillation light in a LArTPC.}}{30}{figure.caption.23}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces Schematic demonstrating the basic operational principles of a LArTPC.}}{31}{figure.caption.24}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces Schematic demonstrating the basic operation principles of a LArTPC.}}{31}{figure.caption.24}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces Demonstration of how having access to multiple oscillation maxima facilitates measurements of both the neutrino mass hierarchy and leptonic CP violation using the same experiment.}}{34}{figure.caption.25}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.7}{\ignorespaces Longitudinal section of the LBNF beamline facility at Fermilab.}}{35}{figure.caption.26}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.8}{\ignorespaces The fluxes of the different neutrino flavour components of the DUNE beam in neutrino and antineutrino running mode.}}{36}{figure.caption.27}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.7}{\ignorespaces Longitudinal section of the LBNF beamline facility at Fermilab.}}{36}{figure.caption.26}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.8}{\ignorespaces The fluxes of the different neutrino flavour components of the DUNE beam in neutrino and antineutrino running mode.}}{37}{figure.caption.27}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3.9}{\ignorespaces The layout of the four cryostats underground at SURF comprising the DUNE far detector.}}{37}{figure.caption.28}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.10}{\ignorespaces The LAr purity within the Liquid Argon Purity Demonstrator cryostat with the LongBo TPC present, measured using both data from the detector and information from the purity monitors.}}{68}{figure.caption.52}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.11}{\ignorespaces The 35\nobreakspace  {}ton cryostat.}}{70}{figure.caption.53}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.12}{\ignorespaces The network linking the 35\nobreakspace  {}ton cryostat, the Liquid Argon Purity Demonstrator and the purification system at PC4, Fermilab.}}{71}{figure.caption.55}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.13}{\ignorespaces Filling the 35\nobreakspace  {}ton cryostat in four stages: piston purge, gas recirculation, cooldown and liquid filling.}}{72}{figure.caption.56}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.14}{\ignorespaces The electron lifetime in the 35\nobreakspace  {}ton cryostat measured by two purity monitors over the course of the two month Phase\nobreakspace  {}I run.}}{73}{figure.caption.57}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4.15}{\ignorespaces The 35\nobreakspace  {}ton detector operated during Phase\nobreakspace  {}II of the 35\nobreakspace  {}ton programme.}}{75}{figure.caption.58}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.15}{\ignorespaces The 35\nobreakspace  {}ton detector operated during Phase\nobreakspace  {}II of the 35\nobreakspace  {}ton programme.}}{74}{figure.caption.58}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.16}{\ignorespaces Photograph of the partially installed 35\nobreakspace  {}ton detector.}}{76}{figure.caption.59}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.17}{\ignorespaces The 35\nobreakspace  {}ton TPC geometry.}}{77}{figure.caption.60}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4.18}{\ignorespaces Photon detector units as implemented within the 35\nobreakspace  {}ton APAs.}}{78}{figure.caption.61}}
@@ -184,16 +180,12 @@
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lot}{\contentsline {table}{\numberline {2.1}{\ignorespaces The current best-fit values for the neutrino oscillation parameters for normal and hieracrchies.}}{22}{table.caption.17}}
 \@writefile{lot}{\contentsline {table}{\numberline {3.1}{\ignorespaces Properties of noble liquids relevant when considering a TPC medium for a neutrino experiment.}}{27}{table.caption.21}}
 \@writefile{lot}{\contentsline {table}{\numberline {3.2}{\ignorespaces Exposures anticipated for the DUNE experiment for the first few years of operation.}}{46}{table.caption.35}}
 \@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Details and dimensions of the 35\nobreakspace  {}ton cryostat.}}{70}{table.caption.54}}
 \@writefile{lot}{\contentsline {table}{\numberline {7.1}{\ignorespaces Measurements of all the APA offsets determined from the 35\nobreakspace  {}ton TPC data.}}{163}{table.caption.128}}
 \@writefile{lot}{\contentsline {table}{\numberline {7.2}{\ignorespaces The corrected gaps between the APAs, in $x$ and $z$, based on the offsets measured (Table \ref  {tab:APAGapOffsets}).}}{163}{table.caption.128}}
-\@writefile{toc}{\contentsline {chapter}{Appendix \numberline {A}How to install \LaTeX  }{207}{Appendix.a.A}}
-\@writefile{toc}{\contentsline {chapter}{Appendix \numberline {B}Installing the CUED class file}{211}{Appendix.a.B}}
 \@writefile{toc}{\contentsline {chapter}{List of acronyms}{xxv}{chapter*.7}}
 \@writefile{toc}{\contentsline {chapter}{List of figures}{xv}{chapter*.5}}
 \@writefile{toc}{\contentsline {chapter}{List of tables}{xxiii}{chapter*.6}}
@@ -220,8 +212,8 @@
 \@writefile{toc}{\contentsline {section}{\numberline {3.5}The Road to DUNE}{53}{section.3.5}}
 \@writefile{toc}{\contentsline {section}{\numberline {4.1}The Materials Test Stand and Liquid Argon Purity Demonstrator}{58}{section.4.1}}
 \@writefile{toc}{\contentsline {section}{\numberline {4.2}35\nobreakspace  {}ton Experiment: Phase\nobreakspace  {}I}{67}{section.4.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.3}35\nobreakspace  {}ton Experiment: Phase\nobreakspace  {}II}{74}{section.4.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.4}Summary}{102}{section.4.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}35\nobreakspace  {}ton Experiment: Phase\nobreakspace  {}II}{73}{section.4.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}Summary}{101}{section.4.4}}
 \@writefile{toc}{\contentsline {section}{\numberline {5.1}The LArSoft Framework}{103}{section.5.1}}
 \@writefile{toc}{\contentsline {section}{\numberline {5.2}The Reconstruction Chain}{105}{section.5.2}}
 \@writefile{toc}{\contentsline {section}{\numberline {5.3}Shower Reconstruction in LArTPCs}{111}{section.5.3}}
@@ -251,9 +243,9 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.3.3}Neutrino Mass}{22}{subsection.2.3.3}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}A Brief History of Time (Projection Chambers)}{26}{subsection.3.1.1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}LAr TPC Operation}{28}{subsection.3.1.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.3}LArTPC Challenges}{30}{subsection.3.1.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.3}LArTPC Challenges}{31}{subsection.3.1.3}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}Beam}{35}{subsection.3.3.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}Far Detector}{37}{subsection.3.3.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}Far Detector}{36}{subsection.3.3.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.3.3}Near Detector}{43}{subsection.3.3.3}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.4.1}Mass Hierarchy and CP Violation}{47}{subsection.3.4.1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.4.2}Oscillation Parameters}{49}{subsection.3.4.2}}
@@ -270,7 +262,7 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}Data Acquisition}{79}{subsection.4.3.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.3.3}The Sheffield Camera System}{86}{subsection.4.3.3}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.3.4}Phase\nobreakspace  {}II Run}{91}{subsection.4.3.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.5}Outcomes of Phase\nobreakspace  {}II}{95}{subsection.4.3.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.5}Outcomes of Phase\nobreakspace  {}II}{93}{subsection.4.3.5}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}Raw Charge Calibration}{105}{subsection.5.2.1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}Pattern Recognition}{108}{subsection.5.2.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.2.3}Calorimetry}{110}{subsection.5.2.3}}
@@ -311,8 +303,8 @@
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.1.1}Super-Kamiokande and the Atmospheric Sector}{11}{subsubsection.2.2.1.1}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.1.2}SNO and the Solar Sector}{13}{subsubsection.2.2.1.2}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.3.1}KamLAND and Reactor Neutrinos}{18}{subsubsection.2.2.3.1}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.2.1}Single-Phase}{37}{subsubsection.3.3.2.1}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.2.2}Dual-Phase}{40}{subsubsection.3.3.2.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.2.1}Single-Phase}{38}{subsubsection.3.3.2.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.2.2}Dual-Phase}{42}{subsubsection.3.3.2.2}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.3.1}Near Neutrino Detector}{43}{subsubsection.3.3.3.1}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.3.2}Beamline Measurement System}{45}{subsubsection.3.3.3.2}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.1.1}Filter Regeneration}{60}{subsubsection.4.1.1.1}}
@@ -330,8 +322,8 @@
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.3.2}Operation and Outcomes of 35\nobreakspace  {}ton Camera System}{88}{subsubsection.4.3.3.2}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.5.1}Cryostat and TPC}{95}{subsubsection.4.3.5.1}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.5.2}Triggering Systems: Photon Detectors and Muon Counters}{96}{subsubsection.4.3.5.2}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.5.3}DAQ and Computing}{97}{subsubsection.4.3.5.3}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.5.4}Noise Issues}{98}{subsubsection.4.3.5.4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.5.3}DAQ and Computing}{96}{subsubsection.4.3.5.3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.5.4}Noise Issues}{97}{subsubsection.4.3.5.4}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.3.1}Energy Determination}{110}{subsubsection.5.2.3.1}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.3.2}Shower Energy Reconstruction}{110}{subsubsection.5.2.3.2}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.3.3}Neutrino Energy Reconstruction}{111}{subsubsection.5.2.3.3}}
@@ -353,7 +345,7 @@
 \AtEndDocument{\ifx\hyper@anchor\@undefined
 \HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
 \bibdata{References/references}
-\bibstyle{andyisgreat}
+\bibstyle{mikethesis3}
 \citation{35tonCameraVideo}
 \citation{35tonCameras2017}
 \citation{35tonCameras2017}
@@ -370,8 +362,9 @@
 \citation{35tonExternalCounters}
 \citation{35tonGeometryAlion2014}
 \citation{35tonGeometryAlion2014}
+\citation{35tonLessonsLearned}
 \citation{35tonNoise2016}
-\citation{35tonPhaseI2014Cryostat,35tonPhaseI2014,35tonPhaseI2015}
+\citation{35tonPhaseI2014,35tonPhaseI2014Cryostat,35tonPhaseI2015}
 \citation{35tonPhaseI2014}
 \citation{35tonPhaseI2014}
 \citation{35tonPhaseI2014}
@@ -546,6 +539,8 @@
 \citation{Mannel2007}
 \citation{MicroBooNE2017}
 \citation{MicroBooNECosmics2016}
+\citation{MicroBooNENoise2017}
+\citation{MicroBooNENoise2017}
 \citation{MicroBooNERawCharge2016}
 \citation{MicroBooNERawCharge2016}
 \citation{MicroBooNERawCharge2016}
@@ -602,6 +597,8 @@
 \citation{T2K2017}
 \citation{T2Knue2014}
 \citation{T2Knumu2014}
+\citation{Thomas1987,Amoruso2004,Kubota1978}
+\citation{Thomas1987,Amoruso2004,Kubota1978}
 \citation{Triotsk2011,Mainz2005}
 \citation{VMS}
 \citation{VMS}
@@ -830,10 +827,6 @@
 \newlabel{fig:LAPDPistonPurge}
 \newlabel{fig:LAPD}
 \newlabel{fig:LArSoftStructure}
-\newlabel{fig:LArTPCOperation1}
-\newlabel{fig:LArTPCOperation2}
-\newlabel{fig:LArTPCOperation3}
-\newlabel{fig:LArTPCOperation4}
 \newlabel{fig:LArTPCOperation}
 \newlabel{fig:LEPZ0Resonance}
 \newlabel{fig:LongBoPurity}
@@ -1130,10 +1123,6 @@
 \newlabel{sub@fig:HitTimesZoom}
 \newlabel{sub@fig:LAPDPistonPurgeImpurities}
 \newlabel{sub@fig:LAPDPistonPurgeSchematic}
-\newlabel{sub@fig:LArTPCOperation1}
-\newlabel{sub@fig:LArTPCOperation2}
-\newlabel{sub@fig:LArTPCOperation3}
-\newlabel{sub@fig:LArTPCOperation4}
 \newlabel{sub@fig:MatterEffectsCC}
 \newlabel{sub@fig:MatterEffectsNC}
 \newlabel{sub@fig:NormalNoiseState}
@@ -1189,10 +1178,6 @@
 \providecommand\hyper@newdestlabel[2]{}
 \providecommand\hyper@newdestlabel[2]{}
 \providecommand\hyper@newdestlabel[2]{}
-\providecommand\hyper@newdestlabel[2]{}
-\providecommand\hyper@newdestlabel[2]{}
-\setcounter{@ppsaveapp}{0}
-\setcounter{@ppsaveapp}{0}
 \setcounter{@ppsaveapp}{0}
 \setcounter{@ppsaveapp}{0}
 \setcounter{@ppsaveapp}{0}
@@ -1221,8 +1206,6 @@
 \setcounter{@ppsavesec}{0}
 \setcounter{@ppsavesec}{0}
 \setcounter{@ppsavesec}{0}
-\setcounter{@ppsavesec}{9}
-\setcounter{@ppsavesec}{9}
 \setcounter{@pps}{0}
 \setcounter{@pps}{0}
 \setcounter{@pps}{0}
@@ -1237,8 +1220,6 @@
 \setcounter{@pps}{0}
 \setcounter{@pps}{0}
 \setcounter{@pps}{0}
-\setcounter{@pps}{1}
-\setcounter{@pps}{1}
 \setcounter{ContinuedFloat}{0}
 \setcounter{ContinuedFloat}{0}
 \setcounter{ContinuedFloat}{0}
@@ -1253,10 +1234,6 @@
 \setcounter{ContinuedFloat}{0}
 \setcounter{ContinuedFloat}{0}
 \setcounter{ContinuedFloat}{0}
-\setcounter{ContinuedFloat}{0}
-\setcounter{ContinuedFloat}{0}
-\setcounter{Hfootnote}{0}
-\setcounter{Hfootnote}{0}
 \setcounter{Hfootnote}{0}
 \setcounter{Hfootnote}{0}
 \setcounter{Hfootnote}{0}
@@ -1285,14 +1262,10 @@
 \setcounter{Item}{0}
 \setcounter{Item}{0}
 \setcounter{Item}{0}
-\setcounter{Item}{23}
-\setcounter{Item}{23}
 \setcounter{LT@chunks}{0}
 \setcounter{LT@chunks}{0}
 \setcounter{LT@chunks}{0}
 \setcounter{LT@chunks}{0}
-\setcounter{LT@chunks}{5}
-\setcounter{LT@chunks}{5}
 \setcounter{LT@chunks}{5}
 \setcounter{LT@chunks}{5}
 \setcounter{LT@chunks}{5}
@@ -1317,8 +1290,6 @@
 \setcounter{LT@tables}{1}
 \setcounter{LT@tables}{1}
 \setcounter{LT@tables}{1}
-\setcounter{LT@tables}{1}
-\setcounter{LT@tables}{1}
 \setcounter{NAT@ctr}{0}
 \setcounter{NAT@ctr}{0}
 \setcounter{NAT@ctr}{0}
@@ -1333,8 +1304,6 @@
 \setcounter{NAT@ctr}{0}
 \setcounter{NAT@ctr}{0}
 \setcounter{NAT@ctr}{0}
-\setcounter{NAT@ctr}{169}
-\setcounter{NAT@ctr}{169}
 \setcounter{bookmark@seq@number}{0}
 \setcounter{bookmark@seq@number}{0}
 \setcounter{bookmark@seq@number}{0}
@@ -1342,8 +1311,6 @@
 \setcounter{bookmark@seq@number}{102}
 \setcounter{bookmark@seq@number}{110}
 \setcounter{bookmark@seq@number}{111}
-\setcounter{bookmark@seq@number}{113}
-\setcounter{bookmark@seq@number}{114}
 \setcounter{bookmark@seq@number}{20}
 \setcounter{bookmark@seq@number}{37}
 \setcounter{bookmark@seq@number}{4}
@@ -1357,8 +1324,6 @@
 \setcounter{chapter}{0}
 \setcounter{chapter}{0}
 \setcounter{chapter}{1}
-\setcounter{chapter}{1}
-\setcounter{chapter}{2}
 \setcounter{chapter}{2}
 \setcounter{chapter}{3}
 \setcounter{chapter}{4}
@@ -1381,8 +1346,6 @@
 \setcounter{enumiii}{0}
 \setcounter{enumiii}{0}
 \setcounter{enumiii}{0}
-\setcounter{enumiii}{0}
-\setcounter{enumiii}{0}
 \setcounter{enumii}{0}
 \setcounter{enumii}{0}
 \setcounter{enumii}{0}
@@ -1397,10 +1360,6 @@
 \setcounter{enumii}{0}
 \setcounter{enumii}{0}
 \setcounter{enumii}{0}
-\setcounter{enumii}{0}
-\setcounter{enumii}{0}
-\setcounter{enumiv}{0}
-\setcounter{enumiv}{0}
 \setcounter{enumiv}{0}
 \setcounter{enumiv}{0}
 \setcounter{enumiv}{0}
@@ -1429,10 +1388,6 @@
 \setcounter{enumi}{0}
 \setcounter{enumi}{0}
 \setcounter{enumi}{0}
-\setcounter{enumi}{6}
-\setcounter{enumi}{6}
-\setcounter{equation}{0}
-\setcounter{equation}{0}
 \setcounter{equation}{0}
 \setcounter{equation}{0}
 \setcounter{equation}{0}
@@ -1447,8 +1402,6 @@
 \setcounter{equation}{3}
 \setcounter{equation}{4}
 \setcounter{equation}{6}
-\setcounter{figure}{0}
-\setcounter{figure}{0}
 \setcounter{figure}{0}
 \setcounter{figure}{0}
 \setcounter{figure}{0}
@@ -1477,10 +1430,6 @@
 \setcounter{footnote}{0}
 \setcounter{footnote}{0}
 \setcounter{footnote}{0}
-\setcounter{footnote}{0}
-\setcounter{footnote}{0}
-\setcounter{mpfootnote}{0}
-\setcounter{mpfootnote}{0}
 \setcounter{mpfootnote}{0}
 \setcounter{mpfootnote}{0}
 \setcounter{mpfootnote}{0}
@@ -1502,17 +1451,13 @@
 \setcounter{page}{192}
 \setcounter{page}{195}
 \setcounter{page}{196}
-\setcounter{page}{211}
-\setcounter{page}{212}
 \setcounter{page}{25}
 \setcounter{page}{28}
 \setcounter{page}{3}
 \setcounter{page}{4}
 \setcounter{page}{56}
 \setcounter{page}{6}
-\setcounter{page}{9}
-\setcounter{paragraph}{0}
-\setcounter{paragraph}{0}
+\setcounter{page}{8}
 \setcounter{paragraph}{0}
 \setcounter{paragraph}{0}
 \setcounter{paragraph}{0}
@@ -1541,10 +1486,6 @@
 \setcounter{parentequation}{0}
 \setcounter{parentequation}{0}
 \setcounter{parentequation}{0}
-\setcounter{parentequation}{0}
-\setcounter{parentequation}{0}
-\setcounter{part}{0}
-\setcounter{part}{0}
 \setcounter{part}{0}
 \setcounter{part}{0}
 \setcounter{part}{0}
@@ -1565,8 +1506,6 @@
 \setcounter{section@level}{0}
 \setcounter{section@level}{0}
 \setcounter{section@level}{0}
-\setcounter{section@level}{1}
-\setcounter{section@level}{1}
 \setcounter{section@level}{1}
 \setcounter{section@level}{1}
 \setcounter{section@level}{1}
@@ -1582,8 +1521,6 @@
 \setcounter{section}{0}
 \setcounter{section}{0}
 \setcounter{section}{0}
-\setcounter{section}{0}
-\setcounter{section}{0}
 \setcounter{section}{3}
 \setcounter{section}{3}
 \setcounter{section}{3}
@@ -1591,8 +1528,6 @@
 \setcounter{section}{5}
 \setcounter{section}{5}
 \setcounter{section}{5}
-\setcounter{subfigure}{0}
-\setcounter{subfigure}{0}
 \setcounter{subfigure}{0}
 \setcounter{subfigure}{0}
 \setcounter{subfigure}{0}
@@ -1621,10 +1556,6 @@
 \setcounter{subparagraph}{0}
 \setcounter{subparagraph}{0}
 \setcounter{subparagraph}{0}
-\setcounter{subparagraph}{0}
-\setcounter{subparagraph}{0}
-\setcounter{subsection}{0}
-\setcounter{subsection}{0}
 \setcounter{subsection}{0}
 \setcounter{subsection}{0}
 \setcounter{subsection}{0}
@@ -1639,8 +1570,6 @@
 \setcounter{subsection}{2}
 \setcounter{subsection}{3}
 \setcounter{subsection}{5}
-\setcounter{subsubsection}{0}
-\setcounter{subsubsection}{0}
 \setcounter{subsubsection}{0}
 \setcounter{subsubsection}{0}
 \setcounter{subsubsection}{0}
@@ -1669,10 +1598,6 @@
 \setcounter{subtable}{0}
 \setcounter{subtable}{0}
 \setcounter{subtable}{0}
-\setcounter{subtable}{0}
-\setcounter{subtable}{0}
-\setcounter{table}{0}
-\setcounter{table}{0}
 \setcounter{table}{0}
 \setcounter{table}{0}
 \setcounter{table}{0}
@@ -1687,8 +1612,6 @@
 \setcounter{table}{1}
 \setcounter{table}{2}
 \setcounter{table}{2}
-}
-}
 }
 }
 }

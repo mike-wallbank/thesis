@@ -206,10 +206,6 @@
 \newlabel{fig:LAPDPistonPurge}
 \newlabel{fig:LAPD}
 \newlabel{fig:LArSoftStructure}
-\newlabel{fig:LArTPCOperation1}
-\newlabel{fig:LArTPCOperation2}
-\newlabel{fig:LArTPCOperation3}
-\newlabel{fig:LArTPCOperation4}
 \newlabel{fig:LArTPCOperation}
 \newlabel{fig:LEPZ0Resonance}
 \newlabel{fig:LongBoPurity}
@@ -506,10 +502,6 @@
 \newlabel{sub@fig:HitTimesZoom}
 \newlabel{sub@fig:LAPDPistonPurgeImpurities}
 \newlabel{sub@fig:LAPDPistonPurgeSchematic}
-\newlabel{sub@fig:LArTPCOperation1}
-\newlabel{sub@fig:LArTPCOperation2}
-\newlabel{sub@fig:LArTPCOperation3}
-\newlabel{sub@fig:LArTPCOperation4}
 \newlabel{sub@fig:MatterEffectsCC}
 \newlabel{sub@fig:MatterEffectsNC}
 \newlabel{sub@fig:NormalNoiseState}

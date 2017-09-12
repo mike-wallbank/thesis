@@ -84,8 +84,6 @@ thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,35tonAnalysis/3
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Abstract/abstract.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Acknowledgements/acknowledgements.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Acronyms/acronyms.tex)
-thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Appendix1/appendix1.tex)
-thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Appendix2/appendix2.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Classes/PhDThesisPSnPDF.cls)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,DUNE/DUNE.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Declaration/declaration.tex)
@@ -139,18 +137,9 @@ thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/NygrenTPC.png)
 -include DUNE/Figs/RubbiaLArTPC.png.gpi.d
 thesis.d: $$(call graphics-source,DUNE/Figs/RubbiaLArTPC.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/RubbiaLArTPC.png)
--include DUNE/Figs/LArTPCOperation1.png.gpi.d
-thesis.d: $$(call graphics-source,DUNE/Figs/LArTPCOperation1.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/LArTPCOperation1.png)
--include DUNE/Figs/LArTPCOperation2.png.gpi.d
-thesis.d: $$(call graphics-source,DUNE/Figs/LArTPCOperation2.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/LArTPCOperation2.png)
--include DUNE/Figs/LArTPCOperation3.png.gpi.d
-thesis.d: $$(call graphics-source,DUNE/Figs/LArTPCOperation3.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/LArTPCOperation3.png)
--include DUNE/Figs/LArTPCOperation4.png.gpi.d
-thesis.d: $$(call graphics-source,DUNE/Figs/LArTPCOperation4.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/LArTPCOperation4.png)
+-include DUNE/Figs/LArTPCOperation.pdf.gpi.d
+thesis.d: $$(call graphics-source,DUNE/Figs/LArTPCOperation.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/LArTPCOperation.pdf)
 -include DUNE/Figs/TwoPeakAmbiguity.pdf.gpi.d
 thesis.d: $$(call graphics-source,DUNE/Figs/TwoPeakAmbiguity.pdf)
 thesis.pdf thesis._graphics: $$(call graphics-target,DUNE/Figs/TwoPeakAmbiguity.pdf)
@@ -265,9 +254,9 @@ thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/35tonGasFilling.
 -include 35ton/Figs/35tonLiquidFilling.pdf.gpi.d
 thesis.d: $$(call graphics-source,35ton/Figs/35tonLiquidFilling.pdf)
 thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/35tonLiquidFilling.pdf)
--include 35ton/Figs/35tonPhaseIElectronLifetime.pdf.gpi.d
-thesis.d: $$(call graphics-source,35ton/Figs/35tonPhaseIElectronLifetime.pdf)
-thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/35tonPhaseIElectronLifetime.pdf)
+-include 35ton/Figs/35tonPhaseIElectronLifetimeEdit.pdf.gpi.d
+thesis.d: $$(call graphics-source,35ton/Figs/35tonPhaseIElectronLifetimeEdit.pdf)
+thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/35tonPhaseIElectronLifetimeEdit.pdf)
 -include 35ton/Figs/35tonDetector.pdf.gpi.d
 thesis.d: $$(call graphics-source,35ton/Figs/35tonDetector.pdf)
 thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/35tonDetector.pdf)
@@ -316,9 +305,9 @@ thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/35tonCamerasDegr
 -include 35ton/Figs/35tonPipeBreak.png.gpi.d
 thesis.d: $$(call graphics-source,35ton/Figs/35tonPipeBreak.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/35tonPipeBreak.png)
--include 35ton/Figs/35tonPhaseIIData.png.gpi.d
-thesis.d: $$(call graphics-source,35ton/Figs/35tonPhaseIIData.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/35tonPhaseIIData.png)
+-include 35ton/Figs/35tonPhaseIIDataEdit.png.gpi.d
+thesis.d: $$(call graphics-source,35ton/Figs/35tonPhaseIIDataEdit.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/35tonPhaseIIDataEdit.png)
 -include 35ton/Figs/FamousShower.pdf.gpi.d
 thesis.d: $$(call graphics-source,35ton/Figs/FamousShower.pdf)
 thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/FamousShower.pdf)

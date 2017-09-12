@@ -87,43 +87,49 @@ where in Equation~\ref{eq:ScintillationExcitation} the argon is excited to a hig
 
 \begin{figure}
   \centering
-  \includegraphics[width=12cm]{ElectricFieldScintillationIonisation.png}
-  \caption[Effect of electric field on luminosity of ionisation electrons and scintillation light in a LArTPC.]{Demonstration of the competing effect the electric field has on the luminosity of the ionisation electrons and scintillation light arriving at the detector readout.  Since both are essential in reconstructing the complete interactions, a balance must be found. [PLACEHOLDER IMAGE].}
+  \includegraphics[width=12cm]{ElectricFieldScintillationIonisation.pdf}
+  \caption[Effect of electric field on luminosity of ionisation electrons and scintillation light in a LArTPC.]{Demonstration of the competing effect the electric field has on the luminosity of the ionisation electrons and scintillation light arriving at the detector readout \cite{Thomas1987,Amoruso2004,Kubota1978}.  The solid lines represent the charge recombination whilst the dashed lines demonstrate light recombination.  The numberical labels are the specific energy loss (dE/dx) in units of mip.  Since information from both is essential in reconstructing the complete interactions, a balance must be found.  Image made by Craig Thorn, LBNE Document Database 4482.}
   \label{fig:ElectricFieldScintillationIonisation}
 \end{figure}
 
 The basic operational principles of a LArTPC are demonstrated in Figure~\ref{fig:LArTPCOperation}.  The specifics of how the ionisation charge and the scintillation light is collected and processed is experiment-specific and will be discussed in the context of DUNE in Chapter \ref{chap:DUNE} and the 35~ton experiment in Chapter \ref{chap:35ton}.  This information is all that is required to fully understand and analyse the interactions occurring in the detector; methods used to reconstruct particles and interactions in LAr will be the subject of Chapter \ref{chap:LArTPCReconstruction}.
 
-\begin{figure}[p]
+%% \begin{figure}[p]
+%%   \centering
+%%   \begin{subfigure}[t]{0.48\linewidth}
+%%     \centering
+%%     \includegraphics[width=0.98\textwidth]{LArTPCOperation1.png}
+%%     \caption{Typical LArTPC with one cathode (left) and three read out anode planes (right) (two induction, U and V, and one collection, Y), setting up an electric field.  The central region is filled with liquid argon.}
+%%     \label{fig:LArTPCOperation1}
+%%   \end{subfigure}
+%%   \hfill
+%%   \begin{subfigure}[t]{0.48\linewidth}
+%%     \centering
+%%     \includegraphics[width=0.98\textwidth]{LArTPCOperation2.png}
+%%     \caption{An ionising particle enters the detector and liberates electrons from the medium, which then drift towards the anode planes.}
+%%     \label{fig:LArTPCOperation2}
+%%   \end{subfigure}
+%%   \hfill
+%%     \begin{subfigure}[t]{0.48\linewidth}
+%%     \centering
+%%     \includegraphics[width=0.98\textwidth]{LArTPCOperation3.png}
+%%     \caption{As the electrons drift through, charge is induced on the first two wire planes and collected on the final one.  Due to the differing orientations of the wires between planes, three complementary views of the interaction are provided (two are shown).}
+%%     \label{fig:LArTPCOperation3}
+%%   \end{subfigure}
+%%   \hfill
+%%   \begin{subfigure}[t]{0.48\linewidth}
+%%     \centering
+%%     \includegraphics[width=0.98\textwidth]{LArTPCOperation4.png}
+%%     \caption{By combining the two dimensional information provided by the anode planes with the drift time information, the original particle tracks can be inferred.}
+%%     \label{fig:LArTPCOperation4}
+%%   \end{subfigure}
+%%   \caption[Schematic demonstrating the basic operational principles of a LArTPC.]{Schematic demonstrating the basic operational principles of a LArTPC.  The images are stills taken from an illustration created by Bo Yu (BNL).}
+%%   \label{fig:LArTPCOperation}
+%% \end{figure}
+\begin{figure}
   \centering
-  \begin{subfigure}[t]{0.48\linewidth}
-    \centering
-    \includegraphics[width=0.98\textwidth]{LArTPCOperation1.png}
-    \caption{Typical LArTPC with one cathode (left) and three read out anode planes (right) (two induction, U and V, and one collection, Y), setting up an electric field.  The central region is filled with liquid argon.}
-    \label{fig:LArTPCOperation1}
-  \end{subfigure}
-  \hfill
-  \begin{subfigure}[t]{0.48\linewidth}
-    \centering
-    \includegraphics[width=0.98\textwidth]{LArTPCOperation2.png}
-    \caption{An ionising particle enters the detector and liberates electrons from the medium, which then drift towards the anode planes.}
-    \label{fig:LArTPCOperation2}
-  \end{subfigure}
-  \hfill
-    \begin{subfigure}[t]{0.48\linewidth}
-    \centering
-    \includegraphics[width=0.98\textwidth]{LArTPCOperation3.png}
-    \caption{As the electrons drift through, charge is induced on the first two wire planes and collected on the final one.  Due to the differing orientations of the wires between planes, three complementary views of the interaction are provided (two are shown).}
-    \label{fig:LArTPCOperation3}
-  \end{subfigure}
-  \hfill
-  \begin{subfigure}[t]{0.48\linewidth}
-    \centering
-    \includegraphics[width=0.98\textwidth]{LArTPCOperation4.png}
-    \caption{By combining the two dimensional information provided by the anode planes with the drift time information, the original particle tracks can be inferred.}
-    \label{fig:LArTPCOperation4}
-  \end{subfigure}
-  \caption[Schematic demonstrating the basic operational principles of a LArTPC.]{Schematic demonstrating the basic operational principles of a LArTPC.  The images are stills taken from an illustration created by Bo Yu (BNL) {\color{red}(do I need to cite this?  It's a very common slide and I can't actually find a Bo Yu talk with it in... everyone just puts his name on the slide!)}.}
+  \includegraphics[width=12cm]{LArTPCOperation.pdf}
+  \caption[Schematic demonstrating the basic operation principles of a LArTPC.]{Schematic demonstrating the basic operation principles of a LArTPC \cite{MicroBooNENoise2017}.  The cathode is shown on the left-hand side and the anode readout wires, with three complementary planes (two induction, U and V, and one collection, Y), are demonstrated on the right-hand side.  A through-going ionising particle will liberate electrons from the LAr which drift in the electric field; charge is induced on the first two wire planes and collected on the final one.  Due to the differing orientations of the wires between planes, three views of the interaction are provided (two are demonstrated in the figure) and combining the information from multiple views with the drift time information facilitates a complete understanding of the original particle tracks.}
   \label{fig:LArTPCOperation}
 \end{figure}
 
@@ -162,7 +168,7 @@ DUNE was officially formed in early 2015 following the dissolution and merging o
 
 The experiment will be facilitated by the Long Baseline Neutrino Facility (LBNF), which will oversee the technical side of the project and ensure the DUNE experiment can function as desired.  The relationship between the LBNF and the DUNE projects is based on the model used at CERN to manage the Large Hadron Collider (LHC) and each of the experiments which use it.  LBNF has its own management structure and operates separately from DUNE, though the two projects work closely together.  It is supported mainly via the Department of Energy in the U.S. whereas DUNE is internationally funded.  The DUNE collaboration is responsible for defining the scientific goals of the experiment and the corresponding technical requirements.  Using these, LBNF will design and construct all technical facilities, such as the beam upgrade, the facilities for the near detectors at Fermilab and the excavation and outfitting of the large caverns for the far detectors underground at SURF along the required infrastructure to support the construction of the cryostats and the associated cryogenic systems.  DUNE will provide the four massive LArTPCs and the near detector systems, to be constructed at the sites supplied by LBNF.  These will be discussed further in Section~\ref{sec:DUNEExperiment}.  During the lifetime of the experiment, LBNF is responsible for the maintaining and operation of all the facilities whilst DUNE will commission and operate the detectors.  The scientific research program conducted with the collected data is the duty of the DUNE collaboration and will be explored in Section~\ref{sec:DUNEPhysics}.
 
-Given the scale of the projects, work is already underway.  Construction at the far detector site starts this year, with installation of the first detector module due to commence in 2021.  The start of the DUNE experiment will then correspond to the completion of this module, scheduled in 2024.  The PIP-II upgraded 1.2~MW beam will be ready in 2025 and will signify the commencement of beam data taking.  Subsequent detector modules will be added as soon as is feasible thereafter, increasing the fiducial volume up to the target mass of 40~kt.  Further beam upgrades, up to 2.4~MW (PIP-III) are envisaged beyond this to bring the experiment up to full power and maximise the physics capability of the project.  The timescales of both LBNF and DUNE, along with all the essential research which must be conducted as the plans progress, is the subject of Section~\ref{sec:RoadToDUNE}.
+Given the scale of the projects, work is already underway.  Construction at the far detector began with groundbreaking on 21st July 2017, with installation of the first detector module due to commence in 2021.  The start of the DUNE experiment will then correspond to the completion of this module, scheduled in 2024.  The PIP-II upgraded 1.2~MW beam will be ready in 2025 and will signify the commencement of beam data taking.  Subsequent detector modules will be added as soon as is feasible thereafter, increasing the fiducial volume up to the target mass of 40~kt.  Further beam upgrades, up to 2.4~MW (PIP-III) are envisaged beyond this to bring the experiment up to full power and maximise the physics capability of the project.  The timescales of both LBNF and DUNE, along with all the essential research which must be conducted as the plans progress, is the subject of Section~\ref{sec:RoadToDUNE}.
 
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \section{Experimental Details}\label{sec:DUNEExperiment}

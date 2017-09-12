@@ -1,927 +1,964 @@
 \begin{thebibliography}{100}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
 
 \bibitem{Glashow1961}
-Sheldon~L Glashow.
-\newblock {Partial-symmetries of weak interactions}.
-\newblock {\em Nuclear Physics}, 22(4):579--588, 1961.
+S.~L. Glashow; \emph{{Partial-symmetries of weak interactions}}; Nuclear
+  Physics \textbf{22}, 4, 579--588 (1961).
+\newline\urlprefix\url{http://dx.doi.org/10.1016/0029-5582(61)90469-2}
 
 \bibitem{Weinberg1967}
-Steven Weinberg.
-\newblock {A Model of Leptons}.
-\newblock {\em Phys. Rev. Lett.}, 19(21):1264--1266, 1967.
+S.~Weinberg; \emph{{A Model of Leptons}}; Phys. Rev. Lett. \textbf{19}, 21,
+  1264--1266 (1967).
+\newline\urlprefix\url{http://dx.doi.org/10.1103/PhysRevLett.19.1264}
 
 \bibitem{Aad2012}
-G.~Aad, et~al.
-\newblock {Observation of a new particle in the search for the Standard Model
-  Higgs boson with the ATLAS detector at the LHC}.
-\newblock {\em Physics Letters B}, 716(1):1--29, 2012.
+G.~Aad, T.~Abajyan, B.~Abbott \emph{et~al.}; \emph{{Observation of a new
+  particle in the search for the Standard Model Higgs boson with the ATLAS
+  detector at the LHC}}; Physics Letters B \textbf{716}, 1, 1--29 (2012).
+\newline\urlprefix\url{http://dx.doi.org/10.1016/j.physletb.2012.08.020}
 
 \bibitem{Chatrchyan2012}
-S.~Chatrchyan, et~al.
-\newblock {Observation of a new boson at a mass of 125 GeV with the CMS
-  experiment at the LHC}.
-\newblock {\em Physics Letters, Section B: Nuclear, Elementary Particle and
-  High-Energy Physics}, 716(1):30--61, 2012.
+S.~Chatrchyan, V.~Khachatryan, A.~M. Sirunyan \emph{et~al.}; \emph{{Observation
+  of a new boson at a mass of 125 GeV with the CMS experiment at the LHC}};
+  Physics Letters, Section B: Nuclear, Elementary Particle and High-Energy
+  Physics \textbf{716}, 1, 30--61 (2012).
+\newline\urlprefix\url{http://dx.doi.org/10.1016/j.physletb.2012.08.021}
 
 \bibitem{Shears2012}
-Tara Shears.
-\newblock {The Standard Model}.
-\newblock {\em Phil. Trans. Roy. Soc. Lond.}, A370:805--817, 2012.
+T.~Shears; \emph{{The Standard Model}}; Phil. Trans. Roy. Soc. Lond.
+  \textbf{A370}, 805--817 (2012).
+\newline\urlprefix\url{http://dx.doi.org/10.1098/rsta.2011.0314}
 
 \bibitem{Bilenky2015}
-S~M Bilenky.
-\newblock {Neutrino in standard model and beyond}.
-\newblock {\em Physics of Particles and Nuclei}, 46(4):475--496, 2015.
+S.~M. Bilenky; \emph{{Neutrino in standard model and beyond}}; Physics of
+  Particles and Nuclei \textbf{46}, 4, 475--496 (2015).
+\newline\urlprefix\url{http://dx.doi.org/10.1134/S1063779615040024}
 
 \bibitem{Ellis2012}
-John Ellis.
-\newblock {Outstanding questions: Physics beyond the Standard Model}.
-\newblock {\em Phil. Trans. Roy. Soc. Lond.}, A370:818--830, 2012.
+J.~Ellis; \emph{{Outstanding questions: Physics beyond the Standard Model}};
+  Phil. Trans. Roy. Soc. Lond. \textbf{A370}, 818--830 (2012).
+\newline\urlprefix\url{http://dx.doi.org/10.1098/rsta.2011.0452}
 
 \bibitem{SuperKamiokande1998}
-Y~Fukuda, et~al.
-\newblock {Evidence for Oscillation of Atmospheric Neutrinos}.
-\newblock {\em Phys. Rev. Lett.}, 81(8):1562--1567, 1998.
+Y.~Fukuda, T.~Hayakawa, E.~Ichihara \emph{et~al.}; \emph{{Evidence for
+  Oscillation of Atmospheric Neutrinos}}; Phys. Rev. Lett. \textbf{81}, 8,
+  1562--1567 (1998).
+\newline\urlprefix\url{http://dx.doi.org/10.1103/PhysRevLett.81.1562}
 
 \bibitem{SNO2002}
-Q~R Ahmad, et~al.
-\newblock {Direct Evidence for Neutrino Flavor Transformation from
-  Neutral-Current Interactions in the Sudbury Neutrino Observatory}.
-\newblock {\em Phys. Rev. Lett.}, 89(1):11301, 2002.
+Q.~R. Ahmad, R.~C. Allen, T.~C. Andersen \emph{et~al.}; \emph{{Direct Evidence
+  for Neutrino Flavor Transformation from Neutral-Current Interactions in the
+  Sudbury Neutrino Observatory}}; Phys. Rev. Lett. \textbf{89}, 1, 11301
+  (2002).
+\newline\urlprefix\url{http://dx.doi.org/10.1103/PhysRevLett.89.011301}
 
 \bibitem{Pauli1930}
-Wolfgang Pauli.
-\newblock {Open letter to the participants of the conference in Tubingen},
-  1930.
+W.~Pauli; \emph{{Open letter to the participants of the conference in
+  Tubingen}} (1930).
+\newline\urlprefix\url{http://microboone-docdb.fnal.gov/cgi-bin/RetrieveFile?docid=953;filename=pauli
+  letter1930.pdf}
 
 \bibitem{Fermi1934Italian}
-E~Fermi.
-\newblock {Trends to a Theory of beta Radiation. (In Italian)}.
-\newblock {\em Nuovo Cim.}, 11:1--19, 1934.
+E.~Fermi; \emph{{Trends to a Theory of beta Radiation. (In Italian)}}; Nuovo
+  Cim. \textbf{11}, 1--19 (1934).
+\newline\urlprefix\url{http://dx.doi.org/10.1007/BF02959820}
 
 \bibitem{Fermi1934German}
-E~Fermi.
-\newblock {Versuch einer Theorie der $\beta$-Strahlen. I}.
-\newblock {\em Zeitschrift f{\"{u}}r Physik}, 88(3):161--177, 1934.
+E.~Fermi; \emph{{Versuch einer Theorie der $\beta$-Strahlen. I}}; Zeitschrift
+  f{\"{u}}r Physik \textbf{88}, 3, 161--177 (1934).
+\newline\urlprefix\url{http://dx.doi.org/10.1007/BF01351864}
 
 \bibitem{Wilson1968}
-F.~Wilson.
-\newblock {Fermi's Theory of Beta Decay}.
-\newblock {\em American Journal of Physics}, 36(12):1150--1160, 1968.
+F.~Wilson; \emph{{Fermi's Theory of Beta Decay}}; American Journal of Physics
+  \textbf{36}, 12, 1150--1160 (1968).
+\newline\urlprefix\url{http://dx.doi.org/10.1119/1.1974382}
 
 \bibitem{Lewis1970}
-G~M Lewis.
-\newblock {\em {Neutrinos}}.
-\newblock Wykeham publications, London; Winchester, 1970.
+G.~M. Lewis; \emph{{Neutrinos}}; Wykeham publications, London; Winchester
+  (1970); ISBN 0851091407 9780851091402.
 
 \bibitem{Lattes1947-159}
-C~M~G Lattes, et~al.
-\newblock {Processes Involving Charged Mesons}.
-\newblock {\em Nature}, 159:694--697, 1947.
+C.~M.~G. Lattes, H.~Muirhead, G.~P.~S. Occhialini \emph{et~al.};
+  \emph{{Processes Involving Charged Mesons}}; Nature \textbf{159}, 694--697
+  (1947).
+\newline\urlprefix\url{http://dx.doi.org/10.1038/159694a0}
 
 \bibitem{Lattes1947-160}
-C~M~G Lattes, G~P~S Occhialini, and C~F Powell.
-\newblock {Observations on the Tracks of Slow Mesons in Photographic Emulsions.
-  1}.
-\newblock {\em Nature}, 160:453--456,486--492, 1947.
+C.~M.~G. Lattes, G.~P.~S. Occhialini, and C.~F. Powell; \emph{{Observations on
+  the Tracks of Slow Mesons in Photographic Emulsions. 1}}; Nature
+  \textbf{160}, 453--456, 486--492 (1947).
+\newline\urlprefix\url{http://dx.doi.org/10.1038/160453a0}
 
 \bibitem{Brown1949}
-R~Brown, et~al.
-\newblock {Observations With Electron Sensitive Plates Exposed to Cosmic
-  Radiation}.
-\newblock {\em Nature}, 163:82, 1949.
+R.~Brown, U.~Camerini, P.~H. Fowler \emph{et~al.}; \emph{{Observations With
+  Electron Sensitive Plates Exposed to Cosmic Radiation}}; Nature \textbf{163},
+  82 (1949).
+\newline\urlprefix\url{http://dx.doi.org/10.1038/163082a0}
 
 \bibitem{ReinesCowanLiquidScintillation}
-C~L Cowan, et~al.
-\newblock {Large Liquid Scintillation Detectors}.
-\newblock {\em Phys. Rev.}, 90(3):493--494, 1953.
+C.~L. Cowan, F.~Reines, F.~B. Harrison \emph{et~al.}; \emph{{Large Liquid
+  Scintillation Detectors}}; Phys. Rev. \textbf{90}, 3, 493--494 (1953).
+\newline\urlprefix\url{http://dx.doi.org/10.1103/PhysRev.90.493}
 
 \bibitem{ReinesCowan1953Proposal}
-F.~Reines and C.~L. Cowan.
-\newblock {A proposed experiment to detect the free neutrino}, 1953.
+F.~Reines and C.~L. Cowan; \emph{{A proposed experiment to detect the free
+  neutrino}}; Physical Review \textbf{90}, 3, 492--493 (1953).
+\newline\urlprefix\url{http://dx.doi.org/10.1103/PhysRev.90.492.2}
 
 \bibitem{ReinesCowan1953}
-F.~Reines and C.~L. Cowan.
-\newblock {Detection of the free neutrino}.
-\newblock {\em Physical Review}, 92(3):830--831, 1953.
+F.~Reines and C.~L. Cowan; \emph{{Detection of the free neutrino}}; Physical
+  Review \textbf{92}, 3, 830--831 (1953).
+\newline\urlprefix\url{http://dx.doi.org/10.1103/PhysRev.92.830}
 
 \bibitem{ReinesCowan1956}
-C~L Cowan, et~al.
-\newblock {Detection of the Free Neutrino: a Confirmation}.
-\newblock {\em Science}, 124(3212):103--104, 1956.
+C.~L. Cowan, F.~Reines, F.~B. Harris \emph{et~al.}; \emph{{Detection of the
+  Free Neutrino: a Confirmation}}; Science \textbf{124}, 3212, 103--104 (1956).
+\newline\urlprefix\url{http://dx.doi.org/10.1126/science.124.3212.103}
 
 \bibitem{Davis1959}
-Raymond {Davis Jr.} and Don~S Harmer.
-\newblock {Attempt to observe the Cl$^{37}(\bar{\nu}e^-)$Ar$^{37}$ reaction
-  induced by reactor antineutrinos}.
-\newblock {\em Bull. Am. Phys. Soc.}, 4:217, 1959.
+R.~{Davis Jr.} and D.~S. Harmer; \emph{{Attempt to observe the
+  Cl$^{37}(\bar{\nu}e^-)$Ar$^{37}$ reaction induced by reactor antineutrinos}};
+  Bull. Am. Phys. Soc. \textbf{4}, 217 (1959).
 
 \bibitem{Danby1962}
-G~Danby, et~al.
-\newblock {Observation of High-Energy Neutrino Reactions and the Existence of
-  Two Kinds of Neutrinos}.
-\newblock {\em Phys. Rev. Lett.}, 9(1):36--44, 1962.
+G.~Danby, J.-M. Gaillard, K.~Goulianos \emph{et~al.}; \emph{{Observation of
+  High-Energy Neutrino Reactions and the Existence of Two Kinds of Neutrinos}};
+  Phys. Rev. Lett. \textbf{9}, 1, 36--44 (1962).
+\newline\urlprefix\url{http://dx.doi.org/10.1103/PhysRevLett.9.36}
 
 \bibitem{Perl1975}
-M.~L. Perl, et~al.
-\newblock {Evidence for anomalous lepton production in $e^+$-$e^-$
-  annihilation}.
-\newblock {\em Physical Review Letters}, 35(22):1489--1492, 1975.
+M.~L. Perl, G.~S. Abrams, A.~M. Boyarski \emph{et~al.}; \emph{{Evidence for
+  anomalous lepton production in $e^+$-$e^-$ annihilation}}; Physical Review
+  Letters \textbf{35}, 22, 1489--1492 (1975).
+\newline\urlprefix\url{http://dx.doi.org/10.1103/PhysRevLett.35.1489}
 
 \bibitem{Feldman1977}
-G~J Feldman, et~al.
-\newblock {Inclusive Anomalous Muon Production in $e^+e^-$ Annihilation}.
-\newblock {\em Phys. Rev. Lett.}, 38(3):117--120, 1977.
+G.~J. Feldman, F.~Bulos, D.~L{\"{u}}ke \emph{et~al.}; \emph{{Inclusive
+  Anomalous Muon Production in $e^+e^-$ Annihilation}}; Phys. Rev. Lett.
+  \textbf{38}, 3, 117--120 (1977).
+\newline\urlprefix\url{http://dx.doi.org/10.1103/PhysRevLett.38.117}
 
 \bibitem{Burmester1977}
-J~Burmester, et~al.
-\newblock {Anomalous muon production in $e^+e^-$ annihilations as evidence for
-  heavy leptons}.
-\newblock {\em Physics Letters B}, 68(3):297--300, 1977.
+J.~Burmester, L.~Criegee, H.~C. Dehne \emph{et~al.}; \emph{{Anomalous muon
+  production in $e^+e^-$ annihilations as evidence for heavy leptons}}; Physics
+  Letters B \textbf{68}, 3, 297--300 (1977).
+\newline\urlprefix\url{http://dx.doi.org/10.1016/0370-2693(77)90292-1}
 
 \bibitem{DeCamp1989}
-D.~DeCamp, et~al.
-\newblock {Determination of the number of light neutrino species}.
-\newblock {\em Physics Letters B}, 231(4):519--529, 1989.
+D.~DeCamp, B.~Deschizeaux, J.~P. Lees \emph{et~al.}; \emph{{Determination of
+  the number of light neutrino species}}; Physics Letters B \textbf{231}, 4,
+  519--529 (1989).
+\newline\urlprefix\url{http://dx.doi.org/10.1016/0370-2693(89)90704-1}
 
 \bibitem{Adeva1989}
-B~Adeva, et~al.
-\newblock {A determination of the properties of the neutral intermediate vector
-  boson Z0}.
-\newblock {\em Physics Letters B}, 231(4):509--518, 1989.
+B.~Adeva, O.~Adriani, M.~Aguilar-Benitez \emph{et~al.}; \emph{{A determination
+  of the properties of the neutral intermediate vector boson Z0}}; Physics
+  Letters B \textbf{231}, 4, 509--518 (1989).
+\newline\urlprefix\url{http://dx.doi.org/10.1016/0370-2693(89)90703-X}
 
 \bibitem{Akrawy1989}
-M~Z Akrawy, et~al.
-\newblock {Measurement of the Z0 mass and width with the opal detector at LEP}.
-\newblock {\em Physics Letters B}, 231(4):530--538, 1989.
+M.~Z. Akrawy, G.~Alexander, J.~Allison \emph{et~al.}; \emph{{Measurement of the
+  Z0 mass and width with the opal detector at LEP}}; Physics Letters B
+  \textbf{231}, 4, 530--538 (1989).
+\newline\urlprefix\url{http://dx.doi.org/10.1016/0370-2693(89)90705-3}
 
 \bibitem{Aarnio1989}
-P~Aarnio, et~al.
-\newblock {Measurement of the mass and width of the Z0-particle from
-  multihadronic final states produced in $e^+e^-$ annihilations}.
-\newblock {\em Physics Letters B}, 231(4):539--547, 1989.
+P.~Aarnio, P.~Abreu, W.~Adam \emph{et~al.}; \emph{{Measurement of the mass and
+  width of the Z0-particle from multihadronic final states produced in $e^+e^-$
+  annihilations}}; Physics Letters B \textbf{231}, 4, 539--547 (1989).
+\newline\urlprefix\url{http://dx.doi.org/10.1016/0370-2693(89)90706-5}
 
 \bibitem{Schael2006}
-S.~Schael, et~al.
-\newblock {Precision electroweak measurements on the Z resonance}.
-\newblock {\em Physics Reports}, 427(5-6):257--454, 2006.
+S.~Schael, R.~Barate, R.~Bruneliere \emph{et~al.}; \emph{{Precision electroweak
+  measurements on the Z resonance}}; Physics Reports \textbf{427}, 5-6,
+  257--454 (2006).
+\newline\urlprefix\url{http://dx.doi.org/10.1016/j.physrep.2005.12.006}
 
 \bibitem{Kodama2001}
-K.~Kodama, et~al.
-\newblock {Observation of tau neutrino interactions}.
-\newblock {\em Physics Letters, Section B: Nuclear, Elementary Particle and
-  High-Energy Physics}, 504(3):218--224, 2001.
+K.~Kodama, N.~Ushida, C.~Andreopoulos \emph{et~al.}; \emph{{Observation of tau
+  neutrino interactions}}; Physics Letters, Section B: Nuclear, Elementary
+  Particle and High-Energy Physics \textbf{504}, 3, 218--224 (2001).
+\newline\urlprefix\url{http://dx.doi.org/10.1016/S0370-2693(01)00307-0}
 
 \bibitem{Bethe1939}
-H~A Bethe.
-\newblock {Energy Production in Stars}.
-\newblock {\em Phys. Rev.}, 55(5):434--456, 1939.
+H.~A. Bethe; \emph{{Energy Production in Stars}}; Phys. Rev. \textbf{55}, 5,
+  434--456 (1939).
+\newline\urlprefix\url{http://dx.doi.org/10.1103/PhysRev.55.434}
 
 \bibitem{Bahcall1968}
-John~N Bahcall, Neta~A Bahcall, and Giora Shaviv.
-\newblock {Present Status of the Theoretical Predictions for the
-  $^{37}\mathrm{Cl}$ Solar-Neutrino Experiment}.
-\newblock {\em Phys. Rev. Lett.}, 20(21):1209--1212, 1968.
+J.~N. Bahcall, N.~A. Bahcall, and G.~Shaviv; \emph{{Present Status of the
+  Theoretical Predictions for the $^{37}\mathrm{Cl}$ Solar-Neutrino
+  Experiment}}; Phys. Rev. Lett. \textbf{20}, 21, 1209--1212 (1968).
+\newline\urlprefix\url{http://dx.doi.org/10.1103/PhysRevLett.20.1209}
 
 \bibitem{Bahcall2005}
-John~N. Bahcall, Aldo~M. Serenelli, and Sarbani Basu.
-\newblock {New Solar Opacities, Abundances, Helioseismology, and Neutrino
-  Fluxes}.
-\newblock {\em The Astrophysical Journal}, 621(1):L85--L88, 2005.
+J.~N. Bahcall, A.~M. Serenelli, and S.~Basu; \emph{{New Solar Opacities,
+  Abundances, Helioseismology, and Neutrino Fluxes}}; The Astrophysical Journal
+  \textbf{621}, 1, L85--L88 (2005).
+\newline\urlprefix\url{http://dx.doi.org/10.1086/428929}
 
 \bibitem{Cleveland1995}
-B.~T. Cleveland, et~al.
-\newblock {Update on the measurement of the solar neutrino flux with the
-  Homestake chlorine detector}.
-\newblock {\em Nuclear Physics B (Proceedings Supplements)}, 38(1-3):47--53,
-  1995.
+B.~T. Cleveland, T.~Daily, R.~Davis \emph{et~al.}; \emph{{Update on the
+  measurement of the solar neutrino flux with the Homestake chlorine
+  detector}}; Nuclear Physics B (Proceedings Supplements) \textbf{38}, 1-3,
+  47--53 (1995).
+\newline\urlprefix\url{http://dx.doi.org/10.1016/0920-5632(94)00732-B}
 
 \bibitem{Bahcall1995}
-John~N Bahcall, M~H Pinsonneault, and G~J Wasserburg.
-\newblock {Solar models with helium and heavy-element diffusion}.
-\newblock {\em Rev. Mod. Phys.}, 67(4):781--808, 1995.
+J.~N. Bahcall, M.~H. Pinsonneault, and G.~J. Wasserburg; \emph{{Solar models
+  with helium and heavy-element diffusion}}; Rev. Mod. Phys. \textbf{67}, 4,
+  781--808 (1995).
+\newline\urlprefix\url{http://dx.doi.org/10.1103/RevModPhys.67.781}
 
 \bibitem{Abdurashitov1994}
-J.~N. Abdurashitov, et~al.
-\newblock {Results from SAGE (The Russian-American gallium solar neutrino
-  experiment)}.
-\newblock {\em Physics Letters B}, 328(1-2):234--248, 1994.
+J.~N. Abdurashitov, E.~L. Faizov, V.~N. Gavrin \emph{et~al.}; \emph{{Results
+  from SAGE (The Russian-American gallium solar neutrino experiment)}}; Physics
+  Letters B \textbf{328}, 1-2, 234--248 (1994).
+\newline\urlprefix\url{http://dx.doi.org/10.1016/0370-2693(94)90454-5}
 
 \bibitem{Anselmann1992}
-P.~Anselmann, et~al.
-\newblock {Solar neutrinos observed by GALLEX at Gran Sasso}.
-\newblock {\em Physics Letters B}, 285(4):376--389, 1992.
+P.~Anselmann, W.~Hampel, G.~Heusser \emph{et~al.}; \emph{{Solar neutrinos
+  observed by GALLEX at Gran Sasso}}; Physics Letters B \textbf{285}, 4,
+  376--389 (1992).
+\newline\urlprefix\url{http://dx.doi.org/10.1016/0370-2693(92)91521-A}
 
 \bibitem{Hampel1999}
-W.~Hampel, et~al.
-\newblock {GALLEX solar neutrino observations: Results for GALLEX IV}.
-\newblock {\em Physics Letters, Section B: Nuclear, Elementary Particle and
-  High-Energy Physics}, 447:127--133, 1999.
+W.~Hampel, G.~Heusser, J.~Kiko \emph{et~al.}; \emph{{GALLEX solar neutrino
+  observations: Results for GALLEX IV}}; Physics Letters, Section B: Nuclear,
+  Elementary Particle and High-Energy Physics \textbf{447}, 127--133 (1999).
+\newline\urlprefix\url{http://dx.doi.org/10.1016/S0370-2693(96)01121-5}
 
 \bibitem{Gaisser1990}
-E.~{Gaisser, T. K.; Engel, R.; Resconi}.
-\newblock {\em {Cosmic Rays and Particle Physics}}.
-\newblock Cambridge University Press, 1990.
+E.~{Gaisser, T. K.; Engel, R.; Resconi}; \emph{{Cosmic Rays and Particle
+  Physics}}; Cambridge University Press (1990); ISBN 9780521016469.
+\newline\urlprefix\url{http://www.cambridge.org/uk/catalogue/catalogue.asp?isbn=0521326672}
 
 \bibitem{Haines1986}
-T~J Haines, et~al.
-\newblock {Calculation of Atmospheric Neutrino-Induced Backgrounds in a
-  Nucleon-Decay Search}.
-\newblock {\em Phys. Rev. Lett.}, 57(16):1986--1989, 1986.
+T.~J. Haines, R.~M. Bionta, G.~Blewitt \emph{et~al.}; \emph{{Calculation of
+  Atmospheric Neutrino-Induced Backgrounds in a Nucleon-Decay Search}}; Phys.
+  Rev. Lett. \textbf{57}, 16, 1986--1989 (1986).
+\newline\urlprefix\url{http://dx.doi.org/10.1103/PhysRevLett.57.1986}
 
 \bibitem{Hirata1988}
-K~S Hirata, et~al.
-\newblock {Experimental study of the atmospheric neutrino flux}.
-\newblock {\em Physics Letters B}, 205(2):416--420, 1988.
+K.~S. Hirata, T.~Kajita, M.~Koshiba \emph{et~al.}; \emph{{Experimental study of
+  the atmospheric neutrino flux}}; Physics Letters B \textbf{205}, 2, 416--420
+  (1988).
+\newline\urlprefix\url{http://dx.doi.org/10.1016/0370-2693(88)91690-5}
 
 \bibitem{Mann1999}
-W~Anthony Mann.
-\newblock {Atmospheric neutrinos and the oscillations bonanza}.
-\newblock {\em Int. J. Mod. Phys.}, A15S1:229--256, 2000.
+W.~A. Mann; \emph{{Atmospheric neutrinos and the oscillations bonanza}}; Int.
+  J. Mod. Phys. \textbf{A15S1}, 229--256 (2000).
+\newline\urlprefix\url{http://dx.doi.org/10.1142/S0217751X00005176}
 
 \bibitem{Pontecorvo1968}
-B~Pontecorvo.
-\newblock {Neutrino Experiments and the Problem of Conservation of Leptonic
-  Charge}.
-\newblock {\em Sov. Phys. JETP}, 26:984--988, 1968.
+B.~Pontecorvo; \emph{{Neutrino Experiments and the Problem of Conservation of
+  Leptonic Charge}}; Sov. Phys. JETP \textbf{26}, 984--988 (1968).
 
 \bibitem{Pontecorvo1969}
-V~Gribov and B~Pontecorvo.
-\newblock {Neutrino astronomy and lepton charge}.
-\newblock {\em Physics Letters B}, 28(7):493--496, 1969.
+V.~Gribov and B.~Pontecorvo; \emph{{Neutrino astronomy and lepton charge}};
+  Physics Letters B \textbf{28}, 7, 493--496 (1969).
+\newline\urlprefix\url{http://dx.doi.org/10.1016/0370-2693(69)90525-5}
 
 \bibitem{Pontecorvo1957}
-B~Pontecorvo.
-\newblock {Mesonium and anti-mesonium}.
-\newblock {\em Sov. Phys. JETP}, 6:429, 1957.
+B.~Pontecorvo; \emph{{Mesonium and anti-mesonium}}; Sov. Phys. JETP \textbf{6},
+  429 (1957).
 
 \bibitem{Casper1991}
-D~Casper, et~al.
-\newblock {Measurement of atmospheric neutrino composition with the IMB-3
-  detector}.
-\newblock {\em Phys. Rev. Lett.}, 66(20):2561--2564, 1991.
+D.~Casper, R.~Becker-Szendy, C.~B. Bratton \emph{et~al.}; \emph{{Measurement of
+  atmospheric neutrino composition with the IMB-3 detector}}; Phys. Rev. Lett.
+  \textbf{66}, 20, 2561--2564 (1991).
+\newline\urlprefix\url{http://dx.doi.org/10.1103/PhysRevLett.66.2561}
 
 \bibitem{BeckerSzendy1992}
-R~Becker-Szendy, et~al.
-\newblock {Electron- and muon-neutrino content of the atmospheric flux}.
-\newblock {\em Phys. Rev. D}, 46(9):3720--3724, 1992.
+R.~Becker-Szendy, C.~B. Bratton, D.~Casper \emph{et~al.}; \emph{{Electron- and
+  muon-neutrino content of the atmospheric flux}}; Phys. Rev. D \textbf{46}, 9,
+  3720--3724 (1992).
+\newline\urlprefix\url{http://dx.doi.org/10.1103/PhysRevD.46.3720}
 
 \bibitem{Kamiokande1994}
-Y~Fukuda, et~al.
-\newblock {Atmospheric v$\mu$ve ratio in the multi-GeV energy range}.
-\newblock {\em Physics Letters B}, 335(2):237--245, 1994.
+Y.~Fukuda, T.~Hayakawa, K.~Inoue \emph{et~al.}; \emph{{Atmospheric
+  $\nu_{\mu}/\nu_e$ ratio in the multi-GeV energy range}}; Physics Letters B
+  \textbf{335}, 2, 237--245 (1994).
+\newline\urlprefix\url{http://dx.doi.org/10.1016/0370-2693(94)91420-6}
 
 \bibitem{Bahcall2005Fluxes}
-J~N Bahcall.
-\newblock {Solar Models and Solar Neutrinos}.
-\newblock {\em Physica Scripta}, 2005(T121):46, 2005.
+J.~N. Bahcall; \emph{{Solar Models and Solar Neutrinos}}; Physica Scripta
+  \textbf{T121}, 46--50 (2005).
+\newline\urlprefix\url{http://dx.doi.org/10.1088/0031-8949/2005/T121/006}
 
 \bibitem{MNS1962}
-Ziro Maki, Masami Nakagawa, and Shoichi Sakata.
-\newblock {Remarks on the Unified Model of Elementary Particles}.
-\newblock {\em Progress of Theoretical Physics}, 28(5):870, 1962.
+Z.~Maki, M.~Nakagawa, and S.~Sakata; \emph{{Remarks on the Unified Model of
+  Elementary Particles}}; Progress of Theoretical Physics \textbf{28}, 5, 870
+  (1962).
+\newline\urlprefix\url{http://dx.doi.org/10.1143/PTP.28.870}
 
 \bibitem{Bahcall2002}
-John~N Bahcall, Concepci{\'{o}}n~M Gonzalez-Garcia, and Carlos Pena-Garay.
-\newblock {Before and After: How has the SNO NC measurement changed things?}
-\newblock {\em Journal of High Energy Physics}, 2002(07):54, 2002.
+J.~N. Bahcall, C.~M. Gonzalez-Garcia, and C.~Pena-Garay; \emph{{Before and
+  After: How has the SNO NC measurement changed things?}}; Journal of High
+  Energy Physics \textbf{2002}, 07, 54 (2002).
+\newline\urlprefix\url{http://dx.doi.org/10.1088/1126-6708/2002/07/054}
 
 \bibitem{Smirnov2003}
-A~\relax~Yu. Smirnov.
-\newblock {The MSW effect and solar neutrinos}.
-\newblock In {\em Neutrino telescopes. Proceedings, 10th International
-  Workshop, Venice, Italy, March 11-14, 2003. Vol. 1+2}, pages 23--43, 2003.
+A.~Y. Smirnov; \emph{{The MSW effect and solar neutrinos}}; in: \emph{Neutrino
+  telescopes. Proceedings, 10th International Workshop, Venice, Italy, March
+  11-14, 2003. Vol. 1+2}; 23--43 (2003).
 
 \bibitem{Wolfenstein1978}
-L~Wolfenstein.
-\newblock {Neutrino oscillations in matter}.
-\newblock {\em Phys. Rev. D}, 17(9):2369--2374, 1978.
+L.~Wolfenstein; \emph{{Neutrino oscillations in matter}}; Phys. Rev. D
+  \textbf{17}, 9, 2369--2374 (1978).
+\newline\urlprefix\url{http://dx.doi.org/10.1103/PhysRevD.17.2369}
 
 \bibitem{MS1985}
-S~P Mikheev and A~\relax~Yu. Smirnov.
-\newblock {Resonance Amplification of Oscillations in Matter and Spectroscopy
-  of Solar Neutrinos}.
-\newblock {\em Sov. J. Nucl. Phys.}, 42:913--917, 1985.
+S.~P. Mikheev and A.~r.~Y. Smirnov; \emph{{Resonance Amplification of
+  Oscillations in Matter and Spectroscopy of Solar Neutrinos}}; Sov. J. Nucl.
+  Phys. \textbf{42}, 913--917 (1985).
 
 \bibitem{MS1986}
-S~P Mikheev and A~\relax~Yu. Smirnov.
-\newblock {Resonant amplification of neutrino oscillations in matter and solar
-  neutrino spectroscopy}.
-\newblock {\em Nuovo Cim.}, C9:17--26, 1986.
+S.~P. Mikheev and A.~r.~Y. Smirnov; \emph{{Resonant amplification of neutrino
+  oscillations in matter and solar neutrino spectroscopy}}; Nuovo Cim.
+  \textbf{C9}, 17--26 (1986).
+\newline\urlprefix\url{http://dx.doi.org/10.1007/BF02508049}
 
 \bibitem{KamLAND2003}
-K~Eguchi, et~al.
-\newblock {First Results from KamLAND: Evidence for Reactor Antineutrino
-  Disappearance}.
-\newblock {\em Phys. Rev. Lett.}, 90(2):21802, 2003.
+K.~Eguchi, S.~Enomoto, K.~Furuno \emph{et~al.}; \emph{{First Results from
+  KamLAND: Evidence for Reactor Antineutrino Disappearance}}; Phys. Rev. Lett.
+  \textbf{90}, 2, 21802 (2003).
+\newline\urlprefix\url{http://dx.doi.org/10.1103/PhysRevLett.90.021802}
 
 \bibitem{KamLAND2005}
-T~Araki, et~al.
-\newblock {Measurement of Neutrino Oscillation with KamLAND: Evidence of
-  Spectral Distortion}.
-\newblock {\em Phys. Rev. Lett.}, 94(8):81801, 2005.
+T.~Araki, K.~Eguchi, S.~Enomoto \emph{et~al.}; \emph{{Measurement of Neutrino
+  Oscillation with KamLAND: Evidence of Spectral Distortion}}; Phys. Rev. Lett.
+  \textbf{94}, 8, 81801 (2005).
+\newline\urlprefix\url{http://dx.doi.org/10.1103/PhysRevLett.94.081801}
 
 \bibitem{Bandyopadhyay2002}
-Abhijit Bandyopadhyay, et~al.
-\newblock {The Solar neutrino problem after the first results from KamLAND}.
-\newblock {\em Phys. Lett.}, B559:121--130, 2003.
+A.~Bandyopadhyay, S.~Choubey, R.~Gandhi \emph{et~al.}; \emph{{The Solar
+  neutrino problem after the first results from KamLAND}}; Phys. Lett.
+  \textbf{B559}, 121--130 (2003).
+\newline\urlprefix\url{http://dx.doi.org/10.1016/S0370-2693(03)00340-X}
 
 \bibitem{deHolanda2002}
-Pedro~Cunha de~Holanda and A~\relax~Yu. Smirnov.
-\newblock {LMA MSW solution of the solar neutrino problem and first KamLAND
-  results}.
-\newblock {\em JCAP}, 0302:1, 2003.
+P.~C. de~Holanda and A.~r.~Y. Smirnov; \emph{{LMA MSW solution of the solar
+  neutrino problem and first KamLAND results}}; JCAP \textbf{0302}, 1 (2003).
+\newline\urlprefix\url{http://dx.doi.org/10.1088/1475-7516/2003/02/001}
 
 \bibitem{Fogli2003}
-G~L Fogli, et~al.
-\newblock {Evidence for Mikheyev-Smirnov-Wolfenstein effects in solar neutrino
-  flavor transitions}.
-\newblock {\em Phys. Lett.}, B583:149--156, 2004.
+G.~L. Fogli, E.~Lisi, A.~Marrone \emph{et~al.}; \emph{{Evidence for
+  Mikheyev-Smirnov-Wolfenstein effects in solar neutrino flavor transitions}};
+  Phys. Lett. \textbf{B583}, 149--156 (2004).
+\newline\urlprefix\url{http://dx.doi.org/10.1016/j.physletb.2003.12.045}
 
 \bibitem{Mannel2007}
-Thomas Mannel.
-\newblock {Theory and Phenomenology of CP Violation}.
-\newblock {\em Nuclear Physics B - Proceedings Supplements}, 167:115--119,
-  2007.
+T.~Mannel; \emph{{Theory and Phenomenology of CP Violation}}; Nuclear Physics B
+  - Proceedings Supplements \textbf{167}, 115--119 (2007).
+\newline\urlprefix\url{http://dx.doi.org/10.1016/j.nuclphysbps.2006.12.083}
 
 \bibitem{Ohlsson2012}
-Tommy Ohlsson, He~Zhang, and Shun Zhou.
-\newblock {Radiative corrections to the leptonic Dirac $CP$-violating phase}.
-\newblock {\em Phys. Rev. D}, 87(1):13012, 2013.
+T.~Ohlsson, H.~Zhang, and S.~Zhou; \emph{{Radiative corrections to the leptonic
+  Dirac $CP$-violating phase}}; Phys. Rev. D \textbf{87}, 1, 13012 (2013).
+\newline\urlprefix\url{http://dx.doi.org/10.1103/PhysRevD.87.013012}
 
 \bibitem{Ohlsson2013}
-Tommy Ohlsson, He~Zhang, and Shun Zhou.
-\newblock {Probing the leptonic Dirac CP-violating phase in neutrino
-  oscillation experiments}.
-\newblock {\em Physical Review D - Particles, Fields, Gravitation and
-  Cosmology}, 87(5):1--8, 2013.
+T.~Ohlsson, H.~Zhang, and S.~Zhou; \emph{{Probing the leptonic Dirac
+  CP-violating phase in neutrino oscillation experiments}}; Physical Review D -
+  Particles, Fields, Gravitation and Cosmology \textbf{87}, 5, 1--8 (2013).
+\newline\urlprefix\url{http://dx.doi.org/10.1103/PhysRevD.87.053006}
 
 \bibitem{DUNECDR1}
-{DUNE Collaboration}.
-\newblock {Long-Baseline Neutrino Facility (LBNF) and Deep Underground Neutrino
-  Experiment (DUNE): The LBNF and DUNE Projects}.
-\newblock 1, 2016.
+{DUNE Collaboration}; \emph{{Long-Baseline Neutrino Facility (LBNF) and Deep
+  Underground Neutrino Experiment (DUNE): The LBNF and DUNE Projects}};
+  arXiv:1601.05471 [physics.ins-det] \textbf{1} (2016).
 
 \bibitem{HyperKamiokande2015}
-K~Abe, et~al.
-\newblock {Physics potential of a long-baseline neutrino oscillation experiment
-  using a J-PARC neutrino beam and Hyper-Kamiokande}.
-\newblock {\em Progress of Theoretical and Experimental Physics},
-  2015(5):053C02, 2015.
+K.~Abe, H.~Aihara, C.~Andreopoulos \emph{et~al.}; \emph{{Physics potential of a
+  long-baseline neutrino oscillation experiment using a J-PARC neutrino beam
+  and Hyper-Kamiokande}}; Progress of Theoretical and Experimental Physics
+  \textbf{2015}, 5, 053C02 (2015).
+\newline\urlprefix\url{http://dx.doi.org/10.1093/ptep/ptv061}
 
 \bibitem{Gallex2010}
-F~Kaether, et~al.
-\newblock {Reanalysis of the Gallex solar neutrino flux and source
-  experiments}.
-\newblock {\em Physics Letters B}, 685(1):47--54, 2010.
+F.~Kaether, W.~Hampel, G.~Heusser \emph{et~al.}; \emph{{Reanalysis of the
+  Gallex solar neutrino flux and source experiments}}; Physics Letters B
+  \textbf{685}, 1, 47--54 (2010).
+\newline\urlprefix\url{http://dx.doi.org/10.1016/j.physletb.2010.01.030}
 
 \bibitem{Sage2009}
-J~N Abdurashitov, et~al.
-\newblock {Measurement of the solar neutrino capture rate with gallium metal.
-  III. Results for the 2002\char21{}2007 data-taking period}.
-\newblock {\em Phys. Rev. C}, 80(1):15807, 2009.
+J.~N. Abdurashitov, V.~N. Gavrin, V.~V. Gorbachev \emph{et~al.};
+  \emph{{Measurement of the solar neutrino capture rate with gallium metal.
+  III. Results for the 2002\char21{}2007 data-taking period}}; Phys. Rev. C
+  \textbf{80}, 1, 15807 (2009).
+\newline\urlprefix\url{http://dx.doi.org/10.1103/PhysRevC.80.015807}
 
 \bibitem{SNO2013}
-B~Aharmim, et~al.
-\newblock {Combined analysis of all three phases of solar neutrino data from
-  the Sudbury Neutrino Observatory}.
-\newblock {\em Phys. Rev. C}, 88(2):25501, 2013.
+B.~Aharmim, S.~N. Ahmed, A.~E. Anthony \emph{et~al.}; \emph{{Combined analysis
+  of all three phases of solar neutrino data from the Sudbury Neutrino
+  Observatory}}; Phys. Rev. C \textbf{88}, 2, 25501 (2013).
+\newline\urlprefix\url{http://dx.doi.org/10.1103/PhysRevC.88.025501}
 
 \bibitem{KamLAND2013}
-A~Gando, et~al.
-\newblock {Reactor on-off antineutrino measurement with KamLAND}.
-\newblock {\em Phys. Rev. D}, 88(3):33001, 2013.
+A.~Gando, Y.~Gando, H.~Hanakago \emph{et~al.}; \emph{{Reactor on-off
+  antineutrino measurement with KamLAND}}; Phys. Rev. D \textbf{88}, 3, 33001
+  (2013).
+\newline\urlprefix\url{http://dx.doi.org/10.1103/PhysRevD.88.033001}
 
 \bibitem{SuperKamiokande2010}
-R~Wendell, et~al.
-\newblock {Atmospheric neutrino oscillation analysis with subleading effects in
-  Super-Kamiokande I, II, and III}.
-\newblock {\em Phys. Rev. D}, 81(9):92004, 2010.
+R.~Wendell, C.~Ishihara, K.~Abe \emph{et~al.}; \emph{{Atmospheric neutrino
+  oscillation analysis with subleading effects in Super-Kamiokande I, II, and
+  III}}; Phys. Rev. D \textbf{81}, 9, 92004 (2010).
+\newline\urlprefix\url{http://dx.doi.org/10.1103/PhysRevD.81.092004}
 
 \bibitem{IceCube2015}
-M~G Aartsen, et~al.
-\newblock {Determining neutrino oscillation parameters from atmospheric muon
-  neutrino disappearance with three years of IceCube DeepCore data}.
-\newblock {\em Phys. Rev. D}, 91(7):72004, 2015.
+M.~G. Aartsen, M.~Ackermann, J.~Adams \emph{et~al.}; \emph{{Determining
+  neutrino oscillation parameters from atmospheric muon neutrino disappearance
+  with three years of IceCube DeepCore data}}; Phys. Rev. D \textbf{91}, 7,
+  72004 (2015).
+\newline\urlprefix\url{http://dx.doi.org/10.1103/PhysRevD.91.072004}
 
 \bibitem{MINOS2013}
-P~Adamson, et~al.
-\newblock {Measurement of Neutrino and Antineutrino Oscillations Using Beam and
-  Atmospheric Data in MINOS}.
-\newblock {\em Phys. Rev. Lett.}, 110(25):251801, 2013.
+P.~Adamson, I.~Anghel, C.~Backhouse \emph{et~al.}; \emph{{Measurement of
+  Neutrino and Antineutrino Oscillations Using Beam and Atmospheric Data in
+  MINOS}}; Phys. Rev. Lett. \textbf{110}, 25, 251801 (2013).
+\newline\urlprefix\url{http://dx.doi.org/10.1103/PhysRevLett.110.251801}
 
 \bibitem{MINOS2013b}
-P~Adamson, et~al.
-\newblock {Electron Neutrino and Antineutrino Appearance in the Full MINOS Data
-  Sample}.
-\newblock {\em Phys. Rev. Lett.}, 110(17):171801, 2013.
+P.~Adamson, I.~Anghel, C.~Backhouse \emph{et~al.}; \emph{{Electron Neutrino and
+  Antineutrino Appearance in the Full MINOS Data Sample}}; Phys. Rev. Lett.
+  \textbf{110}, 17, 171801 (2013).
+\newline\urlprefix\url{http://dx.doi.org/10.1103/PhysRevLett.110.171801}
 
 \bibitem{T2Knumu2014}
-K~Abe, et~al.
-\newblock {Precise Measurement of the Neutrino Mixing Parameter
-  ${\ensuremath{\theta}}_{23}$ from Muon Neutrino Disappearance in an Off-Axis
-  Beam}.
-\newblock {\em Phys. Rev. Lett.}, 112(18):181801, 2014.
+K.~Abe, J.~Adam, H.~Aihara \emph{et~al.}; \emph{{Precise Measurement of the
+  Neutrino Mixing Parameter ${\ensuremath{\theta}}_{23}$ from Muon Neutrino
+  Disappearance in an Off-Axis Beam}}; Phys. Rev. Lett. \textbf{112}, 18,
+  181801 (2014).
+\newline\urlprefix\url{http://dx.doi.org/10.1103/PhysRevLett.112.181801}
 
 \bibitem{NOvAnumu2016}
-P~Adamson, et~al.
-\newblock {First measurement of muon-neutrino disappearance in NOvA}.
-\newblock {\em Phys. Rev. D}, 93(5):51104, 2016.
+P.~Adamson, C.~Ader, M.~Andrews \emph{et~al.}; \emph{{First measurement of
+  muon-neutrino disappearance in NOvA}}; Phys. Rev. D \textbf{93}, 5, 51104
+  (2016).
+\newline\urlprefix\url{http://dx.doi.org/10.1103/PhysRevD.93.051104}
 
 \bibitem{NuFit2014}
-M~C Gonzalez-Garcia, Michele Maltoni, and Thomas Schwetz.
-\newblock {Updated fit to three neutrino mixing: status of leptonic CP
-  violation}.
-\newblock {\em Journal of High Energy Physics}, 2014(11):52, 2014.
+M.~C. Gonzalez-Garcia, M.~Maltoni, and T.~Schwetz; \emph{{Updated fit to three
+  neutrino mixing: status of leptonic CP violation}}; Journal of High Energy
+  Physics \textbf{2014}, 11, 52 (2014).
+\newline\urlprefix\url{http://dx.doi.org/10.1007/JHEP11(2014)052}
 
 \bibitem{NuFit2017}
-Ivan Esteban, et~al.
-\newblock {Updated fit to three neutrino mixing: exploring the
-  accelerator-reactor complementarity}.
-\newblock {\em Journal of High Energy Physics}, 2017(1):87, 2017.
+I.~Esteban, M.~C. Gonzalez-Garcia, M.~Maltoni \emph{et~al.}; \emph{{Updated fit
+  to three neutrino mixing: exploring the accelerator-reactor
+  complementarity}}; Journal of High Energy Physics \textbf{2017}, 1, 87
+  (2017).
+\newline\urlprefix\url{http://dx.doi.org/10.1007/JHEP01(2017)087}
 
 \bibitem{DayaBay2012}
-F~P An, et~al.
-\newblock {Observation of Electron-Antineutrino Disappearance at Daya Bay}.
-\newblock {\em Phys. Rev. Lett.}, 108(17):171803, 2012.
+F.~P. An, J.~Z. Bai, A.~B. Balantekin \emph{et~al.}; \emph{{Observation of
+  Electron-Antineutrino Disappearance at Daya Bay}}; Phys. Rev. Lett.
+  \textbf{108}, 17, 171803 (2012).
+\newline\urlprefix\url{http://dx.doi.org/10.1103/PhysRevLett.108.171803}
 
 \bibitem{RENO2012}
-J~K Ahn, et~al.
-\newblock {Observation of Reactor Electron Antineutrinos Disappearance in the
-  RENO Experiment}.
-\newblock {\em Phys. Rev. Lett.}, 108(19):191802, 2012.
+J.~K. Ahn, S.~Chebotaryov, J.~H. Choi \emph{et~al.}; \emph{{Observation of
+  Reactor Electron Antineutrinos Disappearance in the RENO Experiment}}; Phys.
+  Rev. Lett. \textbf{108}, 19, 191802 (2012).
+\newline\urlprefix\url{http://dx.doi.org/10.1103/PhysRevLett.108.191802}
 
 \bibitem{T2Knue2014}
-K~Abe, et~al.
-\newblock {Observation of Electron Neutrino Appearance in a Muon Neutrino
-  Beam}.
-\newblock {\em Phys. Rev. Lett.}, 112(6):61802, 2014.
+K.~Abe, J.~Adam, H.~Aihara \emph{et~al.}; \emph{{Observation of Electron
+  Neutrino Appearance in a Muon Neutrino Beam}}; Phys. Rev. Lett. \textbf{112},
+  6, 61802 (2014).
+\newline\urlprefix\url{http://dx.doi.org/10.1103/PhysRevLett.112.061802}
 
 \bibitem{NOvAnue2016}
-P~Adamson, et~al.
-\newblock {First Measurement of Electron Neutrino Appearance in NOvA}.
-\newblock {\em Phys. Rev. Lett.}, 116(15):151806, 2016.
+P.~Adamson, C.~Ader, M.~Andrews \emph{et~al.}; \emph{{First Measurement of
+  Electron Neutrino Appearance in NOvA}}; Phys. Rev. Lett. \textbf{116}, 15,
+  151806 (2016).
+\newline\urlprefix\url{http://dx.doi.org/10.1103/PhysRevLett.116.151806}
 
 \bibitem{T2K2017}
-K~Abe, et~al.
-\newblock {Combined Analysis of Neutrino and Antineutrino Oscillations at T2K}.
-\newblock {\em Phys. Rev. Lett.}, 118(15):151801, 2017.
+K.~Abe, J.~Amey, C.~Andreopoulos \emph{et~al.}; \emph{{Combined Analysis of
+  Neutrino and Antineutrino Oscillations at T2K}}; Phys. Rev. Lett.
+  \textbf{118}, 15, 151801 (2017).
+\newline\urlprefix\url{http://dx.doi.org/10.1103/PhysRevLett.118.151801}
 
 \bibitem{Triotsk2011}
-V~N Aseev, et~al.
-\newblock {Upper limit on the electron antineutrino mass from the Troitsk
-  experiment}.
-\newblock {\em Phys. Rev. D}, 84(11):112003, 2011.
+V.~N. Aseev, A.~I. Belesev, A.~I. Berlev \emph{et~al.}; \emph{{Upper limit on
+  the electron antineutrino mass from the Troitsk experiment}}; Phys. Rev. D
+  \textbf{84}, 11, 112003 (2011).
+\newline\urlprefix\url{http://dx.doi.org/10.1103/PhysRevD.84.112003}
 
 \bibitem{Mainz2005}
-Ch~Kraus, et~al.
-\newblock {Final results from phase II of the Mainz neutrino mass search in
-  tritium $\beta$-decay}.
-\newblock {\em The European Physical Journal C - Particles and Fields},
-  40(4):447--468, 2005.
+C.~Kraus, B.~Bornschein, L.~Bornschein \emph{et~al.}; \emph{{Final results from
+  phase II of the Mainz neutrino mass search in tritium $\beta$-decay}}; The
+  European Physical Journal C - Particles and Fields \textbf{40}, 4, 447--468
+  (2005).
+\newline\urlprefix\url{http://dx.doi.org/10.1140/epjc/s2005-02139-7}
 
 \bibitem{Planck2013}
-{Planck Collaboration}, et~al.
-\newblock {Planck 2013 results. XVI. Cosmological parameters}.
-\newblock {\em Astronomy \& Astrophysics}, 571:A16, 2014.
+{Planck Collaboration}, P.~A.~R. Ade, N.~Aghanim \emph{et~al.}; \emph{{Planck
+  2013 results. XVI. Cosmological parameters}}; Astronomy \& Astrophysics
+  \textbf{571}, A16 (2014).
+\newline\urlprefix\url{http://dx.doi.org/10.1051/0004-6361/201321591}
 
 \bibitem{DUNECDR2}
-{DUNE Collaboration}.
-\newblock {Long-Baseline Neutrino Facility (LBNF) and Deep Underground Neutrino
-  Experiment (DUNE): The Physics Program for DUNE at LBNF}.
-\newblock 2, 2015.
+{DUNE Collaboration}; \emph{{Long-Baseline Neutrino Facility (LBNF) and Deep
+  Underground Neutrino Experiment (DUNE): The Physics Program for DUNE at
+  LBNF}}; arXiv:1512.06148 [physics.ins-det] \textbf{2} (2015).
 
 \bibitem{DUNECDR3}
-{DUNE Collaboration}.
-\newblock {Long-Baseline Neutrino Facility (LBNF) and Deep Underground Neutrino
-  Experiment (DUNE): Long Baseline Neutrino Facility for DUNE}.
-\newblock 3, 2016.
+{DUNE Collaboration}; \emph{{Long-Baseline Neutrino Facility (LBNF) and Deep
+  Underground Neutrino Experiment (DUNE): Long Baseline Neutrino Facility for
+  DUNE}}; arXiv:1601.05823 [physics.ins-det] \textbf{3} (2016).
 
 \bibitem{DUNECDR4}
-{DUNE Collaboration}.
-\newblock {Long-Baseline Neutrino Facility (LBNF) and Deep Underground Neutrino
-  Experiment (DUNE): The DUNE Detectors at LBNF}.
-\newblock 4, 2016.
+{DUNE Collaboration}; \emph{{Long-Baseline Neutrino Facility (LBNF) and Deep
+  Underground Neutrino Experiment (DUNE): The DUNE Detectors at LBNF}};
+  arXiv:1601.02984 [physics.ins-det] \textbf{4} (2016).
 
 \bibitem{ICARUS2004}
-S.~Amerio, et~al.
-\newblock {Design, construction and tests of the ICARUS T600 detector}.
-\newblock {\em Nuclear Instruments and Methods in Physics Research, Section A:
-  Accelerators, Spectrometers, Detectors and Associated Equipment},
-  527(3):329--410, 2004.
+S.~Amerio, S.~Amoruso, M.~Antonello \emph{et~al.}; \emph{{Design, construction
+  and tests of the ICARUS T600 detector}}; Nuclear Instruments and Methods in
+  Physics Research, Section A: Accelerators, Spectrometers, Detectors and
+  Associated Equipment \textbf{527}, 3, 329--410 (2004).
+\newline\urlprefix\url{http://dx.doi.org/10.1016/j.nima.2004.02.044}
 
 \bibitem{ArgoNeuT2012}
-C~Anderson, et~al.
-\newblock {The ArgoNeuT detector in the NuMI low-energy beam line at Fermilab}.
-\newblock {\em Journal of Instrumentation}, 7(10):P10019, 2012.
+C.~Anderson, M.~Antonello, B.~Baller \emph{et~al.}; \emph{{The ArgoNeuT
+  detector in the NuMI low-energy beam line at Fermilab}}; Journal of
+  Instrumentation \textbf{7}, 10, P10019 (2012).
+\newline\urlprefix\url{http://dx.doi.org/10.1088/1748-0221/7/10/P10019}
 
 \bibitem{LArIAT2014}
-F~Cavanna, et~al.
-\newblock {LArIAT: Liquid Argon In A Testbeam}.
-\newblock 2014.
+F.~Cavanna, M.~Kordosky, J.~Raaf \emph{et~al.}; \emph{{LArIAT: Liquid Argon In
+  A Testbeam}}; arXiv:1406.5560 [physics.ins-det]  (2014).
 
 \bibitem{MicroBooNE2017}
-R~Acciarri, et~al.
-\newblock {Design and construction of the MicroBooNE detector}.
-\newblock {\em Journal of Instrumentation}, 12(02):P02017, 2017.
+R.~Acciarri, C.~Adams, R.~An \emph{et~al.}; \emph{{Design and construction of
+  the MicroBooNE detector}}; Journal of Instrumentation \textbf{12}, 02, P02017
+  (2017).
+\newline\urlprefix\url{http://dx.doi.org/10.1088/1748-0221/12/02/P02017}
 
 \bibitem{Baller2014}
-B~Baller, et~al.
-\newblock {Liquid Argon Time Projection Chamber research and development in the
-  United States}.
-\newblock {\em Journal of Instrumentation}, 9(05):T05005, 2014.
+B.~Baller, C.~Bromberg, N.~Buchanan \emph{et~al.}; \emph{{Liquid Argon Time
+  Projection Chamber research and development in the United States}}; Journal
+  of Instrumentation \textbf{9}, 05, T05005 (2014).
+\newline\urlprefix\url{http://dx.doi.org/10.1088/1748-0221/9/05/T05005}
 
 \bibitem{Nygren1974}
-David~R Nygren.
-\newblock {The Time Projection Chamber - A New 4pi Detector for Charged
-  Particles}.
-\newblock {\em eConf}, C740805(PEP-0144):58--78, 1974.
+D.~R. Nygren; \emph{{The Time Projection Chamber - A New 4$\pi$ Detector for
+  Charged Particles}}; eConf \textbf{C740805}, PEP-0144, 58--78 (1974).
 
 \bibitem{Rubbia1977}
-Carlo Rubbia.
-\newblock {The Liquid Argon Time Projection Chamber: A New Concept For Neutrino
-  Detectors.pdf}, 1977.
+C.~Rubbia; \emph{{The Liquid Argon Time Projection Chamber: A New Concept For
+  Neutrino Detectors}}; Technical Report CERN-EP-INT-77-08 (1977).
 
 \bibitem{Soderberg2008}
-Mitch Soderberg.
-\newblock {The MicroBooNE Proposal}, 2008.
+M.~Soderberg; \emph{{The MicroBooNE Proposal}}; MicroBooNE Public Note
+  \textbf{70} (2008).
+\newline\urlprefix\url{http://microboone-docdb.fnal.gov/cgi-bin/ShowDocument?docid=70}
 
 \bibitem{Chepel2013}
-V~Chepel and H~Ara{\'{u}}jo.
-\newblock {Liquid noble gas detectors for low energy particle physics}.
-\newblock {\em Journal of Instrumentation}, 8(04):R04001, 2013.
+V.~Chepel and H.~Ara{\'{u}}jo; \emph{{Liquid noble gas detectors for low energy
+  particle physics}}; Journal of Instrumentation \textbf{8}, 04, R04001 (2013).
+\newline\urlprefix\url{http://dx.doi.org/10.1088/1748-0221/8/04/R04001}
+
+\bibitem{Thomas1987}
+J.~Thomas and D.~A. Imel; \emph{{Recombination of electron-ion pairs in liquid
+  argon and liquid xenon}}; Phys. Rev. A \textbf{36}, 2, 614--616 (1987).
+\newline\urlprefix\url{http://dx.doi.org/10.1103/PhysRevA.36.614}
+
+\bibitem{Amoruso2004}
+S.~Amoruso, M.~Antonello, P.~Aprili \emph{et~al.}; \emph{{Study of electron
+  recombination in liquid argon with the ICARUS TPC}}; Nuclear Instruments and
+  Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors
+  and Associated Equipment \textbf{523}, 3, 275--286 (2004).
+\newline\urlprefix\url{http://dx.doi.org/10.1016/j.nima.2003.11.423}
+
+\bibitem{Kubota1978}
+S.~Kubota, A.~Nakamoto, T.~Takahashi \emph{et~al.}; \emph{{Recombination
+  luminescence in liquid argon and in liquid xenon}}; Phys. Rev. B \textbf{17},
+  6, 2762--2765 (1978).
+\newline\urlprefix\url{http://dx.doi.org/10.1103/PhysRevB.17.2762}
+
+\bibitem{MicroBooNENoise2017}
+R.~Acciarri, C.~Adams, R.~An \emph{et~al.}; \emph{{Noise Characterization and
+  Filtering in the MicroBooNE Liquid Argon TPC}}; Journal of Instrumentation
+  \textbf{12}, 08, P08003 (2017).
+\newline\urlprefix\url{http://dx.doi.org/10.1088/1748-0221/12/08/P08003}
 
 \bibitem{PIPII2013}
-P.~Derwent, et~al.
-\newblock {Proton Improvement Plan-II (PIP-II)}.
-\newblock Technical Report December, 2013.
+P.~Derwent, S.~Holmes, J.~Hunt \emph{et~al.}; \emph{{Proton Improvement Plan-II
+  (PIP-II)}}; Technical Report ProjectX Document 1232 (2013).
+\newline\urlprefix\url{http://pip2.fnal.gov/index.html}
 
 \bibitem{Huber2011}
-Patrick Huber and Joachim Kopp.
-\newblock {Two experiments for the price of one? The role of the second
-  oscillation maximum in long baseline neutrino experiments}.
-\newblock {\em Journal of High Energy Physics}, 2011(3):13, 2011.
+P.~Huber and J.~Kopp; \emph{{Two experiments for the price of one? The role of
+  the second oscillation maximum in long baseline neutrino experiments}};
+  Journal of High Energy Physics \textbf{2011}, 3, 13 (2011).
+\newline\urlprefix\url{http://dx.doi.org/10.1007/JHEP03(2011)013}
 
 \bibitem{LBNECDR1}
-{LBNE Collaboration}.
-\newblock {Long-Baseline Neutrino Experiment (LBNE) Project: The LBNE Project}.
-\newblock 1, 2012.
+{LBNE Collaboration}; \emph{{Long-Baseline Neutrino Experiment (LBNE) Project:
+  The LBNE Project}} \textbf{1} (2012).
 
 \bibitem{LBNECDR3}
-{LBNE Collaboration}.
-\newblock {Long-Baseline Neutrino Experiment (LBNE) Project: Detectors At The
-  Near Site}.
-\newblock 3, 2012.
+{LBNE Collaboration}; \emph{{Long-Baseline Neutrino Experiment (LBNE) Project:
+  Detectors At The Near Site}} \textbf{3} (2012).
 
 \bibitem{LBNECDR4a}
-{LBNE Collaboration}.
-\newblock {Long-Baseline Neutrino Experiment (LBNE) Project: Liquid Argon
-  Detector At The Far Site}.
-\newblock 4, 2012.
+{LBNE Collaboration}; \emph{{Long-Baseline Neutrino Experiment (LBNE) Project:
+  Liquid Argon Detector At The Far Site}}; LBNE Document Database \textbf{4}, 1
+  (2012).
+\newline\urlprefix\url{http://lbne2-docdb.fnal.gov/0048/004892/012/CDR-LArFD-volume-final-2012Oct22_smaller.pdf}
 
 \bibitem{LAGUNA-LBNO2015}
-Margherita~Buizza Avanzini.
-\newblock {The LAGUNA-LBNO Project}.
-\newblock {\em Physics Procedia}, 61:524--533, 2015.
+M.~B. Avanzini; \emph{{The LAGUNA-LBNO Project}}; Physics Procedia \textbf{61},
+  524--533 (2015).
+\newline\urlprefix\url{http://dx.doi.org/10.1016/j.phpro.2014.12.117}
 
 \bibitem{P52014}
-{HEPAP Subcommittee}.
-\newblock {Building for Discovery: Strategic Plan for U.S. Particle Physics in
-  the Global Context}.
-\newblock 2014.
+{HEPAP Subcommittee}; \emph{{Building for Discovery: Strategic Plan for U.S.
+  Particle Physics in the Global Context}}  (2014).
+\newline\urlprefix\url{https://science.energy.gov/$\sim$/media/hep/hepap/pdf/May-2014/FINAL_P5_Report_053014.pdf}
 
 \bibitem{35tonPhaseINeutrino2014}
-M.~Convery and Z.~Djurcic.
-\newblock {The 35-Ton Liquid Argon TPC Prototype for the Long Baseline Neutrino
-  Experiment (Poster)}.
-\newblock In {\em Neutrino 2014 Conference Proceedings}, 2014.
+M.~Convery and Z.~Djurcic; \emph{{The 35-Ton Liquid Argon TPC Prototype for the
+  Long Baseline Neutrino Experiment (Poster)}}; in: \emph{Neutrino 2014
+  Conference Proceedings} (2014).
 
 \bibitem{ProtoDUNE-SP}
-T~Kutter.
-\newblock {Proposal for a Full-Scale Prototype Single-Phase Liquid Argon Time
-  Projection Chamber and Detector Beam Test at CERN}.
-\newblock Technical Report CERN-SPSC-2015-020. SPSC-P-351, CERN, Geneva, 2015.
+T.~Kutter; \emph{{Proposal for a Full-Scale Prototype Single-Phase Liquid Argon
+  Time Projection Chamber and Detector Beam Test at CERN}}; Technical Report
+  CERN-SPSC-2015-020. SPSC-P-351; CERN; Geneva (2015).
+\newline\urlprefix\url{https://cds.cern.ch/record/2022751}
 
 \bibitem{WA105}
-I~{De Bonis} and Others.
-\newblock {LBNO-DEMO: Large-scale neutrino detector demonstrators for phased
-  performance assessment in view of a long-baseline oscillation experiment}.
-\newblock 2014.
+L.~Agostino, B.~Andrieu, R.~Asfandiyarov \emph{et~al.}; \emph{{LBNO-DEMO:
+  Large-scale neutrino detector demonstrators for phased performance assessment
+  in view of a long-baseline oscillation experiment}}; arXiv:1409.4405
+  [physics.ins-det]  (2014).
 
 \bibitem{NeutrinoPlatform}
-CERN Courier.
-\newblock {Neutrinos take centre stage}.
+{CERN Courier}; \emph{{Neutrinos take centre stage}} (2016).
+\newline\urlprefix\url{http://cerncourier.com/cws/article/cern/65502}
 
 \bibitem{MTS2006}
-D~Finley, et~al.
-\newblock {Work at FNAL to achieve long electron drift lifetime in liquid
-  argon}.
-\newblock 2006.
+D.~Finley, W.~Jaskierny, C.~Kendziora \emph{et~al.}; \emph{{Work at FNAL to
+  achieve long electron drift lifetime in liquid argon}} , FERMILAB-TM-2385-E
+  (2006).
+\newline\urlprefix\url{http://lss.fnal.gov/archive/test-tm/2000/fermilab-tm-2385-e.pdf}
 
 \bibitem{MTS2009a}
-R~Andrews, et~al.
-\newblock {A system to test the effects of materials on the electron drift
-  lifetime in liquid argon and observations on the effect of water}.
-\newblock {\em Nucl. Instrum. Meth.}, A608:251--258, 2009.
+R.~Andrews, W.~Jaskierny, H.~Jostlein \emph{et~al.}; \emph{{A system to test
+  the effects of materials on the electron drift lifetime in liquid argon and
+  observations on the effect of water}}; Nucl. Instrum. Meth. \textbf{A608},
+  251--258 (2009).
+\newline\urlprefix\url{http://dx.doi.org/10.1016/j.nima.2009.07.024}
 
 \bibitem{MTS2009b}
-A~Curioni, et~al.
-\newblock {A regenerable filter for liquid argon purification}.
-\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
-  Accelerators, Spectrometers, Detectors and Associated Equipment},
-  605(3):306--311, 2009.
+A.~Curioni, B.~T. Fleming, W.~Jaskierny \emph{et~al.}; \emph{{A regenerable
+  filter for liquid argon purification}}; Nuclear Instruments and Methods in
+  Physics Research Section A: Accelerators, Spectrometers, Detectors and
+  Associated Equipment \textbf{605}, 3, 306--311 (2009).
+\newline\urlprefix\url{http://dx.doi.org/10.1016/j.nima.2009.04.020}
 
 \bibitem{MTS2011}
-B~Rebel, et~al.
-\newblock {Results from the Fermilab materials test stand and status of the
-  liquid argon purity demonstrator}.
-\newblock {\em J. Phys. Conf. Ser.}, 308:12023, 2011.
+B.~Rebel, M.~Adamowski, W.~Jaskierny \emph{et~al.}; \emph{{Results from the
+  Fermilab materials test stand and status of the liquid argon purity
+  demonstrator}}; J. Phys. Conf. Ser. \textbf{308}, 12023 (2011).
+\newline\urlprefix\url{http://dx.doi.org/10.1088/1742-6596/308/1/012023}
 
 \bibitem{ICARUS1993b}
-P~Cennini, et~al.
-\newblock {Argon purification in the liquid phase}.
-\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
-  Accelerators, Spectrometers, Detectors and Associated Equipment},
-  333(2):567--570, 1993.
+P.~Cennini, S.~Cittolin, L.~Dumps \emph{et~al.}; \emph{{Argon purification in
+  the liquid phase}}; Nuclear Instruments and Methods in Physics Research
+  Section A: Accelerators, Spectrometers, Detectors and Associated Equipment
+  \textbf{333}, 2, 567--570 (1993).
+\newline\urlprefix\url{http://dx.doi.org/10.1016/0168-9002(93)91209-6}
 
 \bibitem{ICARUS1993a}
-P~Benetti, et~al.
-\newblock {A three-ton liquid argon time projection chamber}.
-\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
-  Accelerators, Spectrometers, Detectors and Associated Equipment},
-  332(3):395--412, 1993.
+P.~Benetti, A.~Bettini, E.~Calligarich \emph{et~al.}; \emph{{A three-ton liquid
+  argon time projection chamber}}; Nuclear Instruments and Methods in Physics
+  Research Section A: Accelerators, Spectrometers, Detectors and Associated
+  Equipment \textbf{332}, 3, 395--412 (1993).
+\newline\urlprefix\url{http://dx.doi.org/10.1016/0168-9002(93)90297-U}
 
 \bibitem{ICARUS2006}
-F~Arneodo, et~al.
-\newblock {Performance of a liquid argon time projection chamber exposed to the
-  CERN West Area Neutrino Facility neutrino beam}.
-\newblock {\em Phys. Rev. D}, 74(11):112001, 2006.
+F.~Arneodo, P.~Benetti, M.~Bonesini \emph{et~al.}; \emph{{Performance of a
+  liquid argon time projection chamber exposed to the CERN West Area Neutrino
+  Facility neutrino beam}}; Phys. Rev. D \textbf{74}, 11, 112001 (2006).
+\newline\urlprefix\url{http://dx.doi.org/10.1103/PhysRevD.74.112001}
 
 \bibitem{ICARUSPurityMonitor}
-G~Carugno, et~al.
-\newblock {Electron lifetime detector for liquid argon}.
-\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
-  Accelerators, Spectrometers, Detectors and Associated Equipment},
-  292(3):580--584, 1990.
+G.~Carugno, B.~Dainese, F.~Pietropaolo \emph{et~al.}; \emph{{Electron lifetime
+  detector for liquid argon}}; Nuclear Instruments and Methods in Physics
+  Research Section A: Accelerators, Spectrometers, Detectors and Associated
+  Equipment \textbf{292}, 3, 580--584 (1990).
+\newline\urlprefix\url{http://dx.doi.org/10.1016/0168-9002(90)90176-7}
 
 \bibitem{35tonPhaseI2014}
-Alan Hahn, et~al.
-\newblock {The LBNE 35 Ton Prototype Cryostat}.
-\newblock In {\em Proceedings, 21st Symposium on Room-Temperature Semiconductor
-  X-ray and Gamma-ray Detectors (RTSD 2014): Seattle, WA, USA, November 8-15,
-  2014}, page 7431158, 2014.
+A.~Hahn, M.~Adamowski, D.~Montanari \emph{et~al.}; \emph{{The LBNE 35 Ton
+  Prototype Cryostat}}; in: \emph{Proceedings, 21st Symposium on
+  Room-Temperature Semiconductor X-ray and Gamma-ray Detectors (RTSD 2014):
+  Seattle, WA, USA, November 8-15, 2014}; 7431158 (2014).
+\newline\urlprefix\url{http://dx.doi.org/10.1109/NSSMIC.2014.7431158}
 
 \bibitem{LAPD2014}
-Terry Tope and Others.
-\newblock {Extreme argon purity in a large, non-evacuated cryostat}.
-\newblock {\em AIP Conf. Proc.}, 1573:1169--1175, 2014.
+T.~Tope and Others; \emph{{Extreme argon purity in a large, non-evacuated
+  cryostat}}; AIP Conf. Proc. \textbf{1573}, 1169--1175 (2014).
+\newline\urlprefix\url{http://dx.doi.org/10.1063/1.4860838}
 
 \bibitem{LAPDJINST2014}
-M~Adamowski, et~al.
-\newblock {The Liquid Argon Purity Demonstrator}.
-\newblock {\em Journal of Instrumentation}, 9(07):P07005, 2014.
+M.~Adamowski, B.~Carls, E.~Dvorak \emph{et~al.}; \emph{{The Liquid Argon Purity
+  Demonstrator}}; Journal of Instrumentation \textbf{9}, 07, P07005 (2014).
+\newline\urlprefix\url{http://dx.doi.org/10.1088/1748-0221/9/07/P07005}
 
 \bibitem{LongBo2015}
-C~Bromberg, et~al.
-\newblock {Design and operation of LongBo: a 2 m long drift liquid argon TPC}.
-\newblock {\em Journal of Instrumentation}, 10(07):P07015, 2015.
+C.~Bromberg, B.~Carls, D.~Edmunds \emph{et~al.}; \emph{{Design and operation of
+  LongBo: a 2 m long drift liquid argon TPC}}; Journal of Instrumentation
+  \textbf{10}, 07, P07015 (2015).
+\newline\urlprefix\url{http://dx.doi.org/10.1088/1748-0221/10/07/P07015}
 
 \bibitem{35tonPhaseI2014Cryostat}
-David Montanari and Others.
-\newblock {First scientific application of the membrane cryostat technology}.
-\newblock {\em AIP Conf. Proc.}, 1573:1664--1671, 2014.
+D.~Montanari and Others; \emph{{First scientific application of the membrane
+  cryostat technology}}; AIP Conf. Proc. \textbf{1573}, 1664--1671 (2014).
+\newline\urlprefix\url{http://dx.doi.org/10.1063/1.4860907}
 
 \bibitem{35tonPhaseI2015}
-David Montanari, et~al.
-\newblock {Performance and results of the LBNE 35 ton membrane cryostat
-  prototype}.
-\newblock {\em Physics Procedia}, 67:308--313, 2015.
+D.~Montanari, M.~Adamowski, A.~Hahn \emph{et~al.}; \emph{{Performance and
+  results of the LBNE 35 ton membrane cryostat prototype}}; Physics Procedia
+  \textbf{67}, 308--313 (2015).
+\newline\urlprefix\url{http://dx.doi.org/10.1016/j.phpro.2015.06.092}
 
 \bibitem{VMS}
-{Fermi National Accelerator Laboratory Visual Media Services}, 2015.
+\emph{{Fermi National Accelerator Laboratory Visual Media Services}} (2015).
+\newline\urlprefix\url{vms.fnal.gov}
 
 \bibitem{35tonGeometryAlion2014}
-T~Alion.
-\newblock {35$\sim$ton Geometry}, 2014.
+T.~Alion; \emph{{35-ton Geometry}} (2014).
+\newline\urlprefix\url{https://cdcvs.fnal.gov/redmine/projects/lbnecode/wiki/LBNE_Geometries}
 
 \bibitem{35tonPhotonDetectors}
-35ton.
-\newblock {35 ton Photon Detectors}.
-\newblock {\em NOT PUBLISHED YET}.
+{35-ton Collaboration}; \emph{{Photon Detector System Performance in the DUNE
+  35-ton prototype LAr-TPC detector}}; NOT PUBLISHED YET .
 
 \bibitem{CDFCounters2005}
-A~Artikov, et~al.
-\newblock {Design and construction of new central and forward muon counters for
-  \{CDF\} \{II\}}.
-\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
-  Accelerators, Spectrometers, Detectors and Associated Equipment},
-  538(1–3):358--371, 2005.
+A.~Artikov, J.~Budagov, I.~Chirikov-Zorin \emph{et~al.}; \emph{{Design and
+  construction of new central and forward muon counters for CDF II}}; Nuclear
+  Instruments and Methods in Physics Research Section A: Accelerators,
+  Spectrometers, Detectors and Associated Equipment \textbf{538}, 1–3,
+  358--371 (2005).
+\newline\urlprefix\url{http://dx.doi.org/10.1016/j.nima.2004.09.009}
 
 \bibitem{35tonExternalCounters}
-M.~Stancari.
-\newblock {35 ton Counter Locations}, 2015.
+M.~Stancari; \emph{{35-ton Counter Locations}} (2015).
+\newline\urlprefix\url{https://cdcvs.fnal.gov/redmine/projects/35ton/wiki/TSU_Counter_Locations}
 
 \bibitem{DeGeronimo2011}
-G~De Geronimo, et~al.
-\newblock {Front-End ASIC for a Liquid Argon TPC}.
-\newblock {\em IEEE Transactions on Nuclear Science}, 58(3):1376--1385, 2011.
+G.~D. Geronimo, A.~D'Andragora, S.~Li \emph{et~al.}; \emph{{Front-End ASIC for
+  a Liquid Argon TPC}}; IEEE Transactions on Nuclear Science \textbf{58}, 3,
+  1376--1385 (2011).
+\newline\urlprefix\url{http://dx.doi.org/10.1109/TNS.2011.2127487}
 
 \bibitem{Thorn2012}
-C~Thorn, et~al.
-\newblock {Cold Electronics Development for the LBNE LAr TPC}.
-\newblock {\em Physics Procedia}, 37:1295--1302, 2012.
+C.~Thorn, G.~D. Geronimo, A.~D'Andragora \emph{et~al.}; \emph{{Cold Electronics
+  Development for the LBNE LAr TPC}}; Physics Procedia \textbf{37}, 1295--1302
+  (2012).
+\newline\urlprefix\url{http://dx.doi.org/10.1016/j.phpro.2012.02.473}
 
 \bibitem{Herbst2014}
-R~Herbst, et~al.
-\newblock {Design of the SLAC RCE Platform: A general purpose ATCA based data
-  acquisition system}.
-\newblock In {\em 2014 IEEE Nuclear Science Symposium and Medical Imaging
-  Conference (NSS/MIC)}, pages 1--4, 2014.
+R.~Herbst, R.~Claus, M.~Freytag \emph{et~al.}; \emph{{Design of the SLAC RCE
+  Platform: A general purpose ATCA based data acquisition system}}; in:
+  \emph{2014 IEEE Nuclear Science Symposium and Medical Imaging Conference
+  (NSS/MIC)}; 1--4 (2014).
+\newline\urlprefix\url{http://dx.doi.org/10.1109/NSSMIC.2014.7431254}
 
 \bibitem{SSPManual2016}
-J.T. Anderson, et~al.
-\newblock {SiPM Signal Processor User Manual}.
-\newblock Technical report, 2016.
+J.~Anderson, P.~{De Lurgio}, Z.~Djurcic \emph{et~al.}; \emph{{SiPM Signal
+  Processor User Manual}}; Technical report (2016).
+\newline\urlprefix\url{https://indico.fnal.gov/getFile.py/access?contribId=1&resId=0&materialId=7&confId=12392}
 
 \bibitem{Barros2016}
-N.~Barros, et~al.
-\newblock {The Penn Trigger Board}.
-\newblock Technical report, 2016.
+N.~Barros, S.~Glavin, P.~Keener \emph{et~al.}; \emph{{The Penn Trigger Board}};
+  Technical report (2016).
+\newline\urlprefix\url{https://indico.fnal.gov/getFile.py/access?contribId=13&resId=0&materialId=slides&confId=12639}
 
 \bibitem{Biery2013}
-K~Biery, et~al.
-\newblock {artdaq: An Event-Building, Filtering, and Processing Framework}.
-\newblock {\em IEEE Transactions on Nuclear Science}, 60(5):3764--3771, 2013.
+K.~Biery, C.~Green, J.~Kowalkowski \emph{et~al.}; \emph{{artdaq: An
+  Event-Building, Filtering, and Processing Framework}}; IEEE Transactions on
+  Nuclear Science \textbf{60}, 5, 3764--3771 (2013).
+\newline\urlprefix\url{http://dx.doi.org/10.1109/TNS.2013.2251660}
 
 \bibitem{artWebsite}
-art website.
+\emph{art}.
+\newline\urlprefix\url{http://art.fnal.gov}
 
 \bibitem{art2012}
-C~Green, et~al.
-\newblock {The art framework}.
-\newblock {\em Journal of Physics: Conference Series}, 396(2):22020, 2012.
+C.~Green, J.~Kowalkowski, M.~Paterno \emph{et~al.}; \emph{{The art framework}};
+  Journal of Physics: Conference Series \textbf{396}, 2, 22020 (2012).
+\newline\urlprefix\url{http://dx.doi.org/10.1088/1742-6596/396/2/022020}
 
 \bibitem{Freeman2014}
-J.~Freeman.
-\newblock {Courtesy of John Freeman, Fermilab}, 2014.
+J.~Freeman; \emph{{Courtesy of John Freeman, Fermilab}} (2014).
 
 \bibitem{LZCDR2015}
-D~S Akerib and Others.
-\newblock {LUX-ZEPLIN (LZ) Conceptual Design Report}.
-\newblock 2015.
+{The LZ Collaboration}; \emph{{LUX-ZEPLIN (LZ) Conceptual Design Report}};
+  arXiv:1509.02910 [physics.ins-det]  (2015).
 
 \bibitem{Blatter2014}
-A~Blatter, et~al.
-\newblock {Experimental study of electric breakdowns in liquid argon at
-  centimeter scale}.
-\newblock {\em Journal of Instrumentation}, 9(04):P04006, 2014.
+A.~Blatter, A.~Ereditato, C.~C. Hsu \emph{et~al.}; \emph{{Experimental study of
+  electric breakdowns in liquid argon at centimeter scale}}; Journal of
+  Instrumentation \textbf{9}, 04, P04006 (2014).
+\newline\urlprefix\url{http://dx.doi.org/10.1088/1748-0221/9/04/P04006}
 
 \bibitem{35tonCameras2017}
-N~McConkey, et~al.
-\newblock {Cryogenic CMOS cameras for high voltage monitoring in liquid argon}.
-\newblock {\em Journal of Instrumentation}, 12(03):P03014, 2017.
+N.~McConkey, N.~Spooner, M.~Thiesse \emph{et~al.}; \emph{{Cryogenic CMOS
+  cameras for high voltage monitoring in liquid argon}}; Journal of
+  Instrumentation \textbf{12}, 03, P03014 (2017).
+\newline\urlprefix\url{http://dx.doi.org/10.1088/1748-0221/12/03/P03014}
 
 \bibitem{35tonCameraVideo}
-{35$\sim$ton Phase$\sim$II LAr filling monitored by camera system}, 2016.
+\emph{{35-ton Phase II LAr filling monitored by camera system}} (2016).
+\newline\urlprefix\url{https://web.fnal.gov/collaboration/DUNE/Images for
+  Web/LAr-in-DUNE-prototype.gif}
+
+\bibitem{35tonLessonsLearned}
+M.~Convery, T.~Junk, and M.~Stancari; \emph{{Lessons Learned from the DUNE
+  35-ton Prototype}}; DUNE Document Database \textbf{1315} (2016).
+\newline\urlprefix\url{https://docs.dunescience.org/cgi-bin/private/RetrieveFile?docid=1315&filename=lessons-learned-dune%284%29.pdf&version=4}
 
 \bibitem{35tonNoise2016}
-L~Bagby, et~al.
-\newblock {35$\sim$ton Noise}.
-\newblock {\em DUNE Document Database}, 1834, 2016.
+L.~Bagby, M.~Johnson, B.~Kirby \emph{et~al.}; \emph{{35-ton Noise}}; DUNE
+  Document Database \textbf{1834} (2016).
 
 \bibitem{LArSoftWebsite}
-{LArSoft website}.
+\emph{{LArSoft}}.
+\newline\urlprefix\url{larsoft.org}
 
 \bibitem{LArSoft2013}
-Eric~D Church.
-\newblock {LArSoft: A Software Package for Liquid Argon Time Projection Drift
-  Chambers}.
-\newblock 2013.
+E.~D. Church; \emph{{LArSoft: A Software Package for Liquid Argon Time
+  Projection Drift Chambers}}; arXiv:1311.6774 [physics.ins-det]  (2013).
 
 \bibitem{LArSoft2016}
-Ruth Pordes and Erica Snider.
-\newblock {The Liquid Argon Software Toolkit (LArSoft): Goals, Status and
-  Plan}.
-\newblock {\em Proceedings of Science}, ICHEP2016:182, 2016.
+R.~Pordes and E.~Snider; \emph{{The Liquid Argon Software Toolkit (LArSoft):
+  Goals, Status and Plan}}; 38th International Conference on High Energy
+  Physics (ICHEP 2016): Chicago, IL, USA, August 3-10, 2016 182 (2016).
 
 \bibitem{Snider2016}
-E~L Snider.
-\newblock {LArSoft: Toolkit for Simulation, Reconstruction and Analysis of
-  Liquid Argon TPC Neutrino Detectors}.
-\newblock In {\em 22nd International Conference on Computing in High Energy and
-  Nuclear Physics (CHEP 2016) San Francisco, CA, October 14-16, 2016}.
+E.~L. Snider; \emph{{LArSoft: Toolkit for Simulation, Reconstruction and
+  Analysis of Liquid Argon TPC Neutrino Detectors}}; in: \emph{22nd
+  International Conference on Computing in High Energy and Nuclear Physics
+  (CHEP 2016) San Francisco, CA, October 14-16, 2016} (2016).
+\newline\urlprefix\url{http://lss.fnal.gov/archive/2017/conf/fermilab-conf-17-052-cd.pdf}
 
 \bibitem{GENIE2010}
-C~Andreopoulos, et~al.
-\newblock {The \{GENIE\} neutrino Monte Carlo generator}.
-\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
-  Accelerators, Spectrometers, Detectors and Associated Equipment},
-  614(1):87--104, 2010.
+C.~Andreopoulos, A.~Bell, D.~Bhattacharya \emph{et~al.}; \emph{{The GENIE
+  neutrino Monte Carlo generator}}; Nuclear Instruments and Methods in Physics
+  Research Section A: Accelerators, Spectrometers, Detectors and Associated
+  Equipment \textbf{614}, 1, 87--104 (2010).
+\newline\urlprefix\url{http://dx.doi.org/10.1016/j.nima.2009.12.009}
 
 \bibitem{GEANT42006}
-J~Allison, et~al.
-\newblock {Geant4 developments and applications}.
-\newblock {\em IEEE Transactions on Nuclear Science}, 53(1):270--278, 2006.
+J.~Allison, K.~Amako, J.~Apostolakis \emph{et~al.}; \emph{{Geant4 developments
+  and applications}}; IEEE Transactions on Nuclear Science \textbf{53}, 1,
+  270--278 (2006).
+\newline\urlprefix\url{http://dx.doi.org/10.1109/TNS.2006.869826}
 
 \bibitem{MicroBooNEReconstruction2017}
-R~Acciarri and Others.
-\newblock {Michel Electron Reconstruction Using Cosmic-Ray Data from the
-  MicroBooNE LArTPC}.
-\newblock {\em Submitted to: JINST}, 2017.
+R.~Acciarri and Others; \emph{{Michel Electron Reconstruction Using Cosmic-Ray
+  Data from the MicroBooNE LArTPC}}; arXiv:1704.02927 [physics.ins-det]
+  (2017).
 
 \bibitem{Shockley1938}
-W~Shockley.
-\newblock {Currents to Conductors Induced by a Moving Point Charge}.
-\newblock {\em Journal of Applied Physics}, 9(10):635--636, 1938.
+W.~Shockley; \emph{{Currents to Conductors Induced by a Moving Point Charge}};
+  Journal of Applied Physics \textbf{9}, 10, 635--636 (1938).
+\newline\urlprefix\url{http://dx.doi.org/10.1063/1.1710367}
 
 \bibitem{Ramo1939}
-S~Ramo.
-\newblock {Currents Induced by Electron Motion}.
-\newblock {\em Proceedings of the IRE}, 27(9):584--585, 1939.
+S.~Ramo; \emph{{Currents Induced by Electron Motion}}; Proceedings of the IRE
+  \textbf{27}, 9, 584--585 (1939).
+\newline\urlprefix\url{http://dx.doi.org/10.1109/JRPROC.1939.228757}
 
 \bibitem{MicroBooNERawCharge2016}
-{The MicroBooNE Collaboration}.
-\newblock {A Method to Extract the Charge Distribution Arriving at the TPC Wire
-  Planes in MicroBooNE}.
-\newblock {\em MicroBooNE Public Note}, 1017, 2016.
+{The MicroBooNE Collaboration}; \emph{{A Method to Extract the Charge
+  Distribution Arriving at the TPC Wire Planes in MicroBooNE}}; MicroBooNE
+  Public Note \textbf{1017} (2016).
+\newline\urlprefix\url{https://www-microboone.fnal.gov/publications/publicnotes/MICROBOONE-NOTE-1017-PUB.pdf}
 
 \bibitem{GarfieldWebsite}
-{Garfield simulation}.
+\emph{{Garfield simulation}}.
+\newline\urlprefix\url{http://garfield.web.cern.ch/garfield/}
 
 \bibitem{ClusterCrawler}
-B~Baller.
-\newblock {Cluster Crawler Manual}, 2014.
+B.~Baller; \emph{{Cluster Crawler Manual}} (2014).
 
 \bibitem{PMA2013}
-M~Antonello and Others.
-\newblock {Precise 3D track reconstruction algorithm for the ICARUS T600 liquid
-  argon time projection chamber detector}.
-\newblock {\em Adv. High Energy Phys.}, 2013:260820, 2013.
+M.~Antonello and Others; \emph{{Precise 3D track reconstruction algorithm for
+  the ICARUS T600 liquid argon time projection chamber detector}}; Adv. High
+  Energy Phys. \textbf{2013}, 260820 (2013).
+\newline\urlprefix\url{http://dx.doi.org/10.1155/2013/260820}
 
 \bibitem{WireCellWebsite}
-BNL.
-\newblock {Wire-Cell LArTPC Reconstruction}.
-\newblock Technical report.
+{Brookhaven National Laboratory}; \emph{{Wire-Cell LArTPC Reconstruction}}.
+\newline\urlprefix\url{http://lar.bnl.gov/wire-cell/}
 
 \bibitem{Grant2017}
-N~Grant and T~Yang.
-\newblock {Neutrino Energy Reconstruction in the DUNE Far Detector}.
-\newblock Technical report, 2017.
+N.~Grant and T.~Yang; \emph{{Neutrino Energy Reconstruction in the DUNE Far
+  Detector}}; Technical report (2017).
 
 \bibitem{KabothThesis}
-A~C Kaboth.
-\newblock {\em {Detecting the Invisible Universe with Neutrinos and Dark
-  Matter}}.
-\newblock PhD thesis, Massachusetts Institute of Technology, 2012.
+A.~C. Kaboth; \emph{{Detecting the Invisible Universe with Neutrinos and Dark
+  Matter}}; Ph.D. thesis; Massachusetts Institute of Technology (2012).
+\newline\urlprefix\url{http://hdl.handle.net/1721.1/76980}
 
 \bibitem{BlurredCluster}
-M~Wallbank.
-\newblock {The BlurredCluster Reconstruction Technique}.
-\newblock {\em DUNE Document Database}, 54, 2016.
+M.~Wallbank; \emph{{The BlurredCluster Reconstruction Technique}}; DUNE
+  Document Database \textbf{54} (2016).
+\newline\urlprefix\url{https://docs.dunescience.org/cgi-bin/private/RetrieveFile?docid=54&filename=blurredClustering.pdf&version=1}
 
 \bibitem{BlurredClusterLArSoft}
-M~Wallbank.
-\newblock {BlurredCluster Algorithm}, 2016.
+M.~Wallbank; \emph{{BlurredCluster Algorithm}} (2016).
+\newline\urlprefix\url{http://larsoft.org/single-record/?pdb=110}
 
 \bibitem{EMShower}
-M~Wallbank.
-\newblock {The EMShower Reconstruction Technique}.
-\newblock {\em DUNE Document Database}, (1369), 2016.
+M.~Wallbank; \emph{{The EMShower Reconstruction Technique}}; DUNE Document
+  Database \textbf{1369} (2016).
+\newline\urlprefix\url{https://docs.dunescience.org/cgi-bin/private/RetrieveFile?docid=1369&filename=emShower.pdf&version=1}
 
 \bibitem{EMShowerLArSoft}
-M~Wallbank.
-\newblock {EMShower Algorithm}, 2016.
+M.~Wallbank; \emph{{EMShower Algorithm}} (2016).
+\newline\urlprefix\url{http://larsoft.org/single-record/?pdb=113}
 
 \bibitem{Kirby2016}
-B.~Kirby.
-\newblock {35$\sim$ton Cold Electronics Testing, Integration and Commissioning
-  Experience}.
-\newblock Technical report, 2016.
+B.~Kirby; \emph{{35-ton Cold Electronics Testing, Integration and Commissioning
+  Experience}}; Technical report (2016).
+\newline\urlprefix\url{https://docs.dunescience.org/cgi-bin/private/RetrieveFile?docid=1704&filename=20160826_35t_Experience.pdf&version=1}
 
 \bibitem{Insler2016}
-J~Insler.
-\newblock {Module to Unstick ADC Codes}.
-\newblock Technical report, 2016.
+J.~Insler; \emph{{Module to Unstick ADC Codes}}; Technical report (2016).
+\newline\urlprefix\url{https://indico.fnal.gov/getFile.py/access?contribId=2&resId=0&materialId=slides&confId=11627}
 
 \bibitem{CRY2007}
-C~Hagmann, D~Lange, and D~Wright.
-\newblock {Cosmic-ray shower generator (CRY) for Monte Carlo transport codes}.
-\newblock In {\em 2007 IEEE Nuclear Science Symposium Conference Record},
-  volume~2, pages 1143--1146, 2007.
+C.~Hagmann, D.~Lange, and D.~Wright; \emph{{Cosmic-ray shower generator (CRY)
+  for Monte Carlo transport codes}}; in: \emph{2007 IEEE Nuclear Science
+  Symposium Conference Record}; volume~2; 1143--1146 (2007).
+\newline\urlprefix\url{http://dx.doi.org/10.1109/NSSMIC.2007.4437209}
 
 \bibitem{Brailsford2016}
-D~Brailsford.
-\newblock {Longitudinal Electron Diffusion}.
-\newblock Technical report, 2016.
+D.~Brailsford; \emph{{Longitudinal Electron Diffusion}}; Technical report
+  (2016).
+\newline\urlprefix\url{https://indico.fnal.gov/getFile.py/access?contribId=3&resId=0&materialId=slides&confId=13014}
 
 \bibitem{MicroBooNECosmics2016}
-The~MicroBooNE Collaboration.
-\newblock {Cosmic Shielding Studies at MicroBooNE}.
-\newblock {\em MicroBooNE Public Note}, 1005, 2016.
+{The MicroBooNE Collaboration}; \emph{{Cosmic Shielding Studies at
+  MicroBooNE}}; MicroBooNE Public Note \textbf{1005} (2016).
+\newline\urlprefix\url{https://www-microboone.fnal.gov/publications/publicnotes/MICROBOONE-NOTE-1005-PUB.pdf}
 
 \bibitem{Pandora2015}
-J~S Marshall and M~A Thomson.
-\newblock {The Pandora software development kit for pattern recognition}.
-\newblock {\em The European Physical Journal C}, 75(9):439, 2015.
+J.~S. Marshall and M.~A. Thomson; \emph{{The Pandora software development kit
+  for pattern recognition}}; The European Physical Journal C \textbf{75}, 9,
+  439 (2015).
+\newline\urlprefix\url{http://dx.doi.org/10.1140/epjc/s10052-015-3659-3}
 
 \end{thebibliography}
