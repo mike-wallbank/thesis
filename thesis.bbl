@@ -961,4 +961,13 @@ J.~S. Marshall and M.~A. Thomson; \emph{{The Pandora software development kit
   439 (2015).
 \newline\urlprefix\url{http://dx.doi.org/10.1140/epjc/s10052-015-3659-3}
 
+\bibitem{GrantPID2016}
+G.~Barker, N.~Grant, and M.~Haigh; \emph{{Particle ID and energy reconstruction
+  in the DUNE far detector}}; Technical report (2016).
+\newline\urlprefix\url{https://indico.fnal.gov/getFile.py/access?contribId=85&sessionId=20&resId=0&materialId=slides&confId=10613}
+
+\bibitem{Prob3++}
+{Duke University}; \emph{{Prob3++}} (2012).
+\newline\urlprefix\url{http://webhome.phy.duke.edu/$\sim$raw22/public/Prob3++/}
+
 \end{thebibliography}

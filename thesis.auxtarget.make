@@ -163,11 +163,16 @@
 \newlabel{fig:EVDHook}
 \newlabel{fig:EVD}
 \newlabel{fig:ElectricFieldScintillationIonisation}
+\newlabel{fig:ElectronMVATune}
+\newlabel{fig:ElectronMVA}
 \newlabel{fig:ElectronicsResponse}
 \newlabel{fig:ExtraCorrectionPlaneSpacing}
 \newlabel{fig:ExtraCorrectionWire}
 \newlabel{fig:ExtraCorrections}
 \newlabel{fig:FDCryostats}
+\newlabel{fig:FDCutEffPur}
+\newlabel{fig:FDCutEff}
+\newlabel{fig:FDCutPur}
 \newlabel{fig:FamousShowerReconstructed}
 \newlabel{fig:FamousShower}
 \newlabel{fig:FieldResponse}
@@ -484,6 +489,8 @@
 \newlabel{sub@fig:ElectronicsResponse}
 \newlabel{sub@fig:ExtraCorrectionPlaneSpacing}
 \newlabel{sub@fig:ExtraCorrectionWire}
+\newlabel{sub@fig:FDCutEff}
+\newlabel{sub@fig:FDCutPur}
 \newlabel{sub@fig:FieldResponse}
 \newlabel{sub@fig:GoodReconstructionEnergy}
 \newlabel{sub@fig:GoodReconstruction}

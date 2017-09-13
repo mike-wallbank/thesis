@@ -39,7 +39,7 @@ Reallocated name_sep_char (elt_size=1) to 80000 items from 60000.
 Reallocated str_pool (elt_size=1) to 195000 items from 130000.
 Reallocated str_pool (elt_size=1) to 260000 items from 195000.
 Reallocated str_pool (elt_size=1) to 325000 items from 260000.
-Repeated entry---line 2802 of file References/references.bib
+Repeated entry---line 2815 of file References/references.bib
  : @article{Baller2014
  :                    ,
 I'm skipping whatever remains of this entry
@@ -57,45 +57,46 @@ Warning--missing institution in Grant2017
 Warning--missing institution in Kirby2016
 Warning--missing institution in Insler2016
 Warning--missing institution in Brailsford2016
-You've used 174 entries,
+Warning--missing institution in GrantPID2016
+You've used 176 entries,
             2344 wiz_defined-function locations,
-            1814 strings with 280940 characters,
-and the built_in function-call counts, 61120 in all, are:
-= -- 4022
-> -- 1988
+            1824 strings with 281275 characters,
+and the built_in function-call counts, 61578 in all, are:
+= -- 4046
+> -- 2005
 < -- 4
-+ -- 939
-- -- 467
-* -- 4259
-:= -- 6367
-add.period$ -- 174
-call.type$ -- 174
-change.case$ -- 6
++ -- 947
+- -- 471
+* -- 4286
+:= -- 6413
+add.period$ -- 176
+call.type$ -- 176
+change.case$ -- 7
 chr.to.int$ -- 0
-cite$ -- 188
-duplicate$ -- 6277
-empty$ -- 6223
-format.name$ -- 582
-if$ -- 13198
+cite$ -- 191
+duplicate$ -- 6327
+empty$ -- 6269
+format.name$ -- 587
+if$ -- 13293
 int.to.chr$ -- 0
-int.to.str$ -- 174
-missing$ -- 1585
-newline$ -- 675
-num.names$ -- 169
-pop$ -- 2179
+int.to.str$ -- 176
+missing$ -- 1598
+newline$ -- 683
+num.names$ -- 171
+pop$ -- 2209
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1841
+skip$ -- 1854
 stack$ -- 0
 substring$ -- 2654
-swap$ -- 4276
+swap$ -- 4310
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 467
-warning$ -- 14
-while$ -- 375
-width$ -- 177
-write$ -- 1661
+type$ -- 471
+warning$ -- 15
+while$ -- 377
+width$ -- 179
+write$ -- 1678
 (There was 1 error message)

@@ -171,6 +171,9 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {7.7}{\ignorespaces Event display showing tracks passing across APA gaps and also through the APAs.}}{152}{figure.caption.116}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7.8}{\ignorespaces Schematic showing an example APA gap-crossing track as viewed looking down from the top of the detector.}}{153}{figure.caption.117}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7.9}{\ignorespaces Schematic showing an example track crossing two drift regions offset by an unknown quantity $\Delta z$.}}{154}{figure.caption.118}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.1}{\ignorespaces The output of a multi-variate approach to particle identification when attemping to identify electrons.}}{195}{figure.caption.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.2}{\ignorespaces The process of tuning the electron cut in the simple cut-based selection by maximising the effect of CP-violation on the oscillation probabilities.}}{195}{figure.caption.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.3}{\ignorespaces \relax }}{196}{figure.caption.3}}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
@@ -187,9 +190,7 @@
 \@writefile{lot}{\contentsline {table}{\numberline {7.1}{\ignorespaces Measurements of all the APA offsets determined from the 35\nobreakspace  {}ton TPC data.}}{163}{table.caption.128}}
 \@writefile{lot}{\contentsline {table}{\numberline {7.2}{\ignorespaces The corrected gaps between the APAs, in $x$ and $z$, based on the offsets measured (Table \ref  {tab:APAGapOffsets}).}}{163}{table.caption.128}}
 \@writefile{toc}{\contentsline {chapter}{List of acronyms}{xxv}{chapter*.7}}
-\@writefile{toc}{\contentsline {chapter}{List of figures}{xv}{chapter*.5}}
-\@writefile{toc}{\contentsline {chapter}{List of tables}{xxiii}{chapter*.6}}
-\@writefile{toc}{\contentsline {chapter}{References}{197}{chapter*.160}}
+\@writefile{toc}{\contentsline {chapter}{References}{197}{chapter*.4}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {2}Neutrino Physics}{3}{chapter.2}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {3}The Deep Underground Neutrino Experiment}{25}{chapter.3}}
@@ -228,8 +229,8 @@
 \@writefile{toc}{\contentsline {section}{\numberline {7.4}Shower Reconstruction in 35\nobreakspace  {}ton Data}{185}{section.7.4}}
 \@writefile{toc}{\contentsline {section}{\numberline {7.5}35\nobreakspace  {}ton Data Analysis Summary}{191}{section.7.5}}
 \@writefile{toc}{\contentsline {section}{\numberline {8.1}Cut-Based Tuning}{194}{section.8.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {8.2}MVA-Based Selection}{194}{section.8.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {8.3}Outlook for Future Selections}{194}{section.8.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.2}MVA-Based Selection}{196}{section.8.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.3}Outlook for Future Selections}{196}{section.8.3}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1.1}Prediction of the Neutrino}{3}{subsection.2.1.1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1.2}Discovery of the Neutrino}{4}{subsection.2.1.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1.3}The Solar Neutrino Problem}{8}{subsection.2.1.3}}
@@ -297,9 +298,9 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {7.4.3}Shower Reconstruction}{189}{subsection.7.4.3}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {7.4.4}$\pi ^0$ Reconstruction}{190}{subsection.7.4.4}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {8.1.1}Selection}{194}{subsection.8.1.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.1.2}Fiducial Volume Tuning}{194}{subsection.8.1.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.2.1}MVA Input Variables}{194}{subsection.8.2.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.2.2}Analysis Performance}{194}{subsection.8.2.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1.2}Fiducial Volume Tuning}{196}{subsection.8.1.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.2.1}MVA Input Variables}{196}{subsection.8.2.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.2.2}Analysis Performance}{196}{subsection.8.2.2}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.1.1}Super-Kamiokande and the Atmospheric Sector}{11}{subsubsection.2.2.1.1}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.1.2}SNO and the Solar Sector}{13}{subsubsection.2.2.1.2}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.3.1}KamLAND and Reactor Neutrinos}{18}{subsubsection.2.2.3.1}}
@@ -472,6 +473,7 @@
 \citation{GarfieldWebsite}
 \citation{Glashow1961,Weinberg1967}
 \citation{Grant2017}
+\citation{GrantPID2016}
 \citation{Haines1986}
 \citation{Hampel1999}
 \citation{Herbst2014}
@@ -566,6 +568,7 @@
 \citation{Planck2013}
 \citation{Pontecorvo1957}
 \citation{Pontecorvo1968,Pontecorvo1969}
+\citation{Prob3++}
 \citation{ProtoDUNE-SP}
 \citation{RENO2012}
 \citation{ReinesCowan1953Proposal}
@@ -619,6 +622,7 @@
 \global\let\oldnewlabel\newlabel
 \let\contentsline\oldcontentsline
 \let\newlabel\oldnewlabel
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
 \providecommand\HyField@AuxAddToCoFields[2]{}
 \providecommand\HyField@AuxAddToFields[1]{}
@@ -708,7 +712,7 @@
 \setcounter{Hfootnote}{0}
 \setcounter{Hfootnote}{0}
 \setcounter{Hfootnote}{0}
-\setcounter{Hfootnote}{0}
+\setcounter{Hfootnote}{1}
 \setcounter{Item}{0}
 \setcounter{Item}{0}
 \setcounter{Item}{0}
@@ -870,11 +874,11 @@
 \setcounter{figure}{0}
 \setcounter{figure}{0}
 \setcounter{figure}{0}
-\setcounter{figure}{0}
 \setcounter{figure}{10}
 \setcounter{figure}{22}
 \setcounter{figure}{28}
 \setcounter{figure}{36}
+\setcounter{figure}{3}
 \setcounter{figure}{47}
 \setcounter{figure}{5}
 \setcounter{footnote}{0}
@@ -890,7 +894,7 @@
 \setcounter{footnote}{0}
 \setcounter{footnote}{0}
 \setcounter{footnote}{0}
-\setcounter{footnote}{0}
+\setcounter{footnote}{1}
 \setcounter{mpfootnote}{0}
 \setcounter{mpfootnote}{0}
 \setcounter{mpfootnote}{0}
@@ -910,8 +914,8 @@
 \setcounter{page}{133}
 \setcounter{page}{145}
 \setcounter{page}{192}
-\setcounter{page}{195}
 \setcounter{page}{196}
+\setcounter{page}{197}
 \setcounter{page}{25}
 \setcounter{page}{28}
 \setcounter{page}{3}
@@ -1001,7 +1005,7 @@
 \setcounter{subfigure}{0}
 \setcounter{subfigure}{0}
 \setcounter{subfigure}{0}
-\setcounter{subfigure}{0}
+\setcounter{subfigure}{2}
 \setcounter{subfigure}{2}
 \setcounter{subparagraph}{0}
 \setcounter{subparagraph}{0}
