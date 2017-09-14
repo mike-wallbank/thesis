@@ -5,6 +5,7 @@
 \@setckpt{Abstract/abstract}{
 \@setckpt{Acknowledgements/acknowledgements}{
 \@setckpt{Acronyms/acronyms}{
+\@setckpt{AppendixAPAGap/appendixapagap}{
 \@setckpt{DUNE/DUNE}{
 \@setckpt{Declaration/declaration}{
 \@setckpt{Dedication/dedication}{
@@ -14,6 +15,7 @@
 \@setckpt{NeutrinoPhysics/NeutrinoPhysics}{
 \@setckpt{OnlineMonitoring/OnlineMonitoring}{
 \@setckpt{Summary/Summary}{
+\@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lof}{\addvspace {10\p@ }}
@@ -171,9 +173,14 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {7.7}{\ignorespaces Event display showing tracks passing across APA gaps and also through the APAs.}}{152}{figure.caption.116}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7.8}{\ignorespaces Schematic showing an example APA gap-crossing track as viewed looking down from the top of the detector.}}{153}{figure.caption.117}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7.9}{\ignorespaces Schematic showing an example track crossing two drift regions offset by an unknown quantity $\Delta z$.}}{154}{figure.caption.118}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.1}{\ignorespaces The output of a multi-variate approach to particle identification when attemping to identify electrons.}}{195}{figure.caption.1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.2}{\ignorespaces The process of tuning the electron cut in the simple cut-based selection by maximising the effect of CP-violation on the oscillation probabilities.}}{195}{figure.caption.2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.3}{\ignorespaces \relax }}{196}{figure.caption.3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.1}{\ignorespaces The output of a multi-variate approach to particle identification when attemping to identify electrons.}}{195}{figure.caption.160}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.2}{\ignorespaces The process of tuning the electron cut in the simple cut-based selection by maximising the effect of CP-violation on the oscillation probabilities.}}{195}{figure.caption.161}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.3}{\ignorespaces \relax }}{196}{figure.caption.162}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.1}{\ignorespaces DV1/DV3 gap.\relax }}{216}{figure.caption.164}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.2}{\ignorespaces DV1/DV5 gap.\relax }}{217}{figure.caption.165}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.3}{\ignorespaces DV3/DV7 gap.\relax }}{218}{figure.caption.166}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.4}{\ignorespaces DV5/DV7 gap.\relax }}{219}{figure.caption.167}}
+\@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
@@ -189,8 +196,11 @@
 \@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Details and dimensions of the 35\nobreakspace  {}ton cryostat.}}{70}{table.caption.54}}
 \@writefile{lot}{\contentsline {table}{\numberline {7.1}{\ignorespaces Measurements of all the APA offsets determined from the 35\nobreakspace  {}ton TPC data.}}{163}{table.caption.128}}
 \@writefile{lot}{\contentsline {table}{\numberline {7.2}{\ignorespaces The corrected gaps between the APAs, in $x$ and $z$, based on the offsets measured (Table \ref  {tab:APAGapOffsets}).}}{163}{table.caption.128}}
+\@writefile{toc}{\contentsline {chapter}{Appendix \numberline {A}APA Gap-Crossing Muons: Gap Measurements}{215}{Appendix.a.A}}
 \@writefile{toc}{\contentsline {chapter}{List of acronyms}{xxv}{chapter*.7}}
-\@writefile{toc}{\contentsline {chapter}{References}{197}{chapter*.4}}
+\@writefile{toc}{\contentsline {chapter}{List of figures}{xv}{chapter*.5}}
+\@writefile{toc}{\contentsline {chapter}{List of tables}{xxiii}{chapter*.6}}
+\@writefile{toc}{\contentsline {chapter}{References}{199}{chapter*.163}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {2}Neutrino Physics}{3}{chapter.2}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {3}The Deep Underground Neutrino Experiment}{25}{chapter.3}}
@@ -199,7 +209,7 @@
 \@writefile{toc}{\contentsline {chapter}{\numberline {6}Online Monitoring and Event Displays for the 35\nobreakspace  {}ton Experiment}{133}{chapter.6}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {7}Analysis of 35\nobreakspace  {}ton Data}{145}{chapter.7}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {8}The $\nu _e$ Oscillation Signal at the DUNE Far Detector}{193}{chapter.8}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {9}Summary}{195}{chapter.9}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {9}Summary}{197}{chapter.9}}
 \@writefile{toc}{\contentsline {paragraph}{Drift velocity}{172}{section*.138}}
 \@writefile{toc}{\contentsline {paragraph}{Geometry}{168}{section*.135}}
 \@writefile{toc}{\contentsline {paragraph}{Timing}{172}{section*.141}}
@@ -626,6 +636,7 @@
 \newlabel{NeutrinoPrediction}
 \newlabel{RepresentingEVDData}
 \newlabel{SolarNeutrinoProblem}
+\newlabel{appen:APAGap}
 \newlabel{chap:35tonAnalysis}
 \newlabel{chap:35ton}
 \newlabel{chap:DUNE}
@@ -714,6 +725,22 @@
 \newlabel{fig:APAGapZOffsetCorrected}
 \newlabel{fig:APAGapZOffsetUncorrected}
 \newlabel{fig:APAGapZOffset}
+\newlabel{fig:AppendixTPC1TPC3Gap}
+\newlabel{fig:AppendixTPC1TPC3XOff}
+\newlabel{fig:AppendixTPC1TPC3ZOff}
+\newlabel{fig:AppendixTPC1TPC3}
+\newlabel{fig:AppendixTPC1TPC5Gap}
+\newlabel{fig:AppendixTPC1TPC5XOff}
+\newlabel{fig:AppendixTPC1TPC5ZOff}
+\newlabel{fig:AppendixTPC1TPC5}
+\newlabel{fig:AppendixTPC3TPC7Gap}
+\newlabel{fig:AppendixTPC3TPC7XOff}
+\newlabel{fig:AppendixTPC3TPC7ZOff}
+\newlabel{fig:AppendixTPC3TPC7}
+\newlabel{fig:AppendixTPC5TPC7Gap}
+\newlabel{fig:AppendixTPC5TPC7XOff}
+\newlabel{fig:AppendixTPC5TPC7ZOff}
+\newlabel{fig:AppendixTPC5TPC7}
 \newlabel{fig:AtmosphericNeutrinoAnomaly}
 \newlabel{fig:BetaDecayEnergy}
 \newlabel{fig:BlurringProcess}
@@ -1076,6 +1103,18 @@
 \newlabel{sub@fig:APAGapXOffsetZOffsetPos}
 \newlabel{sub@fig:APAGapZOffsetCorrected}
 \newlabel{sub@fig:APAGapZOffsetUncorrected}
+\newlabel{sub@fig:AppendixTPC1TPC3Gap}
+\newlabel{sub@fig:AppendixTPC1TPC3XOff}
+\newlabel{sub@fig:AppendixTPC1TPC3ZOff}
+\newlabel{sub@fig:AppendixTPC1TPC5Gap}
+\newlabel{sub@fig:AppendixTPC1TPC5XOff}
+\newlabel{sub@fig:AppendixTPC1TPC5ZOff}
+\newlabel{sub@fig:AppendixTPC3TPC7Gap}
+\newlabel{sub@fig:AppendixTPC3TPC7XOff}
+\newlabel{sub@fig:AppendixTPC3TPC7ZOff}
+\newlabel{sub@fig:AppendixTPC5TPC7Gap}
+\newlabel{sub@fig:AppendixTPC5TPC7XOff}
+\newlabel{sub@fig:AppendixTPC5TPC7ZOff}
 \newlabel{sub@fig:CoherentNoiseRemovalNoNoise}
 \newlabel{sub@fig:CoherentNoiseRemovalNoise}
 \newlabel{sub@fig:DQMPlot1}
@@ -1169,7 +1208,6 @@
 \newlabel{tab:NobleProperties}
 \newlabel{tab:OscillationParameters}
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
 \providecommand\HyField@AuxAddToCoFields[2]{}
 \providecommand\HyField@AuxAddToFields[1]{}
 \providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
@@ -1189,6 +1227,8 @@
 \providecommand\hyper@newdestlabel[2]{}
 \providecommand\hyper@newdestlabel[2]{}
 \providecommand\hyper@newdestlabel[2]{}
+\providecommand\hyper@newdestlabel[2]{}
+\setcounter{@ppsaveapp}{0}
 \setcounter{@ppsaveapp}{0}
 \setcounter{@ppsaveapp}{0}
 \setcounter{@ppsaveapp}{0}
@@ -1217,6 +1257,7 @@
 \setcounter{@ppsavesec}{0}
 \setcounter{@ppsavesec}{0}
 \setcounter{@ppsavesec}{0}
+\setcounter{@ppsavesec}{9}
 \setcounter{@pps}{0}
 \setcounter{@pps}{0}
 \setcounter{@pps}{0}
@@ -1231,6 +1272,8 @@
 \setcounter{@pps}{0}
 \setcounter{@pps}{0}
 \setcounter{@pps}{0}
+\setcounter{@pps}{1}
+\setcounter{ContinuedFloat}{0}
 \setcounter{ContinuedFloat}{0}
 \setcounter{ContinuedFloat}{0}
 \setcounter{ContinuedFloat}{0}
@@ -1257,7 +1300,8 @@
 \setcounter{Hfootnote}{0}
 \setcounter{Hfootnote}{0}
 \setcounter{Hfootnote}{0}
-\setcounter{Hfootnote}{0}
+\setcounter{Hfootnote}{1}
+\setcounter{Hfootnote}{1}
 \setcounter{Hfootnote}{1}
 \setcounter{Item}{0}
 \setcounter{Item}{0}
@@ -1273,10 +1317,12 @@
 \setcounter{Item}{0}
 \setcounter{Item}{0}
 \setcounter{Item}{0}
+\setcounter{Item}{0}
 \setcounter{LT@chunks}{0}
 \setcounter{LT@chunks}{0}
 \setcounter{LT@chunks}{0}
 \setcounter{LT@chunks}{0}
+\setcounter{LT@chunks}{5}
 \setcounter{LT@chunks}{5}
 \setcounter{LT@chunks}{5}
 \setcounter{LT@chunks}{5}
@@ -1301,6 +1347,7 @@
 \setcounter{LT@tables}{1}
 \setcounter{LT@tables}{1}
 \setcounter{LT@tables}{1}
+\setcounter{LT@tables}{1}
 \setcounter{NAT@ctr}{0}
 \setcounter{NAT@ctr}{0}
 \setcounter{NAT@ctr}{0}
@@ -1315,6 +1362,7 @@
 \setcounter{NAT@ctr}{0}
 \setcounter{NAT@ctr}{0}
 \setcounter{NAT@ctr}{0}
+\setcounter{NAT@ctr}{176}
 \setcounter{bookmark@seq@number}{0}
 \setcounter{bookmark@seq@number}{0}
 \setcounter{bookmark@seq@number}{0}
@@ -1322,6 +1370,7 @@
 \setcounter{bookmark@seq@number}{102}
 \setcounter{bookmark@seq@number}{110}
 \setcounter{bookmark@seq@number}{111}
+\setcounter{bookmark@seq@number}{113}
 \setcounter{bookmark@seq@number}{20}
 \setcounter{bookmark@seq@number}{37}
 \setcounter{bookmark@seq@number}{4}
@@ -1334,6 +1383,7 @@
 \setcounter{chapter}{0}
 \setcounter{chapter}{0}
 \setcounter{chapter}{0}
+\setcounter{chapter}{1}
 \setcounter{chapter}{1}
 \setcounter{chapter}{2}
 \setcounter{chapter}{3}
@@ -1357,6 +1407,8 @@
 \setcounter{enumiii}{0}
 \setcounter{enumiii}{0}
 \setcounter{enumiii}{0}
+\setcounter{enumiii}{0}
+\setcounter{enumii}{0}
 \setcounter{enumii}{0}
 \setcounter{enumii}{0}
 \setcounter{enumii}{0}
@@ -1385,6 +1437,7 @@
 \setcounter{enumiv}{0}
 \setcounter{enumiv}{0}
 \setcounter{enumiv}{0}
+\setcounter{enumiv}{0}
 \setcounter{enumi}{0}
 \setcounter{enumi}{0}
 \setcounter{enumi}{0}
@@ -1399,6 +1452,8 @@
 \setcounter{enumi}{0}
 \setcounter{enumi}{0}
 \setcounter{enumi}{0}
+\setcounter{enumi}{0}
+\setcounter{equation}{0}
 \setcounter{equation}{0}
 \setcounter{equation}{0}
 \setcounter{equation}{0}
@@ -1426,7 +1481,9 @@
 \setcounter{figure}{36}
 \setcounter{figure}{3}
 \setcounter{figure}{47}
+\setcounter{figure}{4}
 \setcounter{figure}{5}
+\setcounter{footnote}{0}
 \setcounter{footnote}{0}
 \setcounter{footnote}{0}
 \setcounter{footnote}{0}
@@ -1455,13 +1512,15 @@
 \setcounter{mpfootnote}{0}
 \setcounter{mpfootnote}{0}
 \setcounter{mpfootnote}{0}
+\setcounter{mpfootnote}{0}
 \setcounter{page}{103}
 \setcounter{page}{10}
 \setcounter{page}{133}
 \setcounter{page}{145}
 \setcounter{page}{192}
-\setcounter{page}{196}
 \setcounter{page}{197}
+\setcounter{page}{198}
+\setcounter{page}{220}
 \setcounter{page}{25}
 \setcounter{page}{28}
 \setcounter{page}{3}
@@ -1483,6 +1542,7 @@
 \setcounter{paragraph}{0}
 \setcounter{paragraph}{0}
 \setcounter{paragraph}{0}
+\setcounter{paragraph}{0}
 \setcounter{parentequation}{0}
 \setcounter{parentequation}{0}
 \setcounter{parentequation}{0}
@@ -1497,6 +1557,8 @@
 \setcounter{parentequation}{0}
 \setcounter{parentequation}{0}
 \setcounter{parentequation}{0}
+\setcounter{parentequation}{0}
+\setcounter{part}{0}
 \setcounter{part}{0}
 \setcounter{part}{0}
 \setcounter{part}{0}
@@ -1517,6 +1579,7 @@
 \setcounter{section@level}{0}
 \setcounter{section@level}{0}
 \setcounter{section@level}{0}
+\setcounter{section@level}{1}
 \setcounter{section@level}{1}
 \setcounter{section@level}{1}
 \setcounter{section@level}{1}
@@ -1525,6 +1588,7 @@
 \setcounter{section@level}{2}
 \setcounter{section@level}{2}
 \setcounter{section@level}{3}
+\setcounter{section}{0}
 \setcounter{section}{0}
 \setcounter{section}{0}
 \setcounter{section}{0}
@@ -1550,9 +1614,10 @@
 \setcounter{subfigure}{0}
 \setcounter{subfigure}{0}
 \setcounter{subfigure}{0}
-\setcounter{subfigure}{0}
 \setcounter{subfigure}{2}
 \setcounter{subfigure}{2}
+\setcounter{subfigure}{2}
+\setcounter{subfigure}{3}
 \setcounter{subparagraph}{0}
 \setcounter{subparagraph}{0}
 \setcounter{subparagraph}{0}
@@ -1567,6 +1632,8 @@
 \setcounter{subparagraph}{0}
 \setcounter{subparagraph}{0}
 \setcounter{subparagraph}{0}
+\setcounter{subparagraph}{0}
+\setcounter{subsection}{0}
 \setcounter{subsection}{0}
 \setcounter{subsection}{0}
 \setcounter{subsection}{0}
@@ -1581,6 +1648,7 @@
 \setcounter{subsection}{2}
 \setcounter{subsection}{3}
 \setcounter{subsection}{5}
+\setcounter{subsubsection}{0}
 \setcounter{subsubsection}{0}
 \setcounter{subsubsection}{0}
 \setcounter{subsubsection}{0}
@@ -1609,6 +1677,8 @@
 \setcounter{subtable}{0}
 \setcounter{subtable}{0}
 \setcounter{subtable}{0}
+\setcounter{subtable}{0}
+\setcounter{table}{0}
 \setcounter{table}{0}
 \setcounter{table}{0}
 \setcounter{table}{0}
@@ -1623,6 +1693,7 @@
 \setcounter{table}{1}
 \setcounter{table}{2}
 \setcounter{table}{2}
+}
 }
 }
 }

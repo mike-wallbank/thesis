@@ -16,6 +16,7 @@ A level-1 auxiliary file: 35tonAnalysis/35tonAnalysis.aux
 A level-1 auxiliary file: FarDetectorAnalysis/FarDetectorAnalysis.aux
 A level-1 auxiliary file: Summary/Summary.aux
 The style file: mikethesis3.bst
+A level-1 auxiliary file: AppendixAPAGap/appendixapagap.aux
 Database file #1: References/references.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Reallocated buffer (elt_size=1) to 40000 items from 20000.
@@ -60,7 +61,7 @@ Warning--missing institution in Brailsford2016
 Warning--missing institution in GrantPID2016
 You've used 176 entries,
             2344 wiz_defined-function locations,
-            1824 strings with 281275 characters,
+            1825 strings with 281308 characters,
 and the built_in function-call counts, 61578 in all, are:
 = -- 4046
 > -- 2005
