@@ -10,7 +10,10 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {7.1}{\ignorespaces Measurements of all the APA offsets determined from the 35\nobreakspace {}ton TPC data.}}{163}{table.caption.128}
-\contentsline {table}{\numberline {7.2}{\ignorespaces The corrected gaps between the APAs, in $x$ and $z$, based on the offsets measured (Table \ref {tab:APAGapOffsets}).}}{163}{table.caption.128}
+\contentsline {table}{\numberline {7.2}{\ignorespaces The corrected gaps between the APAs, in $x$ and $z$, based on the offsets measured in the data.}}{163}{table.caption.128}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {8.1}{\ignorespaces The dimensions and tuned fiducial volume of a single DUNE far detector module.}}{197}{table.caption.164}
+\contentsline {table}{\numberline {8.2}{\ignorespaces \relax }}{198}{table.caption.165}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

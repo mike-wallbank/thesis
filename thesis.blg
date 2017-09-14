@@ -17,6 +17,7 @@ A level-1 auxiliary file: FarDetectorAnalysis/FarDetectorAnalysis.aux
 A level-1 auxiliary file: Summary/Summary.aux
 The style file: mikethesis3.bst
 A level-1 auxiliary file: AppendixAPAGap/appendixapagap.aux
+A level-1 auxiliary file: AppendixFDMVAVariables/appendixfdmvavariables.aux
 Database file #1: References/references.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Reallocated buffer (elt_size=1) to 40000 items from 20000.
@@ -40,7 +41,7 @@ Reallocated name_sep_char (elt_size=1) to 80000 items from 60000.
 Reallocated str_pool (elt_size=1) to 195000 items from 130000.
 Reallocated str_pool (elt_size=1) to 260000 items from 195000.
 Reallocated str_pool (elt_size=1) to 325000 items from 260000.
-Repeated entry---line 2815 of file References/references.bib
+Repeated entry---line 2830 of file References/references.bib
  : @article{Baller2014
  :                    ,
 I'm skipping whatever remains of this entry
@@ -59,45 +60,45 @@ Warning--missing institution in Kirby2016
 Warning--missing institution in Insler2016
 Warning--missing institution in Brailsford2016
 Warning--missing institution in GrantPID2016
-You've used 176 entries,
+You've used 179 entries,
             2344 wiz_defined-function locations,
-            1825 strings with 281308 characters,
-and the built_in function-call counts, 61578 in all, are:
-= -- 4046
-> -- 2005
+            1845 strings with 282502 characters,
+and the built_in function-call counts, 62750 in all, are:
+= -- 4118
+> -- 2056
 < -- 4
-+ -- 947
-- -- 471
-* -- 4286
-:= -- 6413
-add.period$ -- 176
-call.type$ -- 176
++ -- 971
+- -- 483
+* -- 4367
+:= -- 6536
+add.period$ -- 179
+call.type$ -- 179
 change.case$ -- 7
 chr.to.int$ -- 0
-cite$ -- 191
-duplicate$ -- 6327
-empty$ -- 6269
-format.name$ -- 587
-if$ -- 13293
+cite$ -- 194
+duplicate$ -- 6446
+empty$ -- 6380
+format.name$ -- 602
+if$ -- 13546
 int.to.chr$ -- 0
-int.to.str$ -- 176
-missing$ -- 1598
-newline$ -- 683
-num.names$ -- 171
-pop$ -- 2209
+int.to.str$ -- 179
+missing$ -- 1629
+newline$ -- 696
+num.names$ -- 174
+pop$ -- 2250
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1854
+skip$ -- 1896
 stack$ -- 0
-substring$ -- 2654
-swap$ -- 4310
+substring$ -- 2690
+swap$ -- 4393
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 471
+type$ -- 483
 warning$ -- 15
-while$ -- 377
-width$ -- 179
-write$ -- 1678
+while$ -- 382
+width$ -- 182
+write$ -- 1708
 (There was 1 error message)

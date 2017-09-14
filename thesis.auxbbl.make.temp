@@ -1,11 +1,12 @@
     {1}{324.9803pt}}
-    {3}{98.41167pt}\LT@entry 
+    {3}{98.41165pt}\LT@entry 
 \@setckpt{35ton/35ton}{
 \@setckpt{35tonAnalysis/35tonAnalysis}{
 \@setckpt{Abstract/abstract}{
 \@setckpt{Acknowledgements/acknowledgements}{
 \@setckpt{Acronyms/acronyms}{
 \@setckpt{AppendixAPAGap/appendixapagap}{
+\@setckpt{AppendixFDMVAVariables/appendixfdmvavariables}{
 \@setckpt{DUNE/DUNE}{
 \@setckpt{Declaration/declaration}{
 \@setckpt{Dedication/dedication}{
@@ -15,6 +16,7 @@
 \@setckpt{NeutrinoPhysics/NeutrinoPhysics}{
 \@setckpt{OnlineMonitoring/OnlineMonitoring}{
 \@setckpt{Summary/Summary}{
+\@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lof}{\addvspace {10\p@ }}
@@ -173,13 +175,18 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {7.7}{\ignorespaces Event display showing tracks passing across APA gaps and also through the APAs.}}{152}{figure.caption.116}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7.8}{\ignorespaces Schematic showing an example APA gap-crossing track as viewed looking down from the top of the detector.}}{153}{figure.caption.117}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7.9}{\ignorespaces Schematic showing an example track crossing two drift regions offset by an unknown quantity $\Delta z$.}}{154}{figure.caption.118}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.1}{\ignorespaces The output of a multi-variate approach to particle identification when attemping to identify electrons.}}{195}{figure.caption.160}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.2}{\ignorespaces The process of tuning the electron cut in the simple cut-based selection by maximising the effect of CP-violation on the oscillation probabilities.}}{195}{figure.caption.161}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.3}{\ignorespaces \relax }}{196}{figure.caption.162}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.1}{\ignorespaces DV1/DV3 gap.\relax }}{216}{figure.caption.164}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.2}{\ignorespaces DV1/DV5 gap.\relax }}{217}{figure.caption.165}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.3}{\ignorespaces DV3/DV7 gap.\relax }}{218}{figure.caption.166}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.4}{\ignorespaces DV5/DV7 gap.\relax }}{219}{figure.caption.167}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.1}{\ignorespaces The output of a multi-variate approach to particle identification when attemping to identify electrons.}}{195}{figure.caption.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.2}{\ignorespaces The process of tuning the electron cut in the simple cut-based selection by maximising the effect of CP-violation on the oscillation probabilities.}}{196}{figure.caption.2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.3}{\ignorespaces The efficiency and purity of the $\nu _e$CC Pandora cut-based selection as a function of a number of kinematic variables, after applying the selection.}}{197}{figure.caption.3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.4}{\ignorespaces Tuning the DUNE far detector fiducial volume, $y$-coordinate.}}{198}{figure.caption.4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.5}{\ignorespaces The MVA response when training $\nu _e$ (signal) against $\nu _{\mu }$ and $\nu _{\tau }$ (background).}}{200}{figure.caption.7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.6}{\ignorespaces The efficiency and purity of the $\nu _e$CC MVA-based selection as a function of a number of kinematic variables, before applying the selection.}}{201}{figure.caption.8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.7}{\ignorespaces The efficiency and purity of the $\nu _e$CC MVA-based selection as a function of a number of kinematic variables, after applying the selection.}}{202}{figure.caption.9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.1}{\ignorespaces DV1/DV3 gap.\relax }}{220}{figure.caption.168}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.2}{\ignorespaces DV1/DV5 gap.\relax }}{221}{figure.caption.169}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.3}{\ignorespaces DV3/DV7 gap.\relax }}{222}{figure.caption.170}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.4}{\ignorespaces DV5/DV7 gap.\relax }}{223}{figure.caption.171}}
+\@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
@@ -195,12 +202,13 @@
 \@writefile{lot}{\contentsline {table}{\numberline {3.2}{\ignorespaces Exposures anticipated for the DUNE experiment for the first few years of operation.}}{46}{table.caption.35}}
 \@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Details and dimensions of the 35\nobreakspace  {}ton cryostat.}}{70}{table.caption.54}}
 \@writefile{lot}{\contentsline {table}{\numberline {7.1}{\ignorespaces Measurements of all the APA offsets determined from the 35\nobreakspace  {}ton TPC data.}}{163}{table.caption.128}}
-\@writefile{lot}{\contentsline {table}{\numberline {7.2}{\ignorespaces The corrected gaps between the APAs, in $x$ and $z$, based on the offsets measured (Table \ref  {tab:APAGapOffsets}).}}{163}{table.caption.128}}
-\@writefile{toc}{\contentsline {chapter}{Appendix \numberline {A}APA Gap-Crossing Muons: Gap Measurements}{215}{Appendix.a.A}}
+\@writefile{lot}{\contentsline {table}{\numberline {7.2}{\ignorespaces The corrected gaps between the APAs, in $x$ and $z$, based on the offsets measured in the data.}}{163}{table.caption.128}}
+\@writefile{lot}{\contentsline {table}{\numberline {8.1}{\ignorespaces The dimensions and tuned fiducial volume of a single DUNE far detector module.}}{197}{table.caption.5}}
+\@writefile{lot}{\contentsline {table}{\numberline {8.2}{\ignorespaces The input variable used in the MVA designed to separate $\nu _e$ events from $\nu _{\mu }$ and $\nu _{\tau }$ events.}}{199}{table.caption.6}}
+\@writefile{toc}{\contentsline {chapter}{Appendix \numberline {A}APA Gap-Crossing Muons: Gap Measurements}{219}{Appendix.a.A}}
+\@writefile{toc}{\contentsline {chapter}{Appendix \numberline {B}DUNE Far Detector $\nu _e$CC MVA Input Variables}{225}{Appendix.a.B}}
 \@writefile{toc}{\contentsline {chapter}{List of acronyms}{xxv}{chapter*.7}}
-\@writefile{toc}{\contentsline {chapter}{List of figures}{xv}{chapter*.5}}
-\@writefile{toc}{\contentsline {chapter}{List of tables}{xxiii}{chapter*.6}}
-\@writefile{toc}{\contentsline {chapter}{References}{199}{chapter*.163}}
+\@writefile{toc}{\contentsline {chapter}{References}{203}{chapter*.10}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {2}Neutrino Physics}{3}{chapter.2}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {3}The Deep Underground Neutrino Experiment}{25}{chapter.3}}
@@ -209,7 +217,7 @@
 \@writefile{toc}{\contentsline {chapter}{\numberline {6}Online Monitoring and Event Displays for the 35\nobreakspace  {}ton Experiment}{133}{chapter.6}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {7}Analysis of 35\nobreakspace  {}ton Data}{145}{chapter.7}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {8}The $\nu _e$ Oscillation Signal at the DUNE Far Detector}{193}{chapter.8}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {9}Summary}{197}{chapter.9}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {9}Summary}{201}{chapter.9}}
 \@writefile{toc}{\contentsline {paragraph}{Drift velocity}{172}{section*.138}}
 \@writefile{toc}{\contentsline {paragraph}{Geometry}{168}{section*.135}}
 \@writefile{toc}{\contentsline {paragraph}{Timing}{172}{section*.141}}
@@ -238,9 +246,10 @@
 \@writefile{toc}{\contentsline {section}{\numberline {7.3}APA-Crossing Muons}{164}{section.7.3}}
 \@writefile{toc}{\contentsline {section}{\numberline {7.4}Shower Reconstruction in 35\nobreakspace  {}ton Data}{185}{section.7.4}}
 \@writefile{toc}{\contentsline {section}{\numberline {7.5}35\nobreakspace  {}ton Data Analysis Summary}{191}{section.7.5}}
-\@writefile{toc}{\contentsline {section}{\numberline {8.1}Cut-Based Tuning}{194}{section.8.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {8.2}MVA-Based Selection}{196}{section.8.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {8.3}Outlook for Future Selections}{196}{section.8.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.1}Far Detector Samples}{194}{section.8.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.2}Cut-Based Tuning}{194}{section.8.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.3}MVA-Based Selection}{198}{section.8.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.4}Outlook for Future Selections}{203}{section.8.4}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1.1}Prediction of the Neutrino}{3}{subsection.2.1.1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1.2}Discovery of the Neutrino}{4}{subsection.2.1.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1.3}The Solar Neutrino Problem}{8}{subsection.2.1.3}}
@@ -307,10 +316,10 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {7.4.2}Calorimetry Reconstruction}{185}{subsection.7.4.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {7.4.3}Shower Reconstruction}{189}{subsection.7.4.3}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {7.4.4}$\pi ^0$ Reconstruction}{190}{subsection.7.4.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.1.1}Selection}{194}{subsection.8.1.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.1.2}Fiducial Volume Tuning}{196}{subsection.8.1.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.2.1}MVA Input Variables}{196}{subsection.8.2.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.2.2}Analysis Performance}{196}{subsection.8.2.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.2.1}Selection}{194}{subsection.8.2.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.2.2}Fiducial Volume Tuning}{196}{subsection.8.2.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.3.1}MVA Input Variables}{198}{subsection.8.3.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.3.2}Analysis Performance}{200}{subsection.8.3.2}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.1.1}Super-Kamiokande and the Atmospheric Sector}{11}{subsubsection.2.2.1.1}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.1.2}SNO and the Solar Sector}{13}{subsubsection.2.2.1.2}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.3.1}KamLAND and Reactor Neutrinos}{18}{subsubsection.2.2.3.1}}
@@ -403,6 +412,8 @@
 \citation{Abdurashitov1994}
 \citation{Anselmann1992}
 \citation{ArgoNeuT2012}
+\citation{ArgoNeuT2013}
+\citation{Aurisano2016}
 \citation{Bahcall1968}
 \citation{Bahcall1995}
 \citation{Bahcall2002,Smirnov2003}
@@ -610,6 +621,7 @@
 \citation{T2K2017}
 \citation{T2Knue2014}
 \citation{T2Knumu2014}
+\citation{TMVA}
 \citation{Thomas1987,Amoruso2004,Kubota1978}
 \citation{Thomas1987,Amoruso2004,Kubota1978}
 \citation{Triotsk2011,Mainz2005}
@@ -633,6 +645,7 @@
 \let\contentsline\oldcontentsline
 \let\newlabel\oldnewlabel
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
 \providecommand\HyField@AuxAddToCoFields[2]{}
 \providecommand\HyField@AuxAddToFields[1]{}
 \providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
@@ -653,6 +666,8 @@
 \providecommand\hyper@newdestlabel[2]{}
 \providecommand\hyper@newdestlabel[2]{}
 \providecommand\hyper@newdestlabel[2]{}
+\providecommand\hyper@newdestlabel[2]{}
+\setcounter{@ppsaveapp}{0}
 \setcounter{@ppsaveapp}{0}
 \setcounter{@ppsaveapp}{0}
 \setcounter{@ppsaveapp}{0}
@@ -683,6 +698,7 @@
 \setcounter{@ppsavesec}{0}
 \setcounter{@ppsavesec}{0}
 \setcounter{@ppsavesec}{9}
+\setcounter{@ppsavesec}{9}
 \setcounter{@pps}{0}
 \setcounter{@pps}{0}
 \setcounter{@pps}{0}
@@ -697,6 +713,7 @@
 \setcounter{@pps}{0}
 \setcounter{@pps}{0}
 \setcounter{@pps}{0}
+\setcounter{@pps}{1}
 \setcounter{@pps}{1}
 \setcounter{ContinuedFloat}{0}
 \setcounter{ContinuedFloat}{0}
@@ -713,6 +730,7 @@
 \setcounter{ContinuedFloat}{0}
 \setcounter{ContinuedFloat}{0}
 \setcounter{ContinuedFloat}{0}
+\setcounter{ContinuedFloat}{0}
 \setcounter{Hfootnote}{0}
 \setcounter{Hfootnote}{0}
 \setcounter{Hfootnote}{0}
@@ -725,9 +743,11 @@
 \setcounter{Hfootnote}{0}
 \setcounter{Hfootnote}{0}
 \setcounter{Hfootnote}{0}
-\setcounter{Hfootnote}{1}
-\setcounter{Hfootnote}{1}
-\setcounter{Hfootnote}{1}
+\setcounter{Hfootnote}{2}
+\setcounter{Hfootnote}{2}
+\setcounter{Hfootnote}{2}
+\setcounter{Hfootnote}{2}
+\setcounter{Item}{0}
 \setcounter{Item}{0}
 \setcounter{Item}{0}
 \setcounter{Item}{0}
@@ -758,6 +778,7 @@
 \setcounter{LT@chunks}{5}
 \setcounter{LT@chunks}{5}
 \setcounter{LT@chunks}{5}
+\setcounter{LT@chunks}{5}
 \setcounter{LT@tables}{0}
 \setcounter{LT@tables}{0}
 \setcounter{LT@tables}{0}
@@ -773,6 +794,7 @@
 \setcounter{LT@tables}{1}
 \setcounter{LT@tables}{1}
 \setcounter{LT@tables}{1}
+\setcounter{LT@tables}{1}
 \setcounter{NAT@ctr}{0}
 \setcounter{NAT@ctr}{0}
 \setcounter{NAT@ctr}{0}
@@ -787,15 +809,17 @@
 \setcounter{NAT@ctr}{0}
 \setcounter{NAT@ctr}{0}
 \setcounter{NAT@ctr}{0}
-\setcounter{NAT@ctr}{176}
+\setcounter{NAT@ctr}{178}
+\setcounter{NAT@ctr}{178}
 \setcounter{bookmark@seq@number}{0}
 \setcounter{bookmark@seq@number}{0}
 \setcounter{bookmark@seq@number}{0}
 \setcounter{bookmark@seq@number}{0}
 \setcounter{bookmark@seq@number}{102}
-\setcounter{bookmark@seq@number}{110}
+\setcounter{bookmark@seq@number}{111}
 \setcounter{bookmark@seq@number}{111}
 \setcounter{bookmark@seq@number}{113}
+\setcounter{bookmark@seq@number}{114}
 \setcounter{bookmark@seq@number}{20}
 \setcounter{bookmark@seq@number}{37}
 \setcounter{bookmark@seq@number}{4}
@@ -810,6 +834,7 @@
 \setcounter{chapter}{0}
 \setcounter{chapter}{1}
 \setcounter{chapter}{1}
+\setcounter{chapter}{2}
 \setcounter{chapter}{2}
 \setcounter{chapter}{3}
 \setcounter{chapter}{4}
@@ -833,6 +858,8 @@
 \setcounter{enumiii}{0}
 \setcounter{enumiii}{0}
 \setcounter{enumiii}{0}
+\setcounter{enumiii}{0}
+\setcounter{enumii}{0}
 \setcounter{enumii}{0}
 \setcounter{enumii}{0}
 \setcounter{enumii}{0}
@@ -863,6 +890,7 @@
 \setcounter{enumiv}{0}
 \setcounter{enumiv}{0}
 \setcounter{enumiv}{0}
+\setcounter{enumiv}{0}
 \setcounter{enumi}{0}
 \setcounter{enumi}{0}
 \setcounter{enumi}{0}
@@ -878,6 +906,8 @@
 \setcounter{enumi}{0}
 \setcounter{enumi}{0}
 \setcounter{enumi}{0}
+\setcounter{enumi}{0}
+\setcounter{equation}{0}
 \setcounter{equation}{0}
 \setcounter{equation}{0}
 \setcounter{equation}{0}
@@ -900,14 +930,15 @@
 \setcounter{figure}{0}
 \setcounter{figure}{0}
 \setcounter{figure}{0}
+\setcounter{figure}{0}
 \setcounter{figure}{10}
 \setcounter{figure}{22}
 \setcounter{figure}{28}
 \setcounter{figure}{36}
-\setcounter{figure}{3}
 \setcounter{figure}{47}
 \setcounter{figure}{4}
 \setcounter{figure}{5}
+\setcounter{figure}{7}
 \setcounter{footnote}{0}
 \setcounter{footnote}{0}
 \setcounter{footnote}{0}
@@ -922,7 +953,9 @@
 \setcounter{footnote}{0}
 \setcounter{footnote}{0}
 \setcounter{footnote}{0}
-\setcounter{footnote}{1}
+\setcounter{footnote}{0}
+\setcounter{footnote}{2}
+\setcounter{mpfootnote}{0}
 \setcounter{mpfootnote}{0}
 \setcounter{mpfootnote}{0}
 \setcounter{mpfootnote}{0}
@@ -943,9 +976,10 @@
 \setcounter{page}{133}
 \setcounter{page}{145}
 \setcounter{page}{192}
-\setcounter{page}{197}
-\setcounter{page}{198}
-\setcounter{page}{220}
+\setcounter{page}{202}
+\setcounter{page}{204}
+\setcounter{page}{224}
+\setcounter{page}{226}
 \setcounter{page}{25}
 \setcounter{page}{28}
 \setcounter{page}{3}
@@ -968,6 +1002,7 @@
 \setcounter{paragraph}{0}
 \setcounter{paragraph}{0}
 \setcounter{paragraph}{0}
+\setcounter{paragraph}{0}
 \setcounter{parentequation}{0}
 \setcounter{parentequation}{0}
 \setcounter{parentequation}{0}
@@ -983,6 +1018,8 @@
 \setcounter{parentequation}{0}
 \setcounter{parentequation}{0}
 \setcounter{parentequation}{0}
+\setcounter{parentequation}{0}
+\setcounter{part}{0}
 \setcounter{part}{0}
 \setcounter{part}{0}
 \setcounter{part}{0}
@@ -1004,6 +1041,7 @@
 \setcounter{section@level}{0}
 \setcounter{section@level}{0}
 \setcounter{section@level}{0}
+\setcounter{section@level}{1}
 \setcounter{section@level}{1}
 \setcounter{section@level}{1}
 \setcounter{section@level}{1}
@@ -1021,9 +1059,10 @@
 \setcounter{section}{0}
 \setcounter{section}{0}
 \setcounter{section}{0}
+\setcounter{section}{0}
 \setcounter{section}{3}
 \setcounter{section}{3}
-\setcounter{section}{3}
+\setcounter{section}{4}
 \setcounter{section}{4}
 \setcounter{section}{5}
 \setcounter{section}{5}
@@ -1039,10 +1078,11 @@
 \setcounter{subfigure}{0}
 \setcounter{subfigure}{0}
 \setcounter{subfigure}{0}
-\setcounter{subfigure}{2}
-\setcounter{subfigure}{2}
+\setcounter{subfigure}{0}
 \setcounter{subfigure}{2}
 \setcounter{subfigure}{3}
+\setcounter{subfigure}{3}
+\setcounter{subfigure}{4}
 \setcounter{subparagraph}{0}
 \setcounter{subparagraph}{0}
 \setcounter{subparagraph}{0}
@@ -1058,6 +1098,8 @@
 \setcounter{subparagraph}{0}
 \setcounter{subparagraph}{0}
 \setcounter{subparagraph}{0}
+\setcounter{subparagraph}{0}
+\setcounter{subsection}{0}
 \setcounter{subsection}{0}
 \setcounter{subsection}{0}
 \setcounter{subsection}{0}
@@ -1073,6 +1115,7 @@
 \setcounter{subsection}{2}
 \setcounter{subsection}{3}
 \setcounter{subsection}{5}
+\setcounter{subsubsection}{0}
 \setcounter{subsubsection}{0}
 \setcounter{subsubsection}{0}
 \setcounter{subsubsection}{0}
@@ -1103,6 +1146,7 @@
 \setcounter{subtable}{0}
 \setcounter{subtable}{0}
 \setcounter{subtable}{0}
+\setcounter{subtable}{0}
 \setcounter{table}{0}
 \setcounter{table}{0}
 \setcounter{table}{0}
@@ -1118,6 +1162,8 @@
 \setcounter{table}{1}
 \setcounter{table}{2}
 \setcounter{table}{2}
+\setcounter{table}{2}
+}
 }
 }
 }

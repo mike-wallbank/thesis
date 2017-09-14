@@ -892,6 +892,7 @@ S.~Ramo; \emph{{Currents Induced by Electron Motion}}; Proceedings of the IRE
 
 \bibitem{ClusterCrawler}
 B.~Baller; \emph{{Cluster Crawler Manual}} (2014).
+\newline\urlprefix\url{https://cdcvs.fnal.gov/redmine/documents/727}
 
 \bibitem{PMA2013}
 M.~Antonello and Others; \emph{{Precise 3D track reconstruction algorithm for
@@ -969,5 +970,23 @@ G.~Barker, N.~Grant, and M.~Haigh; \emph{{Particle ID and energy reconstruction
 \bibitem{Prob3++}
 {Duke University}; \emph{{Prob3++}} (2012).
 \newline\urlprefix\url{http://webhome.phy.duke.edu/$\sim$raw22/public/Prob3++/}
+
+\bibitem{TMVA}
+A.~Hoecker, P.~Speckmayer, J.~Stelzer \emph{et~al.}; \emph{{TMVA - Toolkit for
+  Multivariate Data Analysis}}; arXiv:physics/0703039 [physics.data-an]
+  (2007).
+\newline\urlprefix\url{https://arxiv.org/pdf/physics/0703039.pdf}
+
+\bibitem{ArgoNeuT2013}
+R.~Acciarri, C.~Adams, J.~Asaadi \emph{et~al.}; \emph{{A study of electron
+  recombination using highly ionizing particles in the ArgoNeuT Liquid Argon
+  TPC}}; Journal of Instrumentation \textbf{8}, 08, P08005 (2013).
+\newline\urlprefix\url{http://stacks.iop.org/1748-0221/8/i=08/a=P08005}
+
+\bibitem{Aurisano2016}
+A.~Aurisano, A.~Radovic, D.~Rocco \emph{et~al.}; \emph{{A convolutional neural
+  network neutrino event classifier}}; Journal of Instrumentation \textbf{11},
+  09, P09001 (2016).
+\newline\urlprefix\url{http://stacks.iop.org/1748-0221/11/i=09/a=P09001}
 
 \end{thebibliography}

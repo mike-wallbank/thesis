@@ -157,9 +157,12 @@
 \contentsline {figure}{\numberline {8.1}{\ignorespaces The output of a multi-variate approach to particle identification when attemping to identify electrons.}}{195}{figure.caption.160}
 \contentsline {figure}{\numberline {8.2}{\ignorespaces The process of tuning the electron cut in the simple cut-based selection by maximising the effect of CP-violation on the oscillation probabilities.}}{195}{figure.caption.161}
 \contentsline {figure}{\numberline {8.3}{\ignorespaces \relax }}{196}{figure.caption.162}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Tuning the DUNE far detector fiducial volume, $y$-coordinate.}}{196}{figure.caption.163}
+\contentsline {figure}{\numberline {8.5}{\ignorespaces The MVA response when training $\nu _e$ (signal) against $\nu _{\mu }$ and $\nu _{\tau }$ (background).}}{199}{figure.caption.166}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces DV1/DV3 gap.\relax }}{216}{figure.caption.164}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces DV1/DV5 gap.\relax }}{217}{figure.caption.165}
-\contentsline {figure}{\numberline {A.3}{\ignorespaces DV3/DV7 gap.\relax }}{218}{figure.caption.166}
-\contentsline {figure}{\numberline {A.4}{\ignorespaces DV5/DV7 gap.\relax }}{219}{figure.caption.167}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces DV1/DV3 gap.\relax }}{220}{figure.caption.168}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces DV1/DV5 gap.\relax }}{221}{figure.caption.169}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces DV3/DV7 gap.\relax }}{222}{figure.caption.170}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces DV5/DV7 gap.\relax }}{223}{figure.caption.171}
+\addvspace {10\p@ }
