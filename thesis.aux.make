@@ -7,6 +7,7 @@
 \@setckpt{Acronyms/acronyms}{
 \@setckpt{AppendixAPAGap/appendixapagap}{
 \@setckpt{AppendixFDMVAVariables/appendixfdmvavariables}{
+\@setckpt{Conclusions/Conclusions}{
 \@setckpt{DUNE/DUNE}{
 \@setckpt{Declaration/declaration}{
 \@setckpt{Dedication/dedication}{
@@ -15,7 +16,6 @@
 \@setckpt{LArTPCReconstruction/LArTPCReconstruction}{
 \@setckpt{NeutrinoPhysics/NeutrinoPhysics}{
 \@setckpt{OnlineMonitoring/OnlineMonitoring}{
-\@setckpt{Summary/Summary}{
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lof}{\addvspace {10\p@ }}
@@ -175,7 +175,7 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {7.7}{\ignorespaces Event display showing tracks passing across APA gaps and also through the APAs.}}{152}{figure.caption.116}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7.8}{\ignorespaces Schematic showing an example APA gap-crossing track as viewed looking down from the top of the detector.}}{153}{figure.caption.117}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7.9}{\ignorespaces Schematic showing an example track crossing two drift regions offset by an unknown quantity $\Delta z$.}}{154}{figure.caption.118}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.1}{\ignorespaces The output of a multi-variate approach to particle identification when attemping to identify electrons.}}{195}{figure.caption.160}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.1}{\ignorespaces The output of a multi-variate approach to particle identification when attempting to identify electrons.}}{195}{figure.caption.160}}
 \@writefile{lof}{\contentsline {figure}{\numberline {8.2}{\ignorespaces The process of tuning the electron cut in the simple cut-based selection by maximising the effect of CP-violation on the oscillation probabilities.}}{196}{figure.caption.161}}
 \@writefile{lof}{\contentsline {figure}{\numberline {8.3}{\ignorespaces The efficiency and purity of the $\nu _e$CC Pandora cut-based selection as a function of a number of kinematic variables, after applying the selection.}}{197}{figure.caption.162}}
 \@writefile{lof}{\contentsline {figure}{\numberline {8.4}{\ignorespaces Tuning the DUNE far detector fiducial volume, $y$-coordinate.}}{198}{figure.caption.163}}
@@ -222,7 +222,7 @@
 \@writefile{toc}{\contentsline {chapter}{\numberline {6}Online Monitoring and Event Displays for the 35\nobreakspace  {}ton Experiment}{133}{chapter.6}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {7}Analysis of 35\nobreakspace  {}ton Data}{145}{chapter.7}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {8}The $\nu _e$ Oscillation Signal at the DUNE Far Detector}{193}{chapter.8}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {9}Summary}{205}{chapter.9}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {9}Conclusions}{205}{chapter.9}}
 \@writefile{toc}{\contentsline {paragraph}{Drift velocity}{172}{section*.138}}
 \@writefile{toc}{\contentsline {paragraph}{Geometry}{168}{section*.135}}
 \@writefile{toc}{\contentsline {paragraph}{Timing}{172}{section*.141}}
@@ -657,13 +657,13 @@
 \newlabel{appen:FDMVAVariables}
 \newlabel{chap:35tonAnalysis}
 \newlabel{chap:35ton}
+\newlabel{chap:Conclusions}
 \newlabel{chap:DUNE}
 \newlabel{chap:FDAnalysis}
 \newlabel{chap:Introduction}
 \newlabel{chap:LArTPCReconstruction}
 \newlabel{chap:NeutrinoPhysics}
 \newlabel{chap:OnlineMonitoring}
-\newlabel{chap:Summary}
 \newlabel{eq:2DGaussianKernel}
 \newlabel{eq:BetaDecayEnergy}
 \newlabel{eq:DataPi0CandidateMass}
@@ -1593,7 +1593,7 @@
 \setcounter{page}{145}
 \setcounter{page}{192}
 \setcounter{page}{204}
-\setcounter{page}{206}
+\setcounter{page}{207}
 \setcounter{page}{228}
 \setcounter{page}{235}
 \setcounter{page}{25}

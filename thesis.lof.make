@@ -154,7 +154,7 @@
 \contentsline {figure}{\numberline {7.46}{\ignorespaces Result of applying the shower reconstruction on a shower observed in the 35\nobreakspace {}ton data.}}{189}{figure.caption.158}
 \contentsline {figure}{\numberline {7.47}{\ignorespaces A candidate $\pi ^0$ event observed in the online event display during the run.}}{190}{figure.caption.159}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces The output of a multi-variate approach to particle identification when attemping to identify electrons.}}{195}{figure.caption.160}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces The output of a multi-variate approach to particle identification when attempting to identify electrons.}}{195}{figure.caption.160}
 \contentsline {figure}{\numberline {8.2}{\ignorespaces The process of tuning the electron cut in the simple cut-based selection by maximising the effect of CP-violation on the oscillation probabilities.}}{196}{figure.caption.161}
 \contentsline {figure}{\numberline {8.3}{\ignorespaces The efficiency and purity of the $\nu _e$CC Pandora cut-based selection as a function of a number of kinematic variables, after applying the selection.}}{197}{figure.caption.162}
 \contentsline {figure}{\numberline {8.4}{\ignorespaces Tuning the DUNE far detector fiducial volume, $y$-coordinate.}}{198}{figure.caption.163}

@@ -14,7 +14,7 @@ A level-1 auxiliary file: LArTPCReconstruction/LArTPCReconstruction.aux
 A level-1 auxiliary file: OnlineMonitoring/OnlineMonitoring.aux
 A level-1 auxiliary file: 35tonAnalysis/35tonAnalysis.aux
 A level-1 auxiliary file: FarDetectorAnalysis/FarDetectorAnalysis.aux
-A level-1 auxiliary file: Summary/Summary.aux
+A level-1 auxiliary file: Conclusions/Conclusions.aux
 The style file: mikethesis3.bst
 A level-1 auxiliary file: AppendixAPAGap/appendixapagap.aux
 A level-1 auxiliary file: AppendixFDMVAVariables/appendixfdmvavariables.aux
@@ -62,7 +62,7 @@ Warning--missing institution in Brailsford2016
 Warning--missing institution in GrantPID2016
 You've used 179 entries,
             2344 wiz_defined-function locations,
-            1845 strings with 282502 characters,
+            1845 strings with 282510 characters,
 and the built_in function-call counts, 62750 in all, are:
 = -- 4118
 > -- 2056

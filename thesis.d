@@ -89,6 +89,7 @@ thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Acronyms/acrony
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,AppendixAPAGap/appendixapagap.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,AppendixFDMVAVariables/appendixfdmvavariables.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Classes/PhDThesisPSnPDF.cls)
+thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Conclusions/Conclusions.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,DUNE/DUNE.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Declaration/declaration.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Dedication/dedication.tex)
@@ -98,7 +99,6 @@ thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,LArTPCReconstru
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,NeutrinoPhysics/NeutrinoPhysics.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,OnlineMonitoring/OnlineMonitoring.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Preamble/preamble.tex)
-thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Summary/Summary.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,thesis-info.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,thesis.tex)
 .SECONDEXPANSION:
