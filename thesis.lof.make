@@ -155,14 +155,19 @@
 \contentsline {figure}{\numberline {7.47}{\ignorespaces A candidate $\pi ^0$ event observed in the online event display during the run.}}{190}{figure.caption.159}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {8.1}{\ignorespaces The output of a multi-variate approach to particle identification when attemping to identify electrons.}}{195}{figure.caption.160}
-\contentsline {figure}{\numberline {8.2}{\ignorespaces The process of tuning the electron cut in the simple cut-based selection by maximising the effect of CP-violation on the oscillation probabilities.}}{195}{figure.caption.161}
-\contentsline {figure}{\numberline {8.3}{\ignorespaces \relax }}{196}{figure.caption.162}
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Tuning the DUNE far detector fiducial volume, $y$-coordinate.}}{196}{figure.caption.163}
-\contentsline {figure}{\numberline {8.5}{\ignorespaces The MVA response when training $\nu _e$ (signal) against $\nu _{\mu }$ and $\nu _{\tau }$ (background).}}{199}{figure.caption.166}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces The process of tuning the electron cut in the simple cut-based selection by maximising the effect of CP-violation on the oscillation probabilities.}}{196}{figure.caption.161}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces The efficiency and purity of the $\nu _e$CC Pandora cut-based selection as a function of a number of kinematic variables, after applying the selection.}}{197}{figure.caption.162}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Tuning the DUNE far detector fiducial volume, $y$-coordinate.}}{198}{figure.caption.163}
+\contentsline {figure}{\numberline {8.5}{\ignorespaces The MVA response when training $\nu _e$ (signal) against $\nu _{\mu }$ and $\nu _{\tau }$ (background).}}{200}{figure.caption.166}
+\contentsline {figure}{\numberline {8.6}{\ignorespaces The efficiency and purity of the $\nu _e$CC MVA-based selection as a function of a number of kinematic variables, before applying the selection.}}{201}{figure.caption.167}
+\contentsline {figure}{\numberline {8.7}{\ignorespaces The efficiency and purity of the $\nu _e$CC MVA-based selection as a function of a number of kinematic variables, after applying the selection.}}{202}{figure.caption.168}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces DV1/DV3 gap.\relax }}{220}{figure.caption.168}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces DV1/DV5 gap.\relax }}{221}{figure.caption.169}
-\contentsline {figure}{\numberline {A.3}{\ignorespaces DV3/DV7 gap.\relax }}{222}{figure.caption.170}
-\contentsline {figure}{\numberline {A.4}{\ignorespaces DV5/DV7 gap.\relax }}{223}{figure.caption.171}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces DV1/DV3 gap.\relax }}{224}{figure.caption.170}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces DV1/DV5 gap.\relax }}{225}{figure.caption.171}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces DV3/DV7 gap.\relax }}{226}{figure.caption.172}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces DV5/DV7 gap.\relax }}{227}{figure.caption.173}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {B.1}{\ignorespaces MVA input variables related to event-level information for the DUNE far detector $\nu _e$CC analysis.\relax }}{230}{figure.caption.174}
+\contentsline {figure}{\numberline {B.2}{\ignorespaces MVA input variables related to information about the longest reconstructed track in the event for the DUNE far detector $\nu _e$CC analysis.}}{231}{figure.caption.175}
+\contentsline {figure}{\numberline {B.3}{\ignorespaces MVA input variables related to information about the highest energy shower in the event for the DUNE far detector $\nu _e$CC analysis.}}{233}{figure.caption.177}

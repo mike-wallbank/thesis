@@ -175,17 +175,20 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {7.7}{\ignorespaces Event display showing tracks passing across APA gaps and also through the APAs.}}{152}{figure.caption.116}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7.8}{\ignorespaces Schematic showing an example APA gap-crossing track as viewed looking down from the top of the detector.}}{153}{figure.caption.117}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7.9}{\ignorespaces Schematic showing an example track crossing two drift regions offset by an unknown quantity $\Delta z$.}}{154}{figure.caption.118}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.1}{\ignorespaces The output of a multi-variate approach to particle identification when attemping to identify electrons.}}{195}{figure.caption.1}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.2}{\ignorespaces The process of tuning the electron cut in the simple cut-based selection by maximising the effect of CP-violation on the oscillation probabilities.}}{196}{figure.caption.2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.3}{\ignorespaces The efficiency and purity of the $\nu _e$CC Pandora cut-based selection as a function of a number of kinematic variables, after applying the selection.}}{197}{figure.caption.3}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.4}{\ignorespaces Tuning the DUNE far detector fiducial volume, $y$-coordinate.}}{198}{figure.caption.4}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.5}{\ignorespaces The MVA response when training $\nu _e$ (signal) against $\nu _{\mu }$ and $\nu _{\tau }$ (background).}}{200}{figure.caption.7}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.6}{\ignorespaces The efficiency and purity of the $\nu _e$CC MVA-based selection as a function of a number of kinematic variables, before applying the selection.}}{201}{figure.caption.8}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.7}{\ignorespaces The efficiency and purity of the $\nu _e$CC MVA-based selection as a function of a number of kinematic variables, after applying the selection.}}{202}{figure.caption.9}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.1}{\ignorespaces DV1/DV3 gap.\relax }}{220}{figure.caption.168}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.2}{\ignorespaces DV1/DV5 gap.\relax }}{221}{figure.caption.169}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.3}{\ignorespaces DV3/DV7 gap.\relax }}{222}{figure.caption.170}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.4}{\ignorespaces DV5/DV7 gap.\relax }}{223}{figure.caption.171}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.1}{\ignorespaces The output of a multi-variate approach to particle identification when attemping to identify electrons.}}{195}{figure.caption.160}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.2}{\ignorespaces The process of tuning the electron cut in the simple cut-based selection by maximising the effect of CP-violation on the oscillation probabilities.}}{196}{figure.caption.161}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.3}{\ignorespaces The efficiency and purity of the $\nu _e$CC Pandora cut-based selection as a function of a number of kinematic variables, after applying the selection.}}{197}{figure.caption.162}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.4}{\ignorespaces Tuning the DUNE far detector fiducial volume, $y$-coordinate.}}{198}{figure.caption.163}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.5}{\ignorespaces The MVA response when training $\nu _e$ (signal) against $\nu _{\mu }$ and $\nu _{\tau }$ (background).}}{200}{figure.caption.166}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.6}{\ignorespaces The efficiency and purity of the $\nu _e$CC MVA-based selection as a function of a number of kinematic variables, before applying the selection.}}{201}{figure.caption.167}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.7}{\ignorespaces The efficiency and purity of the $\nu _e$CC MVA-based selection as a function of a number of kinematic variables, after applying the selection.}}{202}{figure.caption.168}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.1}{\ignorespaces DV1/DV3 gap.\relax }}{224}{figure.caption.170}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.2}{\ignorespaces DV1/DV5 gap.\relax }}{225}{figure.caption.171}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.3}{\ignorespaces DV3/DV7 gap.\relax }}{226}{figure.caption.172}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.4}{\ignorespaces DV5/DV7 gap.\relax }}{227}{figure.caption.173}}
+\@writefile{lof}{\contentsline {figure}{\numberline {B.1}{\ignorespaces MVA input variables related to event-level information for the DUNE far detector $\nu _e$CC analysis.\relax }}{230}{figure.caption.174}}
+\@writefile{lof}{\contentsline {figure}{\numberline {B.2}{\ignorespaces MVA input variables related to information about the longest reconstructed track in the event for the DUNE far detector $\nu _e$CC analysis.}}{231}{figure.caption.175}}
+\@writefile{lof}{\contentsline {figure}{\numberline {B.3}{\ignorespaces MVA input variables related to information about the highest energy shower in the event for the DUNE far detector $\nu _e$CC analysis.}}{233}{figure.caption.177}}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
@@ -203,12 +206,14 @@
 \@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Details and dimensions of the 35\nobreakspace  {}ton cryostat.}}{70}{table.caption.54}}
 \@writefile{lot}{\contentsline {table}{\numberline {7.1}{\ignorespaces Measurements of all the APA offsets determined from the 35\nobreakspace  {}ton TPC data.}}{163}{table.caption.128}}
 \@writefile{lot}{\contentsline {table}{\numberline {7.2}{\ignorespaces The corrected gaps between the APAs, in $x$ and $z$, based on the offsets measured in the data.}}{163}{table.caption.128}}
-\@writefile{lot}{\contentsline {table}{\numberline {8.1}{\ignorespaces The dimensions and tuned fiducial volume of a single DUNE far detector module.}}{197}{table.caption.5}}
-\@writefile{lot}{\contentsline {table}{\numberline {8.2}{\ignorespaces The input variable used in the MVA designed to separate $\nu _e$ events from $\nu _{\mu }$ and $\nu _{\tau }$ events.}}{199}{table.caption.6}}
-\@writefile{toc}{\contentsline {chapter}{Appendix \numberline {A}APA Gap-Crossing Muons: Gap Measurements}{219}{Appendix.a.A}}
-\@writefile{toc}{\contentsline {chapter}{Appendix \numberline {B}DUNE Far Detector $\nu _e$CC MVA Input Variables}{225}{Appendix.a.B}}
-\@writefile{toc}{\contentsline {chapter}{List of acronyms}{xxv}{chapter*.7}}
-\@writefile{toc}{\contentsline {chapter}{References}{203}{chapter*.10}}
+\@writefile{lot}{\contentsline {table}{\numberline {8.1}{\ignorespaces The dimensions and tuned fiducial volume of a single DUNE far detector module.}}{197}{table.caption.164}}
+\@writefile{lot}{\contentsline {table}{\numberline {8.2}{\ignorespaces The input variable used in the MVA designed to separate $\nu _e$ events from $\nu _{\mu }$ and $\nu _{\tau }$ events.}}{199}{table.caption.165}}
+\@writefile{toc}{\contentsline {chapter}{Appendix \numberline {A}APA Gap-Crossing Muons: Gap Measurements}{223}{Appendix.a.A}}
+\@writefile{toc}{\contentsline {chapter}{Appendix \numberline {B}DUNE Far Detector $\nu _e$CC MVA Input Variables}{229}{Appendix.a.B}}
+\@writefile{toc}{\contentsline {chapter}{List of acronyms}{xxvii}{chapter*.7}}
+\@writefile{toc}{\contentsline {chapter}{List of figures}{xv}{chapter*.5}}
+\@writefile{toc}{\contentsline {chapter}{List of tables}{xxv}{chapter*.6}}
+\@writefile{toc}{\contentsline {chapter}{References}{207}{chapter*.169}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {2}Neutrino Physics}{3}{chapter.2}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {3}The Deep Underground Neutrino Experiment}{25}{chapter.3}}
@@ -217,7 +222,7 @@
 \@writefile{toc}{\contentsline {chapter}{\numberline {6}Online Monitoring and Event Displays for the 35\nobreakspace  {}ton Experiment}{133}{chapter.6}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {7}Analysis of 35\nobreakspace  {}ton Data}{145}{chapter.7}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {8}The $\nu _e$ Oscillation Signal at the DUNE Far Detector}{193}{chapter.8}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {9}Summary}{201}{chapter.9}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {9}Summary}{205}{chapter.9}}
 \@writefile{toc}{\contentsline {paragraph}{Drift velocity}{172}{section*.138}}
 \@writefile{toc}{\contentsline {paragraph}{Geometry}{168}{section*.135}}
 \@writefile{toc}{\contentsline {paragraph}{Timing}{172}{section*.141}}
@@ -840,6 +845,11 @@
 \newlabel{fig:ExtraCorrectionWire}
 \newlabel{fig:ExtraCorrections}
 \newlabel{fig:FDCryostats}
+\newlabel{fig:FDMVAEventVariables}
+\newlabel{fig:FDMVAShowerVariables}
+\newlabel{fig:FDMVAShowerVariables}
+\newlabel{fig:FDMVATrackVariables}
+\newlabel{fig:FDMVATrackVariables}
 \newlabel{fig:FVTuneNegY}
 \newlabel{fig:FVTunePosY}
 \newlabel{fig:FVTuneY}
@@ -1252,7 +1262,6 @@
 \newlabel{tab:NobleProperties}
 \newlabel{tab:OscillationParameters}
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
 \providecommand\HyField@AuxAddToCoFields[2]{}
 \providecommand\HyField@AuxAddToFields[1]{}
 \providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
@@ -1337,7 +1346,7 @@
 \setcounter{ContinuedFloat}{0}
 \setcounter{ContinuedFloat}{0}
 \setcounter{ContinuedFloat}{0}
-\setcounter{ContinuedFloat}{0}
+\setcounter{ContinuedFloat}{1}
 \setcounter{Hfootnote}{0}
 \setcounter{Hfootnote}{0}
 \setcounter{Hfootnote}{0}
@@ -1416,17 +1425,17 @@
 \setcounter{NAT@ctr}{0}
 \setcounter{NAT@ctr}{0}
 \setcounter{NAT@ctr}{0}
-\setcounter{NAT@ctr}{178}
-\setcounter{NAT@ctr}{178}
+\setcounter{NAT@ctr}{179}
+\setcounter{NAT@ctr}{179}
 \setcounter{bookmark@seq@number}{0}
 \setcounter{bookmark@seq@number}{0}
 \setcounter{bookmark@seq@number}{0}
 \setcounter{bookmark@seq@number}{0}
 \setcounter{bookmark@seq@number}{102}
 \setcounter{bookmark@seq@number}{111}
-\setcounter{bookmark@seq@number}{111}
-\setcounter{bookmark@seq@number}{113}
+\setcounter{bookmark@seq@number}{112}
 \setcounter{bookmark@seq@number}{114}
+\setcounter{bookmark@seq@number}{115}
 \setcounter{bookmark@seq@number}{20}
 \setcounter{bookmark@seq@number}{37}
 \setcounter{bookmark@seq@number}{4}
@@ -1537,11 +1546,11 @@
 \setcounter{figure}{0}
 \setcounter{figure}{0}
 \setcounter{figure}{0}
-\setcounter{figure}{0}
 \setcounter{figure}{10}
 \setcounter{figure}{22}
 \setcounter{figure}{28}
 \setcounter{figure}{36}
+\setcounter{figure}{3}
 \setcounter{figure}{47}
 \setcounter{figure}{4}
 \setcounter{figure}{5}
@@ -1583,12 +1592,12 @@
 \setcounter{page}{133}
 \setcounter{page}{145}
 \setcounter{page}{192}
-\setcounter{page}{202}
 \setcounter{page}{204}
-\setcounter{page}{224}
-\setcounter{page}{226}
+\setcounter{page}{206}
+\setcounter{page}{228}
+\setcounter{page}{235}
 \setcounter{page}{25}
-\setcounter{page}{28}
+\setcounter{page}{30}
 \setcounter{page}{3}
 \setcounter{page}{4}
 \setcounter{page}{56}
@@ -1685,10 +1694,10 @@
 \setcounter{subfigure}{0}
 \setcounter{subfigure}{0}
 \setcounter{subfigure}{0}
-\setcounter{subfigure}{0}
+\setcounter{subfigure}{11}
 \setcounter{subfigure}{2}
 \setcounter{subfigure}{3}
-\setcounter{subfigure}{3}
+\setcounter{subfigure}{4}
 \setcounter{subfigure}{4}
 \setcounter{subparagraph}{0}
 \setcounter{subparagraph}{0}

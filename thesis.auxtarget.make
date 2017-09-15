@@ -194,6 +194,11 @@
 \newlabel{fig:ExtraCorrectionWire}
 \newlabel{fig:ExtraCorrections}
 \newlabel{fig:FDCryostats}
+\newlabel{fig:FDMVAEventVariables}
+\newlabel{fig:FDMVAShowerVariables}
+\newlabel{fig:FDMVAShowerVariables}
+\newlabel{fig:FDMVATrackVariables}
+\newlabel{fig:FDMVATrackVariables}
 \newlabel{fig:FVTuneNegY}
 \newlabel{fig:FVTunePosY}
 \newlabel{fig:FVTuneY}

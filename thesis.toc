@@ -1,7 +1,7 @@
 \thispagestyle {empty}
 \contentsline {chapter}{List of figures}{xv}{chapter*.5}
-\contentsline {chapter}{List of tables}{xxiii}{chapter*.6}
-\contentsline {chapter}{List of acronyms}{xxv}{chapter*.7}
+\contentsline {chapter}{List of tables}{xxv}{chapter*.6}
+\contentsline {chapter}{List of acronyms}{xxvii}{chapter*.7}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}Neutrino Physics}{3}{chapter.2}
 \contentsline {section}{\numberline {2.1}Historical Context}{3}{section.2.1}
@@ -145,14 +145,15 @@
 \contentsline {subsection}{\numberline {7.4.4}$\pi ^0$ Reconstruction}{190}{subsection.7.4.4}
 \contentsline {section}{\numberline {7.5}35\nobreakspace {}ton Data Analysis Summary}{191}{section.7.5}
 \contentsline {chapter}{\numberline {8}The $\nu _e$ Oscillation Signal at the DUNE Far Detector}{193}{chapter.8}
-\contentsline {section}{\numberline {8.1}Cut-Based Tuning}{194}{section.8.1}
-\contentsline {subsection}{\numberline {8.1.1}Selection}{194}{subsection.8.1.1}
-\contentsline {subsection}{\numberline {8.1.2}Fiducial Volume Tuning}{196}{subsection.8.1.2}
-\contentsline {section}{\numberline {8.2}MVA-Based Selection}{197}{section.8.2}
-\contentsline {subsection}{\numberline {8.2.1}MVA Input Variables}{197}{subsection.8.2.1}
-\contentsline {subsection}{\numberline {8.2.2}Analysis Performance}{197}{subsection.8.2.2}
-\contentsline {section}{\numberline {8.3}Outlook for Future Selections}{199}{section.8.3}
-\contentsline {chapter}{\numberline {9}Summary}{201}{chapter.9}
-\contentsline {chapter}{References}{203}{chapter*.167}
-\contentsline {chapter}{Appendix \numberline {A}APA Gap-Crossing Muons: Gap Measurements}{219}{Appendix.a.A}
-\contentsline {chapter}{Appendix \numberline {B}DUNE Far Detector $\nu _e$CC MVA Input Variables}{225}{Appendix.a.B}
+\contentsline {section}{\numberline {8.1}Far Detector Samples}{194}{section.8.1}
+\contentsline {section}{\numberline {8.2}Cut-Based Tuning}{194}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Selection}{194}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}Fiducial Volume Tuning}{196}{subsection.8.2.2}
+\contentsline {section}{\numberline {8.3}MVA-Based Selection}{198}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}MVA Input Variables}{198}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {8.3.2}Analysis Performance}{200}{subsection.8.3.2}
+\contentsline {section}{\numberline {8.4}Outlook for Future Selections}{203}{section.8.4}
+\contentsline {chapter}{\numberline {9}Summary}{205}{chapter.9}
+\contentsline {chapter}{References}{207}{chapter*.169}
+\contentsline {chapter}{Appendix \numberline {A}APA Gap-Crossing Muons: Gap Measurements}{223}{Appendix.a.A}
+\contentsline {chapter}{Appendix \numberline {B}DUNE Far Detector $\nu _e$CC MVA Input Variables}{229}{Appendix.a.B}
