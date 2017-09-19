@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  15 SEP 2017 15:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  19 SEP 2017 12:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -5340,7 +5340,7 @@ put line 16.
 File: AppendixFDMVAVariables/Figs/NumberOfTracks.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/NumberOfTracks.pdf>
 Package pdftex.def Info: AppendixFDMVAVariables/Figs/NumberOfTracks.pdf used on
- input line 21.
+ input line 22.
 (pdftex.def)             Requested size: 157.48251pt x 123.65073pt.
 
 <AppendixFDMVAVariables/Figs/MaxTrackLength.pdf, id=8418, 182.18303pt x 143.036
@@ -5348,7 +5348,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/NumberOfTracks.pdf used on
 File: AppendixFDMVAVariables/Figs/MaxTrackLength.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/MaxTrackLength.pdf>
 Package pdftex.def Info: AppendixFDMVAVariables/Figs/MaxTrackLength.pdf used on
- input line 26.
+ input line 28.
 (pdftex.def)             Requested size: 157.48251pt x 123.65073pt.
 
 <AppendixFDMVAVariables/Figs/AverageTrackLength.pdf, id=8419, 182.18301pt x 143
@@ -5357,7 +5357,7 @@ File: AppendixFDMVAVariables/Figs/AverageTrackLength.pdf Graphic file (type pdf
 )
 <use AppendixFDMVAVariables/Figs/AverageTrackLength.pdf>
 Package pdftex.def Info: AppendixFDMVAVariables/Figs/AverageTrackLength.pdf use
-d on input line 31.
+d on input line 34.
 (pdftex.def)             Requested size: 157.48251pt x 123.6507pt.
 
 <AppendixFDMVAVariables/Figs/FractionOfTrackCharge.pdf, id=8420, 178.46815pt x 
@@ -5366,7 +5366,7 @@ File: AppendixFDMVAVariables/Figs/FractionOfTrackCharge.pdf Graphic file (type
 pdf)
 <use AppendixFDMVAVariables/Figs/FractionOfTrackCharge.pdf>
 Package pdftex.def Info: AppendixFDMVAVariables/Figs/FractionOfTrackCharge.pdf 
-used on input line 36.
+used on input line 40.
 (pdftex.def)             Requested size: 157.48251pt x 126.23412pt.
 
 <AppendixFDMVAVariables/Figs/NumberOfShowers.pdf, id=8421, 177.75781pt x 143.06
@@ -5374,7 +5374,7 @@ used on input line 36.
 File: AppendixFDMVAVariables/Figs/NumberOfShowers.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/NumberOfShowers.pdf>
 Package pdftex.def Info: AppendixFDMVAVariables/Figs/NumberOfShowers.pdf used o
-n input line 41.
+n input line 46.
 (pdftex.def)             Requested size: 157.48251pt x 126.7498pt.
 
 <AppendixFDMVAVariables/Figs/FractionOfShowerCharge.pdf, id=8422, 177.07225pt x
@@ -5383,14 +5383,14 @@ File: AppendixFDMVAVariables/Figs/FractionOfShowerCharge.pdf Graphic file (type
  pdf)
 <use AppendixFDMVAVariables/Figs/FractionOfShowerCharge.pdf>
 Package pdftex.def Info: AppendixFDMVAVariables/Figs/FractionOfShowerCharge.pdf
- used on input line 46.
+ used on input line 52.
 (pdftex.def)             Requested size: 157.48251pt x 126.92207pt.
 
 <AppendixFDMVAVariables/Figs/TrackdEdx.pdf, id=8423, 182.18294pt x 143.03654pt>
 File: AppendixFDMVAVariables/Figs/TrackdEdx.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/TrackdEdx.pdf>
 Package pdftex.def Info: AppendixFDMVAVariables/Figs/TrackdEdx.pdf used on inpu
-t line 57.
+t line 63.
 (pdftex.def)             Requested size: 157.48251pt x 123.6507pt.
 
 <AppendixFDMVAVariables/Figs/SignalFluctuation.pdf, id=8424, 182.18294pt x 143.
@@ -5399,7 +5399,7 @@ File: AppendixFDMVAVariables/Figs/SignalFluctuation.pdf Graphic file (type pdf)
 
 <use AppendixFDMVAVariables/Figs/SignalFluctuation.pdf>
 Package pdftex.def Info: AppendixFDMVAVariables/Figs/SignalFluctuation.pdf used
- on input line 62.
+ on input line 69.
 (pdftex.def)             Requested size: 157.48251pt x 123.6507pt.
 
 <AppendixFDMVAVariables/Figs/TransverseTrackProfile.pdf, id=8425, 178.4681pt x 
@@ -5408,14 +5408,14 @@ File: AppendixFDMVAVariables/Figs/TransverseTrackProfile.pdf Graphic file (type
  pdf)
 <use AppendixFDMVAVariables/Figs/TransverseTrackProfile.pdf>
 Package pdftex.def Info: AppendixFDMVAVariables/Figs/TransverseTrackProfile.pdf
- used on input line 67.
+ used on input line 75.
 (pdftex.def)             Requested size: 157.48251pt x 126.23412pt.
 
 <AppendixFDMVAVariables/Figs/TrackPIDA.pdf, id=8426, 178.46815pt x 143.04552pt>
 File: AppendixFDMVAVariables/Figs/TrackPIDA.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/TrackPIDA.pdf>
 Package pdftex.def Info: AppendixFDMVAVariables/Figs/TrackPIDA.pdf used on inpu
-t line 72.
+t line 81.
 (pdftex.def)             Requested size: 157.48251pt x 126.23402pt.
 
 <AppendixFDMVAVariables/Figs/MaximumFractionOfCharge5Wires.pdf, id=8427, 178.46
@@ -5424,7 +5424,7 @@ File: AppendixFDMVAVariables/Figs/MaximumFractionOfCharge5Wires.pdf Graphic fil
 e (type pdf)
 <use AppendixFDMVAVariables/Figs/MaximumFractionOfCharge5Wires.pdf>
 Package pdftex.def Info: AppendixFDMVAVariables/Figs/MaximumFractionOfCharge5Wi
-res.pdf used on input line 77.
+res.pdf used on input line 87.
 (pdftex.def)             Requested size: 157.48251pt x 126.2341pt.
 
 <AppendixFDMVAVariables/Figs/MaximumFractionOfCharge10Wires.pdf, id=8428, 178.4
@@ -5433,7 +5433,7 @@ File: AppendixFDMVAVariables/Figs/MaximumFractionOfCharge10Wires.pdf Graphic fi
 le (type pdf)
 <use AppendixFDMVAVariables/Figs/MaximumFractionOfCharge10Wires.pdf>
 Package pdftex.def Info: AppendixFDMVAVariables/Figs/MaximumFractionOfCharge10W
-ires.pdf used on input line 82.
+ires.pdf used on input line 93.
 (pdftex.def)             Requested size: 157.48251pt x 126.23412pt.
 
 <AppendixFDMVAVariables/Figs/MaximumFractionOfCharge50Wires.pdf, id=8429, 178.4
@@ -5442,7 +5442,7 @@ File: AppendixFDMVAVariables/Figs/MaximumFractionOfCharge50Wires.pdf Graphic fi
 le (type pdf)
 <use AppendixFDMVAVariables/Figs/MaximumFractionOfCharge50Wires.pdf>
 Package pdftex.def Info: AppendixFDMVAVariables/Figs/MaximumFractionOfCharge50W
-ires.pdf used on input line 92.
+ires.pdf used on input line 104.
 (pdftex.def)             Requested size: 157.48251pt x 126.23405pt.
 
 <AppendixFDMVAVariables/Figs/MaximumFractionOfCharge100Wires.pdf, id=8430, 177.
@@ -5451,28 +5451,28 @@ File: AppendixFDMVAVariables/Figs/MaximumFractionOfCharge100Wires.pdf Graphic f
 ile (type pdf)
 <use AppendixFDMVAVariables/Figs/MaximumFractionOfCharge100Wires.pdf>
 Package pdftex.def Info: AppendixFDMVAVariables/Figs/MaximumFractionOfCharge100
-Wires.pdf used on input line 97.
+Wires.pdf used on input line 110.
 (pdftex.def)             Requested size: 157.48251pt x 126.74979pt.
 
 <AppendixFDMVAVariables/Figs/TrackCosX.pdf, id=8431, 177.75781pt x 143.06358pt>
 File: AppendixFDMVAVariables/Figs/TrackCosX.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/TrackCosX.pdf>
 Package pdftex.def Info: AppendixFDMVAVariables/Figs/TrackCosX.pdf used on inpu
-t line 102.
+t line 116.
 (pdftex.def)             Requested size: 157.48251pt x 126.74986pt.
 
 <AppendixFDMVAVariables/Figs/TrackCosY.pdf, id=8432, 177.75781pt x 143.06349pt>
 File: AppendixFDMVAVariables/Figs/TrackCosY.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/TrackCosY.pdf>
 Package pdftex.def Info: AppendixFDMVAVariables/Figs/TrackCosY.pdf used on inpu
-t line 107.
+t line 122.
 (pdftex.def)             Requested size: 157.48251pt x 126.74979pt.
 
 <AppendixFDMVAVariables/Figs/TrackCosZ.pdf, id=8433, 177.75783pt x 143.06349pt>
 File: AppendixFDMVAVariables/Figs/TrackCosZ.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/TrackCosZ.pdf>
 Package pdftex.def Info: AppendixFDMVAVariables/Figs/TrackCosZ.pdf used on inpu
-t line 112.
+t line 128.
 (pdftex.def)             Requested size: 157.48251pt x 126.74979pt.
 
 <AppendixFDMVAVariables/Figs/FractionalTransverseEnergy.pdf, id=8434, 177.7579p
@@ -5481,7 +5481,7 @@ File: AppendixFDMVAVariables/Figs/FractionalTransverseEnergy.pdf Graphic file (
 type pdf)
 <use AppendixFDMVAVariables/Figs/FractionalTransverseEnergy.pdf>
 Package pdftex.def Info: AppendixFDMVAVariables/Figs/FractionalTransverseEnergy
-.pdf used on input line 117.
+.pdf used on input line 134.
 (pdftex.def)             Requested size: 157.48251pt x 126.74982pt.
 
 <AppendixFDMVAVariables/Figs/ShowerdEdx.pdf, id=8435, 177.07227pt x 142.70505pt
@@ -5489,7 +5489,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/FractionalTransverseEnergy
 File: AppendixFDMVAVariables/Figs/ShowerdEdx.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/ShowerdEdx.pdf>
 Package pdftex.def Info: AppendixFDMVAVariables/Figs/ShowerdEdx.pdf used on inp
-ut line 128.
+ut line 146.
 (pdftex.def)             Requested size: 157.48251pt x 126.92216pt.
 
 <AppendixFDMVAVariables/Figs/ShowerEnergy.pdf, id=8436, 177.07225pt x 142.70505
@@ -5497,7 +5497,7 @@ pt>
 File: AppendixFDMVAVariables/Figs/ShowerEnergy.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/ShowerEnergy.pdf>
 Package pdftex.def Info: AppendixFDMVAVariables/Figs/ShowerEnergy.pdf used on i
-nput line 133.
+nput line 152.
 (pdftex.def)             Requested size: 157.48251pt x 126.92216pt.
 
 <AppendixFDMVAVariables/Figs/NHitsPerShowerWire.pdf, id=8437, 177.07224pt x 142
@@ -5506,7 +5506,7 @@ File: AppendixFDMVAVariables/Figs/NHitsPerShowerWire.pdf Graphic file (type pdf
 )
 <use AppendixFDMVAVariables/Figs/NHitsPerShowerWire.pdf>
 Package pdftex.def Info: AppendixFDMVAVariables/Figs/NHitsPerShowerWire.pdf use
-d on input line 138.
+d on input line 158.
 (pdftex.def)             Requested size: 157.48251pt x 126.92216pt.
 
 <AppendixFDMVAVariables/Figs/ShowerLength.pdf, id=8438, 177.07225pt x 142.70499
@@ -5514,7 +5514,7 @@ pt>
 File: AppendixFDMVAVariables/Figs/ShowerLength.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/ShowerLength.pdf>
 Package pdftex.def Info: AppendixFDMVAVariables/Figs/ShowerLength.pdf used on i
-nput line 143.
+nput line 164.
 (pdftex.def)             Requested size: 157.48251pt x 126.9221pt.
 
 <AppendixFDMVAVariables/Figs/ShowerMaximum.pdf, id=8439, 177.07225pt x 142.7050
@@ -5522,7 +5522,7 @@ nput line 143.
 File: AppendixFDMVAVariables/Figs/ShowerMaximum.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/ShowerMaximum.pdf>
 Package pdftex.def Info: AppendixFDMVAVariables/Figs/ShowerMaximum.pdf used on 
-input line 148.
+input line 170.
 (pdftex.def)             Requested size: 157.48251pt x 126.92213pt.
 
 <AppendixFDMVAVariables/Figs/ShowerStartEventVertexX.pdf, id=8440, 177.38821pt 
@@ -5531,10 +5531,10 @@ File: AppendixFDMVAVariables/Figs/ShowerStartEventVertexX.pdf Graphic file (typ
 e pdf)
 <use AppendixFDMVAVariables/Figs/ShowerStartEventVertexX.pdf>
 Package pdftex.def Info: AppendixFDMVAVariables/Figs/ShowerStartEventVertexX.pd
-f used on input line 153.
+f used on input line 176.
 (pdftex.def)             Requested size: 157.48251pt x 126.73587pt.
 
-Underfull \hbox (badness 1057) in paragraph at lines 154--154
+Underfull \hbox (badness 1057) in paragraph at lines 177--177
 []\T1/ptm/m/n/10.95 (+20) (f) |Dis-place-ment of shower start ($\OML/ztmcm/m/it
 /10.95 x$\T1/ptm/m/n/10.95 (+20) -
  []
@@ -5546,7 +5546,7 @@ File: AppendixFDMVAVariables/Figs/ShowerStartEventVertexY.pdf Graphic file (typ
 e pdf)
 <use AppendixFDMVAVariables/Figs/ShowerStartEventVertexY.pdf>
 Package pdftex.def Info: AppendixFDMVAVariables/Figs/ShowerStartEventVertexY.pd
-f used on input line 163.
+f used on input line 187.
 (pdftex.def)             Requested size: 157.48251pt x 126.73587pt.
 
 <AppendixFDMVAVariables/Figs/ShowerStartEventVertexZ.pdf, id=8442, 177.38821pt 
@@ -5555,7 +5555,7 @@ File: AppendixFDMVAVariables/Figs/ShowerStartEventVertexZ.pdf Graphic file (typ
 e pdf)
 <use AppendixFDMVAVariables/Figs/ShowerStartEventVertexZ.pdf>
 Package pdftex.def Info: AppendixFDMVAVariables/Figs/ShowerStartEventVertexZ.pd
-f used on input line 168.
+f used on input line 193.
 (pdftex.def)             Requested size: 157.48251pt x 126.73587pt.
 
 <AppendixFDMVAVariables/Figs/ShowerCosX.pdf, id=8443, 177.38814pt x 142.74532pt
@@ -5563,7 +5563,7 @@ f used on input line 168.
 File: AppendixFDMVAVariables/Figs/ShowerCosX.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/ShowerCosX.pdf>
 Package pdftex.def Info: AppendixFDMVAVariables/Figs/ShowerCosX.pdf used on inp
-ut line 173.
+ut line 199.
 (pdftex.def)             Requested size: 157.48251pt x 126.7358pt.
 
 <AppendixFDMVAVariables/Figs/ShowerCosY.pdf, id=8444, 177.38812pt x 142.74533pt
@@ -5571,7 +5571,7 @@ ut line 173.
 File: AppendixFDMVAVariables/Figs/ShowerCosY.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/ShowerCosY.pdf>
 Package pdftex.def Info: AppendixFDMVAVariables/Figs/ShowerCosY.pdf used on inp
-ut line 178.
+ut line 205.
 (pdftex.def)             Requested size: 157.48251pt x 126.73581pt.
 
 <AppendixFDMVAVariables/Figs/ShowerCosZ.pdf, id=8445, 177.38821pt x 142.74533pt
@@ -5579,7 +5579,7 @@ ut line 178.
 File: AppendixFDMVAVariables/Figs/ShowerCosZ.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/ShowerCosZ.pdf>
 Package pdftex.def Info: AppendixFDMVAVariables/Figs/ShowerCosZ.pdf used on inp
-ut line 183.
+ut line 211.
 (pdftex.def)             Requested size: 157.48251pt x 126.73581pt.
 ) [229] [230 <./AppendixFDMVAVariables/Figs/EventCharge.pdf> <./AppendixFDMVAVa
 riables/Figs/NumberOfTracks.pdf> <./AppendixFDMVAVariables/Figs/MaxTrackLength.
@@ -5624,7 +5624,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  28617 strings out of 493117
  542780 string characters out of 6135433
- 592709 words of memory out of 5000000
+ 594005 words of memory out of 5000000
  30062 multiletter control sequences out of 15000+600000
  131700 words of font info for 424 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -5672,7 +5672,7 @@ l/texlive/2014/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2
 014/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-
 dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts
 /type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (264 pages, 57435501 bytes).
+Output written on thesis.pdf (264 pages, 57435765 bytes).
 PDF statistics:
  9485 PDF objects out of 10688 (max. 8388607)
  7247 compressed objects within 73 object streams

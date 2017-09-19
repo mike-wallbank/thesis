@@ -182,10 +182,10 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {8.5}{\ignorespaces The MVA response when training $\nu _e$ (signal) against $\nu _{\mu }$ and $\nu _{\tau }$ (background).}}{200}{figure.caption.166}}
 \@writefile{lof}{\contentsline {figure}{\numberline {8.6}{\ignorespaces The efficiency and purity of the $\nu _e$CC MVA-based selection as a function of a number of kinematic variables, before applying the selection.}}{201}{figure.caption.167}}
 \@writefile{lof}{\contentsline {figure}{\numberline {8.7}{\ignorespaces The efficiency and purity of the $\nu _e$CC MVA-based selection as a function of a number of kinematic variables, after applying the selection.}}{202}{figure.caption.168}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.1}{\ignorespaces DV1/DV3 gap.\relax }}{224}{figure.caption.170}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.2}{\ignorespaces DV1/DV5 gap.\relax }}{225}{figure.caption.171}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.3}{\ignorespaces DV3/DV7 gap.\relax }}{226}{figure.caption.172}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.4}{\ignorespaces DV5/DV7 gap.\relax }}{227}{figure.caption.173}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.1}{\ignorespaces Demonstration of the measurements of the $x$- and $z$-offsets in the 35-ton DV1/DV3 gap.}}{224}{figure.caption.170}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.2}{\ignorespaces Demonstration of the measurements of the $x$- and $z$-offsets in the 35-ton DV1/DV5 gap.}}{225}{figure.caption.171}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.3}{\ignorespaces Demonstration of the measurements of the $x$- and $z$-offsets in the 35-ton DV3/DV7 gap.}}{226}{figure.caption.172}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.4}{\ignorespaces Demonstration of the measurements of the $x$- and $z$-offsets in the 35-ton DV5/DV7 gap.}}{227}{figure.caption.173}}
 \@writefile{lof}{\contentsline {figure}{\numberline {B.1}{\ignorespaces MVA input variables related to event-level information for the DUNE far detector $\nu _e$CC analysis.\relax }}{230}{figure.caption.174}}
 \@writefile{lof}{\contentsline {figure}{\numberline {B.2}{\ignorespaces MVA input variables related to information about the longest reconstructed track in the event for the DUNE far detector $\nu _e$CC analysis.}}{231}{figure.caption.175}}
 \@writefile{lof}{\contentsline {figure}{\numberline {B.3}{\ignorespaces MVA input variables related to information about the highest energy shower in the event for the DUNE far detector $\nu _e$CC analysis.}}{233}{figure.caption.177}}

@@ -163,10 +163,10 @@
 \contentsline {figure}{\numberline {8.7}{\ignorespaces The efficiency and purity of the $\nu _e$CC MVA-based selection as a function of a number of kinematic variables, after applying the selection.}}{202}{figure.caption.168}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces DV1/DV3 gap.\relax }}{224}{figure.caption.170}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces DV1/DV5 gap.\relax }}{225}{figure.caption.171}
-\contentsline {figure}{\numberline {A.3}{\ignorespaces DV3/DV7 gap.\relax }}{226}{figure.caption.172}
-\contentsline {figure}{\numberline {A.4}{\ignorespaces DV5/DV7 gap.\relax }}{227}{figure.caption.173}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Demonstration of the measurements of the $x$- and $z$-offsets in the 35-ton DV1/DV3 gap.}}{224}{figure.caption.170}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Demonstration of the measurements of the $x$- and $z$-offsets in the 35-ton DV1/DV5 gap.}}{225}{figure.caption.171}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Demonstration of the measurements of the $x$- and $z$-offsets in the 35-ton DV3/DV7 gap.}}{226}{figure.caption.172}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Demonstration of the measurements of the $x$- and $z$-offsets in the 35-ton DV5/DV7 gap.}}{227}{figure.caption.173}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {B.1}{\ignorespaces MVA input variables related to event-level information for the DUNE far detector $\nu _e$CC analysis.\relax }}{230}{figure.caption.174}
 \contentsline {figure}{\numberline {B.2}{\ignorespaces MVA input variables related to information about the longest reconstructed track in the event for the DUNE far detector $\nu _e$CC analysis.}}{231}{figure.caption.175}
