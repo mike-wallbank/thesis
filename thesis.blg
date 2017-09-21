@@ -61,7 +61,7 @@ Warning--missing institution in Brailsford2016
 Warning--missing institution in GrantPID2016
 You've used 179 entries,
             2344 wiz_defined-function locations,
-            1844 strings with 282485 characters,
+            1844 strings with 282484 characters,
 and the built_in function-call counts, 62750 in all, are:
 = -- 4118
 > -- 2056
