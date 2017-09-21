@@ -1,0 +1,25 @@
+% ******************************* Thesis Declaration ***************************
+
+\begin{declaration}
+
+  The material presented in this document has not been published or submitted for examination at another institute.  It represents original work by the author unless stated otherwise, complete with references.
+
+  The work on the Deep Underground Neutrino Experiment (DUNE), described in Chapter~\ref{chap:DUNE}, and within the Liquid Argon Software Framework (LArSoft), described in Chapter~\ref{chap:LArTPCReconstruction}, was made possible due to a large number of collaborators both within and external to the DUNE and LArSoft experiments.  Citations have been used where possible to reference work not done by the author.  When this is not possible, the people responsible have been explicitly named.
+
+  The author contributed directly to the success of the 35-ton prototype, described in Chapter~\ref{chap:35ton}, alongside a number of collaborators.  This consisted of involvement in all aspects of the experiment including testing, construction, installation, commissioning, data taking and data analysis, and serving as a deputy run coordinator during the commissioning and running period.  The author also took sole responsibility for the Online Monitoring framework, described in Chapter~\ref{chap:OnlineMonitoring}, and in the leading of some of the main analyses from the data, discussed in Chapter~\ref{chap:35tonAnalysis}.
+
+  The shower reconstruction development comprising the second half of Chapter~\ref{chap:LArTPCReconstruction} is original work by the author, along with its implementation in the DUNE $\nu_e$CC selection, the subject of Chapter~\ref{chap:FDAnalysis}.  The author notes the work of Dr Tingjun Yang (Fermi National Accelerator Laboratory) and Tyler Alion (University of Sussex) for the initial development of the selection, and Dr Dominic Brailsford (Lancaster University) for the relevant contributions from a parallel analysis.
+
+%% I hereby declare that except where specific reference is made to the work of 
+%% others, the contents of this dissertation are original and have not been 
+%% submitted in whole or in part for consideration for any other degree or 
+%% qualification in this, or any other university. This dissertation is my own 
+%% work and contains nothing which is the outcome of work done in collaboration 
+%% with others, except as specified in the text and Acknowledgements. This 
+%% dissertation contains fewer than 65,000 words including appendices, 
+%% bibliography, footnotes, tables and equations and has fewer than 150 figures.
+
+% Author and date will be inserted automatically from thesis.tex \author \degreedate
+
+\end{declaration}
+

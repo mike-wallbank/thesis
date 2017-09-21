@@ -92,7 +92,6 @@ thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Classes/PhDThes
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Conclusions/Conclusions.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,DUNE/DUNE.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Declaration/declaration.tex)
-thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Dedication/dedication.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,FarDetectorAnalysis/FarDetectorAnalysis.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,Introduction/Introduction.tex)
 thesis.aux thesis.aux.make thesis.d thesis.pdf: $(call path-norm,LArTPCReconstruction/LArTPCReconstruction.tex)
@@ -258,9 +257,9 @@ thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/35tonGasFilling.
 -include 35ton/Figs/35tonLiquidFilling.pdf.gpi.d
 thesis.d: $$(call graphics-source,35ton/Figs/35tonLiquidFilling.pdf)
 thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/35tonLiquidFilling.pdf)
--include 35ton/Figs/35tonPhaseIElectronLifetimeEdit.pdf.gpi.d
-thesis.d: $$(call graphics-source,35ton/Figs/35tonPhaseIElectronLifetimeEdit.pdf)
-thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/35tonPhaseIElectronLifetimeEdit.pdf)
+-include 35ton/Figs/35tonPhaseIElectronLifetimeEdit.png.gpi.d
+thesis.d: $$(call graphics-source,35ton/Figs/35tonPhaseIElectronLifetimeEdit.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/35tonPhaseIElectronLifetimeEdit.png)
 -include 35ton/Figs/35tonDetector.pdf.gpi.d
 thesis.d: $$(call graphics-source,35ton/Figs/35tonDetector.pdf)
 thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/35tonDetector.pdf)

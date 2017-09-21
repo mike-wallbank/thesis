@@ -1,7 +1,7 @@
 \thispagestyle {empty}
-\contentsline {chapter}{List of figures}{xv}{chapter*.5}
-\contentsline {chapter}{List of tables}{xxv}{chapter*.6}
-\contentsline {chapter}{List of acronyms}{xxvii}{chapter*.7}
+\contentsline {chapter}{List of figures}{xiii}{chapter*.5}
+\contentsline {chapter}{List of tables}{xxiii}{chapter*.6}
+\contentsline {chapter}{List of acronyms}{xxv}{chapter*.7}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}Neutrino Physics}{3}{chapter.2}
 \contentsline {section}{\numberline {2.1}Historical Context}{3}{section.2.1}
@@ -40,9 +40,9 @@
 \contentsline {subsection}{\numberline {3.4.2}Oscillation Parameters}{49}{subsection.3.4.2}
 \contentsline {subsection}{\numberline {3.4.3}Other Physics}{49}{subsection.3.4.3}
 \contentsline {section}{\numberline {3.5}The Road to DUNE}{53}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}The 35\nobreakspace {}ton Prototype}{53}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.1}The 35-ton Prototype}{53}{subsection.3.5.1}
 \contentsline {subsection}{\numberline {3.5.2}ProtoDUNE}{53}{subsection.3.5.2}
-\contentsline {chapter}{\numberline {4}The DUNE 35\nobreakspace {}ton Prototype}{57}{chapter.4}
+\contentsline {chapter}{\numberline {4}The DUNE 35-ton Prototype}{57}{chapter.4}
 \contentsline {section}{\numberline {4.1}The Materials Test Stand and Liquid Argon Purity Demonstrator}{58}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}The Materials Test Stand}{58}{subsection.4.1.1}
 \contentsline {subsubsection}{\numberline {4.1.1.1}Filter Regeneration}{60}{subsubsection.4.1.1.1}
@@ -52,22 +52,22 @@
 \contentsline {subsubsection}{\numberline {4.1.2.2}Filling LAPD}{64}{subsubsection.4.1.2.2}
 \contentsline {subsubsection}{\numberline {4.1.2.3}LAPD Outcomes}{65}{subsubsection.4.1.2.3}
 \contentsline {subsection}{\numberline {4.1.3}LongBo}{65}{subsection.4.1.3}
-\contentsline {section}{\numberline {4.2}35\nobreakspace {}ton Experiment: Phase\nobreakspace {}I}{67}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}The 35\nobreakspace {}ton Cryostat}{69}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Filling the 35\nobreakspace {}ton}{71}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.2}35-ton Experiment: Phase\nobreakspace {}I}{67}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}The 35-ton Cryostat}{69}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Filling the 35-ton}{71}{subsection.4.2.2}
 \contentsline {subsection}{\numberline {4.2.3}Outcomes of Phase\nobreakspace {}I}{72}{subsection.4.2.3}
-\contentsline {section}{\numberline {4.3}35\nobreakspace {}ton Experiment: Phase\nobreakspace {}II}{73}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}The 35\nobreakspace {}ton Detector}{74}{subsection.4.3.1}
+\contentsline {section}{\numberline {4.3}35-ton Experiment: Phase\nobreakspace {}II}{73}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}The 35-ton Detector}{74}{subsection.4.3.1}
 \contentsline {subsubsection}{\numberline {4.3.1.1}TPC}{75}{subsubsection.4.3.1.1}
 \contentsline {subsubsection}{\numberline {4.3.1.2}Photon Detectors}{78}{subsubsection.4.3.1.2}
 \contentsline {subsubsection}{\numberline {4.3.1.3}External Counters}{79}{subsubsection.4.3.1.3}
 \contentsline {subsection}{\numberline {4.3.2}Data Acquisition}{79}{subsection.4.3.2}
 \contentsline {subsubsection}{\numberline {4.3.2.1}Electronics and Readout}{80}{subsubsection.4.3.2.1}
-\contentsline {subsubsection}{\numberline {4.3.2.2}35\nobreakspace {}ton Data Formats}{80}{subsubsection.4.3.2.2}
-\contentsline {subsubsection}{\numberline {4.3.2.3}35\nobreakspace {}ton DAQ}{83}{subsubsection.4.3.2.3}
+\contentsline {subsubsection}{\numberline {4.3.2.2}35-ton Data Formats}{80}{subsubsection.4.3.2.2}
+\contentsline {subsubsection}{\numberline {4.3.2.3}35-ton DAQ}{83}{subsubsection.4.3.2.3}
 \contentsline {subsection}{\numberline {4.3.3}The Sheffield Camera System}{86}{subsection.4.3.3}
 \contentsline {subsubsection}{\numberline {4.3.3.1}The Camera System}{86}{subsubsection.4.3.3.1}
-\contentsline {subsubsection}{\numberline {4.3.3.2}Operation and Outcomes of 35\nobreakspace {}ton Camera System}{88}{subsubsection.4.3.3.2}
+\contentsline {subsubsection}{\numberline {4.3.3.2}Operation and Outcomes of 35-ton Camera System}{88}{subsubsection.4.3.3.2}
 \contentsline {subsection}{\numberline {4.3.4}Phase\nobreakspace {}II Run}{91}{subsection.4.3.4}
 \contentsline {subsection}{\numberline {4.3.5}Outcomes of Phase\nobreakspace {}II}{93}{subsection.4.3.5}
 \contentsline {subsubsection}{\numberline {4.3.5.1}Cryostat and TPC}{95}{subsubsection.4.3.5.1}
@@ -97,7 +97,7 @@
 \contentsline {subsubsection}{\numberline {5.3.5.1}Shower Properties}{126}{subsubsection.5.3.5.1}
 \contentsline {subsubsection}{\numberline {5.3.5.2}$\pi ^0$ Reconstruction}{127}{subsubsection.5.3.5.2}
 \contentsline {subsubsection}{\numberline {5.3.5.3}Track/Shower Separation Performance}{130}{subsubsection.5.3.5.3}
-\contentsline {chapter}{\numberline {6}Online Monitoring and Event Displays for the 35\nobreakspace {}ton Experiment}{133}{chapter.6}
+\contentsline {chapter}{\numberline {6}Online Monitoring and Event Displays for the 35-ton Experiment}{133}{chapter.6}
 \contentsline {section}{\numberline {6.1}The Online Monitoring Framework}{133}{section.6.1}
 \contentsline {subsection}{\numberline {6.1.1}Design of the Monitoring Framework}{134}{subsection.6.1.1}
 \contentsline {subsection}{\numberline {6.1.2}Interface with the DAQ Framework}{135}{subsection.6.1.2}
@@ -115,8 +115,8 @@
 \contentsline {subsection}{\numberline {6.4.1}Automated Data Transfer}{141}{subsection.6.4.1}
 \contentsline {subsection}{\numberline {6.4.2}Web Page}{143}{subsection.6.4.2}
 \contentsline {section}{\numberline {6.5}Online Monitoring Summary}{144}{section.6.5}
-\contentsline {chapter}{\numberline {7}Analysis of 35\nobreakspace {}ton Data}{145}{chapter.7}
-\contentsline {section}{\numberline {7.1}Preparing 35\nobreakspace {}ton Data for Analysis}{145}{section.7.1}
+\contentsline {chapter}{\numberline {7}Analysis of 35-ton Data}{145}{chapter.7}
+\contentsline {section}{\numberline {7.1}Preparing 35-ton Data for Analysis}{145}{section.7.1}
 \contentsline {subsection}{\numberline {7.1.1}Selecting the Data}{146}{subsection.7.1.1}
 \contentsline {subsection}{\numberline {7.1.2}Improving Data Quality}{147}{subsection.7.1.2}
 \contentsline {subsection}{\numberline {7.1.3}Reconstructing Muon Tracks}{147}{subsection.7.1.3}
@@ -138,12 +138,12 @@
 \contentsline {subsubsection}{\numberline {7.3.2.1}Interaction Time Hits}{178}{subsubsection.7.3.2.1}
 \contentsline {subsubsection}{\numberline {7.3.2.2}Event Displays of APA-Crossing Tracks}{179}{subsubsection.7.3.2.2}
 \contentsline {subsection}{\numberline {7.3.3}Comparing Drift Regions with APA-Crossing Tracks}{182}{subsection.7.3.3}
-\contentsline {section}{\numberline {7.4}Shower Reconstruction in 35\nobreakspace {}ton Data}{185}{section.7.4}
+\contentsline {section}{\numberline {7.4}Shower Reconstruction in 35-ton Data}{185}{section.7.4}
 \contentsline {subsection}{\numberline {7.4.1}Data Specific Reconstruction}{185}{subsection.7.4.1}
 \contentsline {subsection}{\numberline {7.4.2}Calorimetry Reconstruction}{185}{subsection.7.4.2}
 \contentsline {subsection}{\numberline {7.4.3}Shower Reconstruction}{189}{subsection.7.4.3}
 \contentsline {subsection}{\numberline {7.4.4}$\pi ^0$ Reconstruction}{190}{subsection.7.4.4}
-\contentsline {section}{\numberline {7.5}35\nobreakspace {}ton Data Analysis Summary}{191}{section.7.5}
+\contentsline {section}{\numberline {7.5}35-ton Data Analysis Summary}{191}{section.7.5}
 \contentsline {chapter}{\numberline {8}The $\nu _e$ Oscillation Signal at the DUNE Far Detector}{193}{chapter.8}
 \contentsline {section}{\numberline {8.1}Far Detector Samples}{194}{section.8.1}
 \contentsline {section}{\numberline {8.2}Cut-Based Tuning}{194}{section.8.2}

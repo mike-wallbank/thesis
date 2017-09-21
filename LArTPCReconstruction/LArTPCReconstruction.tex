@@ -28,14 +28,14 @@ The \textit{art} framework provides an interface to the information stored for e
 
 The end-to-end configuration for a given experiment involves the following standard stages: generation (provided by a generator, such as GENIE), propagation (executed with GEANT4), detector response simulation, and reconstruction.  The results from the first three steps aim to reproduce as closely as possible the expectations from real data, with the same reconstruction applied to both the simulated output from the detector and data.  The processes are configured, using \texttt{Producer} modules, in \textit{art} using \textit{fhicl}, generally separated into four jobs representing each of the stages.
 
-LArSoft was initially developed for use in ArgoNeuT in around 2011 and has since progressed into the large collaboration it is today, with more than 100 code authors spanning multiple experiments.  The constant progression of algorithms has resulted in very well-developed, advanced simulation and reconstruction tools with corresponding shared expertise.  The recent use of LArSoft reconstruction on real data, in MicroBooNE \cite{MicroBooNEReconstruction2017} and the 35~ton (Chapter~\ref{chap:35tonAnalysis}), is providing an excellent test of the efficacy of the simulation along with the validation of reconstruction applied to data.  The current reconstruction chain is discussed in Section~\ref{sec:ReconstructionChain}.
+LArSoft was initially developed for use in ArgoNeuT in around 2011 and has since progressed into the large collaboration it is today, with more than 100 code authors spanning multiple experiments.  The constant progression of algorithms has resulted in very well-developed, advanced simulation and reconstruction tools with corresponding shared expertise.  The recent use of LArSoft reconstruction on real data, in MicroBooNE \cite{MicroBooNEReconstruction2017} and the 35-ton (Chapter~\ref{chap:35tonAnalysis}), is providing an excellent test of the efficacy of the simulation along with the validation of reconstruction applied to data.  The current reconstruction chain is discussed in Section~\ref{sec:ReconstructionChain}.
 
 Until recently, convincing electromagnetic shower reconstruction had not existed within LArSoft.  Despite this being a major advantage of LArTPCs, it is particularly challenging and requires significant investment of resources to fully understand.  This motivated the development of new algorithms within the LArSoft framework, BlurredCluster and EMShower, which will be discussed in detail in Section~\ref{sec:ShowerReconstruction}.
 
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \section{The Reconstruction Chain}\label{sec:ReconstructionChain}
 
-Reconstruction in LArSoft is the process of forming particle objects, with enough information to be able to perform identification, from the raw charge read out by the anode planes.  The process may be considered as three main components: calibrating the raw charge to remove detector effects; pattern recognition; calorimetry.  These will be discussed in Sections~\ref{sec:HitReconstruction},~\ref{sec:PatternRecognition} and~\ref{sec:Calorimetry} respectively.  The general workflow is shown schematically in Figure~\ref{fig:ReconstructionWorkflow}.
+Reconstruction in LArSoft is the process of forming particle objects, with enough information to be able to perform identification, from the raw charge read out by the anode planes.  The process may be considered as consisting of three main components: calibrating the raw charge to remove detector effects, pattern recognition, and calorimetry.  These will be discussed in Sections~\ref{sec:HitReconstruction},~\ref{sec:PatternRecognition} and~\ref{sec:Calorimetry} respectively.  The general workflow is shown schematically in Figure~\ref{fig:ReconstructionWorkflow}.
 
 \begin{figure}
   \centering
@@ -108,7 +108,7 @@ Following the deconvolution stage, the waveforms all have the form of a unipolar
   \label{fig:HitFinding}
 \end{figure}
 
-Due to the wrapped wires, multiple hits will be reconstructed on each channel, one for each possible wire segment.  The final stage of hit processing is to perform disambiguation to select the correct hit for use in subsequent algorithms.  As previously discussed (Section~\ref{sec:DUNESinglePhase} and Section~\ref{sec:35tonTPC}), this is trivial in the far detector design as the wire wrapping angles are chosen such that no induction wire segment crosses each collection channel more than once.  In the 35~ton, the slight difference in angle between the two induction planes results in `triple points', where there are hits on each plane almost instantaneously, which facilitates a deduction of the correct induction channel hits.
+Due to the wrapped wires, multiple hits will be reconstructed on each channel, one for each possible wire segment.  The final stage of hit processing is to perform disambiguation to select the correct hit for use in subsequent algorithms.  As previously discussed (Section~\ref{sec:DUNESinglePhase} and Section~\ref{sec:35tonTPC}), this is trivial in the far detector design as the wire wrapping angles are chosen such that no induction wire segment crosses each collection channel more than once.  In the 35-ton, the slight difference in angle between the two induction planes results in `triple points', where there are hits on each plane almost instantaneously, which facilitates a deduction of the correct induction channel hits.
 
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \subsection{Pattern Recognition}\label{sec:PatternRecognition}
@@ -193,7 +193,7 @@ In order to reconstruct the neutrino energy from beam interactions, the total ch
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \section{Shower Reconstruction in LArTPCs}\label{sec:ShowerReconstruction}
 
-Reconstructing showers in a LArTPC is challenging and until recently was an unsolved problem in LArSoft.  This section describes the development of novel techniques for the purposes of complete shower reconstruction within a LArTPC.  The primary motivations for the undertaking were initially the desire to perform a $\pi^0$ analysis in the 35~ton dataset and the lack of available tools.  The reconstruction was thus developed with $\pi^0$s in mind, specifically focussing on the separation of closely occurring showers from the two photon daughters, but has utility in the reconstruction of all showering particles.
+Reconstructing showers in a LArTPC is challenging and until recently was an unsolved problem in LArSoft.  This section describes the development of novel techniques for the purposes of complete shower reconstruction within a LArTPC.  The primary motivations for the undertaking were initially the desire to perform a $\pi^0$ analysis in the 35-ton dataset and the lack of available tools.  The reconstruction was thus developed with $\pi^0$s in mind, specifically focussing on the separation of closely occurring showers from the two photon daughters, but has utility in the reconstruction of all showering particles.
 
 Excellent shower reconstruction is essential for the success of the DUNE experiment.  In order to distinguish between the main oscillation signal (discussed further in Chapter~\ref{chap:FDAnalysis})
 \begin{equation}
@@ -212,12 +212,12 @@ The shower reconstruction problem is first overviewed in Section~\ref{sec:Shower
 
 High energy electrons and photons produce electromagnetic showers in a LArTPC via pair production and bremsstrahlung processes.  They may be distinguished using the excellent calorimetric properties of the detector by careful analysis of the initial part of the object, before showering occurs.  A photon, since it has no electric charge, does not ionise and so is only observable following pair production.  Thus, one would expect the initial part of a photon shower to be twice as ionising (two electrons) than the start of an electron shower (a single electron); the dE/dx at the beginning of an electron and a photon shower is 2.1~MeV/cm and 4.2~MeV/cm respectively.
 
-The required properties provided by the reconstruction of electromagnetic showers include an accurate start position and direction, a dE/dx measurement for the first 3~cm of the shower and the total deposited energy left by the shower.  It is thus vital the object is as complete as possible and is orientated correctly.  Additionally, good separation between $\pi^0$ decay photon showers is required for calibration purposes and to reduce the neutral current $\pi^0$ backgrounds previously discussed.  An example 35~ton particle gun $\pi^0$ event is shown in Figure~\ref{fig:pi0Showers} to demonstrate the task presented to the reconstruction.
+The required properties provided by the reconstruction of electromagnetic showers include an accurate start position and direction, a dE/dx measurement for the first 3~cm of the shower and the total deposited energy left by the shower.  It is thus vital the object is as complete as possible and is orientated correctly.  Additionally, good separation between $\pi^0$ decay photon showers is required for calibration purposes and to reduce the neutral current $\pi^0$ backgrounds previously discussed.  An example 35-ton particle gun $\pi^0$ event is shown in Figure~\ref{fig:pi0Showers} to demonstrate the task presented to the reconstruction.
 
 \begin{figure}
   \centering
   \includegraphics[width=10cm]{EVDPi0Hits.pdf}
-  \caption[An example particle gun $\pi^0$ event in the 35~ton geometry.]{An example particle gun $\pi^0$ event in the 35~ton geometry.  Hit reconstruction (including disambiguation in the induction planes) has been applied with individual hits shown as black rectangles.  The two decay photons are visible by eye but shower very close to each other.}
+  \caption[An example particle gun $\pi^0$ event in the 35-ton geometry.]{An example particle gun $\pi^0$ event in the 35-ton geometry.  Hit reconstruction (including disambiguation in the induction planes) has been applied with individual hits shown as black rectangles.  The two decay photons are visible by eye but shower very close to each other.}
   \label{fig:pi0Showers}
 \end{figure}
 
@@ -246,7 +246,7 @@ and defined by two parameters in each dimension (wire and tick); the standard de
   \label{fig:2DGaussianKernel}
 \end{figure}
 
-The Gaussian widths and blurring radii in each direction are determined dynamically for each individual hit map and even for individual hits.  This is achieved by initially guessing a direction of each shower (using least squares and Principal Component Analysis (PCA) considerations) and assigning the parameters values relevant to the assumed directionality.  For example, if it appears a particle shower is travelling primarily in the wire direction, an appropriate 2D kernel would be wider in the wire direction and would extend further in this dimension (i.e. $r_{\textnormal{wire}} \gg r_{\textnormal{tick}}$).  This example is demonstrated in Figure~\ref{fig:2DGaussianKernel} where it is clear the charge is noticeably smeared more in the wire (horizontal) than the tick (vertical) direction.  Additionally, the width of a particular hit in time is taken into account when selecting an appropriate kernel with which to smear its charge.  A hit with a greater width justifies a much wider kernel in the tick direction to take into account this distribution of charge.
+The Gaussian widths and blurring radii in each direction are determined dynamically for each individual hit map and even for individual hits.  This is achieved by initially guessing a direction of each shower (using least squares and Principal Component Analysis (PCA) considerations) and assigning the parameter values relevant to the assumed directionality.  For example, if it appears a particle shower is travelling primarily in the wire direction, an appropriate 2D kernel would be wider in the wire direction and would extend further in this dimension (i.e. $r_{\textnormal{wire}} \gg r_{\textnormal{tick}}$).  This example is demonstrated in Figure~\ref{fig:2DGaussianKernel} where it is clear the charge is noticeably smeared more in the wire (horizontal) than the tick (vertical) direction.  Additionally, the width of a particular hit in time is taken into account when selecting an appropriate kernel with which to smear its charge.  A hit with a greater width justifies a much wider kernel in the tick direction to take into account this distribution of charge.
 
 A demonstration, in 1D, of the convolution process is the subject of Figure~\ref{fig:BlurringProcess}.  In this example, the width of the kernel is fixed and the blurring radius is set to 2.  The final charge distribution may be compared to the input hit map in the bottom right figure, in which a more realistic smearing of the deposited energy in the detector may be observed.  The process in 2D is identical to this simplified example but uses contributions from bins in two dimensions rather than just one.
 
@@ -309,7 +309,7 @@ A demonstration, in 1D, of the convolution process is the subject of Figure~\ref
   \label{fig:BlurringProcess}
 \end{figure}
 
-The result of the Gaussian blurring process on the 35~ton $\pi^0$ depicted in Figure~\ref{fig:pi0Showers} is shown in Figure~\ref{fig:pi0ShowersBlurredMap}.  The efficacy with which the blurring encompasses the showers, whilst maintaining separation, is evident.  This is the aim for the smearing process and the resulting shower quality is directly dependent on how well the charge is redistributed before clustering.
+The result of the Gaussian blurring process on the 35-ton $\pi^0$ depicted in Figure~\ref{fig:pi0Showers} is shown in Figure~\ref{fig:pi0ShowersBlurredMap}.  The efficacy with which the blurring encompasses the showers, whilst maintaining separation, is evident.  This is the aim for the smearing process and the resulting shower quality is directly dependent on how well the charge is redistributed before clustering.
 
 \begin{figure}
   \centering
@@ -326,30 +326,30 @@ The result of the Gaussian blurring process on the 35~ton $\pi^0$ depicted in Fi
     \caption{Plane 2.}
     \label{fig:pi0ShowerBlurredMapPlane2}
   \end{subfigure}
-  \caption[The output of the blurring stage of the BlurredCluster algorithm on the hit maps from two planes of the 35~ton $\pi^0$ event illustrated in Figure~\ref{fig:pi0Showers}.]{The output of the blurring stage of the BlurredCluster algorithm on the hit maps from two planes of the 35~ton $\pi^0$ event illustrated in Figure~\ref{fig:pi0Showers}.  The greyscale represents charge deposited in the wire/tick space.}
+  \caption[The output of the blurring stage of the BlurredCluster algorithm on the hit maps from two planes of the 35-ton $\pi^0$ event illustrated in Figure~\ref{fig:pi0Showers}.]{The output of the blurring stage of the BlurredCluster algorithm on the hit maps from two planes of the 35-ton $\pi^0$ event illustrated in Figure~\ref{fig:pi0Showers}.  The greyscale represents charge deposited in the wire/tick space.}
   \label{fig:pi0ShowersBlurredMap}
 \end{figure}
 
-Following completion of the hit map blurring, clustering proceeds utilising a simple nearest neighbour algorithm.  This is sufficient to group all hits of a shower together once the Gaussian smearing has smoothed out the charge distribution and introduced fake hits to populate gaps in the collected charge.  The final stage of the process involves identifying the original hits and producing the relevant output clusters for use in further algorithms.  The output clusters produced by the BlurredCluster algorithm for the 35~ton $\pi^0$ event are demonstrated in Figure~\ref{fig:pi0ShowersClusters}.
+Following completion of the hit map blurring, clustering proceeds utilising a simple nearest neighbour algorithm.  This is sufficient to group all hits of a shower together once the Gaussian smearing has smoothed out the charge distribution and introduced fake hits to populate gaps in the collected charge.  The final stage of the process involves identifying the original hits and producing the relevant output clusters for use in further algorithms.  The output clusters produced by the BlurredCluster algorithm for the 35-ton $\pi^0$ event are demonstrated in Figure~\ref{fig:pi0ShowersClusters}.
 
 \begin{figure}
   \centering
   \includegraphics[width=10cm]{EVDPi0Clusters.pdf}
-  \caption[The 2D clusters made using BlurredCluster when applied to the 35~ton $\pi^0$ event shown in Figure~\ref{fig:pi0Showers}.]{The 2D clusters made using BlurredCluster when applied to the 35~ton $\pi^0$ event shown in Figure~\ref{fig:pi0Showers}.  The different colours represent separate cluster objects.}
+  \caption[The 2D clusters made using BlurredCluster when applied to the 35-ton $\pi^0$ event shown in Figure~\ref{fig:pi0Showers}.]{The 2D clusters made using BlurredCluster when applied to the 35-ton $\pi^0$ event shown in Figure~\ref{fig:pi0Showers}.  The different colours represent separate cluster objects.}
   \label{fig:pi0ShowersClusters}
 \end{figure}
 
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \subsubsection{Configuring the Clustering}\label{sec:BlurredClusterConfiguration}
 
-The BlurredCluster algorithm takes reconstructed hits as input, previously determined by a LArSoft hit finder (such as gaushit).  It places the output clusters, along with associations to the hits which comprise them, back into the event record.  There are multiple user-defined parameters which must be tuned to provide the best reconstruction.  This has been done for both the DUNE 35~ton and FD geometries and is dependent on detector properties such as the induction wire angle and anode wire pitch.
+The BlurredCluster algorithm takes reconstructed hits as input, previously determined by a LArSoft hit finder (such as gaushit).  It places the output clusters, along with associations to the hits which comprise them, back into the event record.  There are multiple user-defined parameters which must be tuned to provide the best reconstruction.  This has been done for both the DUNE 35-ton and FD geometries and is dependent on detector properties such as the induction wire angle and anode wire pitch.
 
 There are two ways in which the reconstruction can be performed in a given detector; either for each cryostat, drift volume (DV) and plane separately or alternatively across all DVs for each plane in a given cryostat.  This distinction is necessary due to the detector readout, which arbitrarily breaks up the active region into distinct DVs depending on the APA which reads the charge out.  When performing reconstruction, it is unnatural to consider each DV separately and so instead a `global' volume is defined.  Such a coordinate assigns a wire number for all wires on a given plane in a single cryostat, agnostic to the boundaries defined by the detector hardware.  This scheme is demonstrated in Figure~\ref{fig:GlobalWire} and is used by default by BlurredCluster.
 
 \begin{figure}
   \centering
   \includegraphics[width=12cm]{GlobalWire.eps}
-  \caption[Demonstration of the `global wire' concept in single-phase LArTPC reconstruction.]{Demonstration of the `global wire' concept in single-phase LArTPC reconstruction.  A single hypothetical induction plane is shown across the 4~APAs in the 35~ton geometry.  The blue boxes represent the APAs and the black lines and numbering at the top show the wires in one plane.  In the left-hand figure, the APAs are considered separately and the conventional wire numbering is shown, with each wire represented by four numbers: the cryostat, DV, plane and wire number.  Reconstruction may be performed in each DV independently using the wire number as the spatial coordinate.  In the right-hand figure, the entire volume is considered as a whole and the wires are renumbered to reflect their position in the global geometry.  An imaginary line connecting wires which would overlap others on different APAs (and thus different DVs) if extended is used to give each of the wires a common index.  In this scheme, each is described using just three numbers: the cryostat, plane and global wire.}
+  \caption[Demonstration of the `global wire' concept in single-phase LArTPC reconstruction.]{Demonstration of the `global wire' concept in single-phase LArTPC reconstruction.  A single hypothetical induction plane is shown across the 4~APAs in the 35-ton geometry.  The blue boxes represent the APAs and the black lines and numbering at the top show the wires in one plane.  In the left-hand figure, the APAs are considered separately and the conventional wire numbering is shown, with each wire represented by four numbers: the cryostat, DV, plane and wire number.  Reconstruction may be performed in each DV independently using the wire number as the spatial coordinate.  In the right-hand figure, the entire volume is considered as a whole and the wires are renumbered to reflect their position in the global geometry.  An imaginary line connecting wires which would overlap others on different APAs (and thus different DVs) if extended is used to give each of the wires a common index.  In this scheme, each is described using just three numbers: the cryostat, plane and global wire.}
   \label{fig:GlobalWire}
 \end{figure}
 
@@ -363,7 +363,7 @@ The shower reconstruction is intended to be very high-level and depend heavily o
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \subsubsection{Shower Pattern Forming}\label{sec:EMShowerPattern}
 
-Taking advantage of the well developed tools already within LArSoft, EMShower performs cluster matching by utilising previously conducted 3D track reconstruction.  This is demonstrated in Figure~\ref{fig:pi0ShowersTracks}, which shows the output of BlurredCluster adjacent to the 3D tracks found by the Projection Matching Algorithm for the 35~ton $\pi^0$ event shown in Figure~\ref{fig:pi0Showers}.  It is clear how using the respective hit associations facilitates connections between 2D clusters and 3D tracks, essentially matching the clusters between the views and forming 3D objects.  The output from this stage is a collection of hits which are assumed to be part of the same shower object; the shower properties are determined by analysing these hits.
+Taking advantage of the well developed tools already within LArSoft, EMShower performs cluster matching by utilising previously conducted 3D track reconstruction.  This is demonstrated in Figure~\ref{fig:pi0ShowersTracks}, which shows the output of BlurredCluster adjacent to the 3D tracks found by the Projection Matching Algorithm for the 35-ton $\pi^0$ event shown in Figure~\ref{fig:pi0Showers}.  It is clear how using the respective hit associations facilitates connections between 2D clusters and 3D tracks, essentially matching the clusters between the views and forming 3D objects.  The output from this stage is a collection of hits which are assumed to be part of the same shower object; the shower properties are determined by analysing these hits.
 
 \begin{figure}
   \centering
@@ -380,7 +380,7 @@ Taking advantage of the well developed tools already within LArSoft, EMShower pe
     \caption{Projection Matching Algorithm.}
     \label{fig:pi0ShowersTracksTracks}
   \end{subfigure}
-  \caption[Comparison of the 2D shower cluster reconstruction and the 3D tracking reconstruction for a 35~ton $\pi^0$ event.]{Comparison of the 2D shower cluster reconstruction and the 3D tracking reconstruction for a 35~ton $\pi^0$ event.  In both cases, the different colours represent individually reconstructed objects.  It should be noted that, due to the 3D nature of the tracks, the same colours are evident across multiple views in Figure~\ref{fig:pi0ShowersTracksTracks}, representing the hits used to construct the shower in each plane.}
+  \caption[Comparison of the 2D shower cluster reconstruction and the 3D tracking reconstruction for a 35-ton $\pi^0$ event.]{Comparison of the 2D shower cluster reconstruction and the 3D tracking reconstruction for a 35-ton $\pi^0$ event.  In both cases, the different colours represent individually reconstructed objects.  It should be noted that, due to the 3D nature of the tracks, the same colours are evident across multiple views in Figure~\ref{fig:pi0ShowersTracksTracks}, representing the hits used to construct the shower in each plane.}
   \label{fig:pi0ShowersTracks}
 \end{figure}
 
@@ -414,9 +414,9 @@ Once there is sufficient confidence that the hits are correctly ordered in the r
   \label{fig:EMShowerOrientation}
 \end{figure}
 
-After correctly orientating the hits along the axis of the shower in each view separately, it is straight forward to determine the initial track-like parts.  For each plane, the hits are considered in order until it becomes obvious the shower is diverging (e.g. multiplicity of hits on the wires).  The initial shower hits from each of the planes are combined in order to construct a 3D track object, which is used to provide a start point and direction.  These hits are additionally analysed to provide a dE/dx for the start of the shower.
+After correctly orientating the hits along the axis of the shower in each view separately, it is straightforward to determine the initial track-like parts.  For each plane, the hits are considered in order until it becomes obvious the shower is diverging (e.g. multiplicity of hits on the wires).  The initial shower hits from each of the planes are combined in order to construct a 3D track object, which is used to provide a start point and direction.  These hits are additionally analysed to provide a dE/dx for the start of the shower.
 
-The result of applying the full EMShower algorithm to the 35~ton $\pi^0$ event from Figure~\ref{fig:pi0Showers} is presented in Figure~\ref{fig:pi0ShowersShowers}.  The complete 3D shower objects for each photon are evident with well reconstructed properties, demonstrating the successful shower reconstruction provided by BlurredCluster and EMShower together.  The reconstruction is characterised and validated further in Section~\ref{sec:ReconstructionPerformance}.
+The result of applying the full EMShower algorithm to the 35-ton $\pi^0$ event from Figure~\ref{fig:pi0Showers} is presented in Figure~\ref{fig:pi0ShowersShowers}.  The complete 3D shower objects for each photon are evident with well reconstructed properties, demonstrating the successful shower reconstruction provided by BlurredCluster and EMShower together.  The reconstruction is characterised and validated further in Section~\ref{sec:ReconstructionPerformance}.
 
 \begin{figure}
   \centering
@@ -433,7 +433,7 @@ The result of applying the full EMShower algorithm to the 35~ton $\pi^0$ event f
     \caption{3D.}
     \label{fig:pi0ShowersShowers3D}
   \end{subfigure}
-  \caption[The output from the full 3D shower reconstruction provided by BlurredCluster/EMShower when applied to the 35~ton $\pi^0$ event shown in Figure~\ref{fig:pi0Showers}.]{The output from the full 3D shower reconstruction provided by BlurredCluster/EMShower when applied to the 35~ton $\pi^0$ event shown in Figure~\ref{fig:pi0Showers}.  The showers are shown in both the 2D wire/tick view in Figure~\ref{fig:pi0ShowersShowers2D} and in the orthogonal 3D representation in Figure~\ref{fig:pi0ShowersShowers3D}.  The stars/crosses represent the reconstructed start point and the dotted lines the reconstructed direction.}
+  \caption[The output from the full 3D shower reconstruction provided by BlurredCluster/EMShower when applied to the 35-ton $\pi^0$ event shown in Figure~\ref{fig:pi0Showers}.]{The output from the full 3D shower reconstruction provided by BlurredCluster/EMShower when applied to the 35-ton $\pi^0$ event shown in Figure~\ref{fig:pi0Showers}.  The showers are shown in both the 2D wire/tick view in Figure~\ref{fig:pi0ShowersShowers2D} and in the orthogonal 3D representation in Figure~\ref{fig:pi0ShowersShowers3D}.  The stars/crosses represent the reconstructed start point and the dotted lines the reconstructed direction.}
   \label{fig:pi0ShowersShowers}
 \end{figure}
 
@@ -444,7 +444,7 @@ The shower reconstruction described in Sections~\ref{sec:BlurredCluster} and~\re
 
 This section briefly details the development of an alternative approach to the problem, which was found to be inferior to the more recent developments.  It is nonetheless instructive to overview the subject and assess the attempted method to evaluate how the experience may inform other potential strategies in addressing the issue.
 
-The algorithm was developed primarily for the purposes of the $\nu_e$CC oscillation appearance selection, the subject of Chapter~\ref{chap:FDAnalysis}.  An example $\nu_e$CC event is demonstrated in Figure~\ref{fig:nueCC}.  The topologies of the different particle objects are evident by eye and the purpose of the track/shower separation is to remove the track-like hits from the events, leaving just shower-like hits over which the shower reconstruction algorithms may be run.
+The algorithm was developed primarily for the purposes of the $\nu_e$CC oscillation appearance selection, the subject of Chapter~\ref{chap:FDAnalysis}.  An example MC $\nu_e$CC event is demonstrated in Figure~\ref{fig:nueCC}.  The topologies of the different particle objects are evident by eye and the purpose of the track/shower separation is to remove the track-like hits from the events, leaving just shower-like hits over which the shower reconstruction algorithms may be run.
 
 \begin{figure}
   \centering
@@ -492,7 +492,7 @@ The result of applying the algorithm to the DUNE $\nu_e$CC event shown in Figure
   \label{fig:nueCCRecon}
 \end{figure}
 
-The reasoning behind performing this separation following the completion of track finding, as mentioned previously, is to utilise as much information as possible about the interaction.  There are however many drawbacks which were identified whilst developing the algorithm.  For example, any mistakes in the track reconstruction has implications on the success of the overall analysis of the event and may be a considerable problem.  Additionally, track reconstruction is not optimised in the important region around the vertex and often fails to distinguish separate particles or approaches a sensitive hit distribution too forcibly.  If the \textit{shower track} is not well reconstructed, or even just some hits misidentified, the method detailed above will often fail.  It became clear during the building of the framework that the track reconstruction would also hugely benefit from prior separation of hits, and that this problem must be solved at the hit, or even charge, level.  Such fine scrutiny is exceptionally challenging and it was only when utilising machine learning tools that the issue appeared resolvable.  As noted earlier, this is likely how the eventual solution will be found.
+The reasoning behind performing this separation following the completion of track finding, as mentioned previously, is to utilise as much information as possible about the interaction.  There are however many drawbacks which were identified whilst developing the algorithm.  For example, any mistakes in the track reconstruction has implications on the success of the overall analysis of the event and may be a considerable problem.  Additionally, track reconstruction is not optimised in the important region around the vertex and often fails to distinguish separate particles or too aggressively approaches a complex hit distribution.  If the \textit{shower track} is not well reconstructed, or even just some hits misidentified, the method detailed above will often fail.  It became clear during the building of the framework that the track reconstruction would also hugely benefit from prior separation of hits, and that this problem must be solved at the hit, or even charge, level.  Such fine scrutiny is exceptionally challenging and it was only when utilising machine learning tools that the issue appeared resolvable.  As noted earlier, this is likely how the eventual solution will be found.
 
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \subsection{Performance of the Reconstruction}\label{sec:ReconstructionPerformance}
@@ -501,7 +501,7 @@ The performance of the reconstruction will be discussed in this section, with sh
 \begin{itemize}
   \item Electrons, 0.1--5.0~GeV, 10~000 events, DUNE reduced far detector (10kt) geometry;
   \item Photons, 0.1--2.0~GeV, 10~000 events, DUNE reduced far detector (10kt) geometry;
-  \item $\pi^0$s, 0.4--1.0~GeV, 10~000 events, DUNE 35~ton geometry.
+  \item $\pi^0$s, 0.4--1.0~GeV, 10~000 events, DUNE 35-ton geometry.
 \end{itemize}
 The same, standard reconstruction was applied to each sample and the resulting shower objects analysed to quantify its functionality.
 
@@ -567,7 +567,7 @@ The invariant mass is determined for all $\pi^0$s where both decay photons are c
 \begin{figure}
   \centering
   \includegraphics[width=12cm]{Pi0MassPeak.eps}
-  \caption[The 35~ton fully reconstructed $\pi^0$ invariant mass peak.]{The 35~ton fully reconstructed $\pi^0$ invariant mass peak.}
+  \caption[The 35-ton fully reconstructed $\pi^0$ invariant mass peak.]{The 35-ton fully reconstructed $\pi^0$ invariant mass peak.}
   \label{fig:Pi0MassPeak}
 \end{figure}
 
@@ -576,7 +576,7 @@ The fully reconstructed $\pi^0$ mass peak differs from expectation in two princi
 \begin{figure}
   \centering
   \includegraphics[width=12cm]{Pi0MassPeakTruth.eps}
-  \caption[The 35~ton $\pi^0$ mass peak considered using a combination of reconstructed and truth information.]{The 35~ton $\pi^0$ mass peak considered using a combination of reconstructed and truth information.}
+  \caption[The 35-ton $\pi^0$ mass peak considered using a combination of reconstructed and truth information.]{The 35-ton $\pi^0$ mass peak considered using a combination of reconstructed and truth information.}
   \label{fig:Pi0MassPeakTruth}
 \end{figure}
 
@@ -586,49 +586,81 @@ The fully reconstructed $\pi^0$ mass peak differs from expectation in two princi
 The simple track/shower separation algorithm discussed in Section~\ref{sec:TrackShowerSeparation} is assessed in this present section.  In order to quantify the performance of the reconstruction, the following metrics are defined:
 \begin{itemize}
   \item \textit{basic track/shower separation}: the electron shower must be reconstructed as a shower, the longest hadron track originating from the vertex must be identified as a track;
+  \item \textit{full track/shower separation}: the electron shower must be reconstructed as a shower, all hadron tracks from the vertex must be identified as tracks;
   \item \textit{good shower}: the reconstructed shower start point must be within 10~cm of the true start, the reconstructed direction with $10^{\circ}$ and the shower must be at least 50\% complete;
-  \item \textit{good reconstruction}: the event must have basic track/shower separation and the electron shower must be quantified as `good'.
+  \item \textit{good reconstruction}: the event must have basic track/shower separation and the electron shower must be classified as `good';
+  \item \textit{very good reconstruction}: the event must have full track/shower separation and the electron shower must be classified as `good'.
 \end{itemize}
-Without strictly requiring perfect reconstruction, these metrics have been shown to represent the status of the software reasonably well.  The validation utilised 50~000 DUNE $\nu_e$CC interactions in a reduced far detector volume, intended to represent as closely as possible the oscillation appearance signal.
+Without strictly requiring perfect reconstruction, these metrics have been shown to represent the status of the software reasonably well.  The validation utilised 50~000 DUNE $\nu_e$ interactions in a reduced far detector volume, intended to represent as closely as possible the oscillation appearance signal.
 
-The efficacy of separating the electron shower from the main hadronic tracks from the vertex, and the reconstruction performance of the electron shower, is demonstrated in Figure~\ref{fig:GoodReconstructionComponents}.  It is clear the challenge is being able to produce well separated particle objects whilst maintaining the shower qualities.  In general the reconstruction performs acceptably but is far from the final solution to this problem.
+%% The efficacy of separating the electron shower from the main hadronic tracks from the vertex, and the reconstruction performance of the electron shower, is demonstrated in Figure~\ref{fig:GoodReconstructionComponents}.  It is clear the challenge is being able to produce well separated particle objects whilst maintaining the shower qualities.  In general the reconstruction performs acceptably but is far from the final solution to this problem.
+
+%% \begin{figure}
+%%   \centering
+%%   \begin{subfigure}[t]{0.48\linewidth}
+%%     \centering
+%%     \includegraphics[width=0.98\textwidth]{TrackShowerSeparation.eps}
+%%     \caption{Basic track/shower separation.}
+%%     \label{fig:TrackShowerSeparation}
+%%   \end{subfigure}
+%%   \hfill
+%%   \begin{subfigure}[t]{0.48\linewidth}
+%%     \centering
+%%     \includegraphics[width=0.98\textwidth]{ElectronGoodShower.eps}
+%%     \caption{Good shower.}
+%%     \label{fig:GoodShower}
+%%   \end{subfigure}
+%%   \caption[Performance of the track/shower separation reconstruction by considering how well separated tracks and showers from the neutrino interaction vertex are, and the quality of the reconstructed electron shower.]{Performance of the track/shower separation reconstruction by considering how well separated tracks and showers from the neutrino interaction vertex are and the quality of the reconstructed electron shower.}
+%%   \label{fig:GoodReconstructionComponents}
+%% \end{figure}
+
+%% The fraction of events which were well reconstructed, considered as a rate and as a function of true neutrino energy, is demonstrated in Figure~\ref{fig:GoodReconstruction}.  The reconstruction performs consistently except at the very lowest energies, when shower completeness becomes the main issue, but only at around 50\% efficiency.  This performance was comparable to, and even slightly superseded, other solutions within LArSoft when developed, but still requires significant improvements.  Much effort has been made recently within the LArSoft collaboration to address this issue directly and good progress has been made.  The experience here has been instructive in how to approach the topic but has demonstrated the successful solution will be attained using a different approach.
+
+%% \begin{figure}
+%%   \centering
+%%   \begin{subfigure}[t]{0.48\linewidth}
+%%     \centering
+%%     \includegraphics[width=0.98\textwidth]{GoodRecon.eps}
+%%     \caption{Fraction of events with good reconstruction.}
+%%     \label{fig:GoodReconstruction}
+%%   \end{subfigure}
+%%   \hfill
+%%   \begin{subfigure}[t]{0.48\linewidth}
+%%     \centering
+%%     \includegraphics[width=0.98\textwidth]{GoodReconEnergy.eps}
+%%     \caption{The performance of the reconstruction as a function of true neutrino energy.}
+%%     \label{fig:GoodReconstructionEnergy}
+%%   \end{subfigure}
+%%   \caption[The performance of the track/shower separation and shower reconstruction when applied to DUNE $\nu_e$CC far detector interactions.]{The performance of the track/shower separation and shower reconstruction when applied to DUNE $\nu_e$CC far detector interactions.  The performance metrics are defined in the text.}
+%%   \label{fig:GoodReconstruction}
+%% \end{figure}
+
+The efficacy of separating the electron shower from the main hadronic tracks from the vertex, and the reconstruction performance of the electron shower, is demonstrated in Table~\ref{tab:GoodReconstruction}.  It is clear the challenge is being able to produce well separated particle objects whilst maintaining the shower qualities.  In general the reconstruction performs acceptably but is far from the final solution to this problem.  The fraction of events which were well reconstructed, as a function of true neutrino energy, is demonstrated in Figure~\ref{fig:GoodReconstruction}.  The reconstruction performs consistently except at the very lowest energies, when shower completeness becomes the main issue, but only at around 50\% efficiency.  This performance was comparable to, and even slightly superseded, other solutions within LArSoft when developed, but still requires significant improvements.  Much effort has been made recently within the LArSoft collaboration to address this issue directly and good progress has been made.  The experience here has been instructive in how to approach the topic but has demonstrated the successful solution will be attained using a different approach.
+
+\begin{table}
+  \centering
+  \caption[The performance of track/shower separation and shower reconstruction on 50~000 DUNE $\nu_e$ events.]{The performance of track/shower separation and shower reconstruction on 50~000 DUNE $\nu_e$ events, classified using the metrics discussed in the text.  The number of events categorised into each sample is shown, along with the proportion of the total number of $\nu_e$CC events represented.  In the case of poor shower reconstruction, the particular features which failed the requirements are also detailed.}
+  \label{tab:GoodReconstruction}
+  \begin{tabular}{l r c}
+    \toprule
+      & Number of events & Proportion of events \\
+    \midrule
+    $\nu_e$CC events                     & 43~942 & 100\% \\
+    Good shower                          & 23~023 & 52\%  \\
+    \textit{Poor shower -- start point}  & \textit{17~891} & -     \\
+    \textit{Poor shower -- direction}    & \textit{9~831}  & -     \\
+    \textit{Poor shower -- completeness} & \textit{6~367}  & -     \\
+    Basic track/shower separation        & 36~200 & 82\%  \\
+    Full track/shower separation         & 32~785 & 75\%  \\
+    Good reconstruction                  & 20~399 & 46\%  \\
+    Very good reconstruction             & 18~971 & 43\%  \\
+    \bottomrule
+  \end{tabular}
+\end{table}
 
 \begin{figure}
   \centering
-  \begin{subfigure}[t]{0.48\linewidth}
-    \centering
-    \includegraphics[width=0.98\textwidth]{TrackShowerSeparation.eps}
-    \caption{Basic track/shower separation.}
-    \label{fig:TrackShowerSeparation}
-  \end{subfigure}
-  \hfill
-  \begin{subfigure}[t]{0.48\linewidth}
-    \centering
-    \includegraphics[width=0.98\textwidth]{ElectronGoodShower.eps}
-    \caption{Good shower.}
-    \label{fig:GoodShower}
-  \end{subfigure}
-  \caption[Performance of the track/shower separation reconstruction by considering how well separated tracks and showers from the neutrino interaction vertex are, and the quality of the reconstructed electron shower.]{Performance of the track/shower separation reconstruction by considering how well separated tracks and showers from the neutrino interaction vertex are and the quality of the reconstructed electron shower.}
-  \label{fig:GoodReconstructionComponents}
-\end{figure}
-
-The fraction of events which were well reconstructed, considered as a rate and as a function of true neutrino energy, is demonstrated in Figure~\ref{fig:GoodReconstruction}.  The reconstruction performs consistently except at the very lowest energies, when shower completeness becomes the main issue, but only at around 50\% efficiency.  This performance was comparable to, and even slightly superseded, other solutions within LArSoft when developed, but still requires significant improvements.  Much effort has been made recently within the LArSoft collaboration to address this issue directly and good progress has been made.  The experience here has been instructive in how to approach the topic but has demonstrated the successful solution will be attained using a different approach.
-
-\begin{figure}
-  \centering
-  \begin{subfigure}[t]{0.48\linewidth}
-    \centering
-    \includegraphics[width=0.98\textwidth]{GoodRecon.eps}
-    \caption{Fraction of events with good reconstruction.}
-    \label{fig:GoodReconstruction}
-  \end{subfigure}
-  \hfill
-  \begin{subfigure}[t]{0.48\linewidth}
-    \centering
-    \includegraphics[width=0.98\textwidth]{GoodReconEnergy.eps}
-    \caption{The performance of the reconstruction as a function of true neutrino energy.}
-    \label{fig:GoodReconstructionEnergy}
-  \end{subfigure}
-  \caption[The performance of the track/shower separation and shower reconstruction when applied to DUNE $\nu_e$CC far detector interactions.]{The performance of the track/shower separation and shower reconstruction when applied to DUNE $\nu_e$CC far detector interactions.  The performance metrics are defined in the text.}
+  \includegraphics[width=12cm]{GoodReconEnergy.eps}
+  \caption[The performance of the track/shower separation and shower reconstruction when applied to DUNE $\nu_e$CC far detector interactions.]{The performance of the track/shower separation and shower reconstruction when applied to DUNE $\nu_e$CC far detector interactions.  The fraction of events which are classified with `good reconstruction', as defined in the text, is shown as a function of true neutrino energy.}
   \label{fig:GoodReconstruction}
 \end{figure}

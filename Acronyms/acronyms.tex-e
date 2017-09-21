@@ -1,0 +1,202 @@
+%% list of acronyms!
+
+\chapter*{List of acronyms}
+\addcontentsline{toc}{chapter}{List of acronyms}
+\markboth{List of acronyms}{List of acronyms}
+%\clubpenalty 10000
+
+\begin{longtable}{l p{11cm}}
+ADC         & Analog-to-Digital Converter \\
+APA         & Anode Plane Assembly \\
+ArgoNeuT    & Argon Neutrino Test Stand \\
+ASIC        & Application-Specific Integrated Circuit \\
+BDT         & Boosted Decision Tree \\
+BLM         & Beamline Measurement System \\
+BNL         & Brookhaven National Laboratory \\
+CC          & Charged Current \\
+CDF         & Collider Detector at Fermilab \\
+CERN        & European Organisation for Nuclear Research \\
+CKM         & Cabibbo-Kobayashi-Maskawa Matrix \\
+CMOS        & Complementary Metal-Oxide-Semiconductor \\
+CP          & Charge-Parity Symmetry \\
+CPA         & Cathode Plane Assembly \\
+CRC         & Cosmic Ray Counter \\
+CRP         & Charge Readout Plane \\
+CRY         & Cosmic Ray Generator \\
+CVN         & Convolutional Visual Network \\
+DAQ         & Data Acquisition \\
+DESY        & German Electron Synchrotron \\
+DONUT       & Direct Observation of NuTau \\
+DP          & Dual-Phase \\
+DQM         & Data Quality Monitoring \\
+DUNE        & Deep Underground Neutrino Experiment \\
+DV          & Drift Volume \\
+ECAL        & Electromagnetic Calorimeter \\
+ES          & Elastic Scattering \\
+eV          & Electron Volt \\
+EW          & East-West \\
+FD          & Far Detector \\
+FE          & Front-End \\
+FEMB        & Front-End Mother Board \\
+FFT         & Fast Fourier Transform \\
+FGT         & Fine Grained Tracker \\
+FNAL        & Fermi National Accelerator Laboratory \\
+FV          & Fiducial Volume \\
+GALLEX      & Gallium Experiment \\
+GAr         & Gaseous Argon \\
+GEANT4      & Geometry And Tracking \\
+GENIE       & Generates Events for Neutrino Interaction Experiments \\
+HTML        & Hypertext Markup Language \\
+HV          & High Voltage \\
+ICARUS      & Imaging Cosmic And Rare Underground Signals \\
+LAGUNA-LBNO & Large Apparatus for Grand Unification, Neutrino Astrophysics and Long Baseline Neutrino Oscillations \\
+LAPD        & Liquid Argon Purity Demonstrator \\
+LAr         & Liquid Argon \\
+LArIAT      & Liquid Argon In A Test Beam \\
+LArSoft     & Liquid Argon Software Framework \\
+LArTPC      & Liquid Argon Time Projection Chamber \\
+LBNE        & Long Baseline Neutrino Experiment \\
+LBNF        & Long Baseline Neutrino Facility \\
+LEM         & Large Electron Multiplier\\
+LEP         & Large Electron-Positron Collider\\
+LHC         & Large Hadron Collider \\
+LNG         & Liquified Natural Gas \\
+LSB         & Least Significant Bit \\
+LZ          & LUX-Zeplin \\
+MC          & Monte Carlo \\
+MicroBooNE  & Micro Booster Neutrino Experiment \\
+MINOS       & Main Injector Neutrino Oscillation Search \\
+MSB         & Most Significant Bit \\
+MSW         & Mikheyev-Smirnov-Wolfenstein Effect \\
+MTS         & Materials Test Stand \\
+MuID        & Muon Identifier \\
+MVA         & Multi-Variate Analysis \\
+MW          & Mega-Watt \\
+NC          & Neutral Current \\
+NND         & Near Neutrino Detector \\
+NOvA        & NuMI Off-Axis $\nu_e$ Appearance \\
+NS          & North-South \\
+NuMI        & Neutrinos from Main Injector \\
+PCB         & Printed Circuit Board \\
+PDS         & Photon Detection System \\
+PID         & Particle Identification \\
+PIP         & Proton Improvement Plan \\
+PMA         & Projection Matching Algorithm \\
+PMNS        & Pontecorvo-Maki-Nakagawa-Sakata Matrix \\
+PMT         & Photomultiplier Tube \\
+POT         & Protons On Target \\
+PrM         & Purity Monitor \\
+PTB         & Penn Trigger Board \\
+RCE         & Reconfigurable Computing Elements \\
+RMS         & Root Mean Square \\
+ROC         & Remote Operation Control \\
+RPC         & Resistive Plate Chamber \\
+SAGE        & Soviet-American Gallium Experiment \\
+SLAC        & Stanford Linear Accelerator Centre \\
+SNBD        & Short Baseline Neutrino Detector \\
+SiPM        & Silicon Photomultiplier \\
+SNO         & Sudbury Neutrino Observatory \\
+SNU         & Solar Neutrino Unit \\
+SP          & Single-Phase \\
+SSM         & Standard Solar Model \\
+SSP         & SiPM Signal Processor \\
+STT         & Straw-Tube Tracker \\
+SURF        & Sanford Underground Research Facility \\
+T2K         & Tokai-to-Kamioka \\
+TPC         & Time Projection Chamber \\
+WLS         & Wavelength Shifter \\
+\end{longtable}
+
+
+%% ADC         \tabto{4cm} Analog-to-Digital Converter \\
+%% APA         \tabto{4cm} Anode Plane Assembly \\
+%% ArgoNeuT    \tabto{4cm} Argon Neutrino Test Stand \\
+%% ASIC        \tabto{4cm} Application-Specific Integrated Circuit \\
+%% BLM         \tabto{4cm} Beamline Measurement System \\
+%% BNL         \tabto{4cm} Brookhaven National Laboratory \\
+%% CC          \tabto{4cm} Charged Current \\
+%% CDF         \tabto{4cm} Collider Detector at Fermilab \\
+%% CERN        \tabto{4cm} European Organisation for Nuclear Research \\
+%% CKM         \tabto{4cm} Cabibbo-Kobayashi-Maskawa Matrix \\
+%% CMOS        \tabto{4cm} Complementary Metal-Oxide-Semiconductor \\
+%% CP          \tabto{4cm} Charge-Parity Symmetry \\
+%% CPA         \tabto{4cm} Cathode Plane Assembly \\
+%% CRC         \tabto{4cm} Cosmic Ray Counter \\
+%% CRP         \tabto{4cm} Charge Readout Plane \\
+%% CRY         \tabto{4cm} Cosmic Ray Generator \\
+%% DAQ         \tabto{4cm} Data Acquisition \\
+%% DESY        \tabto{4cm} German Electron Synchrotron \\
+%% DONUT       \tabto{4cm} Direct Observation of NuTau \\
+%% DP          \tabto{4cm} Dual-Phase \\
+%% DQM         \tabto{4cm} Data Quality Monitoring \\
+%% DUNE        \tabto{4cm} Deep Underground Neutrino Experiment \\
+%% DV          \tabto{4cm} Drift Volume \\
+%% ECAL        \tabto{4cm} Electromagnetic Calorimeter \\
+%% ES          \tabto{4cm} Elastic Scattering \\
+%% eV          \tabto{4cm} Electron Volt \\
+%% EW          \tabto{4cm} East-West \\
+%% FE          \tabto{4cm} Front-End \\
+%% FEMB        \tabto{4cm} Front-End Mother Board \\
+%% FFT         \tabto{4cm} Fast Fourier Transform \\
+%% FGT         \tabto{4cm} Fine Grained Tracker \\
+%% FNAL        \tabto{4cm} Fermi National Accelerator Laboratory \\
+%% GALLEX      \tabto{4cm} Gallium Experiment \\
+%% GAr         \tabto{4cm} Gaseous Argon \\
+%% GEANT4      \tabto{4cm} Geometry And Tracking \\
+%% GENIE       \tabto{4cm} Generates Events for Neutrino Interaction Experiments \\
+%% HTML        \tabto{4cm} Hypertext Markup Language \\
+%% HV          \tabto{4cm} High Voltage \\
+%% ICARUS      \tabto{4cm} Imaging Cosmic And Rare Underground Signals \\
+%% LAGUNA-LBNO \tabto{4cm} Large Apparatus for Grand Unification, Neutrino Astrophysics and Long Baseline Neutrino Oscillations \\
+%% LAPD        \tabto{4cm} Liquid Argon Purity Demonstrator \\
+%% LAr         \tabto{4cm} Liquid Argon \\
+%% LArIAT      \tabto{4cm} Liquid Argon In A Test Beam \\
+%% LArSoft     \tabto{4cm} Liquid Argon Software Framework \\
+%% LArTPC      \tabto{4cm} Liquid Argon Time Projection Chamber \\
+%% LBNE        \tabto{4cm} Long Baseline Neutrino Experiment \\
+%% LBNF        \tabto{4cm} Long Baseline Neutrino Facility \\
+%% LEM         \tabto{4cm} Large Electron Multiplier\\
+%% LEP         \tabto{4cm} Large Electron-Positron Collider\\
+%% LHC         \tabto{4cm} Large Hadron Collider \\
+%% LNG         \tabto{4cm} Liquified Natural Gas \\
+%% LSB         \tabto{4cm} Least Significant Bit \\
+%% LZ          \tabto{4cm} LUX-Zeplin \\
+%% MC          \tabto{4cm} Monte Carlo \\
+%% MicroBooNE  \tabto{4cm} Micro Booster Neutrino Experiment \\
+%% MINOS       \tabto{4cm} Main Injector Neutrino Oscillation Search \\
+%% MSB         \tabto{4cm} Most Significant Bit \\
+%% MSW         \tabto{4cm} Mikheyev-Smirnov-Wolfenstein Effect \\
+%% MTS         \tabto{4cm} Materials Test Stand \\
+%% MuID        \tabto{4cm} Muon Identifier \\
+%% MW          \tabto{4cm} Mega-Watt \\
+%% NC          \tabto{4cm} Neutral Current \\
+%% NND         \tabto{4cm} Near Neutrino Detector \\
+%% NOvA        \tabto{4cm} NuMI Off-Axis $\nu_e$ Appearance \\
+%% NS          \tabto{4cm} North-South \\
+%% NuMI        \tabto{4cm} Neutrinos from Main Injector \\
+%% PCB         \tabto{4cm} Printed Circuit Board \\
+%% PDS         \tabto{4cm} Photon Detection System \\
+%% PIP         \tabto{4cm} Proton Improvement Plan \\
+%% PMA         \tabto{4cm} Projection Matching Algorithm \\
+%% PMNS        \tabto{4cm} Pontecorvo-Maki-Nakagawa-Sakata Matrix \\
+%% PMT         \tabto{4cm} Photomultiplier Tube \\
+%% PrM         \tabto{4cm} Purity Monitor \\
+%% PTB         \tabto{4cm} Penn Trigger Board \\
+%% RCE         \tabto{4cm} Reconfigurable Computing Elements \\
+%% RMS         \tabto{4cm} Root Mean Square \\
+%% ROC         \tabto{4cm} Remote Operation Control \\
+%% RPC         \tabto{4cm} Resistive Plate Chamber \\
+%% SAGE        \tabto{4cm} Soviet-American Gallium Experiment \\
+%% SLAC        \tabto{4cm} Stanford Linear Accelerator Centre \\
+%% SNBD        \tabto{4cm} Short Baseline Neutrino Detector \\
+%% SiPM        \tabto{4cm} Silicon Photomultiplier \\
+%% SNO         \tabto{4cm} Sudbury Neutrino Observatory \\
+%% SNU         \tabto{4cm} Solar Neutrino Unit \\
+%% SP          \tabto{4cm} Single-Phase \\
+%% SSM         \tabto{4cm} Standard Solar Model \\
+%% SSP         \tabto{4cm} SiPM Signal Processor \\
+%% STT         \tabto{4cm} Straw-Tube Tracker \\
+%% SURF        \tabto{4cm} Sanford Underground Research Facility \\
+%% T2K         \tabto{4cm} Tokai-to-Kamioka \\
+%% TPC         \tabto{4cm} Time Projection Chamber \\
+%% WLS         \tabto{4cm} Wavelength Shifter \\

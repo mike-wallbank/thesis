@@ -1,7 +1,6 @@
 This is BibTeX, Version 0.99d (TeX Live 2014)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
-A level-1 auxiliary file: Dedication/dedication.aux
 A level-1 auxiliary file: Declaration/declaration.aux
 A level-1 auxiliary file: Acknowledgements/acknowledgements.aux
 A level-1 auxiliary file: Abstract/abstract.aux
@@ -62,7 +61,7 @@ Warning--missing institution in Brailsford2016
 Warning--missing institution in GrantPID2016
 You've used 179 entries,
             2344 wiz_defined-function locations,
-            1845 strings with 282510 characters,
+            1844 strings with 282485 characters,
 and the built_in function-call counts, 62750 in all, are:
 = -- 4118
 > -- 2056

@@ -207,11 +207,7 @@
 \newlabel{fig:FieldResponse}
 \newlabel{fig:GlobalFit}
 \newlabel{fig:GlobalWire}
-\newlabel{fig:GoodReconstructionComponents}
-\newlabel{fig:GoodReconstructionEnergy}
 \newlabel{fig:GoodReconstruction}
-\newlabel{fig:GoodReconstruction}
-\newlabel{fig:GoodShower}
 \newlabel{fig:HighNoiseState}
 \newlabel{fig:HitChargeInteraction}
 \newlabel{fig:HitChargeNonInteraction}
@@ -310,7 +306,6 @@
 \newlabel{fig:TrackSelectionCounterShadow}
 \newlabel{fig:TrackSelectionFinal}
 \newlabel{fig:TrackSelection}
-\newlabel{fig:TrackShowerSeparation}
 \newlabel{fig:TrackShowerTopology}
 \newlabel{fig:TwoPeakAmbiguity}
 \newlabel{fig:WebInterface}
@@ -547,9 +542,6 @@
 \newlabel{sub@fig:FVTuneNegY}
 \newlabel{sub@fig:FVTunePosY}
 \newlabel{sub@fig:FieldResponse}
-\newlabel{sub@fig:GoodReconstructionEnergy}
-\newlabel{sub@fig:GoodReconstruction}
-\newlabel{sub@fig:GoodShower}
 \newlabel{sub@fig:HighNoiseState}
 \newlabel{sub@fig:HitChargeInteraction}
 \newlabel{sub@fig:HitChargeNonInteraction}
@@ -593,7 +585,6 @@
 \newlabel{sub@fig:TrackSelectionBefore}
 \newlabel{sub@fig:TrackSelectionCounterShadow}
 \newlabel{sub@fig:TrackSelectionFinal}
-\newlabel{sub@fig:TrackShowerSeparation}
 \newlabel{sub@fig:nueCCRecon2D}
 \newlabel{sub@fig:nueCCRecon3D}
 \newlabel{sub@fig:pi0ShowerBlurredMapPlane0}
@@ -608,5 +599,6 @@
 \newlabel{tab:DUNEExposure}
 \newlabel{tab:FDMVAVariables}
 \newlabel{tab:FV}
+\newlabel{tab:GoodReconstruction}
 \newlabel{tab:NobleProperties}
 \newlabel{tab:OscillationParameters}
