@@ -34,7 +34,7 @@ The elementary cut-based selection utilises Pandora reconstruction for tracks an
 
 \begin{figure}
   \centering
-  \includegraphics[width=10cm]{ElectronMVA.eps}
+  %\includegraphics[width=10cm]{ElectronMVA.eps}
   \caption[The output of a multi-variate approach to particle identification when attempting to identify electrons.]{The output of a multi-variate approach to particle identification when attempting to identify electrons.}
   \label{fig:ElectronMVA}
 \end{figure}
@@ -43,7 +43,7 @@ To tune this cut, and for further tunings discussed in Section~\ref{sec:FDCutFV}
 
 \begin{figure}
   \centering
-  \includegraphics[width=10cm]{ElectronMVATune.eps}
+  %\includegraphics[width=10cm]{ElectronMVATune.eps}
   \caption[The process of tuning the electron cut in the simple cut-based selection by maximising the effect of CP-violation on the oscillation probabilities.]{The process of tuning the electron cut in the simple cut-based selection by maximising the effect of CP-violation on the oscillation probabilities.}
   \label{fig:ElectronMVATune}
 \end{figure}
@@ -54,28 +54,28 @@ In order to assess the efficacy of the analysis, the commonly used efficiency an
   \centering
   \begin{subfigure}[t]{0.48\linewidth}
     \centering
-    \includegraphics[width=0.98\textwidth]{ENuCutSelection.eps}
+    %\includegraphics[width=0.98\textwidth]{ENuCutSelection.eps}
     \caption{$E_{\nu}$}
     \label{fig:ENuCutSelection}
   \end{subfigure}
   \hfill
   \begin{subfigure}[t]{0.48\linewidth}
     \centering
-    \includegraphics[width=0.98\textwidth]{Q2CutSelection.eps}
+    %\includegraphics[width=0.98\textwidth]{Q2CutSelection.eps}
     \caption{$Q^2$}
     \label{fig:Q2CutSelection}
   \end{subfigure}
   \vfill
   \begin{subfigure}[t]{0.48\linewidth}
     \centering
-    \includegraphics[width=0.98\textwidth]{LeptonMomentumCutSelection.eps}
+    %\includegraphics[width=0.98\textwidth]{LeptonMomentumCutSelection.eps}
     \caption{Lepton momentum}
     \label{fig:LeptonMomentumCutSelection}
   \end{subfigure}
   \hfill
   \begin{subfigure}[t]{0.48\linewidth}
     \centering
-    \includegraphics[width=0.98\textwidth]{LeptonAngleCutSelection.eps}
+    %\includegraphics[width=0.98\textwidth]{LeptonAngleCutSelection.eps}
     \caption{Lepton angle}
     \label{fig:LeptonAngleCutSelection}
   \end{subfigure}
@@ -94,14 +94,14 @@ Example plots showing the tuning of the $y$-coordinate are the subject of Figure
   \centering
   \begin{subfigure}[t]{0.48\linewidth}
     \centering
-    \includegraphics[width=0.98\textwidth]{FVTunePosY.eps}
+    %\includegraphics[width=0.98\textwidth]{FVTunePosY.eps}
     \caption{$+y$}
     \label{fig:FVTunePosY}
   \end{subfigure}
   \hfill
   \begin{subfigure}[t]{0.48\linewidth}
     \centering
-    \includegraphics[width=0.98\textwidth]{FVTuneNegY.eps}
+    %\includegraphics[width=0.98\textwidth]{FVTuneNegY.eps}
     \caption{$-y$}
     \label{fig:FVTuneNegY}
   \end{subfigure}
@@ -175,7 +175,7 @@ The MVA response to the input variables discussed in the previous section is sho
 
 \begin{figure}
   \centering
-  \includegraphics[width=10cm]{NuECCMVAOvertrainBDT.eps}
+  %\includegraphics[width=10cm]{NuECCMVAOvertrainBDT.eps}
   \caption[The MVA response when training $\nu_e$ (signal) against $\nu_{\mu}$ and $\nu_{\tau}$ (background).]{The MVA response when training $\nu_e$ (signal) against $\nu_{\mu}$ and $\nu_{\tau}$ (background) using the variables described in Section~\ref{sec:FDMVAVariables}.}
   \label{fig:MVAResponse}
 \end{figure}
@@ -186,28 +186,28 @@ The efficiency and purity distributions for the selection, over a number of obse
   \centering
   \begin{subfigure}[t]{0.48\linewidth}
     \centering
-    \includegraphics[width=0.98\textwidth]{ENuNoSelection.eps}
+    %\includegraphics[width=0.98\textwidth]{ENuNoSelection.eps}
     \caption{$E_{\nu}$}
     \label{fig:ENuNoSelection}
   \end{subfigure}
   \hfill
   \begin{subfigure}[t]{0.48\linewidth}
     \centering
-    \includegraphics[width=0.98\textwidth]{Q2NoSelection.eps}
+    %\includegraphics[width=0.98\textwidth]{Q2NoSelection.eps}
     \caption{$Q^2$}
     \label{fig:Q2NoSelection}
   \end{subfigure}
   \vfill
   \begin{subfigure}[t]{0.48\linewidth}
     \centering
-    \includegraphics[width=0.98\textwidth]{LeptonMomentumNoSelection.eps}
+    %\includegraphics[width=0.98\textwidth]{LeptonMomentumNoSelection.eps}
     \caption{Lepton momentum}
     \label{fig:LeptonMomentumNoSelection}
   \end{subfigure}
   \hfill
   \begin{subfigure}[t]{0.48\linewidth}
     \centering
-    \includegraphics[width=0.98\textwidth]{LeptonAngleNoSelection.eps}
+    %\includegraphics[width=0.98\textwidth]{LeptonAngleNoSelection.eps}
     \caption{Lepton angle}
     \label{fig:LeptonAngleNoSelection}
   \end{subfigure}
@@ -219,28 +219,28 @@ The efficiency and purity distributions for the selection, over a number of obse
   \centering
   \begin{subfigure}[t]{0.48\linewidth}
     \centering
-    \includegraphics[width=0.98\textwidth]{ENuSelection.eps}
+    %\includegraphics[width=0.98\textwidth]{ENuSelection.eps}
     \caption{$E_{\nu}$}
     \label{fig:ENuSelection}
   \end{subfigure}
   \hfill
   \begin{subfigure}[t]{0.48\linewidth}
     \centering
-    \includegraphics[width=0.98\textwidth]{Q2Selection.eps}
+    %\includegraphics[width=0.98\textwidth]{Q2Selection.eps}
     \caption{$Q^2$}
     \label{fig:Q2Selection}
   \end{subfigure}
   \vfill
   \begin{subfigure}[t]{0.48\linewidth}
     \centering
-    \includegraphics[width=0.98\textwidth]{LeptonMomentumSelection.eps}
+    %\includegraphics[width=0.98\textwidth]{LeptonMomentumSelection.eps}
     \caption{Lepton momentum}
     \label{fig:LeptonMomentumSelection}
   \end{subfigure}
   \hfill
   \begin{subfigure}[t]{0.48\linewidth}
     \centering
-    \includegraphics[width=0.98\textwidth]{LeptonAngleSelection.eps}
+    %\includegraphics[width=0.98\textwidth]{LeptonAngleSelection.eps}
     \caption{Lepton angle}
     \label{fig:LeptonAngleSelection}
   \end{subfigure}

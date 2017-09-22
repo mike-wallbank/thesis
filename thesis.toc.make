@@ -154,6 +154,5 @@
 \contentsline {subsection}{\numberline {8.3.2}Analysis Performance}{200}{subsection.8.3.2}
 \contentsline {section}{\numberline {8.4}Outlook for Future Selections}{203}{section.8.4}
 \contentsline {chapter}{\numberline {9}Conclusions}{205}{chapter.9}
-\contentsline {chapter}{References}{207}{chapter*.169}
-\contentsline {chapter}{Appendix \numberline {A}APA Gap-Crossing Muons: Gap Measurements}{223}{Appendix.a.A}
-\contentsline {chapter}{Appendix \numberline {B}DUNE Far Detector $\nu _e$CC MVA Input Variables}{229}{Appendix.a.B}
+\contentsline {chapter}{Appendix \numberline {A}APA Gap-Crossing Muons: Gap Measurements}{207}{Appendix.a.A}
+\contentsline {chapter}{Appendix \numberline {B}DUNE Far Detector $\nu _e$CC MVA Input Variables}{213}{Appendix.a.B}

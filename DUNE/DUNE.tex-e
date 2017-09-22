@@ -10,7 +10,7 @@ The Deep Underground Neutrino Experiment (DUNE) experiment \cite{DUNECDR1,DUNECD
 
 \begin{figure}
   \centering
-  \includegraphics[width=14cm]{DUNE.jpg}
+  %\includegraphics[width=14cm]{DUNE.jpg}
   \caption[Cartoon showing the configuration of the Deep Underground Neutrino Experiment.]{Cartoon showing the configuration of the Deep Underground Neutrino Experiment.  The experiment will be based at Fermilab, shown at the right of the figure, and will send neutrinos towards SURF, at the left hand side.  The distance travelled, through the Earth's crust, will be 1300~km.}
   \label{fig:DUNE}
 \end{figure}
@@ -20,9 +20,9 @@ The DUNE experiment will be discussed in this present chapter.  As the experimen
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \section{The LAr TPC Concept}\label{sec:LArTPC}
 
-The use of a liquid argon (LAr) Time Projection Chamber (TPC), or LArTPC, as a high-precision fine-grained detector medium holds much promise for the successful resolution of the open questions in neutrino physics.  A great amount of R\&D work has taken place to advance the maturity of the technology and pioneering experiments, such as ICARUS \cite{ICARUS2004}, have further increased the understanding of the neutrino community of the detector techniques.  Past and currently running experiments at Fermilab, such as ArgoNeuT \cite{ArgoNeuT2012}, LArIAT \cite{LArIAT2014} and MicroBooNE \cite{MicroBooNE2017}, are successfully using LArTPCs to take and analyse data and it seems certain to be the future of neutrino physics in the U.S. \cite{Baller2014}.
+The use of a liquid argon (LAr) Time Projection Chamber (TPC), or LArTPC, as a high-precision fine-grained detector medium holds much promise for the successful resolution of the open questions in neutrino physics.  A great amount of R\&D work has taken place to advance the maturity of the technology and pioneering experiments, such as ICARUS \cite{ICARUS2004}, have further increased the understanding of the neutrino community of the detector techniques.  Past and currently running experiments at Fermilab, such as ArgoNeuT \cite{ArgoNeuT2012}, LArIAT \cite{LArIAT2014} and MicroBooNE \cite{MicroBooNE2017}, are successfully using LArTPCs to take data for analysis and it seems certain to be the future of neutrino physics in the U.S. \cite{Baller2014}.
 
-This section will provide a brief history of LArTPC technology and motivate its potential when used in a large experiment such as DUNE.  The basic operation of such a detector will also be described to provide background for discussion of the DUNE and 35~ton experiments, and of reconstruction in LArTPCs, in future chapters.
+This section will provide a brief history of LArTPC technology and motivate its potential when used in a large experiment such as DUNE.  The basic operation of such a detector will also be described to provide background for discussion of the DUNE and 35-ton experiments, and of reconstruction in LArTPCs, in future chapters.
 
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \subsection{A Brief History of Time (Projection Chambers)}\label{sec:LArTPCHistory}
@@ -31,7 +31,7 @@ The use of a time projection chamber as a potential particle detector was put fo
 
 \begin{figure}
   \centering
-  \includegraphics[width=10cm]{NygrenTPC.png}
+  %\includegraphics[width=10cm]{NygrenTPC.png}
   \caption[The original concept of the time projection chamber particle detector, drawn by David Nygren in 1974.]{The original concept of the time projection chamber particle detector, drawn by David Nygren in 1974 \cite{Nygren1974}.  The sections are labelled as followed: methane-filled region (A), screen to establish electron field (B), end-cap detectors (C), superconducting solenoid (3.33~T) (D), iron return yoke for magnetic field (E), beam vacuum pipe (F).}
   \label{fig:NygrenTPC}
 \end{figure}
@@ -62,7 +62,7 @@ An additional advantage of this technology is the low threshold for detection; t
 
 \begin{figure}
   \centering
-  \includegraphics[width=10cm]{RubbiaLArTPC.png}
+  %\includegraphics[width=10cm]{RubbiaLArTPC.png}
   \caption[The LArTPC detector proposed by Carlo Rubbia in 1977.]{The LArTPC detector proposed by Carlo Rubbia in 1977 \cite{Rubbia1977}.}
   \label{fig:RubbiaLArTPC}
 \end{figure}
@@ -76,50 +76,50 @@ A LArTPC typically consists of one or more anodes and cathodes at either end of 
 
 There are two differing designs of LArTPC: single-phase and dual-phase.  In a single-phase design, only argon in a liquid state is utilised and the entire detector, including target medium, propagation, readout and signal processing, resides within the liquid.  In contrast, a dual-phase design would employ a layer of gaseous argon above the liquid, through which the drift electrons are extracted before readout.  This has the primary advantage of amplification of signal due to electron avalanches in an electric field in the gas and therefore a lower detection threshold but also results in a larger fiducial volume with the absence of dead regions in the LAr volume.
 
-The readout consists of multiple wire planes with different orientations to facilitate the reconstruction.  The wires are either `induction' wires, which allow the electrons to deposit charge but continue past, or `collection' wires, on which the electric field lines end and all the charge on the electron is collected.  Each wire plane is therefore held at a different `bias voltage' to prevent any field lines ending on the induction wire, thus creating local electric fields which promote the continuing forward motion of the electrons.  The signal seen is therefore dependent on the type of wire plane; a bipolar pulse on an induction plane wire and unipolar on a collection plane wire.  It is also common, though not essential, to make use of a `grid plane' upstream of the signal planes in order to shield them from the electron charge until the drift electrons are close.  Without such a plane, the bipolar pulse would be highly asymmetric, though would still have zero integral.  It also makes changing the drift voltage (controlling the electric field) slightly easier as the signal planes are somewhat shielded from its effects.  MicroBooNE does not operate with a grid plane and, although the 35~ton and the DUNE reference design make use of a grid plane, it is uncertain whether the benefit outweighs the cost for a huge LArTPC detector such as the DUNE far detector.  There are alternative readout possibilities to this typical design which have been suggested but, given the scale of future LArTPCs, it is highly unlikely a viable solution which delivers superior readout at a comparable cost will be found.
+The readout consists of multiple wire planes with different orientations to facilitate the reconstruction.  The wires are either `induction' wires, which allow the electrons to deposit charge but continue past, or `collection' wires, on which the electric field lines end and all the charge on the electron is collected.  Each wire plane is therefore held at a different `bias voltage' to prevent any field lines ending on the induction wire, thus creating local electric fields which promote the continuing forward motion of the electrons.  The signal seen is therefore dependent on the type of wire plane; a bipolar pulse on an induction plane wire and unipolar on a collection plane wire.  It is also common, though not essential, to make use of a `grid plane' upstream of the signal planes in order to shield them from the electron charge until the drift electrons are close.  Without such a plane, the bipolar pulse would be highly asymmetric, though would still have zero integral.  It also makes changing the drift voltage (controlling the electric field) slightly easier as the signal planes are somewhat shielded from its effects.  MicroBooNE does not operate with a grid plane and, although the 35-ton and the DUNE reference design make use of a grid plane, it is uncertain whether the benefit outweighs the cost for a huge LArTPC detector such as the DUNE far detector.  There are alternative readout possibilities to this typical design which have been suggested but, given the scale of future LArTPCs, it is highly unlikely a viable solution which delivers superior readout at a comparable cost will be found.
 
-Upon ionisation, an electron has a certain probability (around 60\% at a field of 500~V/cm) of recombining before the field can separate it from its ion.  Whilst this compromises the signal observed, it is accompanied by a flash of scintillation light which may be detected and used to assign an `event time' to the interaction, known as T0.  Without this information, it would be impossible to place an absolute time scale on the event and result in an unresolved coordinate along the drift direction.  Scintillation light in LAr is produced by two mechanisms:
+Upon ionisation, an electron has a certain probability (around 60\% at a field of 500~V/cm) of recombining before the field can separate it from its ion.  Whilst this recombination compromises the signal observed, it is accompanied by a flash of scintillation light which may be detected and used to assign an `event time' to the interaction, known as T0.  Without this information, it would be impossible to place an absolute time scale on the event and result in an unresolved coordinate along the drift direction.  Scintillation light in LAr is produced by two mechanisms:
 \begin{align}
   \label{eq:ScintillationExcitation} \textnormal{Ar} &\rightarrow \textnormal{Ar}^* \rightarrow \textnormal{Ar}_2^* \rightarrow 2~\textnormal{Ar} + \gamma \\
   \label{eq:ScintillationIonisation} \textnormal{Ar} &\rightarrow \textnormal{Ar}^+ \rightarrow \textnormal{Ar}_2^+ + e^- \rightarrow \textnormal{Ar}_2^* \rightarrow 2~\textnormal{Ar} + \gamma ,
 \end{align}
-where in Equation~\ref{eq:ScintillationExcitation} the argon is excited to a higher energy state and in Equation~\ref{eq:ScintillationIonisation} the argon is ionised.  In the second stage, excited and ionised molecules are formed in the liquid before deexcitation leads to the production of scintialltion light.  The magnitude of the applied electric field must be chosen to balance between ionisation and scintillation; a larger field would result in less recombination and therefore compromise the scintillation light while a smaller field would have consequences on the signal received at the wire planes.  Figure~\ref{fig:ElectricFieldScintillationIonisation} demonstrates this and justifies the field value of 500~V/cm which is often chosen in current LAr neutrino experiments.
+where in Equation~\ref{eq:ScintillationExcitation} the argon is excited to a higher energy state and in Equation~\ref{eq:ScintillationIonisation} the argon is ionised.  In the second stage, excited and ionised molecules are formed in the liquid before deexcitation leads to the production of scintillation light.  The magnitude of the applied electric field must be chosen to balance between ionisation and scintillation; a larger field would result in less recombination and therefore compromise the scintillation light while a smaller field would have consequences on the signal received at the wire planes.  Figure~\ref{fig:ElectricFieldScintillationIonisation} demonstrates this and justifies the field value of 500~V/cm which is often chosen in current LAr neutrino experiments.
 
 \begin{figure}
   \centering
-  \includegraphics[width=12cm]{ElectricFieldScintillationIonisation.pdf}
-  \caption[Effect of electric field on luminosity of ionisation electrons and scintillation light in a LArTPC.]{Demonstration of the competing effect the electric field has on the luminosity of the ionisation electrons and scintillation light arriving at the detector readout \cite{Thomas1987,Amoruso2004,Kubota1978}.  The solid lines represent the charge recombination whilst the dashed lines demonstrate light recombination.  The numberical labels are the specific energy loss (dE/dx) in units of mip.  Since information from both is essential in reconstructing the complete interactions, a balance must be found.  Image made by Craig Thorn, LBNE Document Database 4482.}
+  %\includegraphics[width=12cm]{ElectricFieldScintillationIonisation.pdf}
+  \caption[Effect of electric field on luminosity of ionisation electrons and scintillation light in a LArTPC.]{Demonstration of the competing effect the electric field has on the luminosity of the ionisation electrons and scintillation light arriving at the detector readout \cite{Thomas1987,Amoruso2004,Kubota1978}.  The solid lines represent the charge recombination whilst the dashed lines demonstrate light recombination.  The numeric labels are the specific energy loss (dE/dx) in units of mip.  Since information from both is essential in reconstructing the complete interactions, a balance must be found.  Image made by Craig Thorn, LBNE Document Database 4482.}
   \label{fig:ElectricFieldScintillationIonisation}
 \end{figure}
 
-The basic operational principles of a LArTPC are demonstrated in Figure~\ref{fig:LArTPCOperation}.  The specifics of how the ionisation charge and the scintillation light is collected and processed is experiment-specific and will be discussed in the context of DUNE in Chapter \ref{chap:DUNE} and the 35~ton experiment in Chapter \ref{chap:35ton}.  This information is all that is required to fully understand and analyse the interactions occurring in the detector; methods used to reconstruct particles and interactions in LAr will be the subject of Chapter \ref{chap:LArTPCReconstruction}.
+The basic operational principles of a LArTPC are demonstrated in Figure~\ref{fig:LArTPCOperation}.  The specifics of how the ionisation charge and the scintillation light is collected and processed is experiment-specific and will be discussed in the context of DUNE in this chapter and the 35-ton experiment in Chapter \ref{chap:35ton}.  This information is all that is required to fully understand and analyse the interactions occurring in the detector; methods used to reconstruct particles and interactions in LAr will be the subject of Chapter \ref{chap:LArTPCReconstruction}.
 
 %% \begin{figure}[p]
 %%   \centering
 %%   \begin{subfigure}[t]{0.48\linewidth}
 %%     \centering
-%%     \includegraphics[width=0.98\textwidth]{LArTPCOperation1.png}
+%%     %\includegraphics[width=0.98\textwidth]{LArTPCOperation1.png}
 %%     \caption{Typical LArTPC with one cathode (left) and three read out anode planes (right) (two induction, U and V, and one collection, Y), setting up an electric field.  The central region is filled with liquid argon.}
 %%     \label{fig:LArTPCOperation1}
 %%   \end{subfigure}
 %%   \hfill
 %%   \begin{subfigure}[t]{0.48\linewidth}
 %%     \centering
-%%     \includegraphics[width=0.98\textwidth]{LArTPCOperation2.png}
+%%     %\includegraphics[width=0.98\textwidth]{LArTPCOperation2.png}
 %%     \caption{An ionising particle enters the detector and liberates electrons from the medium, which then drift towards the anode planes.}
 %%     \label{fig:LArTPCOperation2}
 %%   \end{subfigure}
 %%   \hfill
 %%     \begin{subfigure}[t]{0.48\linewidth}
 %%     \centering
-%%     \includegraphics[width=0.98\textwidth]{LArTPCOperation3.png}
+%%     %\includegraphics[width=0.98\textwidth]{LArTPCOperation3.png}
 %%     \caption{As the electrons drift through, charge is induced on the first two wire planes and collected on the final one.  Due to the differing orientations of the wires between planes, three complementary views of the interaction are provided (two are shown).}
 %%     \label{fig:LArTPCOperation3}
 %%   \end{subfigure}
 %%   \hfill
 %%   \begin{subfigure}[t]{0.48\linewidth}
 %%     \centering
-%%     \includegraphics[width=0.98\textwidth]{LArTPCOperation4.png}
+%%     %\includegraphics[width=0.98\textwidth]{LArTPCOperation4.png}
 %%     \caption{By combining the two dimensional information provided by the anode planes with the drift time information, the original particle tracks can be inferred.}
 %%     \label{fig:LArTPCOperation4}
 %%   \end{subfigure}
@@ -128,7 +128,7 @@ The basic operational principles of a LArTPC are demonstrated in Figure~\ref{fig
 %% \end{figure}
 \begin{figure}
   \centering
-  \includegraphics[width=12cm]{LArTPCOperation.pdf}
+  %\includegraphics[width=12cm]{LArTPCOperation.pdf}
   \caption[Schematic demonstrating the basic operation principles of a LArTPC.]{Schematic demonstrating the basic operation principles of a LArTPC \cite{MicroBooNENoise2017}.  The cathode is shown on the left-hand side and the anode readout wires, with three complementary planes (two induction, U and V, and one collection, Y), are demonstrated on the right-hand side.  A through-going ionising particle will liberate electrons from the LAr which drift in the electric field; charge is induced on the first two wire planes and collected on the final one.  Due to the differing orientations of the wires between planes, three views of the interaction are provided (two are demonstrated in the figure) and combining the information from multiple views with the drift time information facilitates a complete understanding of the original particle tracks.}
   \label{fig:LArTPCOperation}
 \end{figure}
@@ -136,7 +136,7 @@ The basic operational principles of a LArTPC are demonstrated in Figure~\ref{fig
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \subsection{LArTPC Challenges}\label{sec:LArTPCChallenges}
 
-There is no doubt of the promise of LArTPCs for the future of neutrino physics but with such expectation comes many challenges.  This will be elaborated upon in more detail when discussing the 35~ton run in Section~\ref{sec:35tonPhaseII} but will be briefly mentioned here for completeness.
+There is no doubt of the promise of LArTPCs for the future of neutrino physics but with such expectation comes many challenges.  This will be elaborated upon in more detail when discussing the 35-ton run in Section~\ref{sec:35tonPhaseII} but will be briefly mentioned here for completeness.
 
 Given the drift fields required, and the necessary distances, the associated high voltage on the cathode must be on the order of $\sim$100~kV.  This presents engineering challenges related to the feedthrough and cryostat design but can also lead to dielectric breakdown of the liquid nearby such huge voltages.  The properties of LAr and the design implications must be very well understood to ensure this does not endanger the quality of the detector medium.
 
@@ -148,7 +148,7 @@ where $Q$ is the collected charge after drift time $t$ and $Q_0$ is the initial 
 
 Along with the possibility of lost signal through finite electron lifetimes, the electrons may also undergo interactions and drift off course either transversely or longitudinally.  This `diffusion' affects the location and size of the observed signal so must also be well understood.
 
-With so much resting on the success of the DUNE experiment, and considering all these effects which must be understood, prototyping is essential.  The 35~ton prototype was constructed as an attempt to better understand LArTPCs and is the subject of Chapter \ref{chap:35ton}.
+With so much resting on the success of the DUNE experiment, and considering all these effects which must be understood, prototyping is essential.  The 35-ton prototype was constructed as an attempt to better understand LArTPCs and is the subject of Chapter \ref{chap:35ton}.
 
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \section{Overview of DUNE}\label{sec:DUNEOverview}
@@ -159,7 +159,7 @@ The chosen technology for the DUNE far detector, in order to maximise sensitivit
 
 \begin{figure}
   \centering
-  \includegraphics[width=10cm]{TwoPeakAmbiguity.pdf}
+  %\includegraphics[width=10cm]{TwoPeakAmbiguity.pdf}
   \caption[Demonstration of how having access to multiple oscillation maxima facilitates measurements of both the neutrino mass hierarchy and leptonic CP violation using the same experiment.]{Demonstration of how having access to multiple oscillation maxima facilitates measurements of both the neutrino mass hierarchy and leptonic CP violation using the same experiment.  In the plot, $\theta_{13}$ is held constant and the rates are determined by the number of neutrino and antineutrino events respectively.  Assuming a baseline of 1300~km, as for DUNE, the first oscillation maximum is at $E_{\nu}=2.4$~GeV and the second is at $E_{\nu}=0.84$~GeV.  The banana-shaped distributions are obtained as the value of $\delta_{CP}$ is varied from $-\pi$ to $\pi$.  There is good separation between the distributions associated with each hierarchy at the first maximum whereas at the second maximum this is degenerate and the rates are similar for a given value of $\delta_{CP}$ regardless of the hierarchy.  It can be seen how complimentary measurements at each maxima can be used to make unambiguous measurements of both the mass hierarchy and of CP violation with the same experiment.  Taken from \cite{Huber2011}.}
   \label{fig:TwoPeakAmbiguity}
 \end{figure}
@@ -184,7 +184,7 @@ The beam is required to be wide band to facilitate access to the first two oscil
 
 \begin{figure}
   \centering
-  \includegraphics[width=14cm]{DUNEBeam.pdf}
+  %\includegraphics[width=14cm]{DUNEBeam.pdf}
   \caption[Longitudinal section of the LBNF beamline facility at Fermilab.]{Longitudinal section of the LBNF beamline facility at Fermilab \cite{DUNECDR3}.}
   \label{fig:DUNEBeam}
 \end{figure}
@@ -195,14 +195,14 @@ A proton beam (60-120~GeV) is extracted from the Fermilab Main Injector, transpo
   \centering
   \begin{subfigure}[t]{0.48\linewidth}
     \centering
-    \includegraphics[width=0.98\textwidth]{DUNEBeamFluxesNeutrino.pdf}
+    %\includegraphics[width=0.98\textwidth]{DUNEBeamFluxesNeutrino.pdf}
     \caption{Neutrino running.}
     \label{fig:DUNEBeamFluxesNeutrino}
   \end{subfigure}
   \hfill
   \begin{subfigure}[t]{0.48\linewidth}
     \centering
-    \includegraphics[width=0.98\textwidth]{DUNEBeamFluxesAntiNeutrino.pdf}
+    %\includegraphics[width=0.98\textwidth]{DUNEBeamFluxesAntiNeutrino.pdf}
     \caption{Antineutrino running.}
     \label{fig:DUNEBeamFluxesAntiNeutrino}
   \end{subfigure}
@@ -219,7 +219,7 @@ There are two potential designs for a far detector LArTPC, utilising either sing
 
 \begin{figure}
   \centering
-  \includegraphics[width=12cm]{FDCryostats.png}
+  %\includegraphics[width=12cm]{FDCryostats.png}
   \caption[The layout of the four cryostats underground at SURF comprising the DUNE far detector.]{The layout of the four cryostats underground at SURF comprising the DUNE far detector \cite{DUNECDR4}.  The detectors occupying the cryostats here are of the single-phase design, however they can also be used to accommodate detectors utilising dual-phase technology.}
   \label{fig:FDCryostats}
 \end{figure}
@@ -233,21 +233,21 @@ The layout of the single-phase DUNE detector design is shown in Figure~\ref{fig:
 
 \begin{figure}
   \centering
-  \includegraphics[width=14cm]{DUNEFarDetectorDesign.png}
+  %\includegraphics[width=14cm]{DUNEFarDetectorDesign.png}
   \caption[The basic design of a single-phase DUNE far detector module.]{The basic design of a single-phase DUNE far detector module \cite{DUNECDR4}.  The beam direction is into the page and the electric field, provided by the Anode Plane Assemblies (APAs) and Cathode Plane Assemblies (CPAs), is perpendicular to this across the page.}
   \label{fig:DUNEFarDetectorDesign}
 \end{figure}
 
 \begin{figure}
   \centering
-  \includegraphics[width=6cm]{FarDetectorAPA.eps}
+  %\includegraphics[width=6cm]{FarDetectorAPA.eps}
   \caption[Design of a DUNE far detector Anode Plane Assembly (APA).]{Design of a DUNE far detector Anode Plane Assembly (APA).  The three instrumented planes, collection (Z) and two inductions (U and V), are shown in blue, red and green respectively.  The grid plane is not shown but is parallel to the collection wires.  The induction wires are wrapped around the frame and make angles of $\pm35.7^{\circ}$ to the vertical, chosen so that each wire segment crosses each collection channel no more than once.  This ensures there is no ambiguity in the side of the APA the charge arrived at.}
   \label{fig:DUNEFarDetectorAPA}
 \end{figure}
 
-The basic design of an APA is demonstrated in Figure~\ref{fig:DUNEFarDetectorAPA}.  Each comprises four sets of wire planes; from the outside in: a grid plane (G), two induction views (U and V) and a collection plane (Z).  The APAs are designed to maximise active detector region and are therefore stacked as closely together as possible and read out charge from multiple drift regions simultaneously.  This requires all readout be positioned at the top (or bottom of lower APAs) of the frame and make use of a wrapped wire approach for the induction wires, since these must be fixed at an angle.  This wrapping also carries the added benefit of reducing the number of channels required since a wire from the U plane on one side of an APA is part of the V plane on the opposite side.  The collection and grid wires are both vertical, necessitating a set for each face of an APA.  A single wire reading out multiple drift regions concurrently potentially leads to an ambiguity in the particular wire segment at which the charge arrived.  This is broken in one of two ways; either the wires in the U and V planes are placed at slightly different angles, reducing the number of triple crossing points with a given collection wire, or the angle of the induction plane wires is chosen such that each wire segment intersects no more than one collection wire.  The former is prototyped in the 35~ton experiment whilst the current plan for the DUNE far detector is to opt for the latter.  An angle of $\pm35.7^{\circ}$ ensures this is the case, demonstrated in Figure~\ref{fig:DUNEFarDetectorAPA}.  A grounded mesh, with good optical transparency, is fixed to the face of the APA frame behind each collection plane to ensure a uniform electric field in the region inside the APA, between the two sets of biased collection wires and the grounded frame.
+The basic design of an APA is demonstrated in Figure~\ref{fig:DUNEFarDetectorAPA}.  Each comprises four sets of wire planes; from the outside in: a grid plane (G), two induction views (U and V) and a collection plane (Z).  The APAs are designed to maximise active detector region and are therefore stacked as closely together as possible and read out charge from multiple drift regions simultaneously.  This requires all readout be positioned at the top (or bottom of lower APAs) of the frame and make use of a wrapped wire approach for the induction wires, since these must be fixed at an angle.  This wrapping also carries the added benefit of reducing the number of channels required since a wire from the U plane on one side of an APA is part of the V plane on the opposite side.  The collection and grid wires are both vertical, necessitating a set for each face of an APA.  A single wire reading out multiple drift regions concurrently potentially leads to an ambiguity in the particular wire segment at which the charge arrived.  This is broken in one of two ways; either the wires in the U and V planes are placed at slightly different angles, reducing the number of triple crossing points with a given collection wire, or the angle of the induction plane wires is chosen such that each wire segment intersects no more than one collection wire.  The former is prototyped in the 35-ton experiment whilst the current plan for the DUNE far detector is to opt for the latter.  An angle of $\pm35.7^{\circ}$ ensures this is the case, demonstrated in Figure~\ref{fig:DUNEFarDetectorAPA}.  A grounded mesh, with good optical transparency, is fixed to the face of the APA frame behind each collection plane to ensure a uniform electric field in the region inside the APA, between the two sets of biased collection wires and the grounded frame.
 
-The front-end electronics are mounted on the APAs and function within the cryostat; it is for this reason they are referred to as `cold electronics'.  They are implemented as two successive ASIC chips, the first providing amplification and signal shaping and the second the digitisation of the signal.  Early versions of these chips were utilised in the 35~ton experiment for front-end readout.
+The front-end electronics are mounted on the APAs and function within the cryostat; it is for this reason they are referred to as `cold electronics'.  They are implemented as two successive ASIC chips, the first providing amplification and signal shaping and the second the digitisation of the signal.  Early versions of these chips were utilised in the 35-ton experiment for front-end readout.
 
 The external triggering in the DUNE far detector relies on detecting the scintillation light from immediate recombination of ionisation electrons with the argon ions.  This requires dedicated photon detectors which may detect this light with suitable efficacy.  At a field of 500~V/cm, the photon yield is around 20,000 per MeV at wavelengths of 128~nm.  The current reference design, depicted in Figure~\ref{fig:DUNEPhotonDetectors}, involves placing light-guides, containing wavelength shifter, at the centre of each APA frame and using SiPMs for readout.  There will be 10 photon detectors per APA, to be inserted after wire wrapping, with dimensions 2.2~m long, 83~mm wide and 6~mm thick.
 
@@ -255,14 +255,14 @@ The external triggering in the DUNE far detector relies on detecting the scintil
   \centering
   \begin{subfigure}[t]{0.48\linewidth}
     \centering
-    \includegraphics[height=6cm]{DUNEPhotonDetectors.png}
+    %\includegraphics[height=6cm]{DUNEPhotonDetectors.png}
     \caption{Photon detector design.}
     \label{fig:DUNEPhotonDetectorsBar}
   \end{subfigure}
   \hfill
   \begin{subfigure}[t]{0.48\linewidth}
     \centering
-    \includegraphics[height=6cm]{DUNEPhotonDetectorsAPA.png}
+    %\includegraphics[height=6cm]{DUNEPhotonDetectorsAPA.png}
     \caption{Photon detectors in an APA.}
     \label{fig:DUNEPhotonDetectorsAPA}
   \end{subfigure}
@@ -279,7 +279,7 @@ The DUNE dual-phase LArTPC design differs from its single-phase counterpart in t
 
 \begin{figure}
   \centering
-  \includegraphics[width=14cm]{DUNEDualPhase.png}
+  %\includegraphics[width=14cm]{DUNEDualPhase.png}
   \caption[The DUNE dual-phase detector (partially open).]{The DUNE dual-phase detector (partially open) \cite{DUNECDR4}.  The cathode is at the bottom of the cryostat, with the PMTs responsible for detecting the scintillation light beneath.  The anode is at the top, resulting in upwards electron drift, above a layer of gaseous argon present to introduce a gain in the collected signal.}
   \label{fig:DUNEDualPhase}
 \end{figure}
@@ -288,7 +288,7 @@ The amplification uses Large Electron Multipliers (LEMs): printed circuit boards
 
 \begin{figure}
   \centering
-  \includegraphics[width=14cm]{DUNEDualPhaseCRP.png}
+  %\includegraphics[width=14cm]{DUNEDualPhaseCRP.png}
   \caption[The extraction, amplification and readout of the ionisation electrons through the gaseous argon phase in the DUNE dual-phase LArTPC design.]{The extraction, amplification and readout of the ionisation electrons through the gaseous argon phase in the DUNE dual-phase LArTPC design \cite{DUNECDR4}.  The voltages at each stage are shown on the left and the associated fields set up are described on the right.}
   \label{fig:DUNEDualPhaseCRP}
 \end{figure}
@@ -307,7 +307,7 @@ The NND is required to make precise measurements of neutrino interactions and di
 
 \begin{figure}
   \centering
-  \includegraphics[width=12cm]{DUNENearDetector.png}
+  %\includegraphics[width=12cm]{DUNENearDetector.png}
   \caption[Schematic of the DUNE near neutrino detector fine-grained tracker design.]{Schematic of the DUNE near neutrino detector fine-grained tracker design \cite{DUNECDR4}.}
   \label{fig:DUNENearDetector}
 \end{figure}
@@ -350,7 +350,7 @@ The appearance probability expected at the DUNE far detector is demonstrated in 
 
 \begin{figure}
   \centering
-  \includegraphics[width=16cm]{DUNEAppearanceProbabilities.pdf}
+  %\includegraphics[width=16cm]{DUNEAppearanceProbabilities.pdf}
   \caption[The appearance probability at a baseline of 1300~km, as a function of neutrino energy, for $\delta_{CP}=-\pi/2$, 0 and $\pi/2$, neutrinos and antineutrinos, assuming normal hierarchy.]{The appearance probability at a baseline of 1300~km, as a function of neutrino energy, for $\delta_{CP}=-\pi/2$ (blue), 0 (red) and $\pi/2$ (green) for neutrinos (left) and antineutrinos (right), for normal hierarchy.  The black lines indicates the oscillation probability if $\theta_{13}$ were equal to zero.  Taken from \cite{DUNECDR2}.}
   \label{fig:DUNEAppearanceProbabilities}
 \end{figure}
@@ -366,7 +366,7 @@ The sensitivity of DUNE to the neutrino mass hierarchy is shown in Figure~\ref{f
   \centering
   \begin{subfigure}[t]{\linewidth}
     \centering
-    \includegraphics[width=16cm]{DUNEMassHierarchyDeltaCP.pdf}
+    %\includegraphics[width=16cm]{DUNEMassHierarchyDeltaCP.pdf}
     \caption{The significance with which the mass hierarchy can be determined as a function of the value of $\delta_{CP}$ for an exposure of 300~kt$\cdot$MW$\cdot$year assuming normal hierarchy (left) and inverted hierarchy (right).  Taken from \cite{DUNECDR2}.}
     \label{fig:DUNEMassHierarchyDeltaCP}
   \end{subfigure}
@@ -374,7 +374,7 @@ The sensitivity of DUNE to the neutrino mass hierarchy is shown in Figure~\ref{f
   \vfill
   \begin{subfigure}[t]{\linewidth}
     \centering
-    \includegraphics[width=8cm]{DUNEMassHierarchyTime.pdf}
+    %\includegraphics[width=8cm]{DUNEMassHierarchyTime.pdf}
     \caption{Assuming normal hierarchy, the minimum significance (the lowest point on the curve in Figure~\ref{fig:DUNEMassHierarchyDeltaCP}) with which the mass hierarchy can be determined for all values of $\delta_{CP}$ as a function of years of running under the assumptions in Table~\ref{tab:DUNEExposure}.  Taken from \cite{DUNECDR1}.}
     \label{fig:DUNEMassHierarchyTime}
   \end{subfigure}
@@ -388,7 +388,7 @@ The equivalent sensitivities for CP violation is displayed in Figure~\ref{fig:DU
   \centering
   \begin{subfigure}[t]{\linewidth}
     \centering
-    \includegraphics[width=16cm]{DUNECPViolationDeltaCP.pdf}
+    %\includegraphics[width=16cm]{DUNECPViolationDeltaCP.pdf}
     \caption{The significance with which CP violation can be determined as a function of the value of $\delta_{CP}$ for an exposure of 300~kt$\cdot$MW$\cdot$year assuming normal hierarchy (left) and inverted hierarchy (right).  Taken from \cite{DUNECDR2}.}
     \label{fig:DUNECPViolationDeltaCP}
   \end{subfigure}
@@ -396,7 +396,7 @@ The equivalent sensitivities for CP violation is displayed in Figure~\ref{fig:DU
   \vfill
   \begin{subfigure}[t]{\linewidth}
     \centering
-    \includegraphics[width=16cm]{DUNECPViolationTime.pdf}
+    %\includegraphics[width=16cm]{DUNECPViolationTime.pdf}
     \caption{Assuming normal hierarchy, the significance with which CP violation can be determined for 75\% of $\delta_{\textnormal{CP}}$ values (left) and the expected 1$\sigma$ resolution (right) as a function of years of running under the assumptions in Table~\ref{tab:DUNEExposure}.  Taken from \cite{DUNECDR1}.}
     \label{fig:DUNECPViolationTime}
   \end{subfigure}
@@ -413,18 +413,18 @@ DUNE will make precision measurements of all parameters describing neutrino osci
   \centering
   \begin{subfigure}[t]{0.48\linewidth}
     \centering
-    \includegraphics[width=0.98\textwidth]{DUNEOctantSensitivity.pdf}
+    %\includegraphics[width=0.98\textwidth]{DUNEOctantSensitivity.pdf}
     \caption{DUNE octant sensitivity.}
     \label{fig:DUNEOctantSensitivity}
   \end{subfigure}
   \hfill
   \begin{subfigure}[t]{0.48\linewidth}
     \centering
-    \includegraphics[width=0.98\textwidth]{DUNETheta23Resolution.pdf}
+    %\includegraphics[width=0.98\textwidth]{DUNETheta23Resolution.pdf}
     \caption{DUNE $\sin^2{\theta_{23}}$ resolution.}
     \label{fig:DUNETheta23Resolution}
   \end{subfigure}
-  \caption[The sensitivity of DUNE to the octant and value of $\theta_{23}$.]{The sensitivity of DUNE to the octant and value of $\theta_{23}$.  Figure~\ref{fig:DUNEOctantSensitivity} shows the significance with which DUNE can resolve the $\theta_{23}$ octant as a function of the true value of $\theta_{23}$.  The green shaded band around the curve represents the range in sensitivity due to potential variations in the beam design and in the true value of $\delta_{\textnormal{CP}}$.  The yellow shaded regions indicate the current 1$\sigma$ and 3$\sigma$ bounds on the value of $\theta_{23}$ from a global fit.  An exposure of 1320~kt$\cdot$MW$\cdot$year, which will provide a 3$\sigma$ measurement of CP violation for 75\% of the values of $\delta_{\textnormal{CP}}$ is assumed.  Figure~\ref{fig:DUNETheta23Resolution} shows the resolution of a measurement of $\sin^2{\theta_{23}}$ as a function of exposure assuming normal mass hierarchy and $\sin^2{\theta_{23}}=0.45$ from the current global fit.  The shaded region represents the range in sensitivity due to potential variations in the beam design.  Taken from \cite{DUNECDR2}.}
+  \caption[The sensitivity of DUNE to the octant and value of $\theta_{23}$.]{The sensitivity of DUNE to the octant and value of $\theta_{23}$.  Figure~\ref{fig:DUNEOctantSensitivity} shows the significance with which DUNE can resolve the $\theta_{23}$ octant as a function of the true value of $\theta_{23}$.  The green shaded band around the curve represents the range in sensitivity due to potential variations in the beam design and in the true value of $\delta_{\textnormal{CP}}$.  The yellow shaded regions indicate the current 1$\sigma$ and 3$\sigma$ bounds on the value of $\theta_{23}$ from a global fit.  An exposure of 1320~kt$\cdot$MW$\cdot$year, which will provide a 3$\sigma$ measurement of CP violation for 75\% of the values of $\delta_{\textnormal{CP}}$ is assumed.  The shaded region represents the range in sensitivity due to potential variations in the beam design.  Figure~\ref{fig:DUNETheta23Resolution} shows the resolution of a measurement of $\sin^2{\theta_{23}}$ as a function of exposure assuming normal mass hierarchy and $\sin^2{\theta_{23}}=0.45$ from the current global fit.  Taken from \cite{DUNECDR2}.}
   \label{fig:DUNETheta23}
 \end{figure}
 
@@ -432,14 +432,14 @@ DUNE will make precision measurements of all parameters describing neutrino osci
   \centering
   \begin{subfigure}[t]{0.48\linewidth}
     \centering
-    \includegraphics[width=0.98\textwidth]{DUNETheta13Resolution.pdf}
+    %\includegraphics[width=0.98\textwidth]{DUNETheta13Resolution.pdf}
     \caption{DUNE $\sin^2{2\theta_{13}}$ resolution.}
     \label{fig:DUNETheta13Resolution}
   \end{subfigure}
   \hfill
   \begin{subfigure}[t]{0.48\linewidth}
     \centering
-    \includegraphics[width=0.98\textwidth]{DUNEDeltaM31Resolution.pdf}
+    %\includegraphics[width=0.98\textwidth]{DUNEDeltaM31Resolution.pdf}
     \caption{DUNE $\Delta m_{31}^2$ resolution.}
     \label{fig:DUNEDeltaM31Resolution}
   \end{subfigure}
@@ -468,27 +468,27 @@ The staging presented in Table~\ref{tab:DUNEExposure} is hugely ambitious and re
 Each 10~kt module is larger than any LArTPC ever operated by well over an order of magnitude and it is crucial the detector technology is understood and the experiment operates as expected.  To ensure this is the case, a comprehensive prototyping strategy is planned.  This will be briefly overviewed in this section.
 
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-\subsection{The 35~ton Prototype}\label{sec:35ton}
+\subsection{The 35-ton Prototype}\label{sec:35ton}
 
-The first prototype to test many of the design features of the DUNE far detector was the 35~ton, shown in Figure~\ref{fig:DUNE35ton}.  This is the subject of the majority of this thesis and will be fully discussed in Chapter~\ref{chap:35ton}.  Lessons learned from the 35~ton experience are already influencing the design choices and operating schedules of the next prototypes and the far detector, highlighting the benefits of a thorough research and development programme.
+The first prototype to test many of the design features of the DUNE far detector was the 35-ton, shown in Figure~\ref{fig:DUNE35ton}.  This is the subject of the majority of this thesis and will be fully discussed in Chapter~\ref{chap:35ton}.  Lessons learned from the 35-ton experience are already influencing the design choices and operating schedules of the next prototypes and the far detector, highlighting the benefits of a thorough research and development programme.
 
 \begin{figure}
   \centering
-  \includegraphics[width=10cm]{35ton.pdf}
-  \caption[The 35~ton cryostat and detector designed to prototype the DUNE far detector design.]{The 35~ton cryostat and detector designed to prototype the DUNE far detector design \cite{35tonPhaseINeutrino2014}.}
+  %\includegraphics[width=10cm]{35ton.pdf}
+  \caption[The 35-ton cryostat and detector designed to prototype the DUNE far detector design.]{The 35-ton cryostat and detector designed to prototype the DUNE far detector design \cite{35tonPhaseINeutrino2014}.}
   \label{fig:DUNE35ton}
 \end{figure}
 
-The 35~ton experiment demonstrated the cryostat and detector technologies over the course of two runs, in early 2014 and early 2016 respectively, by collecting and analysing data from cosmic-induced tracks and showers.  Analysis of data from the second run is the subject of Chapter~\ref{chap:35tonAnalysis}.
+The 35-ton experiment demonstrated the cryostat and detector technologies over the course of two runs, in early 2014 and early 2016 respectively, by collecting and analysing data from cosmic-induced tracks and showers.  Analysis of data from the second run is the subject of Chapter~\ref{chap:35tonAnalysis}.
 
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \subsection{ProtoDUNE}\label{sec:ProtoDUNE}
 
-The next prototypes, ProtoDUNE, will take data during the second half of 2018 and will be a full scale engineering prototype of the DUNE far detector.  ProtoDUNE is hosted at the Neutrino Platform at CERN and consists of two demonstrators utilising single-phase (ProtoDUNE-SP) \cite{ProtoDUNE-SP} and dual-phase (ProtoDUNE-DP) \cite{WA105} designs.  The layout is shown in Figure~\ref{fig:NeutrinoPlatform}.  The cryostats contain more than 700~t LAr and represent an intermediary stage between the 35~ton and the DUNE far detector modules.
+The next prototypes, ProtoDUNE, will take data during the second half of 2018 and will be a full scale engineering prototype of the DUNE far detector.  ProtoDUNE is hosted at the Neutrino Platform at CERN and consists of two demonstrators utilising single-phase (ProtoDUNE-SP) \cite{ProtoDUNE-SP} and dual-phase (ProtoDUNE-DP) \cite{WA105} designs.  The layout is shown in Figure~\ref{fig:NeutrinoPlatform}.  The cryostats contain more than 700~t LAr and represent an intermediary stage between the 35-ton and the DUNE far detector modules.
 
 \begin{figure}
   \centering
-  \includegraphics[width=14cm]{NeutrinoPlatform.jpg}
+  %\includegraphics[width=14cm]{NeutrinoPlatform.jpg}
   \caption[Schematic showing the layout of the ProtoDUNEs at the CERN neutrino platform.]{Schematic showing the layout of the ProtoDUNEs at the CERN neutrino platform \cite{NeutrinoPlatform}.  The cryostat at the left, on a slight angle, is the dual-phase LArTPC and the single-phase detector is at the right hand side.  The beamline, running from left to right through both detectors, may also be faintly discerned.}
   \label{fig:NeutrinoPlatform}
 \end{figure}

@@ -13,21 +13,21 @@ The following pages contain the information for each of the four gaps in the lon
   \centering
   \begin{subfigure}[t]{\linewidth}
     \centering
-    \includegraphics[width=9cm]{TPC1TPC3Gap.eps}
+    %\includegraphics[width=9cm]{TPC1TPC3Gap.eps}
     \caption{Initial $z$-offset}
     \label{fig:AppendixTPC1TPC3Gap}
   \end{subfigure}
   \vfill
   \begin{subfigure}[t]{\linewidth}
     \centering
-    \includegraphics[width=9cm]{TPC1TPC3XOff.eps}
+    %\includegraphics[width=9cm]{TPC1TPC3XOff.eps}
     \caption{$x$-offset}
     \label{fig:AppendixTPC1TPC3XOff}
   \end{subfigure}
   \vfill
   \begin{subfigure}[t]{\linewidth}
     \centering
-    \includegraphics[width=9cm]{TPC1TPC3ZOff.eps}
+    %\includegraphics[width=9cm]{TPC1TPC3ZOff.eps}
     \caption{$z$-offset}
     \label{fig:AppendixTPC1TPC3ZOff}
   \end{subfigure}
@@ -40,21 +40,21 @@ The following pages contain the information for each of the four gaps in the lon
   \centering
   \begin{subfigure}[t]{\linewidth}
     \centering
-    \includegraphics[width=9cm]{TPC1TPC5Gap.eps}
+    %\includegraphics[width=9cm]{TPC1TPC5Gap.eps}
     \caption{Initial $z$-offset}
     \label{fig:AppendixTPC1TPC5Gap}
   \end{subfigure}
   \vfill
   \begin{subfigure}[t]{\linewidth}
     \centering
-    \includegraphics[width=9cm]{TPC1TPC5XOff.eps}
+    %\includegraphics[width=9cm]{TPC1TPC5XOff.eps}
     \caption{$x$-offset}
     \label{fig:AppendixTPC1TPC5XOff}
   \end{subfigure}
   \vfill
   \begin{subfigure}[t]{\linewidth}
     \centering
-    \includegraphics[width=9cm]{TPC1TPC5ZOff.eps}
+    %\includegraphics[width=9cm]{TPC1TPC5ZOff.eps}
     \caption{$z$-offset}
     \label{fig:AppendixTPC1TPC5ZOff}
   \end{subfigure}
@@ -67,21 +67,21 @@ The following pages contain the information for each of the four gaps in the lon
   \centering
   \begin{subfigure}[t]{\linewidth}
     \centering
-    \includegraphics[width=9cm]{TPC3TPC7Gap.eps}
+    %\includegraphics[width=9cm]{TPC3TPC7Gap.eps}
     \caption{Initial $z$-offset}
     \label{fig:AppendixTPC3TPC7Gap}
   \end{subfigure}
   \vfill
   \begin{subfigure}[t]{\linewidth}
     \centering
-    \includegraphics[width=9cm]{TPC3TPC7XOff.eps}
+    %\includegraphics[width=9cm]{TPC3TPC7XOff.eps}
     \caption{$x$-offset}
     \label{fig:AppendixTPC3TPC7XOff}
   \end{subfigure}
   \vfill
   \begin{subfigure}[t]{\linewidth}
     \centering
-    \includegraphics[width=9cm]{TPC3TPC7ZOff.eps}
+    %\includegraphics[width=9cm]{TPC3TPC7ZOff.eps}
     \caption{$z$-offset}
     \label{fig:AppendixTPC3TPC7ZOff}
   \end{subfigure}
@@ -94,21 +94,21 @@ The following pages contain the information for each of the four gaps in the lon
   \centering
   \begin{subfigure}[t]{\linewidth}
     \centering
-    \includegraphics[width=9cm]{TPC5TPC7GapFit.eps}
+    %\includegraphics[width=9cm]{TPC5TPC7GapFit.eps}
     \caption{Initial $z$-offset}
     \label{fig:AppendixTPC5TPC7Gap}
   \end{subfigure}
   \vfill
   \begin{subfigure}[t]{\linewidth}
     \centering
-    \includegraphics[width=9cm]{TPC5TPC7XOff.eps}
+    %\includegraphics[width=9cm]{TPC5TPC7XOff.eps}
     \caption{$x$-offset}
     \label{fig:AppendixTPC5TPC7XOff}
   \end{subfigure}
   \vfill
   \begin{subfigure}[t]{\linewidth}
     \centering
-    \includegraphics[width=9cm]{TPC5TPC7ZOff.eps}
+    %\includegraphics[width=9cm]{TPC5TPC7ZOff.eps}
     \caption{$z$-offset}
     \label{fig:AppendixTPC5TPC7ZOff}
   \end{subfigure}

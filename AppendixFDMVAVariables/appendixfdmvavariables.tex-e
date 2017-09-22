@@ -13,43 +13,43 @@ The variables are listed and described in Table~\ref{tab:FDMVAVariables} in Sect
   \centering
   \begin{subfigure}[t]{0.4\linewidth}
     \centering
-    \includegraphics[width=0.9\textwidth]{EventCharge.pdf}
+    %\includegraphics[width=0.9\textwidth]{EventCharge.pdf}
     \caption{Event charge}
   \end{subfigure}
   %\hfill
   \begin{subfigure}[t]{0.4\linewidth}
     \centering
-    \includegraphics[width=0.9\textwidth]{NumberOfTracks.pdf}
+    %\includegraphics[width=0.9\textwidth]{NumberOfTracks.pdf}
     \caption{Number of tracks}
   \end{subfigure}
   %\vfill
   \begin{subfigure}[t]{0.4\linewidth}
     \centering
-    \includegraphics[width=0.9\textwidth]{MaxTrackLength.pdf}
+    %\includegraphics[width=0.9\textwidth]{MaxTrackLength.pdf}
     \caption{Maximum track length}
   \end{subfigure}
   %\hfill
   \begin{subfigure}[t]{0.4\linewidth}
     \centering
-    \includegraphics[width=0.9\textwidth]{AverageTrackLength.pdf}
+    %\includegraphics[width=0.9\textwidth]{AverageTrackLength.pdf}
     \caption{Average track length}
   \end{subfigure}
   %\vfill
   \begin{subfigure}[t]{0.4\linewidth}
     \centering
-    \includegraphics[width=0.9\textwidth]{FractionOfTrackCharge.pdf}
+    %\includegraphics[width=0.9\textwidth]{FractionOfTrackCharge.pdf}
     \caption{Fraction of track charge}
   \end{subfigure}
   %\hfill
   \begin{subfigure}[t]{0.4\linewidth}
     \centering
-    \includegraphics[width=0.9\textwidth]{NumberOfShowers.pdf}
+    %\includegraphics[width=0.9\textwidth]{NumberOfShowers.pdf}
     \caption{Number of showers}
   \end{subfigure}
   %\vfill
   \begin{subfigure}[t]{0.4\linewidth}
     \centering
-    \includegraphics[width=0.9\textwidth]{FractionOfShowerCharge.pdf}
+    %\includegraphics[width=0.9\textwidth]{FractionOfShowerCharge.pdf}
     \caption{Fraction of shower charge}
   \end{subfigure}
   \caption{MVA input variables related to event-level information for the DUNE far detector $\nu_e$CC analysis.}
@@ -60,37 +60,37 @@ The variables are listed and described in Table~\ref{tab:FDMVAVariables} in Sect
   \centering
   \begin{subfigure}[t]{0.4\linewidth}
     \centering
-    \includegraphics[width=0.9\textwidth]{TrackdEdx.pdf}
+    %\includegraphics[width=0.9\textwidth]{TrackdEdx.pdf}
     \caption{Track dE/dx}
   \end{subfigure}
   %\hfill
   \begin{subfigure}[t]{0.4\linewidth}
     \centering
-    \includegraphics[width=0.9\textwidth]{SignalFluctuation.pdf}
+    %\includegraphics[width=0.9\textwidth]{SignalFluctuation.pdf}
     \caption{Signal fluctuation}
   \end{subfigure}
   %\vfill
   \begin{subfigure}[t]{0.4\linewidth}
     \centering
-    \includegraphics[width=0.9\textwidth]{TransverseTrackProfile.pdf}
+    %\includegraphics[width=0.9\textwidth]{TransverseTrackProfile.pdf}
     \caption{Transverse track profile}
   \end{subfigure}
   %\hfill
   \begin{subfigure}[t]{0.4\linewidth}
     \centering
-    \includegraphics[width=0.9\textwidth]{TrackPIDA.pdf}
+    %\includegraphics[width=0.9\textwidth]{TrackPIDA.pdf}
     \caption{Track PIDA}
   \end{subfigure}
   %\vfill
   \begin{subfigure}[t]{0.4\linewidth}
     \centering
-    \includegraphics[width=0.9\textwidth]{MaximumFractionOfCharge5Wires.pdf}
+    %\includegraphics[width=0.9\textwidth]{MaximumFractionOfCharge5Wires.pdf}
     \caption{Maximum fraction of charge in 5 wires}
   \end{subfigure}
   %\hfill
   \begin{subfigure}[t]{0.4\linewidth}
     \centering
-    \includegraphics[width=0.9\textwidth]{MaximumFractionOfCharge10Wires.pdf}
+    %\includegraphics[width=0.9\textwidth]{MaximumFractionOfCharge10Wires.pdf}
     \caption{Maximum fraction of charge in 10 wires}
   \end{subfigure}
   %\vfill
@@ -101,37 +101,37 @@ The variables are listed and described in Table~\ref{tab:FDMVAVariables} in Sect
   \centering
   \begin{subfigure}[t]{0.4\linewidth}
     \centering
-    \includegraphics[width=0.9\textwidth]{MaximumFractionOfCharge50Wires.pdf}
+    %\includegraphics[width=0.9\textwidth]{MaximumFractionOfCharge50Wires.pdf}
     \caption{Maximum fraction of charge in 50 wires}
   \end{subfigure}
   %\hfill
   \begin{subfigure}[t]{0.4\linewidth}
     \centering
-    \includegraphics[width=0.9\textwidth]{MaximumFractionOfCharge100Wires.pdf}
+    %\includegraphics[width=0.9\textwidth]{MaximumFractionOfCharge100Wires.pdf}
     \caption{Maximum fraction of charge in 100 wires}
   \end{subfigure}
   %\vfill
   \begin{subfigure}[t]{0.4\linewidth}
     \centering
-    \includegraphics[width=0.9\textwidth]{TrackCosX.pdf}
+    %\includegraphics[width=0.9\textwidth]{TrackCosX.pdf}
     \caption{Track angle ($x$-direction)}
   \end{subfigure}
   %\hfill
   \begin{subfigure}[t]{0.4\linewidth}
     \centering
-    \includegraphics[width=0.9\textwidth]{TrackCosY.pdf}
+    %\includegraphics[width=0.9\textwidth]{TrackCosY.pdf}
     \caption{Track angle ($y$-direction)}
   \end{subfigure}
   %\vfill
   \begin{subfigure}[t]{0.4\linewidth}
     \centering
-    \includegraphics[width=0.9\textwidth]{TrackCosZ.pdf}
+    %\includegraphics[width=0.9\textwidth]{TrackCosZ.pdf}
     \caption{Track angle ($z$-direction)}
   \end{subfigure}
   %\hfill
   \begin{subfigure}[t]{0.4\linewidth}
     \centering
-    \includegraphics[width=0.9\textwidth]{FractionalTransverseEnergy.pdf}
+    %\includegraphics[width=0.9\textwidth]{FractionalTransverseEnergy.pdf}
     \caption{Fractional transverse energy}
   \end{subfigure}
   %\vfill
@@ -143,37 +143,37 @@ The variables are listed and described in Table~\ref{tab:FDMVAVariables} in Sect
   \centering
   \begin{subfigure}[t]{0.4\linewidth}
     \centering
-    \includegraphics[width=0.9\textwidth]{ShowerdEdx.pdf}
+    %\includegraphics[width=0.9\textwidth]{ShowerdEdx.pdf}
     \caption{Shower dE/dx}
   \end{subfigure}
   %\hfill
   \begin{subfigure}[t]{0.4\linewidth}
     \centering
-    \includegraphics[width=0.9\textwidth]{ShowerEnergy.pdf}
+    %\includegraphics[width=0.9\textwidth]{ShowerEnergy.pdf}
     \caption{Shower energy}
   \end{subfigure}
   %\vfill
   \begin{subfigure}[t]{0.4\linewidth}
     \centering
-    \includegraphics[width=0.9\textwidth]{NHitsPerShowerWire.pdf}
+    %\includegraphics[width=0.9\textwidth]{NHitsPerShowerWire.pdf}
     \caption{Number of hits per shower wire}
   \end{subfigure}
   %\hfill
   \begin{subfigure}[t]{0.4\linewidth}
     \centering
-    \includegraphics[width=0.9\textwidth]{ShowerLength.pdf}
+    %\includegraphics[width=0.9\textwidth]{ShowerLength.pdf}
     \caption{Shower length}
   \end{subfigure}
   %\vfill
   \begin{subfigure}[t]{0.4\linewidth}
     \centering
-    \includegraphics[width=0.9\textwidth]{ShowerMaximum.pdf}
+    %\includegraphics[width=0.9\textwidth]{ShowerMaximum.pdf}
     \caption{Shower maximum}
   \end{subfigure}
   %\hfill
   \begin{subfigure}[t]{0.4\linewidth}
     \centering
-    \includegraphics[width=0.9\textwidth]{ShowerStartEventVertexX.pdf}
+    %\includegraphics[width=0.9\textwidth]{ShowerStartEventVertexX.pdf}
     \caption{Displacement of shower start ($x$-direction)}
   \end{subfigure}
   %\vfill
@@ -184,31 +184,31 @@ The variables are listed and described in Table~\ref{tab:FDMVAVariables} in Sect
   \centering
   \begin{subfigure}[t]{0.4\linewidth}
     \centering
-    \includegraphics[width=0.9\textwidth]{ShowerStartEventVertexY.pdf}
+    %\includegraphics[width=0.9\textwidth]{ShowerStartEventVertexY.pdf}
     \caption{Displacement of shower start ($y$-direction)}
   \end{subfigure}
   %\hfill
   \begin{subfigure}[t]{0.4\linewidth}
     \centering
-    \includegraphics[width=0.9\textwidth]{ShowerStartEventVertexZ.pdf}
+    %\includegraphics[width=0.9\textwidth]{ShowerStartEventVertexZ.pdf}
     \caption{Displacement of shower start ($z$-direction)}
   \end{subfigure}
   %\vfill
   \begin{subfigure}[t]{0.4\linewidth}
     \centering
-    \includegraphics[width=0.9\textwidth]{ShowerCosX.pdf}
+    %\includegraphics[width=0.9\textwidth]{ShowerCosX.pdf}
     \caption{Shower angle ($x$-direction)}
   \end{subfigure}
   %\hfill
   \begin{subfigure}[t]{0.4\linewidth}
     \centering
-    \includegraphics[width=0.9\textwidth]{ShowerCosY.pdf}
+    %\includegraphics[width=0.9\textwidth]{ShowerCosY.pdf}
     \caption{Shower angle ($y$-direction)}
   \end{subfigure}
   %\vfill
   \begin{subfigure}[t]{0.4\linewidth}
     \centering
-    \includegraphics[width=0.9\textwidth]{ShowerCosZ.pdf}
+    %\includegraphics[width=0.9\textwidth]{ShowerCosZ.pdf}
     \caption{Shower angle ($z$-direction)}
   \end{subfigure}
   %\hfill

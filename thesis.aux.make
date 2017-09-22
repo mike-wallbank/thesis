@@ -180,13 +180,13 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {8.5}{\ignorespaces The MVA response when training $\nu _e$ (signal) against $\nu _{\mu }$ and $\nu _{\tau }$ (background).}}{200}{figure.caption.166}}
 \@writefile{lof}{\contentsline {figure}{\numberline {8.6}{\ignorespaces The efficiency and purity of the $\nu _e$CC MVA-based selection as a function of a number of kinematic variables, before applying the selection.}}{201}{figure.caption.167}}
 \@writefile{lof}{\contentsline {figure}{\numberline {8.7}{\ignorespaces The efficiency and purity of the $\nu _e$CC MVA-based selection as a function of a number of kinematic variables, after applying the selection.}}{202}{figure.caption.168}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.1}{\ignorespaces Demonstration of the measurements of the $x$- and $z$-offsets in the 35-ton DV1/DV3 gap.}}{224}{figure.caption.170}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.2}{\ignorespaces Demonstration of the measurements of the $x$- and $z$-offsets in the 35-ton DV1/DV5 gap.}}{225}{figure.caption.171}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.3}{\ignorespaces Demonstration of the measurements of the $x$- and $z$-offsets in the 35-ton DV3/DV7 gap.}}{226}{figure.caption.172}}
-\@writefile{lof}{\contentsline {figure}{\numberline {A.4}{\ignorespaces Demonstration of the measurements of the $x$- and $z$-offsets in the 35-ton DV5/DV7 gap.}}{227}{figure.caption.173}}
-\@writefile{lof}{\contentsline {figure}{\numberline {B.1}{\ignorespaces MVA input variables related to event-level information for the DUNE far detector $\nu _e$CC analysis.\relax }}{230}{figure.caption.174}}
-\@writefile{lof}{\contentsline {figure}{\numberline {B.2}{\ignorespaces MVA input variables related to information about the longest reconstructed track in the event for the DUNE far detector $\nu _e$CC analysis.}}{231}{figure.caption.175}}
-\@writefile{lof}{\contentsline {figure}{\numberline {B.3}{\ignorespaces MVA input variables related to information about the highest energy shower in the event for the DUNE far detector $\nu _e$CC analysis.}}{233}{figure.caption.177}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.1}{\ignorespaces Demonstration of the measurements of the $x$- and $z$-offsets in the 35-ton DV1/DV3 gap.}}{208}{figure.caption.169}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.2}{\ignorespaces Demonstration of the measurements of the $x$- and $z$-offsets in the 35-ton DV1/DV5 gap.}}{209}{figure.caption.170}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.3}{\ignorespaces Demonstration of the measurements of the $x$- and $z$-offsets in the 35-ton DV3/DV7 gap.}}{210}{figure.caption.171}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.4}{\ignorespaces Demonstration of the measurements of the $x$- and $z$-offsets in the 35-ton DV5/DV7 gap.}}{211}{figure.caption.172}}
+\@writefile{lof}{\contentsline {figure}{\numberline {B.1}{\ignorespaces MVA input variables related to event-level information for the DUNE far detector $\nu _e$CC analysis.\relax }}{214}{figure.caption.173}}
+\@writefile{lof}{\contentsline {figure}{\numberline {B.2}{\ignorespaces MVA input variables related to information about the longest reconstructed track in the event for the DUNE far detector $\nu _e$CC analysis.}}{215}{figure.caption.174}}
+\@writefile{lof}{\contentsline {figure}{\numberline {B.3}{\ignorespaces MVA input variables related to information about the highest energy shower in the event for the DUNE far detector $\nu _e$CC analysis.}}{217}{figure.caption.176}}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
@@ -207,12 +207,11 @@
 \@writefile{lot}{\contentsline {table}{\numberline {7.2}{\ignorespaces The corrected gaps between the APAs, in $x$ and $z$, based on the offsets measured in the data.}}{163}{table.caption.128}}
 \@writefile{lot}{\contentsline {table}{\numberline {8.1}{\ignorespaces The dimensions and tuned fiducial volume of a single DUNE far detector module.}}{197}{table.caption.164}}
 \@writefile{lot}{\contentsline {table}{\numberline {8.2}{\ignorespaces The input variable used in the MVA designed to separate $\nu _e$ events from $\nu _{\mu }$ and $\nu _{\tau }$ events.}}{199}{table.caption.165}}
-\@writefile{toc}{\contentsline {chapter}{Appendix \numberline {A}APA Gap-Crossing Muons: Gap Measurements}{223}{Appendix.a.A}}
-\@writefile{toc}{\contentsline {chapter}{Appendix \numberline {B}DUNE Far Detector $\nu _e$CC MVA Input Variables}{229}{Appendix.a.B}}
+\@writefile{toc}{\contentsline {chapter}{Appendix \numberline {A}APA Gap-Crossing Muons: Gap Measurements}{207}{Appendix.a.A}}
+\@writefile{toc}{\contentsline {chapter}{Appendix \numberline {B}DUNE Far Detector $\nu _e$CC MVA Input Variables}{213}{Appendix.a.B}}
 \@writefile{toc}{\contentsline {chapter}{List of acronyms}{xxv}{chapter*.7}}
 \@writefile{toc}{\contentsline {chapter}{List of figures}{xiii}{chapter*.5}}
 \@writefile{toc}{\contentsline {chapter}{List of tables}{xxiii}{chapter*.6}}
-\@writefile{toc}{\contentsline {chapter}{References}{207}{chapter*.169}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {2}Neutrino Physics}{3}{chapter.2}}
 \@writefile{toc}{\contentsline {chapter}{\numberline {3}The Deep Underground Neutrino Experiment}{25}{chapter.3}}
@@ -1256,7 +1255,6 @@
 \providecommand\HyField@AuxAddToCoFields[2]{}
 \providecommand\HyField@AuxAddToFields[1]{}
 \providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
-\providecommand\NAT@force@numbers{}\NAT@force@numbers
 \providecommand\hyper@newdestlabel[2]{}
 \providecommand\hyper@newdestlabel[2]{}
 \providecommand\hyper@newdestlabel[2]{}
@@ -1406,16 +1404,16 @@
 \setcounter{NAT@ctr}{0}
 \setcounter{NAT@ctr}{0}
 \setcounter{NAT@ctr}{0}
-\setcounter{NAT@ctr}{179}
-\setcounter{NAT@ctr}{179}
+\setcounter{NAT@ctr}{0}
+\setcounter{NAT@ctr}{0}
 \setcounter{bookmark@seq@number}{0}
 \setcounter{bookmark@seq@number}{0}
 \setcounter{bookmark@seq@number}{0}
 \setcounter{bookmark@seq@number}{102}
 \setcounter{bookmark@seq@number}{111}
 \setcounter{bookmark@seq@number}{112}
+\setcounter{bookmark@seq@number}{113}
 \setcounter{bookmark@seq@number}{114}
-\setcounter{bookmark@seq@number}{115}
 \setcounter{bookmark@seq@number}{20}
 \setcounter{bookmark@seq@number}{37}
 \setcounter{bookmark@seq@number}{4}
@@ -1564,8 +1562,8 @@
 \setcounter{page}{192}
 \setcounter{page}{204}
 \setcounter{page}{207}
-\setcounter{page}{228}
-\setcounter{page}{235}
+\setcounter{page}{212}
+\setcounter{page}{219}
 \setcounter{page}{25}
 \setcounter{page}{28}
 \setcounter{page}{3}
