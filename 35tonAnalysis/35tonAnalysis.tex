@@ -18,7 +18,7 @@ To ensure analyses are as accurate as possible, careful pre-selection and prepro
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \subsection{Selecting the Data}\label{sec:SelectingTheData}
 
-The level of noise present in the TPC data varied hugely between runs and is immediately evident when analysing the RMS of the charge read out on a particular channel.  Figure~\ref{fig:DataRMS} shows a comparison of this metric for `good' and `bad' runs.
+The level of noise present in the TPC data varied hugely between runs and is immediately evident when analysing the RMS of the charge read out on a particular channel.  Figure~\ref{fig:DataRMS} shows a comparison of this metric for `good' and `bad' runs.  In this case, the figures show a `normal noise' run and one taken with the detector in the `high noise' state.  The noise worsened as the experiment progressed but, in general, runs taken with normal noise and most of the TPC operating during the period of stable data-taking were used to assemble a `good run' list by the collaboration.
 
 \begin{figure}
   \centering
@@ -39,7 +39,7 @@ The level of noise present in the TPC data varied hugely between runs and is imm
   \label{fig:DataRMS}
 \end{figure}
 
-The collaboration assembled a `good run' list by removing all runs which exhibited obviously higher noise from data taken during the period of stable running.  In all there were 1269 runs used for analysis, containing some data taken before the FNAL site wide power outage (3rd March 2016) with most the week after stabilising the experiment again (9th March -- 17th March 2016), and representing around 80\% of all runs from the period.  A selection of bad channels, classified as either `dead' (electrically) or `bad' (exhibit sufficiently more than average noise), constitute 13--25\% of the total number of channels \cite{Kirby2016}.
+In all there were 1269 runs used for analysis, containing some data taken before the FNAL site wide power outage (3rd March 2016) with most the week after stabilising the experiment again (9th March -- 17th March 2016), and representing around 80\% of all runs from the period.  A selection of bad channels, classified as either `dead' (electrically) or `bad' (exhibit sufficiently more than average noise), constitute 13--25\% of the total number of channels \cite{Kirby2016}.
 
 Due to the continuous nature of data taking, there is a non-trivial correlation between a `DAQ event', a collection of fragments read out by the DAQ, and a `physics event', an event in which particle interactions occurred.  The external triggers used in the 35-ton, namely the external muon scintillators and the photon detectors, are used to define the event time.  Given the trigger rate at which most data was taken ($\sim1$~Hz), a typical run comprising a few thousand events will only contain $\mathcal{O}(10)$ triggered events.  Furthermore, as described in Section~\ref{sec:35tonDataFormats}, these events often straddle multiple DAQ events (previously demonstrated in Figure~\ref{fig:35tonTriggeredEvent}), requiring the use of a splitter/stitcher module to search for triggers within runs and construct physics events containing the information useful for analysis.
 
@@ -102,7 +102,7 @@ All analyses discussed below only make use of information recorded on the collec
 
 Using only the collection plane presents challenges, the most obvious being the impossibility of full 3D reconstruction.  A hit on a collection wire at a given time gives well-defined $x$ and $z$ coordinates but cannot give any information in the $y$-direction.  `Quasi-3D' reconstruction is achieved by making use of the external counters.  Through-going muons are triggered by the coincidence of hits in two opposite counters; this information can be used to give a crude handle on the $y$ position of hits.
 
-Figure~\ref{fig:TrackSelection} outlines the stages of selecting hits originating from the particle track which caused the trigger.  Figure~\ref{fig:TrackSelectionBefore} shows all hits from an example event containing a through-going muon.  The first stage of track selection involves taking those hits which lie in the `counter shadow', the narrow section of collection plane area physically in between the opposing counters through which the triggering particle passed.  The hits which remain are shown in Figure~\ref{fig:TrackSelectionCounterShadow}.  The track hits are visible along with further, unrelated hits.  These are removed by requiring that only hits on wires with single occupancy be kept, and then applying a linear fit and removing all hits with residual $>2$~cm.  The final output after these stages is shown in Figure~\ref{fig:TrackSelectionFinal}.
+Figure~\ref{fig:TrackSelection} outlines the stages of selecting hits originating from the particle track which caused the trigger.  Figure~\ref{fig:TrackSelectionBefore} shows all hits from an example event containing a through-going muon.  The first stage of track selection involves taking those hits which lie in the `counter shadow', the narrow section of the collection plane area physically in between the opposing counters through which the triggering particle passed.  The hits which remain are shown in Figure~\ref{fig:TrackSelectionCounterShadow}.  The track hits are visible along with further, unrelated hits.  These are removed by requiring that only hits on wires with single occupancy be kept, and then applying a linear fit and removing all hits with residual $>2$~cm.  The final output after these stages is shown in Figure~\ref{fig:TrackSelectionFinal}.
 
 \begin{figure}
   \centering
@@ -220,7 +220,7 @@ There are eight gaps which can be measured from the data, demonstrated in Figure
 \begin{figure}
   \centering
   \includegraphics[width=12cm]{APAGapCrossingGaps.eps}
-  \caption{Illustration of the eight gaps between the four APA frames.}
+  \caption{Illustration of the eight gaps between the four APA frames.  There are four spaces between the APAs giving rise to eight gaps, measured in the long drift (odd-numbered) and short drift (even-numbered) regions.}
   \label{fig:APAGapCrossingGaps}
 \end{figure}
 
@@ -438,14 +438,14 @@ The offsets apparent from the data for all of the gaps accessible using TPC trac
 
 There appears to be some consistency in the measurements of the $x$-offsets by considering differences in this value between DV1 and DV7.  Despite the fact they do not neighbour each other, this is possible by considering the successive offsets measured between DV1/DV3 and DV3/DV7, and DV1/DV5 and DV5/DV7.  An exceptional agreement is seen between the two values, within 0.1~mm.  There also seems to be slight evidence of a rotation between DV1 and DV7 when considering the associated $z$-offsets; the offset at the top of the APA (when measured via DV5) is greater than at the bottom (when measured via DV3).  %cHowever, this can certainly be explained in the context of the limitations of the method and statistical fluctuations and would require more data and a more robust approach to justify these claims.  Such analysis is not possible with the 35-ton data.
 
-The method demonstrated here will have direct implications for similar studies using the full DUNE far detector.  All the gaps between the APAs, both in the drift and $z$ directions, will need to be understood for accurate reconstruction and are essential in order to make the precise physics measurements DUNE wishes to.  For example, accurate calorimetric reconstruction is imperative in order to perform particle identification and shower energy determination (discussed in Section~\ref{sec:Calorimetry}) and is directly related to the drift time of the ionisation electrons; any offsets in APA positions will lead to systematic uncertainties in this information.
+The method demonstrated here will have direct implications for similar studies using the full DUNE far detector.  All the gaps between the APAs, both in the drift and $z$ directions, will need to be understood for accurate reconstruction and are essential in order for DUNE to make precise physics measurements.  For example, accurate calorimetric reconstruction is imperative in order to perform particle identification and shower energy determination (discussed in Section~\ref{sec:Calorimetry}) and is directly related to the drift time of the ionisation electrons; any offsets in APA positions will lead to systematic uncertainties in this information.
 
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \subsection{Charge Deposited by APA Gap-Crossing Muons}\label{sec:APAGapCharge}
 
 The charge deposited by gap-crossing particles cannot be collected in the dead regions between the APA frames.  It is interesting to consider where the charge is read out in order to further understand the implications of a modular TPC design.
 
-Figure~\ref{fig:HitGapDistance} demonstrates the properties of hits as a function of distance from the nearest DV edge.  It appears more hits are found as charge is collected near a gap but the charge of these hits do not differ significantly.  This may be interpreted as hits arriving at a slightly later time near the APA gaps after drifting towards the nearest wire to the gap from a more gap-centred position.  One may expect to observe this in the data as a smearing in the tick direction where charge is deposited over more time, leading to a small gradient change.  Although not as noticeable as anticipated, this effect is observable in the event display shown in Figure~\ref{fig:evd_gap}.
+Figure~\ref{fig:HitGapDistance} demonstrates the properties of hits as a function of distance from the nearest DV edge.  It appears more hits are found as charge is collected near a gap but the charge of these hits do not differ significantly.  This may be interpreted as hits arriving at a slightly later time near the APA gaps after drifting towards the nearest wire to the gap from a more gap-centred position.  One may expect to observe this in the data as a smearing in the tick direction where charge is deposited over more time, leading to a small gradient change.  Although not as noticeable as anticipated, this effect is observable in the event display shown in Figure~\ref{fig:evd_gap}. (MIKE mirror charge?)
 
 \begin{figure}
   \centering
@@ -528,7 +528,7 @@ Two complementary methods were used to accurately align the track segments acros
     \caption{The separation distance over a range of T0 candidates.  The value of T0 which minimises this distribution (63 ticks in this case) is considered the most likely interaction time.}
     \label{fig:APACrossingAlignmentSeparationMin}
   \end{subfigure}
-  \caption[Method to align track segments on either side of the APAs involving minimising the distance between the projected intersection of each with the centre of the APAs.]{Method to align track segments on either side of the APAs involving minimising the distance between the projected intersection of each with the centre of the APAs.  A fit is applied to each track segment separately and the distance between the intersection of these lines with the centre of the APA in minimised over a range of T0 candidates to find the most likely interaction time for the particle leaving the track.}
+  \caption[Method to align track segments on either side of the APAs involving minimising the distance between the projected intersection of each with the centre of the APAs.]{Method to align track segments on either side of the APAs involving minimising the distance between the projected intersection of each with the centre of the APAs.  A fit is applied to each track segment separately and the distance between the intersection of these lines with the centre of the APA is minimised over a range of T0 candidates to find the most likely interaction time for the particle leaving the track.}
   \label{fig:APACrossingAlignmentSeparation}
 \end{figure}
 
@@ -761,7 +761,7 @@ Correcting for the time offset of 53~ticks implied by the sub-component timestam
   \begin{subfigure}[t]{0.48\linewidth}
     \centering
     \includegraphics[width=0.98\textwidth]{ExtraCorrectionWire.eps}
-    \caption{Assuming a misunderstanding in the alignment of the collection planes in $z$ between the two drift regions, a offset of $-0.24\pm0.03$~cm is found.  Given the scale of the corrections determined in Section~\ref{sec:APAOffsetMeasurements}, and the incapability to measure the gaps in the short drift regions, this is eminently credible.}
+    \caption{Assuming a misunderstanding in the alignment of the collection planes in $z$ between the two drift regions, an offset of $-0.24\pm0.03$~cm is found.  Given the scale of the corrections determined in Section~\ref{sec:APAOffsetMeasurements}, and the incapability to measure the gaps in the short drift regions, this is eminently credible.}
     \label{fig:ExtraCorrectionWire}
   \end{subfigure}
   \caption[Accounting for the extra discrepancy in track alignment after fixing for all the measured offsets by assuming a misunderstanding in the collection plane spacing and the $z$-positions of the collection wires.]{Accounting for the extra discrepancy in track alignment after fixing for all the measured offsets by assuming a misunderstanding in the collection plane spacing (Figure~\ref{fig:ExtraCorrectionPlaneSpacing}) and the $z$-positions of the collection wires (Figure~\ref{fig:ExtraCorrectionWire}).}
@@ -811,7 +811,7 @@ A convenient way of confirming whether or not the mesh can explain this excess o
     \caption{Hit times for all hits on APA 1, the APA without a grounded mesh at its centre.}
     \label{fig:HitTimesAPA1}
   \end{subfigure}
-  \caption[Comparison between the T0-corrected hit time distributions on APAs with and without the grounded mesh.]{Comparison between the T0-corrected hit time distributions on APAs with and without the grounded mesh.  Even given the very low stats in Figure~\ref{fig:HitTimesAPA1}, there is a noticeable difference in the distribution of hits around the interaction time.}
+  \caption[Comparison between the T0-corrected hit time distributions on APAs with and without the grounded mesh.]{Comparison between the T0-corrected hit time distributions on APAs with and without the grounded mesh.  Even given the very low statistics in Figure~\ref{fig:HitTimesAPA1}, there is a noticeable difference in the distribution of hits around the interaction time.}
   \label{fig:HitTimesAPAs}
 \end{figure}
 
@@ -916,7 +916,7 @@ Considerations relevant when applying the reconstruction developed on simulation
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \subsection{Data Specific Reconstruction}\label{sec:DataSpecificReconstruction}
 
-The BlurredCluster and EMShower algorithms, outlined in Sections~\ref{sec:BlurredCluster} and~\ref{sec:EMShower} respectively, were applied to the data in an attempt to reconstruct particle objects.  In general, the algorithms worked out the box and required no tuning.  Since this requires real 3D reconstruction, as opposed to the subtle techniques developed to circumvent the issues with the induction planes (described in Section~\ref{sec:ReconstructingMuonTracks}), the use of more than just the collection plane is necessitated.  Reconstruction is therefore only possible for showers with large enough signals on induction planes, following the coherent noise removal and hit disambiguation.
+The BlurredCluster and EMShower algorithms, outlined in Sections~\ref{sec:BlurredCluster} and~\ref{sec:EMShower} respectively, were applied to the data in an attempt to reconstruct particle objects.  In general, the algorithms worked out of the box and required no tuning.  Since this requires real 3D reconstruction, as opposed to the subtle techniques developed to circumvent the issues with the induction planes (described in Section~\ref{sec:ReconstructingMuonTracks}), the use of more than just the collection plane is necessitated.  Reconstruction is therefore only possible for showers with large enough signals on induction planes, following the coherent noise removal and hit disambiguation.
 
 As showering particles are likely to have a different interaction time, T0, to the triggering muon, an unassociated method for obtaining this information is required.  In general, the photon detectors are designed for this purpose so the use of these seems natural.
 
@@ -994,7 +994,7 @@ The T0 for this particle was determined to be 4740~ticks from reconstructing fla
 
 An important calorimetric test of particle detectors involves demonstrating a reasonable reconstructed $\pi^0$ mass peak.  It was for this reason that the shower reconstruction discussed in Chapter~\ref{chap:LArTPCReconstruction} was developed.  An analysis of a $\pi^0$ candidate event is briefly considered here.
 
-Without full reconstruction and selection, identifying candidate events is very difficult.  Such a event was observed in the online event display however and is shown in Figure~\ref{fig:DataPi0Candidate}.
+Without full reconstruction and selection, identifying candidate events is very difficult.  Such an event was observed in the online event display however and is shown in Figure~\ref{fig:DataPi0Candidate}.
 \begin{figure}[htb]
   \centering
   \includegraphics[width=10cm]{evd_run16110_subrun1_event29.png}
@@ -1003,7 +1003,7 @@ Without full reconstruction and selection, identifying candidate events is very 
 \end{figure}
 Unlike the shower discussed in Section~\ref{sec:DataShowerReconstruction}, there is no associated photon detector information for this event; however, one of the candidate photons passes through the APA frames so techniques developed for the APA-crosser analysis (Section~\ref{sec:APACrossing}) may be employed to determine the relevant interaction time.  Applying the calorimetry reconstruction, the dE/dx information associated with the high energy candidate photon (the one which crosses the APAs) gives a value of 4.75~MeV/cm, entirely consistent with the expectation for a photon of a distribution centred around 4.2~MeV/cm.  The low energy candidate photon travels almost completely along the collection view direction resulting in unreliable dE/dx information.  The total energy for each shower is determined to be 161.8~MeV and 500.5~MeV with an implied invariant mass of
 \begin{equation}\label{eq:DataPi0CandidateMass}
-m_{\pi^0?} = 156.6~\textnormal{MeV},
+m_{\pi^0} = 156.6~\textnormal{MeV},
 \end{equation}
 comparable to the true $\pi^0$ mass of 135~MeV.
 

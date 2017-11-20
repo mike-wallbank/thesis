@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  22 SEP 2017 10:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  20 NOV 2017 15:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1592,7 +1592,7 @@ Package pdftex.def Info: NeutrinoPhysics/Figs/AtmosphericNeutrinoAnomaly.pdf us
 ed on input line 123.
 (pdftex.def)             Requested size: 341.43306pt x 167.95334pt.
 [10 <./NeutrinoPhysics/Figs/AtmosphericNeutrinoAnomaly.pdf>]
-<NeutrinoPhysics/Figs/SuperKamiokandeDirection.pdf, id=1405, 443.1045pt x 223.4
+<NeutrinoPhysics/Figs/SuperKamiokandeDirection.pdf, id=1404, 443.1045pt x 223.4
 759pt>
 File: NeutrinoPhysics/Figs/SuperKamiokandeDirection.pdf Graphic file (type pdf)
 
@@ -1606,7 +1606,7 @@ Overfull \hbox (5.6423pt too wide) in paragraph at lines 145--146
  []
 
 
-<NeutrinoPhysics/Figs/SuperKamiokandeLE.pdf, id=1408, 223.10562pt x 220.3124pt>
+<NeutrinoPhysics/Figs/SuperKamiokandeLE.pdf, id=1407, 223.10562pt x 220.3124pt>
 File: NeutrinoPhysics/Figs/SuperKamiokandeLE.pdf Graphic file (type pdf)
 <use NeutrinoPhysics/Figs/SuperKamiokandeLE.pdf>
 Package pdftex.def Info: NeutrinoPhysics/Figs/SuperKamiokandeLE.pdf used on inp
@@ -5539,7 +5539,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  28584 strings out of 493117
  541487 string characters out of 6135433
- 592507 words of memory out of 5000000
+ 592506 words of memory out of 5000000
  30041 multiletter control sequences out of 15000+600000
  131700 words of font info for 424 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -5587,7 +5587,7 @@ l/texlive/2014/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2
 014/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-
 dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts
 /type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (262 pages, 57433542 bytes).
+Output written on thesis.pdf (262 pages, 57433647 bytes).
 PDF statistics:
  9446 PDF objects out of 10688 (max. 8388607)
  7219 compressed objects within 73 object streams
