@@ -101,7 +101,7 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {5.14}{\ignorespaces Comparison of the 2D shower cluster reconstruction and the 3D tracking reconstruction for a 35-ton $\pi ^0$ event.}}{119}{figure.caption.92}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5.15}{\ignorespaces Demonstration of the method utilised to ensure a correct shower orientation of the shower in a given view for the purpose of shower start finding in the EMShower algorithm.}}{121}{figure.caption.93}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5.16}{\ignorespaces The output from the full 3D shower reconstruction provided by BlurredCluster/EMShower when applied to the 35-ton $\pi ^0$ event shown in Figure\nobreakspace  {}\ref  {fig:pi0Showers}.}}{122}{figure.caption.94}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.17}{\ignorespaces An example $\nu _e$CC interaction in the DUNE far detector.}}{123}{figure.caption.95}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.17}{\ignorespaces An example simulated $\nu _e$CC interaction in the DUNE far detector.}}{123}{figure.caption.95}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5.18}{\ignorespaces A simplified event topology demonstrated typical track and shower topologies.}}{124}{figure.caption.96}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5.19}{\ignorespaces The result of applying the track/shower separation, BlurredCluster and EMShower algorithms to the example DUNE far detector $\nu _e$CC event demonstrated in Figure\nobreakspace  {}\ref  {fig:nueCC}.}}{125}{figure.caption.97}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces The LArSoft architecture, highlighting support for both common and experiment-specific algorithms and methods and the interfacing with other packages.}}{104}{figure.caption.79}}
@@ -110,7 +110,7 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {5.22}{\ignorespaces The vector dot product between the true and reconstructed initial shower direction.}}{128}{figure.caption.99}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5.23}{\ignorespaces The completeness of the reconstruction shower energy when compared with the true deposited energy from simulation.}}{128}{figure.caption.100}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5.24}{\ignorespaces The dE/dx information from the start of the reconstructed shower object.}}{128}{figure.caption.100}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5.25}{\ignorespaces The 35-ton fully reconstructed $\pi ^0$ invariant mass peak.}}{129}{figure.caption.101}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.25}{\ignorespaces The 35-ton fully reconstructed $\pi ^0$ invariant mass peak from simulation.}}{129}{figure.caption.101}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5.26}{\ignorespaces The 35-ton $\pi ^0$ mass peak considered using a combination of reconstructed and truth information.}}{130}{figure.caption.102}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5.27}{\ignorespaces The performance of the track/shower separation and shower reconstruction when applied to DUNE $\nu _e$CC far detector interactions.}}{132}{figure.caption.104}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces The LArSoft reconstruction workflow to produce 3D reconstructed objects from the raw charge read out by the anode wires.}}{106}{figure.caption.80}}
@@ -126,7 +126,7 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {6.3}{\ignorespaces Example online event display made by the Online Monitoring framework.}}{142}{figure.caption.107}}
 \@writefile{lof}{\contentsline {figure}{\numberline {6.4}{\ignorespaces Schematic showing the interface between the online monitoring system and the web.}}{143}{figure.caption.108}}
 \@writefile{lof}{\contentsline {figure}{\numberline {6.5}{\ignorespaces Demonstration of the web page developed to display information produced by the online monitoring and event display.}}{144}{figure.caption.109}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7.10}{\ignorespaces Illustration of the eight gaps between the four APA frames.\relax }}{154}{figure.caption.119}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.10}{\ignorespaces Illustration of the eight gaps between the four APA frames. There are four spaces between the APAs giving rise to eight gaps, measured in the long drift (odd-numbered) and short drift (even-numbered) regions.\relax }}{154}{figure.caption.119}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7.11}{\ignorespaces The $z$-offset for the DV5/DV7 gap measured in the 35-ton data.}}{156}{figure.caption.120}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7.12}{\ignorespaces Demonstration of how an $x$-offset in the positions of the APAs can explain the degeneracy evident in the $z$-offset measured using the 35-ton data.}}{157}{figure.caption.121}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7.13}{\ignorespaces Studies of the effects of offsets in the positions of the APAs in simulation.}}{158}{figure.caption.122}}
@@ -177,7 +177,7 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {8.2}{\ignorespaces The process of tuning the electron cut in the simple cut-based selection by maximising the effect of CP-violation on the oscillation probabilities.}}{196}{figure.caption.161}}
 \@writefile{lof}{\contentsline {figure}{\numberline {8.3}{\ignorespaces The efficiency and purity of the $\nu _e$CC Pandora cut-based selection as a function of a number of kinematic variables, after applying the selection.}}{197}{figure.caption.162}}
 \@writefile{lof}{\contentsline {figure}{\numberline {8.4}{\ignorespaces Tuning the DUNE far detector fiducial volume, $y$-coordinate.}}{198}{figure.caption.163}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.5}{\ignorespaces The MVA response when training $\nu _e$ (signal) against $\nu _{\mu }$ and $\nu _{\tau }$ (background).}}{200}{figure.caption.166}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.5}{\ignorespaces The MVA response when training $\nu _e$ (signal) against $\nu _{\mu }$ and $\nu _{\tau }$ (background).}}{199}{figure.caption.166}}
 \@writefile{lof}{\contentsline {figure}{\numberline {8.6}{\ignorespaces The efficiency and purity of the $\nu _e$CC MVA-based selection as a function of a number of kinematic variables, before applying the selection.}}{201}{figure.caption.167}}
 \@writefile{lof}{\contentsline {figure}{\numberline {8.7}{\ignorespaces The efficiency and purity of the $\nu _e$CC MVA-based selection as a function of a number of kinematic variables, after applying the selection.}}{202}{figure.caption.168}}
 \@writefile{lof}{\contentsline {figure}{\numberline {A.1}{\ignorespaces Demonstration of the measurements of the $x$- and $z$-offsets in the 35-ton DV1/DV3 gap.}}{224}{figure.caption.170}}
@@ -198,15 +198,15 @@
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{lot}{\contentsline {table}{\numberline {2.1}{\ignorespaces The current best-fit values for the neutrino oscillation parameters for normal and hierarchies.}}{22}{table.caption.17}}
+\@writefile{lot}{\contentsline {table}{\numberline {2.1}{\ignorespaces The current best-fit values for the neutrino oscillation parameters for normal and inverted hierarchies.}}{22}{table.caption.17}}
 \@writefile{lot}{\contentsline {table}{\numberline {3.1}{\ignorespaces Properties of noble liquids relevant when considering a TPC medium for a neutrino experiment.}}{27}{table.caption.21}}
 \@writefile{lot}{\contentsline {table}{\numberline {3.2}{\ignorespaces Exposures anticipated for the DUNE experiment for the first few years of operation.}}{46}{table.caption.35}}
 \@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Details and dimensions of the 35-ton cryostat.}}{70}{table.caption.54}}
 \@writefile{lot}{\contentsline {table}{\numberline {5.1}{\ignorespaces The performance of track/shower separation and shower reconstruction on 50\nobreakspace  {}000 DUNE $\nu _e$ events.}}{131}{table.caption.103}}
 \@writefile{lot}{\contentsline {table}{\numberline {7.1}{\ignorespaces Measurements of all the APA offsets determined from the 35-ton TPC data.}}{163}{table.caption.128}}
 \@writefile{lot}{\contentsline {table}{\numberline {7.2}{\ignorespaces The corrected gaps between the APAs, in $x$ and $z$, based on the offsets measured in the data.}}{163}{table.caption.128}}
-\@writefile{lot}{\contentsline {table}{\numberline {8.1}{\ignorespaces The dimensions and tuned fiducial volume of a single DUNE far detector module.}}{197}{table.caption.164}}
-\@writefile{lot}{\contentsline {table}{\numberline {8.2}{\ignorespaces The input variable used in the MVA designed to separate $\nu _e$ events from $\nu _{\mu }$ and $\nu _{\tau }$ events.}}{199}{table.caption.165}}
+\@writefile{lot}{\contentsline {table}{\numberline {8.1}{\ignorespaces The dimensions and tuned fiducial volume of a single DUNE far detector module.}}{198}{table.caption.164}}
+\@writefile{lot}{\contentsline {table}{\numberline {8.2}{\ignorespaces The input variable used in the MVA designed to separate $\nu _e$ events from $\nu _{\mu }$ and $\nu _{\tau }$ events.}}{200}{table.caption.165}}
 \@writefile{toc}{\contentsline {chapter}{Appendix \numberline {A}APA Gap-Crossing Muons: Gap Measurements}{223}{Appendix.a.A}}
 \@writefile{toc}{\contentsline {chapter}{Appendix \numberline {B}DUNE Far Detector $\nu _e$CC MVA Input Variables}{229}{Appendix.a.B}}
 \@writefile{toc}{\contentsline {chapter}{List of acronyms}{xxv}{chapter*.7}}
@@ -236,15 +236,15 @@
 \@writefile{toc}{\contentsline {section}{\numberline {4.1}The Materials Test Stand and Liquid Argon Purity Demonstrator}{58}{section.4.1}}
 \@writefile{toc}{\contentsline {section}{\numberline {4.2}35-ton Experiment: Phase\nobreakspace  {}I}{67}{section.4.2}}
 \@writefile{toc}{\contentsline {section}{\numberline {4.3}35-ton Experiment: Phase\nobreakspace  {}II}{73}{section.4.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.4}Summary}{101}{section.4.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}Summary}{102}{section.4.4}}
 \@writefile{toc}{\contentsline {section}{\numberline {5.1}The LArSoft Framework}{103}{section.5.1}}
 \@writefile{toc}{\contentsline {section}{\numberline {5.2}The Reconstruction Chain}{105}{section.5.2}}
 \@writefile{toc}{\contentsline {section}{\numberline {5.3}Shower Reconstruction in LArTPCs}{111}{section.5.3}}
 \@writefile{toc}{\contentsline {section}{\numberline {6.1}The Online Monitoring Framework}{133}{section.6.1}}
 \@writefile{toc}{\contentsline {section}{\numberline {6.2}Data Quality Monitoring}{137}{section.6.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.3}Online Event Display}{140}{section.6.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.3}Online Event Display}{139}{section.6.3}}
 \@writefile{toc}{\contentsline {section}{\numberline {6.4}Monitoring Web Interface}{141}{section.6.4}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.5}Online Monitoring Summary}{144}{section.6.5}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.5}Online Monitoring Summary}{143}{section.6.5}}
 \@writefile{toc}{\contentsline {section}{\numberline {7.1}Preparing 35-ton Data for Analysis}{145}{section.7.1}}
 \@writefile{toc}{\contentsline {section}{\numberline {7.2}APA Gap-Crossing Muons}{151}{section.7.2}}
 \@writefile{toc}{\contentsline {section}{\numberline {7.3}APA-Crossing Muons}{164}{section.7.3}}
@@ -286,7 +286,7 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}Data Acquisition}{79}{subsection.4.3.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.3.3}The Sheffield Camera System}{86}{subsection.4.3.3}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.3.4}Phase\nobreakspace  {}II Run}{91}{subsection.4.3.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.5}Outcomes of Phase\nobreakspace  {}II}{93}{subsection.4.3.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.5}Outcomes of Phase\nobreakspace  {}II}{95}{subsection.4.3.5}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}Raw Charge Calibration}{105}{subsection.5.2.1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}Pattern Recognition}{108}{subsection.5.2.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.2.3}Calorimetry}{110}{subsection.5.2.3}}
@@ -307,7 +307,7 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.3.2}Representing the Data}{140}{subsection.6.3.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.4.1}Automated Data Transfer}{141}{subsection.6.4.1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.4.2}Web Page}{143}{subsection.6.4.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.1.1}Selecting the Data}{146}{subsection.7.1.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1.1}Selecting the Data}{145}{subsection.7.1.1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {7.1.2}Improving Data Quality}{147}{subsection.7.1.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {7.1.3}Reconstructing Muon Tracks}{147}{subsection.7.1.3}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {7.1.4}Preparing Simulated Data}{149}{subsection.7.1.4}}
@@ -320,16 +320,16 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {7.4.2}Calorimetry Reconstruction}{185}{subsection.7.4.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {7.4.3}Shower Reconstruction}{189}{subsection.7.4.3}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {7.4.4}$\pi ^0$ Reconstruction}{190}{subsection.7.4.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.2.1}Selection}{194}{subsection.8.2.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.2.1}Selection}{195}{subsection.8.2.1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {8.2.2}Fiducial Volume Tuning}{196}{subsection.8.2.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {8.3.1}MVA Input Variables}{198}{subsection.8.3.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.3.2}Analysis Performance}{200}{subsection.8.3.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.3.2}Analysis Performance}{199}{subsection.8.3.2}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.1.1}Super-Kamiokande and the Atmospheric Sector}{11}{subsubsection.2.2.1.1}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.1.2}SNO and the Solar Sector}{13}{subsubsection.2.2.1.2}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.3.1}KamLAND and Reactor Neutrinos}{18}{subsubsection.2.2.3.1}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.2.1}Single-Phase}{38}{subsubsection.3.3.2.1}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.2.2}Dual-Phase}{42}{subsubsection.3.3.2.2}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.3.1}Near Neutrino Detector}{43}{subsubsection.3.3.3.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.3.1}Near Neutrino Detector}{44}{subsubsection.3.3.3.1}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.3.2}Beamline Measurement System}{45}{subsubsection.3.3.3.2}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.1.1}Filter Regeneration}{60}{subsubsection.4.1.1.1}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.1.2}Purity Monitoring}{61}{subsubsection.4.1.1.2}}
@@ -346,8 +346,8 @@
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.3.2}Operation and Outcomes of 35-ton Camera System}{88}{subsubsection.4.3.3.2}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.5.1}Cryostat and TPC}{95}{subsubsection.4.3.5.1}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.5.2}Triggering Systems: Photon Detectors and Muon Counters}{96}{subsubsection.4.3.5.2}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.5.3}DAQ and Computing}{96}{subsubsection.4.3.5.3}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.5.4}Noise Issues}{97}{subsubsection.4.3.5.4}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.5.3}DAQ and Computing}{97}{subsubsection.4.3.5.3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.5.4}Noise Issues}{98}{subsubsection.4.3.5.4}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.3.1}Energy Determination}{110}{subsubsection.5.2.3.1}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.3.2}Shower Energy Reconstruction}{110}{subsubsection.5.2.3.2}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.3.3}Neutrino Energy Reconstruction}{111}{subsubsection.5.2.3.3}}

@@ -24,7 +24,7 @@ LArSoft provides well defined interfaces to various external packages, such as G
   \label{fig:LArSoftStructure}
 \end{figure}
 
-The \textit{art} framework provides an interface to the information stored for each event by user-written `modules', and handles execution by processing each entry and making the data available to these plug-in modules.  Additionally, `services', which exist outside of the event structure, are provided and may be used to obtain general information such as detector geometry or LAr properties whenever needed.  The two main module types, named \texttt{Analyzers} and \texttt{Producers}, can access the data products stored in a particular event and, in the case of \texttt{Producers}, have the ability to place data into the event for use in future processes.  All modules, regardless of their type, have only read-only access to the existing information in the event.  Configuration of an \textit{art} job utilises the custom Fermilab Hierarchical Configuration Language (\textit{fhicl}, pronounced `fickle') which may be used to define the modules (including their order) and services to be run and to provide run-time parameters for use by these products.
+The \textit{art} framework provides an interface to the information stored for each event by user-written `modules', and handles execution by processing each entry and making the data available to these plug-in modules.  Additionally, `services', which exist outside of the event structure, are provided and may be used to obtain general information such as detector geometry or LAr properties whenever needed.  The two main module types, named \texttt{Analyzers} and \texttt{Producers}, can access the data products stored in a particular event and, in the case of \texttt{Producers}, have the ability to place data into the event for use in future processes.  All modules, regardless of their type, have read-only access to the existing information in the event.  Configuration of an \textit{art} job utilises the custom Fermilab Hierarchical Configuration Language (\textit{fhicl}, pronounced `fickle') which may be used to define the modules (including their order) and services to be run and to provide run-time parameters for use by these products.
 
 The end-to-end configuration for a given experiment involves the following standard stages: generation (provided by a generator, such as GENIE), propagation (executed with GEANT4), detector response simulation, and reconstruction.  The results from the first three steps aim to reproduce as closely as possible the expectations from real data, with the same reconstruction applied to both the simulated output from the detector and data.  The processes are configured, using \texttt{Producer} modules, in \textit{art} using \textit{fhicl}, generally separated into four jobs representing each of the stages.
 
@@ -164,7 +164,7 @@ It is worth noting the approach to forming the eventual 3D objects, from which p
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \subsection{Calorimetry}\label{sec:Calorimetry}
 
-The possibility of extremely precise energy measurements is a hugely attractive feature of LArTPCs and is achieved by careful calibration of the charge received from the drift electrons.  There are a number of distinct calibrations which must be conducted to ensure reliable calorimetric measurements and the relevant procedures will be outlined in this section.  Setting the ADC to energy translation is the subject of Section~\ref{sec:EnergyDetermination} and determining the electromagnetic shower and neutrino energy conversion from the total deposited charge will be discussed in Sections~\ref{sec:ShowerEnergy} and~\ref{sec:NeutrinoEnergy} respectively.
+The possibility of extremely precise energy measurements is a significantly attractive feature of LArTPCs and is achieved by careful calibration of the charge received from the drift electrons.  There are a number of distinct calibrations which must be conducted to ensure reliable calorimetric measurements and the relevant procedures will be outlined in this section.  Setting the ADC to energy translation is the subject of Section~\ref{sec:EnergyDetermination} and determining the electromagnetic shower and neutrino energy conversion from the total deposited charge will be discussed in Sections~\ref{sec:ShowerEnergy} and~\ref{sec:NeutrinoEnergy} respectively.
 
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \subsubsection{Energy Determination}\label{sec:EnergyDetermination}
@@ -176,7 +176,7 @@ The precise calorimetry constant may be tuned by considering minimally ionising 
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \subsubsection{Shower Energy Reconstruction}\label{sec:ShowerEnergy}
 
-For large groups of hits from a common source, such as for electromagnetic showers, an alternative approach may be employed.  A linear correlation is observed between the lifetime-corrected charge deposited and the true deposited energy, demonstrated in Figure~\ref{fig:ShowerEnergyConversion}.  This was made by simulating 1000 electrons in the DUNE far detector geometry at each of the energies 0.5,~1.0,~...,~5.0~GeV and taking a Gaussian fit of the total charge deposited in the detector for each energy.  An almost-perfect linear fit is observed and the associated parameters are used when determining the shower energy in reconstruction.
+For large groups of hits from a common source, such as for electromagnetic showers, an alternative approach may be employed.  A linear relationship is observed between the lifetime-corrected charge deposited and the true deposited energy, demonstrated in Figure~\ref{fig:ShowerEnergyConversion}.  This was made by simulating 1000 electrons in the DUNE far detector geometry at each of the energies 0.5,~1.0,~...,~5.0~GeV and taking a Gaussian fit of the total charge deposited in the detector for each energy.  An almost-perfect linear fit is observed and the associated parameters are used when determining the shower energy in reconstruction.
 
 \begin{figure}
   \centering
@@ -231,7 +231,7 @@ The BlurredCluster algorithm is a 2D clustering algorithm \cite{KabothThesis} im
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \subsubsection{Algorithm Description}\label{sec:BlurredClusterDescription}
 
-The energy deposited by showering particles is contained on several discrete readout wires which are not necessarily representative of the initial deposition of charge, which is more diffuse.  This motivates the concept of `smearing' the charge between adjacent wires, reproducing the more realistic distribution.  In addition, since ionisation packets naturally spread in time (longitudinal diffusion), it is natural to take this into account when redistributing the deposited energy.
+The energy deposited by showering particles is contained on several discrete readout wires and is not necessarily representative of the initial deposition of charge, which is more diffuse.  This motivates the concept of `smearing' the charge between adjacent wires, reproducing the more realistic distribution.  In addition, since ionisation packets naturally spread in time (longitudinal diffusion), it is natural to take this into account when redistributing the deposited energy.
 
 The smearing is performed using a 2D Gaussian kernel, given by
 \begin{equation}\label{eq:2DGaussianKernel}
@@ -305,7 +305,7 @@ A demonstration, in 1D, of the convolution process is the subject of Figure~\ref
     \includegraphics[width=\textwidth]{blurring9.png}
     %\caption{}
   \end{subfigure}
-  \caption[Simplified demonstration, in 1D, of the blurring process used when smearing charge from a hit map.]{Simplified demonstration, in 1D, of the blurring process used when smearing charge from a hit map.  The process follows from left to right, top to bottom.  The Gaussian width is fixed for each hit and the blurring radius is set to 2.  For each bin, any real hits within the blurring radius (represented by red lines) contribute to the charge introduced as a fake hit.  The original hit map is shown underneath the blurred version, which is completed as the bins are looped through.  The final blurred hit map shows a nice smearing of the input charge according to the original distribution of charge and the particular Gaussian kernel used in the convolution.}
+  \caption[Simplified demonstration, in 1D, of the blurring process used when smearing charge from a hit map.]{Simplified demonstration, in 1D, of the blurring process used when smearing charge from a hit map.  The process follows from left to right, top to bottom.  The Gaussian width is fixed for each hit and the blurring radius is set to 2.  For each bin, any real hits within the blurring radius (represented by red lines) contribute to the charge introduced as a fake hit.  The original hit map is shown underneath the blurred version, which is completed as the bins are looped through.  The final blurred hit map shows a smearing of the input charge according to the original distribution of charge and the particular Gaussian kernel used in the convolution.}
   \label{fig:BlurringProcess}
 \end{figure}
 
@@ -440,7 +440,7 @@ The result of applying the full EMShower algorithm to the 35-ton $\pi^0$ event f
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \subsection{Track/Shower Separation}\label{sec:TrackShowerSeparation}
 
-The shower reconstruction described in Sections~\ref{sec:BlurredCluster} and~\ref{sec:EMShower} is optimised for shower-like hits and makes no attempt to ignore hits which originate from tracks.  This issue of track/shower separation is a hugely complex problem in LArTPCs and remains largely unsolved.  Significant progress has been made in the last year however, mainly via the use of machine learning.  The vastly differing topologies, wide band energies in the DUNE beam and highly detailed event information all contribute to a challenging reconstruction issue unlikely to be solved without the use of deep learning algorithms.
+The shower reconstruction described in Sections~\ref{sec:BlurredCluster} and~\ref{sec:EMShower} is optimised for shower-like hits and makes no attempt to ignore hits which originate from tracks.  This issue of track/shower separation is a complex problem in LArTPCs and remains largely unsolved.  Significant progress has been made in the last year however, mainly via the use of machine learning.  The vastly differing topologies, wide band energies in the DUNE beam and highly detailed event information all contribute to a challenging reconstruction issue unlikely to be solved without the use of deep learning algorithms.
 
 This section briefly details the development of an alternative approach to the problem, which was found to be inferior to the more recent developments.  It is nonetheless instructive to overview the subject and assess the attempted method to evaluate how the experience may inform other potential strategies in addressing the issue.
 
@@ -449,7 +449,7 @@ The algorithm was developed primarily for the purposes of the $\nu_e$CC oscillat
 \begin{figure}
   \centering
   \includegraphics[width=10cm]{NuECCHits.pdf}
-  \caption[An example $\nu_e$CC interaction in the DUNE far detector.]{An example $\nu_e$CC interaction in the DUNE far detector.  The Gaussian hit finder has been used to reconstruct hits, shown as black rectangles.  The electron shower is evident, along with many other smaller hadron tracks.  The $\nu_e$ energy in this event is 3.7~GeV and the electron has an energy of 1.9~GeV.}
+  \caption[An example simulated $\nu_e$CC interaction in the DUNE far detector.]{An example simulated $\nu_e$CC interaction in the DUNE far detector.  The Gaussian hit finder has been used to reconstruct hits, shown as black rectangles.  The electron shower is evident, along with many other smaller hadron tracks.  The $\nu_e$ energy in this event is 3.7~GeV and the electron has an energy of 1.9~GeV.}
   \label{fig:nueCC}
 \end{figure}
 
@@ -457,7 +457,7 @@ Following the success of EMShower, which utilised as much previously executed re
 
 A typical, though simplified, event, containing a track and shower, is demonstrated in Figure~\ref{fig:TrackShowerTopology}.  The three topological objects are noted as a \textit{track}, a \textit{shower track} (the initial part of a shower before the electromagnetic cascade occurs) and a \textit{shower cone} (the rest of the shower downstream of the shower track).  The track/shower separation treats each of these objects independently to ensure a complete evaluation of the entire topology.  The algorithm proceeds in the following general steps:
 \begin{itemize}
-  \item tracks-like objects (including \textit{tracks} and \textit{shower tracks}) are identified;
+  \item track-like objects (including \textit{tracks} and \textit{shower tracks}) are identified;
   \item \textit{shower tracks} are identified;
   \item \textit{shower cone} activity is identified.
 \end{itemize}
@@ -492,7 +492,7 @@ The result of applying the algorithm to the DUNE $\nu_e$CC event shown in Figure
   \label{fig:nueCCRecon}
 \end{figure}
 
-The reasoning behind performing this separation following the completion of track finding, as mentioned previously, is to utilise as much information as possible about the interaction.  There are however many drawbacks which were identified whilst developing the algorithm.  For example, any mistakes in the track reconstruction has implications on the success of the overall analysis of the event and may be a considerable problem.  Additionally, track reconstruction is not optimised in the important region around the vertex and often fails to distinguish separate particles or too aggressively approaches a complex hit distribution.  If the \textit{shower track} is not well reconstructed, or even just some hits misidentified, the method detailed above will often fail.  It became clear during the building of the framework that the track reconstruction would also hugely benefit from prior separation of hits, and that this problem must be solved at the hit, or even charge, level.  Such fine scrutiny is exceptionally challenging and it was only when utilising machine learning tools that the issue appeared resolvable.  As noted earlier, this is likely how the eventual solution will be found.
+The reasoning behind performing this separation following the completion of track finding, as mentioned previously, is to utilise as much information as possible about the interaction.  There are however many drawbacks which were identified whilst developing the algorithm.  For example, any mistakes in the track reconstruction has implications for the success of the overall analysis of the event and may be a considerable problem.  Additionally, track reconstruction is not optimised in the important region around the vertex and often fails to distinguish separate particles or too aggressively approaches a complex hit distribution.  If the \textit{shower track} is not well reconstructed, or even just some hits misidentified, the method detailed above will often fail.  It became clear during the building of the framework that the track reconstruction would also benefit from prior separation of hits, and that this problem must be solved at the hit, or even charge, level.  Such fine scrutiny is exceptionally challenging and it was only when utilising machine learning tools that the issue appeared resolvable.  As noted earlier, this is likely how the eventual solution will be found.
 
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \subsection{Performance of the Reconstruction}\label{sec:ReconstructionPerformance}
@@ -567,7 +567,7 @@ The invariant mass is determined for all $\pi^0$s where both decay photons are c
 \begin{figure}
   \centering
   \includegraphics[width=12cm]{Pi0MassPeak.eps}
-  \caption[The 35-ton fully reconstructed $\pi^0$ invariant mass peak.]{The 35-ton fully reconstructed $\pi^0$ invariant mass peak.}
+  \caption[The 35-ton fully reconstructed $\pi^0$ invariant mass peak from simulation.]{The 35-ton fully reconstructed $\pi^0$ invariant mass peak from simulation.}
   \label{fig:Pi0MassPeak}
 \end{figure}
 
@@ -645,7 +645,7 @@ The efficacy of separating the electron shower from the main hadronic tracks fro
     \toprule
       & Number of events & Proportion of events \\
     \midrule
-    $\nu_e$CC events                     & 43~942 & 100\% \\
+    $\nu_e$CC events in FV               & 43~942 & 100\% \\
     Good shower                          & 23~023 & 52\%  \\
     \textit{Poor shower -- start point}  & \textit{17~891} & -     \\
     \textit{Poor shower -- direction}    & \textit{9~831}  & -     \\

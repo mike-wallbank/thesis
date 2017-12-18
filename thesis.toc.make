@@ -33,7 +33,7 @@
 \contentsline {subsubsection}{\numberline {3.3.2.1}Single-Phase}{38}{subsubsection.3.3.2.1}
 \contentsline {subsubsection}{\numberline {3.3.2.2}Dual-Phase}{42}{subsubsection.3.3.2.2}
 \contentsline {subsection}{\numberline {3.3.3}Near Detector}{43}{subsection.3.3.3}
-\contentsline {subsubsection}{\numberline {3.3.3.1}Near Neutrino Detector}{43}{subsubsection.3.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.3.1}Near Neutrino Detector}{44}{subsubsection.3.3.3.1}
 \contentsline {subsubsection}{\numberline {3.3.3.2}Beamline Measurement System}{45}{subsubsection.3.3.3.2}
 \contentsline {section}{\numberline {3.4}The Physics of DUNE}{45}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Mass Hierarchy and CP Violation}{47}{subsection.3.4.1}
@@ -69,12 +69,12 @@
 \contentsline {subsubsection}{\numberline {4.3.3.1}The Camera System}{86}{subsubsection.4.3.3.1}
 \contentsline {subsubsection}{\numberline {4.3.3.2}Operation and Outcomes of 35-ton Camera System}{88}{subsubsection.4.3.3.2}
 \contentsline {subsection}{\numberline {4.3.4}Phase\nobreakspace {}II Run}{91}{subsection.4.3.4}
-\contentsline {subsection}{\numberline {4.3.5}Outcomes of Phase\nobreakspace {}II}{93}{subsection.4.3.5}
+\contentsline {subsection}{\numberline {4.3.5}Outcomes of Phase\nobreakspace {}II}{95}{subsection.4.3.5}
 \contentsline {subsubsection}{\numberline {4.3.5.1}Cryostat and TPC}{95}{subsubsection.4.3.5.1}
 \contentsline {subsubsection}{\numberline {4.3.5.2}Triggering Systems: Photon Detectors and Muon Counters}{96}{subsubsection.4.3.5.2}
-\contentsline {subsubsection}{\numberline {4.3.5.3}DAQ and Computing}{96}{subsubsection.4.3.5.3}
-\contentsline {subsubsection}{\numberline {4.3.5.4}Noise Issues}{97}{subsubsection.4.3.5.4}
-\contentsline {section}{\numberline {4.4}Summary}{101}{section.4.4}
+\contentsline {subsubsection}{\numberline {4.3.5.3}DAQ and Computing}{97}{subsubsection.4.3.5.3}
+\contentsline {subsubsection}{\numberline {4.3.5.4}Noise Issues}{98}{subsubsection.4.3.5.4}
+\contentsline {section}{\numberline {4.4}Summary}{102}{section.4.4}
 \contentsline {chapter}{\numberline {5}Reconstruction in a Liquid Argon TPC}{103}{chapter.5}
 \contentsline {section}{\numberline {5.1}The LArSoft Framework}{103}{section.5.1}
 \contentsline {section}{\numberline {5.2}The Reconstruction Chain}{105}{section.5.2}
@@ -108,16 +108,16 @@
 \contentsline {subsection}{\numberline {6.2.3}External Counter Monitoring}{138}{subsection.6.2.3}
 \contentsline {subsection}{\numberline {6.2.4}General Monitoring}{138}{subsection.6.2.4}
 \contentsline {subsection}{\numberline {6.2.5}DQM Plots}{138}{subsection.6.2.5}
-\contentsline {section}{\numberline {6.3}Online Event Display}{140}{section.6.3}
+\contentsline {section}{\numberline {6.3}Online Event Display}{139}{section.6.3}
 \contentsline {subsection}{\numberline {6.3.1}Selecting the Data}{140}{subsection.6.3.1}
 \contentsline {subsection}{\numberline {6.3.2}Representing the Data}{140}{subsection.6.3.2}
 \contentsline {section}{\numberline {6.4}Monitoring Web Interface}{141}{section.6.4}
 \contentsline {subsection}{\numberline {6.4.1}Automated Data Transfer}{141}{subsection.6.4.1}
 \contentsline {subsection}{\numberline {6.4.2}Web Page}{143}{subsection.6.4.2}
-\contentsline {section}{\numberline {6.5}Online Monitoring Summary}{144}{section.6.5}
+\contentsline {section}{\numberline {6.5}Online Monitoring Summary}{143}{section.6.5}
 \contentsline {chapter}{\numberline {7}Analysis of 35-ton Data}{145}{chapter.7}
 \contentsline {section}{\numberline {7.1}Preparing 35-ton Data for Analysis}{145}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}Selecting the Data}{146}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.1}Selecting the Data}{145}{subsection.7.1.1}
 \contentsline {subsection}{\numberline {7.1.2}Improving Data Quality}{147}{subsection.7.1.2}
 \contentsline {subsection}{\numberline {7.1.3}Reconstructing Muon Tracks}{147}{subsection.7.1.3}
 \contentsline {subsection}{\numberline {7.1.4}Preparing Simulated Data}{149}{subsection.7.1.4}
@@ -147,11 +147,11 @@
 \contentsline {chapter}{\numberline {8}The $\nu _e$ Oscillation Signal at the DUNE Far Detector}{193}{chapter.8}
 \contentsline {section}{\numberline {8.1}Far Detector Samples}{194}{section.8.1}
 \contentsline {section}{\numberline {8.2}Cut-Based Tuning}{194}{section.8.2}
-\contentsline {subsection}{\numberline {8.2.1}Selection}{194}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.1}Selection}{195}{subsection.8.2.1}
 \contentsline {subsection}{\numberline {8.2.2}Fiducial Volume Tuning}{196}{subsection.8.2.2}
 \contentsline {section}{\numberline {8.3}MVA-Based Selection}{198}{section.8.3}
 \contentsline {subsection}{\numberline {8.3.1}MVA Input Variables}{198}{subsection.8.3.1}
-\contentsline {subsection}{\numberline {8.3.2}Analysis Performance}{200}{subsection.8.3.2}
+\contentsline {subsection}{\numberline {8.3.2}Analysis Performance}{199}{subsection.8.3.2}
 \contentsline {section}{\numberline {8.4}Outlook for Future Selections}{203}{section.8.4}
 \contentsline {chapter}{\numberline {9}Conclusions}{205}{chapter.9}
 \contentsline {chapter}{References}{207}{chapter*.169}

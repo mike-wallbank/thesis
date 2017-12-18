@@ -87,7 +87,7 @@
 \contentsline {figure}{\numberline {5.14}{\ignorespaces Comparison of the 2D shower cluster reconstruction and the 3D tracking reconstruction for a 35-ton $\pi ^0$ event.}}{119}{figure.caption.92}
 \contentsline {figure}{\numberline {5.15}{\ignorespaces Demonstration of the method utilised to ensure a correct shower orientation of the shower in a given view for the purpose of shower start finding in the EMShower algorithm.}}{121}{figure.caption.93}
 \contentsline {figure}{\numberline {5.16}{\ignorespaces The output from the full 3D shower reconstruction provided by BlurredCluster/EMShower when applied to the 35-ton $\pi ^0$ event shown in Figure\nobreakspace {}\ref {fig:pi0Showers}.}}{122}{figure.caption.94}
-\contentsline {figure}{\numberline {5.17}{\ignorespaces An example $\nu _e$CC interaction in the DUNE far detector.}}{123}{figure.caption.95}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces An example simulated $\nu _e$CC interaction in the DUNE far detector.}}{123}{figure.caption.95}
 \contentsline {figure}{\numberline {5.18}{\ignorespaces A simplified event topology demonstrated typical track and shower topologies.}}{124}{figure.caption.96}
 \contentsline {figure}{\numberline {5.19}{\ignorespaces The result of applying the track/shower separation, BlurredCluster and EMShower algorithms to the example DUNE far detector $\nu _e$CC event demonstrated in Figure\nobreakspace {}\ref {fig:nueCC}.}}{125}{figure.caption.97}
 \contentsline {figure}{\numberline {5.20}{\ignorespaces The fraction of total shower particles for which a shower object is created when using BlurredCluster/EMShower reconstruction.}}{127}{figure.caption.98}
@@ -95,7 +95,7 @@
 \contentsline {figure}{\numberline {5.22}{\ignorespaces The vector dot product between the true and reconstructed initial shower direction.}}{128}{figure.caption.99}
 \contentsline {figure}{\numberline {5.23}{\ignorespaces The completeness of the reconstruction shower energy when compared with the true deposited energy from simulation.}}{128}{figure.caption.100}
 \contentsline {figure}{\numberline {5.24}{\ignorespaces The dE/dx information from the start of the reconstructed shower object.}}{128}{figure.caption.100}
-\contentsline {figure}{\numberline {5.25}{\ignorespaces The 35-ton fully reconstructed $\pi ^0$ invariant mass peak.}}{129}{figure.caption.101}
+\contentsline {figure}{\numberline {5.25}{\ignorespaces The 35-ton fully reconstructed $\pi ^0$ invariant mass peak from simulation.}}{129}{figure.caption.101}
 \contentsline {figure}{\numberline {5.26}{\ignorespaces The 35-ton $\pi ^0$ mass peak considered using a combination of reconstructed and truth information.}}{130}{figure.caption.102}
 \contentsline {figure}{\numberline {5.27}{\ignorespaces The performance of the track/shower separation and shower reconstruction when applied to DUNE $\nu _e$CC far detector interactions.}}{132}{figure.caption.104}
 \addvspace {10\p@ }
@@ -114,7 +114,7 @@
 \contentsline {figure}{\numberline {7.7}{\ignorespaces Event display showing tracks passing across APA gaps and also through the APAs.}}{152}{figure.caption.116}
 \contentsline {figure}{\numberline {7.8}{\ignorespaces Schematic showing an example APA gap-crossing track as viewed looking down from the top of the detector.}}{153}{figure.caption.117}
 \contentsline {figure}{\numberline {7.9}{\ignorespaces Schematic showing an example track crossing two drift regions offset by an unknown quantity $\Delta z$.}}{154}{figure.caption.118}
-\contentsline {figure}{\numberline {7.10}{\ignorespaces Illustration of the eight gaps between the four APA frames.\relax }}{154}{figure.caption.119}
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Illustration of the eight gaps between the four APA frames. There are four spaces between the APAs giving rise to eight gaps, measured in the long drift (odd-numbered) and short drift (even-numbered) regions.\relax }}{154}{figure.caption.119}
 \contentsline {figure}{\numberline {7.11}{\ignorespaces The $z$-offset for the DV5/DV7 gap measured in the 35-ton data.}}{156}{figure.caption.120}
 \contentsline {figure}{\numberline {7.12}{\ignorespaces Demonstration of how an $x$-offset in the positions of the APAs can explain the degeneracy evident in the $z$-offset measured using the 35-ton data.}}{157}{figure.caption.121}
 \contentsline {figure}{\numberline {7.13}{\ignorespaces Studies of the effects of offsets in the positions of the APAs in simulation.}}{158}{figure.caption.122}
@@ -157,7 +157,7 @@
 \contentsline {figure}{\numberline {8.2}{\ignorespaces The process of tuning the electron cut in the simple cut-based selection by maximising the effect of CP-violation on the oscillation probabilities.}}{196}{figure.caption.161}
 \contentsline {figure}{\numberline {8.3}{\ignorespaces The efficiency and purity of the $\nu _e$CC Pandora cut-based selection as a function of a number of kinematic variables, after applying the selection.}}{197}{figure.caption.162}
 \contentsline {figure}{\numberline {8.4}{\ignorespaces Tuning the DUNE far detector fiducial volume, $y$-coordinate.}}{198}{figure.caption.163}
-\contentsline {figure}{\numberline {8.5}{\ignorespaces The MVA response when training $\nu _e$ (signal) against $\nu _{\mu }$ and $\nu _{\tau }$ (background).}}{200}{figure.caption.166}
+\contentsline {figure}{\numberline {8.5}{\ignorespaces The MVA response when training $\nu _e$ (signal) against $\nu _{\mu }$ and $\nu _{\tau }$ (background).}}{199}{figure.caption.166}
 \contentsline {figure}{\numberline {8.6}{\ignorespaces The efficiency and purity of the $\nu _e$CC MVA-based selection as a function of a number of kinematic variables, before applying the selection.}}{201}{figure.caption.167}
 \contentsline {figure}{\numberline {8.7}{\ignorespaces The efficiency and purity of the $\nu _e$CC MVA-based selection as a function of a number of kinematic variables, after applying the selection.}}{202}{figure.caption.168}
 \addvspace {10\p@ }

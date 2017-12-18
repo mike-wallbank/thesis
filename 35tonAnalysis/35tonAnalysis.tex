@@ -6,7 +6,7 @@
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \chapter{Analysis of 35-ton Data}\label{chap:35tonAnalysis}
 
-The 35-ton run (see Section~\ref{sec:35tonPhaseII}) provided 22 days of good quality (high purity, stable field ($250$~V/cm), stable DAQ), analysable data.  Due to the issues encountered, high quality physics analyses proved very challenging and instead studies, particularly those presented here, focused on trying to understand the detector and characterise previously untested responses.  In this respect, the 35-ton proves to be a vital experiment in informing the next generation of prototypes and even the final DUNE far detector design.  It also boasts unique datasets which no other planned experiment will possess before the full DUNE modules; it is therefore essential as much information as possible is extracted from the 35-ton analyses.
+The 35-ton run, discussed in Section~\ref{sec:35tonPhaseII}, provided 22 days of good quality (high purity, stable field ($250$~V/cm), stable DAQ), analysable data.  Due to the issues encountered, high quality physics analyses proved very challenging and instead studies, particularly those presented here, focused on trying to understand the detector and characterise previously untested responses.  In this respect, the 35-ton proves to be a vital experiment in informing the next generation of prototypes and even the final DUNE far detector design.  It also boasts unique datasets which no other planned experiment will possess before the full DUNE modules; it is therefore essential as much information as possible is extracted from the 35-ton analyses.
 
 Before analyses are presented, techniques developed to enhance the quality of the data, and the data selection, will be discussed in Section~\ref{sec:Preparing35tonData}.  The main studies, concerning tracks passing across APA gaps and through the APA frames, are presented in Section~\ref{sec:APAGapCrossing} and Section~\ref{sec:APACrossing} respectively before a brief investigation into the performance of basic shower and calorimetric reconstruction on the 35-ton data is discussed in Section~\ref{sec:ShowerData}.  A summary is provided in Section~\ref{sec:35tonDataSummary}.
 
@@ -18,7 +18,7 @@ To ensure analyses are as accurate as possible, careful pre-selection and prepro
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \subsection{Selecting the Data}\label{sec:SelectingTheData}
 
-The level of noise present in the TPC data varied hugely between runs and is immediately evident when analysing the RMS of the charge read out on a particular channel.  Figure~\ref{fig:DataRMS} shows a comparison of this metric for `good' and `bad' runs.  In this case, the figures show a `normal noise' run and one taken with the detector in the `high noise' state.  The noise worsened as the experiment progressed but, in general, runs taken with normal noise and most of the TPC operating during the period of stable data-taking were used to assemble a `good run' list by the collaboration.
+The level of noise present in the TPC data varied significantly between runs and is immediately evident when analysing the RMS of the charge read out on a particular channel.  Figure~\ref{fig:DataRMS} shows a comparison of this metric for `good' and `bad' runs.  In this case, the figures show a `normal noise' run and one taken with the detector in the `high noise' state.  The noise worsened as the experiment progressed but, in general, runs taken with normal noise and most of the TPC operating during the period of stable data-taking were used to assemble a `good run' list by the collaboration.
 
 \begin{figure}
   \centering
@@ -252,7 +252,7 @@ The gap which possesses the largest number of crossers is DV5/DV7 and so the pro
     \caption{Separated by the angle the track makes to the APAs.}
     \label{fig:DV5DV7GapAngle}
   \end{subfigure}
-  \caption[The $z$-offset for the DV5/DV7 gap measured in the 35-ton data.]{The $z$-offset for the DV5/DV7 gap measured in the 35-ton data.  A very noticeable double-peak structure is evident in Figure~\ref{fig:DV5DV7Gap}; this bias appears to be related to the sign of the angle the particle track makes to the APA planes.}
+  \caption[The $z$-offset for the DV5/DV7 gap measured in the 35-ton data.]{The $z$-offset for the DV5/DV7 gap measured in the 35-ton data.  A very noticeable double-peak structure is evident in Figure~\ref{fig:DV5DV7Gap}; this bias appears to be related to the sign of the angle the particle track makes to the APA planes, demonstrated in Figure~\ref{fig:DV5DV7GapAngle}.}
   \label{fig:DV5DV7XOffsetZOffset}
 \end{figure}
 
@@ -418,19 +418,19 @@ The offsets apparent from the data for all of the gaps accessible using TPC trac
       \midrule
       DV1/DV3 $x$-gap & 0 & $-0.377 \pm 0.006$ & $-0.377 \pm 0.006$ \\
       DV1/DV5 $x$-gap & 0 & $-0.252 \pm 0.002$ & $-0.252 \pm 0.002$ \\
-      DV3/DV7 $x$-gap & 0 & $-0.16 \pm 0.01$   & $-0.16 \pm 0.01$   \\
+      DV3/DV7 $x$-gap & 0 & $-0.16  \pm 0.01$  & $-0.16  \pm 0.01$  \\
       DV5/DV7 $x$-gap & 0 & $-0.286 \pm 0.002$ & $-0.286 \pm 0.002$ \\
       \midrule
       DV1/(3)/DV7 $x$-gap & 0 & $-0.538 \pm 0.003$ & $-0.538 \pm 0.003$ \\
       DV1/(5)/DV7 $x$-gap & 0 & $-0.537 \pm 0.010$ & $-0.537 \pm 0.010$ \\
       \midrule
-      DV1/DV3 $z$-gap & 2.53 & $-0.63 \pm 0.02$  & $1.90 \pm 0.02$   \\
+      DV1/DV3 $z$-gap & 2.08 & $-0.18 \pm 0.02$  & $1.90  \pm 0.02$  \\
       DV1/DV5 $z$-gap & 2.08 & $0.131 \pm 0.007$ & $2.211 \pm 0.007$ \\
-      DV3/DV7 $z$-gap & 1.63 & $0.55 \pm 0.03$   & $2.18 \pm 0.03$   \\
+      DV3/DV7 $z$-gap & 2.08 & $0.10  \pm 0.03$  & $2.18  \pm 0.03$  \\
       DV5/DV7 $z$-gap & 2.08 & $0.103 \pm 0.004$ & $2.183 \pm 0.004$ \\
       \midrule
       DV1/(3)/DV7 $z$-gap & 4.16 & $-0.08 \pm 0.04$ & $4.08 \pm 0.04$ \\
-      DV1/(5)/DV7 $z$-gap & 4.16 & $0.23 \pm 0.01$ & $4.39 \pm 0.01$ \\
+      DV1/(5)/DV7 $z$-gap & 4.16 & $0.23  \pm 0.01$ & $4.39 \pm 0.01$ \\
       \bottomrule
     \end{tabular}
   %}
@@ -445,7 +445,7 @@ The method demonstrated here will have direct implications for similar studies u
 
 The charge deposited by gap-crossing particles cannot be collected in the dead regions between the APA frames.  It is interesting to consider where the charge is read out in order to further understand the implications of a modular TPC design.
 
-Figure~\ref{fig:HitGapDistance} demonstrates the properties of hits as a function of distance from the nearest DV edge.  It appears more hits are found as charge is collected near a gap but the charge of these hits do not differ significantly.  This may be interpreted as hits arriving at a slightly later time near the APA gaps after drifting towards the nearest wire to the gap from a more gap-centred position.  One may expect to observe this in the data as a smearing in the tick direction where charge is deposited over more time, leading to a small gradient change.  Although not as noticeable as anticipated, this effect is observable in the event display shown in Figure~\ref{fig:evd_gap}. (MIKE mirror charge?)
+Figure~\ref{fig:HitGapDistance} demonstrates the properties of hits as a function of distance from the nearest DV edge.  It appears more hits are found as charge is collected near a gap but the charge of these hits do not differ significantly.  This may be interpreted as hits arriving at a slightly later time near the APA gaps after drifting towards the nearest wire to the gap from a more centre-gap position.  One may expect to observe this in the data as a smearing in the tick direction where charge is deposited over more time, leading to a small gradient change.  Although not as noticeable as anticipated, this effect is observable in the event display shown in Figure~\ref{fig:evd_gap}. (MIKE mirror charge?)
 
 \begin{figure}
   \centering
@@ -493,7 +493,7 @@ Without correctly accounting for T0, the tracks on each side of the APAs appear 
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \subsubsection{Aligning APA Crossing Tracks}\label{sec:APACrossingAlignment}
 
-Two complementary methods were used to accurately align the track segments across the APA.  Both involved initially correcting for the counter T0, $T_0^{\mathrm{counter}}$, before considering a range of alternative T0 hypotheses and minimising a relevant metric to determine the most likely value.  In the first method, demonstrated in Figure~\ref{fig:APACrossingAlignmentLeastSq}, a least square linear fit is applied to the track and the residual minimised (the `residual method').  The second method, demonstrated in Figure~\ref{fig:APACrossingAlignmentSeparation}, involves fitting a line to each segment in turn and minimising the projected distance between the intersections of the lines with the centre of the APAs ($x=0$) (the `separation point method').  As will be shown, and can be seen from Figs. \ref{fig:APACrossingAlignmentLeastSqMin} and \ref{fig:APACrossingAlignmentSeparationMin}, the two methods agree very well with each other.
+Two complementary methods were used to accurately align the track segments across the APA.  Both involved initially correcting for the counter T0, $T_0^{\mathrm{counter}}$, before considering a range of alternative T0 hypotheses and minimising a relevant metric to determine the most likely value.  In the first method, demonstrated in Figure~\ref{fig:APACrossingAlignmentLeastSq}, a least square linear fit is applied to the track and the residual minimised (the `residual method').  The second method, demonstrated in Figure~\ref{fig:APACrossingAlignmentSeparation}, involves fitting a line to each segment in turn and minimising the projected distance between the intersections of the lines with the centre of the APAs ($x=0$) (the `separation point method').  As will be shown, and can be seen from Figures~\ref{fig:APACrossingAlignmentLeastSqMin} and~\ref{fig:APACrossingAlignmentSeparationMin}, the two methods agree very well with each other.
 
 \begin{figure}
   \centering
@@ -532,7 +532,7 @@ Two complementary methods were used to accurately align the track segments acros
   \label{fig:APACrossingAlignmentSeparation}
 \end{figure}
 
-Naively, one would expect the T0 determined using these methods, $T_0^{\mathrm{TPC}}$, to agree with $T_0^{\mathrm{counter}}$.  This is confirmed by applying the analysis to simulated data and demonstrated in Figure~\ref{fig:TPCCounterT0DifferenceMC}.  However, there appears to be a systematic offset between the T0 given by the counters and measured from the TPC data.  The distribution of this discrepancy is shown in Figures~\ref{fig:TPCCounterT0DifferenceData} and~\ref{fig:TPCCounterT0DifferenceDataResidual} for each of the two methods described; it peaks around 61 ticks (30.5~$\mu$s) and is importantly incompatible with zero.  This suggests an inconsistency somewhere in the data taking and attempts to understand this track misalignment will be the subject of the remainder of this section.  Figure~\ref{fig:TPCCounterT0Correction} shows an example track before and after this disparity is corrected for.  As is evident from Figure~\ref{fig:TPCCounterT0Difference}, the separation point method provides more consistent results so this will be used exclusively for alignment measurements in the rest of this section.
+Naively, one would expect the T0 determined using these methods, $T_0^{\mathrm{TPC}}$, to agree with $T_0^{\mathrm{counter}}$.  This is confirmed by applying the analysis to simulated data and demonstrated in Figure~\ref{fig:TPCCounterT0DifferenceMC}.  However, there appears to be a systematic offset between the T0 given by the counters and measured from the TPC data in the 35-ton.  The distribution of this discrepancy is shown in Figures~\ref{fig:TPCCounterT0DifferenceData} and~\ref{fig:TPCCounterT0DifferenceDataResidual} for each of the two methods described; it peaks around 61 ticks (30.5~$\mu$s) and is importantly incompatible with zero.  This suggests an inconsistency somewhere in the data taking and attempts to understand this track misalignment will be the subject of the remainder of this section.  Figure~\ref{fig:TPCCounterT0Correction} shows an example track before and after this disparity is corrected for.  As is evident from Figure~\ref{fig:TPCCounterT0Difference}, the separation point method provides more consistent results so this will be used exclusively for alignment measurements in the rest of this section.
 
 \begin{figure}
   \centering
@@ -684,7 +684,7 @@ This can be tested by measuring the drift velocity directly from the data.  Taki
 
 \paragraph{Timing}
 
-The timing offset of 32~$\mu$s, calculated in Section~\ref{sec:APACrossingAlignment}, is so large it was assumed another explanation for the track segment misalignment was likely.  However, after reviewing all possibilities it appears there must be a significant timing offset present somewhere in the data.  Further evidence for this hypothesis is presented in Figure~\ref{fig:HitTimes} which displays the T0-corrected time distribution for all hits on the APA-crossing track.  The minimum drift time these hits may have, since they pass directly through the planes, is the interaction time, T0.  As is evident from the distribution in Figure~\ref{fig:HitTimesZoom}, this is around 58~ticks (29~$\mu$s) and is notably inconsistent with zero.  The curious spike at the interaction time motivates the work presented in Section~\ref{sec:APACrossingCharge} and will be discussed there.  Additionally, it is possible to compare the T0 provided by the counters with information from the photon detectors.  This is shown in Figure~\ref{fig:TPCPhotonT0Difference} and provides further confirmation for a timing miscalibration in the TPC readout.
+The timing offset of 32~$\mu$s, calculated in Section~\ref{sec:APACrossingAlignment}, is so large it was assumed another explanation for the track segment misalignment was likely.  However, after reviewing all possibilities it appears there must be a significant timing offset present somewhere in the data.  Further evidence for this hypothesis is presented in Figure~\ref{fig:HitTimes} which displays the T0-corrected time distribution for all hits on the APA-crossing track.  The minimum drift time these hits may have, since they pass directly through the planes, is the interaction time, T0.  As is evident from the distribution in Figure~\ref{fig:HitTimesZoom}, this is around 58~ticks (29~$\mu$s) and is again notably inconsistent with zero.  The curious spike at the interaction time motivates the work presented in Section~\ref{sec:APACrossingCharge} and will be discussed there.  Additionally, it is possible to compare the T0 provided by the counters with information from the photon detectors.  This is shown in Figure~\ref{fig:TPCPhotonT0Difference} and provides further confirmation for a timing miscalibration in the TPC readout.
 
 \begin{figure}
   \centering
@@ -995,7 +995,8 @@ The T0 for this particle was determined to be 4740~ticks from reconstructing fla
 An important calorimetric test of particle detectors involves demonstrating a reasonable reconstructed $\pi^0$ mass peak.  It was for this reason that the shower reconstruction discussed in Chapter~\ref{chap:LArTPCReconstruction} was developed.  An analysis of a $\pi^0$ candidate event is briefly considered here.
 
 Without full reconstruction and selection, identifying candidate events is very difficult.  Such an event was observed in the online event display however and is shown in Figure~\ref{fig:DataPi0Candidate}.
-\begin{figure}[htb]
+
+\begin{figure}
   \centering
   \includegraphics[width=10cm]{evd_run16110_subrun1_event29.png}
   \caption[A candidate $\pi^0$ event observed in the online event display during the run.]{A candidate $\pi^0$ event observed in the online event display during the run.}

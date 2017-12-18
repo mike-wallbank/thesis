@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  23 SEP 2017 10:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  18 DEC 2017 12:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1593,22 +1593,22 @@ Package natbib Warning: Citation `SNO2002' on page 1 undefined on input line 13
 (./NeutrinoPhysics/NeutrinoPhysics.tex
 Chapter 2.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 14.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 15.
 
 Package natbib Warning: Citation `Pauli1930' on page 3 undefined on input line 
-16.
+17.
 
 
 Package natbib Warning: Citation `Fermi1934Italian' on page 3 undefined on inpu
-t line 24.
+t line 25.
 
 
 Package natbib Warning: Citation `Fermi1934German' on page 3 undefined on input
- line 24.
+ line 25.
 
 
 Package natbib Warning: Citation `Wilson1968' on page 3 undefined on input line
- 24.
+ 25.
 
 [3
 
@@ -1621,117 +1621,117 @@ File: NeutrinoPhysics/Figs/ElectronEnergySpectrumBetaDecay.png Graphic file (ty
 pe png)
 <use NeutrinoPhysics/Figs/ElectronEnergySpectrumBetaDecay.png>
 Package pdftex.def Info: NeutrinoPhysics/Figs/ElectronEnergySpectrumBetaDecay.p
-ng used on input line 28.
+ng used on input line 29.
 (pdftex.def)             Requested size: 284.52756pt x 209.77379pt.
 
 Package natbib Warning: Citation `Lewis1970' on page 4 undefined on input line 
-29.
+30.
 
 
 Package natbib Warning: Citation `Lewis1970' on page 4 undefined on input line 
-29.
+30.
 
 
 Package natbib Warning: Citation `Lattes1947-159' on page 4 undefined on input 
-line 33.
+line 34.
 
 
 Package natbib Warning: Citation `Lattes1947-160' on page 4 undefined on input 
-line 33.
+line 34.
 
 
 Package natbib Warning: Citation `Lattes1947-159' on page 4 undefined on input 
-line 33.
+line 34.
 
 
 Package natbib Warning: Citation `Brown1949' on page 4 undefined on input line 
-33.
+34.
 
 
 Package natbib Warning: Citation `ReinesCowanLiquidScintillation' on page 4 und
-efined on input line 37.
+efined on input line 39.
 
 
 Package natbib Warning: Citation `ReinesCowan1953Proposal' on page 4 undefined 
-on input line 37.
+on input line 39.
 
 [4 <./NeutrinoPhysics/Figs/ElectronEnergySpectrumBetaDecay.png>]
 
 Package natbib Warning: Citation `ReinesCowan1953' on page 5 undefined on input
- line 41.
+ line 43.
 
 
 Package natbib Warning: Citation `ReinesCowan1956' on page 5 undefined on input
- line 41.
+ line 43.
 
 
 Package natbib Warning: Citation `Davis1959' on page 5 undefined on input line 
-51.
+53.
 
 
 Package natbib Warning: Citation `Danby1962' on page 5 undefined on input line 
-53.
+55.
 
 [5]
 
 Package natbib Warning: Citation `Perl1975' on page 6 undefined on input line 6
-4.
+6.
 
 
 Package natbib Warning: Citation `Feldman1977' on page 6 undefined on input lin
-e 72.
+e 74.
 
 
 Package natbib Warning: Citation `Burmester1977' on page 6 undefined on input l
-ine 72.
+ine 74.
 
 
 Package natbib Warning: Citation `DeCamp1989' on page 6 undefined on input line
- 74.
+ 76.
 
 
 Package natbib Warning: Citation `Adeva1989' on page 6 undefined on input line 
-74.
+76.
 
 
 Package natbib Warning: Citation `Akrawy1989' on page 6 undefined on input line
- 74.
+ 76.
 
 
 Package natbib Warning: Citation `Aarnio1989' on page 6 undefined on input line
- 74.
+ 76.
 
 
 Package natbib Warning: Citation `Schael2006' on page 6 undefined on input line
- 78.
+ 80.
 
 <NeutrinoPhysics/Figs/LEPZ0Resonance.pdf, id=1102, 171.65741pt x 174.80807pt>
 File: NeutrinoPhysics/Figs/LEPZ0Resonance.pdf Graphic file (type pdf)
 <use NeutrinoPhysics/Figs/LEPZ0Resonance.pdf>
 Package pdftex.def Info: NeutrinoPhysics/Figs/LEPZ0Resonance.pdf used on input 
-line 82.
+line 84.
 (pdftex.def)             Requested size: 341.43306pt x 347.70013pt.
 
 Package natbib Warning: Citation `Schael2006' on page 6 undefined on input line
- 83.
+ 85.
 
 
 Package natbib Warning: Citation `Schael2006' on page 6 undefined on input line
- 83.
+ 85.
 
 [6]
 
 Package natbib Warning: Citation `Kodama2001' on page 7 undefined on input line
- 87.
+ 89.
 
 [7 <./NeutrinoPhysics/Figs/LEPZ0Resonance.pdf>]
 
 Package natbib Warning: Citation `Bethe1939' on page 8 undefined on input line 
-91.
+94.
 
 
 Package natbib Warning: Citation `Bahcall1968' on page 8 undefined on input lin
-e 91.
+e 94.
 
 
 <NeutrinoPhysics/Figs/SolarNeutrinoCycles.pdf, id=1182, 304.94276pt x 225.30444
@@ -1739,48 +1739,48 @@ pt>
 File: NeutrinoPhysics/Figs/SolarNeutrinoCycles.pdf Graphic file (type pdf)
 <use NeutrinoPhysics/Figs/SolarNeutrinoCycles.pdf>
 Package pdftex.def Info: NeutrinoPhysics/Figs/SolarNeutrinoCycles.pdf used on i
-nput line 95.
+nput line 98.
 (pdftex.def)             Requested size: 341.43306pt x 252.26704pt.
 
 Package natbib Warning: Citation `Bahcall2005' on page 8 undefined on input lin
-e 96.
+e 99.
 
 
 Package natbib Warning: Citation `Bahcall2005' on page 8 undefined on input lin
-e 96.
+e 99.
 
 
 Package natbib Warning: Citation `Cleveland1995' on page 8 undefined on input l
-ine 100.
+ine 103.
 
 
 Package natbib Warning: Citation `Bahcall1995' on page 8 undefined on input lin
-e 100.
+e 103.
 
 [8 <./NeutrinoPhysics/Figs/SolarNeutrinoCycles.pdf>]
 
 Package natbib Warning: Citation `Hampel1999' on page 9 undefined on input line
- 106.
+ 109.
 
 
 Package natbib Warning: Citation `Abdurashitov1994' on page 9 undefined on inpu
-t line 106.
+t line 109.
 
 
 Package natbib Warning: Citation `Anselmann1992' on page 9 undefined on input l
-ine 106.
+ine 109.
 
 
 Package natbib Warning: Citation `Gaisser1990' on page 9 undefined on input lin
-e 110.
+e 114.
 
 
 Package natbib Warning: Citation `Haines1986' on page 9 undefined on input line
- 117.
+ 121.
 
 
 Package natbib Warning: Citation `Hirata1988' on page 9 undefined on input line
- 117.
+ 121.
 
 [9]
 <NeutrinoPhysics/Figs/AtmosphericNeutrinoAnomaly.pdf, id=1227, 269.26898pt x 13
@@ -1789,44 +1789,44 @@ File: NeutrinoPhysics/Figs/AtmosphericNeutrinoAnomaly.pdf Graphic file (type pd
 f)
 <use NeutrinoPhysics/Figs/AtmosphericNeutrinoAnomaly.pdf>
 Package pdftex.def Info: NeutrinoPhysics/Figs/AtmosphericNeutrinoAnomaly.pdf us
-ed on input line 123.
+ed on input line 127.
 (pdftex.def)             Requested size: 341.43306pt x 167.95334pt.
 
 Package natbib Warning: Citation `Mann1999' on page 10 undefined on input line 
-124.
+128.
 
 
 Package natbib Warning: Citation `Mann1999' on page 10 undefined on input line 
-124.
+128.
 
 
 Package natbib Warning: Citation `Pontecorvo1968' on page 10 undefined on input
- line 131.
+ line 135.
 
 
 Package natbib Warning: Citation `Pontecorvo1969' on page 10 undefined on input
- line 131.
+ line 135.
 
 
 Package natbib Warning: Citation `Pontecorvo1957' on page 10 undefined on input
- line 131.
+ line 135.
 
 [10 <./NeutrinoPhysics/Figs/AtmosphericNeutrinoAnomaly.pdf>]
 
 Package natbib Warning: Citation `Casper1991' on page 11 undefined on input lin
-e 135.
+e 140.
 
 
 Package natbib Warning: Citation `BeckerSzendy1992' on page 11 undefined on inp
-ut line 135.
+ut line 140.
 
 
 Package natbib Warning: Citation `Kamiokande1994' on page 11 undefined on input
- line 141.
+ line 147.
 
 
 Package natbib Warning: Citation `SuperKamiokande1998' on page 11 undefined on 
-input line 141.
+input line 147.
 
 
 <NeutrinoPhysics/Figs/SuperKamiokandeDirection.pdf, id=1301, 443.1045pt x 223.4
@@ -1835,254 +1835,255 @@ File: NeutrinoPhysics/Figs/SuperKamiokandeDirection.pdf Graphic file (type pdf)
 
 <use NeutrinoPhysics/Figs/SuperKamiokandeDirection.pdf>
 Package pdftex.def Info: NeutrinoPhysics/Figs/SuperKamiokandeDirection.pdf used
- on input line 145.
+ on input line 151.
 (pdftex.def)             Requested size: 443.10342pt x 223.47536pt.
 
-Overfull \hbox (5.6423pt too wide) in paragraph at lines 145--146
+Overfull \hbox (5.6423pt too wide) in paragraph at lines 151--152
  [][] 
  []
 
 
 Package natbib Warning: Citation `SuperKamiokande1998' on page 11 undefined on 
-input line 146.
+input line 152.
 
 
 Package natbib Warning: Citation `SuperKamiokande1998' on page 11 undefined on 
-input line 146.
+input line 152.
 
 
 <NeutrinoPhysics/Figs/SuperKamiokandeLE.pdf, id=1302, 223.10562pt x 220.3124pt>
 File: NeutrinoPhysics/Figs/SuperKamiokandeLE.pdf Graphic file (type pdf)
 <use NeutrinoPhysics/Figs/SuperKamiokandeLE.pdf>
 Package pdftex.def Info: NeutrinoPhysics/Figs/SuperKamiokandeLE.pdf used on inp
-ut line 152.
+ut line 158.
 (pdftex.def)             Requested size: 223.10507pt x 220.31184pt.
 
 Package natbib Warning: Citation `SuperKamiokande1998' on page 11 undefined on 
-input line 153.
+input line 159.
 
 
 Package natbib Warning: Citation `SuperKamiokande1998' on page 11 undefined on 
-input line 153.
+input line 159.
 
 
 Package natbib Warning: Citation `SNO2002' on page 11 undefined on input line 1
-59.
+66.
 
 [11] [12 <./NeutrinoPhysics/Figs/SuperKamiokandeDirection.pdf> <./NeutrinoPhysi
 cs/Figs/SuperKamiokandeLE.pdf>]
 
 Package natbib Warning: Citation `Bahcall2005Fluxes' on page 13 undefined on in
-put line 167.
+put line 174.
 
 <NeutrinoPhysics/Figs/SolarNeutrinoFluxes.pdf, id=1442, 794.97pt x 614.295pt>
 File: NeutrinoPhysics/Figs/SolarNeutrinoFluxes.pdf Graphic file (type pdf)
 <use NeutrinoPhysics/Figs/SolarNeutrinoFluxes.pdf>
 Package pdftex.def Info: NeutrinoPhysics/Figs/SolarNeutrinoFluxes.pdf used on i
-nput line 171.
+nput line 178.
 (pdftex.def)             Requested size: 455.24408pt x 351.79211pt.
 
-Overfull \hbox (17.78296pt too wide) in paragraph at lines 171--172
+Overfull \hbox (17.78296pt too wide) in paragraph at lines 178--179
  [][] 
  []
 
 
 Package natbib Warning: Citation `MNS1962' on page 13 undefined on input line 1
-78.
+86.
 
 [13] [14 <./NeutrinoPhysics/Figs/SolarNeutrinoFluxes.pdf, page is rotated 90 de
 grees>] [15] [16]
 
 Package natbib Warning: Citation `Bahcall2002' on page 17 undefined on input li
-ne 273.
+ne 282.
 
 
 Package natbib Warning: Citation `Smirnov2003' on page 17 undefined on input li
-ne 273.
+ne 282.
 
 
 Package natbib Warning: Citation `Wolfenstein1978' on page 17 undefined on inpu
-t line 275.
+t line 284.
 
 
-Package natbib Warning: Citation `MS1985' on page 17 undefined on input line 27
-5.
+Package natbib Warning: Citation `MS1985' on page 17 undefined on input line 28
+4.
 
 
-Package natbib Warning: Citation `MS1986' on page 17 undefined on input line 27
-5.
+Package natbib Warning: Citation `MS1986' on page 17 undefined on input line 28
+4.
 
 
 <NeutrinoPhysics/Figs/MatterEffectsNC.pdf, id=1567, 205.93678pt x 102.70059pt>
 File: NeutrinoPhysics/Figs/MatterEffectsNC.pdf Graphic file (type pdf)
 <use NeutrinoPhysics/Figs/MatterEffectsNC.pdf>
 Package pdftex.def Info: NeutrinoPhysics/Figs/MatterEffectsNC.pdf used on input
- line 281.
+ line 290.
 (pdftex.def)             Requested size: 205.93626pt x 102.70033pt.
 
 <NeutrinoPhysics/Figs/MatterEffectsCC.pdf, id=1568, 131.11484pt x 101.54005pt>
 File: NeutrinoPhysics/Figs/MatterEffectsCC.pdf Graphic file (type pdf)
 <use NeutrinoPhysics/Figs/MatterEffectsCC.pdf>
 Package pdftex.def Info: NeutrinoPhysics/Figs/MatterEffectsCC.pdf used on input
- line 288.
+ line 297.
 (pdftex.def)             Requested size: 131.1145pt x 101.5398pt.
 
 Package natbib Warning: Citation `KamLAND2003' on page 17 undefined on input li
-ne 298.
+ne 308.
 
 
 Package natbib Warning: Citation `KamLAND2005' on page 17 undefined on input li
-ne 298.
+ne 308.
 
 
 Package natbib Warning: Citation `Bandyopadhyay2002' on page 17 undefined on in
-put line 298.
+put line 308.
 
 
 Package natbib Warning: Citation `deHolanda2002' on page 17 undefined on input 
-line 298.
+line 308.
 
 
 Package natbib Warning: Citation `Fogli2003' on page 17 undefined on input line
- 298.
+ 308.
 
 [17]
 
 Package natbib Warning: Citation `Mannel2007' on page 18 undefined on input lin
-e 304.
+e 315.
 
 
 Package natbib Warning: Citation `Ohlsson2012' on page 18 undefined on input li
-ne 304.
+ne 315.
 
 
 Package natbib Warning: Citation `Ohlsson2013' on page 18 undefined on input li
-ne 304.
+ne 315.
 
 [18 <./NeutrinoPhysics/Figs/MatterEffectsNC.pdf> <./NeutrinoPhysics/Figs/Matter
 EffectsCC.pdf>] [19]
 
 Package natbib Warning: Citation `DUNECDR1' on page 20 undefined on input line 
-324.
+335.
 
 
 Package natbib Warning: Citation `HyperKamiokande2015' on page 20 undefined on 
-input line 324.
+input line 335.
 
 
 Package natbib Warning: Citation `Cleveland1995' on page 20 undefined on input 
-line 329.
+line 340.
 
 
 Package natbib Warning: Citation `Gallex2010' on page 20 undefined on input lin
-e 329.
+e 340.
 
 
 Package natbib Warning: Citation `Sage2009' on page 20 undefined on input line 
-329.
+340.
 
 
 Package natbib Warning: Citation `SNO2013' on page 20 undefined on input line 3
-29.
+40.
 
 
 Package natbib Warning: Citation `KamLAND2013' on page 20 undefined on input li
-ne 329.
+ne 340.
 
 
 Package natbib Warning: Citation `SuperKamiokande2010' on page 20 undefined on 
-input line 329.
+input line 340.
 
 
 Package natbib Warning: Citation `IceCube2015' on page 20 undefined on input li
-ne 329.
+ne 340.
 
 
 Package natbib Warning: Citation `MINOS2013' on page 20 undefined on input line
- 329.
+ 340.
 
 
 Package natbib Warning: Citation `MINOS2013b' on page 20 undefined on input lin
-e 329.
+e 340.
 
 
 Package natbib Warning: Citation `T2Knumu2014' on page 20 undefined on input li
-ne 329.
+ne 340.
 
 
 Package natbib Warning: Citation `NOvAnumu2016' on page 20 undefined on input l
-ine 329.
+ine 340.
 
 <NeutrinoPhysics/Figs/GlobalFit.pdf, id=1659, 550.32388pt x 792.95796pt>
 File: NeutrinoPhysics/Figs/GlobalFit.pdf Graphic file (type pdf)
 <use NeutrinoPhysics/Figs/GlobalFit.pdf>
 Package pdftex.def Info: NeutrinoPhysics/Figs/GlobalFit.pdf used on input line 
-333.
+344.
 (pdftex.def)             Requested size: 341.43306pt x 491.96764pt.
 
 Package natbib Warning: Citation `NuFit2014' on page 20 undefined on input line
- 334.
+ 345.
 
 
 Package natbib Warning: Citation `NuFit2017' on page 20 undefined on input line
- 334.
+ 345.
 
 
 Package natbib Warning: Citation `NuFit2014' on page 20 undefined on input line
- 334.
+ 345.
 
 
 Package natbib Warning: Citation `NuFit2017' on page 20 undefined on input line
- 334.
+ 345.
 
 
 Package natbib Warning: Citation `DayaBay2012' on page 20 undefined on input li
-ne 338.
+ne 349.
 
 
 Package natbib Warning: Citation `RENO2012' on page 20 undefined on input line 
-338.
+349.
 
 
 Package natbib Warning: Citation `T2Knue2014' on page 20 undefined on input lin
-e 338.
+e 349.
 
 
 Package natbib Warning: Citation `NOvAnue2016' on page 20 undefined on input li
-ne 338.
+ne 349.
 
 
 Package natbib Warning: Citation `T2K2017' on page 20 undefined on input line 3
-40.
+51.
 
 
 Package natbib Warning: Citation `NuFit2017' on page 20 undefined on input line
- 343.
+ 354.
 
 
 Package natbib Warning: Citation `NuFit2017' on page 20 undefined on input line
- 343.
+ 354.
 
 [20] [21 <./NeutrinoPhysics/Figs/GlobalFit.pdf>] <NeutrinoPhysics/Figs/MassHier
 archy.pdf, id=1704, 250.77309pt x 207.04922pt>
 File: NeutrinoPhysics/Figs/MassHierarchy.pdf Graphic file (type pdf)
 <use NeutrinoPhysics/Figs/MassHierarchy.pdf>
 Package pdftex.def Info: NeutrinoPhysics/Figs/MassHierarchy.pdf used on input l
-ine 371.
+ine 382.
 (pdftex.def)             Requested size: 284.52756pt x 234.9391pt.
+[22] [23 <./NeutrinoPhysics/Figs/MassHierarchy.pdf>]
 
-Package natbib Warning: Citation `Triotsk2011' on page 22 undefined on input li
-ne 378.
-
-
-Package natbib Warning: Citation `Mainz2005' on page 22 undefined on input line
- 378.
+Package natbib Warning: Citation `Triotsk2011' on page 24 undefined on input li
+ne 389.
 
 
-Package natbib Warning: Citation `Planck2013' on page 22 undefined on input lin
-e 378.
+Package natbib Warning: Citation `Mainz2005' on page 24 undefined on input line
+ 389.
 
-) [22] [23 <./NeutrinoPhysics/Figs/MassHierarchy.pdf>] [24]
+
+Package natbib Warning: Citation `Planck2013' on page 24 undefined on input lin
+e 389.
+
+) [24]
 \openout2 = `DUNE/DUNE.aux'.
 
 (./DUNE/DUNE.tex
@@ -2601,21 +2602,21 @@ ine 487.
 Package natbib Warning: Citation `WA105' on page 53 undefined on input line 487
 .
 
-<DUNE/Figs/NeutrinoPlatform.jpg, id=2917, 702.625pt x 410.53375pt>
+[53] <DUNE/Figs/NeutrinoPlatform.jpg, id=2921, 702.625pt x 410.53375pt>
 File: DUNE/Figs/NeutrinoPlatform.jpg Graphic file (type jpg)
 <use DUNE/Figs/NeutrinoPlatform.jpg>
 Package pdftex.def Info: DUNE/Figs/NeutrinoPlatform.jpg used on input line 491.
 
 (pdftex.def)             Requested size: 398.33858pt x 232.74756pt.
 
-Package natbib Warning: Citation `NeutrinoPlatform' on page 53 undefined on inp
+Package natbib Warning: Citation `NeutrinoPlatform' on page 54 undefined on inp
 ut line 492.
 
 
-Package natbib Warning: Citation `NeutrinoPlatform' on page 53 undefined on inp
+Package natbib Warning: Citation `NeutrinoPlatform' on page 54 undefined on inp
 ut line 492.
 
-[53]) [54 <./DUNE/Figs/35ton.pdf>] [55 <./DUNE/Figs/NeutrinoPlatform.jpg>]
+) [54 <./DUNE/Figs/35ton.pdf>] [55 <./DUNE/Figs/NeutrinoPlatform.jpg>]
 \openout2 = `35ton/35ton.aux'.
 
 (./35ton/35ton.tex [56
@@ -2854,7 +2855,7 @@ Package natbib Warning: Citation `35tonPhaseI2015' on page 67 undefined on inpu
 t line 182.
 
 [67 <./35ton/Figs/LAPDElectronLifetime.png>] [68 <./35ton/Figs/LongBo.pdf> <./3
-5ton/Figs/LongBoPurity.pdf>] <35ton/Figs/35tonCryostat.pdf, id=3431, 280.10849p
+5ton/Figs/LongBoPurity.pdf>] <35ton/Figs/35tonCryostat.pdf, id=3433, 280.10849p
 t x 220.06396pt>
 File: 35ton/Figs/35tonCryostat.pdf Graphic file (type pdf)
 <use 35ton/Figs/35tonCryostat.pdf>
@@ -2876,7 +2877,7 @@ t line 201.
 Package natbib Warning: Citation `35tonPhaseI2015' on page 69 undefined on inpu
 t line 201.
 
-<35ton/Figs/35tonLAPD.pdf, id=3433, 845.1575pt x 344.74667pt>
+<35ton/Figs/35tonLAPD.pdf, id=3435, 845.1575pt x 344.74667pt>
 File: 35ton/Figs/35tonLAPD.pdf Graphic file (type pdf)
 <use 35ton/Figs/35tonLAPD.pdf>
 Package pdftex.def Info: 35ton/Figs/35tonLAPD.pdf used on input line 230.
@@ -2890,13 +2891,13 @@ Package natbib Warning: Citation `35tonPhaseI2014' on page 69 undefined on inpu
 t line 231.
 
 [69] [70 <./35ton/Figs/35tonCryostat.pdf>] <35ton/Figs/35tonGasFilling.pdf, id=
-3489, 228.11304pt x 141.38953pt>
+3491, 228.11304pt x 141.38953pt>
 File: 35ton/Figs/35tonGasFilling.pdf Graphic file (type pdf)
 <use 35ton/Figs/35tonGasFilling.pdf>
 Package pdftex.def Info: 35ton/Figs/35tonGasFilling.pdf used on input line 246.
 
 (pdftex.def)             Requested size: 205.77896pt x 127.5471pt.
-<35ton/Figs/35tonLiquidFilling.pdf, id=3490, 470.38976pt x 299.54509pt>
+<35ton/Figs/35tonLiquidFilling.pdf, id=3492, 470.38976pt x 299.54509pt>
 File: 35ton/Figs/35tonLiquidFilling.pdf Graphic file (type pdf)
 <use 35ton/Figs/35tonLiquidFilling.pdf>
 Package pdftex.def Info: 35ton/Figs/35tonLiquidFilling.pdf used on input line 2
@@ -2911,7 +2912,7 @@ Package natbib Warning: Citation `35tonPhaseI2015' on page 71 undefined on inpu
 t line 257.
 
 [71 <./35ton/Figs/35tonLAPD.pdf, page is rotated 270 degrees>]
-<35ton/Figs/35tonPhaseIElectronLifetimeEdit.png, id=3704, 1362.08875pt x 749.80
+<35ton/Figs/35tonPhaseIElectronLifetimeEdit.png, id=3706, 1362.08875pt x 749.80
 125pt>
 File: 35ton/Figs/35tonPhaseIElectronLifetimeEdit.png Graphic file (type png)
 <use 35ton/Figs/35tonPhaseIElectronLifetimeEdit.png>
@@ -2928,7 +2929,7 @@ t line 270.
 
 [72 <./35ton/Figs/35tonGasFilling.pdf> <./35ton/Figs/35tonLiquidFilling.pdf>] [
 73 <./35ton/Figs/35tonPhaseIElectronLifetimeEdit.png>] <35ton/Figs/35tonDetecto
-r.pdf, id=3909, 596.5277pt x 468.2287pt>
+r.pdf, id=3911, 596.5277pt x 468.2287pt>
 File: 35ton/Figs/35tonDetector.pdf Graphic file (type pdf)
 <use 35ton/Figs/35tonDetector.pdf>
 Package pdftex.def Info: 35ton/Figs/35tonDetector.pdf used on input line 294.
@@ -2941,7 +2942,7 @@ Package natbib Warning: Citation `35tonPhaseINeutrino2014' on page 74 undefined
 Package natbib Warning: Citation `35tonPhaseINeutrino2014' on page 74 undefined
  on input line 295.
 
-<35ton/Figs/35tonPhoto.jpg, id=3911, 803.0pt x 1204.5pt>
+<35ton/Figs/35tonPhoto.jpg, id=3913, 803.0pt x 1204.5pt>
 File: 35ton/Figs/35tonPhoto.jpg Graphic file (type jpg)
 <use 35ton/Figs/35tonPhoto.jpg>
 Package pdftex.def Info: 35ton/Figs/35tonPhoto.jpg used on input line 303.
@@ -2952,7 +2953,7 @@ Package natbib Warning: Citation `VMS' on page 74 undefined on input line 304.
 
 Package natbib Warning: Citation `VMS' on page 74 undefined on input line 304.
 
-[74 <./35ton/Figs/35tonDetector.pdf>] <35ton/Figs/35tonGeometry.png, id=3970, 4
+[74 <./35ton/Figs/35tonDetector.pdf>] <35ton/Figs/35tonGeometry.png, id=3972, 4
 26.59375pt x 497.86pt>
 File: 35ton/Figs/35tonGeometry.png Graphic file (type png)
 <use 35ton/Figs/35tonGeometry.png>
@@ -2971,7 +2972,7 @@ on input line 318.
 Package natbib Warning: Citation `35tonPhotonDetectors' on page 78 undefined on
  input line 329.
 
-<35ton/Figs/35tonPhotonDetectors.pdf, id=3988, 415.49535pt x 522.6693pt>
+<35ton/Figs/35tonPhotonDetectors.pdf, id=3990, 415.49535pt x 522.6693pt>
 File: 35ton/Figs/35tonPhotonDetectors.pdf Graphic file (type pdf)
 <use 35ton/Figs/35tonPhotonDetectors.pdf>
 Package pdftex.def Info: 35ton/Figs/35tonPhotonDetectors.pdf used on input line
@@ -2990,7 +2991,7 @@ Package natbib Warning: Citation `CDFCounters2005' on page 78 undefined on inpu
 t line 343.
 
 [78 <./35ton/Figs/35tonPhotonDetectors.pdf>] <35ton/Figs/35tonExternalCounters.
-png, id=4011, 702.625pt x 526.96875pt>
+png, id=4013, 702.625pt x 526.96875pt>
 File: 35ton/Figs/35tonExternalCounters.png Graphic file (type png)
 <use 35ton/Figs/35tonExternalCounters.png>
 Package pdftex.def Info: 35ton/Figs/35tonExternalCounters.png used on input lin
@@ -3037,7 +3038,7 @@ eps-converted-to.pdf 35ton/Figs/trigger_system.eps>
 (epstopdf)             \includegraphics on input line 375.
 Package epstopdf Info: Output file is already uptodate.
 
-<35ton/Figs/trigger_system-eps-converted-to.pdf, id=4022, 1145.27875pt x 663.47
+<35ton/Figs/trigger_system-eps-converted-to.pdf, id=4024, 1145.27875pt x 663.47
 874pt>
 File: 35ton/Figs/trigger_system-eps-converted-to.pdf Graphic file (type pdf)
 <use 35ton/Figs/trigger_system-eps-converted-to.pdf>
@@ -3064,7 +3065,7 @@ f>
 (epstopdf)             \includegraphics on input line 387.
 Package epstopdf Info: Output file is already uptodate.
 
-<35ton/Figs/data_format-eps-converted-to.pdf, id=4024, 568.1225pt x 681.54625pt
+<35ton/Figs/data_format-eps-converted-to.pdf, id=4026, 568.1225pt x 681.54625pt
 >
 File: 35ton/Figs/data_format-eps-converted-to.pdf Graphic file (type pdf)
 <use 35ton/Figs/data_format-eps-converted-to.pdf>
@@ -3085,7 +3086,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 400.
 Package epstopdf Info: Output file is already uptodate.
 
-<35ton/Figs/triggered_event-eps-converted-to.pdf, id=4059, 845.1575pt x 599.238
+<35ton/Figs/triggered_event-eps-converted-to.pdf, id=4061, 845.1575pt x 599.238
 75pt>
 File: 35ton/Figs/triggered_event-eps-converted-to.pdf Graphic file (type pdf)
 <use 35ton/Figs/triggered_event-eps-converted-to.pdf>
@@ -3113,7 +3114,7 @@ Package natbib Warning: Citation `art2012' on page 83 undefined on input line 4
 
 pdfTeX warning: pdflatex (file ./35ton/Figs/artdaqFramework.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
-<35ton/Figs/artdaqFramework.pdf, id=4060, 939.51pt x 614.295pt>
+<35ton/Figs/artdaqFramework.pdf, id=4062, 939.51pt x 614.295pt>
 File: 35ton/Figs/artdaqFramework.pdf Graphic file (type pdf)
 <use 35ton/Figs/artdaqFramework.pdf>
 Package pdftex.def Info: 35ton/Figs/artdaqFramework.pdf used on input line 412.
@@ -3146,7 +3147,7 @@ ne 426.
 Package natbib Warning: Citation `35tonCameras2017' on page 86 undefined on inp
 ut line 426.
 
-<35ton/Figs/35tonCamerasImages.pdf, id=4087, 433.62pt x 181.67876pt>
+<35ton/Figs/35tonCamerasImages.pdf, id=4089, 433.62pt x 181.67876pt>
 File: 35ton/Figs/35tonCamerasImages.pdf Graphic file (type pdf)
 <use 35ton/Figs/35tonCamerasImages.pdf>
 Package pdftex.def Info: 35ton/Figs/35tonCamerasImages.pdf used on input line 4
@@ -3160,13 +3161,13 @@ ut line 433.
 Package natbib Warning: Citation `35tonCameras2017' on page 86 undefined on inp
 ut line 433.
 
-[86] <35ton/Figs/35tonCameraPhoto.pdf, id=4094, 347.2975pt x 260.975pt>
+[86] <35ton/Figs/35tonCameraPhoto.pdf, id=4096, 347.2975pt x 260.975pt>
 File: 35ton/Figs/35tonCameraPhoto.pdf Graphic file (type pdf)
 <use 35ton/Figs/35tonCameraPhoto.pdf>
 Package pdftex.def Info: 35ton/Figs/35tonCameraPhoto.pdf used on input line 446
 .
 (pdftex.def)             Requested size: 205.77896pt x 154.63495pt.
-<35ton/Figs/35tonCameraSchematic.pdf, id=4095, 261.97874pt x 114.4275pt>
+<35ton/Figs/35tonCameraSchematic.pdf, id=4097, 261.97874pt x 114.4275pt>
 File: 35ton/Figs/35tonCameraSchematic.pdf Graphic file (type pdf)
 <use 35ton/Figs/35tonCameraSchematic.pdf>
 Package pdftex.def Info: 35ton/Figs/35tonCameraSchematic.pdf used on input line
@@ -3181,7 +3182,7 @@ Package natbib Warning: Citation `35tonCameras2017' on page 87 undefined on inp
 ut line 457.
 
 [87 <./35ton/Figs/35tonCamerasImages.pdf>] <35ton/Figs/35tonCameraMounted.pdf, 
-id=4151, 259.97125pt x 263.98625pt>
+id=4153, 259.97125pt x 263.98625pt>
 File: 35ton/Figs/35tonCameraMounted.pdf Graphic file (type pdf)
 <use 35ton/Figs/35tonCameraMounted.pdf>
 Package pdftex.def Info: 35ton/Figs/35tonCameraMounted.pdf used on input line 4
@@ -3195,7 +3196,7 @@ ut line 475.
 Package natbib Warning: Citation `35tonCameras2017' on page 88 undefined on inp
 ut line 475.
 
-<35ton/Figs/35tonCameraDiagram.pdf, id=4152, 425.59pt x 252.945pt>
+<35ton/Figs/35tonCameraDiagram.pdf, id=4154, 425.59pt x 252.945pt>
 File: 35ton/Figs/35tonCameraDiagram.pdf Graphic file (type pdf)
 <use 35ton/Figs/35tonCameraDiagram.pdf>
 Package pdftex.def Info: 35ton/Figs/35tonCameraDiagram.pdf used on input line 4
@@ -3215,7 +3216,7 @@ ut line 486.
 
 [88 <./35ton/Figs/35tonCameraPhoto.pdf> <./35ton/Figs/35tonCameraSchematic.pdf>
 ] [89 <./35ton/Figs/35tonCameraMounted.pdf> <./35ton/Figs/35tonCameraDiagram.pd
-f>] <35ton/Figs/35tonCamerasDegredation.pdf, id=4285, 346.29375pt x 205.76875pt
+f>] <35ton/Figs/35tonCamerasDegredation.pdf, id=4287, 346.29375pt x 205.76875pt
 >
 File: 35ton/Figs/35tonCamerasDegredation.pdf Graphic file (type pdf)
 <use 35ton/Figs/35tonCamerasDegredation.pdf>
@@ -3231,18 +3232,18 @@ Package natbib Warning: Citation `35tonCameras2017' on page 90 undefined on inp
 ut line 493.
 
 [90 <./35ton/Figs/35tonCamerasDegredation.pdf>] [91] <35ton/Figs/35tonPipeBreak
-.png, id=4331, 356.33125pt x 471.7625pt>
+.png, id=4333, 356.33125pt x 471.7625pt>
 File: 35ton/Figs/35tonPipeBreak.png Graphic file (type png)
 <use 35ton/Figs/35tonPipeBreak.png>
 Package pdftex.def Info: 35ton/Figs/35tonPipeBreak.png used on input line 516.
 (pdftex.def)             Requested size: 170.71652pt x 226.0187pt.
-<35ton/Figs/35tonPhaseIIDataEdit.png, id=4333, 1307.88625pt x 745.78625pt>
+<35ton/Figs/35tonPhaseIIDataEdit.png, id=4335, 1307.88625pt x 745.78625pt>
 File: 35ton/Figs/35tonPhaseIIDataEdit.png Graphic file (type png)
 <use 35ton/Figs/35tonPhaseIIDataEdit.png>
 Package pdftex.def Info: 35ton/Figs/35tonPhaseIIDataEdit.png used on input line
  525.
 (pdftex.def)             Requested size: 398.33858pt x 227.14015pt.
-[92 <./35ton/Figs/35tonPipeBreak.png>] <35ton/Figs/FamousShower.pdf, id=4341, 5
+[92 <./35ton/Figs/35tonPipeBreak.png>] <35ton/Figs/FamousShower.pdf, id=4343, 5
 34.34451pt x 497.96748pt>
 File: 35ton/Figs/FamousShower.pdf Graphic file (type pdf)
 <use 35ton/Figs/FamousShower.pdf>
@@ -3254,7 +3255,7 @@ input line 544.
 
 [93 <./35ton/Figs/35tonPhaseIIDataEdit.png>] [94 <./35ton/Figs/FamousShower.pdf
 >] [95]
-<35ton/Figs/35tonPhotonDetectorsResolution.pdf, id=4389, 669.73631pt x 448.2081
+<35ton/Figs/35tonPhotonDetectorsResolution.pdf, id=4391, 669.73631pt x 448.2081
 9pt>
 File: 35ton/Figs/35tonPhotonDetectorsResolution.pdf Graphic file (type pdf)
 <use 35ton/Figs/35tonPhotonDetectorsResolution.pdf>
@@ -3270,7 +3271,7 @@ Package natbib Warning: Citation `35tonPhotonDetectors' on page 96 undefined on
  input line 573.
 
 
-<35ton/Figs/35tonPhotonDetectorsAttenuation.pdf, id=4390, 397.485pt x 274.02374
+<35ton/Figs/35tonPhotonDetectorsAttenuation.pdf, id=4392, 397.485pt x 274.02374
 pt>
 File: 35ton/Figs/35tonPhotonDetectorsAttenuation.pdf Graphic file (type pdf)
 <use 35ton/Figs/35tonPhotonDetectorsAttenuation.pdf>
@@ -3285,99 +3286,99 @@ Package natbib Warning: Citation `35tonPhotonDetectors' on page 96 undefined on
 Package natbib Warning: Citation `35tonPhotonDetectors' on page 96 undefined on
  input line 580.
 
-[96] <35ton/Figs/DataMuon.pdf, id=4399, 534.51366pt x 496.31381pt>
+[96] [97 <./35ton/Figs/35tonPhotonDetectorsResolution.pdf> <./35ton/Figs/35tonP
+hotonDetectorsAttenuation.pdf>] <35ton/Figs/DataMuon.pdf, id=4489, 534.51366pt 
+x 496.31381pt>
 File: 35ton/Figs/DataMuon.pdf Graphic file (type pdf)
 <use 35ton/Figs/DataMuon.pdf>
 Package pdftex.def Info: 35ton/Figs/DataMuon.pdf used on input line 608.
 (pdftex.def)             Requested size: 209.97946pt x 194.97021pt.
-<35ton/Figs/DataMuonZ1.pdf, id=4400, 454.20781pt x 82.582pt>
+<35ton/Figs/DataMuonZ1.pdf, id=4490, 454.20781pt x 82.582pt>
 File: 35ton/Figs/DataMuonZ1.pdf Graphic file (type pdf)
 <use 35ton/Figs/DataMuonZ1.pdf>
 Package pdftex.def Info: 35ton/Figs/DataMuonZ1.pdf used on input line 612.
 (pdftex.def)             Requested size: 167.9842pt x 30.54225pt.
-<35ton/Figs/DataMuonZ2.pdf, id=4401, 454.00638pt x 82.01332pt>
+<35ton/Figs/DataMuonZ2.pdf, id=4491, 454.00638pt x 82.01332pt>
 File: 35ton/Figs/DataMuonZ2.pdf Graphic file (type pdf)
 <use 35ton/Figs/DataMuonZ2.pdf>
 Package pdftex.def Info: 35ton/Figs/DataMuonZ2.pdf used on input line 613.
 (pdftex.def)             Requested size: 167.9842pt x 30.34444pt.
-<35ton/Figs/DataMuonV1.pdf, id=4402, 454.2594pt x 81.98651pt>
+<35ton/Figs/DataMuonV1.pdf, id=4492, 454.2594pt x 81.98651pt>
 File: 35ton/Figs/DataMuonV1.pdf Graphic file (type pdf)
 <use 35ton/Figs/DataMuonV1.pdf>
 Package pdftex.def Info: 35ton/Figs/DataMuonV1.pdf used on input line 614.
 (pdftex.def)             Requested size: 167.9842pt x 30.31825pt.
-<35ton/Figs/DataMuonV2.pdf, id=4403, 454.78326pt x 82.18346pt>
+<35ton/Figs/DataMuonV2.pdf, id=4493, 454.78326pt x 82.18346pt>
 File: 35ton/Figs/DataMuonV2.pdf Graphic file (type pdf)
 <use 35ton/Figs/DataMuonV2.pdf>
 Package pdftex.def Info: 35ton/Figs/DataMuonV2.pdf used on input line 615.
 (pdftex.def)             Requested size: 167.9842pt x 30.35597pt.
-<35ton/Figs/DataMuonU1.pdf, id=4404, 454.53304pt x 83.19664pt>
+<35ton/Figs/DataMuonU1.pdf, id=4494, 454.53304pt x 83.19664pt>
 File: 35ton/Figs/DataMuonU1.pdf Graphic file (type pdf)
 <use 35ton/Figs/DataMuonU1.pdf>
 Package pdftex.def Info: 35ton/Figs/DataMuonU1.pdf used on input line 616.
 (pdftex.def)             Requested size: 167.9842pt x 30.74672pt.
-<35ton/Figs/DataMuonU2.pdf, id=4405, 454.4989pt x 82.8328pt>
+<35ton/Figs/DataMuonU2.pdf, id=4495, 454.4989pt x 82.8328pt>
 File: 35ton/Figs/DataMuonU2.pdf Graphic file (type pdf)
 <use 35ton/Figs/DataMuonU2.pdf>
 Package pdftex.def Info: 35ton/Figs/DataMuonU2.pdf used on input line 617.
 (pdftex.def)             Requested size: 167.9842pt x 30.61604pt.
-<35ton/Figs/SimulatedMuon.pdf, id=4406, 533.32674pt x 495.5808pt>
+<35ton/Figs/SimulatedMuon.pdf, id=4496, 533.32674pt x 495.5808pt>
 File: 35ton/Figs/SimulatedMuon.pdf Graphic file (type pdf)
 <use 35ton/Figs/SimulatedMuon.pdf>
 Package pdftex.def Info: 35ton/Figs/SimulatedMuon.pdf used on input line 628.
 (pdftex.def)             Requested size: 209.97946pt x 195.12083pt.
-<35ton/Figs/SimulatedMuonZ1.pdf, id=4407, 453.07268pt x 82.32909pt>
+<35ton/Figs/SimulatedMuonZ1.pdf, id=4497, 453.07268pt x 82.32909pt>
 File: 35ton/Figs/SimulatedMuonZ1.pdf Graphic file (type pdf)
 <use 35ton/Figs/SimulatedMuonZ1.pdf>
 Package pdftex.def Info: 35ton/Figs/SimulatedMuonZ1.pdf used on input line 632.
 
 (pdftex.def)             Requested size: 167.9842pt x 30.52534pt.
-<35ton/Figs/SimulatedMuonZ2.pdf, id=4408, 453.3212pt x 81.95517pt>
+<35ton/Figs/SimulatedMuonZ2.pdf, id=4498, 453.3212pt x 81.95517pt>
 File: 35ton/Figs/SimulatedMuonZ2.pdf Graphic file (type pdf)
 <use 35ton/Figs/SimulatedMuonZ2.pdf>
 Package pdftex.def Info: 35ton/Figs/SimulatedMuonZ2.pdf used on input line 633.
 
 (pdftex.def)             Requested size: 167.9842pt x 30.3692pt.
-<35ton/Figs/SimulatedMuonV1.pdf, id=4409, 454.07132pt x 82.2305pt>
+<35ton/Figs/SimulatedMuonV1.pdf, id=4499, 454.07132pt x 82.2305pt>
 File: 35ton/Figs/SimulatedMuonV1.pdf Graphic file (type pdf)
 <use 35ton/Figs/SimulatedMuonV1.pdf>
 Package pdftex.def Info: 35ton/Figs/SimulatedMuonV1.pdf used on input line 634.
 
 (pdftex.def)             Requested size: 167.9842pt x 30.42104pt.
-<35ton/Figs/SimulatedMuonV2.pdf, id=4410, 454.57509pt x 83.11258pt>
+<35ton/Figs/SimulatedMuonV2.pdf, id=4500, 454.57509pt x 83.11258pt>
 File: 35ton/Figs/SimulatedMuonV2.pdf Graphic file (type pdf)
 <use 35ton/Figs/SimulatedMuonV2.pdf>
 Package pdftex.def Info: 35ton/Figs/SimulatedMuonV2.pdf used on input line 635.
 
 (pdftex.def)             Requested size: 167.9842pt x 30.71312pt.
-<35ton/Figs/SimulatedMuonU1.pdf, id=4411, 454.64775pt x 82.29051pt>
+<35ton/Figs/SimulatedMuonU1.pdf, id=4501, 454.64775pt x 82.29051pt>
 File: 35ton/Figs/SimulatedMuonU1.pdf Graphic file (type pdf)
 <use 35ton/Figs/SimulatedMuonU1.pdf>
 Package pdftex.def Info: 35ton/Figs/SimulatedMuonU1.pdf used on input line 636.
 
 (pdftex.def)             Requested size: 167.9842pt x 30.40431pt.
-<35ton/Figs/SimulatedMuonU2.pdf, id=4412, 454.48326pt x 82.79694pt>
+<35ton/Figs/SimulatedMuonU2.pdf, id=4502, 454.48326pt x 82.79694pt>
 File: 35ton/Figs/SimulatedMuonU2.pdf Graphic file (type pdf)
 <use 35ton/Figs/SimulatedMuonU2.pdf>
 Package pdftex.def Info: 35ton/Figs/SimulatedMuonU2.pdf used on input line 637.
 
 (pdftex.def)             Requested size: 167.9842pt x 30.6028pt.
-[97 <./35ton/Figs/35tonPhotonDetectorsResolution.pdf> <./35ton/Figs/35tonPhoton
-DetectorsAttenuation.pdf>]
 
 Package natbib Warning: Citation `35tonNoise2016' on page 98 undefined on input
  line 648.
 
-<35ton/Figs/FFTRun13079.png, id=4502, 774.895pt x 510.90875pt>
+<35ton/Figs/FFTRun13079.png, id=4504, 774.895pt x 510.90875pt>
 File: 35ton/Figs/FFTRun13079.png Graphic file (type png)
 <use 35ton/Figs/FFTRun13079.png>
 Package pdftex.def Info: 35ton/Figs/FFTRun13079.png used on input line 654.
 (pdftex.def)             Requested size: 205.77896pt x 135.67082pt.
-<35ton/Figs/FFTRun10286.png, id=4503, 774.895pt x 509.905pt>
+<35ton/Figs/FFTRun10286.png, id=4505, 774.895pt x 509.905pt>
 File: 35ton/Figs/FFTRun10286.png Graphic file (type png)
 <use 35ton/Figs/FFTRun10286.png>
 Package pdftex.def Info: 35ton/Figs/FFTRun10286.png used on input line 661.
 (pdftex.def)             Requested size: 205.77896pt x 135.40427pt.
-<35ton/Figs/NoiseCorrelation.png, id=4507, 798.985pt x 575.14874pt>
+<35ton/Figs/NoiseCorrelation.png, id=4509, 798.985pt x 575.14874pt>
 File: 35ton/Figs/NoiseCorrelation.png Graphic file (type png)
 <use 35ton/Figs/NoiseCorrelation.png>
 Package pdftex.def Info: 35ton/Figs/NoiseCorrelation.png used on input line 673
@@ -3432,7 +3433,7 @@ ne 18.
 
 
 ]
-<LArTPCReconstruction/Figs/LArSoftStructure.pdf, id=4918, 171.64125pt x 133.498
+<LArTPCReconstruction/Figs/LArSoftStructure.pdf, id=4921, 171.64125pt x 133.498
 75pt>
 File: LArTPCReconstruction/Figs/LArSoftStructure.pdf Graphic file (type pdf)
 <use LArTPCReconstruction/Figs/LArSoftStructure.pdf>
@@ -3461,7 +3462,7 @@ Package natbib Warning: Citation `MicroBooNEReconstruction2017' on page 105 und
 efined on input line 31.
 
 
-<LArTPCReconstruction/Figs/ReconstructionWorkflow.pdf, id=4951, 211.79124pt x 2
+<LArTPCReconstruction/Figs/ReconstructionWorkflow.pdf, id=4953, 211.79124pt x 2
 14.8025pt>
 File: LArTPCReconstruction/Figs/ReconstructionWorkflow.pdf Graphic file (type p
 df)
@@ -3495,14 +3496,14 @@ Package natbib Warning: Citation `GarfieldWebsite' on page 106 undefined on inp
 ut line 62.
 
 
-<LArTPCReconstruction/Figs/FieldResponse.png, id=4961, 218.7372pt x 157.5486pt>
+<LArTPCReconstruction/Figs/FieldResponse.png, id=4963, 218.7372pt x 157.5486pt>
 File: LArTPCReconstruction/Figs/FieldResponse.png Graphic file (type png)
 <use LArTPCReconstruction/Figs/FieldResponse.png>
 Package pdftex.def Info: LArTPCReconstruction/Figs/FieldResponse.png used on in
 put line 68.
 (pdftex.def)             Requested size: 205.77896pt x 148.21588pt.
 
-<LArTPCReconstruction/Figs/ElectronicsResponse.png, id=4962, 619.31375pt x 419.
+<LArTPCReconstruction/Figs/ElectronicsResponse.png, id=4964, 619.31375pt x 419.
 5675pt>
 File: LArTPCReconstruction/Figs/ElectronicsResponse.png Graphic file (type png)
 
@@ -3519,20 +3520,20 @@ Package natbib Warning: Citation `MicroBooNERawCharge2016' on page 106 undefine
 d on input line 79.
 
 [106 <./LArTPCReconstruction/Figs/ReconstructionWorkflow.pdf>]
-<LArTPCReconstruction/Figs/HitFindingU.pdf, id=4999, 454.29735pt x 83.31636pt>
+<LArTPCReconstruction/Figs/HitFindingU.pdf, id=5001, 454.29735pt x 83.31636pt>
 File: LArTPCReconstruction/Figs/HitFindingU.pdf Graphic file (type pdf)
 <use LArTPCReconstruction/Figs/HitFindingU.pdf>
 Package pdftex.def Info: LArTPCReconstruction/Figs/HitFindingU.pdf used on inpu
 t line 89.
 (pdftex.def)             Requested size: 131.23967pt x 24.06958pt.
 
-<LArTPCReconstruction/Figs/HitFindingV.pdf, id=5000, 453.96832pt x 82.50142pt>
+<LArTPCReconstruction/Figs/HitFindingV.pdf, id=5002, 453.96832pt x 82.50142pt>
 File: LArTPCReconstruction/Figs/HitFindingV.pdf Graphic file (type pdf)
 <use LArTPCReconstruction/Figs/HitFindingV.pdf>
 Package pdftex.def Info: LArTPCReconstruction/Figs/HitFindingV.pdf used on inpu
 t line 96.
 (pdftex.def)             Requested size: 131.23967pt x 23.85051pt.
-<LArTPCReconstruction/Figs/HitFindingZ.pdf, id=5001, 452.8377pt x 82.95595pt>
+<LArTPCReconstruction/Figs/HitFindingZ.pdf, id=5003, 452.8377pt x 82.95595pt>
 File: LArTPCReconstruction/Figs/HitFindingZ.pdf Graphic file (type pdf)
 <use LArTPCReconstruction/Figs/HitFindingZ.pdf>
 Package pdftex.def Info: LArTPCReconstruction/Figs/HitFindingZ.pdf used on inpu
@@ -3547,14 +3548,14 @@ Package natbib Warning: Citation `ClusterCrawler' on page 108 undefined on inpu
 t line 118.
 
 
-<LArTPCReconstruction/Figs/2DnumuCCHits.pdf, id=5094, 533.32912pt x 523.4457pt>
+<LArTPCReconstruction/Figs/2DnumuCCHits.pdf, id=5096, 533.32912pt x 523.4457pt>
 File: LArTPCReconstruction/Figs/2DnumuCCHits.pdf Graphic file (type pdf)
 <use LArTPCReconstruction/Figs/2DnumuCCHits.pdf>
 Package pdftex.def Info: LArTPCReconstruction/Figs/2DnumuCCHits.pdf used on inp
 ut line 124.
 (pdftex.def)             Requested size: 205.77896pt x 201.97049pt.
 
-<LArTPCReconstruction/Figs/2DnumuCCClusters.pdf, id=5095, 533.84288pt x 522.912
+<LArTPCReconstruction/Figs/2DnumuCCClusters.pdf, id=5097, 533.84288pt x 522.912
 22pt>
 File: LArTPCReconstruction/Figs/2DnumuCCClusters.pdf Graphic file (type pdf)
 <use LArTPCReconstruction/Figs/2DnumuCCClusters.pdf>
@@ -3568,14 +3569,14 @@ Package natbib Warning: Citation `PMA2013' on page 109 undefined on input line
 141.
 
 
-<LArTPCReconstruction/Figs/3DnumuCC2D.pdf, id=5173, 532.68799pt x 522.71286pt>
+<LArTPCReconstruction/Figs/3DnumuCC2D.pdf, id=5175, 532.68799pt x 522.71286pt>
 File: LArTPCReconstruction/Figs/3DnumuCC2D.pdf Graphic file (type pdf)
 <use LArTPCReconstruction/Figs/3DnumuCC2D.pdf>
 Package pdftex.def Info: LArTPCReconstruction/Figs/3DnumuCC2D.pdf used on input
  line 147.
 (pdftex.def)             Requested size: 205.77896pt x 201.92702pt.
 
-<LArTPCReconstruction/Figs/3DnumuCC3D.pdf, id=5174, 569.12625pt x 643.40375pt>
+<LArTPCReconstruction/Figs/3DnumuCC3D.pdf, id=5176, 569.12625pt x 643.40375pt>
 File: LArTPCReconstruction/Figs/3DnumuCC3D.pdf Graphic file (type pdf)
 <use LArTPCReconstruction/Figs/3DnumuCC3D.pdf>
 Package pdftex.def Info: LArTPCReconstruction/Figs/3DnumuCC3D.pdf used on input
@@ -3602,7 +3603,7 @@ nergyConversionFD.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <LArTPCReconstruction/Figs/ShowerEnergyConversionFD-eps-converted-to.pdf, id=52
-73, 569.12625pt x 409.53pt>
+75, 569.12625pt x 409.53pt>
 File: LArTPCReconstruction/Figs/ShowerEnergyConversionFD-eps-converted-to.pdf G
 raphic file (type pdf)
 <use LArTPCReconstruction/Figs/ShowerEnergyConversionFD-eps-converted-to.pdf>
@@ -3615,7 +3616,7 @@ e 191.
 
 [111 <./LArTPCReconstruction/Figs/ShowerEnergyConversionFD-eps-converted-to.pdf
 >]
-<LArTPCReconstruction/Figs/EVDPi0Hits.pdf, id=5296, 534.16978pt x 496.73973pt>
+<LArTPCReconstruction/Figs/EVDPi0Hits.pdf, id=5298, 534.16978pt x 496.73973pt>
 File: LArTPCReconstruction/Figs/EVDPi0Hits.pdf Graphic file (type pdf)
 <use LArTPCReconstruction/Figs/EVDPi0Hits.pdf>
 Package pdftex.def Info: LArTPCReconstruction/Figs/EVDPi0Hits.pdf used on input
@@ -3649,7 +3650,7 @@ l.eps>
 (epstopdf)             \includegraphics on input line 244.
 Package epstopdf Info: Output file is already uptodate.
 
-<LArTPCReconstruction/Figs/2DGaussianKernel-eps-converted-to.pdf, id=5337, 569.
+<LArTPCReconstruction/Figs/2DGaussianKernel-eps-converted-to.pdf, id=5339, 569.
 12625pt x 386.44376pt>
 File: LArTPCReconstruction/Figs/2DGaussianKernel-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -3658,62 +3659,62 @@ Package pdftex.def Info: LArTPCReconstruction/Figs/2DGaussianKernel-eps-convert
 ed-to.pdf used on input line 244.
 (pdftex.def)             Requested size: 284.52756pt x 193.2037pt.
 [114 <./LArTPCReconstruction/Figs/2DGaussianKernel-eps-converted-to.pdf>] <LArT
-PCReconstruction/Figs/blurring1.png, id=5359, 642.4pt x 481.8pt>
+PCReconstruction/Figs/blurring1.png, id=5361, 642.4pt x 481.8pt>
 File: LArTPCReconstruction/Figs/blurring1.png Graphic file (type png)
 <use LArTPCReconstruction/Figs/blurring1.png>
 Package pdftex.def Info: LArTPCReconstruction/Figs/blurring1.png used on input 
 line 257.
 (pdftex.def)             Requested size: 131.23967pt x 98.4241pt.
-<LArTPCReconstruction/Figs/blurring2.png, id=5360, 642.4pt x 481.8pt>
+<LArTPCReconstruction/Figs/blurring2.png, id=5362, 642.4pt x 481.8pt>
 File: LArTPCReconstruction/Figs/blurring2.png Graphic file (type png)
 <use LArTPCReconstruction/Figs/blurring2.png>
 Package pdftex.def Info: LArTPCReconstruction/Figs/blurring2.png used on input 
 line 263.
 (pdftex.def)             Requested size: 131.23967pt x 98.4241pt.
-<LArTPCReconstruction/Figs/blurring3.png, id=5361, 642.4pt x 481.8pt>
+<LArTPCReconstruction/Figs/blurring3.png, id=5363, 642.4pt x 481.8pt>
 File: LArTPCReconstruction/Figs/blurring3.png Graphic file (type png)
 <use LArTPCReconstruction/Figs/blurring3.png>
 Package pdftex.def Info: LArTPCReconstruction/Figs/blurring3.png used on input 
 line 269.
 (pdftex.def)             Requested size: 131.23967pt x 98.4241pt.
-<LArTPCReconstruction/Figs/blurring4.png, id=5362, 642.4pt x 481.8pt>
+<LArTPCReconstruction/Figs/blurring4.png, id=5364, 642.4pt x 481.8pt>
 File: LArTPCReconstruction/Figs/blurring4.png Graphic file (type png)
 <use LArTPCReconstruction/Figs/blurring4.png>
 Package pdftex.def Info: LArTPCReconstruction/Figs/blurring4.png used on input 
 line 275.
 (pdftex.def)             Requested size: 131.23967pt x 98.4241pt.
-<LArTPCReconstruction/Figs/blurring5.png, id=5363, 642.4pt x 481.8pt>
+<LArTPCReconstruction/Figs/blurring5.png, id=5365, 642.4pt x 481.8pt>
 File: LArTPCReconstruction/Figs/blurring5.png Graphic file (type png)
 <use LArTPCReconstruction/Figs/blurring5.png>
 Package pdftex.def Info: LArTPCReconstruction/Figs/blurring5.png used on input 
 line 281.
 (pdftex.def)             Requested size: 131.23967pt x 98.4241pt.
-<LArTPCReconstruction/Figs/blurring6.png, id=5364, 642.4pt x 481.8pt>
+<LArTPCReconstruction/Figs/blurring6.png, id=5366, 642.4pt x 481.8pt>
 File: LArTPCReconstruction/Figs/blurring6.png Graphic file (type png)
 <use LArTPCReconstruction/Figs/blurring6.png>
 Package pdftex.def Info: LArTPCReconstruction/Figs/blurring6.png used on input 
 line 287.
 (pdftex.def)             Requested size: 131.23967pt x 98.4241pt.
-<LArTPCReconstruction/Figs/blurring7.png, id=5365, 642.4pt x 481.8pt>
+<LArTPCReconstruction/Figs/blurring7.png, id=5367, 642.4pt x 481.8pt>
 File: LArTPCReconstruction/Figs/blurring7.png Graphic file (type png)
 <use LArTPCReconstruction/Figs/blurring7.png>
 Package pdftex.def Info: LArTPCReconstruction/Figs/blurring7.png used on input 
 line 293.
 (pdftex.def)             Requested size: 131.23967pt x 98.4241pt.
-<LArTPCReconstruction/Figs/blurring8.png, id=5366, 642.4pt x 481.8pt>
+<LArTPCReconstruction/Figs/blurring8.png, id=5368, 642.4pt x 481.8pt>
 File: LArTPCReconstruction/Figs/blurring8.png Graphic file (type png)
 <use LArTPCReconstruction/Figs/blurring8.png>
 Package pdftex.def Info: LArTPCReconstruction/Figs/blurring8.png used on input 
 line 299.
 (pdftex.def)             Requested size: 131.23967pt x 98.4241pt.
-<LArTPCReconstruction/Figs/blurring9.png, id=5367, 642.4pt x 481.8pt>
+<LArTPCReconstruction/Figs/blurring9.png, id=5369, 642.4pt x 481.8pt>
 File: LArTPCReconstruction/Figs/blurring9.png Graphic file (type png)
 <use LArTPCReconstruction/Figs/blurring9.png>
 Package pdftex.def Info: LArTPCReconstruction/Figs/blurring9.png used on input 
 line 305.
 (pdftex.def)             Requested size: 131.23967pt x 98.4241pt.
 
-<LArTPCReconstruction/Figs/EVDPi0BlurPlane0.pdf, id=5370, 256.20187pt x 115.212
+<LArTPCReconstruction/Figs/EVDPi0BlurPlane0.pdf, id=5372, 256.20187pt x 115.212
 81pt>
 File: LArTPCReconstruction/Figs/EVDPi0BlurPlane0.pdf Graphic file (type pdf)
 <use LArTPCReconstruction/Figs/EVDPi0BlurPlane0.pdf>
@@ -3721,7 +3722,7 @@ Package pdftex.def Info: LArTPCReconstruction/Figs/EVDPi0BlurPlane0.pdf used on
  input line 318.
 (pdftex.def)             Requested size: 205.77896pt x 92.54129pt.
 
-<LArTPCReconstruction/Figs/EVDPi0BlurPlane2.pdf, id=5371, 256.12428pt x 115.578
+<LArTPCReconstruction/Figs/EVDPi0BlurPlane2.pdf, id=5373, 256.12428pt x 115.578
 14pt>
 File: LArTPCReconstruction/Figs/EVDPi0BlurPlane2.pdf Graphic file (type pdf)
 <use LArTPCReconstruction/Figs/EVDPi0BlurPlane2.pdf>
@@ -3729,7 +3730,7 @@ Package pdftex.def Info: LArTPCReconstruction/Figs/EVDPi0BlurPlane2.pdf used on
  input line 325.
 (pdftex.def)             Requested size: 205.77896pt x 92.86296pt.
 
-<LArTPCReconstruction/Figs/EVDPi0Clusters.pdf, id=5375, 533.51604pt x 496.47363
+<LArTPCReconstruction/Figs/EVDPi0Clusters.pdf, id=5377, 533.51604pt x 496.47363
 pt>
 File: LArTPCReconstruction/Figs/EVDPi0Clusters.pdf Graphic file (type pdf)
 <use LArTPCReconstruction/Figs/EVDPi0Clusters.pdf>
@@ -3756,7 +3757,7 @@ GlobalWire-eps-converted-to.pdf LArTPCReconstruction/Figs/GlobalWire.eps>
 (epstopdf)             \includegraphics on input line 351.
 Package epstopdf Info: Output file is already uptodate.
 
-<LArTPCReconstruction/Figs/GlobalWire-eps-converted-to.pdf, id=5417, 506.89375p
+<LArTPCReconstruction/Figs/GlobalWire-eps-converted-to.pdf, id=5419, 506.89375p
 t x 236.885pt>
 File: LArTPCReconstruction/Figs/GlobalWire-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -3780,7 +3781,7 @@ Package pdftex.def Info: LArTPCReconstruction/Figs/EVDPi0Clusters.pdf used on i
 nput line 372.
 (pdftex.def)             Requested size: 205.77896pt x 191.4952pt.
 
-<LArTPCReconstruction/Figs/EVDPi0Tracks2D.pdf, id=5464, 533.96817pt x 496.82936
+<LArTPCReconstruction/Figs/EVDPi0Tracks2D.pdf, id=5467, 533.96817pt x 496.82936
 pt>
 File: LArTPCReconstruction/Figs/EVDPi0Tracks2D.pdf Graphic file (type pdf)
 <use LArTPCReconstruction/Figs/EVDPi0Tracks2D.pdf>
@@ -3788,7 +3789,7 @@ Package pdftex.def Info: LArTPCReconstruction/Figs/EVDPi0Tracks2D.pdf used on i
 nput line 379.
 (pdftex.def)             Requested size: 205.77896pt x 191.46562pt.
 [119 <./LArTPCReconstruction/Figs/EVDPi0Tracks2D.pdf>]
-<LArTPCReconstruction/Figs/ShowerReconDirectionPositive.png, id=5504, 633.36626
+<LArTPCReconstruction/Figs/ShowerReconDirectionPositive.png, id=5506, 633.36626
 pt x 645.41125pt>
 File: LArTPCReconstruction/Figs/ShowerReconDirectionPositive.png Graphic file (
 type png)
@@ -3797,7 +3798,7 @@ Package pdftex.def Info: LArTPCReconstruction/Figs/ShowerReconDirectionPositive
 .png used on input line 402.
 (pdftex.def)             Requested size: 205.77896pt x 209.68723pt.
 
-<LArTPCReconstruction/Figs/ShowerReconDirectionNegative.png, id=5505, 629.35126
+<LArTPCReconstruction/Figs/ShowerReconDirectionNegative.png, id=5507, 629.35126
 pt x 643.40375pt>
 File: LArTPCReconstruction/Figs/ShowerReconDirectionNegative.png Graphic file (
 type png)
@@ -3806,7 +3807,7 @@ Package pdftex.def Info: LArTPCReconstruction/Figs/ShowerReconDirectionNegative
 .png used on input line 409.
 (pdftex.def)             Requested size: 205.77896pt x 210.3702pt.
 [120]
-<LArTPCReconstruction/Figs/EVDPi0Shower2D.pdf, id=5513, 533.36313pt x 497.55083
+<LArTPCReconstruction/Figs/EVDPi0Shower2D.pdf, id=5515, 533.36313pt x 497.55083
 pt>
 File: LArTPCReconstruction/Figs/EVDPi0Shower2D.pdf Graphic file (type pdf)
 <use LArTPCReconstruction/Figs/EVDPi0Shower2D.pdf>
@@ -3814,7 +3815,7 @@ Package pdftex.def Info: LArTPCReconstruction/Figs/EVDPi0Shower2D.pdf used on i
 nput line 425.
 (pdftex.def)             Requested size: 205.77896pt x 191.95624pt.
 
-<LArTPCReconstruction/Figs/EVDPi0Shower3D.pdf, id=5514, 569.12625pt x 643.40375
+<LArTPCReconstruction/Figs/EVDPi0Shower3D.pdf, id=5516, 569.12625pt x 643.40375
 pt>
 File: LArTPCReconstruction/Figs/EVDPi0Shower3D.pdf Graphic file (type pdf)
 <use LArTPCReconstruction/Figs/EVDPi0Shower3D.pdf>
@@ -3824,14 +3825,14 @@ nput line 432.
 [121 <./LArTPCReconstruction/Figs/ShowerReconDirectionPositive.png> <./LArTPCRe
 construction/Figs/ShowerReconDirectionNegative.png>] [122 <./LArTPCReconstructi
 on/Figs/EVDPi0Shower2D.pdf> <./LArTPCReconstruction/Figs/EVDPi0Shower3D.pdf>] <
-LArTPCReconstruction/Figs/NuECCHits.pdf, id=5606, 533.44pt x 523.3448pt>
+LArTPCReconstruction/Figs/NuECCHits.pdf, id=5608, 533.44pt x 523.3448pt>
 File: LArTPCReconstruction/Figs/NuECCHits.pdf Graphic file (type pdf)
 <use LArTPCReconstruction/Figs/NuECCHits.pdf>
 Package pdftex.def Info: LArTPCReconstruction/Figs/NuECCHits.pdf used on input 
 line 451.
 (pdftex.def)             Requested size: 284.52756pt x 279.13623pt.
 [123 <./LArTPCReconstruction/Figs/NuECCHits.pdf>]
-<LArTPCReconstruction/Figs/TrackShowerExampleEVDAnnotated.pdf, id=5636, 379.795
+<LArTPCReconstruction/Figs/TrackShowerExampleEVDAnnotated.pdf, id=5638, 379.795
 1pt x 139.04378pt>
 File: LArTPCReconstruction/Figs/TrackShowerExampleEVDAnnotated.pdf Graphic file
  (type pdf)
@@ -3840,7 +3841,7 @@ Package pdftex.def Info: LArTPCReconstruction/Figs/TrackShowerExampleEVDAnnotat
 ed.pdf used on input line 467.
 (pdftex.def)             Requested size: 341.43306pt x 125.00244pt.
 
-<LArTPCReconstruction/Figs/NuECCTrackShower2D.pdf, id=5641, 533.21535pt x 524.6
+<LArTPCReconstruction/Figs/NuECCTrackShower2D.pdf, id=5643, 533.21535pt x 524.6
 0733pt>
 File: LArTPCReconstruction/Figs/NuECCTrackShower2D.pdf Graphic file (type pdf)
 <use LArTPCReconstruction/Figs/NuECCTrackShower2D.pdf>
@@ -3848,7 +3849,7 @@ Package pdftex.def Info: LArTPCReconstruction/Figs/NuECCTrackShower2D.pdf used
 on input line 480.
 (pdftex.def)             Requested size: 205.77896pt x 202.45874pt.
 
-<LArTPCReconstruction/Figs/NuECCTrackShower3D.pdf, id=5642, 569.12625pt x 643.4
+<LArTPCReconstruction/Figs/NuECCTrackShower3D.pdf, id=5644, 569.12625pt x 643.4
 0375pt>
 File: LArTPCReconstruction/Figs/NuECCTrackShower3D.pdf Graphic file (type pdf)
 <use LArTPCReconstruction/Figs/NuECCTrackShower3D.pdf>
@@ -3873,7 +3874,7 @@ ReconstructedEnergy.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <LArTPCReconstruction/Figs/ShowerReconstructedEnergy-eps-converted-to.pdf, id=5
-749, 569.12625pt x 409.53pt>
+751, 569.12625pt x 409.53pt>
 File: LArTPCReconstruction/Figs/ShowerReconstructedEnergy-eps-converted-to.pdf 
 Graphic file (type pdf)
 
@@ -3895,7 +3896,7 @@ ShowerStart-eps-converted-to.pdf LArTPCReconstruction/Figs/ShowerStart.eps>
 (epstopdf)             \includegraphics on input line 525.
 Package epstopdf Info: Output file is already uptodate.
 
-<LArTPCReconstruction/Figs/ShowerStart-eps-converted-to.pdf, id=5757, 569.12625
+<LArTPCReconstruction/Figs/ShowerStart-eps-converted-to.pdf, id=5759, 569.12625
 pt x 409.53pt>
 File: LArTPCReconstruction/Figs/ShowerStart-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -3917,7 +3918,7 @@ eps>
 (epstopdf)             \includegraphics on input line 532.
 Package epstopdf Info: Output file is already uptodate.
 
-<LArTPCReconstruction/Figs/ShowerDirection-eps-converted-to.pdf, id=5758, 569.1
+<LArTPCReconstruction/Figs/ShowerDirection-eps-converted-to.pdf, id=5760, 569.1
 2625pt x 409.53pt>
 File: LArTPCReconstruction/Figs/ShowerDirection-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -3939,7 +3940,7 @@ sitedEnergy.eps>
 (epstopdf)             \includegraphics on input line 543.
 Package epstopdf Info: Output file is already uptodate.
 
-<LArTPCReconstruction/Figs/ShowerDepositedEnergy-eps-converted-to.pdf, id=5762,
+<LArTPCReconstruction/Figs/ShowerDepositedEnergy-eps-converted-to.pdf, id=5764,
  569.12625pt x 409.53pt>
 File: LArTPCReconstruction/Figs/ShowerDepositedEnergy-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -3959,7 +3960,7 @@ ShowerdEdx-eps-converted-to.pdf LArTPCReconstruction/Figs/ShowerdEdx.eps>
 (epstopdf)             \includegraphics on input line 550.
 Package epstopdf Info: Output file is already uptodate.
 
-<LArTPCReconstruction/Figs/ShowerdEdx-eps-converted-to.pdf, id=5763, 569.12625p
+<LArTPCReconstruction/Figs/ShowerdEdx-eps-converted-to.pdf, id=5765, 569.12625p
 t x 409.53pt>
 File: LArTPCReconstruction/Figs/ShowerdEdx-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -3985,7 +3986,7 @@ Pi0MassPeak-eps-converted-to.pdf LArTPCReconstruction/Figs/Pi0MassPeak.eps>
 (epstopdf)             \includegraphics on input line 569.
 Package epstopdf Info: Output file is already uptodate.
 
-<LArTPCReconstruction/Figs/Pi0MassPeak-eps-converted-to.pdf, id=5809, 569.12625
+<LArTPCReconstruction/Figs/Pi0MassPeak-eps-converted-to.pdf, id=5811, 569.12625
 pt x 409.53pt>
 File: LArTPCReconstruction/Figs/Pi0MassPeak-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -4007,7 +4008,7 @@ h.eps>
 (epstopdf)             \includegraphics on input line 578.
 Package epstopdf Info: Output file is already uptodate.
 
-<LArTPCReconstruction/Figs/Pi0MassPeakTruth-eps-converted-to.pdf, id=5812, 569.
+<LArTPCReconstruction/Figs/Pi0MassPeakTruth-eps-converted-to.pdf, id=5814, 569.
 12625pt x 409.53pt>
 File: LArTPCReconstruction/Figs/Pi0MassPeakTruth-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -4031,7 +4032,7 @@ eps>
 (epstopdf)             \includegraphics on input line 663.
 Package epstopdf Info: Output file is already uptodate.
 
-<LArTPCReconstruction/Figs/GoodReconEnergy-eps-converted-to.pdf, id=5845, 569.1
+<LArTPCReconstruction/Figs/GoodReconEnergy-eps-converted-to.pdf, id=5847, 569.1
 2625pt x 409.53pt>
 File: LArTPCReconstruction/Figs/GoodReconEnergy-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -4064,7 +4065,7 @@ wareFramework-eps-converted-to.pdf OnlineMonitoring/Figs/softwareFramework.eps>
 (epstopdf)             \includegraphics on input line 48.
 Package epstopdf Info: Output file is already uptodate.
 
-<OnlineMonitoring/Figs/softwareFramework-eps-converted-to.pdf, id=5869, 692.587
+<OnlineMonitoring/Figs/softwareFramework-eps-converted-to.pdf, id=5871, 692.587
 5pt x 516.93124pt>
 File: OnlineMonitoring/Figs/softwareFramework-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -4073,36 +4074,37 @@ Package pdftex.def Info: OnlineMonitoring/Figs/softwareFramework-eps-converted-
 to.pdf used on input line 48.
 (pdftex.def)             Requested size: 341.43306pt x 254.84451pt.
 [134 <./OnlineMonitoring/Figs/softwareFramework-eps-converted-to.pdf>] [135] [1
-36] [137] <OnlineMonitoring/Figs/DQM1.png, id=5904, 934.49126pt x 678.535pt>
+36] [137] [138] <OnlineMonitoring/Figs/DQM1.png, id=5915, 934.49126pt x 678.535
+pt>
 File: OnlineMonitoring/Figs/DQM1.png Graphic file (type png)
 <use OnlineMonitoring/Figs/DQM1.png>
 Package pdftex.def Info: OnlineMonitoring/Figs/DQM1.png used on input line 167.
 
 (pdftex.def)             Requested size: 199.47984pt x 144.83646pt.
-<OnlineMonitoring/Figs/DQM2.png, id=5905, 1050.92625pt x 691.58376pt>
+<OnlineMonitoring/Figs/DQM2.png, id=5916, 1050.92625pt x 691.58376pt>
 File: OnlineMonitoring/Figs/DQM2.png Graphic file (type png)
 <use OnlineMonitoring/Figs/DQM2.png>
 Package pdftex.def Info: OnlineMonitoring/Figs/DQM2.png used on input line 173.
 
 (pdftex.def)             Requested size: 199.47984pt x 131.26509pt.
-<OnlineMonitoring/Figs/DQM3.png, id=5906, 1026.83624pt x 678.535pt>
+<OnlineMonitoring/Figs/DQM3.png, id=5917, 1026.83624pt x 678.535pt>
 File: OnlineMonitoring/Figs/DQM3.png Graphic file (type png)
 <use OnlineMonitoring/Figs/DQM3.png>
 Package pdftex.def Info: OnlineMonitoring/Figs/DQM3.png used on input line 179.
 
 (pdftex.def)             Requested size: 199.47984pt x 131.81163pt.
-<OnlineMonitoring/Figs/DQM4.png, id=5907, 915.42pt x 683.55376pt>
+<OnlineMonitoring/Figs/DQM4.png, id=5918, 915.42pt x 683.55376pt>
 File: OnlineMonitoring/Figs/DQM4.png Graphic file (type png)
 <use OnlineMonitoring/Figs/DQM4.png>
 Package pdftex.def Info: OnlineMonitoring/Figs/DQM4.png used on input line 185.
 
 (pdftex.def)             Requested size: 199.47984pt x 148.95335pt.
-[138] [139 <./OnlineMonitoring/Figs/DQM1.png> <./OnlineMonitoring/Figs/DQM2.png
-> <./OnlineMonitoring/Figs/DQM3.png> <./OnlineMonitoring/Figs/DQM4.png>] [140] 
-<OnlineMonitoring/Figs/evd.png, id=5936, 582.175pt x 568.1225pt>
+[139 <./OnlineMonitoring/Figs/DQM1.png> <./OnlineMonitoring/Figs/DQM2.png> <./O
+nlineMonitoring/Figs/DQM3.png> <./OnlineMonitoring/Figs/DQM4.png>] [140] <Onlin
+eMonitoring/Figs/evd.png, id=5935, 582.175pt x 568.1225pt>
 File: OnlineMonitoring/Figs/evd.png Graphic file (type png)
 <use OnlineMonitoring/Figs/evd.png>
-Package pdftex.def Info: OnlineMonitoring/Figs/evd.png used on input line 218.
+Package pdftex.def Info: OnlineMonitoring/Figs/evd.png used on input line 220.
 (pdftex.def)             Requested size: 398.33858pt x 388.72812pt.
 Package epstopdf Info: Source file: <OnlineMonitoring/Figs/webInterface.eps>
 (epstopdf)                    date: 2017-02-02 17:44:49
@@ -4113,23 +4115,23 @@ verted-to.pdf>
 (epstopdf)                    size: 41789 bytes
 (epstopdf)             Command: <repstopdf --outfile=OnlineMonitoring/Figs/webI
 nterface-eps-converted-to.pdf OnlineMonitoring/Figs/webInterface.eps>
-(epstopdf)             \includegraphics on input line 235.
+(epstopdf)             \includegraphics on input line 237.
 Package epstopdf Info: Output file is already uptodate.
 
-<OnlineMonitoring/Figs/webInterface-eps-converted-to.pdf, id=5940, 550.055pt x 
+<OnlineMonitoring/Figs/webInterface-eps-converted-to.pdf, id=5939, 550.055pt x 
 335.2525pt>
 File: OnlineMonitoring/Figs/webInterface-eps-converted-to.pdf Graphic file (typ
 e pdf)
 <use OnlineMonitoring/Figs/webInterface-eps-converted-to.pdf>
 Package pdftex.def Info: OnlineMonitoring/Figs/webInterface-eps-converted-to.pd
-f used on input line 235.
+f used on input line 237.
 (pdftex.def)             Requested size: 341.43306pt x 208.10506pt.
 [141] [142 <./OnlineMonitoring/Figs/evd.png>] <OnlineMonitoring/Figs/webPage.pn
-g, id=5953, 1439.3775pt x 833.1125pt>
+g, id=5952, 1439.3775pt x 833.1125pt>
 File: OnlineMonitoring/Figs/webPage.png Graphic file (type png)
 <use OnlineMonitoring/Figs/webPage.png>
 Package pdftex.def Info: OnlineMonitoring/Figs/webPage.png used on input line 2
-49.
+51.
 (pdftex.def)             Requested size: 398.33858pt x 230.5622pt.
 ) [143 <./OnlineMonitoring/Figs/webInterface-eps-converted-to.pdf>] [144 <./Onl
 ineMonitoring/Figs/webPage.png>]
@@ -4137,29 +4139,28 @@ ineMonitoring/Figs/webPage.png>]
 
 (./35tonAnalysis/35tonAnalysis.tex
 Chapter 7.
-<35tonAnalysis/Figs/DataRMSGood.pdf, id=5982, 492.89969pt x 360.95543pt>
+[145
+
+
+
+] <35tonAnalysis/Figs/DataRMSGood.pdf, id=5985, 492.89969pt x 360.95543pt>
 File: 35tonAnalysis/Figs/DataRMSGood.pdf Graphic file (type pdf)
 <use 35tonAnalysis/Figs/DataRMSGood.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/DataRMSGood.pdf used on input line 
 27.
 (pdftex.def)             Requested size: 187.01274pt x 136.94968pt.
-<35tonAnalysis/Figs/DataRMSBad.pdf, id=5983, 492.25835pt x 358.09985pt>
+<35tonAnalysis/Figs/DataRMSBad.pdf, id=5986, 492.25835pt x 358.09985pt>
 File: 35tonAnalysis/Figs/DataRMSBad.pdf Graphic file (type pdf)
 <use 35tonAnalysis/Figs/DataRMSBad.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/DataRMSBad.pdf used on input line 3
 4.
 (pdftex.def)             Requested size: 187.01274pt x 136.04657pt.
-[145
-
-
-
-]
 
 Package natbib Warning: Citation `Kirby2016' on page 146 undefined on input lin
 e 42.
 
 [146 <./35tonAnalysis/Figs/DataRMSGood.pdf> <./35tonAnalysis/Figs/DataRMSBad.pd
-f>] <35tonAnalysis/Figs/stuckbitsremoval.pdf, id=6035, 415.0187pt x 396.78307pt
+f>] <35tonAnalysis/Figs/stuckbitsremoval.pdf, id=6034, 415.0187pt x 396.78307pt
 >
 File: 35tonAnalysis/Figs/stuckbitsremoval.pdf Graphic file (type pdf)
 <use 35tonAnalysis/Figs/stuckbitsremoval.pdf>
@@ -4186,7 +4187,7 @@ ck-eps-converted-to.pdf 35tonAnalysis/Figs/raw_stuck.eps>
 (epstopdf)             \includegraphics on input line 62.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/raw_stuck-eps-converted-to.pdf, id=6036, 569.12625pt x 265.
+<35tonAnalysis/Figs/raw_stuck-eps-converted-to.pdf, id=6035, 569.12625pt x 265.
 99374pt>
 File: 35tonAnalysis/Figs/raw_stuck-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -4206,7 +4207,7 @@ tuck-eps-converted-to.pdf 35tonAnalysis/Figs/raw_unstuck.eps>
 (epstopdf)             \includegraphics on input line 69.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/raw_unstuck-eps-converted-to.pdf, id=6037, 569.12625pt x 26
+<35tonAnalysis/Figs/raw_unstuck-eps-converted-to.pdf, id=6036, 569.12625pt x 26
 5.99374pt>
 File: 35tonAnalysis/Figs/raw_unstuck-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -4226,7 +4227,7 @@ se-eps-converted-to.pdf 35tonAnalysis/Figs/raw_noise.eps>
 (epstopdf)             \includegraphics on input line 83.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/raw_noise-eps-converted-to.pdf, id=6039, 569.12625pt x 265.
+<35tonAnalysis/Figs/raw_noise-eps-converted-to.pdf, id=6038, 569.12625pt x 265.
 99374pt>
 File: 35tonAnalysis/Figs/raw_noise-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -4246,7 +4247,7 @@ oise-eps-converted-to.pdf 35tonAnalysis/Figs/raw_nonoise.eps>
 (epstopdf)             \includegraphics on input line 90.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/raw_nonoise-eps-converted-to.pdf, id=6040, 569.12625pt x 26
+<35tonAnalysis/Figs/raw_nonoise-eps-converted-to.pdf, id=6039, 569.12625pt x 26
 5.99374pt>
 File: 35tonAnalysis/Figs/raw_nonoise-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -4270,7 +4271,7 @@ ction_all-eps-converted-to.pdf 35tonAnalysis/Figs/hitselection_all.eps>
 (epstopdf)             \includegraphics on input line 111.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/hitselection_all-eps-converted-to.pdf, id=6101, 569.12625pt
+<35tonAnalysis/Figs/hitselection_all-eps-converted-to.pdf, id=6100, 569.12625pt
  x 408.52625pt>
 File: 35tonAnalysis/Figs/hitselection_all-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -4291,7 +4292,7 @@ ction_shadow-eps-converted-to.pdf 35tonAnalysis/Figs/hitselection_shadow.eps>
 (epstopdf)             \includegraphics on input line 118.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/hitselection_shadow-eps-converted-to.pdf, id=6102, 569.1262
+<35tonAnalysis/Figs/hitselection_shadow-eps-converted-to.pdf, id=6101, 569.1262
 5pt x 408.52625pt>
 File: 35tonAnalysis/Figs/hitselection_shadow-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -4312,7 +4313,7 @@ ction_final-eps-converted-to.pdf 35tonAnalysis/Figs/hitselection_final.eps>
 (epstopdf)             \includegraphics on input line 125.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/hitselection_final-eps-converted-to.pdf, id=6103, 569.12625
+<35tonAnalysis/Figs/hitselection_final-eps-converted-to.pdf, id=6102, 569.12625
 pt x 408.52625pt>
 File: 35tonAnalysis/Figs/hitselection_final-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -4339,7 +4340,7 @@ Gradient-eps-converted-to.pdf 35tonAnalysis/Figs/CounterGradient.eps>
 (epstopdf)             \includegraphics on input line 169.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/CounterGradient-eps-converted-to.pdf, id=6146, 401.5pt x 30
+<35tonAnalysis/Figs/CounterGradient-eps-converted-to.pdf, id=6145, 401.5pt x 30
 9.155pt>
 File: 35tonAnalysis/Figs/CounterGradient-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -4348,7 +4349,7 @@ Package pdftex.def Info: 35tonAnalysis/Figs/CounterGradient-eps-converted-to.pd
 f used on input line 169.
 (pdftex.def)             Requested size: 284.52756pt x 219.1006pt.
 
-<35tonAnalysis/Figs/evd_run14249_subrun1_event4492.png, id=6147, 1601.985pt x 1
+<35tonAnalysis/Figs/evd_run14249_subrun1_event4492.png, id=6146, 1601.985pt x 1
 778.645pt>
 File: 35tonAnalysis/Figs/evd_run14249_subrun1_event4492.png Graphic file (type 
 png)
@@ -4368,7 +4369,7 @@ o.pdf>
 (epstopdf)             \includegraphics on input line 183.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/apa_gap-eps-converted-to.pdf, id=6152, 388.45125pt x 262.98
+<35tonAnalysis/Figs/apa_gap-eps-converted-to.pdf, id=6151, 388.45125pt x 262.98
 25pt>
 File: 35tonAnalysis/Figs/apa_gap-eps-converted-to.pdf Graphic file (type pdf)
 <use 35tonAnalysis/Figs/apa_gap-eps-converted-to.pdf>
@@ -4389,7 +4390,7 @@ _zoffset-eps-converted-to.pdf 35tonAnalysis/Figs/apa_gap_zoffset.eps>
 (epstopdf)             \includegraphics on input line 203.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/apa_gap_zoffset-eps-converted-to.pdf, id=6167, 388.45125pt 
+<35tonAnalysis/Figs/apa_gap_zoffset-eps-converted-to.pdf, id=6166, 388.45125pt 
 x 264.99pt>
 File: 35tonAnalysis/Figs/apa_gap_zoffset-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -4410,7 +4411,7 @@ _zoffset_fix-eps-converted-to.pdf 35tonAnalysis/Figs/apa_gap_zoffset_fix.eps>
 (epstopdf)             \includegraphics on input line 210.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/apa_gap_zoffset_fix-eps-converted-to.pdf, id=6168, 417.56pt
+<35tonAnalysis/Figs/apa_gap_zoffset_fix-eps-converted-to.pdf, id=6167, 417.56pt
  x 264.99pt>
 File: 35tonAnalysis/Figs/apa_gap_zoffset_fix-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -4431,7 +4432,7 @@ rossingGaps-eps-converted-to.pdf 35tonAnalysis/Figs/APAGapCrossingGaps.eps>
 (epstopdf)             \includegraphics on input line 222.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/APAGapCrossingGaps-eps-converted-to.pdf, id=6174, 555.07375
+<35tonAnalysis/Figs/APAGapCrossingGaps-eps-converted-to.pdf, id=6173, 555.07375
 pt x 414.54875pt>
 File: 35tonAnalysis/Figs/APAGapCrossingGaps-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -4455,7 +4456,7 @@ ed-to.pdf>
 (epstopdf)             \includegraphics on input line 244.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/TPC5TPC7Gap-eps-converted-to.pdf, id=6208, 569.12625pt x 40
+<35tonAnalysis/Figs/TPC5TPC7Gap-eps-converted-to.pdf, id=6207, 569.12625pt x 40
 9.53pt>
 File: 35tonAnalysis/Figs/TPC5TPC7Gap-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -4475,7 +4476,7 @@ nverted-to.pdf>
 (epstopdf)             \includegraphics on input line 251.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/TPC5TPC7GapAngle-eps-converted-to.pdf, id=6209, 569.12625pt
+<35tonAnalysis/Figs/TPC5TPC7GapAngle-eps-converted-to.pdf, id=6208, 569.12625pt
  x 409.53pt>
 File: 35tonAnalysis/Figs/TPC5TPC7GapAngle-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -4496,7 +4497,7 @@ _xoffset_pos-eps-converted-to.pdf 35tonAnalysis/Figs/apa_gap_xoffset_pos.eps>
 (epstopdf)             \includegraphics on input line 265.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/apa_gap_xoffset_pos-eps-converted-to.pdf, id=6214, 455.7025
+<35tonAnalysis/Figs/apa_gap_xoffset_pos-eps-converted-to.pdf, id=6215, 455.7025
 pt x 262.9825pt>
 File: 35tonAnalysis/Figs/apa_gap_xoffset_pos-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -4517,7 +4518,7 @@ _xoffset_neg-eps-converted-to.pdf 35tonAnalysis/Figs/apa_gap_xoffset_neg.eps>
 (epstopdf)             \includegraphics on input line 272.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/apa_gap_xoffset_neg-eps-converted-to.pdf, id=6215, 455.7025
+<35tonAnalysis/Figs/apa_gap_xoffset_neg-eps-converted-to.pdf, id=6216, 455.7025
 pt x 264.99pt>
 File: 35tonAnalysis/Figs/apa_gap_xoffset_neg-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -4539,7 +4540,7 @@ x.eps>
 (epstopdf)             \includegraphics on input line 279.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/apa_gap_xoffset_pos_fix-eps-converted-to.pdf, id=6216, 420.
+<35tonAnalysis/Figs/apa_gap_xoffset_pos_fix-eps-converted-to.pdf, id=6217, 420.
 57124pt x 262.9825pt>
 File: 35tonAnalysis/Figs/apa_gap_xoffset_pos_fix-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -4561,7 +4562,7 @@ x.eps>
 (epstopdf)             \includegraphics on input line 286.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/apa_gap_xoffset_neg_fix-eps-converted-to.pdf, id=6217, 471.
+<35tonAnalysis/Figs/apa_gap_xoffset_neg_fix-eps-converted-to.pdf, id=6218, 471.
 7625pt x 264.99pt>
 File: 35tonAnalysis/Figs/apa_gap_xoffset_neg_fix-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -4581,7 +4582,7 @@ onverted-to.pdf>
 (epstopdf)             \includegraphics on input line 298.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/TPC5TPC7MCZOffset-eps-converted-to.pdf, id=6232, 569.12625p
+<35tonAnalysis/Figs/TPC5TPC7MCZOffset-eps-converted-to.pdf, id=6233, 569.12625p
 t x 409.53pt>
 File: 35tonAnalysis/Figs/TPC5TPC7MCZOffset-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -4603,7 +4604,7 @@ set.eps>
 (epstopdf)             \includegraphics on input line 305.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOffset-eps-converted-to.pdf, id=6233, 569
+<35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOffset-eps-converted-to.pdf, id=6234, 569
 .12625pt x 409.53pt>
 File: 35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOffset-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -4625,7 +4626,7 @@ tZOffsetAngle.eps>
 (epstopdf)             \includegraphics on input line 312.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOffsetAngle-eps-converted-to.pdf, id=6234
+<35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOffsetAngle-eps-converted-to.pdf, id=6235
 , 569.12625pt x 409.53pt>
 File: 35tonAnalysis/Figs/TPC5TPC7MCXOffsetZOffsetAngle-eps-converted-to.pdf Gra
 phic file (type pdf)
@@ -4637,7 +4638,7 @@ onverted-to.pdf used on input line 312.
 LaTeX Warning: Float too large for page by 15.38586pt on input line 318.
 
 
-<35tonAnalysis/Figs/TPC5TPC7CombinedOffsets.png, id=6244, 675.52374pt x 506.893
+<35tonAnalysis/Figs/TPC5TPC7CombinedOffsets.png, id=6245, 675.52374pt x 506.893
 75pt>
 File: 35tonAnalysis/Figs/TPC5TPC7CombinedOffsets.png Graphic file (type png)
 <use 35tonAnalysis/Figs/TPC5TPC7CombinedOffsets.png>
@@ -4654,19 +4655,19 @@ Analysis/Figs/TPC5TPC7MCXOffsetZOffset-eps-converted-to.pdf> <./35tonAnalysis/F
 igs/TPC5TPC7MCXOffsetZOffsetAngle-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <35tonAnalysis/Figs/apa_gap_xoffset_zoffset
 _pos.eps>
-(epstopdf)                    date: 2017-03-15 10:15:33
-(epstopdf)                    size: 32076 bytes
+(epstopdf)                    date: 2017-12-18 11:57:43
+(epstopdf)                    size: 32045 bytes
 (epstopdf)             Output file: <35tonAnalysis/Figs/apa_gap_xoffset_zoffset
 _pos-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-03-15 10:15:53
-(epstopdf)                    size: 15629 bytes
+(epstopdf)                    date: 2017-12-18 12:18:10
+(epstopdf)                    size: 15617 bytes
 (epstopdf)             Command: <repstopdf --outfile=35tonAnalysis/Figs/apa_gap
 _xoffset_zoffset_pos-eps-converted-to.pdf 35tonAnalysis/Figs/apa_gap_xoffset_zo
 ffset_pos.eps>
 (epstopdf)             \includegraphics on input line 339.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/apa_gap_xoffset_zoffset_pos-eps-converted-to.pdf, id=6345, 
+<35tonAnalysis/Figs/apa_gap_xoffset_zoffset_pos-eps-converted-to.pdf, id=6346, 
 471.7625pt x 301.125pt>
 File: 35tonAnalysis/Figs/apa_gap_xoffset_zoffset_pos-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -4688,7 +4689,7 @@ ffset_neg.eps>
 (epstopdf)             \includegraphics on input line 346.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/apa_gap_xoffset_zoffset_neg-eps-converted-to.pdf, id=6346, 
+<35tonAnalysis/Figs/apa_gap_xoffset_zoffset_neg-eps-converted-to.pdf, id=6347, 
 471.7625pt x 314.17375pt>
 File: 35tonAnalysis/Figs/apa_gap_xoffset_zoffset_neg-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -4711,7 +4712,7 @@ t_zoffset_pos_fix.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <35tonAnalysis/Figs/apa_gap_xoffset_zoffset_pos_fix-eps-converted-to.pdf, id=63
-47, 426.59375pt x 301.125pt>
+48, 426.59375pt x 301.125pt>
 File: 35tonAnalysis/Figs/apa_gap_xoffset_zoffset_pos_fix-eps-converted-to.pdf G
 raphic file (type pdf)
 <use 35tonAnalysis/Figs/apa_gap_xoffset_zoffset_pos_fix-eps-converted-to.pdf>
@@ -4733,7 +4734,7 @@ t_zoffset_neg_fix.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <35tonAnalysis/Figs/apa_gap_xoffset_zoffset_neg_fix-eps-converted-to.pdf, id=63
-48, 484.81125pt x 314.17375pt>
+49, 484.81125pt x 314.17375pt>
 File: 35tonAnalysis/Figs/apa_gap_xoffset_zoffset_neg_fix-eps-converted-to.pdf G
 raphic file (type pdf)
 <use 35tonAnalysis/Figs/apa_gap_xoffset_zoffset_neg_fix-eps-converted-to.pdf>
@@ -4752,7 +4753,7 @@ erted-to.pdf>
 (epstopdf)             \includegraphics on input line 370.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/TPC5TPC7GapFit-eps-converted-to.pdf, id=6351, 569.12625pt x
+<35tonAnalysis/Figs/TPC5TPC7GapFit-eps-converted-to.pdf, id=6352, 569.12625pt x
  409.53pt>
 File: 35tonAnalysis/Figs/TPC5TPC7GapFit-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -4772,7 +4773,7 @@ ted-to.pdf>
 (epstopdf)             \includegraphics on input line 379.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/TPC5TPC7XOff-eps-converted-to.pdf, id=6354, 569.12625pt x 4
+<35tonAnalysis/Figs/TPC5TPC7XOff-eps-converted-to.pdf, id=6355, 569.12625pt x 4
 09.53pt>
 File: 35tonAnalysis/Figs/TPC5TPC7XOff-eps-converted-to.pdf Graphic file (type p
 df)
@@ -4792,7 +4793,7 @@ ted-to.pdf>
 (epstopdf)             \includegraphics on input line 386.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/TPC5TPC7ZOff-eps-converted-to.pdf, id=6357, 569.12625pt x 4
+<35tonAnalysis/Figs/TPC5TPC7ZOff-eps-converted-to.pdf, id=6358, 569.12625pt x 4
 09.53pt>
 File: 35tonAnalysis/Figs/TPC5TPC7ZOff-eps-converted-to.pdf Graphic file (type p
 df)
@@ -4824,7 +4825,7 @@ istance-eps-converted-to.pdf 35tonAnalysis/Figs/HitGapDistance.eps>
 (epstopdf)             \includegraphics on input line 454.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/HitGapDistance-eps-converted-to.pdf, id=6465, 569.12625pt x
+<35tonAnalysis/Figs/HitGapDistance-eps-converted-to.pdf, id=6466, 569.12625pt x
  409.53pt>
 File: 35tonAnalysis/Figs/HitGapDistance-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -4844,7 +4845,7 @@ it-eps-converted-to.pdf 35tonAnalysis/Figs/ChargeHit.eps>
 (epstopdf)             \includegraphics on input line 462.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/ChargeHit-eps-converted-to.pdf, id=6466, 569.12625pt x 409.
+<35tonAnalysis/Figs/ChargeHit-eps-converted-to.pdf, id=6467, 569.12625pt x 409.
 53pt>
 File: 35tonAnalysis/Figs/ChargeHit-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -4852,7 +4853,7 @@ File: 35tonAnalysis/Figs/ChargeHit-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: 35tonAnalysis/Figs/ChargeHit-eps-converted-to.pdf used
  on input line 462.
 (pdftex.def)             Requested size: 205.77896pt x 148.07431pt.
-<35tonAnalysis/Figs/evd_gap.pdf, id=6467, 532.64357pt x 269.13377pt>
+<35tonAnalysis/Figs/evd_gap.pdf, id=6468, 532.64357pt x 269.13377pt>
 File: 35tonAnalysis/Figs/evd_gap.pdf Graphic file (type pdf)
 <use 35tonAnalysis/Figs/evd_gap.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/evd_gap.pdf used on input line 472.
@@ -4873,7 +4874,7 @@ esidual-eps-converted-to.pdf 35tonAnalysis/Figs/track_residual.eps>
 (epstopdf)             \includegraphics on input line 502.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/track_residual-eps-converted-to.pdf, id=6524, 319.1925pt x 
+<35tonAnalysis/Figs/track_residual-eps-converted-to.pdf, id=6525, 319.1925pt x 
 229.85875pt>
 File: 35tonAnalysis/Figs/track_residual-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -4893,7 +4894,7 @@ re-eps-converted-to.pdf 35tonAnalysis/Figs/chisquare.eps>
 (epstopdf)             \includegraphics on input line 509.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/chisquare-eps-converted-to.pdf, id=6525, 569.12625pt x 385.
+<35tonAnalysis/Figs/chisquare-eps-converted-to.pdf, id=6526, 569.12625pt x 385.
 44pt>
 File: 35tonAnalysis/Figs/chisquare-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -4913,7 +4914,7 @@ eparation-eps-converted-to.pdf 35tonAnalysis/Figs/track_separation.eps>
 (epstopdf)             \includegraphics on input line 520.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/track_separation-eps-converted-to.pdf, id=6526, 318.18875pt
+<35tonAnalysis/Figs/track_separation-eps-converted-to.pdf, id=6527, 318.18875pt
  x 192.72pt>
 File: 35tonAnalysis/Figs/track_separation-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -4933,7 +4934,7 @@ ion-eps-converted-to.pdf 35tonAnalysis/Figs/separation.eps>
 (epstopdf)             \includegraphics on input line 527.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/separation-eps-converted-to.pdf, id=6527, 569.12625pt x 385
+<35tonAnalysis/Figs/separation-eps-converted-to.pdf, id=6528, 569.12625pt x 385
 .44pt>
 File: 35tonAnalysis/Figs/separation-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -4959,7 +4960,7 @@ eMC.eps>
 (epstopdf)             \includegraphics on input line 541.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/TPCCounterT0DifferenceMC-eps-converted-to.pdf, id=6565, 569
+<35tonAnalysis/Figs/TPCCounterT0DifferenceMC-eps-converted-to.pdf, id=6566, 569
 .12625pt x 409.53pt>
 File: 35tonAnalysis/Figs/TPCCounterT0DifferenceMC-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -4981,7 +4982,7 @@ nceData.eps>
 (epstopdf)             \includegraphics on input line 548.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/TPCCounterT0DifferenceData-eps-converted-to.pdf, id=6566, 5
+<35tonAnalysis/Figs/TPCCounterT0DifferenceData-eps-converted-to.pdf, id=6567, 5
 69.12625pt x 409.53pt>
 File: 35tonAnalysis/Figs/TPCCounterT0DifferenceData-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -5009,7 +5010,7 @@ terT0DifferenceDataResidual-eps-converted-to.pdf 35tonAnalysis/Figs/TPCCounterT
 Package epstopdf Info: Output file is already uptodate.
 
 <35tonAnalysis/Figs/TPCCounterT0DifferenceDataResidual-eps-converted-to.pdf, id
-=6567, 569.12625pt x 409.53pt>
+=6568, 569.12625pt x 409.53pt>
 File: 35tonAnalysis/Figs/TPCCounterT0DifferenceDataResidual-eps-converted-to.pd
 f Graphic file (type pdf)
 
@@ -5031,7 +5032,7 @@ ction_before-eps-converted-to.pdf 35tonAnalysis/Figs/t0correction_before.eps>
 (epstopdf)             \includegraphics on input line 567.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/t0correction_before-eps-converted-to.pdf, id=6574, 569.1262
+<35tonAnalysis/Figs/t0correction_before-eps-converted-to.pdf, id=6575, 569.1262
 5pt x 408.52625pt>
 File: 35tonAnalysis/Figs/t0correction_before-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -5052,7 +5053,7 @@ ction_after-eps-converted-to.pdf 35tonAnalysis/Figs/t0correction_after.eps>
 (epstopdf)             \includegraphics on input line 574.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/t0correction_after-eps-converted-to.pdf, id=6575, 569.12625
+<35tonAnalysis/Figs/t0correction_after-eps-converted-to.pdf, id=6576, 569.12625
 pt x 408.52625pt>
 File: 35tonAnalysis/Figs/t0correction_after-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -5073,7 +5074,7 @@ n_track_geo-eps-converted-to.pdf 35tonAnalysis/Figs/misalign_track_geo.eps>
 (epstopdf)             \includegraphics on input line 592.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/misalign_track_geo-eps-converted-to.pdf, id=6585, 314.17375
+<35tonAnalysis/Figs/misalign_track_geo-eps-converted-to.pdf, id=6586, 314.17375
 pt x 192.72pt>
 File: 35tonAnalysis/Figs/misalign_track_geo-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -5095,7 +5096,7 @@ ollection_geo.eps>
 (epstopdf)             \includegraphics on input line 605.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/misalign_track_collection_geo-eps-converted-to.pdf, id=6588
+<35tonAnalysis/Figs/misalign_track_collection_geo-eps-converted-to.pdf, id=6589
 , 354.32375pt x 191.71625pt>
 File: 35tonAnalysis/Figs/misalign_track_collection_geo-eps-converted-to.pdf Gra
 phic file (type pdf)
@@ -5117,7 +5118,7 @@ ollection_res.eps>
 (epstopdf)             \includegraphics on input line 612.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/misalign_track_collection_res-eps-converted-to.pdf, id=6589
+<35tonAnalysis/Figs/misalign_track_collection_res-eps-converted-to.pdf, id=6590
 , 569.12625pt x 409.53pt>
 File: 35tonAnalysis/Figs/misalign_track_collection_res-eps-converted-to.pdf Gra
 phic file (type pdf)
@@ -5139,7 +5140,7 @@ o.eps>
 (epstopdf)             \includegraphics on input line 626.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/misalign_track_wire_geo-eps-converted-to.pdf, id=6593, 401.
+<35tonAnalysis/Figs/misalign_track_wire_geo-eps-converted-to.pdf, id=6594, 401.
 5pt x 192.72pt>
 File: 35tonAnalysis/Figs/misalign_track_wire_geo-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -5161,7 +5162,7 @@ s.eps>
 (epstopdf)             \includegraphics on input line 633.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/misalign_track_wire_res-eps-converted-to.pdf, id=6594, 569.
+<35tonAnalysis/Figs/misalign_track_wire_res-eps-converted-to.pdf, id=6595, 569.
 12625pt x 409.53pt>
 File: 35tonAnalysis/Figs/misalign_track_wire_res-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -5193,7 +5194,7 @@ geo.eps>
 (epstopdf)             \includegraphics on input line 649.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/misalign_track_drift_geo-eps-converted-to.pdf, id=6686, 397
+<35tonAnalysis/Figs/misalign_track_drift_geo-eps-converted-to.pdf, id=6687, 397
 .485pt x 263.98625pt>
 File: 35tonAnalysis/Figs/misalign_track_drift_geo-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -5215,7 +5216,7 @@ res.eps>
 (epstopdf)             \includegraphics on input line 656.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/misalign_track_drift_res-eps-converted-to.pdf, id=6687, 569
+<35tonAnalysis/Figs/misalign_track_drift_res-eps-converted-to.pdf, id=6688, 569
 .12625pt x 409.53pt>
 File: 35tonAnalysis/Figs/misalign_track_drift_res-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -5235,7 +5236,7 @@ eDriftTime-eps-converted-to.pdf 35tonAnalysis/Figs/DistanceDriftTime.eps>
 (epstopdf)             \includegraphics on input line 670.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/DistanceDriftTime-eps-converted-to.pdf, id=6689, 569.12625p
+<35tonAnalysis/Figs/DistanceDriftTime-eps-converted-to.pdf, id=6690, 569.12625p
 t x 409.53pt>
 File: 35tonAnalysis/Figs/DistanceDriftTime-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -5255,7 +5256,7 @@ locity-eps-converted-to.pdf 35tonAnalysis/Figs/DriftVelocity.eps>
 (epstopdf)             \includegraphics on input line 677.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/DriftVelocity-eps-converted-to.pdf, id=6690, 569.12625pt x 
+<35tonAnalysis/Figs/DriftVelocity-eps-converted-to.pdf, id=6691, 569.12625pt x 
 409.53pt>
 File: 35tonAnalysis/Figs/DriftVelocity-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -5277,7 +5278,7 @@ s-eps-converted-to.pdf 35tonAnalysis/Figs/HitTimes.eps>
 (epstopdf)             \includegraphics on input line 693.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/HitTimes-eps-converted-to.pdf, id=6722, 569.12625pt x 409.5
+<35tonAnalysis/Figs/HitTimes-eps-converted-to.pdf, id=6723, 569.12625pt x 409.5
 3pt>
 File: 35tonAnalysis/Figs/HitTimes-eps-converted-to.pdf Graphic file (type pdf)
 <use 35tonAnalysis/Figs/HitTimes-eps-converted-to.pdf>
@@ -5296,7 +5297,7 @@ sZoom-eps-converted-to.pdf 35tonAnalysis/Figs/HitTimesZoom.eps>
 (epstopdf)             \includegraphics on input line 700.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/HitTimesZoom-eps-converted-to.pdf, id=6723, 569.12625pt x 4
+<35tonAnalysis/Figs/HitTimesZoom-eps-converted-to.pdf, id=6724, 569.12625pt x 4
 09.53pt>
 File: 35tonAnalysis/Figs/HitTimesZoom-eps-converted-to.pdf Graphic file (type p
 df)
@@ -5316,7 +5317,7 @@ tTPCPhoton-eps-converted-to.pdf 35tonAnalysis/Figs/T0OffsetTPCPhoton.eps>
 (epstopdf)             \includegraphics on input line 710.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/T0OffsetTPCPhoton-eps-converted-to.pdf, id=6724, 569.12625p
+<35tonAnalysis/Figs/T0OffsetTPCPhoton-eps-converted-to.pdf, id=6725, 569.12625p
 t x 409.53pt>
 File: 35tonAnalysis/Figs/T0OffsetTPCPhoton-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -5338,7 +5339,7 @@ iffTimestamps-eps-converted-to.pdf 35tonAnalysis/Figs/PTBRCEDiffTimestamps.eps>
 (epstopdf)             \includegraphics on input line 719.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/PTBRCEDiffTimestamps-eps-converted-to.pdf, id=6726, 569.126
+<35tonAnalysis/Figs/PTBRCEDiffTimestamps-eps-converted-to.pdf, id=6727, 569.126
 25pt x 409.53pt>
 File: 35tonAnalysis/Figs/PTBRCEDiffTimestamps-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -5363,7 +5364,7 @@ sFixed-eps-converted-to.pdf 35tonAnalysis/Figs/HitTimesFixed.eps>
 (epstopdf)             \includegraphics on input line 745.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/HitTimesFixed-eps-converted-to.pdf, id=6783, 569.12625pt x 
+<35tonAnalysis/Figs/HitTimesFixed-eps-converted-to.pdf, id=6784, 569.12625pt x 
 409.53pt>
 File: 35tonAnalysis/Figs/HitTimesFixed-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -5386,7 +5387,7 @@ neSpacing.eps>
 (epstopdf)             \includegraphics on input line 756.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/ExtraCorrectionPlaneSpacing-eps-converted-to.pdf, id=6805, 
+<35tonAnalysis/Figs/ExtraCorrectionPlaneSpacing-eps-converted-to.pdf, id=6806, 
 569.12625pt x 409.53pt>
 File: 35tonAnalysis/Figs/ExtraCorrectionPlaneSpacing-eps-converted-to.pdf Graph
 ic file (type pdf)
@@ -5407,7 +5408,7 @@ rrectionWire-eps-converted-to.pdf 35tonAnalysis/Figs/ExtraCorrectionWire.eps>
 (epstopdf)             \includegraphics on input line 763.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/ExtraCorrectionWire-eps-converted-to.pdf, id=6806, 569.1262
+<35tonAnalysis/Figs/ExtraCorrectionWire-eps-converted-to.pdf, id=6807, 569.1262
 5pt x 409.53pt>
 File: 35tonAnalysis/Figs/ExtraCorrectionWire-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -5429,7 +5430,7 @@ sMC-eps-converted-to.pdf 35tonAnalysis/Figs/HitTimesMC.eps>
 (epstopdf)             \includegraphics on input line 780.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/HitTimesMC-eps-converted-to.pdf, id=6840, 569.12625pt x 409
+<35tonAnalysis/Figs/HitTimesMC-eps-converted-to.pdf, id=6842, 569.12625pt x 409
 .53pt>
 File: 35tonAnalysis/Figs/HitTimesMC-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -5450,7 +5451,7 @@ s-eps-converted-to.pdf 35tonAnalysis/Figs/MeshHits.eps>
 (epstopdf)             \includegraphics on input line 792.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/MeshHits-eps-converted-to.pdf, id=6860, 492.84125pt x 576.1
+<35tonAnalysis/Figs/MeshHits-eps-converted-to.pdf, id=6861, 492.84125pt x 576.1
 525pt>
 File: 35tonAnalysis/Figs/MeshHits-eps-converted-to.pdf Graphic file (type pdf)
 <use 35tonAnalysis/Figs/MeshHits-eps-converted-to.pdf>
@@ -5469,7 +5470,7 @@ sAPA023-eps-converted-to.pdf 35tonAnalysis/Figs/HitTimesAPA023.eps>
 (epstopdf)             \includegraphics on input line 803.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/HitTimesAPA023-eps-converted-to.pdf, id=6862, 569.12625pt x
+<35tonAnalysis/Figs/HitTimesAPA023-eps-converted-to.pdf, id=6863, 569.12625pt x
  409.53pt>
 File: 35tonAnalysis/Figs/HitTimesAPA023-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -5489,7 +5490,7 @@ sAPA1-eps-converted-to.pdf 35tonAnalysis/Figs/HitTimesAPA1.eps>
 (epstopdf)             \includegraphics on input line 810.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/HitTimesAPA1-eps-converted-to.pdf, id=6863, 569.12625pt x 4
+<35tonAnalysis/Figs/HitTimesAPA1-eps-converted-to.pdf, id=6864, 569.12625pt x 4
 09.53pt>
 File: 35tonAnalysis/Figs/HitTimesAPA1-eps-converted-to.pdf Graphic file (type p
 df)
@@ -5509,7 +5510,7 @@ sFrame-eps-converted-to.pdf 35tonAnalysis/Figs/HitTimesFrame.eps>
 (epstopdf)             \includegraphics on input line 822.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/HitTimesFrame-eps-converted-to.pdf, id=6867, 569.12625pt x 
+<35tonAnalysis/Figs/HitTimesFrame-eps-converted-to.pdf, id=6868, 569.12625pt x 
 409.53pt>
 File: 35tonAnalysis/Figs/HitTimesFrame-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -5531,7 +5532,7 @@ geInteraction-eps-converted-to.pdf 35tonAnalysis/Figs/HitChargeInteraction.eps>
 (epstopdf)             \includegraphics on input line 833.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/HitChargeInteraction-eps-converted-to.pdf, id=6869, 569.126
+<35tonAnalysis/Figs/HitChargeInteraction-eps-converted-to.pdf, id=6870, 569.126
 25pt x 409.53pt>
 File: 35tonAnalysis/Figs/HitChargeInteraction-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -5553,7 +5554,7 @@ n.eps>
 (epstopdf)             \includegraphics on input line 840.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/HitChargeNonInteraction-eps-converted-to.pdf, id=6870, 569.
+<35tonAnalysis/Figs/HitChargeNonInteraction-eps-converted-to.pdf, id=6871, 569.
 12625pt x 409.53pt>
 File: 35tonAnalysis/Figs/HitChargeNonInteraction-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -5561,14 +5562,14 @@ ile (type pdf)
 Package pdftex.def Info: 35tonAnalysis/Figs/HitChargeNonInteraction-eps-convert
 ed-to.pdf used on input line 840.
 (pdftex.def)             Requested size: 209.97946pt x 151.0988pt.
-<35tonAnalysis/Figs/evd_hook_raw.pdf, id=6873, 530.46515pt x 261.17242pt>
+<35tonAnalysis/Figs/evd_hook_raw.pdf, id=6874, 530.46515pt x 261.17242pt>
 File: 35tonAnalysis/Figs/evd_hook_raw.pdf Graphic file (type pdf)
 <use 35tonAnalysis/Figs/evd_hook_raw.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/evd_hook_raw.pdf used on input line
  859.
 (pdftex.def)             Requested size: 393.71233pt x 193.85037pt.
 
-<35tonAnalysis/Figs/evd_hook_reconstructed.pdf, id=6874, 523.32323pt x 291.0520
+<35tonAnalysis/Figs/evd_hook_reconstructed.pdf, id=6875, 523.32323pt x 291.0520
 3pt>
 File: 35tonAnalysis/Figs/evd_hook_reconstructed.pdf Graphic file (type pdf)
 <use 35tonAnalysis/Figs/evd_hook_reconstructed.pdf>
@@ -5593,7 +5594,7 @@ locityDiffGeo-eps-converted-to.pdf 35tonAnalysis/Figs/DriftVelocityDiffGeo.eps>
 (epstopdf)             \includegraphics on input line 885.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/DriftVelocityDiffGeo-eps-converted-to.pdf, id=6925, 418.563
+<35tonAnalysis/Figs/DriftVelocityDiffGeo-eps-converted-to.pdf, id=6926, 418.563
 75pt x 191.71625pt>
 File: 35tonAnalysis/Figs/DriftVelocityDiffGeo-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -5615,7 +5616,7 @@ locityDiffRes-eps-converted-to.pdf 35tonAnalysis/Figs/DriftVelocityDiffRes.eps>
 (epstopdf)             \includegraphics on input line 892.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/DriftVelocityDiffRes-eps-converted-to.pdf, id=6926, 569.126
+<35tonAnalysis/Figs/DriftVelocityDiffRes-eps-converted-to.pdf, id=6927, 569.126
 25pt x 409.53pt>
 File: 35tonAnalysis/Figs/DriftVelocityDiffRes-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -5637,7 +5638,7 @@ ionPlaneNoise-eps-converted-to.pdf 35tonAnalysis/Figs/CollectionPlaneNoise.eps>
 (epstopdf)             \includegraphics on input line 904.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/CollectionPlaneNoise-eps-converted-to.pdf, id=6928, 569.126
+<35tonAnalysis/Figs/CollectionPlaneNoise-eps-converted-to.pdf, id=6929, 569.126
 25pt x 409.53pt>
 File: 35tonAnalysis/Figs/CollectionPlaneNoise-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -5651,7 +5652,7 @@ is/Figs/evd_hook_raw.pdf> <./35tonAnalysis/Figs/evd_hook_reconstructed.pdf>] [1
 84 <./35tonAnalysis/Figs/DriftVelocityDiffGeo-eps-converted-to.pdf> <./35tonAna
 lysis/Figs/DriftVelocityDiffRes-eps-converted-to.pdf> <./35tonAnalysis/Figs/Col
 lectionPlaneNoise-eps-converted-to.pdf>] [185]
-<35tonAnalysis/Figs/HitReconstructionBias20-40.pdf, id=7034, 516.58162pt x 362.
+<35tonAnalysis/Figs/HitReconstructionBias20-40.pdf, id=7035, 516.58162pt x 362.
 45714pt>
 File: 35tonAnalysis/Figs/HitReconstructionBias20-40.pdf Graphic file (type pdf)
 
@@ -5660,7 +5661,7 @@ Package pdftex.def Info: 35tonAnalysis/Figs/HitReconstructionBias20-40.pdf used
  on input line 938.
 (pdftex.def)             Requested size: 137.19034pt x 96.25531pt.
 
-<35tonAnalysis/Figs/HitReconstructionBias80-100.pdf, id=7035, 513.26877pt x 362
+<35tonAnalysis/Figs/HitReconstructionBias80-100.pdf, id=7036, 513.26877pt x 362
 .35446pt>
 File: 35tonAnalysis/Figs/HitReconstructionBias80-100.pdf Graphic file (type pdf
 )
@@ -5669,7 +5670,7 @@ Package pdftex.def Info: 35tonAnalysis/Figs/HitReconstructionBias80-100.pdf use
 d on input line 945.
 (pdftex.def)             Requested size: 137.19034pt x 96.85283pt.
 
-<35tonAnalysis/Figs/HitReconstructionBias140-160.pdf, id=7036, 514.12927pt x 36
+<35tonAnalysis/Figs/HitReconstructionBias140-160.pdf, id=7037, 514.12927pt x 36
 0.42354pt>
 File: 35tonAnalysis/Figs/HitReconstructionBias140-160.pdf Graphic file (type pd
 f)
@@ -5700,7 +5701,7 @@ s-converted-to.pdf 35tonAnalysis/Figs/dEdx.eps>
 (epstopdf)             \includegraphics on input line 964.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/dEdx-eps-converted-to.pdf, id=7105, 569.12625pt x 409.53pt>
+<35tonAnalysis/Figs/dEdx-eps-converted-to.pdf, id=7106, 569.12625pt x 409.53pt>
 File: 35tonAnalysis/Figs/dEdx-eps-converted-to.pdf Graphic file (type pdf)
 <use 35tonAnalysis/Figs/dEdx-eps-converted-to.pdf>
 Package pdftex.def Info: 35tonAnalysis/Figs/dEdx-eps-converted-to.pdf used on i
@@ -5718,7 +5719,7 @@ nergy-eps-converted-to.pdf 35tonAnalysis/Figs/ChargeEnergy.eps>
 (epstopdf)             \includegraphics on input line 973.
 Package epstopdf Info: Output file is already uptodate.
 
-<35tonAnalysis/Figs/ChargeEnergy-eps-converted-to.pdf, id=7108, 569.12625pt x 4
+<35tonAnalysis/Figs/ChargeEnergy-eps-converted-to.pdf, id=7109, 569.12625pt x 4
 09.53pt>
 File: 35tonAnalysis/Figs/ChargeEnergy-eps-converted-to.pdf Graphic file (type p
 df)
@@ -5732,7 +5733,7 @@ on input line 981.
 
 [187 <./35tonAnalysis/Figs/dEdx-eps-converted-to.pdf>] [188 <./35tonAnalysis/Fi
 gs/ChargeEnergy-eps-converted-to.pdf>]
-<35tonAnalysis/Figs/FamousShowerReconstructed.pdf, id=7141, 533.74504pt x 495.7
+<35tonAnalysis/Figs/FamousShowerReconstructed.pdf, id=7142, 533.74504pt x 495.7
 9378pt>
 File: 35tonAnalysis/Figs/FamousShowerReconstructed.pdf Graphic file (type pdf)
 <use 35tonAnalysis/Figs/FamousShowerReconstructed.pdf>
@@ -5759,13 +5760,13 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 993.
 
 
-<35tonAnalysis/Figs/evd_run16110_subrun1_event29.png, id=7177, 1601.985pt x 177
+<35tonAnalysis/Figs/evd_run16110_subrun1_event29.png, id=7178, 1601.985pt x 177
 8.645pt>
 File: 35tonAnalysis/Figs/evd_run16110_subrun1_event29.png Graphic file (type pn
 g)
 <use 35tonAnalysis/Figs/evd_run16110_subrun1_event29.png>
 Package pdftex.def Info: 35tonAnalysis/Figs/evd_run16110_subrun1_event29.png us
-ed on input line 1000.
+ed on input line 1001.
 (pdftex.def)             Requested size: 284.52756pt x 315.88132pt.
 [190 <./35tonAnalysis/Figs/evd_run16110_subrun1_event29.png>]) [191]
 \openout2 = `FarDetectorAnalysis/FarDetectorAnalysis.aux'.
@@ -5822,7 +5823,7 @@ lectronMVA-eps-converted-to.pdf FarDetectorAnalysis/Figs/ElectronMVA.eps>
 (epstopdf)             \includegraphics on input line 37.
 Package epstopdf Info: Output file is already uptodate.
 
-<FarDetectorAnalysis/Figs/ElectronMVA-eps-converted-to.pdf, id=7219, 569.12625p
+<FarDetectorAnalysis/Figs/ElectronMVA-eps-converted-to.pdf, id=7220, 569.12625p
 t x 409.53pt>
 File: FarDetectorAnalysis/Figs/ElectronMVA-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -5848,7 +5849,7 @@ s>
 (epstopdf)             \includegraphics on input line 46.
 Package epstopdf Info: Output file is already uptodate.
 
-<FarDetectorAnalysis/Figs/ElectronMVATune-eps-converted-to.pdf, id=7222, 569.12
+<FarDetectorAnalysis/Figs/ElectronMVATune-eps-converted-to.pdf, id=7223, 569.12
 625pt x 409.53pt>
 File: FarDetectorAnalysis/Figs/ElectronMVATune-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -5871,7 +5872,7 @@ s>
 (epstopdf)             \includegraphics on input line 57.
 Package epstopdf Info: Output file is already uptodate.
 
-<FarDetectorAnalysis/Figs/ENuCutSelection-eps-converted-to.pdf, id=7241, 569.12
+<FarDetectorAnalysis/Figs/ENuCutSelection-eps-converted-to.pdf, id=7242, 569.12
 625pt x 409.53pt>
 File: FarDetectorAnalysis/Figs/ENuCutSelection-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -5893,7 +5894,7 @@ s-converted-to.pdf>
 (epstopdf)             \includegraphics on input line 64.
 Package epstopdf Info: Output file is already uptodate.
 
-<FarDetectorAnalysis/Figs/Q2CutSelection-eps-converted-to.pdf, id=7242, 569.126
+<FarDetectorAnalysis/Figs/Q2CutSelection-eps-converted-to.pdf, id=7243, 569.126
 25pt x 409.53pt>
 File: FarDetectorAnalysis/Figs/Q2CutSelection-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -5916,7 +5917,7 @@ omentumCutSelection.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <FarDetectorAnalysis/Figs/LeptonMomentumCutSelection-eps-converted-to.pdf, id=7
-243, 569.12625pt x 409.53pt>
+244, 569.12625pt x 409.53pt>
 File: FarDetectorAnalysis/Figs/LeptonMomentumCutSelection-eps-converted-to.pdf 
 Graphic file (type pdf)
 
@@ -5938,7 +5939,7 @@ eCutSelection.eps>
 (epstopdf)             \includegraphics on input line 78.
 Package epstopdf Info: Output file is already uptodate.
 
-<FarDetectorAnalysis/Figs/LeptonAngleCutSelection-eps-converted-to.pdf, id=7244
+<FarDetectorAnalysis/Figs/LeptonAngleCutSelection-eps-converted-to.pdf, id=7245
 , 569.12625pt x 409.53pt>
 File: FarDetectorAnalysis/Figs/LeptonAngleCutSelection-eps-converted-to.pdf Gra
 phic file (type pdf)
@@ -5946,6 +5947,11 @@ phic file (type pdf)
 Package pdftex.def Info: FarDetectorAnalysis/Figs/LeptonAngleCutSelection-eps-c
 onverted-to.pdf used on input line 78.
 (pdftex.def)             Requested size: 205.77896pt x 148.07431pt.
+[196 <./FarDetectorAnalysis/Figs/ElectronMVATune-eps-converted-to.pdf>] [197 <.
+/FarDetectorAnalysis/Figs/ENuCutSelection-eps-converted-to.pdf> <./FarDetectorA
+nalysis/Figs/Q2CutSelection-eps-converted-to.pdf> <./FarDetectorAnalysis/Figs/L
+eptonMomentumCutSelection-eps-converted-to.pdf> <./FarDetectorAnalysis/Figs/Lep
+tonAngleCutSelection-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <FarDetectorAnalysis/Figs/FVTunePosY.eps>
 (epstopdf)                    date: 2017-09-14 10:13:39
 (epstopdf)                    size: 7313 bytes
@@ -5958,7 +5964,7 @@ VTunePosY-eps-converted-to.pdf FarDetectorAnalysis/Figs/FVTunePosY.eps>
 (epstopdf)             \includegraphics on input line 97.
 Package epstopdf Info: Output file is already uptodate.
 
-<FarDetectorAnalysis/Figs/FVTunePosY-eps-converted-to.pdf, id=7255, 569.12625pt
+<FarDetectorAnalysis/Figs/FVTunePosY-eps-converted-to.pdf, id=7305, 569.12625pt
  x 409.53pt>
 File: FarDetectorAnalysis/Figs/FVTunePosY-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -5978,7 +5984,7 @@ VTuneNegY-eps-converted-to.pdf FarDetectorAnalysis/Figs/FVTuneNegY.eps>
 (epstopdf)             \includegraphics on input line 104.
 Package epstopdf Info: Output file is already uptodate.
 
-<FarDetectorAnalysis/Figs/FVTuneNegY-eps-converted-to.pdf, id=7256, 569.12625pt
+<FarDetectorAnalysis/Figs/FVTuneNegY-eps-converted-to.pdf, id=7306, 569.12625pt
  x 409.53pt>
 File: FarDetectorAnalysis/Figs/FVTuneNegY-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -5986,11 +5992,6 @@ pe pdf)
 Package pdftex.def Info: FarDetectorAnalysis/Figs/FVTuneNegY-eps-converted-to.p
 df used on input line 104.
 (pdftex.def)             Requested size: 205.77896pt x 148.07431pt.
-[196 <./FarDetectorAnalysis/Figs/ElectronMVATune-eps-converted-to.pdf>] [197 <.
-/FarDetectorAnalysis/Figs/ENuCutSelection-eps-converted-to.pdf> <./FarDetectorA
-nalysis/Figs/Q2CutSelection-eps-converted-to.pdf> <./FarDetectorAnalysis/Figs/L
-eptonMomentumCutSelection-eps-converted-to.pdf> <./FarDetectorAnalysis/Figs/Lep
-tonAngleCutSelection-eps-converted-to.pdf>]
 
 Package natbib Warning: Citation `TMVA' on page 198 undefined on input line 134
 .
@@ -6000,7 +6001,7 @@ Package natbib Warning: Citation `ArgoNeuT2013' on page 198 undefined on input
 line 152.
 
 [198 <./FarDetectorAnalysis/Figs/FVTunePosY-eps-converted-to.pdf> <./FarDetecto
-rAnalysis/Figs/FVTuneNegY-eps-converted-to.pdf>] [199]
+rAnalysis/Figs/FVTuneNegY-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <FarDetectorAnalysis/Figs/NuECCMVAOvertrain
 BDT.eps>
 (epstopdf)                    date: 2017-09-14 15:24:03
@@ -6015,7 +6016,7 @@ rainBDT.eps>
 (epstopdf)             \includegraphics on input line 178.
 Package epstopdf Info: Output file is already uptodate.
 
-<FarDetectorAnalysis/Figs/NuECCMVAOvertrainBDT-eps-converted-to.pdf, id=7341, 5
+<FarDetectorAnalysis/Figs/NuECCMVAOvertrainBDT-eps-converted-to.pdf, id=7337, 5
 69.12625pt x 420.57124pt>
 File: FarDetectorAnalysis/Figs/NuECCMVAOvertrainBDT-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -6037,7 +6038,7 @@ NuNoSelection-eps-converted-to.pdf FarDetectorAnalysis/Figs/ENuNoSelection.eps>
 (epstopdf)             \includegraphics on input line 189.
 Package epstopdf Info: Output file is already uptodate.
 
-<FarDetectorAnalysis/Figs/ENuNoSelection-eps-converted-to.pdf, id=7346, 569.126
+<FarDetectorAnalysis/Figs/ENuNoSelection-eps-converted-to.pdf, id=7342, 569.126
 25pt x 409.53pt>
 File: FarDetectorAnalysis/Figs/ENuNoSelection-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -6058,7 +6059,7 @@ Package epstopdf Info: Source file: <FarDetectorAnalysis/Figs/Q2NoSelection.eps
 (epstopdf)             \includegraphics on input line 196.
 Package epstopdf Info: Output file is already uptodate.
 
-<FarDetectorAnalysis/Figs/Q2NoSelection-eps-converted-to.pdf, id=7347, 569.1262
+<FarDetectorAnalysis/Figs/Q2NoSelection-eps-converted-to.pdf, id=7343, 569.1262
 5pt x 409.53pt>
 File: FarDetectorAnalysis/Figs/Q2NoSelection-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -6081,7 +6082,7 @@ mentumNoSelection.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <FarDetectorAnalysis/Figs/LeptonMomentumNoSelection-eps-converted-to.pdf, id=73
-48, 569.12625pt x 409.53pt>
+44, 569.12625pt x 409.53pt>
 File: FarDetectorAnalysis/Figs/LeptonMomentumNoSelection-eps-converted-to.pdf G
 raphic file (type pdf)
 <use FarDetectorAnalysis/Figs/LeptonMomentumNoSelection-eps-converted-to.pdf>
@@ -6102,7 +6103,7 @@ NoSelection.eps>
 (epstopdf)             \includegraphics on input line 210.
 Package epstopdf Info: Output file is already uptodate.
 
-<FarDetectorAnalysis/Figs/LeptonAngleNoSelection-eps-converted-to.pdf, id=7349,
+<FarDetectorAnalysis/Figs/LeptonAngleNoSelection-eps-converted-to.pdf, id=7345,
  569.12625pt x 409.53pt>
 File: FarDetectorAnalysis/Figs/LeptonAngleNoSelection-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -6123,7 +6124,7 @@ NuSelection-eps-converted-to.pdf FarDetectorAnalysis/Figs/ENuSelection.eps>
 (epstopdf)             \includegraphics on input line 222.
 Package epstopdf Info: Output file is already uptodate.
 
-<FarDetectorAnalysis/Figs/ENuSelection-eps-converted-to.pdf, id=7360, 569.12625
+<FarDetectorAnalysis/Figs/ENuSelection-eps-converted-to.pdf, id=7356, 569.12625
 pt x 409.53pt>
 File: FarDetectorAnalysis/Figs/ENuSelection-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -6143,7 +6144,7 @@ onverted-to.pdf>
 (epstopdf)             \includegraphics on input line 229.
 Package epstopdf Info: Output file is already uptodate.
 
-<FarDetectorAnalysis/Figs/Q2Selection-eps-converted-to.pdf, id=7361, 569.12625p
+<FarDetectorAnalysis/Figs/Q2Selection-eps-converted-to.pdf, id=7357, 569.12625p
 t x 409.53pt>
 File: FarDetectorAnalysis/Figs/Q2Selection-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -6165,7 +6166,7 @@ ntumSelection.eps>
 (epstopdf)             \includegraphics on input line 236.
 Package epstopdf Info: Output file is already uptodate.
 
-<FarDetectorAnalysis/Figs/LeptonMomentumSelection-eps-converted-to.pdf, id=7362
+<FarDetectorAnalysis/Figs/LeptonMomentumSelection-eps-converted-to.pdf, id=7358
 , 569.12625pt x 409.53pt>
 File: FarDetectorAnalysis/Figs/LeptonMomentumSelection-eps-converted-to.pdf Gra
 phic file (type pdf)
@@ -6187,7 +6188,7 @@ lection.eps>
 (epstopdf)             \includegraphics on input line 243.
 Package epstopdf Info: Output file is already uptodate.
 
-<FarDetectorAnalysis/Figs/LeptonAngleSelection-eps-converted-to.pdf, id=7363, 5
+<FarDetectorAnalysis/Figs/LeptonAngleSelection-eps-converted-to.pdf, id=7359, 5
 69.12625pt x 409.53pt>
 File: FarDetectorAnalysis/Figs/LeptonAngleSelection-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -6195,15 +6196,15 @@ c file (type pdf)
 Package pdftex.def Info: FarDetectorAnalysis/Figs/LeptonAngleSelection-eps-conv
 erted-to.pdf used on input line 243.
 (pdftex.def)             Requested size: 205.77896pt x 148.07431pt.
-[200 <./FarDetectorAnalysis/Figs/NuECCMVAOvertrainBDT-eps-converted-to.pdf>] [2
-01 <./FarDetectorAnalysis/Figs/ENuNoSelection-eps-converted-to.pdf> <./FarDetec
-torAnalysis/Figs/Q2NoSelection-eps-converted-to.pdf> <./FarDetectorAnalysis/Fig
-s/LeptonMomentumNoSelection-eps-converted-to.pdf> <./FarDetectorAnalysis/Figs/L
-eptonAngleNoSelection-eps-converted-to.pdf>] [202 <./FarDetectorAnalysis/Figs/E
-NuSelection-eps-converted-to.pdf> <./FarDetectorAnalysis/Figs/Q2Selection-eps-c
-onverted-to.pdf> <./FarDetectorAnalysis/Figs/LeptonMomentumSelection-eps-conver
-ted-to.pdf> <./FarDetectorAnalysis/Figs/LeptonAngleSelection-eps-converted-to.p
-df>]
+[199 <./FarDetectorAnalysis/Figs/NuECCMVAOvertrainBDT-eps-converted-to.pdf>] [2
+00] [201 <./FarDetectorAnalysis/Figs/ENuNoSelection-eps-converted-to.pdf> <./Fa
+rDetectorAnalysis/Figs/Q2NoSelection-eps-converted-to.pdf> <./FarDetectorAnalys
+is/Figs/LeptonMomentumNoSelection-eps-converted-to.pdf> <./FarDetectorAnalysis/
+Figs/LeptonAngleNoSelection-eps-converted-to.pdf>] [202 <./FarDetectorAnalysis/
+Figs/ENuSelection-eps-converted-to.pdf> <./FarDetectorAnalysis/Figs/Q2Selection
+-eps-converted-to.pdf> <./FarDetectorAnalysis/Figs/LeptonMomentumSelection-eps-
+converted-to.pdf> <./FarDetectorAnalysis/Figs/LeptonAngleSelection-eps-converte
+d-to.pdf>]
 
 Package natbib Warning: Citation `Aurisano2016' on page 203 undefined on input 
 line 256.
@@ -6235,7 +6236,7 @@ C3Gap-eps-converted-to.pdf AppendixAPAGap/Figs/TPC1TPC3Gap.eps>
 (epstopdf)             \includegraphics on input line 16.
 Package epstopdf Info: Output file is already uptodate.
 
-<AppendixAPAGap/Figs/TPC1TPC3Gap-eps-converted-to.pdf, id=7496, 569.12625pt x 4
+<AppendixAPAGap/Figs/TPC1TPC3Gap-eps-converted-to.pdf, id=7497, 569.12625pt x 4
 09.53pt>
 File: AppendixAPAGap/Figs/TPC1TPC3Gap-eps-converted-to.pdf Graphic file (type p
 df)
@@ -6255,7 +6256,7 @@ C3XOff-eps-converted-to.pdf AppendixAPAGap/Figs/TPC1TPC3XOff.eps>
 (epstopdf)             \includegraphics on input line 23.
 Package epstopdf Info: Output file is already uptodate.
 
-<AppendixAPAGap/Figs/TPC1TPC3XOff-eps-converted-to.pdf, id=7497, 569.12625pt x 
+<AppendixAPAGap/Figs/TPC1TPC3XOff-eps-converted-to.pdf, id=7498, 569.12625pt x 
 409.53pt>
 File: AppendixAPAGap/Figs/TPC1TPC3XOff-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -6275,7 +6276,7 @@ C3ZOff-eps-converted-to.pdf AppendixAPAGap/Figs/TPC1TPC3ZOff.eps>
 (epstopdf)             \includegraphics on input line 30.
 Package epstopdf Info: Output file is already uptodate.
 
-<AppendixAPAGap/Figs/TPC1TPC3ZOff-eps-converted-to.pdf, id=7498, 569.12625pt x 
+<AppendixAPAGap/Figs/TPC1TPC3ZOff-eps-converted-to.pdf, id=7499, 569.12625pt x 
 409.53pt>
 File: AppendixAPAGap/Figs/TPC1TPC3ZOff-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -6298,7 +6299,7 @@ C5Gap-eps-converted-to.pdf AppendixAPAGap/Figs/TPC1TPC5Gap.eps>
 (epstopdf)             \includegraphics on input line 43.
 Package epstopdf Info: Output file is already uptodate.
 
-<AppendixAPAGap/Figs/TPC1TPC5Gap-eps-converted-to.pdf, id=7499, 569.12625pt x 4
+<AppendixAPAGap/Figs/TPC1TPC5Gap-eps-converted-to.pdf, id=7500, 569.12625pt x 4
 09.53pt>
 File: AppendixAPAGap/Figs/TPC1TPC5Gap-eps-converted-to.pdf Graphic file (type p
 df)
@@ -6318,7 +6319,7 @@ C5XOff-eps-converted-to.pdf AppendixAPAGap/Figs/TPC1TPC5XOff.eps>
 (epstopdf)             \includegraphics on input line 50.
 Package epstopdf Info: Output file is already uptodate.
 
-<AppendixAPAGap/Figs/TPC1TPC5XOff-eps-converted-to.pdf, id=7500, 569.12625pt x 
+<AppendixAPAGap/Figs/TPC1TPC5XOff-eps-converted-to.pdf, id=7501, 569.12625pt x 
 409.53pt>
 File: AppendixAPAGap/Figs/TPC1TPC5XOff-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -6338,7 +6339,7 @@ C5ZOff-eps-converted-to.pdf AppendixAPAGap/Figs/TPC1TPC5ZOff.eps>
 (epstopdf)             \includegraphics on input line 57.
 Package epstopdf Info: Output file is already uptodate.
 
-<AppendixAPAGap/Figs/TPC1TPC5ZOff-eps-converted-to.pdf, id=7501, 569.12625pt x 
+<AppendixAPAGap/Figs/TPC1TPC5ZOff-eps-converted-to.pdf, id=7502, 569.12625pt x 
 409.53pt>
 File: AppendixAPAGap/Figs/TPC1TPC5ZOff-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -6361,7 +6362,7 @@ C7Gap-eps-converted-to.pdf AppendixAPAGap/Figs/TPC3TPC7Gap.eps>
 (epstopdf)             \includegraphics on input line 70.
 Package epstopdf Info: Output file is already uptodate.
 
-<AppendixAPAGap/Figs/TPC3TPC7Gap-eps-converted-to.pdf, id=7502, 569.12625pt x 4
+<AppendixAPAGap/Figs/TPC3TPC7Gap-eps-converted-to.pdf, id=7503, 569.12625pt x 4
 09.53pt>
 File: AppendixAPAGap/Figs/TPC3TPC7Gap-eps-converted-to.pdf Graphic file (type p
 df)
@@ -6381,7 +6382,7 @@ C7XOff-eps-converted-to.pdf AppendixAPAGap/Figs/TPC3TPC7XOff.eps>
 (epstopdf)             \includegraphics on input line 77.
 Package epstopdf Info: Output file is already uptodate.
 
-<AppendixAPAGap/Figs/TPC3TPC7XOff-eps-converted-to.pdf, id=7503, 569.12625pt x 
+<AppendixAPAGap/Figs/TPC3TPC7XOff-eps-converted-to.pdf, id=7504, 569.12625pt x 
 409.53pt>
 File: AppendixAPAGap/Figs/TPC3TPC7XOff-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -6401,7 +6402,7 @@ C7ZOff-eps-converted-to.pdf AppendixAPAGap/Figs/TPC3TPC7ZOff.eps>
 (epstopdf)             \includegraphics on input line 84.
 Package epstopdf Info: Output file is already uptodate.
 
-<AppendixAPAGap/Figs/TPC3TPC7ZOff-eps-converted-to.pdf, id=7504, 569.12625pt x 
+<AppendixAPAGap/Figs/TPC3TPC7ZOff-eps-converted-to.pdf, id=7505, 569.12625pt x 
 409.53pt>
 File: AppendixAPAGap/Figs/TPC3TPC7ZOff-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -6424,7 +6425,7 @@ C7GapFit-eps-converted-to.pdf AppendixAPAGap/Figs/TPC5TPC7GapFit.eps>
 (epstopdf)             \includegraphics on input line 97.
 Package epstopdf Info: Output file is already uptodate.
 
-<AppendixAPAGap/Figs/TPC5TPC7GapFit-eps-converted-to.pdf, id=7505, 569.12625pt 
+<AppendixAPAGap/Figs/TPC5TPC7GapFit-eps-converted-to.pdf, id=7506, 569.12625pt 
 x 409.53pt>
 File: AppendixAPAGap/Figs/TPC5TPC7GapFit-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -6444,7 +6445,7 @@ C7XOff-eps-converted-to.pdf AppendixAPAGap/Figs/TPC5TPC7XOff.eps>
 (epstopdf)             \includegraphics on input line 104.
 Package epstopdf Info: Output file is already uptodate.
 
-<AppendixAPAGap/Figs/TPC5TPC7XOff-eps-converted-to.pdf, id=7506, 569.12625pt x 
+<AppendixAPAGap/Figs/TPC5TPC7XOff-eps-converted-to.pdf, id=7507, 569.12625pt x 
 409.53pt>
 File: AppendixAPAGap/Figs/TPC5TPC7XOff-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -6464,7 +6465,7 @@ C7ZOff-eps-converted-to.pdf AppendixAPAGap/Figs/TPC5TPC7ZOff.eps>
 (epstopdf)             \includegraphics on input line 111.
 Package epstopdf Info: Output file is already uptodate.
 
-<AppendixAPAGap/Figs/TPC5TPC7ZOff-eps-converted-to.pdf, id=7507, 569.12625pt x 
+<AppendixAPAGap/Figs/TPC5TPC7ZOff-eps-converted-to.pdf, id=7508, 569.12625pt x 
 409.53pt>
 File: AppendixAPAGap/Figs/TPC5TPC7ZOff-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -6515,7 +6516,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 6.
 
 
-<AppendixFDMVAVariables/Figs/EventCharge.pdf, id=7650, 182.18294pt x 143.03658p
+<AppendixFDMVAVariables/Figs/EventCharge.pdf, id=7651, 182.18294pt x 143.03658p
 t>
 File: AppendixFDMVAVariables/Figs/EventCharge.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/EventCharge.pdf>
@@ -6523,7 +6524,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/EventCharge.pdf used on in
 put line 16.
 (pdftex.def)             Requested size: 157.48251pt x 123.65073pt.
 
-<AppendixFDMVAVariables/Figs/NumberOfTracks.pdf, id=7651, 182.18294pt x 143.036
+<AppendixFDMVAVariables/Figs/NumberOfTracks.pdf, id=7652, 182.18294pt x 143.036
 58pt>
 File: AppendixFDMVAVariables/Figs/NumberOfTracks.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/NumberOfTracks.pdf>
@@ -6531,7 +6532,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/NumberOfTracks.pdf used on
  input line 22.
 (pdftex.def)             Requested size: 157.48251pt x 123.65073pt.
 
-<AppendixFDMVAVariables/Figs/MaxTrackLength.pdf, id=7652, 182.18303pt x 143.036
+<AppendixFDMVAVariables/Figs/MaxTrackLength.pdf, id=7653, 182.18303pt x 143.036
 58pt>
 File: AppendixFDMVAVariables/Figs/MaxTrackLength.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/MaxTrackLength.pdf>
@@ -6539,7 +6540,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/MaxTrackLength.pdf used on
  input line 28.
 (pdftex.def)             Requested size: 157.48251pt x 123.65073pt.
 
-<AppendixFDMVAVariables/Figs/AverageTrackLength.pdf, id=7653, 182.18301pt x 143
+<AppendixFDMVAVariables/Figs/AverageTrackLength.pdf, id=7654, 182.18301pt x 143
 .03654pt>
 File: AppendixFDMVAVariables/Figs/AverageTrackLength.pdf Graphic file (type pdf
 )
@@ -6548,7 +6549,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/AverageTrackLength.pdf use
 d on input line 34.
 (pdftex.def)             Requested size: 157.48251pt x 123.6507pt.
 
-<AppendixFDMVAVariables/Figs/FractionOfTrackCharge.pdf, id=7654, 178.46815pt x 
+<AppendixFDMVAVariables/Figs/FractionOfTrackCharge.pdf, id=7655, 178.46815pt x 
 143.04562pt>
 File: AppendixFDMVAVariables/Figs/FractionOfTrackCharge.pdf Graphic file (type 
 pdf)
@@ -6557,7 +6558,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/FractionOfTrackCharge.pdf
 used on input line 40.
 (pdftex.def)             Requested size: 157.48251pt x 126.23412pt.
 
-<AppendixFDMVAVariables/Figs/NumberOfShowers.pdf, id=7655, 177.75781pt x 143.06
+<AppendixFDMVAVariables/Figs/NumberOfShowers.pdf, id=7656, 177.75781pt x 143.06
 35pt>
 File: AppendixFDMVAVariables/Figs/NumberOfShowers.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/NumberOfShowers.pdf>
@@ -6565,7 +6566,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/NumberOfShowers.pdf used o
 n input line 46.
 (pdftex.def)             Requested size: 157.48251pt x 126.7498pt.
 
-<AppendixFDMVAVariables/Figs/FractionOfShowerCharge.pdf, id=7656, 177.07225pt x
+<AppendixFDMVAVariables/Figs/FractionOfShowerCharge.pdf, id=7657, 177.07225pt x
  142.70494pt>
 File: AppendixFDMVAVariables/Figs/FractionOfShowerCharge.pdf Graphic file (type
  pdf)
@@ -6574,14 +6575,14 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/FractionOfShowerCharge.pdf
  used on input line 52.
 (pdftex.def)             Requested size: 157.48251pt x 126.92207pt.
 
-<AppendixFDMVAVariables/Figs/TrackdEdx.pdf, id=7657, 182.18294pt x 143.03654pt>
+<AppendixFDMVAVariables/Figs/TrackdEdx.pdf, id=7658, 182.18294pt x 143.03654pt>
 File: AppendixFDMVAVariables/Figs/TrackdEdx.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/TrackdEdx.pdf>
 Package pdftex.def Info: AppendixFDMVAVariables/Figs/TrackdEdx.pdf used on inpu
 t line 63.
 (pdftex.def)             Requested size: 157.48251pt x 123.6507pt.
 
-<AppendixFDMVAVariables/Figs/SignalFluctuation.pdf, id=7658, 182.18294pt x 143.
+<AppendixFDMVAVariables/Figs/SignalFluctuation.pdf, id=7659, 182.18294pt x 143.
 03654pt>
 File: AppendixFDMVAVariables/Figs/SignalFluctuation.pdf Graphic file (type pdf)
 
@@ -6590,7 +6591,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/SignalFluctuation.pdf used
  on input line 69.
 (pdftex.def)             Requested size: 157.48251pt x 123.6507pt.
 
-<AppendixFDMVAVariables/Figs/TransverseTrackProfile.pdf, id=7659, 178.4681pt x 
+<AppendixFDMVAVariables/Figs/TransverseTrackProfile.pdf, id=7660, 178.4681pt x 
 143.04562pt>
 File: AppendixFDMVAVariables/Figs/TransverseTrackProfile.pdf Graphic file (type
  pdf)
@@ -6599,14 +6600,14 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/TransverseTrackProfile.pdf
  used on input line 75.
 (pdftex.def)             Requested size: 157.48251pt x 126.23412pt.
 
-<AppendixFDMVAVariables/Figs/TrackPIDA.pdf, id=7660, 178.46815pt x 143.04552pt>
+<AppendixFDMVAVariables/Figs/TrackPIDA.pdf, id=7661, 178.46815pt x 143.04552pt>
 File: AppendixFDMVAVariables/Figs/TrackPIDA.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/TrackPIDA.pdf>
 Package pdftex.def Info: AppendixFDMVAVariables/Figs/TrackPIDA.pdf used on inpu
 t line 81.
 (pdftex.def)             Requested size: 157.48251pt x 126.23402pt.
 
-<AppendixFDMVAVariables/Figs/MaximumFractionOfCharge5Wires.pdf, id=7661, 178.46
+<AppendixFDMVAVariables/Figs/MaximumFractionOfCharge5Wires.pdf, id=7662, 178.46
 808pt x 143.04561pt>
 File: AppendixFDMVAVariables/Figs/MaximumFractionOfCharge5Wires.pdf Graphic fil
 e (type pdf)
@@ -6615,7 +6616,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/MaximumFractionOfCharge5Wi
 res.pdf used on input line 87.
 (pdftex.def)             Requested size: 157.48251pt x 126.2341pt.
 
-<AppendixFDMVAVariables/Figs/MaximumFractionOfCharge10Wires.pdf, id=7662, 178.4
+<AppendixFDMVAVariables/Figs/MaximumFractionOfCharge10Wires.pdf, id=7663, 178.4
 6815pt x 143.04562pt>
 File: AppendixFDMVAVariables/Figs/MaximumFractionOfCharge10Wires.pdf Graphic fi
 le (type pdf)
@@ -6624,7 +6625,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/MaximumFractionOfCharge10W
 ires.pdf used on input line 93.
 (pdftex.def)             Requested size: 157.48251pt x 126.23412pt.
 
-<AppendixFDMVAVariables/Figs/MaximumFractionOfCharge50Wires.pdf, id=7663, 178.4
+<AppendixFDMVAVariables/Figs/MaximumFractionOfCharge50Wires.pdf, id=7664, 178.4
 6815pt x 143.04555pt>
 File: AppendixFDMVAVariables/Figs/MaximumFractionOfCharge50Wires.pdf Graphic fi
 le (type pdf)
@@ -6633,7 +6634,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/MaximumFractionOfCharge50W
 ires.pdf used on input line 104.
 (pdftex.def)             Requested size: 157.48251pt x 126.23405pt.
 
-<AppendixFDMVAVariables/Figs/MaximumFractionOfCharge100Wires.pdf, id=7664, 177.
+<AppendixFDMVAVariables/Figs/MaximumFractionOfCharge100Wires.pdf, id=7665, 177.
 75784pt x 143.06349pt>
 File: AppendixFDMVAVariables/Figs/MaximumFractionOfCharge100Wires.pdf Graphic f
 ile (type pdf)
@@ -6642,28 +6643,28 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/MaximumFractionOfCharge100
 Wires.pdf used on input line 110.
 (pdftex.def)             Requested size: 157.48251pt x 126.74979pt.
 
-<AppendixFDMVAVariables/Figs/TrackCosX.pdf, id=7665, 177.75781pt x 143.06358pt>
+<AppendixFDMVAVariables/Figs/TrackCosX.pdf, id=7666, 177.75781pt x 143.06358pt>
 File: AppendixFDMVAVariables/Figs/TrackCosX.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/TrackCosX.pdf>
 Package pdftex.def Info: AppendixFDMVAVariables/Figs/TrackCosX.pdf used on inpu
 t line 116.
 (pdftex.def)             Requested size: 157.48251pt x 126.74986pt.
 
-<AppendixFDMVAVariables/Figs/TrackCosY.pdf, id=7666, 177.75781pt x 143.06349pt>
+<AppendixFDMVAVariables/Figs/TrackCosY.pdf, id=7667, 177.75781pt x 143.06349pt>
 File: AppendixFDMVAVariables/Figs/TrackCosY.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/TrackCosY.pdf>
 Package pdftex.def Info: AppendixFDMVAVariables/Figs/TrackCosY.pdf used on inpu
 t line 122.
 (pdftex.def)             Requested size: 157.48251pt x 126.74979pt.
 
-<AppendixFDMVAVariables/Figs/TrackCosZ.pdf, id=7667, 177.75783pt x 143.06349pt>
+<AppendixFDMVAVariables/Figs/TrackCosZ.pdf, id=7668, 177.75783pt x 143.06349pt>
 File: AppendixFDMVAVariables/Figs/TrackCosZ.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/TrackCosZ.pdf>
 Package pdftex.def Info: AppendixFDMVAVariables/Figs/TrackCosZ.pdf used on inpu
 t line 128.
 (pdftex.def)             Requested size: 157.48251pt x 126.74979pt.
 
-<AppendixFDMVAVariables/Figs/FractionalTransverseEnergy.pdf, id=7668, 177.7579p
+<AppendixFDMVAVariables/Figs/FractionalTransverseEnergy.pdf, id=7669, 177.7579p
 t x 143.06352pt>
 File: AppendixFDMVAVariables/Figs/FractionalTransverseEnergy.pdf Graphic file (
 type pdf)
@@ -6672,7 +6673,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/FractionalTransverseEnergy
 .pdf used on input line 134.
 (pdftex.def)             Requested size: 157.48251pt x 126.74982pt.
 
-<AppendixFDMVAVariables/Figs/ShowerdEdx.pdf, id=7669, 177.07227pt x 142.70505pt
+<AppendixFDMVAVariables/Figs/ShowerdEdx.pdf, id=7670, 177.07227pt x 142.70505pt
 >
 File: AppendixFDMVAVariables/Figs/ShowerdEdx.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/ShowerdEdx.pdf>
@@ -6680,7 +6681,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/ShowerdEdx.pdf used on inp
 ut line 146.
 (pdftex.def)             Requested size: 157.48251pt x 126.92216pt.
 
-<AppendixFDMVAVariables/Figs/ShowerEnergy.pdf, id=7670, 177.07225pt x 142.70505
+<AppendixFDMVAVariables/Figs/ShowerEnergy.pdf, id=7671, 177.07225pt x 142.70505
 pt>
 File: AppendixFDMVAVariables/Figs/ShowerEnergy.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/ShowerEnergy.pdf>
@@ -6688,7 +6689,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/ShowerEnergy.pdf used on i
 nput line 152.
 (pdftex.def)             Requested size: 157.48251pt x 126.92216pt.
 
-<AppendixFDMVAVariables/Figs/NHitsPerShowerWire.pdf, id=7671, 177.07224pt x 142
+<AppendixFDMVAVariables/Figs/NHitsPerShowerWire.pdf, id=7672, 177.07224pt x 142
 .70505pt>
 File: AppendixFDMVAVariables/Figs/NHitsPerShowerWire.pdf Graphic file (type pdf
 )
@@ -6697,7 +6698,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/NHitsPerShowerWire.pdf use
 d on input line 158.
 (pdftex.def)             Requested size: 157.48251pt x 126.92216pt.
 
-<AppendixFDMVAVariables/Figs/ShowerLength.pdf, id=7672, 177.07225pt x 142.70499
+<AppendixFDMVAVariables/Figs/ShowerLength.pdf, id=7673, 177.07225pt x 142.70499
 pt>
 File: AppendixFDMVAVariables/Figs/ShowerLength.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/ShowerLength.pdf>
@@ -6705,7 +6706,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/ShowerLength.pdf used on i
 nput line 164.
 (pdftex.def)             Requested size: 157.48251pt x 126.9221pt.
 
-<AppendixFDMVAVariables/Figs/ShowerMaximum.pdf, id=7673, 177.07225pt x 142.7050
+<AppendixFDMVAVariables/Figs/ShowerMaximum.pdf, id=7674, 177.07225pt x 142.7050
 2pt>
 File: AppendixFDMVAVariables/Figs/ShowerMaximum.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/ShowerMaximum.pdf>
@@ -6713,7 +6714,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/ShowerMaximum.pdf used on
 input line 170.
 (pdftex.def)             Requested size: 157.48251pt x 126.92213pt.
 
-<AppendixFDMVAVariables/Figs/ShowerStartEventVertexX.pdf, id=7674, 177.38821pt 
+<AppendixFDMVAVariables/Figs/ShowerStartEventVertexX.pdf, id=7675, 177.38821pt 
 x 142.74539pt>
 File: AppendixFDMVAVariables/Figs/ShowerStartEventVertexX.pdf Graphic file (typ
 e pdf)
@@ -6728,7 +6729,7 @@ Underfull \hbox (badness 1057) in paragraph at lines 177--177
  []
 
 
-<AppendixFDMVAVariables/Figs/ShowerStartEventVertexY.pdf, id=7675, 177.38821pt 
+<AppendixFDMVAVariables/Figs/ShowerStartEventVertexY.pdf, id=7676, 177.38821pt 
 x 142.74539pt>
 File: AppendixFDMVAVariables/Figs/ShowerStartEventVertexY.pdf Graphic file (typ
 e pdf)
@@ -6737,7 +6738,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/ShowerStartEventVertexY.pd
 f used on input line 187.
 (pdftex.def)             Requested size: 157.48251pt x 126.73587pt.
 
-<AppendixFDMVAVariables/Figs/ShowerStartEventVertexZ.pdf, id=7676, 177.38821pt 
+<AppendixFDMVAVariables/Figs/ShowerStartEventVertexZ.pdf, id=7677, 177.38821pt 
 x 142.74539pt>
 File: AppendixFDMVAVariables/Figs/ShowerStartEventVertexZ.pdf Graphic file (typ
 e pdf)
@@ -6746,7 +6747,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/ShowerStartEventVertexZ.pd
 f used on input line 193.
 (pdftex.def)             Requested size: 157.48251pt x 126.73587pt.
 
-<AppendixFDMVAVariables/Figs/ShowerCosX.pdf, id=7677, 177.38814pt x 142.74532pt
+<AppendixFDMVAVariables/Figs/ShowerCosX.pdf, id=7678, 177.38814pt x 142.74532pt
 >
 File: AppendixFDMVAVariables/Figs/ShowerCosX.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/ShowerCosX.pdf>
@@ -6754,7 +6755,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/ShowerCosX.pdf used on inp
 ut line 199.
 (pdftex.def)             Requested size: 157.48251pt x 126.7358pt.
 
-<AppendixFDMVAVariables/Figs/ShowerCosY.pdf, id=7678, 177.38812pt x 142.74533pt
+<AppendixFDMVAVariables/Figs/ShowerCosY.pdf, id=7679, 177.38812pt x 142.74533pt
 >
 File: AppendixFDMVAVariables/Figs/ShowerCosY.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/ShowerCosY.pdf>
@@ -6762,7 +6763,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/ShowerCosY.pdf used on inp
 ut line 205.
 (pdftex.def)             Requested size: 157.48251pt x 126.73581pt.
 
-<AppendixFDMVAVariables/Figs/ShowerCosZ.pdf, id=7679, 177.38821pt x 142.74533pt
+<AppendixFDMVAVariables/Figs/ShowerCosZ.pdf, id=7680, 177.38821pt x 142.74533pt
 >
 File: AppendixFDMVAVariables/Figs/ShowerCosZ.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/ShowerCosZ.pdf>
@@ -6812,11 +6813,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 28000 strings out of 493117
- 529946 string characters out of 6135433
- 586603 words of memory out of 5000000
+ 27994 strings out of 493117
+ 529892 string characters out of 6135433
+ 589614 words of memory out of 5000000
  29684 multiletter control sequences out of 15000+600000
- 132253 words of font info for 406 fonts, out of 8000000 for 9000
+ 131898 words of font info for 402 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  49i,15n,52p,10395b,866s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
@@ -6862,10 +6863,10 @@ l/texlive/2014/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2
 014/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-
 dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts
 /type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (246 pages, 57369517 bytes).
+Output written on thesis.pdf (246 pages, 57370913 bytes).
 PDF statistics:
- 8678 PDF objects out of 8907 (max. 8388607)
- 6544 compressed objects within 66 object streams
+ 8679 PDF objects out of 8907 (max. 8388607)
+ 6547 compressed objects within 66 object streams
  626 named destinations out of 1000 (max. 500000)
  74525 words of extra memory for PDF output out of 89155 (max. 10000000)
 
