@@ -12,8 +12,8 @@
 \contentsline {section}{\numberline {2.2}Neutrino Oscillations}{10}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}The Evidence for Neutrino Oscillations}{11}{subsection.2.2.1}
 \contentsline {subsubsection}{\numberline {2.2.1.1}Super-Kamiokande and the Atmospheric Sector}{11}{subsubsection.2.2.1.1}
-\contentsline {subsubsection}{\numberline {2.2.1.2}SNO and the Solar Sector}{13}{subsubsection.2.2.1.2}
-\contentsline {subsection}{\numberline {2.2.2}Vacuum Oscillations}{13}{subsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1.2}SNO and the Solar Sector}{12}{subsubsection.2.2.1.2}
+\contentsline {subsection}{\numberline {2.2.2}Vacuum Oscillations}{15}{subsection.2.2.2}
 \contentsline {subsection}{\numberline {2.2.3}Matter Effects}{17}{subsection.2.2.3}
 \contentsline {subsubsection}{\numberline {2.2.3.1}KamLAND and Reactor Neutrinos}{18}{subsubsection.2.2.3.1}
 \contentsline {subsection}{\numberline {2.2.4}CP Violation}{18}{subsection.2.2.4}
@@ -28,20 +28,20 @@
 \contentsline {subsection}{\numberline {3.1.3}LArTPC Challenges}{31}{subsection.3.1.3}
 \contentsline {section}{\numberline {3.2}Overview of DUNE}{32}{section.3.2}
 \contentsline {section}{\numberline {3.3}Experimental Details}{35}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Beam}{35}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Far Detector}{36}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.1}Beam}{36}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Far Detector}{37}{subsection.3.3.2}
 \contentsline {subsubsection}{\numberline {3.3.2.1}Single-Phase}{38}{subsubsection.3.3.2.1}
 \contentsline {subsubsection}{\numberline {3.3.2.2}Dual-Phase}{42}{subsubsection.3.3.2.2}
 \contentsline {subsection}{\numberline {3.3.3}Near Detector}{43}{subsection.3.3.3}
 \contentsline {subsubsection}{\numberline {3.3.3.1}Near Neutrino Detector}{44}{subsubsection.3.3.3.1}
-\contentsline {subsubsection}{\numberline {3.3.3.2}Beamline Measurement System}{45}{subsubsection.3.3.3.2}
-\contentsline {section}{\numberline {3.4}The Physics of DUNE}{45}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Mass Hierarchy and CP Violation}{47}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Oscillation Parameters}{49}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Other Physics}{49}{subsection.3.4.3}
-\contentsline {section}{\numberline {3.5}The Road to DUNE}{53}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}The 35-ton Prototype}{53}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}ProtoDUNE}{53}{subsection.3.5.2}
+\contentsline {subsubsection}{\numberline {3.3.3.2}Beamline Measurement System}{46}{subsubsection.3.3.3.2}
+\contentsline {section}{\numberline {3.4}The Physics of DUNE}{46}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Mass Hierarchy and CP Violation}{48}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Oscillation Parameters}{50}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Other Physics}{50}{subsection.3.4.3}
+\contentsline {section}{\numberline {3.5}The Road to DUNE}{54}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}The 35-ton Prototype}{54}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}ProtoDUNE}{54}{subsection.3.5.2}
 \contentsline {chapter}{\numberline {4}The DUNE 35-ton Prototype}{57}{chapter.4}
 \contentsline {section}{\numberline {4.1}The Materials Test Stand and Liquid Argon Purity Demonstrator}{58}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}The Materials Test Stand}{58}{subsection.4.1.1}
@@ -129,21 +129,21 @@
 \contentsline {section}{\numberline {7.3}APA-Crossing Muons}{164}{section.7.3}
 \contentsline {subsection}{\numberline {7.3.1}T0 Determination from APA Crossing Tracks}{166}{subsection.7.3.1}
 \contentsline {subsubsection}{\numberline {7.3.1.1}Aligning APA Crossing Tracks}{166}{subsubsection.7.3.1.1}
-\contentsline {subsubsection}{\numberline {7.3.1.2}Understanding the Misalignment of APA-Crossing Tracks}{168}{subsubsection.7.3.1.2}
-\contentsline {paragraph}{Geometry}{168}{section*.135}
-\contentsline {paragraph}{Drift velocity}{172}{section*.138}
-\contentsline {paragraph}{Timing}{172}{section*.141}
-\contentsline {subsubsection}{\numberline {7.3.1.3}Combined Offset Analysis}{173}{subsubsection.7.3.1.3}
+\contentsline {subsubsection}{\numberline {7.3.1.2}Understanding the Misalignment of APA-Crossing Tracks}{167}{subsubsection.7.3.1.2}
+\contentsline {paragraph}{Geometry}{167}{section*.135}
+\contentsline {paragraph}{Drift velocity}{171}{section*.138}
+\contentsline {paragraph}{Timing}{171}{section*.141}
+\contentsline {subsubsection}{\numberline {7.3.1.3}Combined Offset Analysis}{176}{subsubsection.7.3.1.3}
 \contentsline {subsection}{\numberline {7.3.2}Charge Deposited by APA Crossing Tracks}{178}{subsection.7.3.2}
-\contentsline {subsubsection}{\numberline {7.3.2.1}Interaction Time Hits}{178}{subsubsection.7.3.2.1}
-\contentsline {subsubsection}{\numberline {7.3.2.2}Event Displays of APA-Crossing Tracks}{179}{subsubsection.7.3.2.2}
-\contentsline {subsection}{\numberline {7.3.3}Comparing Drift Regions with APA-Crossing Tracks}{182}{subsection.7.3.3}
-\contentsline {section}{\numberline {7.4}Shower Reconstruction in 35-ton Data}{185}{section.7.4}
-\contentsline {subsection}{\numberline {7.4.1}Data Specific Reconstruction}{185}{subsection.7.4.1}
-\contentsline {subsection}{\numberline {7.4.2}Calorimetry Reconstruction}{185}{subsection.7.4.2}
-\contentsline {subsection}{\numberline {7.4.3}Shower Reconstruction}{189}{subsection.7.4.3}
-\contentsline {subsection}{\numberline {7.4.4}$\pi ^0$ Reconstruction}{190}{subsection.7.4.4}
-\contentsline {section}{\numberline {7.5}35-ton Data Analysis Summary}{191}{section.7.5}
+\contentsline {subsubsection}{\numberline {7.3.2.1}Interaction Time Hits}{179}{subsubsection.7.3.2.1}
+\contentsline {subsubsection}{\numberline {7.3.2.2}Event Displays of APA-Crossing Tracks}{181}{subsubsection.7.3.2.2}
+\contentsline {subsection}{\numberline {7.3.3}Comparing Drift Regions with APA-Crossing Tracks}{183}{subsection.7.3.3}
+\contentsline {section}{\numberline {7.4}Shower Reconstruction in 35-ton Data}{183}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}Data Specific Reconstruction}{183}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.2}Calorimetry Reconstruction}{186}{subsection.7.4.2}
+\contentsline {subsection}{\numberline {7.4.3}Shower Reconstruction}{188}{subsection.7.4.3}
+\contentsline {subsection}{\numberline {7.4.4}$\pi ^0$ Reconstruction}{191}{subsection.7.4.4}
+\contentsline {section}{\numberline {7.5}35-ton Data Analysis Summary}{192}{section.7.5}
 \contentsline {chapter}{\numberline {8}The $\nu _e$ Oscillation Signal at the DUNE Far Detector}{193}{chapter.8}
 \contentsline {section}{\numberline {8.1}Far Detector Samples}{194}{section.8.1}
 \contentsline {section}{\numberline {8.2}Cut-Based Tuning}{194}{section.8.2}

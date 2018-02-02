@@ -5,7 +5,7 @@
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Solar neutrino energy spectra as predicted by the Standard Solar Model.}}{8}{figure.caption.10}
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Demonstrating the atmospheric neutrino anomaly using the double ratio \textit {R} of muon to electron neutrino events showing data divided by expectation.}}{10}{figure.caption.11}
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Zenith angle distributions of $\mu $-like and $e$-like events for sub-GeV and multi-GeV SuperKamiokande data sets.}}{12}{figure.caption.12}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces The ratio of the number of SuperKamiokande data events to expected events in the absence of oscillations as a function of reconstructed $L/E_{\nu }$.}}{12}{figure.caption.13}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces The ratio of the number of SuperKamiokande data events to expected events in the absence of oscillations as a function of reconstructed $L/E_{\nu }$.}}{13}{figure.caption.13}
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Comparison of the predictions of the neutrino fluxes from the Standard Solar Model with measured rates from a variety of solar neutrino experiments.}}{14}{figure.caption.14}
 \contentsline {figure}{\numberline {2.8}{\ignorespaces General scattering mechanics which occur as neutrinos pass through matter.}}{18}{figure.caption.15}
 \contentsline {figure}{\numberline {2.9}{\ignorespaces Recent global 3-neutrino oscillation analysis.}}{21}{figure.caption.16}
@@ -19,20 +19,20 @@
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Demonstration of how having access to multiple oscillation maxima facilitates measurements of both the neutrino mass hierarchy and leptonic CP violation using the same experiment.}}{34}{figure.caption.25}
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Longitudinal section of the LBNF beamline facility at Fermilab.}}{36}{figure.caption.26}
 \contentsline {figure}{\numberline {3.8}{\ignorespaces The fluxes of the different neutrino flavour components of the DUNE beam in neutrino and antineutrino running mode.}}{37}{figure.caption.27}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces The layout of the four cryostats underground at SURF comprising the DUNE far detector.}}{37}{figure.caption.28}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces The layout of the four cryostats underground at SURF comprising the DUNE far detector.}}{38}{figure.caption.28}
 \contentsline {figure}{\numberline {3.10}{\ignorespaces The basic design of a single-phase DUNE far detector module.}}{39}{figure.caption.29}
 \contentsline {figure}{\numberline {3.11}{\ignorespaces Design of a DUNE far detector Anode Plane Assembly (APA).}}{40}{figure.caption.30}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces The design of the photon detectors for the DUNE far detector.}}{41}{figure.caption.31}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces The DUNE dual-phase detector (partially open).}}{42}{figure.caption.32}
-\contentsline {figure}{\numberline {3.14}{\ignorespaces The extraction, amplification and readout of the ionisation electrons through the gaseous argon phase in the DUNE dual-phase LArTPC design.}}{43}{figure.caption.33}
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Schematic of the DUNE near neutrino detector fine-grained tracker design.}}{44}{figure.caption.34}
-\contentsline {figure}{\numberline {3.16}{\ignorespaces The appearance probability at a baseline of 1300\nobreakspace {}km, as a function of neutrino energy, for $\delta _{CP}=-\pi /2$, 0 and $\pi /2$, neutrinos and antineutrinos, assuming normal hierarchy.}}{47}{figure.caption.36}
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Sensitivity of the DUNE experiment to the neutrino mass hierarchy.}}{48}{figure.caption.37}
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Sensitivity of the DUNE experiment to leptonic CP violation.}}{50}{figure.caption.38}
-\contentsline {figure}{\numberline {3.19}{\ignorespaces The sensitivity of DUNE to the octant and value of $\theta _{23}$.}}{51}{figure.caption.39}
-\contentsline {figure}{\numberline {3.20}{\ignorespaces The sensitivity of DUNE to the oscillation parameters describing $\nu _e$ and $\bar {\nu }_e$ appearance.}}{52}{figure.caption.40}
-\contentsline {figure}{\numberline {3.21}{\ignorespaces The 35-ton cryostat and detector designed to prototype the DUNE far detector design.}}{54}{figure.caption.41}
-\contentsline {figure}{\numberline {3.22}{\ignorespaces Schematic showing the layout of the ProtoDUNEs at the CERN neutrino platform.}}{55}{figure.caption.42}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces The design of the photon detectors for the DUNE far detector.}}{42}{figure.caption.31}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces The DUNE dual-phase detector (partially open).}}{43}{figure.caption.32}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces The extraction, amplification and readout of the ionisation electrons through the gaseous argon phase in the DUNE dual-phase LArTPC design.}}{44}{figure.caption.33}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Schematic of the DUNE near neutrino detector fine-grained tracker design.}}{45}{figure.caption.34}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces The appearance probability at a baseline of 1300\nobreakspace {}km, as a function of neutrino energy, for $\delta _{CP}=-\pi /2$, 0 and $\pi /2$, neutrinos and antineutrinos, assuming normal hierarchy.}}{48}{figure.caption.36}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Sensitivity of the DUNE experiment to the neutrino mass hierarchy.}}{49}{figure.caption.37}
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Sensitivity of the DUNE experiment to leptonic CP violation.}}{51}{figure.caption.38}
+\contentsline {figure}{\numberline {3.19}{\ignorespaces The sensitivity of DUNE to the octant and value of $\theta _{23}$.}}{52}{figure.caption.39}
+\contentsline {figure}{\numberline {3.20}{\ignorespaces The sensitivity of DUNE to the oscillation parameters describing $\nu _e$ and $\bar {\nu }_e$ appearance.}}{53}{figure.caption.40}
+\contentsline {figure}{\numberline {3.21}{\ignorespaces The 35-ton cryostat and detector designed to prototype the DUNE far detector design.}}{55}{figure.caption.41}
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Schematic showing the layout of the ProtoDUNEs at the CERN neutrino platform.}}{56}{figure.caption.42}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces The Materials Test Stand at FNAL.}}{59}{figure.caption.43}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Results from the Materials Test Stand showing the water contamination in LAr and the corresponding electron lifetime.}}{60}{figure.caption.44}
@@ -114,7 +114,7 @@
 \contentsline {figure}{\numberline {7.7}{\ignorespaces Event display showing tracks passing across APA gaps and also through the APAs.}}{152}{figure.caption.116}
 \contentsline {figure}{\numberline {7.8}{\ignorespaces Schematic showing an example APA gap-crossing track as viewed looking down from the top of the detector.}}{153}{figure.caption.117}
 \contentsline {figure}{\numberline {7.9}{\ignorespaces Schematic showing an example track crossing two drift regions offset by an unknown quantity $\Delta z$.}}{154}{figure.caption.118}
-\contentsline {figure}{\numberline {7.10}{\ignorespaces Illustration of the eight gaps between the four APA frames. There are four spaces between the APAs giving rise to eight gaps, measured in the long drift (odd-numbered) and short drift (even-numbered) regions.\relax }}{154}{figure.caption.119}
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Illustration of the eight gaps between the four APA frames. There are four spaces between the APAs giving rise to eight gaps, measured in the long drift (odd-numbered) and short drift (even-numbered) regions. In the figure, the even-numbered gaps represent the distance between the APAs on the back-facing side and the odd-numbered gaps the distance on the side facing. Naively, one would expect the gaps to be identical but this will not necessarily be the case when assembled in the cryostat and, since they read out data from distinct drift regions, they may be considered separately.\relax }}{154}{figure.caption.119}
 \contentsline {figure}{\numberline {7.11}{\ignorespaces The $z$-offset for the DV5/DV7 gap measured in the 35-ton data.}}{156}{figure.caption.120}
 \contentsline {figure}{\numberline {7.12}{\ignorespaces Demonstration of how an $x$-offset in the positions of the APAs can explain the degeneracy evident in the $z$-offset measured using the 35-ton data.}}{157}{figure.caption.121}
 \contentsline {figure}{\numberline {7.13}{\ignorespaces Studies of the effects of offsets in the positions of the APAs in simulation.}}{158}{figure.caption.122}
@@ -125,33 +125,33 @@
 \contentsline {figure}{\numberline {7.18}{\ignorespaces of the $z$-offset between DV5 and DV7 after applying the $x$-offset previously determined.}}{162}{figure.caption.127}
 \contentsline {figure}{\numberline {7.19}{\ignorespaces The number of hits, and the average reconstructed hit charge, as a function of distance of the collection point from the nearest APA gap.}}{165}{figure.caption.129}
 \contentsline {figure}{\numberline {7.20}{\ignorespaces Event display of an APA gap-crossing track, focussed on the gap region.}}{165}{figure.caption.130}
-\contentsline {figure}{\numberline {7.21}{\ignorespaces Method to align track segments on either side of the APAs involving minimising residuals from linear least square fit.}}{167}{figure.caption.131}
-\contentsline {figure}{\numberline {7.22}{\ignorespaces Method to align track segments on either side of the APAs involving minimising the distance between the projected intersection of each with the centre of the APAs.}}{167}{figure.caption.131}
+\contentsline {figure}{\numberline {7.21}{\ignorespaces Method to align track segments on either side of the APAs involving minimising residuals from linear least square fit.}}{168}{figure.caption.131}
+\contentsline {figure}{\numberline {7.22}{\ignorespaces Method to align track segments on either side of the APAs involving minimising the distance between the projected intersection of each with the centre of the APAs.}}{168}{figure.caption.131}
 \contentsline {figure}{\numberline {7.23}{\ignorespaces Difference between the T0 calculated from TPC data and the T0 provided by the counters representing the trigger time of the through-going muon, for simulation and data.}}{169}{figure.caption.132}
 \contentsline {figure}{\numberline {7.24}{\ignorespaces Correcting for T0 using $T_0^{\mathrm {counter}}$ and $T_0^{\mathrm {TPC}}$.}}{170}{figure.caption.133}
 \contentsline {figure}{\numberline {7.25}{\ignorespaces Demonstration of the effect observed in the 35-ton data concerning tracks crossing the APAs.}}{170}{figure.caption.134}
 \contentsline {figure}{\numberline {7.26}{\ignorespaces Attempting to correct the track segment misalignment by assuming a misunderstanding of the spacing between the collection planes.}}{171}{figure.caption.136}
-\contentsline {figure}{\numberline {7.27}{\ignorespaces Attempting to correct the track segment misalignment by assuming a misunderstanding of the positioning of the collection wires inside the detector.}}{171}{figure.caption.137}
+\contentsline {figure}{\numberline {7.27}{\ignorespaces Attempting to correct the track segment misalignment by assuming a misunderstanding of the positioning of the collection wires inside the detector.}}{172}{figure.caption.137}
 \contentsline {figure}{\numberline {7.28}{\ignorespaces Attempting to correct the track segment misalignment by assuming an incorrect drift velocity.}}{172}{figure.caption.139}
 \contentsline {figure}{\numberline {7.29}{\ignorespaces Measuring the drift velocity of the ionisation electrons by taking tracks passing through opposite counter pairs and comparing the corresponding drift distance to the drift time.}}{173}{figure.caption.140}
 \contentsline {figure}{\numberline {7.30}{\ignorespaces The T0-corrected drift time for hits on APA-crossing tracks.}}{174}{figure.caption.142}
 \contentsline {figure}{\numberline {7.31}{\ignorespaces Difference between the interaction time measured by the TPC data and that provided by photon detector information.}}{174}{figure.caption.143}
 \contentsline {figure}{\numberline {7.32}{\ignorespaces The difference between the timestamps recorded by the PTB and the RCEs upon receiving a trigger.}}{175}{figure.caption.144}
-\contentsline {figure}{\numberline {7.33}{\ignorespaces The distribution of the drift times of all hits on APA-crossing tracks after correcting for the APA offsets along the direction parallel to the drift direction.}}{176}{figure.caption.145}
-\contentsline {figure}{\numberline {7.34}{\ignorespaces Accounting for the extra discrepancy in track alignment after fixing for all the measured offsets by assuming a misunderstanding in the collection plane spacing and the $z$-positions of the collection wires.}}{177}{figure.caption.146}
-\contentsline {figure}{\numberline {7.35}{\ignorespaces The T0-corrected drift time for all hits on an APA-crossing track in simulation.}}{178}{figure.caption.147}
+\contentsline {figure}{\numberline {7.33}{\ignorespaces The distribution of the drift times of all hits on APA-crossing tracks after correcting for the APA offsets along the direction parallel to the drift direction.}}{177}{figure.caption.145}
+\contentsline {figure}{\numberline {7.34}{\ignorespaces Accounting for the extra discrepancy in track alignment after fixing for all the measured offsets by assuming a misunderstanding in the collection plane spacing and the $z$-positions of the collection wires.}}{178}{figure.caption.146}
+\contentsline {figure}{\numberline {7.35}{\ignorespaces The T0-corrected drift time for all hits on an APA-crossing track in simulation.}}{179}{figure.caption.147}
 \contentsline {figure}{\numberline {7.36}{\ignorespaces Demonstration of the electron ionisation and hit collection for APA-crossing tracks.}}{180}{figure.caption.148}
 \contentsline {figure}{\numberline {7.37}{\ignorespaces Comparison between the T0-corrected hit time distributions on APAs with and without the grounded mesh.}}{181}{figure.caption.149}
-\contentsline {figure}{\numberline {7.38}{\ignorespaces Comparison between the distribution of T0-corrected hit times for hits on wires in front of the APA frame and away from the APA frame to validate the functionality of the mesh.}}{181}{figure.caption.150}
+\contentsline {figure}{\numberline {7.38}{\ignorespaces Comparison between the distribution of T0-corrected hit times for hits on wires in front of the APA frame and away from the APA frame to validate the functionality of the mesh.}}{182}{figure.caption.150}
 \contentsline {figure}{\numberline {7.39}{\ignorespaces Average lifetime-corrected charge per hit for hits on an APA-crossing track separated according to whether or not the hit was collected around the interaction time.}}{182}{figure.caption.151}
-\contentsline {figure}{\numberline {7.40}{\ignorespaces Event display of an APA-crossing track with the charge deposited as it passes through the APAs evident.}}{183}{figure.caption.152}
-\contentsline {figure}{\numberline {7.41}{\ignorespaces Using APA-crossing tracks to confirm the drift velocity is consistent between the two drift regions.}}{184}{figure.caption.153}
-\contentsline {figure}{\numberline {7.42}{\ignorespaces Comparison of noise levels between the two drift regions using APA-crossing tracks.}}{184}{figure.caption.154}
-\contentsline {figure}{\numberline {7.43}{\ignorespaces The bias in the hit selection due to a high noise level in the 35-ton data.}}{186}{figure.caption.155}
-\contentsline {figure}{\numberline {7.44}{\ignorespaces The dE/dx distribution for mips passing through the 35-ton TPC.}}{187}{figure.caption.156}
-\contentsline {figure}{\numberline {7.45}{\ignorespaces Relationship between deposited charge and energy for 35-ton data, calculated using through-going mips.}}{188}{figure.caption.157}
-\contentsline {figure}{\numberline {7.46}{\ignorespaces Result of applying the shower reconstruction on a shower observed in the 35-ton data.}}{189}{figure.caption.158}
-\contentsline {figure}{\numberline {7.47}{\ignorespaces A candidate $\pi ^0$ event observed in the online event display during the run.}}{190}{figure.caption.159}
+\contentsline {figure}{\numberline {7.40}{\ignorespaces Event display of an APA-crossing track with the charge deposited as it passes through the APAs evident.}}{184}{figure.caption.152}
+\contentsline {figure}{\numberline {7.41}{\ignorespaces Using APA-crossing tracks to confirm the drift velocity is consistent between the two drift regions.}}{185}{figure.caption.153}
+\contentsline {figure}{\numberline {7.42}{\ignorespaces Comparison of noise levels between the two drift regions using APA-crossing tracks.}}{185}{figure.caption.154}
+\contentsline {figure}{\numberline {7.43}{\ignorespaces The bias in the hit selection due to a high noise level in the 35-ton data.}}{187}{figure.caption.155}
+\contentsline {figure}{\numberline {7.44}{\ignorespaces The dE/dx distribution for mips passing through the 35-ton TPC.}}{188}{figure.caption.156}
+\contentsline {figure}{\numberline {7.45}{\ignorespaces Relationship between deposited charge and energy for 35-ton data, calculated using through-going mips.}}{189}{figure.caption.157}
+\contentsline {figure}{\numberline {7.46}{\ignorespaces Result of applying the shower reconstruction on a shower observed in the 35-ton data.}}{190}{figure.caption.158}
+\contentsline {figure}{\numberline {7.47}{\ignorespaces A candidate $\pi ^0$ event observed in the online event display during the run.}}{191}{figure.caption.159}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {8.1}{\ignorespaces The output of a multi-variate approach to particle identification when attempting to identify electrons.}}{195}{figure.caption.160}
 \contentsline {figure}{\numberline {8.2}{\ignorespaces The process of tuning the electron cut in the simple cut-based selection by maximising the effect of CP-violation on the oscillation probabilities.}}{196}{figure.caption.161}

@@ -46,7 +46,7 @@ Due to the continuous nature of data taking, there is a non-trivial correlation 
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \subsection{Improving Data Quality}\label{sec:ImprovingDataQuality}
 
-Two issues present in the raw data, namely the presence of correlated noise and the stuck codes in the digitiser, are dealt with as an initial step of the reconstruction.  Initially, an algorithm attempts to correct for the stuck bits analyses waveforms on a wire and identifies problematic ADCs; interpolating between charges read out at neighbouring times is successful at reconstructing the initial waveform in most cases.  Figure~\ref{fig:StuckBitInterpolation} demonstrates this interpolation method on simulated data.  The effect of applying this algorithm on a full waveform, to correct for all the stuck bits, is apparent in Figure~\ref{fig:StuckBitWaveform}.
+Two issues present in the raw data, namely the presence of correlated noise and the stuck codes in the digitiser (both described in Section~\ref{sec:sec:35tonPhaseIIOutcomesCryostatTPC}), are dealt with as an initial step of the reconstruction.  Initially, an algorithm attempts to correct for the stuck bits analyses waveforms on a wire and identifies problematic ADCs; interpolating between charges read out at neighbouring times is successful at reconstructing the initial waveform in most cases.  Figure~\ref{fig:StuckBitInterpolation} demonstrates this interpolation method on simulated data.  The effect of applying this algorithm on a full waveform, to correct for all the stuck bits, is apparent in Figure~\ref{fig:StuckBitWaveform}.
 
 \begin{figure}
   \centering
@@ -91,7 +91,7 @@ Following this process, a coherent noise removal stage is applied.  This simply 
     \caption{After removing coherent noise.}
     \label{fig:CoherentNoiseRemovalNoNoise}
   \end{subfigure}
-  \caption[The effect of removing coherent noise from all channels on a voltage regulator in the 35-ton data.]{The effect of removing coherent noise from all channels on a voltage regulator in the 35-ton data.  This waveform is from run 15660, channel 2010 (collection channel).  The signal is noticeably larger following this process, considerably improving reconstruction performance.}
+  \caption[The effect of removing coherent noise from all channels on a voltage regulator in the 35-ton data.]{The effect of removing coherent noise from all channels on a voltage regulator in the 35-ton data.  This waveform is from run 15660, channel 2010 (collection channel).  As a result of this process the noise (RMS of ADC values) decreases from 37.1 to 18.8 leaving a signal which is noticeably larger, considerably improving reconstruction performance.}
   \label{fig:CoherentNoiseRemoval}
 \end{figure}
 
@@ -220,7 +220,7 @@ There are eight gaps which can be measured from the data, demonstrated in Figure
 \begin{figure}
   \centering
   \includegraphics[width=12cm]{APAGapCrossingGaps.eps}
-  \caption{Illustration of the eight gaps between the four APA frames.  There are four spaces between the APAs giving rise to eight gaps, measured in the long drift (odd-numbered) and short drift (even-numbered) regions.}
+  \caption{Illustration of the eight gaps between the four APA frames.  There are four spaces between the APAs giving rise to eight gaps, measured in the long drift (odd-numbered) and short drift (even-numbered) regions.  In the figure, the even-numbered gaps represent the distance between the APAs on the back-facing side and the odd-numbered gaps the distance on the side facing.  Naively, one would expect the gaps to be identical but this will not necessarily be the case when assembled in the cryostat and, since they read out data from distinct drift regions, they may be considered separately.}
   \label{fig:APAGapCrossingGaps}
 \end{figure}
 
@@ -436,7 +436,7 @@ The offsets apparent from the data for all of the gaps accessible using TPC trac
   %}
 \end{table}
 
-There appears to be some consistency in the measurements of the $x$-offsets by considering differences in this value between DV1 and DV7.  Despite the fact they do not neighbour each other, this is possible by considering the successive offsets measured between DV1/DV3 and DV3/DV7, and DV1/DV5 and DV5/DV7.  An exceptional agreement is seen between the two values, within 0.1~mm.  There also seems to be slight evidence of a rotation between DV1 and DV7 when considering the associated $z$-offsets; the offset at the top of the APA (when measured via DV5) is greater than at the bottom (when measured via DV3).  %cHowever, this can certainly be explained in the context of the limitations of the method and statistical fluctuations and would require more data and a more robust approach to justify these claims.  Such analysis is not possible with the 35-ton data.
+Since there are two longer APAs either side of two short APAs, by combining the gap offset information from the gaps either side of the centre frames it is possible to make two implicit measurements of the offsets between the outer ones.  This is shown in Table~\ref{tab:APAGaps} for both the $x$- and $z$-offsets, with the number in brackets representing the DV across which the total gap offset was determined.  There appears to be some consistency in the measurements of the $x$-offsets between DV1 and DV7, found by considering the successive offsets between DV1/DV3 and DV3/DV7, and DV1/DV5 and DV5/DV7.  An exceptional agreement is seen between the two values, within 0.1~mm.  There also seems to be slight evidence of a rotation between DV1 and DV7 when considering the associated $z$-offsets; the offset at the top of the APA (when measured via DV5) is greater than at the bottom (when measured via DV3).  %cHowever, this can certainly be explained in the context of the limitations of the method and statistical fluctuations and would require more data and a more robust approach to justify these claims.  Such analysis is not possible with the 35-ton data.
 
 The method demonstrated here will have direct implications for similar studies using the full DUNE far detector.  All the gaps between the APAs, both in the drift and $z$ directions, will need to be understood for accurate reconstruction and are essential in order for DUNE to make precise physics measurements.  For example, accurate calorimetric reconstruction is imperative in order to perform particle identification and shower energy determination (discussed in Section~\ref{sec:Calorimetry}) and is directly related to the drift time of the ionisation electrons; any offsets in APA positions will lead to systematic uncertainties in this information.
 
@@ -445,7 +445,7 @@ The method demonstrated here will have direct implications for similar studies u
 
 The charge deposited by gap-crossing particles cannot be collected in the dead regions between the APA frames.  It is interesting to consider where the charge is read out in order to further understand the implications of a modular TPC design.
 
-Figure~\ref{fig:HitGapDistance} demonstrates the properties of hits as a function of distance from the nearest DV edge.  It appears more hits are found as charge is collected near a gap but the charge of these hits do not differ significantly.  This may be interpreted as hits arriving at a slightly later time near the APA gaps after drifting towards the nearest wire to the gap from a more centre-gap position.  One may expect to observe this in the data as a smearing in the tick direction where charge is deposited over more time, leading to a small gradient change.  Although not as noticeable as anticipated, this effect is observable in the event display shown in Figure~\ref{fig:evd_gap}. (MIKE mirror charge?)
+Figure~\ref{fig:HitGapDistance} demonstrates the properties of hits as a function of distance from the nearest DV edge.  It appears more hits are found as charge is collected near a gap but the charge of these hits do not differ significantly.  This may be interpreted as hits arriving at a slightly later time near the APA gaps after drifting towards the nearest wire to the gap from a more centre-gap position.  One may expect to observe this in the data as a smearing in the tick direction where charge is deposited over more time, leading to a small gradient change.  Although not as noticeable as anticipated, this effect is observable in the event display shown in Figure~\ref{fig:evd_gap}.
 
 \begin{figure}
   \centering
@@ -684,7 +684,7 @@ This can be tested by measuring the drift velocity directly from the data.  Taki
 
 \paragraph{Timing}
 
-The timing offset of 32~$\mu$s, calculated in Section~\ref{sec:APACrossingAlignment}, is so large it was assumed another explanation for the track segment misalignment was likely.  However, after reviewing all possibilities it appears there must be a significant timing offset present somewhere in the data.  Further evidence for this hypothesis is presented in Figure~\ref{fig:HitTimes} which displays the T0-corrected time distribution for all hits on the APA-crossing track.  The minimum drift time these hits may have, since they pass directly through the planes, is the interaction time, T0.  As is evident from the distribution in Figure~\ref{fig:HitTimesZoom}, this is around 58~ticks (29~$\mu$s) and is again notably inconsistent with zero.  The curious spike at the interaction time motivates the work presented in Section~\ref{sec:APACrossingCharge} and will be discussed there.  Additionally, it is possible to compare the T0 provided by the counters with information from the photon detectors.  This is shown in Figure~\ref{fig:TPCPhotonT0Difference} and provides further confirmation for a timing miscalibration in the TPC readout.
+The timing offset of 32~$\mu$s, calculated in Section~\ref{sec:APACrossingAlignment}, is so large it was assumed another explanation for the track segment misalignment was likely.  However, after reviewing all possibilities it appears there must be a significant timing offset present somewhere in the data.  Further evidence for this hypothesis is presented in Figure~\ref{fig:HitTimes} which displays the T0-corrected time distribution for all hits on the APA-crossing track.  The minimum drift time these hits may have, since they pass directly through the planes, is the interaction time, T0.  As is evident from the distribution in Figure~\ref{fig:HitTimesZoom}, this is around 60~ticks (30~$\mu$s) and is again notably inconsistent with zero.  The curious spike at the interaction time motivates the work presented in Section~\ref{sec:APACrossingCharge} and will be discussed there.  Additionally, it is possible to compare the T0 provided by the counters with information from the photon detectors.  This is shown in Figure~\ref{fig:TPCPhotonT0Difference} and provides further confirmation for a timing miscalibration in the TPC readout.
 
 \begin{figure}
   \centering
@@ -698,7 +698,7 @@ The timing offset of 32~$\mu$s, calculated in Section~\ref{sec:APACrossingAlignm
   \begin{subfigure}[t]{0.48\linewidth}
     \centering
     \includegraphics[width=\textwidth]{HitTimesZoom.eps}
-    \caption{Zoomed in on the interaction time.  The red line is drawn at 58 ticks (29~$\mu$s) and represents, by eye, the start of the distribution.}
+    \caption{Zoomed in on the interaction time.  The red line is drawn at 59.5 ticks (29.8~$\mu$s) and represents, by eye, the centre of the rising edge of the distribution.}
     \label{fig:HitTimesZoom}
   \end{subfigure}
   \caption[The T0-corrected drift time for hits on APA-crossing tracks.]{The T0-corrected drift time for hits on APA-crossing tracks.  The lower leading edge of this distribution is an indication of the interaction time, T0.}
@@ -953,7 +953,7 @@ Calorimetric reconstruction is only attempted for the collection planes where th
     \caption{140~cm -- 160~cm drift.}
     \label{fig:DataCalorimetryThreshold3}
   \end{subfigure}
-  \caption[The bias in the hit selection due to a high noise level in the 35-ton data.]{The bias in the hit selection due to a high noise level in the 35-ton data \cite{Brailsford2016}.  The charge distribution for through-going muons is shown for three different displacements along the drift direction, 20~cm~$<~x<$~40~cm, 80~cm~$<~x~<$~100~cm and 140~cm~$<~x~<$~160~cm.  The red line represents a typical hit finding threshold.  The most probable value of the distribution is close to this boundary in each of the cases, resulting in the lower charge hits being missed.  This introduces a bias towards higher charge and has implications for the reliability of calorimetry in the 35-ton data sample.}
+  \caption[The bias in the hit selection due to a high noise level in the 35-ton data.]{The bias in the hit selection due to a high noise level in the 35-ton data \cite{Brailsford2016}.  The charge distribution for through-going muons is shown for three different displacements along the drift direction, 20~cm~$<~x<$~40~cm, 80~cm~$<~x~<$~100~cm and 140~cm~$<~x~<$~160~cm and takes the form of a Landau convoluted with a Gaussian.  The red line represents a typical hit finding threshold.  The most probable value of the distribution is close to this boundary in each of the cases, resulting in the lower charge hits being missed.  This introduces a bias towards higher charge and has implications for the reliability of calorimetry in the 35-ton data sample.}
   \label{fig:DataCalorimetryThreshold}
 \end{figure}
 
@@ -971,7 +971,7 @@ In simulation, truth information was used to find a general charge to energy con
 \begin{figure}
   \centering
   \includegraphics[width=12cm]{ChargeEnergy.eps}
-  \caption[Relationship between deposited charge and energy for 35-ton data, calculated using through-going mips.]{Relationship between deposited charge and energy for 35-ton data, calculated using through-going mips.  The lower edge of the distribution follows a linear pattern and it is this which the conversion is chosen to represent.  Deviations from this linear fit observed above it are related to the fundamental issues with the 35-ton data and arise from missed charge due to the problems illustrated in Figure~\ref{fig:DataCalorimetryThreshold}.  This results in hits reconstructed with a lower charge for the implied energy deposited by the mip.  It should be noted there are no cases of extra charge deposited; this concurs with this interpretation and ensures confidence in the displayed line as the correct conversion may be assumed.}
+  \caption[Relationship between deposited charge and energy for 35-ton data, calculated using through-going mips.]{Relationship between deposited charge and energy for 35-ton data, calculated using through-going mips.  The lower edge of the distribution follows a linear pattern and it is this which the conversion is chosen to represent.  Deviations from this linear fit observed above it are related to the fundamental issues with the 35-ton data and arise from missed charge due to the problems illustrated in Figure~\ref{fig:DataCalorimetryThreshold}.  This results in hits reconstructed with a lower charge for the implied energy deposited by the mip.  It should be noted there are no cases of extra charge deposited; this concurs with this interpretation and ensures confidence in the displayed line as the correct conversion may be assumed.  A possible way to restore linearity would be to truncate the thresholding demonstrated in Figure~\ref{fig:DataCalorimetryThreshold}.}
   \label{fig:DataShowerEnergyConversion}
 \end{figure}
 
