@@ -234,6 +234,18 @@ E.~{Gaisser, T. K.; Engel, R.; Resconi}; \emph{{Cosmic Rays and Particle
   Physics}}; Cambridge University Press (1990); ISBN 9780521016469.
 \newline\urlprefix\url{http://www.cambridge.org/uk/catalogue/catalogue.asp?isbn=0521326672}
 
+\bibitem{Reines1965}
+F.~Reines, M.~F. Crouch, T.~L. Jenkins \emph{et~al.}; \emph{{Evidence for
+  High-Energy Cosmic-Ray Neutrino Interactions}}; Phys. Rev. Lett. \textbf{15},
+  9, 429--433 (1965).
+\newline\urlprefix\url{http://dx.doi.org/10.1103/PhysRevLett.15.429}
+
+\bibitem{Achar1965}
+C.~V. Achar, M.~G.~K. Menon, V.~S. Narasimham \emph{et~al.}; \emph{{Detection
+  of muons produced by cosmic ray neutrinos deep underground}}; Physics Letters
+  \textbf{18}, 2, 196--199 (1965).
+\newline\urlprefix\url{http://dx.doi.org/https://doi.org/10.1016/0031-9163(65)90712-2}
+
 \bibitem{Haines1986}
 T.~J. Haines, R.~M. Bionta, G.~Blewitt \emph{et~al.}; \emph{{Calculation of
   Atmospheric Neutrino-Induced Backgrounds in a Nucleon-Decay Search}}; Phys.
@@ -482,6 +494,20 @@ K.~Abe, J.~Amey, C.~Andreopoulos \emph{et~al.}; \emph{{Combined Analysis of
   Neutrino and Antineutrino Oscillations at T2K}}; Phys. Rev. Lett.
   \textbf{118}, 15, 151801 (2017).
 \newline\urlprefix\url{http://dx.doi.org/10.1103/PhysRevLett.118.151801}
+
+\bibitem{NOvA2017}
+P.~Adamson, L.~Aliaga, D.~Ambrose \emph{et~al.}; \emph{{Constraints on
+  Oscillation Parameters from ${\ensuremath{\nu}}_{e}$ Appearance and
+  ${\ensuremath{\nu}}_{\ensuremath{\mu}}$ Disappearance in NOvA}}; Phys. Rev.
+  Lett. \textbf{118}, 23, 231801 (2017).
+\newline\urlprefix\url{http://dx.doi.org/10.1103/PhysRevLett.118.231801}
+
+\bibitem{T2K2017-1}
+K.~Abe, J.~Amey, C.~Andreopoulos \emph{et~al.}; \emph{{Measurement of neutrino
+  and antineutrino oscillations by the T2K experiment including a new
+  additional sample of ${\ensuremath{\nu}}_{e}$ interactions at the far
+  detector}}; Phys. Rev. D \textbf{96}, 9, 92006 (2017).
+\newline\urlprefix\url{http://dx.doi.org/10.1103/PhysRevD.96.092006}
 
 \bibitem{Triotsk2011}
 V.~N. Aseev, A.~I. Belesev, A.~I. Berlev \emph{et~al.}; \emph{{Upper limit on

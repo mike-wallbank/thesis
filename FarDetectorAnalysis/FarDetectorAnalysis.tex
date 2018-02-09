@@ -30,7 +30,7 @@ As will be discussed in Section~\ref{sec:FDMVA}, the current MVA implementation 
 %----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 \subsection{Selection}\label{sec:FDCutSelection}
 
-The elementary cut-based selection utilises Pandora reconstruction for tracks and showers and an MVA approach to PID for each of the reconstructed objects.  This PID framework \cite{GrantPID2016} utilises variables such as (MIKE define variables) ratios of deposited charge, conicalness, average dE/dx and dE/dx ratios to form a hypothesis for each of the particle types muon, electron, proton, photon, pion.  The selection simply selects events which contain candidate electron showers and places a cut on the value of the electron-MVA result to attempt to identify the electrons.  The separation between electrons and photons for the electron-MVA value of the highest energy shower in each event is demonstrated in Figure~\ref{fig:ElectronMVA}.  It is immediately evident that, given the strengths of LArTPC technology to separate these showering particle types, significant progress is required in the next decade.
+The elementary cut-based selection utilises Pandora reconstruction for tracks and showers and an MVA approach to PID for each of the reconstructed objects.  This PID framework \cite{GrantPID2016} utilises properties of the particles such as charge, dE/dx and hit distribution to form a hypothesis for each of the particle types muon, electron, proton, photon, pion.  The selection simply selects events which contain candidate electron showers and places a cut on the value of the electron-MVA result to attempt to identify the electrons.  The separation between electrons and photons for the electron-MVA value of the highest energy shower in each event is demonstrated in Figure~\ref{fig:ElectronMVA}.  It is immediately evident that, given the strengths of LArTPC technology to separate these showering particle types, significant progress is required in the next decade.
 
 \begin{figure}
   \centering
@@ -105,7 +105,7 @@ Example plots showing the tuning of the $y$-coordinate are the subject of Figure
     \caption{$-y$}
     \label{fig:FVTuneNegY}
   \end{subfigure}
-  \caption[Tuning the DUNE far detector fiducial volume, $y$-coordinate.]{Tuning the DUNE far detector fiducial volume, $y$-coordinate.}
+  \caption[Tuning the DUNE far detector fiducial volume, $y$-coordinate.]{Tuning the DUNE far detector fiducial volume, $y$-coordinate.  The asymmetry is a result of the direction of the beam; it is not exactly parallel to the $z$-direction due to the curvature of the Earth and thus results in a different response from the top and bottom of the detector.}
   \label{fig:FVTuneY}
 \end{figure}
 

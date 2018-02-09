@@ -393,7 +393,7 @@ Following the formation of the showers and the identification of all the associa
 
 In order to orient the shower, the hits are analysed in each plane separately whilst using information from other planes to validate.  Initially, the hits in each plane are assembled into a rough `order', corresponding to how far along the shower each is.  This is achieved by projecting each hit onto the axis determined using a least squares fit on all the hits in a given view.  In most cases, this order is accurate but not necessarily oriented correctly.  Occasionally, if the shower is not very well formed (such as if it travels very parallel to the wires) in one plane, the hit order is not defined and the view is discarded for the purposes of shower start finding.  This is accomplished by comparing the RMS of the perpendicular distance of all hits from the central axis and removing views in which this differs significantly.
 
-Once there is sufficient confidence that the hits are correctly ordered in the remaining planes, they are then oriented correctly.  This is done by evaluating the `RMS gradient', the RMS of the distribution of the hits in discrete segments along the length of the shower.  Figure~\ref{fig:EMShowerOrientation} demonstrates how this may be utilised to correctly orient the shower.  This represents an overly simplified case but this method has been found to work surprisingly well across a wide range of differing shower and event topologies, at least as an initial guess.  Additional checks are in place to ensure the orientations agree between views and to re-evaluate the shower ordering if necessary.
+Once there is sufficient confidence that the hits are correctly ordered in the remaining planes, they are then oriented correctly.  This is done by evaluating the `RMS gradient', the RMS of the distribution of the hits in discrete segments along the length of the shower.  Figure~\ref{fig:EMShowerOrientation} demonstrates how this may be utilised to correctly orient the shower.  As is evident from the figure, a positive gradient, implying the distribution of the hits is becoming more diffuse along its axis, indicates the assumed orientation of the shower is correct and a negative gradient is indicative of a reverse-facing shower.  This represents an overly simplified case but this method has been found to work surprisingly well across a wide range of differing shower and event topologies, at least as an initial guess.  Additional checks are in place to ensure the orientations agree between views and to re-evaluate the shower ordering if necessary.
 
 \begin{figure}
   \centering
@@ -523,14 +523,14 @@ The quality of the reconstructed shower start point and direction is demonstrate
   \begin{minipage}[t]{0.48\linewidth}
     \centering
     \includegraphics[width=0.98\textwidth]{ShowerStart.eps}
-    \caption[The difference between the true and reconstructed shower conversion points.]{The difference between the true and reconstructed shower conversion points.}
+    \caption[The difference between the true and reconstructed shower conversion points.]{The difference between the true and reconstructed shower conversion points.  The resolution for both electron and photon showers is around 0.1\%.}
     \label{fig:ShowerStart}
   \end{minipage}
   \hfill
   \begin{minipage}[t]{0.48\linewidth}
     \centering
     \includegraphics[width=0.98\textwidth]{ShowerDirection.eps}
-    \caption[The vector dot product between the true and reconstructed initial shower direction.]{The vector dot product between the true and reconstructed initial shower direction.}
+    \caption[The vector dot product between the true and reconstructed initial shower direction.]{The vector dot product between the true and reconstructed initial shower direction.  The angular resolution for electrons is 19\% and for photons is 23\%.}
     \label{fig:ShowerDirection}
   \end{minipage}
 \end{figure}
@@ -541,14 +541,14 @@ The calorimetric information provided by the reconstruction, namely the shower e
   \begin{minipage}[t]{0.48\linewidth}
     \centering
     \includegraphics[width=0.98\textwidth]{ShowerDepositedEnergy.eps}
-    \caption[The completeness of the reconstruction shower energy when compared with the true deposited energy from simulation.]{The completeness of the reconstruction shower energy when compared with the true deposited energy from simulation.}
+    \caption[The completeness of the reconstruction shower energy when compared with the true deposited energy from simulation.]{The completeness of the reconstruction shower energy when compared with the true deposited energy from simulation.  The energy resolution for electrons is 25\% and for photons is 28\%.}
     \label{fig:ShowerEnergy}
   \end{minipage}
   \hfill
   \begin{minipage}[t]{0.48\linewidth}
     \centering
     \includegraphics[width=0.98\textwidth]{ShowerdEdx.eps}
-    \caption[The dE/dx information from the start of the reconstructed shower object.]{The dE/dx information from the start of the reconstructed shower object.}
+    \caption[The dE/dx information from the start of the reconstructed shower object.]{The dE/dx information from the start of the reconstructed shower object.  The resolution of the dE/dx is 2\% for electrons and 10\% for photons.}
     \label{fig:ShowerdEdx}
   \end{minipage}
 \end{figure}
@@ -567,7 +567,7 @@ The invariant mass is determined for all $\pi^0$s where both decay photons are c
 \begin{figure}
   \centering
   \includegraphics[width=12cm]{Pi0MassPeak.eps}
-  \caption[The 35-ton fully reconstructed $\pi^0$ invariant mass peak from simulation.]{The 35-ton fully reconstructed $\pi^0$ invariant mass peak from simulation.}
+  \caption[The 35-ton fully reconstructed $\pi^0$ invariant mass peak from simulation.]{The 35-ton fully reconstructed $\pi^0$ invariant mass peak from simulation.  The mean of the distribution is 0.120~GeV with a width of 0.066~GeV.}
   \label{fig:Pi0MassPeak}
 \end{figure}
 

@@ -9,8 +9,8 @@ A level-1 auxiliary file: Introduction/Introduction.aux
 A level-1 auxiliary file: NeutrinoPhysics/NeutrinoPhysics.aux
 A level-1 auxiliary file: DUNE/DUNE.aux
 A level-1 auxiliary file: 35ton/35ton.aux
-A level-1 auxiliary file: LArTPCReconstruction/LArTPCReconstruction.aux
 A level-1 auxiliary file: OnlineMonitoring/OnlineMonitoring.aux
+A level-1 auxiliary file: LArTPCReconstruction/LArTPCReconstruction.aux
 A level-1 auxiliary file: 35tonAnalysis/35tonAnalysis.aux
 A level-1 auxiliary file: FarDetectorAnalysis/FarDetectorAnalysis.aux
 A level-1 auxiliary file: Conclusions/Conclusions.aux
@@ -44,10 +44,6 @@ Repeated entry---line 2830 of file References/references.bib
  : @article{Baller2014
  :                    ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Reines1965"
-Warning--I didn't find a database entry for "Achar1965"
-Warning--I didn't find a database entry for "NOvA2017"
-Warning--I didn't find a database entry for "T2K2017-1"
 Warning--missing institution in Rubbia1977
 Warning--missing institution in PIPII2013
 Warning--empty journal in LBNECDR1
@@ -63,45 +59,45 @@ Warning--missing institution in Kirby2016
 Warning--missing institution in Insler2016
 Warning--missing institution in Brailsford2016
 Warning--missing institution in GrantPID2016
-You've used 179 entries,
+You've used 183 entries,
             2344 wiz_defined-function locations,
-            1852 strings with 282556 characters,
-and the built_in function-call counts, 62750 in all, are:
-= -- 4118
-> -- 2056
+            1876 strings with 290943 characters,
+and the built_in function-call counts, 64481 in all, are:
+= -- 4235
+> -- 2124
 < -- 4
-+ -- 971
-- -- 483
-* -- 4367
-:= -- 6536
-add.period$ -- 179
-call.type$ -- 179
++ -- 1003
+- -- 499
+* -- 4494
+:= -- 6715
+add.period$ -- 183
+call.type$ -- 183
 change.case$ -- 7
 chr.to.int$ -- 0
-cite$ -- 194
-duplicate$ -- 6446
-empty$ -- 6380
-format.name$ -- 602
-if$ -- 13546
+cite$ -- 198
+duplicate$ -- 6614
+empty$ -- 6545
+format.name$ -- 622
+if$ -- 13920
 int.to.chr$ -- 0
-int.to.str$ -- 179
-missing$ -- 1629
-newline$ -- 696
-num.names$ -- 174
-pop$ -- 2250
+int.to.str$ -- 183
+missing$ -- 1673
+newline$ -- 712
+num.names$ -- 178
+pop$ -- 2302
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1896
+skip$ -- 1952
 stack$ -- 0
-substring$ -- 2690
-swap$ -- 4393
+substring$ -- 2773
+swap$ -- 4517
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 483
+type$ -- 499
 warning$ -- 15
-while$ -- 382
-width$ -- 182
-write$ -- 1708
+while$ -- 392
+width$ -- 186
+write$ -- 1748
 (There was 1 error message)

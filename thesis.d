@@ -371,6 +371,24 @@ thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/FFTRun10286.png)
 -include 35ton/Figs/NoiseCorrelation.png.gpi.d
 thesis.d: $$(call graphics-source,35ton/Figs/NoiseCorrelation.png)
 thesis.pdf thesis._graphics: $$(call graphics-target,35ton/Figs/NoiseCorrelation.png)
+-include OnlineMonitoring/Figs/DQM1.png.gpi.d
+thesis.d: $$(call graphics-source,OnlineMonitoring/Figs/DQM1.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,OnlineMonitoring/Figs/DQM1.png)
+-include OnlineMonitoring/Figs/DQM2.png.gpi.d
+thesis.d: $$(call graphics-source,OnlineMonitoring/Figs/DQM2.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,OnlineMonitoring/Figs/DQM2.png)
+-include OnlineMonitoring/Figs/DQM3.png.gpi.d
+thesis.d: $$(call graphics-source,OnlineMonitoring/Figs/DQM3.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,OnlineMonitoring/Figs/DQM3.png)
+-include OnlineMonitoring/Figs/DQM4.png.gpi.d
+thesis.d: $$(call graphics-source,OnlineMonitoring/Figs/DQM4.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,OnlineMonitoring/Figs/DQM4.png)
+-include OnlineMonitoring/Figs/evd.png.gpi.d
+thesis.d: $$(call graphics-source,OnlineMonitoring/Figs/evd.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,OnlineMonitoring/Figs/evd.png)
+-include OnlineMonitoring/Figs/webPage.png.gpi.d
+thesis.d: $$(call graphics-source,OnlineMonitoring/Figs/webPage.png)
+thesis.pdf thesis._graphics: $$(call graphics-target,OnlineMonitoring/Figs/webPage.png)
 -include LArTPCReconstruction/Figs/LArSoftStructure.pdf.gpi.d
 thesis.d: $$(call graphics-source,LArTPCReconstruction/Figs/LArSoftStructure.pdf)
 thesis.pdf thesis._graphics: $$(call graphics-target,LArTPCReconstruction/Figs/LArSoftStructure.pdf)
@@ -461,24 +479,6 @@ thesis.pdf thesis._graphics: $$(call graphics-target,LArTPCReconstruction/Figs/N
 -include LArTPCReconstruction/Figs/NuECCTrackShower3D.pdf.gpi.d
 thesis.d: $$(call graphics-source,LArTPCReconstruction/Figs/NuECCTrackShower3D.pdf)
 thesis.pdf thesis._graphics: $$(call graphics-target,LArTPCReconstruction/Figs/NuECCTrackShower3D.pdf)
--include OnlineMonitoring/Figs/DQM1.png.gpi.d
-thesis.d: $$(call graphics-source,OnlineMonitoring/Figs/DQM1.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,OnlineMonitoring/Figs/DQM1.png)
--include OnlineMonitoring/Figs/DQM2.png.gpi.d
-thesis.d: $$(call graphics-source,OnlineMonitoring/Figs/DQM2.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,OnlineMonitoring/Figs/DQM2.png)
--include OnlineMonitoring/Figs/DQM3.png.gpi.d
-thesis.d: $$(call graphics-source,OnlineMonitoring/Figs/DQM3.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,OnlineMonitoring/Figs/DQM3.png)
--include OnlineMonitoring/Figs/DQM4.png.gpi.d
-thesis.d: $$(call graphics-source,OnlineMonitoring/Figs/DQM4.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,OnlineMonitoring/Figs/DQM4.png)
--include OnlineMonitoring/Figs/evd.png.gpi.d
-thesis.d: $$(call graphics-source,OnlineMonitoring/Figs/evd.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,OnlineMonitoring/Figs/evd.png)
--include OnlineMonitoring/Figs/webPage.png.gpi.d
-thesis.d: $$(call graphics-source,OnlineMonitoring/Figs/webPage.png)
-thesis.pdf thesis._graphics: $$(call graphics-target,OnlineMonitoring/Figs/webPage.png)
 -include 35tonAnalysis/Figs/DataRMSGood.pdf.gpi.d
 thesis.d: $$(call graphics-source,35tonAnalysis/Figs/DataRMSGood.pdf)
 thesis.pdf thesis._graphics: $$(call graphics-target,35tonAnalysis/Figs/DataRMSGood.pdf)
