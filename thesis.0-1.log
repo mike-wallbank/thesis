@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  9 FEB 2018 16:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  9 FEB 2018 23:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2344,6 +2344,14 @@ File: DUNE/Figs/DUNE.jpg Graphic file (type jpg)
 Package pdftex.def Info: DUNE/Figs/DUNE.jpg used on input line 13.
 (pdftex.def)             Requested size: 398.33858pt x 131.40466pt.
 
+Package natbib Warning: Citation `DUNEWebsite' on page 25 undefined on input li
+ne 14.
+
+
+Package natbib Warning: Citation `DUNEWebsite' on page 25 undefined on input li
+ne 14.
+
+
 LaTeX Warning: Reference `sec:LArTPC' on page 25 undefined on input line 18.
 
 
@@ -2821,328 +2829,341 @@ LaTeX Warning: Reference `sec:NND' on page 44 undefined on input line 301.
 LaTeX Warning: Reference `sec:BLM' on page 44 undefined on input line 301.
 
 
+Package natbib Warning: Citation `KLOE' on page 44 undefined on input line 306.
+
+
+
+Package natbib Warning: Citation `DUNECDR4' on page 44 undefined on input line 
+306.
+
+
 LaTeX Warning: Reference `fig:DUNENearDetector' on page 44 undefined on input l
-ine 306.
+ine 308.
 
 <DUNE/Figs/DUNENearDetector.png, id=1340, 433.62pt x 384.43625pt>
 File: DUNE/Figs/DUNENearDetector.png Graphic file (type png)
 <use DUNE/Figs/DUNENearDetector.png>
-Package pdftex.def Info: DUNE/Figs/DUNENearDetector.png used on input line 310.
+Package pdftex.def Info: DUNE/Figs/DUNENearDetector.png used on input line 312.
 
 (pdftex.def)             Requested size: 341.43306pt x 302.72168pt.
 
 Package natbib Warning: Citation `DUNECDR4' on page 44 undefined on input line 
-311.
+313.
 
 
 Package natbib Warning: Citation `DUNECDR4' on page 44 undefined on input line 
-311.
+313.
 
-[44] [45 <./DUNE/Figs/DUNENearDetector.png>]
+[44] [45 <./DUNE/Figs/DUNENearDetector.png>] [46]
 
-LaTeX Warning: Reference `tab:DUNEExposure' on page 46 undefined on input line 
-333.
-
-
-Package natbib Warning: Citation `DUNECDR1' on page 46 undefined on input line 
-336.
+LaTeX Warning: Reference `tab:DUNEExposure' on page 47 undefined on input line 
+337.
 
 
-Package natbib Warning: Citation `DUNECDR1' on page 46 undefined on input line 
-336.
+Package natbib Warning: Citation `DUNECDR1' on page 47 undefined on input line 
+340.
 
 
-LaTeX Warning: Reference `fig:DUNEAppearanceProbabilities' on page 46 undefined
- on input line 353.
+Package natbib Warning: Citation `DUNECDR1' on page 47 undefined on input line 
+340.
 
-[46] [47]
-<DUNE/Figs/DUNEAppearanceProbabilities.pdf, id=1364, 451.52393pt x 209.92487pt>
+
+LaTeX Warning: Reference `fig:DUNEAppearanceProbabilities' on page 47 undefined
+ on input line 357.
+
+
+<DUNE/Figs/DUNEAppearanceProbabilities.pdf, id=1358, 451.52393pt x 209.92487pt>
 File: DUNE/Figs/DUNEAppearanceProbabilities.pdf Graphic file (type pdf)
 <use DUNE/Figs/DUNEAppearanceProbabilities.pdf>
 Package pdftex.def Info: DUNE/Figs/DUNEAppearanceProbabilities.pdf used on inpu
-t line 357.
+t line 361.
 (pdftex.def)             Requested size: 455.24408pt x 211.66367pt.
 
-Overfull \hbox (17.78296pt too wide) in paragraph at lines 357--358
+Overfull \hbox (17.78296pt too wide) in paragraph at lines 361--362
  [][] 
  []
 
 
-Package natbib Warning: Citation `DUNECDR2' on page 48 undefined on input line 
-358.
+Package natbib Warning: Citation `DUNECDR2' on page 47 undefined on input line 
+362.
 
 
-Package natbib Warning: Citation `DUNECDR2' on page 48 undefined on input line 
-358.
+Package natbib Warning: Citation `DUNECDR2' on page 47 undefined on input line 
+362.
 
 
-LaTeX Warning: Reference `fig:DUNEMassHierarchy' on page 48 undefined on input 
-line 367.
+LaTeX Warning: Reference `fig:DUNEMassHierarchy' on page 47 undefined on input 
+line 371.
 
-<DUNE/Figs/DUNEMassHierarchyDeltaCP.pdf, id=1365, 468.77138pt x 218.75476pt>
+<DUNE/Figs/DUNEMassHierarchyDeltaCP.pdf, id=1359, 468.77138pt x 218.75476pt>
 File: DUNE/Figs/DUNEMassHierarchyDeltaCP.pdf Graphic file (type pdf)
 <use DUNE/Figs/DUNEMassHierarchyDeltaCP.pdf>
 Package pdftex.def Info: DUNE/Figs/DUNEMassHierarchyDeltaCP.pdf used on input l
-ine 373.
+ine 377.
 (pdftex.def)             Requested size: 455.24408pt x 212.44888pt.
 
-Overfull \hbox (17.78296pt too wide) in paragraph at lines 373--374
+Overfull \hbox (17.78296pt too wide) in paragraph at lines 377--378
  [][] 
  []
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 374.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 378.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 374.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 378.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 374.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 378.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 374.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 378.
 
-Package natbib Warning: Citation `DUNECDR2' on page 48 undefined on input line 
-374.
+Package natbib Warning: Citation `DUNECDR2' on page 47 undefined on input line 
+378.
 
 
-Package natbib Warning: Citation `DUNECDR2' on page 48 undefined on input line 
-374.
+Package natbib Warning: Citation `DUNECDR2' on page 47 undefined on input line 
+378.
 
-<DUNE/Figs/DUNEMassHierarchyTime.pdf, id=1366, 216.1132pt x 215.85774pt>
+<DUNE/Figs/DUNEMassHierarchyTime.pdf, id=1360, 216.1132pt x 215.85774pt>
 File: DUNE/Figs/DUNEMassHierarchyTime.pdf Graphic file (type pdf)
 <use DUNE/Figs/DUNEMassHierarchyTime.pdf>
 Package pdftex.def Info: DUNE/Figs/DUNEMassHierarchyTime.pdf used on input line
- 381.
+ 385.
 (pdftex.def)             Requested size: 227.62204pt x 227.35556pt.
 
-LaTeX Warning: Reference `fig:DUNEMassHierarchyDeltaCP' on page 48 undefined on
- input line 382.
+LaTeX Warning: Reference `fig:DUNEMassHierarchyDeltaCP' on page 47 undefined on
+ input line 386.
 
 
-LaTeX Warning: Reference `tab:DUNEExposure' on page 48 undefined on input line 
-382.
+LaTeX Warning: Reference `tab:DUNEExposure' on page 47 undefined on input line 
+386.
 
 
-Package natbib Warning: Citation `DUNECDR1' on page 48 undefined on input line 
-382.
+Package natbib Warning: Citation `DUNECDR1' on page 47 undefined on input line 
+386.
 
 
-LaTeX Warning: Reference `fig:DUNEMassHierarchyDeltaCP' on page 48 undefined on
- input line 382.
+LaTeX Warning: Reference `fig:DUNEMassHierarchyDeltaCP' on page 47 undefined on
+ input line 386.
 
 
-LaTeX Warning: Reference `tab:DUNEExposure' on page 48 undefined on input line 
-382.
+LaTeX Warning: Reference `tab:DUNEExposure' on page 47 undefined on input line 
+386.
 
 
-Package natbib Warning: Citation `DUNECDR1' on page 48 undefined on input line 
-382.
+Package natbib Warning: Citation `DUNECDR1' on page 47 undefined on input line 
+386.
 
 
-LaTeX Warning: Reference `fig:DUNECPViolation' on page 48 undefined on input li
-ne 389.
+LaTeX Warning: Reference `fig:DUNECPViolation' on page 47 undefined on input li
+ne 393.
 
 
-Package natbib Warning: Citation `T2K2017' on page 48 undefined on input line 3
-89.
+Package natbib Warning: Citation `T2K2017' on page 47 undefined on input line 3
+93.
 
 
-LaTeX Warning: Reference `tab:DUNEExposure' on page 48 undefined on input line 
-389.
+LaTeX Warning: Reference `tab:DUNEExposure' on page 47 undefined on input line 
+393.
 
-[48 <./DUNE/Figs/DUNEAppearanceProbabilities.pdf>] [49 <./DUNE/Figs/DUNEMassHie
-rarchyDeltaCP.pdf> <./DUNE/Figs/DUNEMassHierarchyTime.pdf>] <DUNE/Figs/DUNECPVi
-olationDeltaCP.pdf, id=1583, 466.74374pt x 216.81pt>
+[47] [48] <DUNE/Figs/DUNECPViolationDeltaCP.pdf, id=1372, 466.74374pt x 216.81p
+t>
 File: DUNE/Figs/DUNECPViolationDeltaCP.pdf Graphic file (type pdf)
 <use DUNE/Figs/DUNECPViolationDeltaCP.pdf>
 Package pdftex.def Info: DUNE/Figs/DUNECPViolationDeltaCP.pdf used on input lin
-e 395.
+e 399.
 (pdftex.def)             Requested size: 455.24408pt x 211.47656pt.
 
-Overfull \hbox (17.78296pt too wide) in paragraph at lines 395--396
+Overfull \hbox (17.78296pt too wide) in paragraph at lines 399--400
  [][] 
  []
 
 
-Package natbib Warning: Citation `DUNECDR2' on page 50 undefined on input line 
-396.
+Package natbib Warning: Citation `DUNECDR2' on page 49 undefined on input line 
+400.
 
 
-Package natbib Warning: Citation `DUNECDR2' on page 50 undefined on input line 
-396.
+Package natbib Warning: Citation `DUNECDR2' on page 49 undefined on input line 
+400.
 
-<DUNE/Figs/DUNECPViolationTime.pdf, id=1584, 464.73625pt x 215.80624pt>
+<DUNE/Figs/DUNECPViolationTime.pdf, id=1373, 464.73625pt x 215.80624pt>
 File: DUNE/Figs/DUNECPViolationTime.pdf Graphic file (type pdf)
 <use DUNE/Figs/DUNECPViolationTime.pdf>
 Package pdftex.def Info: DUNE/Figs/DUNECPViolationTime.pdf used on input line 4
-03.
+07.
 (pdftex.def)             Requested size: 455.24408pt x 211.40305pt.
 
-Overfull \hbox (17.78296pt too wide) in paragraph at lines 403--404
+Overfull \hbox (17.78296pt too wide) in paragraph at lines 407--408
  [][] 
  []
 
 
-LaTeX Warning: Reference `tab:DUNEExposure' on page 50 undefined on input line 
-404.
+LaTeX Warning: Reference `tab:DUNEExposure' on page 49 undefined on input line 
+408.
 
 
-Package natbib Warning: Citation `DUNECDR1' on page 50 undefined on input line 
-404.
+Package natbib Warning: Citation `DUNECDR1' on page 49 undefined on input line 
+408.
 
 
-LaTeX Warning: Reference `tab:DUNEExposure' on page 50 undefined on input line 
-404.
+LaTeX Warning: Reference `tab:DUNEExposure' on page 49 undefined on input line 
+408.
 
 
-Package natbib Warning: Citation `DUNECDR1' on page 50 undefined on input line 
-404.
+Package natbib Warning: Citation `DUNECDR1' on page 49 undefined on input line 
+408.
 
 
-LaTeX Warning: Reference `eq:MuonNeutrinoDisappearance' on page 50 undefined on
- input line 414.
+LaTeX Warning: Reference `eq:MuonNeutrinoDisappearance' on page 49 undefined on
+ input line 418.
 
 
-LaTeX Warning: Reference `eq:ElectronNeutrinoAppearance' on page 50 undefined o
-n input line 414.
+LaTeX Warning: Reference `eq:ElectronNeutrinoAppearance' on page 49 undefined o
+n input line 418.
 
 
-LaTeX Warning: Reference `fig:DUNETheta23' on page 50 undefined on input line 4
-14.
+LaTeX Warning: Reference `fig:DUNETheta23' on page 49 undefined on input line 4
+18.
 
 
-LaTeX Warning: Reference `fig:DUNETheta13' on page 50 undefined on input line 4
-14.
+LaTeX Warning: Reference `fig:DUNETheta13' on page 49 undefined on input line 4
+18.
 
-<DUNE/Figs/DUNEOctantSensitivity.pdf, id=1585, 308.15125pt x 300.12125pt>
+<DUNE/Figs/DUNEOctantSensitivity.pdf, id=1374, 308.15125pt x 300.12125pt>
 File: DUNE/Figs/DUNEOctantSensitivity.pdf Graphic file (type pdf)
 <use DUNE/Figs/DUNEOctantSensitivity.pdf>
 Package pdftex.def Info: DUNE/Figs/DUNEOctantSensitivity.pdf used on input line
- 420.
+ 424.
 (pdftex.def)             Requested size: 205.77896pt x 200.42075pt.
-<DUNE/Figs/DUNETheta23Resolution.pdf, id=1586, 314.17375pt x 307.1475pt>
+<DUNE/Figs/DUNETheta23Resolution.pdf, id=1375, 314.17375pt x 307.1475pt>
 File: DUNE/Figs/DUNETheta23Resolution.pdf Graphic file (type pdf)
 <use DUNE/Figs/DUNETheta23Resolution.pdf>
 Package pdftex.def Info: DUNE/Figs/DUNETheta23Resolution.pdf used on input line
- 427.
+ 431.
 (pdftex.def)             Requested size: 205.77896pt x 201.17604pt.
 
-LaTeX Warning: Reference `fig:DUNEOctantSensitivity' on page 50 undefined on in
-put line 431.
+LaTeX Warning: Reference `fig:DUNEOctantSensitivity' on page 49 undefined on in
+put line 435.
 
 
-LaTeX Warning: Reference `fig:DUNETheta23Resolution' on page 50 undefined on in
-put line 431.
+LaTeX Warning: Reference `fig:DUNETheta23Resolution' on page 49 undefined on in
+put line 435.
 
 
-Package natbib Warning: Citation `DUNECDR2' on page 50 undefined on input line 
-431.
+Package natbib Warning: Citation `DUNECDR2' on page 49 undefined on input line 
+435.
 
 
-LaTeX Warning: Reference `fig:DUNEOctantSensitivity' on page 50 undefined on in
-put line 431.
+LaTeX Warning: Reference `fig:DUNEOctantSensitivity' on page 49 undefined on in
+put line 435.
 
 
-LaTeX Warning: Reference `fig:DUNETheta23Resolution' on page 50 undefined on in
-put line 431.
+LaTeX Warning: Reference `fig:DUNETheta23Resolution' on page 49 undefined on in
+put line 435.
 
 
-Package natbib Warning: Citation `DUNECDR2' on page 50 undefined on input line 
-431.
+Package natbib Warning: Citation `DUNECDR2' on page 49 undefined on input line 
+435.
 
-<DUNE/Figs/DUNETheta13Resolution.pdf, id=1587, 315.1775pt x 307.1475pt>
+<DUNE/Figs/DUNETheta13Resolution.pdf, id=1376, 315.1775pt x 307.1475pt>
 File: DUNE/Figs/DUNETheta13Resolution.pdf Graphic file (type pdf)
 <use DUNE/Figs/DUNETheta13Resolution.pdf>
 Package pdftex.def Info: DUNE/Figs/DUNETheta13Resolution.pdf used on input line
- 439.
+ 443.
 (pdftex.def)             Requested size: 205.77896pt x 200.53867pt.
-<DUNE/Figs/DUNEDeltaM31Resolution.pdf, id=1588, 314.17375pt x 307.1475pt>
+<DUNE/Figs/DUNEDeltaM31Resolution.pdf, id=1377, 314.17375pt x 307.1475pt>
 File: DUNE/Figs/DUNEDeltaM31Resolution.pdf Graphic file (type pdf)
 <use DUNE/Figs/DUNEDeltaM31Resolution.pdf>
 Package pdftex.def Info: DUNE/Figs/DUNEDeltaM31Resolution.pdf used on input lin
-e 446.
+e 450.
 (pdftex.def)             Requested size: 205.77896pt x 201.17604pt.
 
-LaTeX Warning: Reference `fig:DUNETheta13Resolution' on page 50 undefined on in
-put line 450.
+LaTeX Warning: Reference `fig:DUNETheta13Resolution' on page 49 undefined on in
+put line 454.
 
 
-LaTeX Warning: Reference `fig:DUNEDeltaM31Resolution' on page 50 undefined on i
-nput line 450.
+LaTeX Warning: Reference `fig:DUNEDeltaM31Resolution' on page 49 undefined on i
+nput line 454.
 
 
-Package natbib Warning: Citation `DUNECDR2' on page 50 undefined on input line 
-450.
+Package natbib Warning: Citation `DUNECDR2' on page 49 undefined on input line 
+454.
 
 
-LaTeX Warning: Reference `fig:DUNETheta13Resolution' on page 50 undefined on in
-put line 450.
+LaTeX Warning: Reference `fig:DUNETheta13Resolution' on page 49 undefined on in
+put line 454.
 
 
-LaTeX Warning: Reference `fig:DUNEDeltaM31Resolution' on page 50 undefined on i
-nput line 450.
+LaTeX Warning: Reference `fig:DUNEDeltaM31Resolution' on page 49 undefined on i
+nput line 454.
 
 
-Package natbib Warning: Citation `DUNECDR2' on page 50 undefined on input line 
-450.
+Package natbib Warning: Citation `DUNECDR2' on page 49 undefined on input line 
+454.
 
-[50] [51 <./DUNE/Figs/DUNECPViolationDeltaCP.pdf> <./DUNE/Figs/DUNECPViolationT
-ime.pdf>] [52 <./DUNE/Figs/DUNEOctantSensitivity.pdf> <./DUNE/Figs/DUNETheta23R
-esolution.pdf>] [53 <./DUNE/Figs/DUNETheta13Resolution.pdf> <./DUNE/Figs/DUNEDe
-ltaM31Resolution.pdf>]
+[49 <./DUNE/Figs/DUNEAppearanceProbabilities.pdf>] [50 <./DUNE/Figs/DUNEMassHie
+rarchyDeltaCP.pdf> <./DUNE/Figs/DUNEMassHierarchyTime.pdf>] [51 <./DUNE/Figs/DU
+NECPViolationDeltaCP.pdf> <./DUNE/Figs/DUNECPViolationTime.pdf>] [52 <./DUNE/Fi
+gs/DUNEOctantSensitivity.pdf> <./DUNE/Figs/DUNETheta23Resolution.pdf>] [53 <./D
+UNE/Figs/DUNETheta13Resolution.pdf> <./DUNE/Figs/DUNEDeltaM31Resolution.pdf>]
+
+Package natbib Warning: Citation `Dimopoulos1982' on page 54 undefined on input
+ line 463.
+
 
 LaTeX Warning: Reference `tab:DUNEExposure' on page 54 undefined on input line 
-470.
+474.
 
+[54]
 
-LaTeX Warning: Reference `fig:DUNE35ton' on page 54 undefined on input line 477
+LaTeX Warning: Reference `fig:DUNE35ton' on page 55 undefined on input line 481
 .
 
 
-LaTeX Warning: Reference `chap:35ton' on page 54 undefined on input line 477.
+LaTeX Warning: Reference `chap:35ton' on page 55 undefined on input line 481.
 
-<DUNE/Figs/35ton.pdf, id=1900, 596.5277pt x 468.2287pt>
+<DUNE/Figs/35ton.pdf, id=1905, 596.5277pt x 468.2287pt>
 File: DUNE/Figs/35ton.pdf Graphic file (type pdf)
 <use DUNE/Figs/35ton.pdf>
-Package pdftex.def Info: DUNE/Figs/35ton.pdf used on input line 481.
+Package pdftex.def Info: DUNE/Figs/35ton.pdf used on input line 485.
 (pdftex.def)             Requested size: 284.52756pt x 223.33972pt.
 
-Package natbib Warning: Citation `35tonPhaseINeutrino2014' on page 54 undefined
- on input line 482.
+Package natbib Warning: Citation `35tonPhaseINeutrino2014' on page 55 undefined
+ on input line 486.
 
 
-Package natbib Warning: Citation `35tonPhaseINeutrino2014' on page 54 undefined
- on input line 482.
+Package natbib Warning: Citation `35tonPhaseINeutrino2014' on page 55 undefined
+ on input line 486.
 
 
-LaTeX Warning: Reference `chap:35tonAnalysis' on page 54 undefined on input lin
-e 486.
+LaTeX Warning: Reference `chap:35tonAnalysis' on page 55 undefined on input lin
+e 490.
 
 
-Package natbib Warning: Citation `ProtoDUNE-SP' on page 54 undefined on input l
-ine 491.
+Package natbib Warning: Citation `ProtoDUNE-SP' on page 55 undefined on input l
+ine 495.
 
 
-Package natbib Warning: Citation `WA105' on page 54 undefined on input line 491
+Package natbib Warning: Citation `WA105' on page 55 undefined on input line 495
 .
 
 
-LaTeX Warning: Reference `fig:NeutrinoPlatform' on page 54 undefined on input l
-ine 491.
+LaTeX Warning: Reference `fig:NeutrinoPlatform' on page 55 undefined on input l
+ine 495.
 
-[54] <DUNE/Figs/NeutrinoPlatform.jpg, id=1908, 702.625pt x 410.53375pt>
+<DUNE/Figs/NeutrinoPlatform.jpg, id=1906, 702.625pt x 410.53375pt>
 File: DUNE/Figs/NeutrinoPlatform.jpg Graphic file (type jpg)
 <use DUNE/Figs/NeutrinoPlatform.jpg>
-Package pdftex.def Info: DUNE/Figs/NeutrinoPlatform.jpg used on input line 495.
+Package pdftex.def Info: DUNE/Figs/NeutrinoPlatform.jpg used on input line 499.
 
 (pdftex.def)             Requested size: 398.33858pt x 232.74756pt.
 
 Package natbib Warning: Citation `NeutrinoPlatform' on page 55 undefined on inp
-ut line 496.
+ut line 500.
 
 
 Package natbib Warning: Citation `NeutrinoPlatform' on page 55 undefined on inp
-ut line 496.
+ut line 500.
 
-) [55 <./DUNE/Figs/35ton.pdf>] [56 <./DUNE/Figs/NeutrinoPlatform.jpg>]
+[55 <./DUNE/Figs/35ton.pdf>]) [56 <./DUNE/Figs/NeutrinoPlatform.jpg>]
 \openout2 = `35ton/35ton.aux'.
 
 (./35ton/35ton.tex
@@ -9481,10 +9502,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 27813 strings out of 493117
- 526497 string characters out of 6135433
+ 27816 strings out of 493117
+ 526532 string characters out of 6135433
  525379 words of memory out of 5000000
- 29559 multiletter control sequences out of 15000+600000
+ 29562 multiletter control sequences out of 15000+600000
  131993 words of font info for 402 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  49i,15n,52p,10395b,867s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -9531,7 +9552,7 @@ l/texlive/2014/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2
 014/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-
 dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts
 /type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (236 pages, 57319659 bytes).
+Output written on thesis.pdf (236 pages, 57320924 bytes).
 PDF statistics:
  7331 PDF objects out of 7423 (max. 8388607)
  5317 compressed objects within 54 object streams

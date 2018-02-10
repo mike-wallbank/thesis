@@ -244,7 +244,7 @@ F.~Reines, M.~F. Crouch, T.~L. Jenkins \emph{et~al.}; \emph{{Evidence for
 C.~V. Achar, M.~G.~K. Menon, V.~S. Narasimham \emph{et~al.}; \emph{{Detection
   of muons produced by cosmic ray neutrinos deep underground}}; Physics Letters
   \textbf{18}, 2, 196--199 (1965).
-\newline\urlprefix\url{http://dx.doi.org/https://doi.org/10.1016/0031-9163(65)90712-2}
+\newline\urlprefix\url{http://dx.doi.org/10.1016/0031-9163(65)90712-2}
 
 \bibitem{Haines1986}
 T.~J. Haines, R.~M. Bionta, G.~Blewitt \emph{et~al.}; \emph{{Calculation of
@@ -543,6 +543,10 @@ C.~Kraus, B.~Bornschein, L.~Bornschein \emph{et~al.}; \emph{{Final results from
   Underground Neutrino Experiment (DUNE): The DUNE Detectors at LBNF}};
   arXiv:1601.02984 [physics.ins-det] \textbf{4} (2016).
 
+\bibitem{DUNEWebsite}
+\emph{{Deep Underground Neutrino Experiment}}.
+\newline\urlprefix\url{dunescience.org}
+
 \bibitem{ICARUS2004}
 S.~Amerio, S.~Amoruso, M.~Antonello \emph{et~al.}; \emph{{Design, construction
   and tests of the ICARUS T600 detector}}; Nuclear Instruments and Methods in
@@ -648,6 +652,16 @@ M.~B. Avanzini; \emph{{The LAGUNA-LBNO Project}}; Physics Procedia \textbf{61},
 {HEPAP Subcommittee}; \emph{{Building for Discovery: Strategic Plan for U.S.
   Particle Physics in the Global Context}}  (2014).
 \newline\urlprefix\url{https://science.energy.gov/~/media/hep/hepap/pdf/May-2014/FINAL_P5_Report_053014.pdf}
+
+\bibitem{KLOE}
+F.~Bossi, E.~De~Lucia, J.~Lee-Franzini \emph{et~al.}; \emph{{Precision Kaon and
+  Hadron Physics with KLOE}}; Riv. Nuovo Cim. \textbf{31}, 531--623 (2008).
+\newline\urlprefix\url{http://dx.doi.org/10.1393/ncr/i2008-10037-9}
+
+\bibitem{Dimopoulos1982}
+S.~Dimopoulos, S.~Raby, and F.~Wilczek; \emph{{Proton decay in supersymmetric
+  models}}; Physics Letters B \textbf{112}, 2, 133--136 (1982).
+\newline\urlprefix\url{http://dx.doi.org/10.1016/0370-2693(82)90313-6}
 
 \bibitem{35tonPhaseINeutrino2014}
 M.~Convery and Z.~Djurcic; \emph{{The 35-Ton Liquid Argon TPC Prototype for the

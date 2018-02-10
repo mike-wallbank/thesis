@@ -230,7 +230,7 @@
 \@writefile{toc}{\contentsline {section}{\numberline {3.1}The LAr TPC Concept}{25}{section.3.1}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.2}Overview of DUNE}{32}{section.3.2}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.3}Experimental Details}{35}{section.3.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.4}The Physics of DUNE}{46}{section.3.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.4}The Physics of DUNE}{47}{section.3.4}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.5}The Road to DUNE}{54}{section.3.5}}
 \@writefile{toc}{\contentsline {section}{\numberline {4.1}The Materials Test Stand and Liquid Argon Purity Demonstrator}{58}{section.4.1}}
 \@writefile{toc}{\contentsline {section}{\numberline {4.2}35-ton Experiment: Phase\nobreakspace  {}I}{69}{section.4.2}}
@@ -480,11 +480,15 @@
 \citation{DUNECDR4}
 \citation{DUNECDR4}
 \citation{DUNECDR4}
+\citation{DUNECDR4}
+\citation{DUNEWebsite}
+\citation{DUNEWebsite}
 \citation{Danby1962}
 \citation{Davis1959}
 \citation{DayaBay2012}
 \citation{DeCamp1989,Adeva1989,Akrawy1989,Aarnio1989}
 \citation{DeGeronimo2011,Thorn2012}
+\citation{Dimopoulos1982}
 \citation{EMShower,EMShowerLArSoft}
 \citation{Ellis2012}
 \citation{Feldman1977}
@@ -516,6 +520,7 @@
 \citation{IceCube2015}
 \citation{Insler2016}
 \citation{Insler2016}
+\citation{KLOE}
 \citation{KabothThesis}
 \citation{KamLAND2003,KamLAND2005}
 \citation{KamLAND2013}

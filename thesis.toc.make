@@ -35,7 +35,7 @@
 \contentsline {subsection}{\numberline {3.3.3}Near Detector}{43}{subsection.3.3.3}
 \contentsline {subsubsection}{\numberline {3.3.3.1}Near Neutrino Detector}{44}{subsubsection.3.3.3.1}
 \contentsline {subsubsection}{\numberline {3.3.3.2}Beamline Measurement System}{46}{subsubsection.3.3.3.2}
-\contentsline {section}{\numberline {3.4}The Physics of DUNE}{46}{section.3.4}
+\contentsline {section}{\numberline {3.4}The Physics of DUNE}{47}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Mass Hierarchy and CP Violation}{48}{subsection.3.4.1}
 \contentsline {subsection}{\numberline {3.4.2}Oscillation Parameters}{50}{subsection.3.4.2}
 \contentsline {subsection}{\numberline {3.4.3}Other Physics}{50}{subsection.3.4.3}

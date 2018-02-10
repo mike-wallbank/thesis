@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  9 FEB 2018 16:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  9 FEB 2018 23:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2130,6 +2130,14 @@ File: DUNE/Figs/DUNE.jpg Graphic file (type jpg)
 Package pdftex.def Info: DUNE/Figs/DUNE.jpg used on input line 13.
 (pdftex.def)             Requested size: 398.33858pt x 131.40466pt.
 
+Package natbib Warning: Citation `DUNEWebsite' on page 25 undefined on input li
+ne 14.
+
+
+Package natbib Warning: Citation `DUNEWebsite' on page 25 undefined on input li
+ne 14.
+
+
 Package natbib Warning: Citation `ICARUS2004' on page 25 undefined on input lin
 e 23.
 
@@ -2429,95 +2437,105 @@ Package natbib Warning: Citation `DUNECDR4' on page 42 undefined on input line
 292.
 
 [42 <./DUNE/Figs/DUNEPhotonDetectors.png> <./DUNE/Figs/DUNEPhotonDetectorsAPA.p
-ng>] [43 <./DUNE/Figs/DUNEDualPhase.png>] <DUNE/Figs/DUNENearDetector.png, id=2
-345, 433.62pt x 384.43625pt>
+ng>]
+
+Package natbib Warning: Citation `KLOE' on page 43 undefined on input line 306.
+
+
+
+Package natbib Warning: Citation `DUNECDR4' on page 43 undefined on input line 
+306.
+
+[43 <./DUNE/Figs/DUNEDualPhase.png>] <DUNE/Figs/DUNENearDetector.png, id=2345, 
+433.62pt x 384.43625pt>
 File: DUNE/Figs/DUNENearDetector.png Graphic file (type png)
 <use DUNE/Figs/DUNENearDetector.png>
-Package pdftex.def Info: DUNE/Figs/DUNENearDetector.png used on input line 310.
+Package pdftex.def Info: DUNE/Figs/DUNENearDetector.png used on input line 312.
 
 (pdftex.def)             Requested size: 341.43306pt x 302.72168pt.
 
 Package natbib Warning: Citation `DUNECDR4' on page 44 undefined on input line 
-311.
+313.
 
 
 Package natbib Warning: Citation `DUNECDR4' on page 44 undefined on input line 
-311.
+313.
 
 [44 <./DUNE/Figs/DUNEDualPhaseCRP.png>] [45 <./DUNE/Figs/DUNENearDetector.png>]
+[46]
 
-Package natbib Warning: Citation `DUNECDR1' on page 46 undefined on input line 
-336.
-
-
-Package natbib Warning: Citation `DUNECDR1' on page 46 undefined on input line 
-336.
+Package natbib Warning: Citation `DUNECDR1' on page 47 undefined on input line 
+340.
 
 
-<DUNE/Figs/DUNEAppearanceProbabilities.pdf, id=2360, 451.52393pt x 209.92487pt>
+Package natbib Warning: Citation `DUNECDR1' on page 47 undefined on input line 
+340.
+
+
+<DUNE/Figs/DUNEAppearanceProbabilities.pdf, id=2364, 451.52393pt x 209.92487pt>
 File: DUNE/Figs/DUNEAppearanceProbabilities.pdf Graphic file (type pdf)
 <use DUNE/Figs/DUNEAppearanceProbabilities.pdf>
 Package pdftex.def Info: DUNE/Figs/DUNEAppearanceProbabilities.pdf used on inpu
-t line 357.
+t line 361.
 (pdftex.def)             Requested size: 455.24408pt x 211.66367pt.
 
-Overfull \hbox (17.78296pt too wide) in paragraph at lines 357--358
+Overfull \hbox (17.78296pt too wide) in paragraph at lines 361--362
  [][] 
  []
 
 
-Package natbib Warning: Citation `DUNECDR2' on page 46 undefined on input line 
-358.
+Package natbib Warning: Citation `DUNECDR2' on page 47 undefined on input line 
+362.
 
 
-Package natbib Warning: Citation `DUNECDR2' on page 46 undefined on input line 
-358.
+Package natbib Warning: Citation `DUNECDR2' on page 47 undefined on input line 
+362.
 
-[46] [47] <DUNE/Figs/DUNEMassHierarchyDeltaCP.pdf, id=2370, 468.77138pt x 218.7
-5476pt>
+[47] <DUNE/Figs/DUNEMassHierarchyDeltaCP.pdf, id=2370, 468.77138pt x 218.75476p
+t>
 File: DUNE/Figs/DUNEMassHierarchyDeltaCP.pdf Graphic file (type pdf)
 <use DUNE/Figs/DUNEMassHierarchyDeltaCP.pdf>
 Package pdftex.def Info: DUNE/Figs/DUNEMassHierarchyDeltaCP.pdf used on input l
-ine 373.
+ine 377.
 (pdftex.def)             Requested size: 455.24408pt x 212.44888pt.
 
-Overfull \hbox (17.78296pt too wide) in paragraph at lines 373--374
+Overfull \hbox (17.78296pt too wide) in paragraph at lines 377--378
  [][] 
  []
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 374.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 378.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 374.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 378.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 374.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 378.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 374.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 378.
 
 Package natbib Warning: Citation `DUNECDR2' on page 48 undefined on input line 
-374.
+378.
 
 
 Package natbib Warning: Citation `DUNECDR2' on page 48 undefined on input line 
-374.
+378.
 
 <DUNE/Figs/DUNEMassHierarchyTime.pdf, id=2371, 216.1132pt x 215.85774pt>
 File: DUNE/Figs/DUNEMassHierarchyTime.pdf Graphic file (type pdf)
 <use DUNE/Figs/DUNEMassHierarchyTime.pdf>
 Package pdftex.def Info: DUNE/Figs/DUNEMassHierarchyTime.pdf used on input line
- 381.
+ 385.
 (pdftex.def)             Requested size: 227.62204pt x 227.35556pt.
 
 Package natbib Warning: Citation `DUNECDR1' on page 48 undefined on input line 
-382.
+386.
 
 
 Package natbib Warning: Citation `DUNECDR1' on page 48 undefined on input line 
-382.
+386.
 
 
 Package natbib Warning: Citation `T2K2017' on page 48 undefined on input line 3
-89.
+93.
 
 [48 <./DUNE/Figs/DUNEAppearanceProbabilities.pdf>] [49 <./DUNE/Figs/DUNEMassHie
 rarchyDeltaCP.pdf> <./DUNE/Figs/DUNEMassHierarchyTime.pdf>] <DUNE/Figs/DUNECPVi
@@ -2525,79 +2543,83 @@ olationDeltaCP.pdf, id=2589, 466.74374pt x 216.81pt>
 File: DUNE/Figs/DUNECPViolationDeltaCP.pdf Graphic file (type pdf)
 <use DUNE/Figs/DUNECPViolationDeltaCP.pdf>
 Package pdftex.def Info: DUNE/Figs/DUNECPViolationDeltaCP.pdf used on input lin
-e 395.
+e 399.
 (pdftex.def)             Requested size: 455.24408pt x 211.47656pt.
 
-Overfull \hbox (17.78296pt too wide) in paragraph at lines 395--396
+Overfull \hbox (17.78296pt too wide) in paragraph at lines 399--400
  [][] 
  []
 
 
 Package natbib Warning: Citation `DUNECDR2' on page 50 undefined on input line 
-396.
+400.
 
 
 Package natbib Warning: Citation `DUNECDR2' on page 50 undefined on input line 
-396.
+400.
 
 <DUNE/Figs/DUNECPViolationTime.pdf, id=2590, 464.73625pt x 215.80624pt>
 File: DUNE/Figs/DUNECPViolationTime.pdf Graphic file (type pdf)
 <use DUNE/Figs/DUNECPViolationTime.pdf>
 Package pdftex.def Info: DUNE/Figs/DUNECPViolationTime.pdf used on input line 4
-03.
+07.
 (pdftex.def)             Requested size: 455.24408pt x 211.40305pt.
 
-Overfull \hbox (17.78296pt too wide) in paragraph at lines 403--404
+Overfull \hbox (17.78296pt too wide) in paragraph at lines 407--408
  [][] 
  []
 
 
 Package natbib Warning: Citation `DUNECDR1' on page 50 undefined on input line 
-404.
+408.
 
 
 Package natbib Warning: Citation `DUNECDR1' on page 50 undefined on input line 
-404.
+408.
 
 <DUNE/Figs/DUNEOctantSensitivity.pdf, id=2597, 308.15125pt x 300.12125pt>
 File: DUNE/Figs/DUNEOctantSensitivity.pdf Graphic file (type pdf)
 <use DUNE/Figs/DUNEOctantSensitivity.pdf>
 Package pdftex.def Info: DUNE/Figs/DUNEOctantSensitivity.pdf used on input line
- 420.
+ 424.
 (pdftex.def)             Requested size: 205.77896pt x 200.42075pt.
 <DUNE/Figs/DUNETheta23Resolution.pdf, id=2598, 314.17375pt x 307.1475pt>
 File: DUNE/Figs/DUNETheta23Resolution.pdf Graphic file (type pdf)
 <use DUNE/Figs/DUNETheta23Resolution.pdf>
 Package pdftex.def Info: DUNE/Figs/DUNETheta23Resolution.pdf used on input line
- 427.
+ 431.
 (pdftex.def)             Requested size: 205.77896pt x 201.17604pt.
 
 Package natbib Warning: Citation `DUNECDR2' on page 50 undefined on input line 
-431.
+435.
 
 
 Package natbib Warning: Citation `DUNECDR2' on page 50 undefined on input line 
-431.
+435.
 
 <DUNE/Figs/DUNETheta13Resolution.pdf, id=2603, 315.1775pt x 307.1475pt>
 File: DUNE/Figs/DUNETheta13Resolution.pdf Graphic file (type pdf)
 <use DUNE/Figs/DUNETheta13Resolution.pdf>
 Package pdftex.def Info: DUNE/Figs/DUNETheta13Resolution.pdf used on input line
- 439.
+ 443.
 (pdftex.def)             Requested size: 205.77896pt x 200.53867pt.
 <DUNE/Figs/DUNEDeltaM31Resolution.pdf, id=2604, 314.17375pt x 307.1475pt>
 File: DUNE/Figs/DUNEDeltaM31Resolution.pdf Graphic file (type pdf)
 <use DUNE/Figs/DUNEDeltaM31Resolution.pdf>
 Package pdftex.def Info: DUNE/Figs/DUNEDeltaM31Resolution.pdf used on input lin
-e 446.
+e 450.
 (pdftex.def)             Requested size: 205.77896pt x 201.17604pt.
 
 Package natbib Warning: Citation `DUNECDR2' on page 50 undefined on input line 
-450.
+454.
 
 
 Package natbib Warning: Citation `DUNECDR2' on page 50 undefined on input line 
-450.
+454.
+
+
+Package natbib Warning: Citation `Dimopoulos1982' on page 50 undefined on input
+ line 463.
 
 [50] [51 <./DUNE/Figs/DUNECPViolationDeltaCP.pdf> <./DUNE/Figs/DUNECPViolationT
 ime.pdf>] [52 <./DUNE/Figs/DUNEOctantSensitivity.pdf> <./DUNE/Figs/DUNETheta23R
@@ -2605,37 +2627,37 @@ esolution.pdf>] [53 <./DUNE/Figs/DUNETheta13Resolution.pdf> <./DUNE/Figs/DUNEDe
 ltaM31Resolution.pdf>] <DUNE/Figs/35ton.pdf, id=2920, 596.5277pt x 468.2287pt>
 File: DUNE/Figs/35ton.pdf Graphic file (type pdf)
 <use DUNE/Figs/35ton.pdf>
-Package pdftex.def Info: DUNE/Figs/35ton.pdf used on input line 481.
+Package pdftex.def Info: DUNE/Figs/35ton.pdf used on input line 485.
 (pdftex.def)             Requested size: 284.52756pt x 223.33972pt.
 
 Package natbib Warning: Citation `35tonPhaseINeutrino2014' on page 54 undefined
- on input line 482.
+ on input line 486.
 
 
 Package natbib Warning: Citation `35tonPhaseINeutrino2014' on page 54 undefined
- on input line 482.
+ on input line 486.
 
 
 Package natbib Warning: Citation `ProtoDUNE-SP' on page 54 undefined on input l
-ine 491.
+ine 495.
 
 
-Package natbib Warning: Citation `WA105' on page 54 undefined on input line 491
+Package natbib Warning: Citation `WA105' on page 54 undefined on input line 495
 .
 
 [54] <DUNE/Figs/NeutrinoPlatform.jpg, id=2927, 702.625pt x 410.53375pt>
 File: DUNE/Figs/NeutrinoPlatform.jpg Graphic file (type jpg)
 <use DUNE/Figs/NeutrinoPlatform.jpg>
-Package pdftex.def Info: DUNE/Figs/NeutrinoPlatform.jpg used on input line 495.
+Package pdftex.def Info: DUNE/Figs/NeutrinoPlatform.jpg used on input line 499.
 
 (pdftex.def)             Requested size: 398.33858pt x 232.74756pt.
 
 Package natbib Warning: Citation `NeutrinoPlatform' on page 55 undefined on inp
-ut line 496.
+ut line 500.
 
 
 Package natbib Warning: Citation `NeutrinoPlatform' on page 55 undefined on inp
-ut line 496.
+ut line 500.
 
 ) [55 <./DUNE/Figs/35ton.pdf>] [56 <./DUNE/Figs/NeutrinoPlatform.jpg>]
 \openout2 = `35ton/35ton.aux'.
@@ -6265,7 +6287,7 @@ C3Gap-eps-converted-to.pdf AppendixAPAGap/Figs/TPC1TPC3Gap.eps>
 (epstopdf)             \includegraphics on input line 16.
 Package epstopdf Info: Output file is already uptodate.
 
-<AppendixAPAGap/Figs/TPC1TPC3Gap-eps-converted-to.pdf, id=7930, 569.12625pt x 4
+<AppendixAPAGap/Figs/TPC1TPC3Gap-eps-converted-to.pdf, id=7936, 569.12625pt x 4
 09.53pt>
 File: AppendixAPAGap/Figs/TPC1TPC3Gap-eps-converted-to.pdf Graphic file (type p
 df)
@@ -6285,7 +6307,7 @@ C3XOff-eps-converted-to.pdf AppendixAPAGap/Figs/TPC1TPC3XOff.eps>
 (epstopdf)             \includegraphics on input line 23.
 Package epstopdf Info: Output file is already uptodate.
 
-<AppendixAPAGap/Figs/TPC1TPC3XOff-eps-converted-to.pdf, id=7931, 569.12625pt x 
+<AppendixAPAGap/Figs/TPC1TPC3XOff-eps-converted-to.pdf, id=7937, 569.12625pt x 
 409.53pt>
 File: AppendixAPAGap/Figs/TPC1TPC3XOff-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -6305,7 +6327,7 @@ C3ZOff-eps-converted-to.pdf AppendixAPAGap/Figs/TPC1TPC3ZOff.eps>
 (epstopdf)             \includegraphics on input line 30.
 Package epstopdf Info: Output file is already uptodate.
 
-<AppendixAPAGap/Figs/TPC1TPC3ZOff-eps-converted-to.pdf, id=7932, 569.12625pt x 
+<AppendixAPAGap/Figs/TPC1TPC3ZOff-eps-converted-to.pdf, id=7938, 569.12625pt x 
 409.53pt>
 File: AppendixAPAGap/Figs/TPC1TPC3ZOff-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -6328,7 +6350,7 @@ C5Gap-eps-converted-to.pdf AppendixAPAGap/Figs/TPC1TPC5Gap.eps>
 (epstopdf)             \includegraphics on input line 43.
 Package epstopdf Info: Output file is already uptodate.
 
-<AppendixAPAGap/Figs/TPC1TPC5Gap-eps-converted-to.pdf, id=7933, 569.12625pt x 4
+<AppendixAPAGap/Figs/TPC1TPC5Gap-eps-converted-to.pdf, id=7939, 569.12625pt x 4
 09.53pt>
 File: AppendixAPAGap/Figs/TPC1TPC5Gap-eps-converted-to.pdf Graphic file (type p
 df)
@@ -6348,7 +6370,7 @@ C5XOff-eps-converted-to.pdf AppendixAPAGap/Figs/TPC1TPC5XOff.eps>
 (epstopdf)             \includegraphics on input line 50.
 Package epstopdf Info: Output file is already uptodate.
 
-<AppendixAPAGap/Figs/TPC1TPC5XOff-eps-converted-to.pdf, id=7934, 569.12625pt x 
+<AppendixAPAGap/Figs/TPC1TPC5XOff-eps-converted-to.pdf, id=7940, 569.12625pt x 
 409.53pt>
 File: AppendixAPAGap/Figs/TPC1TPC5XOff-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -6368,7 +6390,7 @@ C5ZOff-eps-converted-to.pdf AppendixAPAGap/Figs/TPC1TPC5ZOff.eps>
 (epstopdf)             \includegraphics on input line 57.
 Package epstopdf Info: Output file is already uptodate.
 
-<AppendixAPAGap/Figs/TPC1TPC5ZOff-eps-converted-to.pdf, id=7935, 569.12625pt x 
+<AppendixAPAGap/Figs/TPC1TPC5ZOff-eps-converted-to.pdf, id=7941, 569.12625pt x 
 409.53pt>
 File: AppendixAPAGap/Figs/TPC1TPC5ZOff-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -6391,7 +6413,7 @@ C7Gap-eps-converted-to.pdf AppendixAPAGap/Figs/TPC3TPC7Gap.eps>
 (epstopdf)             \includegraphics on input line 70.
 Package epstopdf Info: Output file is already uptodate.
 
-<AppendixAPAGap/Figs/TPC3TPC7Gap-eps-converted-to.pdf, id=7936, 569.12625pt x 4
+<AppendixAPAGap/Figs/TPC3TPC7Gap-eps-converted-to.pdf, id=7942, 569.12625pt x 4
 09.53pt>
 File: AppendixAPAGap/Figs/TPC3TPC7Gap-eps-converted-to.pdf Graphic file (type p
 df)
@@ -6411,7 +6433,7 @@ C7XOff-eps-converted-to.pdf AppendixAPAGap/Figs/TPC3TPC7XOff.eps>
 (epstopdf)             \includegraphics on input line 77.
 Package epstopdf Info: Output file is already uptodate.
 
-<AppendixAPAGap/Figs/TPC3TPC7XOff-eps-converted-to.pdf, id=7937, 569.12625pt x 
+<AppendixAPAGap/Figs/TPC3TPC7XOff-eps-converted-to.pdf, id=7943, 569.12625pt x 
 409.53pt>
 File: AppendixAPAGap/Figs/TPC3TPC7XOff-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -6431,7 +6453,7 @@ C7ZOff-eps-converted-to.pdf AppendixAPAGap/Figs/TPC3TPC7ZOff.eps>
 (epstopdf)             \includegraphics on input line 84.
 Package epstopdf Info: Output file is already uptodate.
 
-<AppendixAPAGap/Figs/TPC3TPC7ZOff-eps-converted-to.pdf, id=7938, 569.12625pt x 
+<AppendixAPAGap/Figs/TPC3TPC7ZOff-eps-converted-to.pdf, id=7944, 569.12625pt x 
 409.53pt>
 File: AppendixAPAGap/Figs/TPC3TPC7ZOff-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -6454,7 +6476,7 @@ C7GapFit-eps-converted-to.pdf AppendixAPAGap/Figs/TPC5TPC7GapFit.eps>
 (epstopdf)             \includegraphics on input line 97.
 Package epstopdf Info: Output file is already uptodate.
 
-<AppendixAPAGap/Figs/TPC5TPC7GapFit-eps-converted-to.pdf, id=7939, 569.12625pt 
+<AppendixAPAGap/Figs/TPC5TPC7GapFit-eps-converted-to.pdf, id=7945, 569.12625pt 
 x 409.53pt>
 File: AppendixAPAGap/Figs/TPC5TPC7GapFit-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -6474,7 +6496,7 @@ C7XOff-eps-converted-to.pdf AppendixAPAGap/Figs/TPC5TPC7XOff.eps>
 (epstopdf)             \includegraphics on input line 104.
 Package epstopdf Info: Output file is already uptodate.
 
-<AppendixAPAGap/Figs/TPC5TPC7XOff-eps-converted-to.pdf, id=7940, 569.12625pt x 
+<AppendixAPAGap/Figs/TPC5TPC7XOff-eps-converted-to.pdf, id=7946, 569.12625pt x 
 409.53pt>
 File: AppendixAPAGap/Figs/TPC5TPC7XOff-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -6494,7 +6516,7 @@ C7ZOff-eps-converted-to.pdf AppendixAPAGap/Figs/TPC5TPC7ZOff.eps>
 (epstopdf)             \includegraphics on input line 111.
 Package epstopdf Info: Output file is already uptodate.
 
-<AppendixAPAGap/Figs/TPC5TPC7ZOff-eps-converted-to.pdf, id=7941, 569.12625pt x 
+<AppendixAPAGap/Figs/TPC5TPC7ZOff-eps-converted-to.pdf, id=7947, 569.12625pt x 
 409.53pt>
 File: AppendixAPAGap/Figs/TPC5TPC7ZOff-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -6543,7 +6565,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 6.
 
 
-<AppendixFDMVAVariables/Figs/EventCharge.pdf, id=8084, 182.18294pt x 143.03658p
+<AppendixFDMVAVariables/Figs/EventCharge.pdf, id=8090, 182.18294pt x 143.03658p
 t>
 File: AppendixFDMVAVariables/Figs/EventCharge.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/EventCharge.pdf>
@@ -6551,7 +6573,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/EventCharge.pdf used on in
 put line 16.
 (pdftex.def)             Requested size: 157.48251pt x 123.65073pt.
 
-<AppendixFDMVAVariables/Figs/NumberOfTracks.pdf, id=8085, 182.18294pt x 143.036
+<AppendixFDMVAVariables/Figs/NumberOfTracks.pdf, id=8091, 182.18294pt x 143.036
 58pt>
 File: AppendixFDMVAVariables/Figs/NumberOfTracks.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/NumberOfTracks.pdf>
@@ -6559,7 +6581,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/NumberOfTracks.pdf used on
  input line 22.
 (pdftex.def)             Requested size: 157.48251pt x 123.65073pt.
 
-<AppendixFDMVAVariables/Figs/MaxTrackLength.pdf, id=8086, 182.18303pt x 143.036
+<AppendixFDMVAVariables/Figs/MaxTrackLength.pdf, id=8092, 182.18303pt x 143.036
 58pt>
 File: AppendixFDMVAVariables/Figs/MaxTrackLength.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/MaxTrackLength.pdf>
@@ -6567,7 +6589,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/MaxTrackLength.pdf used on
  input line 28.
 (pdftex.def)             Requested size: 157.48251pt x 123.65073pt.
 
-<AppendixFDMVAVariables/Figs/AverageTrackLength.pdf, id=8087, 182.18301pt x 143
+<AppendixFDMVAVariables/Figs/AverageTrackLength.pdf, id=8093, 182.18301pt x 143
 .03654pt>
 File: AppendixFDMVAVariables/Figs/AverageTrackLength.pdf Graphic file (type pdf
 )
@@ -6576,7 +6598,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/AverageTrackLength.pdf use
 d on input line 34.
 (pdftex.def)             Requested size: 157.48251pt x 123.6507pt.
 
-<AppendixFDMVAVariables/Figs/FractionOfTrackCharge.pdf, id=8088, 178.46815pt x 
+<AppendixFDMVAVariables/Figs/FractionOfTrackCharge.pdf, id=8094, 178.46815pt x 
 143.04562pt>
 File: AppendixFDMVAVariables/Figs/FractionOfTrackCharge.pdf Graphic file (type 
 pdf)
@@ -6585,7 +6607,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/FractionOfTrackCharge.pdf
 used on input line 40.
 (pdftex.def)             Requested size: 157.48251pt x 126.23412pt.
 
-<AppendixFDMVAVariables/Figs/NumberOfShowers.pdf, id=8089, 177.75781pt x 143.06
+<AppendixFDMVAVariables/Figs/NumberOfShowers.pdf, id=8095, 177.75781pt x 143.06
 35pt>
 File: AppendixFDMVAVariables/Figs/NumberOfShowers.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/NumberOfShowers.pdf>
@@ -6593,7 +6615,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/NumberOfShowers.pdf used o
 n input line 46.
 (pdftex.def)             Requested size: 157.48251pt x 126.7498pt.
 
-<AppendixFDMVAVariables/Figs/FractionOfShowerCharge.pdf, id=8090, 177.07225pt x
+<AppendixFDMVAVariables/Figs/FractionOfShowerCharge.pdf, id=8096, 177.07225pt x
  142.70494pt>
 File: AppendixFDMVAVariables/Figs/FractionOfShowerCharge.pdf Graphic file (type
  pdf)
@@ -6602,14 +6624,14 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/FractionOfShowerCharge.pdf
  used on input line 52.
 (pdftex.def)             Requested size: 157.48251pt x 126.92207pt.
 
-<AppendixFDMVAVariables/Figs/TrackdEdx.pdf, id=8091, 182.18294pt x 143.03654pt>
+<AppendixFDMVAVariables/Figs/TrackdEdx.pdf, id=8097, 182.18294pt x 143.03654pt>
 File: AppendixFDMVAVariables/Figs/TrackdEdx.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/TrackdEdx.pdf>
 Package pdftex.def Info: AppendixFDMVAVariables/Figs/TrackdEdx.pdf used on inpu
 t line 63.
 (pdftex.def)             Requested size: 157.48251pt x 123.6507pt.
 
-<AppendixFDMVAVariables/Figs/SignalFluctuation.pdf, id=8092, 182.18294pt x 143.
+<AppendixFDMVAVariables/Figs/SignalFluctuation.pdf, id=8098, 182.18294pt x 143.
 03654pt>
 File: AppendixFDMVAVariables/Figs/SignalFluctuation.pdf Graphic file (type pdf)
 
@@ -6618,7 +6640,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/SignalFluctuation.pdf used
  on input line 69.
 (pdftex.def)             Requested size: 157.48251pt x 123.6507pt.
 
-<AppendixFDMVAVariables/Figs/TransverseTrackProfile.pdf, id=8093, 178.4681pt x 
+<AppendixFDMVAVariables/Figs/TransverseTrackProfile.pdf, id=8099, 178.4681pt x 
 143.04562pt>
 File: AppendixFDMVAVariables/Figs/TransverseTrackProfile.pdf Graphic file (type
  pdf)
@@ -6627,14 +6649,14 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/TransverseTrackProfile.pdf
  used on input line 75.
 (pdftex.def)             Requested size: 157.48251pt x 126.23412pt.
 
-<AppendixFDMVAVariables/Figs/TrackPIDA.pdf, id=8094, 178.46815pt x 143.04552pt>
+<AppendixFDMVAVariables/Figs/TrackPIDA.pdf, id=8100, 178.46815pt x 143.04552pt>
 File: AppendixFDMVAVariables/Figs/TrackPIDA.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/TrackPIDA.pdf>
 Package pdftex.def Info: AppendixFDMVAVariables/Figs/TrackPIDA.pdf used on inpu
 t line 81.
 (pdftex.def)             Requested size: 157.48251pt x 126.23402pt.
 
-<AppendixFDMVAVariables/Figs/MaximumFractionOfCharge5Wires.pdf, id=8095, 178.46
+<AppendixFDMVAVariables/Figs/MaximumFractionOfCharge5Wires.pdf, id=8101, 178.46
 808pt x 143.04561pt>
 File: AppendixFDMVAVariables/Figs/MaximumFractionOfCharge5Wires.pdf Graphic fil
 e (type pdf)
@@ -6643,7 +6665,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/MaximumFractionOfCharge5Wi
 res.pdf used on input line 87.
 (pdftex.def)             Requested size: 157.48251pt x 126.2341pt.
 
-<AppendixFDMVAVariables/Figs/MaximumFractionOfCharge10Wires.pdf, id=8096, 178.4
+<AppendixFDMVAVariables/Figs/MaximumFractionOfCharge10Wires.pdf, id=8102, 178.4
 6815pt x 143.04562pt>
 File: AppendixFDMVAVariables/Figs/MaximumFractionOfCharge10Wires.pdf Graphic fi
 le (type pdf)
@@ -6652,7 +6674,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/MaximumFractionOfCharge10W
 ires.pdf used on input line 93.
 (pdftex.def)             Requested size: 157.48251pt x 126.23412pt.
 
-<AppendixFDMVAVariables/Figs/MaximumFractionOfCharge50Wires.pdf, id=8097, 178.4
+<AppendixFDMVAVariables/Figs/MaximumFractionOfCharge50Wires.pdf, id=8103, 178.4
 6815pt x 143.04555pt>
 File: AppendixFDMVAVariables/Figs/MaximumFractionOfCharge50Wires.pdf Graphic fi
 le (type pdf)
@@ -6661,7 +6683,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/MaximumFractionOfCharge50W
 ires.pdf used on input line 104.
 (pdftex.def)             Requested size: 157.48251pt x 126.23405pt.
 
-<AppendixFDMVAVariables/Figs/MaximumFractionOfCharge100Wires.pdf, id=8098, 177.
+<AppendixFDMVAVariables/Figs/MaximumFractionOfCharge100Wires.pdf, id=8104, 177.
 75784pt x 143.06349pt>
 File: AppendixFDMVAVariables/Figs/MaximumFractionOfCharge100Wires.pdf Graphic f
 ile (type pdf)
@@ -6670,28 +6692,28 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/MaximumFractionOfCharge100
 Wires.pdf used on input line 110.
 (pdftex.def)             Requested size: 157.48251pt x 126.74979pt.
 
-<AppendixFDMVAVariables/Figs/TrackCosX.pdf, id=8099, 177.75781pt x 143.06358pt>
+<AppendixFDMVAVariables/Figs/TrackCosX.pdf, id=8105, 177.75781pt x 143.06358pt>
 File: AppendixFDMVAVariables/Figs/TrackCosX.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/TrackCosX.pdf>
 Package pdftex.def Info: AppendixFDMVAVariables/Figs/TrackCosX.pdf used on inpu
 t line 116.
 (pdftex.def)             Requested size: 157.48251pt x 126.74986pt.
 
-<AppendixFDMVAVariables/Figs/TrackCosY.pdf, id=8100, 177.75781pt x 143.06349pt>
+<AppendixFDMVAVariables/Figs/TrackCosY.pdf, id=8106, 177.75781pt x 143.06349pt>
 File: AppendixFDMVAVariables/Figs/TrackCosY.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/TrackCosY.pdf>
 Package pdftex.def Info: AppendixFDMVAVariables/Figs/TrackCosY.pdf used on inpu
 t line 122.
 (pdftex.def)             Requested size: 157.48251pt x 126.74979pt.
 
-<AppendixFDMVAVariables/Figs/TrackCosZ.pdf, id=8101, 177.75783pt x 143.06349pt>
+<AppendixFDMVAVariables/Figs/TrackCosZ.pdf, id=8107, 177.75783pt x 143.06349pt>
 File: AppendixFDMVAVariables/Figs/TrackCosZ.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/TrackCosZ.pdf>
 Package pdftex.def Info: AppendixFDMVAVariables/Figs/TrackCosZ.pdf used on inpu
 t line 128.
 (pdftex.def)             Requested size: 157.48251pt x 126.74979pt.
 
-<AppendixFDMVAVariables/Figs/FractionalTransverseEnergy.pdf, id=8102, 177.7579p
+<AppendixFDMVAVariables/Figs/FractionalTransverseEnergy.pdf, id=8108, 177.7579p
 t x 143.06352pt>
 File: AppendixFDMVAVariables/Figs/FractionalTransverseEnergy.pdf Graphic file (
 type pdf)
@@ -6700,7 +6722,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/FractionalTransverseEnergy
 .pdf used on input line 134.
 (pdftex.def)             Requested size: 157.48251pt x 126.74982pt.
 
-<AppendixFDMVAVariables/Figs/ShowerdEdx.pdf, id=8103, 177.07227pt x 142.70505pt
+<AppendixFDMVAVariables/Figs/ShowerdEdx.pdf, id=8109, 177.07227pt x 142.70505pt
 >
 File: AppendixFDMVAVariables/Figs/ShowerdEdx.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/ShowerdEdx.pdf>
@@ -6708,7 +6730,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/ShowerdEdx.pdf used on inp
 ut line 146.
 (pdftex.def)             Requested size: 157.48251pt x 126.92216pt.
 
-<AppendixFDMVAVariables/Figs/ShowerEnergy.pdf, id=8104, 177.07225pt x 142.70505
+<AppendixFDMVAVariables/Figs/ShowerEnergy.pdf, id=8110, 177.07225pt x 142.70505
 pt>
 File: AppendixFDMVAVariables/Figs/ShowerEnergy.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/ShowerEnergy.pdf>
@@ -6716,7 +6738,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/ShowerEnergy.pdf used on i
 nput line 152.
 (pdftex.def)             Requested size: 157.48251pt x 126.92216pt.
 
-<AppendixFDMVAVariables/Figs/NHitsPerShowerWire.pdf, id=8105, 177.07224pt x 142
+<AppendixFDMVAVariables/Figs/NHitsPerShowerWire.pdf, id=8111, 177.07224pt x 142
 .70505pt>
 File: AppendixFDMVAVariables/Figs/NHitsPerShowerWire.pdf Graphic file (type pdf
 )
@@ -6725,7 +6747,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/NHitsPerShowerWire.pdf use
 d on input line 158.
 (pdftex.def)             Requested size: 157.48251pt x 126.92216pt.
 
-<AppendixFDMVAVariables/Figs/ShowerLength.pdf, id=8106, 177.07225pt x 142.70499
+<AppendixFDMVAVariables/Figs/ShowerLength.pdf, id=8112, 177.07225pt x 142.70499
 pt>
 File: AppendixFDMVAVariables/Figs/ShowerLength.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/ShowerLength.pdf>
@@ -6733,7 +6755,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/ShowerLength.pdf used on i
 nput line 164.
 (pdftex.def)             Requested size: 157.48251pt x 126.9221pt.
 
-<AppendixFDMVAVariables/Figs/ShowerMaximum.pdf, id=8107, 177.07225pt x 142.7050
+<AppendixFDMVAVariables/Figs/ShowerMaximum.pdf, id=8113, 177.07225pt x 142.7050
 2pt>
 File: AppendixFDMVAVariables/Figs/ShowerMaximum.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/ShowerMaximum.pdf>
@@ -6741,7 +6763,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/ShowerMaximum.pdf used on
 input line 170.
 (pdftex.def)             Requested size: 157.48251pt x 126.92213pt.
 
-<AppendixFDMVAVariables/Figs/ShowerStartEventVertexX.pdf, id=8108, 177.38821pt 
+<AppendixFDMVAVariables/Figs/ShowerStartEventVertexX.pdf, id=8114, 177.38821pt 
 x 142.74539pt>
 File: AppendixFDMVAVariables/Figs/ShowerStartEventVertexX.pdf Graphic file (typ
 e pdf)
@@ -6756,7 +6778,7 @@ Underfull \hbox (badness 1057) in paragraph at lines 177--177
  []
 
 
-<AppendixFDMVAVariables/Figs/ShowerStartEventVertexY.pdf, id=8109, 177.38821pt 
+<AppendixFDMVAVariables/Figs/ShowerStartEventVertexY.pdf, id=8115, 177.38821pt 
 x 142.74539pt>
 File: AppendixFDMVAVariables/Figs/ShowerStartEventVertexY.pdf Graphic file (typ
 e pdf)
@@ -6765,7 +6787,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/ShowerStartEventVertexY.pd
 f used on input line 187.
 (pdftex.def)             Requested size: 157.48251pt x 126.73587pt.
 
-<AppendixFDMVAVariables/Figs/ShowerStartEventVertexZ.pdf, id=8110, 177.38821pt 
+<AppendixFDMVAVariables/Figs/ShowerStartEventVertexZ.pdf, id=8116, 177.38821pt 
 x 142.74539pt>
 File: AppendixFDMVAVariables/Figs/ShowerStartEventVertexZ.pdf Graphic file (typ
 e pdf)
@@ -6774,7 +6796,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/ShowerStartEventVertexZ.pd
 f used on input line 193.
 (pdftex.def)             Requested size: 157.48251pt x 126.73587pt.
 
-<AppendixFDMVAVariables/Figs/ShowerCosX.pdf, id=8111, 177.38814pt x 142.74532pt
+<AppendixFDMVAVariables/Figs/ShowerCosX.pdf, id=8117, 177.38814pt x 142.74532pt
 >
 File: AppendixFDMVAVariables/Figs/ShowerCosX.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/ShowerCosX.pdf>
@@ -6782,7 +6804,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/ShowerCosX.pdf used on inp
 ut line 199.
 (pdftex.def)             Requested size: 157.48251pt x 126.7358pt.
 
-<AppendixFDMVAVariables/Figs/ShowerCosY.pdf, id=8112, 177.38812pt x 142.74533pt
+<AppendixFDMVAVariables/Figs/ShowerCosY.pdf, id=8118, 177.38812pt x 142.74533pt
 >
 File: AppendixFDMVAVariables/Figs/ShowerCosY.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/ShowerCosY.pdf>
@@ -6790,7 +6812,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/ShowerCosY.pdf used on inp
 ut line 205.
 (pdftex.def)             Requested size: 157.48251pt x 126.73581pt.
 
-<AppendixFDMVAVariables/Figs/ShowerCosZ.pdf, id=8113, 177.38821pt x 142.74533pt
+<AppendixFDMVAVariables/Figs/ShowerCosZ.pdf, id=8119, 177.38821pt x 142.74533pt
 >
 File: AppendixFDMVAVariables/Figs/ShowerCosZ.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/ShowerCosZ.pdf>
@@ -6854,13 +6876,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 28605 strings out of 493117
- 541860 string characters out of 6135433
+ 28617 strings out of 493117
+ 542063 string characters out of 6135433
  593265 words of memory out of 5000000
- 30056 multiletter control sequences out of 15000+600000
+ 30065 multiletter control sequences out of 15000+600000
  134598 words of font info for 426 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,15n,52p,10395b,1444s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,15n,52p,10395b,1449s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{figure.caption.169} has been referenced but does 
 not exist, replaced by a fixed one
 
@@ -6907,10 +6929,10 @@ texlive/2014/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/201
 4/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-di
 st/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (262 pages, 57432784 bytes).
+Output written on thesis.pdf (262 pages, 57434838 bytes).
 PDF statistics:
- 9153 PDF objects out of 10688 (max. 8388607)
- 7000 compressed objects within 70 object streams
- 827 named destinations out of 1000 (max. 500000)
+ 9162 PDF objects out of 10688 (max. 8388607)
+ 7008 compressed objects within 71 object streams
+ 830 named destinations out of 1000 (max. 500000)
  74525 words of extra memory for PDF output out of 89155 (max. 10000000)
 
