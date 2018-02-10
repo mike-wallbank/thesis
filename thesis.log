@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  9 FEB 2018 23:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  10 FEB 2018 11:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -4604,12 +4604,12 @@ Package pdftex.def Info: FarDetectorAnalysis/Figs/ElectronMVATune-eps-converted
 [195 <./FarDetectorAnalysis/Figs/ElectronMVA-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <FarDetectorAnalysis/Figs/ENuCutSelection.e
 ps>
-(epstopdf)                    date: 2017-09-14 17:51:30
-(epstopdf)                    size: 19644 bytes
+(epstopdf)                    date: 2018-02-10 00:00:10
+(epstopdf)                    size: 16953 bytes
 (epstopdf)             Output file: <FarDetectorAnalysis/Figs/ENuCutSelection-e
 ps-converted-to.pdf>
-(epstopdf)                    date: 2017-09-14 18:02:48
-(epstopdf)                    size: 14094 bytes
+(epstopdf)                    date: 2018-02-10 00:00:39
+(epstopdf)                    size: 14061 bytes
 (epstopdf)             Command: <repstopdf --outfile=FarDetectorAnalysis/Figs/E
 NuCutSelection-eps-converted-to.pdf FarDetectorAnalysis/Figs/ENuCutSelection.ep
 s>
@@ -4626,12 +4626,12 @@ Package pdftex.def Info: FarDetectorAnalysis/Figs/ENuCutSelection-eps-converted
 (pdftex.def)             Requested size: 205.77896pt x 148.07431pt.
 Package epstopdf Info: Source file: <FarDetectorAnalysis/Figs/Q2CutSelection.ep
 s>
-(epstopdf)                    date: 2017-09-14 17:51:30
-(epstopdf)                    size: 19477 bytes
+(epstopdf)                    date: 2018-02-10 00:14:21
+(epstopdf)                    size: 16633 bytes
 (epstopdf)             Output file: <FarDetectorAnalysis/Figs/Q2CutSelection-ep
 s-converted-to.pdf>
-(epstopdf)                    date: 2017-09-14 18:02:52
-(epstopdf)                    size: 12870 bytes
+(epstopdf)                    date: 2018-02-10 00:14:44
+(epstopdf)                    size: 12747 bytes
 (epstopdf)             Command: <repstopdf --outfile=FarDetectorAnalysis/Figs/Q
 2CutSelection-eps-converted-to.pdf FarDetectorAnalysis/Figs/Q2CutSelection.eps>
 
@@ -4648,12 +4648,12 @@ to.pdf used on input line 64.
 (pdftex.def)             Requested size: 205.77896pt x 148.07431pt.
 Package epstopdf Info: Source file: <FarDetectorAnalysis/Figs/LeptonMomentumCut
 Selection.eps>
-(epstopdf)                    date: 2017-09-14 17:51:30
-(epstopdf)                    size: 19032 bytes
+(epstopdf)                    date: 2018-02-10 00:00:10
+(epstopdf)                    size: 16300 bytes
 (epstopdf)             Output file: <FarDetectorAnalysis/Figs/LeptonMomentumCut
 Selection-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-09-14 18:02:55
-(epstopdf)                    size: 12947 bytes
+(epstopdf)                    date: 2018-02-10 00:00:44
+(epstopdf)                    size: 12864 bytes
 (epstopdf)             Command: <repstopdf --outfile=FarDetectorAnalysis/Figs/L
 eptonMomentumCutSelection-eps-converted-to.pdf FarDetectorAnalysis/Figs/LeptonM
 omentumCutSelection.eps>
@@ -4671,12 +4671,12 @@ s-converted-to.pdf used on input line 71.
 (pdftex.def)             Requested size: 205.77896pt x 148.07431pt.
 Package epstopdf Info: Source file: <FarDetectorAnalysis/Figs/LeptonAngleCutSel
 ection.eps>
-(epstopdf)                    date: 2017-09-14 17:51:30
-(epstopdf)                    size: 20091 bytes
+(epstopdf)                    date: 2018-02-10 00:00:10
+(epstopdf)                    size: 17415 bytes
 (epstopdf)             Output file: <FarDetectorAnalysis/Figs/LeptonAngleCutSel
 ection-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-09-14 18:02:59
-(epstopdf)                    size: 13254 bytes
+(epstopdf)                    date: 2018-02-10 00:06:35
+(epstopdf)                    size: 13218 bytes
 (epstopdf)             Command: <repstopdf --outfile=FarDetectorAnalysis/Figs/L
 eptonAngleCutSelection-eps-converted-to.pdf FarDetectorAnalysis/Figs/LeptonAngl
 eCutSelection.eps>
@@ -4691,11 +4691,6 @@ phic file (type pdf)
 Package pdftex.def Info: FarDetectorAnalysis/Figs/LeptonAngleCutSelection-eps-c
 onverted-to.pdf used on input line 78.
 (pdftex.def)             Requested size: 205.77896pt x 148.07431pt.
-[196 <./FarDetectorAnalysis/Figs/ElectronMVATune-eps-converted-to.pdf>] [197 <.
-/FarDetectorAnalysis/Figs/ENuCutSelection-eps-converted-to.pdf> <./FarDetectorA
-nalysis/Figs/Q2CutSelection-eps-converted-to.pdf> <./FarDetectorAnalysis/Figs/L
-eptonMomentumCutSelection-eps-converted-to.pdf> <./FarDetectorAnalysis/Figs/Lep
-tonAngleCutSelection-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <FarDetectorAnalysis/Figs/FVTunePosY.eps>
 (epstopdf)                    date: 2017-09-14 04:13:39
 (epstopdf)                    size: 7313 bytes
@@ -4708,7 +4703,7 @@ VTunePosY-eps-converted-to.pdf FarDetectorAnalysis/Figs/FVTunePosY.eps>
 (epstopdf)             \includegraphics on input line 97.
 Package epstopdf Info: Output file is already uptodate.
 
-<FarDetectorAnalysis/Figs/FVTunePosY-eps-converted-to.pdf, id=7803, 569.12625pt
+<FarDetectorAnalysis/Figs/FVTunePosY-eps-converted-to.pdf, id=7753, 569.12625pt
  x 409.53pt>
 File: FarDetectorAnalysis/Figs/FVTunePosY-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -4728,7 +4723,7 @@ VTuneNegY-eps-converted-to.pdf FarDetectorAnalysis/Figs/FVTuneNegY.eps>
 (epstopdf)             \includegraphics on input line 104.
 Package epstopdf Info: Output file is already uptodate.
 
-<FarDetectorAnalysis/Figs/FVTuneNegY-eps-converted-to.pdf, id=7804, 569.12625pt
+<FarDetectorAnalysis/Figs/FVTuneNegY-eps-converted-to.pdf, id=7754, 569.12625pt
  x 409.53pt>
 File: FarDetectorAnalysis/Figs/FVTuneNegY-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -4736,8 +4731,13 @@ pe pdf)
 Package pdftex.def Info: FarDetectorAnalysis/Figs/FVTuneNegY-eps-converted-to.p
 df used on input line 104.
 (pdftex.def)             Requested size: 205.77896pt x 148.07431pt.
-[198 <./FarDetectorAnalysis/Figs/FVTunePosY-eps-converted-to.pdf> <./FarDetecto
-rAnalysis/Figs/FVTuneNegY-eps-converted-to.pdf>]
+[196 <./FarDetectorAnalysis/Figs/ElectronMVATune-eps-converted-to.pdf>] [197 <.
+/FarDetectorAnalysis/Figs/ENuCutSelection-eps-converted-to.pdf> <./FarDetectorA
+nalysis/Figs/Q2CutSelection-eps-converted-to.pdf> <./FarDetectorAnalysis/Figs/L
+eptonMomentumCutSelection-eps-converted-to.pdf> <./FarDetectorAnalysis/Figs/Lep
+tonAngleCutSelection-eps-converted-to.pdf>] [198 <./FarDetectorAnalysis/Figs/FV
+TunePosY-eps-converted-to.pdf> <./FarDetectorAnalysis/Figs/FVTuneNegY-eps-conve
+rted-to.pdf>] [199]
 Package epstopdf Info: Source file: <FarDetectorAnalysis/Figs/NuECCMVAOvertrain
 BDT.eps>
 (epstopdf)                    date: 2017-09-14 09:24:03
@@ -4752,7 +4752,7 @@ rainBDT.eps>
 (epstopdf)             \includegraphics on input line 178.
 Package epstopdf Info: Output file is already uptodate.
 
-<FarDetectorAnalysis/Figs/NuECCMVAOvertrainBDT-eps-converted-to.pdf, id=7837, 5
+<FarDetectorAnalysis/Figs/NuECCMVAOvertrainBDT-eps-converted-to.pdf, id=7843, 5
 69.12625pt x 420.57124pt>
 File: FarDetectorAnalysis/Figs/NuECCMVAOvertrainBDT-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -4774,7 +4774,7 @@ NuNoSelection-eps-converted-to.pdf FarDetectorAnalysis/Figs/ENuNoSelection.eps>
 (epstopdf)             \includegraphics on input line 189.
 Package epstopdf Info: Output file is already uptodate.
 
-<FarDetectorAnalysis/Figs/ENuNoSelection-eps-converted-to.pdf, id=7842, 569.126
+<FarDetectorAnalysis/Figs/ENuNoSelection-eps-converted-to.pdf, id=7848, 569.126
 25pt x 409.53pt>
 File: FarDetectorAnalysis/Figs/ENuNoSelection-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -4795,7 +4795,7 @@ Package epstopdf Info: Source file: <FarDetectorAnalysis/Figs/Q2NoSelection.eps
 (epstopdf)             \includegraphics on input line 196.
 Package epstopdf Info: Output file is already uptodate.
 
-<FarDetectorAnalysis/Figs/Q2NoSelection-eps-converted-to.pdf, id=7843, 569.1262
+<FarDetectorAnalysis/Figs/Q2NoSelection-eps-converted-to.pdf, id=7849, 569.1262
 5pt x 409.53pt>
 File: FarDetectorAnalysis/Figs/Q2NoSelection-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -4818,7 +4818,7 @@ mentumNoSelection.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <FarDetectorAnalysis/Figs/LeptonMomentumNoSelection-eps-converted-to.pdf, id=78
-44, 569.12625pt x 409.53pt>
+50, 569.12625pt x 409.53pt>
 File: FarDetectorAnalysis/Figs/LeptonMomentumNoSelection-eps-converted-to.pdf G
 raphic file (type pdf)
 <use FarDetectorAnalysis/Figs/LeptonMomentumNoSelection-eps-converted-to.pdf>
@@ -4839,7 +4839,7 @@ NoSelection.eps>
 (epstopdf)             \includegraphics on input line 210.
 Package epstopdf Info: Output file is already uptodate.
 
-<FarDetectorAnalysis/Figs/LeptonAngleNoSelection-eps-converted-to.pdf, id=7845,
+<FarDetectorAnalysis/Figs/LeptonAngleNoSelection-eps-converted-to.pdf, id=7851,
  569.12625pt x 409.53pt>
 File: FarDetectorAnalysis/Figs/LeptonAngleNoSelection-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -4847,8 +4847,6 @@ hic file (type pdf)
 Package pdftex.def Info: FarDetectorAnalysis/Figs/LeptonAngleNoSelection-eps-co
 nverted-to.pdf used on input line 210.
 (pdftex.def)             Requested size: 205.77896pt x 148.07431pt.
-[199 <./FarDetectorAnalysis/Figs/NuECCMVAOvertrainBDT-eps-converted-to.pdf>] [2
-00]
 Package epstopdf Info: Source file: <FarDetectorAnalysis/Figs/ENuSelection.eps>
 
 (epstopdf)                    date: 2017-09-14 15:37:08
@@ -4862,7 +4860,7 @@ NuSelection-eps-converted-to.pdf FarDetectorAnalysis/Figs/ENuSelection.eps>
 (epstopdf)             \includegraphics on input line 222.
 Package epstopdf Info: Output file is already uptodate.
 
-<FarDetectorAnalysis/Figs/ENuSelection-eps-converted-to.pdf, id=7875, 569.12625
+<FarDetectorAnalysis/Figs/ENuSelection-eps-converted-to.pdf, id=7862, 569.12625
 pt x 409.53pt>
 File: FarDetectorAnalysis/Figs/ENuSelection-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -4882,7 +4880,7 @@ onverted-to.pdf>
 (epstopdf)             \includegraphics on input line 229.
 Package epstopdf Info: Output file is already uptodate.
 
-<FarDetectorAnalysis/Figs/Q2Selection-eps-converted-to.pdf, id=7876, 569.12625p
+<FarDetectorAnalysis/Figs/Q2Selection-eps-converted-to.pdf, id=7863, 569.12625p
 t x 409.53pt>
 File: FarDetectorAnalysis/Figs/Q2Selection-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -4904,7 +4902,7 @@ ntumSelection.eps>
 (epstopdf)             \includegraphics on input line 236.
 Package epstopdf Info: Output file is already uptodate.
 
-<FarDetectorAnalysis/Figs/LeptonMomentumSelection-eps-converted-to.pdf, id=7877
+<FarDetectorAnalysis/Figs/LeptonMomentumSelection-eps-converted-to.pdf, id=7864
 , 569.12625pt x 409.53pt>
 File: FarDetectorAnalysis/Figs/LeptonMomentumSelection-eps-converted-to.pdf Gra
 phic file (type pdf)
@@ -4926,7 +4924,7 @@ lection.eps>
 (epstopdf)             \includegraphics on input line 243.
 Package epstopdf Info: Output file is already uptodate.
 
-<FarDetectorAnalysis/Figs/LeptonAngleSelection-eps-converted-to.pdf, id=7878, 5
+<FarDetectorAnalysis/Figs/LeptonAngleSelection-eps-converted-to.pdf, id=7865, 5
 69.12625pt x 409.53pt>
 File: FarDetectorAnalysis/Figs/LeptonAngleSelection-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -4934,14 +4932,15 @@ c file (type pdf)
 Package pdftex.def Info: FarDetectorAnalysis/Figs/LeptonAngleSelection-eps-conv
 erted-to.pdf used on input line 243.
 (pdftex.def)             Requested size: 205.77896pt x 148.07431pt.
-) [201] [202 <./FarDetectorAnalysis/Figs/ENuNoSelection-eps-converted-to.pdf> <
-./FarDetectorAnalysis/Figs/Q2NoSelection-eps-converted-to.pdf> <./FarDetectorAn
-alysis/Figs/LeptonMomentumNoSelection-eps-converted-to.pdf> <./FarDetectorAnaly
-sis/Figs/LeptonAngleNoSelection-eps-converted-to.pdf>] [203 <./FarDetectorAnaly
-sis/Figs/ENuSelection-eps-converted-to.pdf> <./FarDetectorAnalysis/Figs/Q2Selec
-tion-eps-converted-to.pdf> <./FarDetectorAnalysis/Figs/LeptonMomentumSelection-
-eps-converted-to.pdf> <./FarDetectorAnalysis/Figs/LeptonAngleSelection-eps-conv
-erted-to.pdf>]
+[200 <./FarDetectorAnalysis/Figs/NuECCMVAOvertrainBDT-eps-converted-to.pdf>] [2
+01 <./FarDetectorAnalysis/Figs/ENuNoSelection-eps-converted-to.pdf> <./FarDetec
+torAnalysis/Figs/Q2NoSelection-eps-converted-to.pdf> <./FarDetectorAnalysis/Fig
+s/LeptonMomentumNoSelection-eps-converted-to.pdf> <./FarDetectorAnalysis/Figs/L
+eptonAngleNoSelection-eps-converted-to.pdf>] [202 <./FarDetectorAnalysis/Figs/E
+NuSelection-eps-converted-to.pdf> <./FarDetectorAnalysis/Figs/Q2Selection-eps-c
+onverted-to.pdf> <./FarDetectorAnalysis/Figs/LeptonMomentumSelection-eps-conver
+ted-to.pdf> <./FarDetectorAnalysis/Figs/LeptonAngleSelection-eps-converted-to.p
+df>]) [203]
 \openout2 = `Conclusions/Conclusions.aux'.
 
 (./Conclusions/Conclusions.tex [204
@@ -4972,7 +4971,7 @@ C3Gap-eps-converted-to.pdf AppendixAPAGap/Figs/TPC1TPC3Gap.eps>
 (epstopdf)             \includegraphics on input line 16.
 Package epstopdf Info: Output file is already uptodate.
 
-<AppendixAPAGap/Figs/TPC1TPC3Gap-eps-converted-to.pdf, id=8254, 569.12625pt x 4
+<AppendixAPAGap/Figs/TPC1TPC3Gap-eps-converted-to.pdf, id=8255, 569.12625pt x 4
 09.53pt>
 File: AppendixAPAGap/Figs/TPC1TPC3Gap-eps-converted-to.pdf Graphic file (type p
 df)
@@ -4992,7 +4991,7 @@ C3XOff-eps-converted-to.pdf AppendixAPAGap/Figs/TPC1TPC3XOff.eps>
 (epstopdf)             \includegraphics on input line 23.
 Package epstopdf Info: Output file is already uptodate.
 
-<AppendixAPAGap/Figs/TPC1TPC3XOff-eps-converted-to.pdf, id=8255, 569.12625pt x 
+<AppendixAPAGap/Figs/TPC1TPC3XOff-eps-converted-to.pdf, id=8256, 569.12625pt x 
 409.53pt>
 File: AppendixAPAGap/Figs/TPC1TPC3XOff-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -5012,7 +5011,7 @@ C3ZOff-eps-converted-to.pdf AppendixAPAGap/Figs/TPC1TPC3ZOff.eps>
 (epstopdf)             \includegraphics on input line 30.
 Package epstopdf Info: Output file is already uptodate.
 
-<AppendixAPAGap/Figs/TPC1TPC3ZOff-eps-converted-to.pdf, id=8256, 569.12625pt x 
+<AppendixAPAGap/Figs/TPC1TPC3ZOff-eps-converted-to.pdf, id=8257, 569.12625pt x 
 409.53pt>
 File: AppendixAPAGap/Figs/TPC1TPC3ZOff-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -5035,7 +5034,7 @@ C5Gap-eps-converted-to.pdf AppendixAPAGap/Figs/TPC1TPC5Gap.eps>
 (epstopdf)             \includegraphics on input line 43.
 Package epstopdf Info: Output file is already uptodate.
 
-<AppendixAPAGap/Figs/TPC1TPC5Gap-eps-converted-to.pdf, id=8257, 569.12625pt x 4
+<AppendixAPAGap/Figs/TPC1TPC5Gap-eps-converted-to.pdf, id=8258, 569.12625pt x 4
 09.53pt>
 File: AppendixAPAGap/Figs/TPC1TPC5Gap-eps-converted-to.pdf Graphic file (type p
 df)
@@ -5055,7 +5054,7 @@ C5XOff-eps-converted-to.pdf AppendixAPAGap/Figs/TPC1TPC5XOff.eps>
 (epstopdf)             \includegraphics on input line 50.
 Package epstopdf Info: Output file is already uptodate.
 
-<AppendixAPAGap/Figs/TPC1TPC5XOff-eps-converted-to.pdf, id=8258, 569.12625pt x 
+<AppendixAPAGap/Figs/TPC1TPC5XOff-eps-converted-to.pdf, id=8259, 569.12625pt x 
 409.53pt>
 File: AppendixAPAGap/Figs/TPC1TPC5XOff-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -5075,7 +5074,7 @@ C5ZOff-eps-converted-to.pdf AppendixAPAGap/Figs/TPC1TPC5ZOff.eps>
 (epstopdf)             \includegraphics on input line 57.
 Package epstopdf Info: Output file is already uptodate.
 
-<AppendixAPAGap/Figs/TPC1TPC5ZOff-eps-converted-to.pdf, id=8259, 569.12625pt x 
+<AppendixAPAGap/Figs/TPC1TPC5ZOff-eps-converted-to.pdf, id=8260, 569.12625pt x 
 409.53pt>
 File: AppendixAPAGap/Figs/TPC1TPC5ZOff-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -5098,7 +5097,7 @@ C7Gap-eps-converted-to.pdf AppendixAPAGap/Figs/TPC3TPC7Gap.eps>
 (epstopdf)             \includegraphics on input line 70.
 Package epstopdf Info: Output file is already uptodate.
 
-<AppendixAPAGap/Figs/TPC3TPC7Gap-eps-converted-to.pdf, id=8260, 569.12625pt x 4
+<AppendixAPAGap/Figs/TPC3TPC7Gap-eps-converted-to.pdf, id=8261, 569.12625pt x 4
 09.53pt>
 File: AppendixAPAGap/Figs/TPC3TPC7Gap-eps-converted-to.pdf Graphic file (type p
 df)
@@ -5118,7 +5117,7 @@ C7XOff-eps-converted-to.pdf AppendixAPAGap/Figs/TPC3TPC7XOff.eps>
 (epstopdf)             \includegraphics on input line 77.
 Package epstopdf Info: Output file is already uptodate.
 
-<AppendixAPAGap/Figs/TPC3TPC7XOff-eps-converted-to.pdf, id=8261, 569.12625pt x 
+<AppendixAPAGap/Figs/TPC3TPC7XOff-eps-converted-to.pdf, id=8262, 569.12625pt x 
 409.53pt>
 File: AppendixAPAGap/Figs/TPC3TPC7XOff-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -5138,7 +5137,7 @@ C7ZOff-eps-converted-to.pdf AppendixAPAGap/Figs/TPC3TPC7ZOff.eps>
 (epstopdf)             \includegraphics on input line 84.
 Package epstopdf Info: Output file is already uptodate.
 
-<AppendixAPAGap/Figs/TPC3TPC7ZOff-eps-converted-to.pdf, id=8262, 569.12625pt x 
+<AppendixAPAGap/Figs/TPC3TPC7ZOff-eps-converted-to.pdf, id=8263, 569.12625pt x 
 409.53pt>
 File: AppendixAPAGap/Figs/TPC3TPC7ZOff-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -5161,7 +5160,7 @@ C7GapFit-eps-converted-to.pdf AppendixAPAGap/Figs/TPC5TPC7GapFit.eps>
 (epstopdf)             \includegraphics on input line 97.
 Package epstopdf Info: Output file is already uptodate.
 
-<AppendixAPAGap/Figs/TPC5TPC7GapFit-eps-converted-to.pdf, id=8263, 569.12625pt 
+<AppendixAPAGap/Figs/TPC5TPC7GapFit-eps-converted-to.pdf, id=8264, 569.12625pt 
 x 409.53pt>
 File: AppendixAPAGap/Figs/TPC5TPC7GapFit-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -5181,7 +5180,7 @@ C7XOff-eps-converted-to.pdf AppendixAPAGap/Figs/TPC5TPC7XOff.eps>
 (epstopdf)             \includegraphics on input line 104.
 Package epstopdf Info: Output file is already uptodate.
 
-<AppendixAPAGap/Figs/TPC5TPC7XOff-eps-converted-to.pdf, id=8264, 569.12625pt x 
+<AppendixAPAGap/Figs/TPC5TPC7XOff-eps-converted-to.pdf, id=8265, 569.12625pt x 
 409.53pt>
 File: AppendixAPAGap/Figs/TPC5TPC7XOff-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -5201,7 +5200,7 @@ C7ZOff-eps-converted-to.pdf AppendixAPAGap/Figs/TPC5TPC7ZOff.eps>
 (epstopdf)             \includegraphics on input line 111.
 Package epstopdf Info: Output file is already uptodate.
 
-<AppendixAPAGap/Figs/TPC5TPC7ZOff-eps-converted-to.pdf, id=8265, 569.12625pt x 
+<AppendixAPAGap/Figs/TPC5TPC7ZOff-eps-converted-to.pdf, id=8266, 569.12625pt x 
 409.53pt>
 File: AppendixAPAGap/Figs/TPC5TPC7ZOff-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -5250,7 +5249,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 6.
 
 
-<AppendixFDMVAVariables/Figs/EventCharge.pdf, id=8408, 182.18294pt x 143.03658p
+<AppendixFDMVAVariables/Figs/EventCharge.pdf, id=8409, 182.18294pt x 143.03658p
 t>
 File: AppendixFDMVAVariables/Figs/EventCharge.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/EventCharge.pdf>
@@ -5258,7 +5257,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/EventCharge.pdf used on in
 put line 16.
 (pdftex.def)             Requested size: 157.48251pt x 123.65073pt.
 
-<AppendixFDMVAVariables/Figs/NumberOfTracks.pdf, id=8409, 182.18294pt x 143.036
+<AppendixFDMVAVariables/Figs/NumberOfTracks.pdf, id=8410, 182.18294pt x 143.036
 58pt>
 File: AppendixFDMVAVariables/Figs/NumberOfTracks.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/NumberOfTracks.pdf>
@@ -5266,7 +5265,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/NumberOfTracks.pdf used on
  input line 22.
 (pdftex.def)             Requested size: 157.48251pt x 123.65073pt.
 
-<AppendixFDMVAVariables/Figs/MaxTrackLength.pdf, id=8410, 182.18303pt x 143.036
+<AppendixFDMVAVariables/Figs/MaxTrackLength.pdf, id=8411, 182.18303pt x 143.036
 58pt>
 File: AppendixFDMVAVariables/Figs/MaxTrackLength.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/MaxTrackLength.pdf>
@@ -5274,7 +5273,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/MaxTrackLength.pdf used on
  input line 28.
 (pdftex.def)             Requested size: 157.48251pt x 123.65073pt.
 
-<AppendixFDMVAVariables/Figs/AverageTrackLength.pdf, id=8411, 182.18301pt x 143
+<AppendixFDMVAVariables/Figs/AverageTrackLength.pdf, id=8412, 182.18301pt x 143
 .03654pt>
 File: AppendixFDMVAVariables/Figs/AverageTrackLength.pdf Graphic file (type pdf
 )
@@ -5283,7 +5282,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/AverageTrackLength.pdf use
 d on input line 34.
 (pdftex.def)             Requested size: 157.48251pt x 123.6507pt.
 
-<AppendixFDMVAVariables/Figs/FractionOfTrackCharge.pdf, id=8412, 178.46815pt x 
+<AppendixFDMVAVariables/Figs/FractionOfTrackCharge.pdf, id=8413, 178.46815pt x 
 143.04562pt>
 File: AppendixFDMVAVariables/Figs/FractionOfTrackCharge.pdf Graphic file (type 
 pdf)
@@ -5292,7 +5291,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/FractionOfTrackCharge.pdf
 used on input line 40.
 (pdftex.def)             Requested size: 157.48251pt x 126.23412pt.
 
-<AppendixFDMVAVariables/Figs/NumberOfShowers.pdf, id=8413, 177.75781pt x 143.06
+<AppendixFDMVAVariables/Figs/NumberOfShowers.pdf, id=8414, 177.75781pt x 143.06
 35pt>
 File: AppendixFDMVAVariables/Figs/NumberOfShowers.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/NumberOfShowers.pdf>
@@ -5300,7 +5299,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/NumberOfShowers.pdf used o
 n input line 46.
 (pdftex.def)             Requested size: 157.48251pt x 126.7498pt.
 
-<AppendixFDMVAVariables/Figs/FractionOfShowerCharge.pdf, id=8414, 177.07225pt x
+<AppendixFDMVAVariables/Figs/FractionOfShowerCharge.pdf, id=8415, 177.07225pt x
  142.70494pt>
 File: AppendixFDMVAVariables/Figs/FractionOfShowerCharge.pdf Graphic file (type
  pdf)
@@ -5309,14 +5308,14 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/FractionOfShowerCharge.pdf
  used on input line 52.
 (pdftex.def)             Requested size: 157.48251pt x 126.92207pt.
 
-<AppendixFDMVAVariables/Figs/TrackdEdx.pdf, id=8415, 182.18294pt x 143.03654pt>
+<AppendixFDMVAVariables/Figs/TrackdEdx.pdf, id=8416, 182.18294pt x 143.03654pt>
 File: AppendixFDMVAVariables/Figs/TrackdEdx.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/TrackdEdx.pdf>
 Package pdftex.def Info: AppendixFDMVAVariables/Figs/TrackdEdx.pdf used on inpu
 t line 63.
 (pdftex.def)             Requested size: 157.48251pt x 123.6507pt.
 
-<AppendixFDMVAVariables/Figs/SignalFluctuation.pdf, id=8416, 182.18294pt x 143.
+<AppendixFDMVAVariables/Figs/SignalFluctuation.pdf, id=8417, 182.18294pt x 143.
 03654pt>
 File: AppendixFDMVAVariables/Figs/SignalFluctuation.pdf Graphic file (type pdf)
 
@@ -5325,7 +5324,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/SignalFluctuation.pdf used
  on input line 69.
 (pdftex.def)             Requested size: 157.48251pt x 123.6507pt.
 
-<AppendixFDMVAVariables/Figs/TransverseTrackProfile.pdf, id=8417, 178.4681pt x 
+<AppendixFDMVAVariables/Figs/TransverseTrackProfile.pdf, id=8418, 178.4681pt x 
 143.04562pt>
 File: AppendixFDMVAVariables/Figs/TransverseTrackProfile.pdf Graphic file (type
  pdf)
@@ -5334,14 +5333,14 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/TransverseTrackProfile.pdf
  used on input line 75.
 (pdftex.def)             Requested size: 157.48251pt x 126.23412pt.
 
-<AppendixFDMVAVariables/Figs/TrackPIDA.pdf, id=8418, 178.46815pt x 143.04552pt>
+<AppendixFDMVAVariables/Figs/TrackPIDA.pdf, id=8419, 178.46815pt x 143.04552pt>
 File: AppendixFDMVAVariables/Figs/TrackPIDA.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/TrackPIDA.pdf>
 Package pdftex.def Info: AppendixFDMVAVariables/Figs/TrackPIDA.pdf used on inpu
 t line 81.
 (pdftex.def)             Requested size: 157.48251pt x 126.23402pt.
 
-<AppendixFDMVAVariables/Figs/MaximumFractionOfCharge5Wires.pdf, id=8419, 178.46
+<AppendixFDMVAVariables/Figs/MaximumFractionOfCharge5Wires.pdf, id=8420, 178.46
 808pt x 143.04561pt>
 File: AppendixFDMVAVariables/Figs/MaximumFractionOfCharge5Wires.pdf Graphic fil
 e (type pdf)
@@ -5350,7 +5349,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/MaximumFractionOfCharge5Wi
 res.pdf used on input line 87.
 (pdftex.def)             Requested size: 157.48251pt x 126.2341pt.
 
-<AppendixFDMVAVariables/Figs/MaximumFractionOfCharge10Wires.pdf, id=8420, 178.4
+<AppendixFDMVAVariables/Figs/MaximumFractionOfCharge10Wires.pdf, id=8421, 178.4
 6815pt x 143.04562pt>
 File: AppendixFDMVAVariables/Figs/MaximumFractionOfCharge10Wires.pdf Graphic fi
 le (type pdf)
@@ -5359,7 +5358,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/MaximumFractionOfCharge10W
 ires.pdf used on input line 93.
 (pdftex.def)             Requested size: 157.48251pt x 126.23412pt.
 
-<AppendixFDMVAVariables/Figs/MaximumFractionOfCharge50Wires.pdf, id=8421, 178.4
+<AppendixFDMVAVariables/Figs/MaximumFractionOfCharge50Wires.pdf, id=8422, 178.4
 6815pt x 143.04555pt>
 File: AppendixFDMVAVariables/Figs/MaximumFractionOfCharge50Wires.pdf Graphic fi
 le (type pdf)
@@ -5368,7 +5367,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/MaximumFractionOfCharge50W
 ires.pdf used on input line 104.
 (pdftex.def)             Requested size: 157.48251pt x 126.23405pt.
 
-<AppendixFDMVAVariables/Figs/MaximumFractionOfCharge100Wires.pdf, id=8422, 177.
+<AppendixFDMVAVariables/Figs/MaximumFractionOfCharge100Wires.pdf, id=8423, 177.
 75784pt x 143.06349pt>
 File: AppendixFDMVAVariables/Figs/MaximumFractionOfCharge100Wires.pdf Graphic f
 ile (type pdf)
@@ -5377,28 +5376,28 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/MaximumFractionOfCharge100
 Wires.pdf used on input line 110.
 (pdftex.def)             Requested size: 157.48251pt x 126.74979pt.
 
-<AppendixFDMVAVariables/Figs/TrackCosX.pdf, id=8423, 177.75781pt x 143.06358pt>
+<AppendixFDMVAVariables/Figs/TrackCosX.pdf, id=8424, 177.75781pt x 143.06358pt>
 File: AppendixFDMVAVariables/Figs/TrackCosX.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/TrackCosX.pdf>
 Package pdftex.def Info: AppendixFDMVAVariables/Figs/TrackCosX.pdf used on inpu
 t line 116.
 (pdftex.def)             Requested size: 157.48251pt x 126.74986pt.
 
-<AppendixFDMVAVariables/Figs/TrackCosY.pdf, id=8424, 177.75781pt x 143.06349pt>
+<AppendixFDMVAVariables/Figs/TrackCosY.pdf, id=8425, 177.75781pt x 143.06349pt>
 File: AppendixFDMVAVariables/Figs/TrackCosY.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/TrackCosY.pdf>
 Package pdftex.def Info: AppendixFDMVAVariables/Figs/TrackCosY.pdf used on inpu
 t line 122.
 (pdftex.def)             Requested size: 157.48251pt x 126.74979pt.
 
-<AppendixFDMVAVariables/Figs/TrackCosZ.pdf, id=8425, 177.75783pt x 143.06349pt>
+<AppendixFDMVAVariables/Figs/TrackCosZ.pdf, id=8426, 177.75783pt x 143.06349pt>
 File: AppendixFDMVAVariables/Figs/TrackCosZ.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/TrackCosZ.pdf>
 Package pdftex.def Info: AppendixFDMVAVariables/Figs/TrackCosZ.pdf used on inpu
 t line 128.
 (pdftex.def)             Requested size: 157.48251pt x 126.74979pt.
 
-<AppendixFDMVAVariables/Figs/FractionalTransverseEnergy.pdf, id=8426, 177.7579p
+<AppendixFDMVAVariables/Figs/FractionalTransverseEnergy.pdf, id=8427, 177.7579p
 t x 143.06352pt>
 File: AppendixFDMVAVariables/Figs/FractionalTransverseEnergy.pdf Graphic file (
 type pdf)
@@ -5407,7 +5406,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/FractionalTransverseEnergy
 .pdf used on input line 134.
 (pdftex.def)             Requested size: 157.48251pt x 126.74982pt.
 
-<AppendixFDMVAVariables/Figs/ShowerdEdx.pdf, id=8427, 177.07227pt x 142.70505pt
+<AppendixFDMVAVariables/Figs/ShowerdEdx.pdf, id=8428, 177.07227pt x 142.70505pt
 >
 File: AppendixFDMVAVariables/Figs/ShowerdEdx.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/ShowerdEdx.pdf>
@@ -5415,7 +5414,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/ShowerdEdx.pdf used on inp
 ut line 146.
 (pdftex.def)             Requested size: 157.48251pt x 126.92216pt.
 
-<AppendixFDMVAVariables/Figs/ShowerEnergy.pdf, id=8428, 177.07225pt x 142.70505
+<AppendixFDMVAVariables/Figs/ShowerEnergy.pdf, id=8429, 177.07225pt x 142.70505
 pt>
 File: AppendixFDMVAVariables/Figs/ShowerEnergy.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/ShowerEnergy.pdf>
@@ -5423,7 +5422,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/ShowerEnergy.pdf used on i
 nput line 152.
 (pdftex.def)             Requested size: 157.48251pt x 126.92216pt.
 
-<AppendixFDMVAVariables/Figs/NHitsPerShowerWire.pdf, id=8429, 177.07224pt x 142
+<AppendixFDMVAVariables/Figs/NHitsPerShowerWire.pdf, id=8430, 177.07224pt x 142
 .70505pt>
 File: AppendixFDMVAVariables/Figs/NHitsPerShowerWire.pdf Graphic file (type pdf
 )
@@ -5432,7 +5431,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/NHitsPerShowerWire.pdf use
 d on input line 158.
 (pdftex.def)             Requested size: 157.48251pt x 126.92216pt.
 
-<AppendixFDMVAVariables/Figs/ShowerLength.pdf, id=8430, 177.07225pt x 142.70499
+<AppendixFDMVAVariables/Figs/ShowerLength.pdf, id=8431, 177.07225pt x 142.70499
 pt>
 File: AppendixFDMVAVariables/Figs/ShowerLength.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/ShowerLength.pdf>
@@ -5440,7 +5439,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/ShowerLength.pdf used on i
 nput line 164.
 (pdftex.def)             Requested size: 157.48251pt x 126.9221pt.
 
-<AppendixFDMVAVariables/Figs/ShowerMaximum.pdf, id=8431, 177.07225pt x 142.7050
+<AppendixFDMVAVariables/Figs/ShowerMaximum.pdf, id=8432, 177.07225pt x 142.7050
 2pt>
 File: AppendixFDMVAVariables/Figs/ShowerMaximum.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/ShowerMaximum.pdf>
@@ -5448,7 +5447,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/ShowerMaximum.pdf used on
 input line 170.
 (pdftex.def)             Requested size: 157.48251pt x 126.92213pt.
 
-<AppendixFDMVAVariables/Figs/ShowerStartEventVertexX.pdf, id=8432, 177.38821pt 
+<AppendixFDMVAVariables/Figs/ShowerStartEventVertexX.pdf, id=8433, 177.38821pt 
 x 142.74539pt>
 File: AppendixFDMVAVariables/Figs/ShowerStartEventVertexX.pdf Graphic file (typ
 e pdf)
@@ -5463,7 +5462,7 @@ Underfull \hbox (badness 1057) in paragraph at lines 177--177
  []
 
 
-<AppendixFDMVAVariables/Figs/ShowerStartEventVertexY.pdf, id=8433, 177.38821pt 
+<AppendixFDMVAVariables/Figs/ShowerStartEventVertexY.pdf, id=8434, 177.38821pt 
 x 142.74539pt>
 File: AppendixFDMVAVariables/Figs/ShowerStartEventVertexY.pdf Graphic file (typ
 e pdf)
@@ -5472,7 +5471,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/ShowerStartEventVertexY.pd
 f used on input line 187.
 (pdftex.def)             Requested size: 157.48251pt x 126.73587pt.
 
-<AppendixFDMVAVariables/Figs/ShowerStartEventVertexZ.pdf, id=8434, 177.38821pt 
+<AppendixFDMVAVariables/Figs/ShowerStartEventVertexZ.pdf, id=8435, 177.38821pt 
 x 142.74539pt>
 File: AppendixFDMVAVariables/Figs/ShowerStartEventVertexZ.pdf Graphic file (typ
 e pdf)
@@ -5481,7 +5480,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/ShowerStartEventVertexZ.pd
 f used on input line 193.
 (pdftex.def)             Requested size: 157.48251pt x 126.73587pt.
 
-<AppendixFDMVAVariables/Figs/ShowerCosX.pdf, id=8435, 177.38814pt x 142.74532pt
+<AppendixFDMVAVariables/Figs/ShowerCosX.pdf, id=8436, 177.38814pt x 142.74532pt
 >
 File: AppendixFDMVAVariables/Figs/ShowerCosX.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/ShowerCosX.pdf>
@@ -5489,7 +5488,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/ShowerCosX.pdf used on inp
 ut line 199.
 (pdftex.def)             Requested size: 157.48251pt x 126.7358pt.
 
-<AppendixFDMVAVariables/Figs/ShowerCosY.pdf, id=8436, 177.38812pt x 142.74533pt
+<AppendixFDMVAVariables/Figs/ShowerCosY.pdf, id=8437, 177.38812pt x 142.74533pt
 >
 File: AppendixFDMVAVariables/Figs/ShowerCosY.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/ShowerCosY.pdf>
@@ -5497,7 +5496,7 @@ Package pdftex.def Info: AppendixFDMVAVariables/Figs/ShowerCosY.pdf used on inp
 ut line 205.
 (pdftex.def)             Requested size: 157.48251pt x 126.73581pt.
 
-<AppendixFDMVAVariables/Figs/ShowerCosZ.pdf, id=8437, 177.38821pt x 142.74533pt
+<AppendixFDMVAVariables/Figs/ShowerCosZ.pdf, id=8438, 177.38821pt x 142.74533pt
 >
 File: AppendixFDMVAVariables/Figs/ShowerCosZ.pdf Graphic file (type pdf)
 <use AppendixFDMVAVariables/Figs/ShowerCosZ.pdf>
@@ -5538,7 +5537,7 @@ Gap/appendixapagap.aux) (./AppendixFDMVAVariables/appendixfdmvavariables.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 210.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 210.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 8F294D7980F3E2374C79721B698D3EE4;23920.
+(rerunfilecheck)             Checksum: 129AC7802A5CB5221D12B583691424B1;23986.
 
 LaTeX Warning: There were undefined references.
 
@@ -5549,7 +5548,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  28610 strings out of 493117
  541967 string characters out of 6135433
- 596284 words of memory out of 5000000
+ 597296 words of memory out of 5000000
  30063 multiletter control sequences out of 15000+600000
  131570 words of font info for 422 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -5597,10 +5596,10 @@ l/texlive/2014/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2
 014/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-
 dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts
 /type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (262 pages, 57448958 bytes).
+Output written on thesis.pdf (262 pages, 57449572 bytes).
 PDF statistics:
- 9479 PDF objects out of 10688 (max. 8388607)
- 7252 compressed objects within 73 object streams
+ 9480 PDF objects out of 10688 (max. 8388607)
+ 7253 compressed objects within 73 object streams
  829 named destinations out of 1000 (max. 500000)
  74021 words of extra memory for PDF output out of 74296 (max. 10000000)
 

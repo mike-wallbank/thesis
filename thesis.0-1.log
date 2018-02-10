@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  9 FEB 2018 23:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  10 FEB 2018 11:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -8225,7 +8225,7 @@ lectronMVA-eps-converted-to.pdf FarDetectorAnalysis/Figs/ElectronMVA.eps>
 (epstopdf)             \includegraphics on input line 37.
 Package epstopdf Info: Output file is already uptodate.
 
-<FarDetectorAnalysis/Figs/ElectronMVA-eps-converted-to.pdf, id=5922, 569.12625p
+<FarDetectorAnalysis/Figs/ElectronMVA-eps-converted-to.pdf, id=5923, 569.12625p
 t x 409.53pt>
 File: FarDetectorAnalysis/Figs/ElectronMVA-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -8258,7 +8258,7 @@ s>
 (epstopdf)             \includegraphics on input line 46.
 Package epstopdf Info: Output file is already uptodate.
 
-<FarDetectorAnalysis/Figs/ElectronMVATune-eps-converted-to.pdf, id=5923, 569.12
+<FarDetectorAnalysis/Figs/ElectronMVATune-eps-converted-to.pdf, id=5924, 569.12
 625pt x 409.53pt>
 File: FarDetectorAnalysis/Figs/ElectronMVATune-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -8276,12 +8276,12 @@ LaTeX Warning: Reference `sec:FDMVA' on page 195 undefined on input line 51.
 [195 <./FarDetectorAnalysis/Figs/ElectronMVA-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <FarDetectorAnalysis/Figs/ENuCutSelection.e
 ps>
-(epstopdf)                    date: 2017-09-14 17:51:30
-(epstopdf)                    size: 19644 bytes
+(epstopdf)                    date: 2018-02-10 00:00:10
+(epstopdf)                    size: 16953 bytes
 (epstopdf)             Output file: <FarDetectorAnalysis/Figs/ENuCutSelection-e
 ps-converted-to.pdf>
-(epstopdf)                    date: 2017-09-14 18:02:48
-(epstopdf)                    size: 14094 bytes
+(epstopdf)                    date: 2018-02-10 00:00:39
+(epstopdf)                    size: 14061 bytes
 (epstopdf)             Command: <repstopdf --outfile=FarDetectorAnalysis/Figs/E
 NuCutSelection-eps-converted-to.pdf FarDetectorAnalysis/Figs/ENuCutSelection.ep
 s>
@@ -8298,12 +8298,12 @@ Package pdftex.def Info: FarDetectorAnalysis/Figs/ENuCutSelection-eps-converted
 (pdftex.def)             Requested size: 205.77896pt x 148.07431pt.
 Package epstopdf Info: Source file: <FarDetectorAnalysis/Figs/Q2CutSelection.ep
 s>
-(epstopdf)                    date: 2017-09-14 17:51:30
-(epstopdf)                    size: 19477 bytes
+(epstopdf)                    date: 2018-02-10 00:14:21
+(epstopdf)                    size: 16633 bytes
 (epstopdf)             Output file: <FarDetectorAnalysis/Figs/Q2CutSelection-ep
 s-converted-to.pdf>
-(epstopdf)                    date: 2017-09-14 18:02:52
-(epstopdf)                    size: 12870 bytes
+(epstopdf)                    date: 2018-02-10 00:14:44
+(epstopdf)                    size: 12747 bytes
 (epstopdf)             Command: <repstopdf --outfile=FarDetectorAnalysis/Figs/Q
 2CutSelection-eps-converted-to.pdf FarDetectorAnalysis/Figs/Q2CutSelection.eps>
 
@@ -8320,12 +8320,12 @@ to.pdf used on input line 64.
 (pdftex.def)             Requested size: 205.77896pt x 148.07431pt.
 Package epstopdf Info: Source file: <FarDetectorAnalysis/Figs/LeptonMomentumCut
 Selection.eps>
-(epstopdf)                    date: 2017-09-14 17:51:30
-(epstopdf)                    size: 19032 bytes
+(epstopdf)                    date: 2018-02-10 00:00:10
+(epstopdf)                    size: 16300 bytes
 (epstopdf)             Output file: <FarDetectorAnalysis/Figs/LeptonMomentumCut
 Selection-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-09-14 18:02:55
-(epstopdf)                    size: 12947 bytes
+(epstopdf)                    date: 2018-02-10 00:00:44
+(epstopdf)                    size: 12864 bytes
 (epstopdf)             Command: <repstopdf --outfile=FarDetectorAnalysis/Figs/L
 eptonMomentumCutSelection-eps-converted-to.pdf FarDetectorAnalysis/Figs/LeptonM
 omentumCutSelection.eps>
@@ -8343,12 +8343,12 @@ s-converted-to.pdf used on input line 71.
 (pdftex.def)             Requested size: 205.77896pt x 148.07431pt.
 Package epstopdf Info: Source file: <FarDetectorAnalysis/Figs/LeptonAngleCutSel
 ection.eps>
-(epstopdf)                    date: 2017-09-14 17:51:30
-(epstopdf)                    size: 20091 bytes
+(epstopdf)                    date: 2018-02-10 00:00:10
+(epstopdf)                    size: 17415 bytes
 (epstopdf)             Output file: <FarDetectorAnalysis/Figs/LeptonAngleCutSel
 ection-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-09-14 18:02:59
-(epstopdf)                    size: 13254 bytes
+(epstopdf)                    date: 2018-02-10 00:06:35
+(epstopdf)                    size: 13218 bytes
 (epstopdf)             Command: <repstopdf --outfile=FarDetectorAnalysis/Figs/L
 eptonAngleCutSelection-eps-converted-to.pdf FarDetectorAnalysis/Figs/LeptonAngl
 eCutSelection.eps>
@@ -8401,11 +8401,6 @@ LaTeX Warning: Reference `fig:FVTuneY' on page 196 undefined on input line 91.
 
 LaTeX Warning: Reference `tab:FV' on page 196 undefined on input line 91.
 
-[196 <./FarDetectorAnalysis/Figs/ElectronMVATune-eps-converted-to.pdf>] [197 <.
-/FarDetectorAnalysis/Figs/ENuCutSelection-eps-converted-to.pdf> <./FarDetectorA
-nalysis/Figs/Q2CutSelection-eps-converted-to.pdf> <./FarDetectorAnalysis/Figs/L
-eptonMomentumCutSelection-eps-converted-to.pdf> <./FarDetectorAnalysis/Figs/Lep
-tonAngleCutSelection-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <FarDetectorAnalysis/Figs/FVTunePosY.eps>
 (epstopdf)                    date: 2017-09-14 04:13:39
 (epstopdf)                    size: 7313 bytes
@@ -8418,7 +8413,7 @@ VTunePosY-eps-converted-to.pdf FarDetectorAnalysis/Figs/FVTunePosY.eps>
 (epstopdf)             \includegraphics on input line 97.
 Package epstopdf Info: Output file is already uptodate.
 
-<FarDetectorAnalysis/Figs/FVTunePosY-eps-converted-to.pdf, id=5998, 569.12625pt
+<FarDetectorAnalysis/Figs/FVTunePosY-eps-converted-to.pdf, id=5945, 569.12625pt
  x 409.53pt>
 File: FarDetectorAnalysis/Figs/FVTunePosY-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -8438,7 +8433,7 @@ VTuneNegY-eps-converted-to.pdf FarDetectorAnalysis/Figs/FVTuneNegY.eps>
 (epstopdf)             \includegraphics on input line 104.
 Package epstopdf Info: Output file is already uptodate.
 
-<FarDetectorAnalysis/Figs/FVTuneNegY-eps-converted-to.pdf, id=5999, 569.12625pt
+<FarDetectorAnalysis/Figs/FVTuneNegY-eps-converted-to.pdf, id=5946, 569.12625pt
  x 409.53pt>
 File: FarDetectorAnalysis/Figs/FVTuneNegY-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -8447,9 +8442,14 @@ Package pdftex.def Info: FarDetectorAnalysis/Figs/FVTuneNegY-eps-converted-to.p
 df used on input line 104.
 (pdftex.def)             Requested size: 205.77896pt x 148.07431pt.
 
-LaTeX Warning: Reference `chap:LArTPCReconstruction' on page 198 undefined on i
+LaTeX Warning: Reference `chap:LArTPCReconstruction' on page 196 undefined on i
 nput line 129.
 
+[196 <./FarDetectorAnalysis/Figs/ElectronMVATune-eps-converted-to.pdf>] [197 <.
+/FarDetectorAnalysis/Figs/ENuCutSelection-eps-converted-to.pdf> <./FarDetectorA
+nalysis/Figs/Q2CutSelection-eps-converted-to.pdf> <./FarDetectorAnalysis/Figs/L
+eptonMomentumCutSelection-eps-converted-to.pdf> <./FarDetectorAnalysis/Figs/Lep
+tonAngleCutSelection-eps-converted-to.pdf>]
 
 Package natbib Warning: Citation `TMVA' on page 198 undefined on input line 134
 .
@@ -8462,23 +8462,23 @@ ne 134.
 LaTeX Warning: Reference `appen:FDMVAVariables' on page 198 undefined on input 
 line 134.
 
-[198 <./FarDetectorAnalysis/Figs/FVTunePosY-eps-converted-to.pdf> <./FarDetecto
-rAnalysis/Figs/FVTuneNegY-eps-converted-to.pdf>]
 
-Package natbib Warning: Citation `ArgoNeuT2013' on page 199 undefined on input 
+Package natbib Warning: Citation `ArgoNeuT2013' on page 198 undefined on input 
 line 152.
 
 
-LaTeX Warning: Reference `sec:FDCut' on page 199 undefined on input line 169.
+LaTeX Warning: Reference `sec:FDCut' on page 198 undefined on input line 169.
 
 
-LaTeX Warning: Reference `fig:MVAResponse' on page 199 undefined on input line 
+LaTeX Warning: Reference `fig:MVAResponse' on page 198 undefined on input line 
 174.
 
 
-LaTeX Warning: Reference `sec:FDCutSelection' on page 199 undefined on input li
+LaTeX Warning: Reference `sec:FDCutSelection' on page 198 undefined on input li
 ne 174.
 
+[198 <./FarDetectorAnalysis/Figs/FVTunePosY-eps-converted-to.pdf> <./FarDetecto
+rAnalysis/Figs/FVTuneNegY-eps-converted-to.pdf>] [199]
 Package epstopdf Info: Source file: <FarDetectorAnalysis/Figs/NuECCMVAOvertrain
 BDT.eps>
 (epstopdf)                    date: 2017-09-14 09:24:03
@@ -8493,7 +8493,7 @@ rainBDT.eps>
 (epstopdf)             \includegraphics on input line 178.
 Package epstopdf Info: Output file is already uptodate.
 
-<FarDetectorAnalysis/Figs/NuECCMVAOvertrainBDT-eps-converted-to.pdf, id=6027, 5
+<FarDetectorAnalysis/Figs/NuECCMVAOvertrainBDT-eps-converted-to.pdf, id=6034, 5
 69.12625pt x 420.57124pt>
 File: FarDetectorAnalysis/Figs/NuECCMVAOvertrainBDT-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -8502,19 +8502,19 @@ Package pdftex.def Info: FarDetectorAnalysis/Figs/NuECCMVAOvertrainBDT-eps-conv
 erted-to.pdf used on input line 178.
 (pdftex.def)             Requested size: 284.52756pt x 210.26585pt.
 
-LaTeX Warning: Reference `sec:FDMVAVariables' on page 199 undefined on input li
+LaTeX Warning: Reference `sec:FDMVAVariables' on page 200 undefined on input li
 ne 179.
 
 
-LaTeX Warning: Reference `sec:FDMVAVariables' on page 199 undefined on input li
+LaTeX Warning: Reference `sec:FDMVAVariables' on page 200 undefined on input li
 ne 179.
 
 
-LaTeX Warning: Reference `fig:EffPurNoSelection' on page 199 undefined on input
+LaTeX Warning: Reference `fig:EffPurNoSelection' on page 200 undefined on input
  line 183.
 
 
-LaTeX Warning: Reference `fig:EffPurSelection' on page 199 undefined on input l
+LaTeX Warning: Reference `fig:EffPurSelection' on page 200 undefined on input l
 ine 183.
 
 Package epstopdf Info: Source file: <FarDetectorAnalysis/Figs/ENuNoSelection.ep
@@ -8531,7 +8531,7 @@ NuNoSelection-eps-converted-to.pdf FarDetectorAnalysis/Figs/ENuNoSelection.eps>
 (epstopdf)             \includegraphics on input line 189.
 Package epstopdf Info: Output file is already uptodate.
 
-<FarDetectorAnalysis/Figs/ENuNoSelection-eps-converted-to.pdf, id=6028, 569.126
+<FarDetectorAnalysis/Figs/ENuNoSelection-eps-converted-to.pdf, id=6035, 569.126
 25pt x 409.53pt>
 File: FarDetectorAnalysis/Figs/ENuNoSelection-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -8552,7 +8552,7 @@ Package epstopdf Info: Source file: <FarDetectorAnalysis/Figs/Q2NoSelection.eps
 (epstopdf)             \includegraphics on input line 196.
 Package epstopdf Info: Output file is already uptodate.
 
-<FarDetectorAnalysis/Figs/Q2NoSelection-eps-converted-to.pdf, id=6029, 569.1262
+<FarDetectorAnalysis/Figs/Q2NoSelection-eps-converted-to.pdf, id=6036, 569.1262
 5pt x 409.53pt>
 File: FarDetectorAnalysis/Figs/Q2NoSelection-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -8575,7 +8575,7 @@ mentumNoSelection.eps>
 Package epstopdf Info: Output file is already uptodate.
 
 <FarDetectorAnalysis/Figs/LeptonMomentumNoSelection-eps-converted-to.pdf, id=60
-30, 569.12625pt x 409.53pt>
+37, 569.12625pt x 409.53pt>
 File: FarDetectorAnalysis/Figs/LeptonMomentumNoSelection-eps-converted-to.pdf G
 raphic file (type pdf)
 <use FarDetectorAnalysis/Figs/LeptonMomentumNoSelection-eps-converted-to.pdf>
@@ -8596,7 +8596,7 @@ NoSelection.eps>
 (epstopdf)             \includegraphics on input line 210.
 Package epstopdf Info: Output file is already uptodate.
 
-<FarDetectorAnalysis/Figs/LeptonAngleNoSelection-eps-converted-to.pdf, id=6031,
+<FarDetectorAnalysis/Figs/LeptonAngleNoSelection-eps-converted-to.pdf, id=6038,
  569.12625pt x 409.53pt>
 File: FarDetectorAnalysis/Figs/LeptonAngleNoSelection-eps-converted-to.pdf Grap
 hic file (type pdf)
@@ -8605,47 +8605,45 @@ Package pdftex.def Info: FarDetectorAnalysis/Figs/LeptonAngleNoSelection-eps-co
 nverted-to.pdf used on input line 210.
 (pdftex.def)             Requested size: 205.77896pt x 148.07431pt.
 
-LaTeX Warning: Reference `fig:ENuNoSelection' on page 199 undefined on input li
+LaTeX Warning: Reference `fig:ENuNoSelection' on page 200 undefined on input li
 ne 214.
 
 
-LaTeX Warning: Reference `fig:Q2NoSelection' on page 199 undefined on input lin
+LaTeX Warning: Reference `fig:Q2NoSelection' on page 200 undefined on input lin
 e 214.
 
 
-LaTeX Warning: Reference `fig:LeptonMomentumNoSelection' on page 199 undefined 
+LaTeX Warning: Reference `fig:LeptonMomentumNoSelection' on page 200 undefined 
 on input line 214.
 
 
-LaTeX Warning: Reference `fig:LeptonAngleNoSelection' on page 199 undefined on 
+LaTeX Warning: Reference `fig:LeptonAngleNoSelection' on page 200 undefined on 
 input line 214.
 
 
-LaTeX Warning: Reference `sec:FDCutFV' on page 199 undefined on input line 214.
+LaTeX Warning: Reference `sec:FDCutFV' on page 200 undefined on input line 214.
 
 
 
-LaTeX Warning: Reference `fig:ENuNoSelection' on page 199 undefined on input li
+LaTeX Warning: Reference `fig:ENuNoSelection' on page 200 undefined on input li
 ne 214.
 
 
-LaTeX Warning: Reference `fig:Q2NoSelection' on page 199 undefined on input lin
+LaTeX Warning: Reference `fig:Q2NoSelection' on page 200 undefined on input lin
 e 214.
 
 
-LaTeX Warning: Reference `fig:LeptonMomentumNoSelection' on page 199 undefined 
+LaTeX Warning: Reference `fig:LeptonMomentumNoSelection' on page 200 undefined 
 on input line 214.
 
 
-LaTeX Warning: Reference `fig:LeptonAngleNoSelection' on page 199 undefined on 
+LaTeX Warning: Reference `fig:LeptonAngleNoSelection' on page 200 undefined on 
 input line 214.
 
 
-LaTeX Warning: Reference `sec:FDCutFV' on page 199 undefined on input line 214.
+LaTeX Warning: Reference `sec:FDCutFV' on page 200 undefined on input line 214.
 
 
-[199 <./FarDetectorAnalysis/Figs/NuECCMVAOvertrainBDT-eps-converted-to.pdf>] [2
-00]
 Package epstopdf Info: Source file: <FarDetectorAnalysis/Figs/ENuSelection.eps>
 
 (epstopdf)                    date: 2017-09-14 15:37:08
@@ -8659,7 +8657,7 @@ NuSelection-eps-converted-to.pdf FarDetectorAnalysis/Figs/ENuSelection.eps>
 (epstopdf)             \includegraphics on input line 222.
 Package epstopdf Info: Output file is already uptodate.
 
-<FarDetectorAnalysis/Figs/ENuSelection-eps-converted-to.pdf, id=6054, 569.12625
+<FarDetectorAnalysis/Figs/ENuSelection-eps-converted-to.pdf, id=6039, 569.12625
 pt x 409.53pt>
 File: FarDetectorAnalysis/Figs/ENuSelection-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -8679,7 +8677,7 @@ onverted-to.pdf>
 (epstopdf)             \includegraphics on input line 229.
 Package epstopdf Info: Output file is already uptodate.
 
-<FarDetectorAnalysis/Figs/Q2Selection-eps-converted-to.pdf, id=6055, 569.12625p
+<FarDetectorAnalysis/Figs/Q2Selection-eps-converted-to.pdf, id=6040, 569.12625p
 t x 409.53pt>
 File: FarDetectorAnalysis/Figs/Q2Selection-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -8701,7 +8699,7 @@ ntumSelection.eps>
 (epstopdf)             \includegraphics on input line 236.
 Package epstopdf Info: Output file is already uptodate.
 
-<FarDetectorAnalysis/Figs/LeptonMomentumSelection-eps-converted-to.pdf, id=6056
+<FarDetectorAnalysis/Figs/LeptonMomentumSelection-eps-converted-to.pdf, id=6041
 , 569.12625pt x 409.53pt>
 File: FarDetectorAnalysis/Figs/LeptonMomentumSelection-eps-converted-to.pdf Gra
 phic file (type pdf)
@@ -8723,7 +8721,7 @@ lection.eps>
 (epstopdf)             \includegraphics on input line 243.
 Package epstopdf Info: Output file is already uptodate.
 
-<FarDetectorAnalysis/Figs/LeptonAngleSelection-eps-converted-to.pdf, id=6057, 5
+<FarDetectorAnalysis/Figs/LeptonAngleSelection-eps-converted-to.pdf, id=6042, 5
 69.12625pt x 409.53pt>
 File: FarDetectorAnalysis/Figs/LeptonAngleSelection-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -8732,75 +8730,80 @@ Package pdftex.def Info: FarDetectorAnalysis/Figs/LeptonAngleSelection-eps-conv
 erted-to.pdf used on input line 243.
 (pdftex.def)             Requested size: 205.77896pt x 148.07431pt.
 
-LaTeX Warning: Reference `fig:ENuSelection' on page 201 undefined on input line
+LaTeX Warning: Reference `fig:ENuSelection' on page 200 undefined on input line
  247.
 
 
-LaTeX Warning: Reference `fig:Q2Selection' on page 201 undefined on input line 
+LaTeX Warning: Reference `fig:Q2Selection' on page 200 undefined on input line 
 247.
 
 
-LaTeX Warning: Reference `fig:LeptonMomentumSelection' on page 201 undefined on
+LaTeX Warning: Reference `fig:LeptonMomentumSelection' on page 200 undefined on
  input line 247.
 
 
-LaTeX Warning: Reference `fig:LeptonAngleSelection' on page 201 undefined on in
+LaTeX Warning: Reference `fig:LeptonAngleSelection' on page 200 undefined on in
 put line 247.
 
 
-LaTeX Warning: Reference `fig:ENuSelection' on page 201 undefined on input line
+LaTeX Warning: Reference `fig:ENuSelection' on page 200 undefined on input line
  247.
 
 
-LaTeX Warning: Reference `fig:Q2Selection' on page 201 undefined on input line 
+LaTeX Warning: Reference `fig:Q2Selection' on page 200 undefined on input line 
 247.
 
 
-LaTeX Warning: Reference `fig:LeptonMomentumSelection' on page 201 undefined on
+LaTeX Warning: Reference `fig:LeptonMomentumSelection' on page 200 undefined on
  input line 247.
 
 
-LaTeX Warning: Reference `fig:LeptonAngleSelection' on page 201 undefined on in
+LaTeX Warning: Reference `fig:LeptonAngleSelection' on page 200 undefined on in
 put line 247.
 
 
-LaTeX Warning: Reference `fig:EffPurSelection' on page 201 undefined on input l
+LaTeX Warning: Reference `fig:EffPurSelection' on page 200 undefined on input l
 ine 251.
 
 
-LaTeX Warning: Reference `sec:FDCut' on page 201 undefined on input line 251.
+LaTeX Warning: Reference `sec:FDCut' on page 200 undefined on input line 251.
 
 
-LaTeX Warning: Reference `fig:EffPurCutSelection' on page 201 undefined on inpu
+LaTeX Warning: Reference `fig:EffPurCutSelection' on page 200 undefined on inpu
 t line 251.
 
+[200 <./FarDetectorAnalysis/Figs/NuECCMVAOvertrainBDT-eps-converted-to.pdf>] [2
+01 <./FarDetectorAnalysis/Figs/ENuNoSelection-eps-converted-to.pdf> <./FarDetec
+torAnalysis/Figs/Q2NoSelection-eps-converted-to.pdf> <./FarDetectorAnalysis/Fig
+s/LeptonMomentumNoSelection-eps-converted-to.pdf> <./FarDetectorAnalysis/Figs/L
+eptonAngleNoSelection-eps-converted-to.pdf>] [202 <./FarDetectorAnalysis/Figs/E
+NuSelection-eps-converted-to.pdf> <./FarDetectorAnalysis/Figs/Q2Selection-eps-c
+onverted-to.pdf> <./FarDetectorAnalysis/Figs/LeptonMomentumSelection-eps-conver
+ted-to.pdf> <./FarDetectorAnalysis/Figs/LeptonAngleSelection-eps-converted-to.p
+df>]
 
-LaTeX Warning: Reference `sec:FDMVA' on page 201 undefined on input line 256.
-
-
-LaTeX Warning: Reference `sec:ReconstructionPerformance' on page 201 undefined 
-on input line 256.
-
-
-Package natbib Warning: Citation `Aurisano2016' on page 201 undefined on input 
-line 256.
-
-
-LaTeX Warning: Reference `chap:LArTPCReconstruction' on page 201 undefined on i
-nput line 258.
+LaTeX Warning: Reference `sec:FDMVA' on page 203 undefined on input line 256.
 
 
-LaTeX Warning: Reference `chap:FDAnalysis' on page 201 undefined on input line 
-258.
+LaTeX Warning: Reference `sec:FDCut' on page 203 undefined on input line 256.
 
-) [201] [202 <./FarDetectorAnalysis/Figs/ENuNoSelection-eps-converted-to.pdf> <
-./FarDetectorAnalysis/Figs/Q2NoSelection-eps-converted-to.pdf> <./FarDetectorAn
-alysis/Figs/LeptonMomentumNoSelection-eps-converted-to.pdf> <./FarDetectorAnaly
-sis/Figs/LeptonAngleNoSelection-eps-converted-to.pdf>] [203 <./FarDetectorAnaly
-sis/Figs/ENuSelection-eps-converted-to.pdf> <./FarDetectorAnalysis/Figs/Q2Selec
-tion-eps-converted-to.pdf> <./FarDetectorAnalysis/Figs/LeptonMomentumSelection-
-eps-converted-to.pdf> <./FarDetectorAnalysis/Figs/LeptonAngleSelection-eps-conv
-erted-to.pdf>]
+
+LaTeX Warning: Reference `sec:ReconstructionPerformance' on page 203 undefined 
+on input line 258.
+
+
+Package natbib Warning: Citation `Aurisano2016' on page 203 undefined on input 
+line 258.
+
+
+LaTeX Warning: Reference `chap:LArTPCReconstruction' on page 203 undefined on i
+nput line 260.
+
+
+LaTeX Warning: Reference `chap:FDAnalysis' on page 203 undefined on input line 
+260.
+
+) [203]
 \openout2 = `Conclusions/Conclusions.aux'.
 
 (./Conclusions/Conclusions.tex [204
@@ -9493,7 +9496,7 @@ Package rerunfilecheck Warning: File `thesis.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `thesis.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  616D58A34EBAE07E905D7A650BDD2008;23823.
+(rerunfilecheck)             After:  FF006AC307E4AACAAA1E2AFECDC36649;23889.
 
 LaTeX Warning: There were undefined references.
 
@@ -9552,7 +9555,7 @@ l/texlive/2014/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2
 014/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-
 dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts
 /type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (236 pages, 57320924 bytes).
+Output written on thesis.pdf (236 pages, 57321379 bytes).
 PDF statistics:
  7331 PDF objects out of 7423 (max. 8388607)
  5317 compressed objects within 54 object streams

@@ -177,9 +177,9 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {8.2}{\ignorespaces The process of tuning the electron cut in the simple cut-based selection by maximising the effect of CP-violation on the oscillation probabilities.}}{196}{figure.caption.161}}
 \@writefile{lof}{\contentsline {figure}{\numberline {8.3}{\ignorespaces The efficiency and purity of the $\nu _e$CC Pandora cut-based selection as a function of a number of kinematic variables, after applying the selection.}}{197}{figure.caption.162}}
 \@writefile{lof}{\contentsline {figure}{\numberline {8.4}{\ignorespaces Tuning the DUNE far detector fiducial volume, $y$-coordinate.}}{198}{figure.caption.163}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.5}{\ignorespaces The MVA response when training $\nu _e$ (signal) against $\nu _{\mu }$ and $\nu _{\tau }$ (background).}}{199}{figure.caption.166}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.6}{\ignorespaces The efficiency and purity of the $\nu _e$CC MVA-based selection as a function of a number of kinematic variables, before applying the selection.}}{202}{figure.caption.167}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8.7}{\ignorespaces The efficiency and purity of the $\nu _e$CC MVA-based selection as a function of a number of kinematic variables, after applying the selection.}}{203}{figure.caption.168}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.5}{\ignorespaces The MVA response when training $\nu _e$ (signal) against $\nu _{\mu }$ and $\nu _{\tau }$ (background).}}{200}{figure.caption.166}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.6}{\ignorespaces The efficiency and purity of the $\nu _e$CC MVA-based selection as a function of a number of kinematic variables, before applying the selection.}}{201}{figure.caption.167}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8.7}{\ignorespaces The efficiency and purity of the $\nu _e$CC MVA-based selection as a function of a number of kinematic variables, after applying the selection.}}{202}{figure.caption.168}}
 \@writefile{lof}{\contentsline {figure}{\numberline {A.1}{\ignorespaces Demonstration of the measurements of the $x$- and $z$-offsets in the 35-ton DV1/DV3 gap.}}{208}{figure.caption.169}}
 \@writefile{lof}{\contentsline {figure}{\numberline {A.2}{\ignorespaces Demonstration of the measurements of the $x$- and $z$-offsets in the 35-ton DV1/DV5 gap.}}{209}{figure.caption.170}}
 \@writefile{lof}{\contentsline {figure}{\numberline {A.3}{\ignorespaces Demonstration of the measurements of the $x$- and $z$-offsets in the 35-ton DV3/DV7 gap.}}{210}{figure.caption.171}}
@@ -205,8 +205,8 @@
 \@writefile{lot}{\contentsline {table}{\numberline {6.1}{\ignorespaces The performance of track/shower separation and shower reconstruction on 50\nobreakspace  {}000 DUNE $\nu _e$ events.}}{143}{table.caption.108}}
 \@writefile{lot}{\contentsline {table}{\numberline {7.1}{\ignorespaces Measurements of all the APA offsets determined from the 35-ton TPC data.}}{163}{table.caption.128}}
 \@writefile{lot}{\contentsline {table}{\numberline {7.2}{\ignorespaces The corrected gaps between the APAs, in $x$ and $z$, based on the offsets measured in the data.}}{163}{table.caption.128}}
-\@writefile{lot}{\contentsline {table}{\numberline {8.1}{\ignorespaces The dimensions and tuned fiducial volume of a single DUNE far detector module.}}{198}{table.caption.164}}
-\@writefile{lot}{\contentsline {table}{\numberline {8.2}{\ignorespaces The input variable used in the MVA designed to separate $\nu _e$ events from $\nu _{\mu }$ and $\nu _{\tau }$ events.}}{200}{table.caption.165}}
+\@writefile{lot}{\contentsline {table}{\numberline {8.1}{\ignorespaces The dimensions and tuned fiducial volume of a single DUNE far detector module.}}{197}{table.caption.164}}
+\@writefile{lot}{\contentsline {table}{\numberline {8.2}{\ignorespaces The input variable used in the MVA designed to separate $\nu _e$ events from $\nu _{\mu }$ and $\nu _{\tau }$ events.}}{199}{table.caption.165}}
 \@writefile{toc}{\contentsline {chapter}{Appendix \numberline {A}APA Gap-Crossing Muons: Gap Measurements}{207}{Appendix.a.A}}
 \@writefile{toc}{\contentsline {chapter}{Appendix \numberline {B}DUNE Far Detector $\nu _e$CC MVA Input Variables}{213}{Appendix.a.B}}
 \@writefile{toc}{\contentsline {chapter}{List of acronyms}{xxv}{chapter*.7}}
@@ -252,7 +252,7 @@
 \@writefile{toc}{\contentsline {section}{\numberline {8.1}Far Detector Samples}{194}{section.8.1}}
 \@writefile{toc}{\contentsline {section}{\numberline {8.2}Cut-Based Tuning}{194}{section.8.2}}
 \@writefile{toc}{\contentsline {section}{\numberline {8.3}MVA-Based Selection}{198}{section.8.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {8.4}Outlook for Future Selections}{201}{section.8.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {8.4}Summary and Outlook for Future Selections}{203}{section.8.4}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1.1}Prediction of the Neutrino}{3}{subsection.2.1.1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1.2}Discovery of the Neutrino}{4}{subsection.2.1.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1.3}The Solar Neutrino Problem}{8}{subsection.2.1.3}}
@@ -319,10 +319,10 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {7.4.2}Calorimetry Reconstruction}{186}{subsection.7.4.2}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {7.4.3}Shower Reconstruction}{188}{subsection.7.4.3}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {7.4.4}$\pi ^0$ Reconstruction}{191}{subsection.7.4.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.2.1}Selection}{195}{subsection.8.2.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.2.1}Selection}{194}{subsection.8.2.1}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {8.2.2}Fiducial Volume Tuning}{196}{subsection.8.2.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.3.1}MVA Input Variables}{199}{subsection.8.3.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.3.2}Analysis Performance}{199}{subsection.8.3.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.3.1}MVA Input Variables}{198}{subsection.8.3.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.3.2}Analysis Performance}{200}{subsection.8.3.2}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.1.1}Super-Kamiokande and the Atmospheric Sector}{11}{subsubsection.2.2.1.1}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.1.2}SNO and the Solar Sector}{12}{subsubsection.2.2.1.2}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.3.1}KamLAND and Reactor Neutrinos}{18}{subsubsection.2.2.3.1}}

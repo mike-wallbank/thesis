@@ -157,9 +157,9 @@
 \contentsline {figure}{\numberline {8.2}{\ignorespaces The process of tuning the electron cut in the simple cut-based selection by maximising the effect of CP-violation on the oscillation probabilities.}}{196}{figure.caption.161}
 \contentsline {figure}{\numberline {8.3}{\ignorespaces The efficiency and purity of the $\nu _e$CC Pandora cut-based selection as a function of a number of kinematic variables, after applying the selection.}}{197}{figure.caption.162}
 \contentsline {figure}{\numberline {8.4}{\ignorespaces Tuning the DUNE far detector fiducial volume, $y$-coordinate.}}{198}{figure.caption.163}
-\contentsline {figure}{\numberline {8.5}{\ignorespaces The MVA response when training $\nu _e$ (signal) against $\nu _{\mu }$ and $\nu _{\tau }$ (background).}}{199}{figure.caption.166}
-\contentsline {figure}{\numberline {8.6}{\ignorespaces The efficiency and purity of the $\nu _e$CC MVA-based selection as a function of a number of kinematic variables, before applying the selection.}}{202}{figure.caption.167}
-\contentsline {figure}{\numberline {8.7}{\ignorespaces The efficiency and purity of the $\nu _e$CC MVA-based selection as a function of a number of kinematic variables, after applying the selection.}}{203}{figure.caption.168}
+\contentsline {figure}{\numberline {8.5}{\ignorespaces The MVA response when training $\nu _e$ (signal) against $\nu _{\mu }$ and $\nu _{\tau }$ (background).}}{200}{figure.caption.166}
+\contentsline {figure}{\numberline {8.6}{\ignorespaces The efficiency and purity of the $\nu _e$CC MVA-based selection as a function of a number of kinematic variables, before applying the selection.}}{201}{figure.caption.167}
+\contentsline {figure}{\numberline {8.7}{\ignorespaces The efficiency and purity of the $\nu _e$CC MVA-based selection as a function of a number of kinematic variables, after applying the selection.}}{202}{figure.caption.168}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {A.1}{\ignorespaces Demonstration of the measurements of the $x$- and $z$-offsets in the 35-ton DV1/DV3 gap.}}{208}{figure.caption.169}
